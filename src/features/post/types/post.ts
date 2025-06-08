@@ -14,4 +14,5 @@ export type PostDetail = {
   blocks: Block[]
   createdAt: string
   updatedAt: string
+  mdxContent?: string
 }

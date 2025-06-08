@@ -1,6 +1,7 @@
 import type { GetStaticProps, NextPage } from "next"
 import { RootPage } from "@/components/pages/root/root"
-import { findPosts } from "@/features/post/api"
+import { findPosts as findNotionPosts } from "@/features/post/api"
+import { findPosts as findMDXPosts } from "@/features/post/api/mdx-api"
 import { Post } from "@/features/post/types/post"
 import { load } from "@/lib/config"
 import { parseByURL } from "@/lib/parser/rss"
@@ -26,9 +27,23 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
     })
   )
 
-  const postsFromNotion = await findPosts()
+  // Get posts from both MDX and Notion
+  let postsFromMDX: Post[] = []
+  let postsFromNotion: Post[] = []
 
-  const posts = [...postsFromFeed, ...postsFromNotion].sort(
+  try {
+    postsFromMDX = await findMDXPosts()
+  } catch (error) {
+    console.log("No MDX posts found:", error)
+  }
+
+  try {
+    postsFromNotion = await findNotionPosts()
+  } catch (error) {
+    console.log("No Notion posts found:", error)
+  }
+
+  const posts = [...postsFromFeed, ...postsFromMDX, ...postsFromNotion].sort(
     (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
   )
 
