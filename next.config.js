@@ -1,16 +1,25 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires, @typescript-eslint/no-require-imports
 const { withSentryConfig } = require("@sentry/nextjs");
 
+const withMDX = require('@next/mdx')({
+  extension: /\.mdx?$/,
+  options: {
+    remarkPlugins: [require('remark-gfm')],
+    rehypePlugins: [require('rehype-highlight')],
+  },
+})
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
   webpack: (config) => {
     config.resolve.fallback = { fs: false };
     return config;
   },
 };
 
-module.exports = withSentryConfig(
+module.exports = withMDX(withSentryConfig(
   nextConfig,
   {
     // For all available options, see:
@@ -41,4 +50,4 @@ module.exports = withSentryConfig(
     // Automatically tree-shake Sentry logger statements to reduce bundle size
     disableLogger: true,
   }
-);
+));
