@@ -17,7 +17,7 @@ mrskiro.dev is a personal portfolio and blog site built with Next.js (Pages Rout
 - **Package Manager**: yarn (Note: User's global preferences specify pnpm)
 - **Testing**: Jest 29.5.0 + Playwright 1.30.0 + @testing-library/react 14.0.0
 - **Component Development**: Storybook 7.0.9
-- **Linting**: ESLint 9.16.0 + typescript-eslint 8.17.0 + markuplint 3.7.0 + ls-lint 2.0.0 + oxlint 1.23.0
+- **Linting**: oxlint 1.23.0 + markuplint 3.7.0 + ls-lint 2.0.0
 - **Other**: prismjs 1.28.0 (syntax highlighting), rss-parser 3.12.0 (RSS feeds), react-icons 4.4.0
 
 ## Development Commands
@@ -33,10 +33,10 @@ yarn test         # Run Jest unit tests
 yarn test:e2e     # Run Playwright E2E tests
 yarn update-snapshots  # Update test snapshots
 
-# Linting (very strict rules)
+# Linting
 yarn lint         # Run all linters in parallel
-yarn lint:eslint  # ESLint check
-yarn lint:eslint:fix  # ESLint auto-fix
+yarn lint:oxlint  # oxlint check
+yarn lint:oxlint:fix  # oxlint auto-fix
 yarn lint:tsc     # TypeScript type checking
 yarn lint:html    # Markuplint for JSX/HTML
 yarn lint:ls      # File naming convention check
@@ -78,13 +78,9 @@ src/
 - noUncheckedIndexedAccess: true
 - Path alias: `@/*` maps to `src/*`
 
-**ESLint** (`eslint.config.mjs`):
-- Max complexity: 16
-- Max file lines: 1000
-- Max function lines: 300
-- Max parameters: 3
-- Enforces arrow functions
-- Prohibits nested ternary operators
+**oxlint**:
+- Fast, Rust-based linter for modern TypeScript/JavaScript projects
+- Provides fast code quality checks
 
 **File Naming** (`.ls-lint.yml`):
 - Default: kebab-case

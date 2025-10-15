@@ -8,6 +8,9 @@ const nextConfig = {
     config.resolve.fallback = { fs: false };
     return config;
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 module.exports = withSentryConfig(
