@@ -23,7 +23,7 @@ const save = async (item: Item) => {
 
   const res = await fetch(item.url)
   const buffer = await res.arrayBuffer()
-  const data = Buffer.from(buffer)
+  const data = new Uint8Array(buffer)
   fs.writeFile(imagePath, data, (err) => {
     if (err) {
       console.warn(err)

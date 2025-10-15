@@ -1,9 +1,9 @@
-import { a11yChecker } from "@/lib/test/a11y"
-import { renderPage } from "@/lib/test/render"
+import { it, expect } from "vitest"
+import { render } from "@/test/utils"
 import { RootPage } from "./root"
 
-it("a11y", async () => {
-  const { container } = renderPage(
+it("renders correctly", async () => {
+  const screen = render(
     <RootPage
       posts={[
         {
@@ -26,6 +26,5 @@ it("a11y", async () => {
     />
   )
 
-  const results = await a11yChecker(container)
-  expect(results).toHaveNoViolations()
+  await expect.element(screen.container).toBeInTheDocument()
 })

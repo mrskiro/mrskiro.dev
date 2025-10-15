@@ -30,3 +30,7 @@ ignore:
   - .husky
   - test-results
   - .ls-lint.yml
+  - src/components/pages/404/__screenshots__
+  - src/components/pages/about/__screenshots__
+  - src/components/pages/posts/[param]/__screenshots__
+  - src/components/pages/root/__screenshots__
