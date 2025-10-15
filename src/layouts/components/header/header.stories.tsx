@@ -1,15 +1,15 @@
-import { Header } from "./header"
-import type { Meta, StoryObj } from "@storybook/react"
+import { Header } from "./header";
+import type { Meta, StoryObj } from "@storybook/react";
 
 export default {
   title: "header",
   component: Header,
   tags: ["autodocs"],
-} as Meta<typeof Header>
+} as Meta<typeof Header>;
 
-type Story = StoryObj<typeof Header>
+type Story = StoryObj<typeof Header>;
 
-export const Default: Story = {}
+export const Default: Story = {};
 
 export const RouteIsAbout: Story = {
   parameters: {
@@ -19,4 +19,4 @@ export const RouteIsAbout: Story = {
       },
     },
   },
-}
+};

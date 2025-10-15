@@ -1,1 +1,1 @@
-export * from "./bmc-button"
+export * from "./bmc-button";

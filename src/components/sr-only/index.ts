@@ -1,1 +1,1 @@
-export { SROnly } from "./sr-only"
+export { SROnly } from "./sr-only";

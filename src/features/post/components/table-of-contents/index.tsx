@@ -22,7 +22,7 @@ export const TableOfContents = (props: Props) => {
           }
         });
       },
-      { rootMargin: "0% 0% -80% 0%" }
+      { rootMargin: "0% 0% -80% 0%" },
     );
     elements.forEach((v) => {
       if (v) {

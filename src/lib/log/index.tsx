@@ -1,8 +1,8 @@
-import { useEffect } from "react"
-import { useRouter } from "next/router"
-import Script from "next/script"
+import { useEffect } from "react";
+import { useRouter } from "next/router";
+import Script from "next/script";
 
-const GOOGLE_ANALYTICS_ID = "G-HRSTN8HFJC"
+const GOOGLE_ANALYTICS_ID = "G-HRSTN8HFJC";
 
 // 必要になったら
 
@@ -22,25 +22,25 @@ const GOOGLE_ANALYTICS_ID = "G-HRSTN8HFJC"
 // }
 
 export const usePegeView = () => {
-  const router = useRouter()
+  const router = useRouter();
 
   useEffect(() => {
     const handleRouteChange = (url: string) => {
-      if (!window.gtag) return
+      if (!window.gtag) return;
       window.gtag("config", GOOGLE_ANALYTICS_ID, {
         page_path: url,
-      })
-    }
-    router.events.on("routeChangeComplete", handleRouteChange)
-    router.events.on("hashChangeComplete", handleRouteChange)
+      });
+    };
+    router.events.on("routeChangeComplete", handleRouteChange);
+    router.events.on("hashChangeComplete", handleRouteChange);
     return () => {
-      router.events.off("routeChangeComplete", handleRouteChange)
-      router.events.off("hashChangeComplete", handleRouteChange)
-    }
-  }, [router.events])
-}
+      router.events.off("routeChangeComplete", handleRouteChange);
+      router.events.off("hashChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
+};
 
-const G_TAG_ID = "gtag-init"
+const G_TAG_ID = "gtag-init";
 
 export const GoogleAnalytics = () => (
   <>
@@ -63,4 +63,4 @@ export const GoogleAnalytics = () => (
       }}
     />
   </>
-)
+);

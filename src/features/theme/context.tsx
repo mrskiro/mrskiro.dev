@@ -41,9 +41,9 @@ export const ThemeProvider = (props: Props) => {
       document.documentElement.dataset.theme = theme;
       setThemeState(theme);
     } else {
-      const systemTheme = window.matchMedia("(prefers-color-scheme: dark)")
-        .matches
-        ? "dark"
+      const systemTheme =
+        window.matchMedia("(prefers-color-scheme: dark)").matches ?
+          "dark"
         : "light";
       setTheme(systemTheme);
     }
@@ -71,8 +71,8 @@ export const ThemeProvider = (props: Props) => {
       ({
         theme: themeState,
         setTheme,
-      } satisfies ContextValue),
-    [themeState, setTheme]
+      }) satisfies ContextValue,
+    [themeState, setTheme],
   );
 
   return (
@@ -93,9 +93,9 @@ const loadTheme = (storageKey: string) => {
   if (theme) {
     element.dataset.theme = theme;
   } else {
-    const systemTheme = window.matchMedia("(prefers-color-scheme: dark)")
-      .matches
-      ? "dark"
+    const systemTheme =
+      window.matchMedia("(prefers-color-scheme: dark)").matches ?
+        "dark"
       : "light";
     element.dataset.theme = systemTheme;
   }

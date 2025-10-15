@@ -1,6 +1,6 @@
-import { it, expect } from "vitest"
-import { render } from "@/test/utils"
-import { AboutPage } from "./about"
+import { it, expect } from "vitest";
+import { render } from "@/test/utils";
+import { AboutPage } from "./about";
 
 // eslint-disable-next-line max-lines-per-function
 it("renders correctly", async () => {
@@ -852,8 +852,8 @@ it("renders correctly", async () => {
         createdAt: "2023-03-19T02:00:00.000Z",
         updatedAt: "2023-03-19T02:00:00.000Z",
       }}
-    />
-  )
+    />,
+  );
 
-  await expect.element(screen.container).toBeInTheDocument()
-})
+  await expect.element(screen.container).toBeInTheDocument();
+});

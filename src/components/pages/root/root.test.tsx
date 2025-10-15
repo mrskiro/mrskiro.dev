@@ -1,6 +1,6 @@
-import { it, expect } from "vitest"
-import { render } from "@/test/utils"
-import { RootPage } from "./root"
+import { it, expect } from "vitest";
+import { render } from "@/test/utils";
+import { RootPage } from "./root";
 
 it("renders correctly", async () => {
   const screen = render(
@@ -23,8 +23,8 @@ it("renders correctly", async () => {
           updatedAt: "2023-06-24T12:02:00.000Z",
         },
       ]}
-    />
-  )
+    />,
+  );
 
-  await expect.element(screen.container).toBeInTheDocument()
-})
+  await expect.element(screen.container).toBeInTheDocument();
+});

@@ -1,2 +1,2 @@
-export * from "./post"
-export * from "./block"
+export * from "./post";
+export * from "./block";

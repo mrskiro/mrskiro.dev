@@ -1,18 +1,18 @@
-import type { GetStaticProps, NextPage } from "next"
-import { RootPage } from "@/components/pages/root/root"
-import { findPosts } from "@/features/post/api"
-import { Post } from "@/features/post/types/post"
-import { load } from "@/lib/config"
-import { parseByURL } from "@/lib/parser/rss"
+import type { GetStaticProps, NextPage } from "next";
+import { RootPage } from "@/components/pages/root/root";
+import { findPosts } from "@/features/post/api";
+import { Post } from "@/features/post/types/post";
+import { load } from "@/lib/config";
+import { parseByURL } from "@/lib/parser/rss";
 
 type Props = {
-  posts: Post[]
-}
+  posts: Post[];
+};
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
-  const config = load()
-  const qiitaFeed = await parseByURL(config.QIITA_URL)
-  const zennFeed = await parseByURL(config.ZENN_URL)
+  const config = load();
+  const qiitaFeed = await parseByURL(config.QIITA_URL);
+  const zennFeed = await parseByURL(config.ZENN_URL);
 
   const postsFromFeed: Post[] = [...qiitaFeed.items, ...zennFeed.items].map(
     (v) => ({
@@ -23,14 +23,14 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
       link: v.link || "",
       createdAt: v.isoDate || "",
       updatedAt: v.isoDate || "",
-    })
-  )
+    }),
+  );
 
-  const postsFromNotion = await findPosts()
+  const postsFromNotion = await findPosts();
 
   const posts = [...postsFromFeed, ...postsFromNotion].sort(
-    (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
-  )
+    (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime(),
+  );
 
   return {
     props: {
@@ -40,9 +40,9 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
         ogType: "website",
       },
     },
-  }
-}
+  };
+};
 
-const Page: NextPage<Props> = (props) => <RootPage posts={props.posts} />
+const Page: NextPage<Props> = (props) => <RootPage posts={props.posts} />;
 
-export default Page
+export default Page;

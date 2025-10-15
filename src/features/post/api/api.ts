@@ -42,7 +42,7 @@ export const findPosts = async (): Promise<Post[]> => {
 };
 
 export const findPostDetailBySlug = async (
-  slug: string
+  slug: string,
 ): Promise<PostDetail> => {
   const meta = await findMetaBySlug(slug);
   const blocks = await findPageBlocksByPageId(meta.id);
@@ -73,7 +73,7 @@ export const findPostDetailBySlug = async (
 };
 
 export const findPostDetailById = async (
-  pageId: string
+  pageId: string,
 ): Promise<PostDetail> => {
   const [meta, blocks] = await Promise.all([
     findMetaByPageId(pageId),

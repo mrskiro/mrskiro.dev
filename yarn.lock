@@ -2133,6 +2133,11 @@
     "@types/mdx" "^2.0.0"
     "@types/react" ">=16"
 
+"@mrskiro/prettier-config@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@mrskiro/prettier-config/-/prettier-config-1.0.1.tgz#1f32ea65d8be8bfbd74b1e0b7a36ed59aed5de56"
+  integrity sha512-yhkLBpff/xEoXVEX7QAKSEjc7kNsWggZ9rc3jeU7XL+g3Fx2cTUGDvQdecLi3rKz02qoYI1U7AJdvaZIl41BiA==
+
 "@ndelangen/get-tarball@^3.0.7":
   version "3.0.7"
   resolved "https://registry.yarnpkg.com/@ndelangen/get-tarball/-/get-tarball-3.0.7.tgz#87c7aef2df4ff4fbdbab6ac9ed32cee142c4b1a3"
@@ -8838,6 +8843,11 @@ prelude-ls@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha512-ESF23V4SKG6lVSGZgYNpbsiaAkdab6ZgOxe52p7+Kid3W3u3bxR4Vfd/o21dmN7jSt0IwgZ4v5MUd26FEtXE9w==
+
+prettier@3.6.2:
+  version "3.6.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.6.2.tgz#ccda02a1003ebbb2bfda6f83a074978f608b9393"
+  integrity sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==
 
 prettier@^2.8.0, prettier@^2.8.1:
   version "2.8.8"

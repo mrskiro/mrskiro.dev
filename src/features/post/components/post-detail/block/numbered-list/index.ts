@@ -1,1 +1,1 @@
-export { NumberedList } from "./numbered-list"
+export { NumberedList } from "./numbered-list";

@@ -1,1 +1,1 @@
-export { useThrowError } from "./use-throw-error"
+export { useThrowError } from "./use-throw-error";

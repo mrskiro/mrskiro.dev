@@ -1,5 +1,5 @@
-import { NextPage } from "next"
-import { NotFoundPage } from "@/components/pages/404"
+import { NextPage } from "next";
+import { NotFoundPage } from "@/components/pages/404";
 
 export const getStaticProps = async () => {
   return {
@@ -9,8 +9,8 @@ export const getStaticProps = async () => {
         ogType: "website",
       },
     },
-  }
-}
+  };
+};
 
-const Page: NextPage<unknown> = () => <NotFoundPage />
-export default Page
+const Page: NextPage<unknown> = () => <NotFoundPage />;
+export default Page;

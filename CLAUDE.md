@@ -48,6 +48,7 @@ yarn storybook    # Start Storybook
 ## Architecture
 
 ### Directory Structure
+
 ```
 src/
 ├── components/       # Shared components
@@ -74,22 +75,26 @@ src/
 ### Important Configurations
 
 **TypeScript** (`tsconfig.json`):
+
 - Strict mode enabled
 - noUncheckedIndexedAccess: true
 - Path alias: `@/*` maps to `src/*`
 
 **oxlint**:
+
 - Fast, Rust-based linter for modern TypeScript/JavaScript projects
 - Provides fast code quality checks
 
 **File Naming** (`.ls-lint.yml`):
+
 - Default: kebab-case
 - Components: kebab-case.tsx
-- Pages: kebab-case or [param] or _app
+- Pages: kebab-case or [param] or \_app
 
 ## Environment Variables
 
 Required in `.env.local`:
+
 ```
 NOTION_TOKEN=          # Notion API authentication
 QIITA_URL=            # Qiita RSS feed URL
@@ -98,6 +103,7 @@ ABOUT_PAGE_ID=        # Notion page ID for About page
 ```
 
 Optional:
+
 ```
 SENTRY_ORG=           # Sentry organization
 SENTRY_PROJECT=       # Sentry project
@@ -124,6 +130,7 @@ SENTRY_PROJECT=       # Sentry project
 ## CI/CD
 
 GitHub Actions workflows:
+
 - `ci.yml`: Runs linting, type checking, and tests
 - `chromatic.yml`: Visual regression testing with Storybook
 - `claude.yml`: Claude PR Assistant for automated code review
@@ -132,6 +139,7 @@ GitHub Actions workflows:
 ## Code Style Guidelines
 
 When working in this codebase:
+
 1. Use `type` instead of `interface`
 2. Prefer arrow functions over function declarations
 3. Use named exports (no default exports except for pages)

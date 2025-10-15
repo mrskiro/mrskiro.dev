@@ -1,4 +1,4 @@
-import { Block, BlockMap } from "../types"
+import { Block, BlockMap } from "../types";
 
 export const toBlockMap = (blocks: Block[]): BlockMap => {
   return blocks.reduce<BlockMap>((p, c) => {
@@ -7,25 +7,25 @@ export const toBlockMap = (blocks: Block[]): BlockMap => {
         ...p,
         [c.id]: c,
         ...toBlockMap(c.children),
-      }
+      };
     }
     return {
       ...p,
       [c.id]: c,
-    }
-  }, {})
-}
+    };
+  }, {});
+};
 
 export const gropingBlocks = (blocks: Block[]) => {
   const results = blocks.reduce<{
-    values: string[][]
-    lastType?: string
+    values: string[][];
+    lastType?: string;
   }>(
     (p, c) => {
       if (c.type === p.lastType) {
-        const shouldIncludeValues = p.values.at(-1)
+        const shouldIncludeValues = p.values.at(-1);
         if (!shouldIncludeValues) {
-          return p
+          return p;
         }
         return {
           values: [
@@ -33,17 +33,17 @@ export const gropingBlocks = (blocks: Block[]) => {
             [...shouldIncludeValues, c.id],
           ],
           lastType: c.type,
-        }
+        };
       }
       return {
         values: [...p.values, [c.id]],
         lastType: c.type,
-      }
+      };
     },
     {
       values: [],
       lastType: undefined,
-    }
-  )
-  return results
-}
+    },
+  );
+  return results;
+};

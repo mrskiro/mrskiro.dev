@@ -1,10 +1,10 @@
-import Parser from "rss-parser"
+import Parser from "rss-parser";
 
-const parser = new Parser()
+const parser = new Parser();
 
 export const parseByURL = async (
-  url: string
+  url: string,
 ): Promise<Parser.Output<Record<string, unknown>>> => {
-  const result = await parser.parseURL(url)
-  return result
-}
+  const result = await parser.parseURL(url);
+  return result;
+};

@@ -15,7 +15,7 @@ const MyApp = (
       title?: string;
       ogType?: "website" | "article";
     };
-  }>
+  }>,
 ) => {
   usePegeView();
 

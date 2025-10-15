@@ -1,22 +1,21 @@
 type Heading<
   T extends number[],
   I extends unknown[] = [],
-  R extends Record<string, string> = Record<never, never>
-> = T["length"] extends 0
-  ? never
-  : I["length"] extends T["length"]
-  ? R
+  R extends Record<string, string> = Record<never, never>,
+> =
+  T["length"] extends 0 ? never
+  : I["length"] extends T["length"] ? R
   : Heading<
       T,
       [...I, unknown],
       R & { [key in `heading${T[I["length"]]}`]: `heading${T[I["length"]]}` }
-    >
+    >;
 
 const heading: Heading<[1, 2, 3]> = {
   heading1: "heading1",
   heading2: "heading2",
   heading3: "heading3",
-}
+};
 
 // TODO: いらないのは消す
 const BlockType = {
@@ -51,11 +50,11 @@ const BlockType = {
   audio: "audio",
   linkPreview: "linkPreview",
   unsupported: "unsupported",
-} as const
+} as const;
 
-type BlockType = typeof BlockType[keyof typeof BlockType]
+type BlockType = (typeof BlockType)[keyof typeof BlockType];
 
-export type BlockMap = Record<Block["id"], Block>
+export type BlockMap = Record<Block["id"], Block>;
 
 export type Block = BlockBase &
   (
@@ -65,95 +64,95 @@ export type Block = BlockBase &
     | BulletedListItemBlock
     | NumberedListBlock
     | ImageBlock
-  )
+  );
 
 export type BlockBase = {
-  id: string
-  parentId: string | null
-} & Children
+  id: string;
+  parentId: string | null;
+} & Children;
 
 type Children = {
-  hasChildren: boolean
-  children: Block[]
-}
+  hasChildren: boolean;
+  children: Block[];
+};
 
 export type HeadingBlock = {
-  type: Extract<BlockType, `heading${number}`>
-  color: string
-  richText: RichText[]
-}
+  type: Extract<BlockType, `heading${number}`>;
+  color: string;
+  richText: RichText[];
+};
 
 export type ParagraphBlock = {
-  type: typeof BlockType["paragraph"]
-  color: string
-  richText: RichText[]
-}
+  type: (typeof BlockType)["paragraph"];
+  color: string;
+  richText: RichText[];
+};
 
 export type CodeBlock = {
-  type: typeof BlockType["code"]
-  richText: RichText[]
+  type: (typeof BlockType)["code"];
+  richText: RichText[];
   // caption: RichText
-  language: string
-}
+  language: string;
+};
 
 export type BulletedListItemBlock = {
-  type: typeof BlockType["bulletedListItem"]
-  richText: RichText[]
-  color: string
-}
+  type: (typeof BlockType)["bulletedListItem"];
+  richText: RichText[];
+  color: string;
+};
 
 export type NumberedListBlock = {
-  type: typeof BlockType["numberedListItem"]
+  type: (typeof BlockType)["numberedListItem"];
   // TODO: delete
-  richText: RichText[]
-  color: string
-}
+  richText: RichText[];
+  color: string;
+};
 
 export type ImageBlock = {
-  type: typeof BlockType["image"]
+  type: (typeof BlockType)["image"];
   // TODO: delete
-  richText: RichText[]
-  caption: RichText[]
-  url: string
-}
+  richText: RichText[];
+  caption: RichText[];
+  url: string;
+};
 
 export type RichText = {
-  plainText: string
-  href: string | null
-  annotations: Annotations
-} & (TextRichText | MentionRichText | EquationRichText)
+  plainText: string;
+  href: string | null;
+  annotations: Annotations;
+} & (TextRichText | MentionRichText | EquationRichText);
 
 export type Annotations = {
-  bold: boolean
-  italic: boolean
-  strikethrough: boolean
-  underline: boolean
-  code: boolean
-  color: string
-}
+  bold: boolean;
+  italic: boolean;
+  strikethrough: boolean;
+  underline: boolean;
+  code: boolean;
+  color: string;
+};
 
 type TextRichText = {
-  type: "text"
+  type: "text";
   text: {
-    content: string
+    content: string;
     link: {
-      url: string
-    } | null
-  }
-}
+      url: string;
+    } | null;
+  };
+};
 
 type MentionRichText = {
-  type: "mention"
+  type: "mention";
   // todo
-  mention: Record<never, never>
-}
+  mention: Record<never, never>;
+};
 
 type EquationRichText = {
-  type: "equation"
+  type: "equation";
   equation: {
-    expression: string
-  }
-}
+    expression: string;
+  };
+};
 
 // type RichTextItemResponse =
 //   // | {

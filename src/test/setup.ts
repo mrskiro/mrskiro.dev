@@ -1,4 +1,4 @@
-import { vi } from "vitest"
+import { vi } from "vitest";
 
 // Sentryをモック化してテスト環境で無効化
 vi.mock("@sentry/nextjs", () => ({
@@ -10,4 +10,4 @@ vi.mock("@sentry/nextjs", () => ({
   setTag: vi.fn(),
   setUser: vi.fn(),
   addBreadcrumb: vi.fn(),
-}))
+}));

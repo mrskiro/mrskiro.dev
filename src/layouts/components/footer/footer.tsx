@@ -3,7 +3,9 @@ import { AppLink } from "@/components/app-link";
 
 export const Footer = () => (
   <footer className="flex items-center justify-center gap-4">
-    <small className="text-sm">Copyright {new Date().getFullYear()} mrskiro</small>
+    <small className="text-sm">
+      Copyright {new Date().getFullYear()} mrskiro
+    </small>
     <AppLink
       isExternal
       href="https://github.com/mrskiro/mrskiro.dev"

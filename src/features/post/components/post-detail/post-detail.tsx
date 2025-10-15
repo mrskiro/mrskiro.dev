@@ -37,12 +37,12 @@ export const PostDetail = (props: Props) => {
           <div />
           <div>
             <p className="text-right text-xs">{`${format(
-              props.postDetail.createdAt
+              props.postDetail.createdAt,
             )}`}</p>
             {format(props.postDetail.updatedAt) !==
               format(props.postDetail.createdAt) && (
               <p className="text-right text-xs">{`最終更新：${format(
-                props.postDetail.updatedAt
+                props.postDetail.updatedAt,
               )}`}</p>
             )}
           </div>

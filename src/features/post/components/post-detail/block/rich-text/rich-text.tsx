@@ -30,7 +30,7 @@ const wrapText = (text: Types.RichText) => {
         "data-[bold=true]:font-bold data-[italic=true]:italic data-[underline=true]:underline data-[strikethrough=true]:line-through",
         {
           "rounded-md p-1 text-red-500 bg-gray-400/15": text.annotations.code,
-        }
+        },
       )}
     >
       {text.plainText}

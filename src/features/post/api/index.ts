@@ -1,1 +1,1 @@
-export { findPosts, findPostDetailBySlug, findPostDetailById } from "./api"
+export { findPosts, findPostDetailBySlug, findPostDetailById } from "./api";
