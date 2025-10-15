@@ -57,4 +57,4 @@ jobs:
       - name: Install dependencies
         run: yarn --frozen-lockfile
       - name: test
-        run: yarn test --ci
+        run: yarn test
