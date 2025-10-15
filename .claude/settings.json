@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(yarn build:*)",
+      "Bash(yarn lint:*)",
+      "Bash(tree:*)",
+      "Bash(yarn install)",
+      "Bash(yarn test)",
+      "Bash(yarn list:*)",
+      "Bash(yarn remove:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

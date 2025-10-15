@@ -1,35 +1,34 @@
-import { render, screen } from "@testing-library/react"
-import userEvent from "@testing-library/user-event"
+import { render } from "vitest-browser-react"
+import { it, expect, vi } from "vitest"
 import { useThrowError } from "@/lib/error/use-throw-error"
 import { ErrorBoundary } from "./error-boundary"
 
-it("ok", () => {
-  const { container } = render(
+it("ok", async () => {
+  const screen = await render(
     <ErrorBoundary fallback={() => <p>error</p>}>
       <h1>children</h1>
     </ErrorBoundary>
   )
-  expect(screen.getByText("children")).toBeInTheDocument()
-  expect(container).toMatchSnapshot()
+  await expect.element(screen.getByText("children")).toBeInTheDocument()
+  expect(screen.container).toMatchSnapshot()
 })
 
-it("should display fallback when throw error in children", () => {
-  jest.spyOn(console, "error").mockImplementation(() => {})
+it("should display fallback when throw error in children", async () => {
+  vi.spyOn(console, "error").mockImplementation(() => {})
   const Component = () => {
     throw new Error("something error")
   }
-  const { container } = render(
+  const screen = await render(
     <ErrorBoundary fallback={() => <p>error</p>}>
       <Component />
     </ErrorBoundary>
   )
-  expect(screen.getByText("error")).toBeInTheDocument()
-  expect(container).toMatchSnapshot()
+  await expect.element(screen.getByText("error")).toBeInTheDocument()
+  expect(screen.container).toMatchSnapshot()
 })
 
 it("should display fallback when throw error in event handler", async () => {
-  jest.spyOn(console, "error").mockImplementation(() => {})
-  const user = userEvent.setup()
+  vi.spyOn(console, "error").mockImplementation(() => {})
   const Component = () => {
     const { throwError } = useThrowError()
     return (
@@ -43,24 +42,24 @@ it("should display fallback when throw error in event handler", async () => {
       </button>
     )
   }
-  render(
+  const screen = await render(
     <ErrorBoundary fallback={() => <p>error</p>}>
       <Component />
     </ErrorBoundary>
   )
   const btn = screen.getByRole("button")
-  await user.click(btn)
-  expect(screen.getByText("error")).toBeInTheDocument()
-  expect(btn).not.toBeInTheDocument()
+  await btn.click()
+  await expect.element(screen.getByText("error")).toBeInTheDocument()
+  await expect.element(btn).not.toBeInTheDocument()
 })
 
-it("should call onError prop", () => {
-  jest.spyOn(console, "error").mockImplementation(() => {})
-  const onError = jest.fn()
+it("should call onError prop", async () => {
+  vi.spyOn(console, "error").mockImplementation(() => {})
+  const onError = vi.fn()
   const ThrowError = () => {
     throw new Error("something error")
   }
-  render(
+  await render(
     <ErrorBoundary fallback={() => <p>error</p>} onError={onError}>
       <ThrowError />
     </ErrorBoundary>
