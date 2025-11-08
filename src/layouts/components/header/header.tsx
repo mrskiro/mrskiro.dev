@@ -1,4 +1,6 @@
-import { useRouter } from "next/router";
+"use client";
+
+import { usePathname } from "next/navigation";
 import { AppLink } from "@/components/app-link";
 import { SROnly } from "@/components/sr-only";
 
@@ -14,7 +16,7 @@ const lists = [
 ];
 
 export const Header = () => {
-  const router = useRouter();
+  const pathname = usePathname();
 
   return (
     <header className="flex flex-col gap-0.5">
@@ -28,7 +30,7 @@ export const Header = () => {
         <ul className="flex flex-col gap-2">
           {lists.map((v) => (
             <li key={v.name}>
-              <AppLink href={v.href} isActive={router.asPath === v.href}>
+              <AppLink href={v.href} isActive={pathname === v.href}>
                 {v.name}
               </AppLink>
             </li>

@@ -11,5 +11,18 @@
     ],
     "deny": [],
     "ask": []
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|MultiEdit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "yarn lint:oxlint:fix"
+          }
+        ]
+      }
+    ]
   }
 }

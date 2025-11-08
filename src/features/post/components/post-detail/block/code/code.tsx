@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect } from "react";
 import Prism from "prismjs";
 
@@ -27,7 +29,7 @@ export const Code = (props: Props) => {
   }, []);
 
   return (
-    <pre className="line-numbers !text-xs">
+    <pre className="line-numbers !text-xs" suppressHydrationWarning>
       <code className={`language-${props.language}`}>
         {props.text[0]?.plainText}
       </code>

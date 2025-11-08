@@ -1,15 +1,19 @@
-import type { GetStaticProps, NextPage } from "next";
-import { RootPage } from "@/components/pages/root/root";
+import type { Metadata } from "next";
+import { Posts } from "@/features/post/components/posts";
+import { Post } from "@/features/post/types";
+import { TwoColumn } from "@/layouts/two-column";
 import { findPosts } from "@/features/post/api";
-import { Post } from "@/features/post/types/post";
 import { load } from "@/lib/config";
 import { parseByURL } from "@/lib/parser/rss";
 
-type Props = {
-  posts: Post[];
+export const metadata: Metadata = {
+  title: "Posts",
+  openGraph: {
+    type: "website",
+  },
 };
 
-export const getStaticProps: GetStaticProps<Props> = async () => {
+const getPosts = async (): Promise<Post[]> => {
   const config = load();
   const qiitaFeed = await parseByURL(config.QIITA_URL);
   const zennFeed = await parseByURL(config.ZENN_URL);
@@ -32,17 +36,15 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
     (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime(),
   );
 
-  return {
-    props: {
-      posts,
-      meta: {
-        title: "Posts",
-        ogType: "website",
-      },
-    },
-  };
+  return posts;
 };
 
-const Page: NextPage<Props> = (props) => <RootPage posts={props.posts} />;
+export default async function Page() {
+  const posts = await getPosts();
 
-export default Page;
+  return (
+    <TwoColumn>
+      <Posts posts={posts} />
+    </TwoColumn>
+  );
+}
