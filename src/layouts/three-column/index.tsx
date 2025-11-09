@@ -1,10 +1,14 @@
-import { PropsWithChildren, ReactNode } from "react";
+"use client";
+
+import { PropsWithChildren } from "react";
 import { Switcher } from "@/features/theme/components/switcher";
+import { TableOfContents } from "@/features/post/components/table-of-contents";
+import { Block } from "@/features/post/types";
 import { Footer } from "../components/footer";
 import { Header } from "../components/header";
 
 type Props = {
-  renderRight: () => ReactNode;
+  headings: Block[];
 };
 
 export const ThreeColumn = (props: PropsWithChildren<Props>) => (
@@ -23,7 +27,7 @@ export const ThreeColumn = (props: PropsWithChildren<Props>) => (
       </main>
 
       <aside className="sticky top-16 h-fit hidden lg:block lg:col-span-2">
-        {props.renderRight()}
+        <TableOfContents headings={props.headings} />
       </aside>
     </div>
 
