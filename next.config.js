@@ -1,6 +1,12 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires, @typescript-eslint/no-require-imports
 const { withSentryConfig } = require("@sentry/nextjs");
 
+// Import env.ts to validate environment variables during build
+// eslint-disable-next-line @typescript-eslint/no-var-requires, @typescript-eslint/no-require-imports
+const createJiti = require("jiti");
+const jiti = createJiti(__filename);
+jiti("./src/env");
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,

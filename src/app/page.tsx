@@ -3,7 +3,7 @@ import { Posts } from "@/features/post/components/posts";
 import { Post } from "@/features/post/types/post";
 import { TwoColumn } from "@/components/layouts/two-column";
 import { findPosts } from "@/features/post/api";
-import { load } from "@/lib/config";
+import { env } from "@/env";
 import { parseByURL } from "@/lib/parser/rss";
 
 export const metadata: Metadata = {
@@ -14,9 +14,8 @@ export const metadata: Metadata = {
 };
 
 const getPosts = async (): Promise<Post[]> => {
-  const config = load();
-  const qiitaFeed = await parseByURL(config.QIITA_URL);
-  const zennFeed = await parseByURL(config.ZENN_URL);
+  const qiitaFeed = await parseByURL(env.QIITA_URL);
+  const zennFeed = await parseByURL(env.ZENN_URL);
 
   const postsFromFeed: Post[] = [...qiitaFeed.items, ...zennFeed.items].map(
     (v) => ({
