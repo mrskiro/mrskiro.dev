@@ -3,11 +3,12 @@
 // https://docs.sentry.io/platforms/javascript/guides/nextjs/
 
 import * as Sentry from "@sentry/nextjs";
+import { env } from "@/env";
 
 Sentry.init({
-  enabled: process.env.NEXT_PUBLIC_STAGE !== "local",
-  environment: process.env.NEXT_PUBLIC_STAGE,
-  dsn: process.env.NEXT_PUBLIC_SENTRY_DSN,
+  enabled: env.NEXT_PUBLIC_STAGE !== "local",
+  environment: env.NEXT_PUBLIC_STAGE,
+  dsn: env.NEXT_PUBLIC_SENTRY_DSN,
 
   // Adjust this value in production, or use tracesSampler for greater control
   tracesSampleRate: 1,

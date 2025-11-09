@@ -4,9 +4,9 @@ import {
   BlockObjectResponse,
   QueryDatabaseParameters,
 } from "@notionhq/client/build/src/api-endpoints";
-import { load } from "@/lib/config";
+import { env } from "@/env";
 
-const { NOTION_TOKEN } = load();
+const { NOTION_TOKEN } = env;
 // TODO: envに移動
 const DATABASE_ID = "1afad33e822d4042b703999915c8bc24";
 
@@ -28,7 +28,7 @@ export const findPostsWherePublished = async (): Promise<
       },
     ],
   };
-  if (process.env.NEXT_PUBLIC_STAGE === "local") {
+  if (env.NEXT_PUBLIC_STAGE === "local") {
     filters.or.push({
       type: "checkbox",
       property: "Preview",

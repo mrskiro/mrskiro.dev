@@ -1,7 +1,7 @@
 import { PostDetail } from "@/features/post/components/post-detail";
 import { ThreeColumn } from "@/components/layouts/three-column";
 import { findPostDetailById } from "@/features/post/api";
-import { load } from "@/lib/config";
+import { env } from "@/env";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 export default async function Page() {
-  const { ABOUT_PAGE_ID } = load();
+  const { ABOUT_PAGE_ID } = env;
   const aboutPageDetail = await findPostDetailById(ABOUT_PAGE_ID);
 
   const headings = aboutPageDetail.blocks.filter((v) => {
