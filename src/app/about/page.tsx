@@ -1,5 +1,5 @@
 import { PostDetail } from "@/features/post/components/post-detail";
-import { ThreeColumn } from "@/layouts/three-column";
+import { ThreeColumn } from "@/components/layouts/three-column";
 import { findPostDetailById } from "@/features/post/api";
 import { load } from "@/lib/config";
 import type { Metadata } from "next";

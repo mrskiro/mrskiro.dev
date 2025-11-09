@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Posts } from "@/features/post/components/posts";
-import { Post } from "@/features/post/types";
-import { TwoColumn } from "@/layouts/two-column";
+import { Post } from "@/features/post/types/post";
+import { TwoColumn } from "@/components/layouts/two-column";
 import { findPosts } from "@/features/post/api";
 import { load } from "@/lib/config";
 import { parseByURL } from "@/lib/parser/rss";

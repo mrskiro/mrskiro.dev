@@ -1,4 +1,4 @@
-import { TwoColumn } from "@/layouts/two-column";
+import { TwoColumn } from "@/components/layouts/two-column";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
