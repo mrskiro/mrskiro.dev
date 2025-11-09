@@ -1,8 +1,8 @@
 import { PostDetail } from "@/features/post/components/post-detail";
-import { ThreeColumn } from "@/layouts/three-column";
-import { BmcButton } from "@/lib/bmc";
+import { ThreeColumn } from "@/components/layouts/three-column";
+import { BmcButton } from "@/components/bmc-button";
 import { findPostDetailBySlug, findPosts } from "@/features/post/api";
-import { toPublic } from "@/lib/image";
+import { toPublic } from "@/lib/image/to-public";
 import type { Metadata } from "next";
 
 type Props = {

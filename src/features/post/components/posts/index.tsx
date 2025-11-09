@@ -1,5 +1,5 @@
-import { Post } from "../../types";
-import { PostItem } from "./components/post-item";
+import { Post } from "../../types/post";
+import { PostItem } from "./post-item";
 
 type Props = {
   posts: Post[];
