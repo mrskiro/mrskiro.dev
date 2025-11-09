@@ -113,4 +113,4 @@ return <div>{`Hello, ${name}`}</div>;
 - ライブラリやツールの調査は常にcontext7を使用
 
 ### パッケージマネージャ
-- ユーザー設定ではpnpmを推奨（現在はyarnを使用中）
+- pnpmを使用

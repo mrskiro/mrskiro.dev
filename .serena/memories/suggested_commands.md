@@ -4,74 +4,74 @@
 
 ```bash
 # 開発サーバー起動
-yarn dev
+pnpmdev
 
 # 本番ビルド
-yarn build
+pnpmbuild
 
 # 本番サーバー起動
-yarn start
+pnpmstart
 ```
 
 ## テスト
 
 ```bash
 # ユニットテスト実行
-yarn test
+pnpmtest
 
 # E2Eテスト実行
-yarn test:e2e
+pnpmtest:e2e
 
 # スナップショット更新
-yarn update-snapshots
+pnpmupdate-snapshots
 ```
 
 ## Linting・型チェック
 
 ```bash
 # すべてのlinterを並列実行（推奨）
-yarn lint
+pnpmlint
 
 # oxlint実行
-yarn lint:oxlint
+pnpmlint:oxlint
 
 # oxlint自動修正
-yarn lint:oxlint:fix
+pnpmlint:oxlint:fix
 
 # TypeScript型チェック
-yarn lint:tsc
+pnpmlint:tsc
 
 # HTML/JSX lint (markuplint)
-yarn lint:html
+pnpmlint:html
 
 # ファイル命名規則チェック (ls-lint)
-yarn lint:ls
+pnpmlint:ls
 ```
 
 ## コンポーネント開発
 
 ```bash
 # Storybook起動
-yarn storybook
+pnpmstorybook
 ```
 
 ## パッケージ管理
 
 ```bash
 # 依存関係インストール
-yarn install
+pnpminstall
 
 # パッケージ追加
-yarn add <package-name>
+pnpmadd <package-name>
 
 # 開発依存関係追加
-yarn add -D <package-name>
+pnpmadd -D <package-name>
 
 # パッケージ削除
-yarn remove <package-name>
+pnpmremove <package-name>
 
 # 依存関係一覧
-yarn list
+pnpmlist
 ```
 
 ## Git操作 (Darwin/macOS)

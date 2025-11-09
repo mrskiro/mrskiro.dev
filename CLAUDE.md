@@ -14,7 +14,7 @@ mrskiro.dev is a personal portfolio and blog site built with Next.js (Pages Rout
 - **Styling**: Tailwind CSS 3.4.14 + tailwind-merge 2.5.4 + clsx 2.1.1
 - **CMS**: Notion API (@notionhq/client 2.2.3)
 - **Monitoring**: Sentry (@sentry/nextjs 7.50.0)
-- **Package Manager**: yarn (Note: User's global preferences specify pnpm)
+- **Package Manager**: pnpm
 - **Testing**: Jest 29.5.0 + Playwright 1.30.0 + @testing-library/react 14.0.0
 - **Component Development**: Storybook 7.0.9
 - **Linting**: oxlint 1.23.0 + markuplint 3.7.0 + ls-lint 2.0.0
@@ -24,25 +24,25 @@ mrskiro.dev is a personal portfolio and blog site built with Next.js (Pages Rout
 
 ```bash
 # Development
-yarn dev          # Start development server
-yarn build        # Build for production
-yarn start        # Start production server
+pnpm dev          # Start development server
+pnpm build        # Build for production
+pnpm start        # Start production server
 
 # Testing
-yarn test         # Run Jest unit tests
-yarn test:e2e     # Run Playwright E2E tests
-yarn update-snapshots  # Update test snapshots
+pnpm test         # Run Jest unit tests
+pnpm test:e2e     # Run Playwright E2E tests
+pnpm update-snapshots  # Update test snapshots
 
 # Linting
-yarn lint         # Run all linters in parallel
-yarn lint:oxlint  # oxlint check
-yarn lint:oxlint:fix  # oxlint auto-fix
-yarn lint:tsc     # TypeScript type checking
-yarn lint:html    # Markuplint for JSX/HTML
-yarn lint:ls      # File naming convention check
+pnpm lint         # Run all linters in parallel
+pnpm lint:oxlint  # oxlint check
+pnpm lint:oxlint:fix  # oxlint auto-fix
+pnpm lint:tsc     # TypeScript type checking
+pnpm lint:html    # Markuplint for JSX/HTML
+pnpm lint:ls      # File naming convention check
 
 # Component Development
-yarn storybook    # Start Storybook
+pnpm storybook    # Start Storybook
 ```
 
 ## Architecture
@@ -113,9 +113,7 @@ SENTRY_PROJECT=       # Sentry project
 
 1. **Barrel files**: The codebase currently uses 41 index.ts/tsx files for re-exports, which violates the user's global preferences. These should be removed gradually.
 
-2. **Package manager**: Currently using yarn, but user preferences specify pnpm.
-
-3. **Outdated dependencies**: Several major dependencies need updates (see roadmap.md for details):
+2. **Outdated dependencies**: Several major dependencies need updates (see roadmap.md for details):
    - @notionhq/client: 2.2.3 → 5.2.0
    - @sentry/nextjs: 7.50.0 → 10.19.0
    - Storybook: 7.0.9 → 9.1.10
