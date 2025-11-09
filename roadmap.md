@@ -262,11 +262,6 @@ Next.js 13以降はApp Routerが標準。
   - eslint-plugin-storybook: 0.11.1 → 9.1.10
   - **検証**: lint実行 + 警告・エラー対応
 
-- [ ] **4.5 commitlint更新**
-  - @commitlint/cli: 17.5.1 → 20.1.0
-  - @commitlint/config-conventional: 17.4.4 → 20.0.0
-  - **検証**: コミットメッセージ検証動作確認
-
 **リスク**: 中
 **所要時間**: 8〜12時間
 **前提条件**: ステップ3完了
