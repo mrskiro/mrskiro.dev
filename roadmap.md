@@ -14,7 +14,7 @@
 - **監視**: Sentry 7.50.0
 - **テスト**: Jest 29.5.0, Playwright 1.30.0
 - **開発**: Storybook 7.0.9
-- **パッケージマネージャー**: yarn (規約ではpnpm推奨)
+- **パッケージマネージャー**: pnpm
 
 ### コードベース規模
 
@@ -117,7 +117,7 @@ Next.js 13以降はApp Routerが標準。
   - .envファイル作成
   - 必要な環境変数設定（Notion API、Sentry、QiitaURL、ZennURL等）
   - ローカルビルド成功確認
-  - **検証**: `yarn build`
+  - **検証**: `pnpm build`
 
 - [ ] **1.2 Browserslistの更新**
 
@@ -155,17 +155,17 @@ Next.js 13以降はApp Routerが標準。
   - @types/react-dom: 19.0.1 → 19.2.2
   - @types/prismjs: 1.26.0 → 1.26.5
   - @types/jest-axe: 3.5.5 → 3.5.9
-  - **検証**: `yarn lint:tsc`
+  - **検証**: `pnpmlint:tsc`
 
 - [ ] **2.2 Testing Library系の更新**
   - @testing-library/jest-dom: 5.16.5 → 6.9.1
   - @testing-library/react: 14.0.0 → 16.3.0
   - @testing-library/user-event: 14.4.3 → 14.6.1
-  - **検証**: `yarn test`
+  - **検証**: `pnpmtest`
 
 - [ ] **2.3 Playwright更新**
   - @playwright/test: 1.30.0 → 1.56.0
-  - **検証**: `yarn test:e2e`
+  - **検証**: `pnpmtest:e2e`
 
 - [ ] **2.4 Linter関連の更新**
   - autoprefixer: 10.4.20 → 10.4.21
@@ -173,7 +173,7 @@ Next.js 13以降はApp Routerが標準。
   - eslint-plugin-import: 2.31.0 → 2.32.0
   - eslint-plugin-react: 7.37.2 → 7.37.5
   - @typescript-eslint/eslint-plugin: 5.38.0 → 8.46.1
-  - **検証**: `yarn lint`
+  - **検証**: `pnpmlint`
 
 - [ ] **2.5 その他開発ツール**
   - husky: 8.0.0 → 9.1.7
@@ -283,11 +283,11 @@ Next.js 13以降はApp Routerが標準。
   - markuplint: 3.7.0 → 4.13.1
   - @markuplint/jsx-parser: 3.6.1 → 4.7.21
   - @markuplint/react-spec: 3.6.1 → 4.5.21
-  - **検証**: `yarn lint:html`
+  - **検証**: `pnpmlint:html`
 
 - [ ] **5.3 ls-lint更新**
   - @ls-lint/ls-lint: 2.0.0 → 2.3.1
-  - **検証**: `yarn lint:ls`
+  - **検証**: `pnpmlint:ls`
 
 **リスク**: 中〜高
 **所要時間**: 4〜6時間
@@ -298,7 +298,7 @@ Next.js 13以降はApp Routerが標準。
 ### ステップ6: 長期プロジェクト（オプション）
 
 - [ ] **6.1 パッケージマネージャー移行**
-  - yarn → pnpm
+  - pnpm→ pnpm
   - package.json scriptsの調整
   - CI/CD設定変更
   - lockfileの再生成
@@ -377,7 +377,7 @@ cp .env.example .env
 # .envを編集して必要な値を設定
 
 # 3. ビルド確認
-yarn build
+pnpmbuild
 
 # 4. oxlintの試用
 pnpm add -D oxlint  # 既に追加済み
@@ -393,11 +393,11 @@ pnpm oxlint src/
 
 各ステップ完了時に以下を確認:
 
-- [ ] ビルド成功（`yarn build`）
-- [ ] 型チェック通過（`yarn lint:tsc`）
-- [ ] Lint通過（`yarn lint:eslint`）
-- [ ] ユニットテスト通過（`yarn test`）
-- [ ] E2Eテスト通過（`yarn test:e2e`）
+- [ ] ビルド成功（`pnpmbuild`）
+- [ ] 型チェック通過（`pnpmlint:tsc`）
+- [ ] Lint通過（`pnpmlint:eslint`）
+- [ ] ユニットテスト通過（`pnpmtest`）
+- [ ] E2Eテスト通過（`pnpmtest:e2e`）
 - [ ] CI/CD通過
 - [ ] プレビュー環境で動作確認（該当する場合）
 - [ ] 本番デプロイ成功（該当する場合）

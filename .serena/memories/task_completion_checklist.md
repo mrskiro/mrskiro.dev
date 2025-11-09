@@ -5,7 +5,7 @@
 ## 1. Linting実行
 
 ```bash
-yarn lint
+pnpmlint
 ```
 
 このコマンドは以下をすべて並列実行します:
@@ -18,22 +18,22 @@ yarn lint
 
 ```bash
 # oxlint自動修正
-yarn lint:oxlint:fix
+pnpmlint:oxlint:fix
 
 # 型チェックのみ
-yarn lint:tsc
+pnpmlint:tsc
 
 # HTML/JSX lintのみ
-yarn lint:html
+pnpmlint:html
 
 # ファイル命名規則チェックのみ
-yarn lint:ls
+pnpmlint:ls
 ```
 
 ## 2. ユニットテスト実行
 
 ```bash
-yarn test
+pnpmtest
 ```
 
 - 既存のテストがすべてパスすることを確認
@@ -42,7 +42,7 @@ yarn test
 ## 3. E2Eテスト実行（必要に応じて）
 
 ```bash
-yarn test:e2e
+pnpmtest:e2e
 ```
 
 以下の場合は必ずE2Eテストを実行:
@@ -53,7 +53,7 @@ yarn test:e2e
 ## 4. ビルド確認
 
 ```bash
-yarn build
+pnpmbuild
 ```
 
 - ビルドエラーがないことを確認
@@ -62,7 +62,7 @@ yarn build
 ## 5. Storybookでの動作確認（UI変更時）
 
 ```bash
-yarn storybook
+pnpmstorybook
 ```
 
 - コンポーネントの見た目を確認

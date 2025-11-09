@@ -24,21 +24,15 @@
 - `src/layouts/components/*/index.ts` (複数)
 - `src/lib/*/index.ts` (複数)
 
-## 2. パッケージマネージャーの不一致
+## 2. パッケージマネージャーの移行完了
 
-**現状**: `yarn`を使用中
+**現状**: `pnpm`を使用中
 
-**ユーザー設定**: `pnpm`を推奨
-
-**対応**:
-- プロジェクト全体で`pnpm`に移行を検討
-- `yarn.lock`を削除し、`pnpm-lock.yaml`を作成
-- CI/CDワークフローも更新が必要
-
-**影響**:
-- package.jsonのスクリプト（変更不要）
-- .github/workflows/*.yml（packageManagerの指定）
-- README.mdの手順書
+**対応済み**:
+- ✅ プロジェクト全体で`pnpm`に移行完了
+- ✅ `yarn.lock`を削除し、`pnpm-lock.yaml`を作成
+- ✅ CI/CDワークフローも更新完了
+- ✅ ドキュメント更新完了
 
 ## 3. 古い依存関係
 
@@ -60,7 +54,7 @@
 - **更新必要性**: 中（メジャーバージョンアップ、破壊的変更の可能性）
 
 ### その他の依存関係
-定期的に`yarn outdated`または`pnpm outdated`で確認
+定期的に`pnpm outdated`で確認
 
 ## 4. CLAUDE.mdの情報更新が必要
 
@@ -112,6 +106,5 @@ CLAUDE.mdには以下の記載があるが、実際はApp Routerに移行済み:
 1. **高**: バレルファイル削除（ユーザー設定違反）
 2. **高**: CLAUDE.md更新（App Router移行済み）
 3. **中**: 依存関係の更新（@notionhq/client, @sentry/nextjs）
-4. **中**: パッケージマネージャー移行（yarn → pnpm）
-5. **低**: テストカバレッジ向上
-6. **低**: パフォーマンス最適化
+4. **低**: テストカバレッジ向上
+5. **低**: パフォーマンス最適化
