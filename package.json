@@ -8,9 +8,9 @@
     "format": "oxfmt .",
     "format:check": "oxfmt --check .",
     "lint": "oxlint",
-    "typecheck": "tsc --noEmit",
     "lint:fix": "oxlint --fix --fix-suggestions --fix-dangerously",
-    "start": "next start"
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "next": "16.1.6",
@@ -30,5 +30,6 @@
   },
   "engines": {
     "node": ">=24"
-  }
+  },
+  "packageManager": "pnpm@10.30.0"
 }
