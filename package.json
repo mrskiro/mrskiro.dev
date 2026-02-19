@@ -2,12 +2,14 @@
   "name": "mrskiro.dev",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": ">=24"
-  },
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
+    "dev": "next dev",
+    "format": "oxfmt .",
+    "format:check": "oxfmt --check .",
+    "lint": "oxlint",
+    "typecheck": "tsc --noEmit",
+    "lint:fix": "oxlint --fix --fix-suggestions --fix-dangerously",
     "start": "next start"
   },
   "dependencies": {
@@ -21,7 +23,12 @@
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
     "babel-plugin-react-compiler": "1.0.0",
+    "oxfmt": "0.33.0",
+    "oxlint": "1.48.0",
     "tailwindcss": "4.2.0",
     "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": ">=24"
   }
 }
