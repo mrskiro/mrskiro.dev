@@ -37,6 +37,7 @@ user-invocable: false
 ## Layout
 
 - Always use `find_empty_space_on_canvas` before placing new top-level frames
+- `find_empty_space_on_canvas` requires `filePath` parameter — omitting causes errors
 - Use `snapshot_layout` to check computed layout when debugging spacing
 - Prefer `fill_container` over hardcoded widths for children
 - `fit_content` for container height unless fixed viewport size needed
@@ -45,6 +46,11 @@ user-invocable: false
 
 - Use `get_screenshot` after changes to verify visually
 - Use `batch_get` with `resolveVariables: true` to check computed values
+
+## Image Generation (G)
+
+- `G()` saves generated files to `images/` directory — delete manually if node is removed
+- AI-generated images may not match specific pixel art or logos — use `C()` to copy user-provided images instead
 
 ## Text Nodes
 
@@ -61,6 +67,11 @@ user-invocable: false
 - Use `gap` (not `itemSpacing`) for layout spacing
 - Use `content` (not `text`) for text node content
 - Check existing nodes with `batch_get` to confirm correct property names before creating new nodes
+
+## Design Exploration
+
+- When exploring multiple options, create variants side by side and screenshot all for comparison
+- Delete rejected variants after decision to keep canvas clean
 
 ## Design Values
 

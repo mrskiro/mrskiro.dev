@@ -10,7 +10,10 @@ type Props = {
 export const generateMetadata = async ({ params }: Props): Promise<Metadata> => {
   const { slug } = await params;
   const { frontmatter } = await import(`contents/writing/${slug}.mdx`);
-  return { title: frontmatter.title };
+  return {
+    title: frontmatter.title,
+    description: frontmatter.description,
+  };
 };
 
 export const generateStaticParams = async () => {

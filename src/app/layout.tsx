@@ -7,6 +7,17 @@ export const metadata: Metadata = {
     default: "mrskiro",
     template: "%s - mrskiro",
   },
+  description: "Software Engineer from Japan. Indie hacker building things around UI/UX and AI.",
+  metadataBase: new URL("https://mrskiro.dev"),
+  openGraph: {
+    type: "website",
+    locale: "ja_JP",
+    siteName: "mrskiro",
+  },
+  twitter: {
+    card: "summary_large_image",
+    creator: "@mrskiro_",
+  },
 };
 
 export default function RootLayout({
