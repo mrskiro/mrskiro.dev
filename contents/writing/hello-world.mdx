@@ -1,0 +1,103 @@
+---
+title: "Hello World"
+date: "2026-02-19"
+---
+
+最初のブログ記事です。このページは MDX の各記法を確認するためのサンプルです。
+
+## 見出し
+
+見出しはフォントサイズではなく、余白の大きさで階層を表現しています。
+
+### H3 見出し
+
+H3 は H2 より余白が狭くなります。セクション内のサブトピックに使います。
+
+#### H4 見出し
+
+H4 はさらに余白が狭く、より細かい分類に使います。
+
+## テキスト
+
+これは通常のテキストです。**太字**や*斜体*、そして~~取り消し線~~も使えます。`インラインコード`はこのように背景色付きで表示されます。
+
+段落が複数あるとき、行間と段落間のリズムが読みやすさに直結します。`line-height: 1.75` で日本語の可読性を確保しつつ、段落間は `margin-bottom: 16px` で適度に区切っています。
+
+## リンク
+
+[GitHub](https://github.com)への外部リンクと、[ホーム](/)への内部リンク。すべてのリンクはアクセントカラーの下線で統一しています。
+
+## リスト
+
+箇条書きリスト：
+
+- TypeScript で型安全に書く
+- Tailwind CSS でスタイリング
+  - ユーティリティファーストのアプローチ
+  - カスタム CSS は最小限に
+- MDX でコンテンツを管理する
+
+番号付きリスト：
+
+1. `contents/writing/` に MDX ファイルを作成
+2. frontmatter にタイトルと日付を記述
+3. 本文を Markdown で書く
+
+## 引用
+
+> Simple is better than complex.
+> Complex is better than complicated.
+
+## コードブロック
+
+TypeScript の例：
+
+```ts
+type Post = {
+  slug: string;
+  title: string;
+  date: string;
+};
+
+const formatDate = (date: string) =>
+  new Intl.DateTimeFormat("ja-JP", {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(new Date(date));
+```
+
+JSX の例：
+
+```tsx
+const PostList = ({ posts }: { posts: Post[] }) => (
+  <ul>
+    {posts.map((post) => (
+      <li key={post.slug}>
+        <time>{formatDate(post.date)}</time>
+        <a href={`/writing/${post.slug}`}>{post.title}</a>
+      </li>
+    ))}
+  </ul>
+);
+```
+
+インラインコードは `const x = 42` のように文中に埋め込めます。
+
+## テーブル
+
+| ツール       | 用途           | 備考                  |
+| ------------ | -------------- | --------------------- |
+| Next.js      | フレームワーク | App Router            |
+| Tailwind CSS | スタイリング   | v4                    |
+| MDX          | コンテンツ     | remark プラグイン対応 |
+| oxlint       | リンター       | ESLint より高速       |
+| oxfmt        | フォーマッター | Prettier より高速     |
+
+## 水平線
+
+セクション間の区切りに使えます。
+
+---
+
+ここから別のセクションが始まります。
