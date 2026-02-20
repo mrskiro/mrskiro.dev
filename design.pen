@@ -910,7 +910,8 @@
               "fill": "$text-primary",
               "content": "← Home",
               "fontFamily": "Inter",
-              "fontSize": 16
+              "fontSize": 16,
+              "fontWeight": "normal"
             },
             {
               "type": "text",
@@ -971,7 +972,8 @@
                       "fill": "$text-primary",
                       "content": "Software Engineer — Company A",
                       "fontFamily": "Inter",
-                      "fontSize": 16
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -980,7 +982,8 @@
                       "fill": "$text-primary",
                       "content": "2023 – Present",
                       "fontFamily": "Courier New",
-                      "fontSize": 16
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -992,7 +995,8 @@
                       "content": "Frontend development with React/Next.js. Design system development and maintenance. Performance optimization.",
                       "lineHeight": 1.7,
                       "fontFamily": "Inter",
-                      "fontSize": 16
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -1011,7 +1015,8 @@
                       "fill": "$text-primary",
                       "content": "Frontend Engineer — Company B",
                       "fontFamily": "Inter",
-                      "fontSize": 16
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -1020,7 +1025,8 @@
                       "fill": "$text-primary",
                       "content": "2021 – 2023",
                       "fontFamily": "Courier New",
-                      "fontSize": 16
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -1032,7 +1038,8 @@
                       "content": "Built and maintained web applications. Collaborated with design team on UI/UX improvements.",
                       "lineHeight": 1.7,
                       "fontFamily": "Inter",
-                      "fontSize": 16
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -1066,7 +1073,8 @@
                   "content": "TypeScript, React, Next.js, Tailwind CSS, Node.js, Figma, Git",
                   "lineHeight": 1.7,
                   "fontFamily": "Inter",
-                  "fontSize": 16
+                  "fontSize": 16,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -1103,7 +1111,8 @@
                       "fill": "$text-primary",
                       "content": "B.S. Computer Science — University",
                       "fontFamily": "Inter",
-                      "fontSize": 16
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -1112,7 +1121,8 @@
                       "fill": "$text-primary",
                       "content": "2017 – 2021",
                       "fontFamily": "Courier New",
-                      "fontSize": 16
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -1166,6 +1176,32 @@
           "content": "← Home",
           "fontFamily": "Inter",
           "fontSize": 16,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "KuHrU",
+      "x": 3080,
+      "y": 1708,
+      "name": "OGP — Default",
+      "width": 1200,
+      "height": 630,
+      "fill": "$bg",
+      "layout": "vertical",
+      "gap": 12,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "lvA02",
+          "name": "d_url",
+          "fill": "$accent",
+          "content": "mrskiro.dev",
+          "fontFamily": "Roboto Mono",
+          "fontSize": 32,
           "fontWeight": "normal"
         }
       ]

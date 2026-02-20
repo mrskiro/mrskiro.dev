@@ -50,6 +50,8 @@
 - Articles: `contents/writing/*.mdx` (repository root)
 - MDX prose styles: `mdx-components.tsx` (Tailwind classes per element)
 - Pages: `src/app/`
+- OGP image: `src/app/opengraph-image.tsx` (`next/og` ImageResponse, all pages share one image)
+- Favicon: `src/app/icon.png` (32x32), `src/app/apple-icon.png` (180x180) — pixel cat
 
 ## Development
 
