@@ -43,3 +43,6 @@ next-env.d.ts
 # claude local files
 /.claude/*.txt
 /.claude/settings.local.json
+
+# local temp files
+/tmp

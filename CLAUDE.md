@@ -23,6 +23,17 @@
 
 - Claude runs non-interactive commands (pnpm install, git operations, etc.)
 - User runs interactive CLIs (prompts/wizards like create-next-app)
+- NEVER commit without explicit user instruction
+
+## Repository
+
+- Public repo — never commit secrets, personal URLs, or reference site lists
+- `/tmp` directory for local-only files (gitignored)
+
+## Design
+
+- `design.pen` is encrypted — use Pencil MCP tools only, not Read/Grep
+- `DESIGN.md` for design principles and decisions
 
 ## Coding Conventions
 
