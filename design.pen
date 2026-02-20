@@ -1,0 +1,365 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "BqudC",
+      "x": 0,
+      "y": 0,
+      "name": "Home",
+      "width": 1440,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "dwy94",
+          "name": "Hero",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            80,
+            120,
+            0,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "FA8py",
+              "name": "Name",
+              "fill": "#000000",
+              "content": "Haruki",
+              "fontFamily": "Inter",
+              "fontSize": 56,
+              "fontWeight": "300",
+              "letterSpacing": -2
+            },
+            {
+              "type": "text",
+              "id": "iQMfD",
+              "name": "Bio",
+              "fill": "#999999",
+              "textGrowth": "fixed-width",
+              "width": 560,
+              "content": "Software Engineer from Japan.\nIndie hacker building things around UI/UX and AI.\nFind me on GitHub ↗, X ↗ or reach out via email.",
+              "lineHeight": 1.7,
+              "fontFamily": "Inter",
+              "fontSize": 18
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "H28Pg",
+          "name": "Projects Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            64,
+            120,
+            0,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "ZZ3O6",
+              "name": "Section Label",
+              "fill": "#999999",
+              "content": "PROJECTS",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "9jTWW",
+              "name": "Project List",
+              "width": "fill_container",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "OWIlu",
+                  "name": "Project Row 1",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "#F0F0F0"
+                  },
+                  "gap": 16,
+                  "padding": [
+                    16,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dU7SV",
+                      "name": "row1Name",
+                      "fill": "#000000",
+                      "content": "Project Alpha ↗",
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    },
+                    {
+                      "type": "text",
+                      "id": "2lpKX",
+                      "name": "row1Desc",
+                      "fill": "#999999",
+                      "content": "AI-powered productivity tool",
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "n5ew6",
+                  "name": "Project Row 2",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "#F0F0F0"
+                  },
+                  "gap": 16,
+                  "padding": [
+                    16,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "76gRZ",
+                      "name": "row2Name",
+                      "fill": "#000000",
+                      "content": "Project Beta ↗",
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    },
+                    {
+                      "type": "text",
+                      "id": "TggbG",
+                      "name": "row2Desc",
+                      "fill": "#999999",
+                      "content": "Minimal design system for developers",
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YW18j",
+                  "name": "Project Row 3",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "padding": [
+                    16,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SJybT",
+                      "name": "row3Name",
+                      "fill": "#000000",
+                      "content": "Project Gamma ↗",
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    },
+                    {
+                      "type": "text",
+                      "id": "0uUmK",
+                      "name": "row3Desc",
+                      "fill": "#999999",
+                      "content": "Open source CLI framework",
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "5pkii",
+          "name": "Blog Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            64,
+            120,
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Dflbq",
+              "name": "Blog Header",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "gv0JO",
+                  "name": "blogLabel",
+                  "fill": "#999999",
+                  "content": "BLOG",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "qZffg",
+                  "name": "blogAll",
+                  "fill": "#999999",
+                  "content": "All posts →",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hqx5N",
+              "name": "Blog List",
+              "width": "fill_container",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "HeshM",
+                  "name": "Post Row 1",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "#F0F0F0"
+                  },
+                  "gap": 24,
+                  "padding": [
+                    16,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cxfsA",
+                      "name": "post1Date",
+                      "fill": "#C4C4C4",
+                      "content": "2026-02-19",
+                      "fontFamily": "Courier New",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ec46E",
+                      "name": "post1Title",
+                      "fill": "#000000",
+                      "content": "Building a personal site with Next.js and MDX",
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "MgUbe",
+                  "name": "Post Row 2",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "#F0F0F0"
+                  },
+                  "gap": 24,
+                  "padding": [
+                    16,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Gszqz",
+                      "name": "post2Date",
+                      "fill": "#C4C4C4",
+                      "content": "2026-02-10",
+                      "fontFamily": "Courier New",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "UPR9m",
+                      "name": "post2Title",
+                      "fill": "#000000",
+                      "content": "Why I chose system fonts over web fonts",
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HUsh4",
+                  "name": "Post Row 3",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "padding": [
+                    16,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lb4Vf",
+                      "name": "post3Date",
+                      "fill": "#C4C4C4",
+                      "content": "2026-01-28",
+                      "fontFamily": "Courier New",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "G40My",
+                      "name": "post3Title",
+                      "fill": "#000000",
+                      "content": "Designing for developers: less is more",
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
