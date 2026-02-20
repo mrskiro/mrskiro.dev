@@ -57,3 +57,4 @@
 
 - Start dev server in background, then verify with browser_eval (Chrome)
 - Next.js API/conventions: always check Next.js MCP docs (`nextjs_docs`) before implementing
+- Never rely on training knowledge — always fetch latest docs via context7 or Next.js MCP before writing code
