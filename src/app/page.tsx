@@ -1,65 +1,79 @@
-import Image from "next/image";
+import { readdir } from "fs/promises";
+import Link from "next/link";
 
-export default function Home() {
+const projects = [
+  {
+    name: "Calect",
+    description: "Sync your calendars",
+    url: "https://calect.com",
+  },
+];
+
+const getPosts = async () => {
+  const files = await readdir("contents/writing");
+  const posts = await Promise.all(
+    files
+      .filter((file) => file.endsWith(".mdx"))
+      .map(async (file) => {
+        const slug = file.replace(/\.mdx$/, "");
+        const { frontmatter } = await import(`contents/writing/${slug}.mdx`);
+        return { slug, frontmatter: frontmatter as { title: string; date: string } };
+      }),
+  );
+  return posts.sort(
+    (a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime(),
+  );
+};
+
+export default async function Page() {
+  const posts = await getPosts();
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between bg-white px-16 py-32 sm:items-start dark:bg-black">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl leading-10 font-semibold tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div className="grid gap-12">
+      <section className="grid gap-4">
+        <h1 className="font-medium">mrskiro</h1>
+        <p>
+          Software Engineer from Japan.
+          <br />
+          Indie hacker building things around UI/UX and AI.
+          <br />
+          Find me on <a href="https://github.com/mrskiro">GitHub</a>,{" "}
+          <a href="https://x.com/mrskiro_">X</a>, or reach out via{" "}
+          <a href="mailto:mrskiro.h@gmail.com">email</a>.
+        </p>
+      </section>
+
+      <section className="grid gap-4">
+        <h2 className="font-medium">Projects</h2>
+        <ul className="grid gap-2">
+          {projects.map((project) => (
+            <li key={project.name} className="flex gap-2">
+              <a href={project.url} target="_blank">
+                {project.name} ↗
+              </a>
+              <span>·</span>
+              <span>{project.description}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section className="grid gap-4">
+        <div className="flex justify-between">
+          <h2 className="font-medium">Writing</h2>
+          <Link href="/writing">All writing →</Link>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] md:w-[158px] dark:hover:bg-[#ccc]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] md:w-[158px] dark:border-white/[.145] dark:hover:bg-[#1a1a1a]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+        <ul className="grid gap-2">
+          {posts.slice(0, 3).map(({ slug, frontmatter }) => (
+            <li key={slug} className="flex gap-4">
+              <time dateTime={frontmatter.date} className="shrink-0 font-mono">
+                {frontmatter.date}
+              </time>
+              <Link href={`/writing/${slug}`}>{frontmatter.title}</Link>
+            </li>
+          ))}
+        </ul>
+      </section>
     </div>
   );
 }

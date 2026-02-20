@@ -7,8 +7,10 @@
       "x": 0,
       "y": 0,
       "name": "Home",
+      "clip": true,
       "width": 1440,
-      "fill": "#FFFFFF",
+      "height": 900,
+      "fill": "$bg",
       "layout": "vertical",
       "children": [
         {
@@ -17,36 +19,36 @@
           "name": "Hero",
           "width": "fill_container",
           "layout": "vertical",
-          "gap": 20,
+          "gap": 16,
           "padding": [
-            80,
-            120,
+            48,
+            432,
             0,
-            120
+            432
           ],
           "children": [
             {
               "type": "text",
               "id": "FA8py",
               "name": "Name",
-              "fill": "#000000",
-              "content": "Haruki",
+              "fill": "$text-primary",
+              "content": "mrskiro",
               "fontFamily": "Inter",
-              "fontSize": 56,
-              "fontWeight": "300",
-              "letterSpacing": -2
+              "fontSize": 16,
+              "fontWeight": "500"
             },
             {
               "type": "text",
               "id": "iQMfD",
               "name": "Bio",
-              "fill": "#999999",
+              "fill": "$text-primary",
               "textGrowth": "fixed-width",
               "width": 560,
               "content": "Software Engineer from Japan.\nIndie hacker building things around UI/UX and AI.\nFind me on GitHub ↗, X ↗ or reach out via email.",
               "lineHeight": 1.7,
               "fontFamily": "Inter",
-              "fontSize": 18
+              "fontSize": 16,
+              "fontWeight": "normal"
             }
           ]
         },
@@ -56,24 +58,23 @@
           "name": "Projects Section",
           "width": "fill_container",
           "layout": "vertical",
-          "gap": 32,
+          "gap": 16,
           "padding": [
-            64,
-            120,
+            48,
+            432,
             0,
-            120
+            432
           ],
           "children": [
             {
               "type": "text",
               "id": "ZZ3O6",
               "name": "Section Label",
-              "fill": "#999999",
-              "content": "PROJECTS",
+              "fill": "$text-primary",
+              "content": "Projects",
               "fontFamily": "Inter",
-              "fontSize": 11,
-              "fontWeight": "500",
-              "letterSpacing": 2
+              "fontSize": 16,
+              "fontWeight": "500"
             },
             {
               "type": "frame",
@@ -91,11 +92,11 @@
                     "thickness": {
                       "bottom": 1
                     },
-                    "fill": "#F0F0F0"
+                    "fill": "$border"
                   },
                   "gap": 16,
                   "padding": [
-                    16,
+                    8,
                     0
                   ],
                   "alignItems": "center",
@@ -104,19 +105,21 @@
                       "type": "text",
                       "id": "dU7SV",
                       "name": "row1Name",
-                      "fill": "#000000",
+                      "fill": "$text-primary",
                       "content": "Project Alpha ↗",
                       "fontFamily": "Inter",
-                      "fontSize": 15
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
                       "id": "2lpKX",
                       "name": "row1Desc",
-                      "fill": "#999999",
+                      "fill": "$text-primary",
                       "content": "AI-powered productivity tool",
                       "fontFamily": "Inter",
-                      "fontSize": 13
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -129,11 +132,11 @@
                     "thickness": {
                       "bottom": 1
                     },
-                    "fill": "#F0F0F0"
+                    "fill": "$border"
                   },
                   "gap": 16,
                   "padding": [
-                    16,
+                    8,
                     0
                   ],
                   "alignItems": "center",
@@ -142,19 +145,21 @@
                       "type": "text",
                       "id": "76gRZ",
                       "name": "row2Name",
-                      "fill": "#000000",
+                      "fill": "$text-primary",
                       "content": "Project Beta ↗",
                       "fontFamily": "Inter",
-                      "fontSize": 15
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
                       "id": "TggbG",
                       "name": "row2Desc",
-                      "fill": "#999999",
+                      "fill": "$text-primary",
                       "content": "Minimal design system for developers",
                       "fontFamily": "Inter",
-                      "fontSize": 13
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -165,7 +170,7 @@
                   "width": "fill_container",
                   "gap": 16,
                   "padding": [
-                    16,
+                    8,
                     0
                   ],
                   "alignItems": "center",
@@ -174,19 +179,21 @@
                       "type": "text",
                       "id": "SJybT",
                       "name": "row3Name",
-                      "fill": "#000000",
+                      "fill": "$text-primary",
                       "content": "Project Gamma ↗",
                       "fontFamily": "Inter",
-                      "fontSize": 15
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
                       "id": "0uUmK",
                       "name": "row3Desc",
-                      "fill": "#999999",
+                      "fill": "$text-primary",
                       "content": "Open source CLI framework",
                       "fontFamily": "Inter",
-                      "fontSize": 13
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -200,12 +207,10 @@
           "name": "Blog Section",
           "width": "fill_container",
           "layout": "vertical",
-          "gap": 32,
+          "gap": 16,
           "padding": [
-            64,
-            120,
-            80,
-            120
+            48,
+            432
           ],
           "children": [
             {
@@ -220,23 +225,21 @@
                   "type": "text",
                   "id": "gv0JO",
                   "name": "blogLabel",
-                  "fill": "#999999",
-                  "content": "BLOG",
+                  "fill": "$text-primary",
+                  "content": "Writing",
                   "fontFamily": "Inter",
-                  "fontSize": 11,
-                  "fontWeight": "500",
-                  "letterSpacing": 2
+                  "fontSize": 16,
+                  "fontWeight": "500"
                 },
                 {
                   "type": "text",
                   "id": "qZffg",
                   "name": "blogAll",
-                  "fill": "#999999",
-                  "content": "All posts →",
+                  "fill": "$text-primary",
+                  "content": "All writing",
                   "fontFamily": "Inter",
-                  "fontSize": 11,
-                  "fontWeight": "500",
-                  "letterSpacing": 2
+                  "fontSize": 16,
+                  "fontWeight": "500"
                 }
               ]
             },
@@ -256,11 +259,11 @@
                     "thickness": {
                       "bottom": 1
                     },
-                    "fill": "#F0F0F0"
+                    "fill": "$border"
                   },
-                  "gap": 24,
+                  "gap": 16,
                   "padding": [
-                    16,
+                    8,
                     0
                   ],
                   "alignItems": "center",
@@ -269,19 +272,21 @@
                       "type": "text",
                       "id": "cxfsA",
                       "name": "post1Date",
-                      "fill": "#C4C4C4",
+                      "fill": "$text-primary",
                       "content": "2026-02-19",
                       "fontFamily": "Courier New",
-                      "fontSize": 13
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
                       "id": "Ec46E",
                       "name": "post1Title",
-                      "fill": "#000000",
+                      "fill": "$text-primary",
                       "content": "Building a personal site with Next.js and MDX",
                       "fontFamily": "Inter",
-                      "fontSize": 15
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -294,11 +299,11 @@
                     "thickness": {
                       "bottom": 1
                     },
-                    "fill": "#F0F0F0"
+                    "fill": "$border"
                   },
-                  "gap": 24,
+                  "gap": 16,
                   "padding": [
-                    16,
+                    8,
                     0
                   ],
                   "alignItems": "center",
@@ -307,19 +312,21 @@
                       "type": "text",
                       "id": "Gszqz",
                       "name": "post2Date",
-                      "fill": "#C4C4C4",
+                      "fill": "$text-primary",
                       "content": "2026-02-10",
                       "fontFamily": "Courier New",
-                      "fontSize": 13
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
                       "id": "UPR9m",
                       "name": "post2Title",
-                      "fill": "#000000",
+                      "fill": "$text-primary",
                       "content": "Why I chose system fonts over web fonts",
                       "fontFamily": "Inter",
-                      "fontSize": 15
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -328,9 +335,9 @@
                   "id": "HUsh4",
                   "name": "Post Row 3",
                   "width": "fill_container",
-                  "gap": 24,
+                  "gap": 16,
                   "padding": [
-                    16,
+                    8,
                     0
                   ],
                   "alignItems": "center",
@@ -339,19 +346,21 @@
                       "type": "text",
                       "id": "lb4Vf",
                       "name": "post3Date",
-                      "fill": "#C4C4C4",
+                      "fill": "$text-primary",
                       "content": "2026-01-28",
                       "fontFamily": "Courier New",
-                      "fontSize": 13
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
                       "id": "G40My",
                       "name": "post3Title",
-                      "fill": "#000000",
+                      "fill": "$text-primary",
                       "content": "Designing for developers: less is more",
                       "fontFamily": "Inter",
-                      "fontSize": 15
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -360,6 +369,836 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "TfOHr",
+      "x": 1540,
+      "y": 0,
+      "name": "Blog Detail",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "uPOU4",
+          "name": "Article Header",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            48,
+            432,
+            0,
+            432
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "9VcJ7",
+              "name": "Back Link",
+              "fill": "$text-primary",
+              "content": "← Writing",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "NFBlD",
+              "name": "Title Block",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "q5SbR",
+                  "name": "Article Title",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Building a personal site with Next.js and MDX",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "tO67D",
+                  "name": "Article Date",
+                  "fill": "$text-primary",
+                  "content": "2026-02-19",
+                  "fontFamily": "Courier New",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OQdbj",
+          "name": "Article Body",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            48,
+            432
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "YcaMl",
+              "name": "Intro Paragraph",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "個人サイトを作り直すにあたって、Next.js 16とMDXを選んだ理由と、実際の構築プロセスについて書きます。技術選定からデプロイまで、できるだけシンプルに保つことを意識しました。",
+              "lineHeight": 1.7,
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "ey2r3",
+              "name": "H2 Heading 1",
+              "fill": "$text-primary",
+              "content": "Why Next.js + MDX",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "l1aFd",
+              "name": "Paragraph 1",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "MDXはMarkdownの中にJSXコンポーネントを埋め込める形式です。ブログ記事をMarkdownで書きつつ、必要に応じてインタラクティブなコンポーネントを差し込めます。Next.jsのApp Routerと組み合わせることで、ファイルベースのルーティングとMDXの柔軟性を両立できます。",
+              "lineHeight": 1.7,
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "8VTSZ",
+              "name": "Code Block",
+              "width": "fill_container",
+              "fill": "$code-bg",
+              "layout": "vertical",
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rYWCJ",
+                  "name": "Code Comment",
+                  "fill": "$text-primary",
+                  "content": "// next.config.ts",
+                  "fontFamily": "monospace",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "TBNNU",
+                  "name": "Code Line 1",
+                  "fill": "$text-primary",
+                  "content": "import createMDX from '@next/mdx'",
+                  "fontFamily": "monospace",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "rJAtG",
+                  "name": "Code Line 2",
+                  "fill": "$text-primary",
+                  "content": "const withMDX = createMDX()",
+                  "fontFamily": "monospace",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "QQCRA",
+                  "name": "Code Line 3",
+                  "fill": "$text-primary",
+                  "content": "export default withMDX(nextConfig)",
+                  "fontFamily": "monospace",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "twmRX",
+              "name": "H2 Heading 2",
+              "fill": "$text-primary",
+              "content": "Keeping it simple",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "XS2BP",
+              "name": "Paragraph 2",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "デザインの原則は「デフォルトに従う」こと。カスタマイズを最小限にし、メンテナンスコストを下げることを優先しました。Tailwind CSS v4を使い、システムフォントスタックを採用。Webフォントのロードを省くことで、パフォーマンスもシンプルさも確保しています。",
+              "lineHeight": 1.7,
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "0vt6S",
+              "name": "Paragraph 3",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "結果として、ビルドは高速で、依存関係も少なく、長期的にメンテナンスしやすい構成になりました。個人サイトにはこのくらいのシンプルさがちょうどいいと思います。",
+              "lineHeight": 1.7,
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "cB70Y",
+      "x": 3080,
+      "y": 0,
+      "name": "Blog List",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "NrZu6",
+          "name": "Page Header",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            48,
+            432,
+            0,
+            432
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "ByPlx",
+              "name": "Back Link",
+              "fill": "$text-primary",
+              "content": "← Home",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "RDgou",
+              "name": "Page Title",
+              "fill": "$text-primary",
+              "content": "Writing",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "RVAan",
+          "name": "Post List",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            48,
+            432
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Z07mX",
+              "name": "Post Row 1",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 16,
+              "padding": [
+                8,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hdP7r",
+                  "name": "d1",
+                  "fill": "$text-primary",
+                  "content": "2026-02-19",
+                  "fontFamily": "Courier New",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "V8PiX",
+                  "name": "t1",
+                  "fill": "$text-primary",
+                  "content": "Building a personal site with Next.js and MDX",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "7i8m9",
+              "name": "Post Row 2",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 16,
+              "padding": [
+                8,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IFBc8",
+                  "name": "d2",
+                  "fill": "$text-primary",
+                  "content": "2026-02-10",
+                  "fontFamily": "Courier New",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "xWCHD",
+                  "name": "t2",
+                  "fill": "$text-primary",
+                  "content": "Why I chose system fonts over web fonts",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "G5bfJ",
+              "name": "Post Row 3",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 16,
+              "padding": [
+                8,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DfFWN",
+                  "name": "d3",
+                  "fill": "$text-primary",
+                  "content": "2026-01-28",
+                  "fontFamily": "Courier New",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "uebsC",
+                  "name": "t3",
+                  "fill": "$text-primary",
+                  "content": "Designing for developers: less is more",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Fm3C3",
+              "name": "Post Row 4",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 16,
+              "padding": [
+                8,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "8AMqG",
+                  "name": "d4",
+                  "fill": "$text-primary",
+                  "content": "2026-01-15",
+                  "fontFamily": "Courier New",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "xwhB6",
+                  "name": "t4",
+                  "fill": "$text-primary",
+                  "content": "oxlint and oxfmt: a faster linting workflow",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "w72pr",
+              "name": "Post Row 5",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 16,
+              "padding": [
+                8,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lulVP",
+                  "name": "d5",
+                  "fill": "$text-primary",
+                  "content": "2025-12-20",
+                  "fontFamily": "Courier New",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "aaHaa",
+                  "name": "t5",
+                  "fill": "$text-primary",
+                  "content": "Tailwind v4: what changed and why it matters",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VoC6z",
+              "name": "Post Row 6",
+              "width": "fill_container",
+              "gap": 16,
+              "padding": [
+                8,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JEBnn",
+                  "name": "d6",
+                  "fill": "$text-primary",
+                  "content": "2025-12-05",
+                  "fontFamily": "Courier New",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "a0XnM",
+                  "name": "t6",
+                  "fill": "$text-primary",
+                  "content": "Indie hacking as a software engineer",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "c4aAT",
+      "x": 4620,
+      "y": 0,
+      "name": "Resume",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "ZVWBZ",
+          "name": "Page Header",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            48,
+            432,
+            0,
+            432
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "IB7cz",
+              "name": "Back Link",
+              "fill": "$text-primary",
+              "content": "← Home",
+              "fontFamily": "Inter",
+              "fontSize": 16
+            },
+            {
+              "type": "text",
+              "id": "8Xvzm",
+              "name": "Page Title",
+              "fill": "$text-primary",
+              "content": "Resume",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "rIrhc",
+          "name": "Resume Body",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            32,
+            432,
+            48,
+            432
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "BHx1o",
+              "name": "Experience",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wvEwa",
+                  "name": "expLabel",
+                  "fill": "$text-primary",
+                  "content": "Experience",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "gtDOC",
+                  "name": "Job 1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SeQj5",
+                      "name": "job1title",
+                      "fill": "$text-primary",
+                      "content": "Software Engineer — Company A",
+                      "fontFamily": "Inter",
+                      "fontSize": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "bqnRp",
+                      "name": "job1date",
+                      "fill": "$text-primary",
+                      "content": "2023 – Present",
+                      "fontFamily": "Courier New",
+                      "fontSize": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "H00hy",
+                      "name": "job1desc",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Frontend development with React/Next.js. Design system development and maintenance. Performance optimization.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 16
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RiZrk",
+                  "name": "Job 2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "F8Mta",
+                      "name": "job2title",
+                      "fill": "$text-primary",
+                      "content": "Frontend Engineer — Company B",
+                      "fontFamily": "Inter",
+                      "fontSize": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "Rh5TJ",
+                      "name": "job2date",
+                      "fill": "$text-primary",
+                      "content": "2021 – 2023",
+                      "fontFamily": "Courier New",
+                      "fontSize": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "gKHDy",
+                      "name": "job2desc",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Built and maintained web applications. Collaborated with design team on UI/UX improvements.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 16
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hIuuu",
+              "name": "Skills",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "4e3jD",
+                  "name": "skillsLabel",
+                  "fill": "$text-primary",
+                  "content": "Skills",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "nTvA5",
+                  "name": "skillsText",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "TypeScript, React, Next.js, Tailwind CSS, Node.js, Figma, Git",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Inter",
+                  "fontSize": 16
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Dil1l",
+              "name": "Education",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ycHWA",
+                  "name": "eduLabel",
+                  "fill": "$text-primary",
+                  "content": "Education",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "f0SGU",
+                  "name": "Edu Item",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gGZ22",
+                      "name": "eduTitle",
+                      "fill": "$text-primary",
+                      "content": "B.S. Computer Science — University",
+                      "fontFamily": "Inter",
+                      "fontSize": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "d41RF",
+                      "name": "eduDate",
+                      "fill": "$text-primary",
+                      "content": "2017 – 2021",
+                      "fontFamily": "Courier New",
+                      "fontSize": 16
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "vuDwt",
+      "x": 0,
+      "y": 1100,
+      "name": "404 — Simple",
+      "width": 576,
+      "height": 400,
+      "fill": "$bg",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": [
+        48,
+        16
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "jjOGT",
+          "name": "s1",
+          "fill": "$text-primary",
+          "content": "404",
+          "fontFamily": "Inter",
+          "fontSize": 16,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "K6wpi",
+          "name": "s2",
+          "fill": "$text-primary",
+          "content": "Page not found",
+          "fontFamily": "Inter",
+          "fontSize": 16,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "gzLC3",
+          "name": "s3",
+          "fill": "$text-primary",
+          "content": "← Home",
+          "fontFamily": "Inter",
+          "fontSize": 16,
+          "fontWeight": "normal"
+        }
+      ]
     }
-  ]
+  ],
+  "variables": {
+    "accent": {
+      "type": "color",
+      "value": "#aa26ff"
+    },
+    "bg": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "border": {
+      "type": "color",
+      "value": "#F0F0F0"
+    },
+    "code-bg": {
+      "type": "color",
+      "value": "#F6F6F6"
+    },
+    "text-primary": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "text-secondary": {
+      "type": "color",
+      "value": "#999999"
+    },
+    "text-tertiary": {
+      "type": "color",
+      "value": "#C4C4C4"
+    }
+  }
 }
