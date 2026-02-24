@@ -31,7 +31,7 @@ export default async function Page() {
   return (
     <div className="grid gap-12">
       <section className="grid gap-4">
-        <h1 className="font-medium">mrskiro</h1>
+        <h1 className="font-semibold">mrskiro</h1>
         <p>
           Software Engineer from Japan.
           <br />
@@ -44,7 +44,7 @@ export default async function Page() {
       </section>
 
       <section className="grid gap-4">
-        <h2 className="font-medium">Projects</h2>
+        <h2 className="font-semibold">Projects</h2>
         <ul className="grid gap-2">
           {projects.map((project) => (
             <li key={project.name} className="flex gap-2">
@@ -60,7 +60,7 @@ export default async function Page() {
 
       <section className="grid gap-4">
         <div className="flex justify-between">
-          <h2 className="font-medium">Writing</h2>
+          <h2 className="font-semibold">Writing</h2>
           <Link href="/writing">All writing →</Link>
         </div>
         <ul className="grid gap-2">

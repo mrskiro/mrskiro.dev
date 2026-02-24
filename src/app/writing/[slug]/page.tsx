@@ -31,12 +31,14 @@ export default async function Page({ params }: Props) {
 
   return (
     <div>
-      <div className="grid gap-4">
+      <div className="grid gap-8">
         <Link href="/writing">← Writing</Link>
-        <h1 className="font-medium">{frontmatter.title}</h1>
-        <time dateTime={frontmatter.date} className="font-mono">
-          {frontmatter.date}
-        </time>
+        <div className="grid gap-1">
+          <h1 className="font-semibold">{frontmatter.title}</h1>
+          <time dateTime={frontmatter.date} className="font-mono">
+            {frontmatter.date}
+          </time>
+        </div>
       </div>
       <div className="mt-8">
         <Post />
