@@ -28,20 +28,20 @@ export default async function Page() {
 
   return (
     <div className="grid gap-12">
+      <Link href="/">← Home</Link>
       <div className="grid gap-4">
-        <Link href="/">← Home</Link>
-        <h1 className="font-medium">Writing</h1>
+        <h1 className="font-semibold">Writing</h1>
+        <ul className="grid gap-2">
+          {posts.map(({ slug, frontmatter }) => (
+            <li key={slug} className="flex gap-4">
+              <time dateTime={frontmatter.date} className="shrink-0 font-mono">
+                {frontmatter.date}
+              </time>
+              <Link href={`/writing/${slug}`}>{frontmatter.title}</Link>
+            </li>
+          ))}
+        </ul>
       </div>
-      <ul className="grid gap-2">
-        {posts.map(({ slug, frontmatter }) => (
-          <li key={slug} className="flex gap-4">
-            <time dateTime={frontmatter.date} className="shrink-0 font-mono">
-              {frontmatter.date}
-            </time>
-            <Link href={`/writing/${slug}`}>{frontmatter.title}</Link>
-          </li>
-        ))}
-      </ul>
     </div>
   );
 }

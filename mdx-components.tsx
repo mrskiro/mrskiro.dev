@@ -1,9 +1,9 @@
 import type { MDXComponents } from "mdx/types";
 
 const components: MDXComponents = {
-  h2: (props) => <h2 className="mt-14 mb-4 font-medium" {...props} />,
-  h3: (props) => <h3 className="mt-10 mb-3 font-medium" {...props} />,
-  h4: (props) => <h4 className="mt-8 mb-2 font-medium" {...props} />,
+  h2: (props) => <h2 className="mt-14 mb-4 font-semibold" {...props} />,
+  h3: (props) => <h3 className="mt-10 mb-3 font-semibold" {...props} />,
+  h4: (props) => <h4 className="mt-8 mb-2 font-semibold" {...props} />,
   strong: (props) => <strong className="font-normal text-accent" {...props} />,
   p: (props) => <p className="mb-4 leading-7" {...props} />,
   ul: (props) => <ul className="mb-4 list-disc pl-6 leading-7" {...props} />,
@@ -22,7 +22,9 @@ const components: MDXComponents = {
   ),
   hr: (props) => <hr className="my-12 border-t border-[#f0f0f0]" {...props} />,
   table: (props) => <table className="mb-4 w-full border-collapse text-sm" {...props} />,
-  th: (props) => <th className="border-b border-[#f0f0f0] p-2 text-left font-medium" {...props} />,
+  th: (props) => (
+    <th className="border-b border-[#f0f0f0] p-2 text-left font-semibold" {...props} />
+  ),
   td: (props) => <td className="border-b border-[#f0f0f0] p-2 text-left" {...props} />,
 };
 
