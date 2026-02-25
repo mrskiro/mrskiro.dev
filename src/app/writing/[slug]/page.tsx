@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 
 import { readdir } from "fs/promises";
-import Link from "next/link";
+
+import { Tategaki } from "./tategaki";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -30,19 +31,16 @@ export default async function Page({ params }: Props) {
   const { default: Post, frontmatter } = await import(`contents/writing/${slug}.mdx`);
 
   return (
-    <div>
-      <div className="grid gap-8">
-        <Link href="/writing">← Writing</Link>
-        <div className="grid gap-1">
-          <h1 className="font-semibold">{frontmatter.title}</h1>
-          <time dateTime={frontmatter.date} className="font-mono">
-            {frontmatter.date}
-          </time>
-        </div>
+    <Tategaki>
+      <div className="mt-4 grid gap-1">
+        <h1 className="font-semibold">{frontmatter.title}</h1>
+        <time dateTime={frontmatter.date} className="font-mono">
+          {frontmatter.date}
+        </time>
       </div>
       <div className="mt-8">
         <Post />
       </div>
-    </div>
+    </Tategaki>
   );
 }

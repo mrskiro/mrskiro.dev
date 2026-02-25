@@ -12,7 +12,10 @@ const components: MDXComponents = {
     <blockquote className="mb-4 border-l-2 border-accent pl-4 [&>p]:mb-0" {...props} />
   ),
   pre: (props) => (
-    <pre className="mb-4 overflow-x-auto bg-[#f6f6f6] p-4 text-sm leading-relaxed" {...props} />
+    <pre
+      className="mb-4 overflow-x-auto bg-[#f6f6f6] p-4 text-sm leading-relaxed [.tategaki_&]:[writing-mode:horizontal-tb]"
+      {...props}
+    />
   ),
   code: (props) => (
     <code
@@ -21,7 +24,12 @@ const components: MDXComponents = {
     />
   ),
   hr: (props) => <hr className="my-12 border-t border-[#f0f0f0]" {...props} />,
-  table: (props) => <table className="mb-4 w-full border-collapse text-sm" {...props} />,
+  table: (props) => (
+    <table
+      className="mb-4 w-full border-collapse text-sm [.tategaki_&]:[writing-mode:horizontal-tb]"
+      {...props}
+    />
+  ),
   th: (props) => (
     <th className="border-b border-[#f0f0f0] p-2 text-left font-semibold" {...props} />
   ),

@@ -25,7 +25,7 @@
 - Accent: `#aa26ff` (purple — personal identity, links and emphasis)
 - Code block background: `#F6F6F6`
 - Border: `#F0F0F0`
-- Dark mode: later
+- Dark mode: not planned (adds complexity; use `prefers-color-scheme` if ever needed)
 
 ## Typography
 
@@ -69,6 +69,22 @@
 - `/writing` — Article list
 - `/writing/[slug]` — Article detail
 - `/resume` — Resume (optional)
+
+## Tategaki (Vertical Writing)
+
+- Article detail only (`/writing/[slug]`)
+- `writing-mode: vertical-rl` on article body, horizontal scroll
+- Toggle: `tb-rl` / `lr-tb` link in top-right — plain link style (accent underline), no button/toggle UI
+- URL changes on switch (e.g. `?tategaki`), preference saved in `localStorage`
+- Mobile: horizontal writing only (no toggle shown)
+- Code blocks stay horizontal (inline island within vertical flow)
+- No dark mode toggle — unnecessary complexity; use `prefers-color-scheme` if needed later
+
+## Interactive UI
+
+- Site has no buttons or toggles — all interactions are links
+- Actions that change URL are links, styled identically to navigation links
+- No special UI patterns (no icons, no toggles, no switches)
 
 ## Visual Direction
 
