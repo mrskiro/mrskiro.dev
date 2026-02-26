@@ -11,9 +11,7 @@ type Props = {
   params: Promise<{ slug: string }>;
 };
 
-export const generateMetadata = async ({
-  params,
-}: Props): Promise<Metadata> => {
+export const generateMetadata = async ({ params }: Props): Promise<Metadata> => {
   const { slug } = await params;
   const { frontmatter } = await import(`contents/writing/${slug}.mdx`);
   return {
@@ -33,9 +31,7 @@ export const dynamicParams = false;
 
 export default async function Page({ params }: Props) {
   const { slug } = await params;
-  const { default: Post, frontmatter } = await import(
-    `contents/writing/${slug}.mdx`
-  );
+  const { default: Post, frontmatter } = await import(`contents/writing/${slug}.mdx`);
 
   return (
     <div>
