@@ -20,15 +20,24 @@ const components: MDXComponents = {
   ),
   strong: (props) => <strong className="font-normal text-accent" {...props} />,
   p: (props) => (
-    <p className="mbe-4 leading-7 group-data-[tategaki]/tategaki:mbe-0 group-data-[tategaki]/tategaki:indent-4" {...props}>
+    <p
+      className="mbe-4 leading-7 group-data-[tategaki]/tategaki:mbe-0 group-data-[tategaki]/tategaki:indent-4"
+      {...props}
+    >
       {tcy(props.children)}
     </p>
   ),
   ul: (props) => (
-    <ul className="mbe-4 list-disc ps-6 leading-7 group-data-[tategaki]/tategaki:mbe-0" {...props} />
+    <ul
+      className="mbe-4 list-disc ps-6 leading-7 group-data-[tategaki]/tategaki:mbe-0"
+      {...props}
+    />
   ),
   ol: (props) => (
-    <ol className="mbe-4 list-decimal ps-6 leading-7 group-data-[tategaki]/tategaki:mbe-0" {...props} />
+    <ol
+      className="mbe-4 list-decimal ps-6 leading-7 group-data-[tategaki]/tategaki:mbe-0"
+      {...props}
+    />
   ),
   li: (props) => <li {...props}>{tcy(props.children)}</li>,
   blockquote: (props) => (

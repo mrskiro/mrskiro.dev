@@ -1,4 +1,5 @@
 import { describe, expect, test } from "vitest";
+
 import { tcy } from "./tcy";
 
 /**
@@ -18,8 +19,15 @@ const getSpans = (result: ReturnType<typeof tcy>): Array<{ className: string; te
       return;
     }
     if (node && typeof node === "object" && "props" in (node as Record<string, unknown>)) {
-      const el = node as { type: string | ((...args: unknown[]) => unknown); props: Record<string, unknown> };
-      if (el.type === "span" && el.props.className?.includes("text-combine-upright")) {
+      const el = node as {
+        type: string | ((...args: unknown[]) => unknown);
+        props: Record<string, unknown>;
+      };
+      if (
+        el.type === "span" &&
+        typeof el.props.className === "string" &&
+        el.props.className.includes("text-combine-upright")
+      ) {
         const children = el.props.children;
         spans.push({ className: "tcy", text: String(children) });
       }

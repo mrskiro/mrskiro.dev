@@ -14,7 +14,7 @@ export const tcy = (children: ReactNode): ReactNode =>
       if (parts.length === 1) return child;
       return parts.map((part, i) =>
         i % 2 === 1 ? (
-          <span key={i} className="[text-combine-upright:all] [-webkit-text-combine:horizontal]">
+          <span key={i} className="[-webkit-text-combine:horizontal] [text-combine-upright:all]">
             {part}
           </span>
         ) : (
