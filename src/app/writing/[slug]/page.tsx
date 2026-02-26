@@ -11,7 +11,9 @@ type Props = {
   params: Promise<{ slug: string }>;
 };
 
-export const generateMetadata = async ({ params }: Props): Promise<Metadata> => {
+export const generateMetadata = async ({
+  params,
+}: Props): Promise<Metadata> => {
   const { slug } = await params;
   const { frontmatter } = await import(`contents/writing/${slug}.mdx`);
   return {
@@ -31,7 +33,9 @@ export const dynamicParams = false;
 
 export default async function Page({ params }: Props) {
   const { slug } = await params;
-  const { default: Post, frontmatter } = await import(`contents/writing/${slug}.mdx`);
+  const { default: Post, frontmatter } = await import(
+    `contents/writing/${slug}.mdx`
+  );
 
   return (
     <div>
@@ -41,19 +45,19 @@ export default async function Page({ params }: Props) {
           <WritingModeSwitch />
         </Suspense>
       </div>
-      <div className="mt-4 grid gap-1">
-        <h1 className="font-semibold">{frontmatter.title}</h1>
-        <time dateTime={frontmatter.date} className="font-mono">
-          {frontmatter.date}
-        </time>
-      </div>
-      <div className="mt-8">
-        <Suspense>
-          <Tategaki>
+      <Suspense>
+        <Tategaki>
+          <div className="mt-4 grid gap-1">
+            <h1 className="font-semibold">{frontmatter.title}</h1>
+            <time dateTime={frontmatter.date} className="font-mono">
+              {frontmatter.date}
+            </time>
+          </div>
+          <div className="mt-8">
             <Post />
-          </Tategaki>
-        </Suspense>
-      </div>
+          </div>
+        </Tategaki>
+      </Suspense>
     </div>
   );
 }
