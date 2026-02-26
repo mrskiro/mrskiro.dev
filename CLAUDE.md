@@ -28,6 +28,7 @@
 
 - Claude runs non-interactive commands (pnpm install, git operations, etc.)
 - User runs interactive CLIs (prompts/wizards like create-next-app)
+- Run `pnpm format` before committing (oxfmt auto-format)
 - NEVER commit without explicit user instruction
 
 ## Repository
@@ -54,7 +55,7 @@
 
 - Next.js convention files (page, layout, not-found, sitemap etc.) use `export default function` (exception to arrow function rule)
 - Always colocate export with definition — never separate `const foo = ...` then `export { foo }`
-- Tategaki conditional styles: use `data-tategaki` attribute on container with Tailwind `group` + `group-data-[tategaki]:` variant (not CSS class selector)
+- Tategaki conditional styles: use `data-tategaki` attribute on container with Tailwind `group/tategaki` + `group-data-[tategaki]/tategaki:` variant (not CSS class selector)
 - Before using Tailwind arbitrary properties (`[property:value]`), always check context7 docs for existing utility classes (e.g. `wrap-anywhere` not `[overflow-wrap:anywhere]`, `max-inline-full` not `max-is-full`)
 
 ## Project Structure
