@@ -9,7 +9,15 @@ export const Tategaki = ({ children }: { children: ReactNode }) => {
   const isTategaki = searchParams.has("tategaki");
 
   const contentRef = (node: HTMLDivElement | null) => {
-    if (node) node.scrollLeft = 0;
+    if (!node) return;
+    node.scrollLeft = 0;
+    const handler = (e: WheelEvent) => {
+      if (e.deltaY === 0) return;
+      e.preventDefault();
+      node.scrollLeft -= e.deltaY;
+    };
+    node.addEventListener("wheel", handler, { passive: false });
+    return () => node.removeEventListener("wheel", handler);
   };
 
   if (!isTategaki) return children;
