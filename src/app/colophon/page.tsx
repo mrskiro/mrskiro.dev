@@ -3,8 +3,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 const getContent = async () => {
-  const { default: Content, frontmatter } = await import("contents/colophon.mdx");
-  return { Content, frontmatter: frontmatter as { title: string } };
+  const mod = await import("contents/colophon.mdx");
+  return {
+    Content: mod.default,
+    frontmatter: (mod as unknown as { frontmatter: { title: string } }).frontmatter,
+  };
 };
 
 export const generateMetadata = async (): Promise<Metadata> => {
