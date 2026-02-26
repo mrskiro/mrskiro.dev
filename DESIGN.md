@@ -68,6 +68,7 @@
 - `/` — Home (single page, all key info)
 - `/writing` — Article list
 - `/writing/[slug]` — Article detail
+- `/colophon` — Colophon (how this site is built)
 - `/resume` — Resume (optional)
 
 ## Tategaki (Vertical Writing)

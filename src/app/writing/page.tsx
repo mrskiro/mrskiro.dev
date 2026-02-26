@@ -27,9 +27,9 @@ export default async function Page() {
   const posts = await getPosts();
 
   return (
-    <div className="grid gap-12">
+    <div>
       <Link href="/">← Home</Link>
-      <div className="grid gap-4">
+      <div className="mt-4 grid gap-4">
         <h1 className="font-semibold">Writing</h1>
         <ul className="grid gap-2">
           {posts.map(({ slug, frontmatter }) => (

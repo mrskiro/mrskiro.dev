@@ -74,6 +74,8 @@ export default async function Page() {
           ))}
         </ul>
       </section>
+
+      <Link href="/colophon">Colophon</Link>
     </div>
   );
 }
