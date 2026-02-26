@@ -1,19 +1,42 @@
 import type { MDXComponents } from "mdx/types";
 
+import { tcy } from "./src/lib/tcy";
+
 const components: MDXComponents = {
-  h2: (props) => <h2 className="mt-14 mb-4 font-semibold" {...props} />,
-  h3: (props) => <h3 className="mt-10 mb-3 font-semibold" {...props} />,
-  h4: (props) => <h4 className="mt-8 mb-2 font-semibold" {...props} />,
+  h2: (props) => (
+    <h2 className="mbs-14 mbe-4 font-semibold group-data-[tategaki]/tategaki:mbs-8" {...props}>
+      {tcy(props.children)}
+    </h2>
+  ),
+  h3: (props) => (
+    <h3 className="mbs-10 mbe-3 font-semibold group-data-[tategaki]/tategaki:mbs-6" {...props}>
+      {tcy(props.children)}
+    </h3>
+  ),
+  h4: (props) => (
+    <h4 className="mbs-8 mbe-2 font-semibold group-data-[tategaki]/tategaki:mbs-4" {...props}>
+      {tcy(props.children)}
+    </h4>
+  ),
   strong: (props) => <strong className="font-normal text-accent" {...props} />,
-  p: (props) => <p className="mb-4 leading-7" {...props} />,
-  ul: (props) => <ul className="mb-4 list-disc pl-6 leading-7" {...props} />,
-  ol: (props) => <ol className="mb-4 list-decimal pl-6 leading-7" {...props} />,
+  p: (props) => (
+    <p className="mbe-4 leading-7 group-data-[tategaki]/tategaki:mbe-0 group-data-[tategaki]/tategaki:indent-4" {...props}>
+      {tcy(props.children)}
+    </p>
+  ),
+  ul: (props) => (
+    <ul className="mbe-4 list-disc ps-6 leading-7 group-data-[tategaki]/tategaki:mbe-0" {...props} />
+  ),
+  ol: (props) => (
+    <ol className="mbe-4 list-decimal ps-6 leading-7 group-data-[tategaki]/tategaki:mbe-0" {...props} />
+  ),
+  li: (props) => <li {...props}>{tcy(props.children)}</li>,
   blockquote: (props) => (
-    <blockquote className="mb-4 border-l-2 border-accent pl-4 [&>p]:mb-0" {...props} />
+    <blockquote className="mbe-4 border-s-2 border-accent ps-4 [&>p]:mbe-0" {...props} />
   ),
   pre: (props) => (
     <pre
-      className="mb-4 overflow-x-auto bg-[#f6f6f6] p-4 text-sm leading-relaxed [.tategaki_&]:[writing-mode:horizontal-tb]"
+      className="mbe-4 overflow-x-auto bg-[#f6f6f6] p-4 text-sm leading-relaxed group-data-[tategaki]/tategaki:[writing-mode:horizontal-tb]"
       {...props}
     />
   ),
@@ -23,10 +46,16 @@ const components: MDXComponents = {
       {...props}
     />
   ),
-  hr: (props) => <hr className="my-12 border-t border-[#f0f0f0]" {...props} />,
+  img: (props) => (
+    <img
+      className="group-data-[tategaki]/tategaki:max-h-[calc(100dvh-12rem)] group-data-[tategaki]/tategaki:w-auto"
+      {...props}
+    />
+  ),
+  hr: (props) => <hr className="mbs-12 mbe-12 border-bs border-[#f0f0f0]" {...props} />,
   table: (props) => (
     <table
-      className="mb-4 w-full border-collapse text-sm [.tategaki_&]:[writing-mode:horizontal-tb]"
+      className="mbe-4 w-full border-collapse text-sm group-data-[tategaki]/tategaki:[writing-mode:horizontal-tb]"
       {...props}
     />
   ),

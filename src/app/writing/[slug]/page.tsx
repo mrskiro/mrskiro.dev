@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
 
 import { readdir } from "fs/promises";
+import Link from "next/link";
+import { Suspense } from "react";
 
 import { Tategaki } from "./tategaki";
+import { WritingModeSwitch } from "./writing-mode-switch";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -31,7 +34,13 @@ export default async function Page({ params }: Props) {
   const { default: Post, frontmatter } = await import(`contents/writing/${slug}.mdx`);
 
   return (
-    <Tategaki>
+    <div>
+      <div className="flex justify-between">
+        <Link href="/writing">← Writing</Link>
+        <Suspense>
+          <WritingModeSwitch />
+        </Suspense>
+      </div>
       <div className="mt-4 grid gap-1">
         <h1 className="font-semibold">{frontmatter.title}</h1>
         <time dateTime={frontmatter.date} className="font-mono">
@@ -39,8 +48,12 @@ export default async function Page({ params }: Props) {
         </time>
       </div>
       <div className="mt-8">
-        <Post />
+        <Suspense>
+          <Tategaki>
+            <Post />
+          </Tategaki>
+        </Suspense>
       </div>
-    </Tategaki>
+    </div>
   );
 }

@@ -13,10 +13,15 @@
 - Formatter: oxfmt (not Prettier) — config: .oxfmtrc.json
 - Run `pnpm lint` and `pnpm format:check` to verify
 - `pnpm typecheck` for TypeScript (build skips type checking)
+- `pnpm test` for vitest
+
+## MDX
+
+- Turbopack serializes @next/mdx plugin options. Functions cause build errors — only use string (package name) for rehype/remark plugins. For local plugins, process at React component level instead
 
 ## CI
 
-- GitHub Actions: format, lint, typecheck, build run in parallel
+- GitHub Actions: format, lint, typecheck, test, build run in parallel
 - Composite action at .github/actions/setup/
 
 ## Commands
@@ -33,6 +38,7 @@
 
 ## Design
 
+- Keep globals.css minimal — no custom classes. Use Tailwind className (arbitrary properties, variants, `group-data-*` etc.) instead
 - `design.pen` is encrypted — use Pencil MCP tools only, not Read/Grep
 - `DESIGN.md` for design principles and decisions
 - All design values (font size, spacing, width) must use Tailwind standard scale
@@ -48,6 +54,8 @@
 
 - Next.js convention files (page, layout, not-found, sitemap etc.) use `export default function` (exception to arrow function rule)
 - Always colocate export with definition — never separate `const foo = ...` then `export { foo }`
+- Tategaki conditional styles: use `data-tategaki` attribute on container with Tailwind `group` + `group-data-[tategaki]:` variant (not CSS class selector)
+- Before using Tailwind arbitrary properties (`[property:value]`), always check context7 docs for existing utility classes (e.g. `wrap-anywhere` not `[overflow-wrap:anywhere]`, `max-inline-full` not `max-is-full`)
 
 ## Project Structure
 
