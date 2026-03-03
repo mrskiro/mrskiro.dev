@@ -43,13 +43,8 @@
 - `design.pen` is encrypted — use Pencil MCP tools only, not Read/Grep
 - `DESIGN.md` for design principles and decisions
 - All design values (font size, spacing, width) must use Tailwind standard scale
-- Set design tokens (variables) in Pencil BEFORE creating design nodes
-- Pencil: `replace_all_matching_properties` escapes `$` in variable refs — use `batch_design` `U()` instead
 - Use browser_eval screenshots when researching reference sites visually
-- Pencil: 新スクリーン作成前に `get_variables` と既存スクリーンの `batch_get` でテーマ変数・スタイルパターンを確認し、色はハードコードせず変数（`$text-primary` 等）を使う
 - デザイン案を出すとき、DESIGN.md の原則（フォントサイズ、色、リンクスタイル等）を最初に確認してから作業する
-- Pencil: コピー(C)したノードの子はIDが変わる。子を変更するにはコピー後に `batch_get` でIDを再取得する
-- Pencil: Move(M) の nodeId にバインディング変数は使えない。IDを直接指定する
 
 ## Coding Conventions
 
