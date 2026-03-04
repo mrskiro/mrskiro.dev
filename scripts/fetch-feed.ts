@@ -1,7 +1,10 @@
+import { GoogleGenAI } from "@google/genai";
 import { XMLParser } from "fast-xml-parser";
 import { writeFile, mkdir } from "fs/promises";
 import { sources } from "../src/app/feed/sources.ts";
 import type { Entry, Source } from "../src/app/feed/sources.ts";
+
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY! });
 
 const FEED_DIR = "contents/feed";
 
@@ -120,6 +123,29 @@ const fetchRedditDigest = async (source: Source): Promise<Entry> => {
     ogImage: null,
     publishedAt: formatDate.format(new Date()),
   };
+};
+
+const SUMMARIZE_PROMPT = [
+  "テック系ニュースフィードの要約者として、英語テキストを日本語1文で要約してください。",
+  "専門分野の詳細は思い切って捨て、エンジニアが流し読みして「ふーん」とわかるレベルにする。",
+  "",
+  "例:",
+  "入力: We are bringing deep research to ChatGPT Plus, Team, and Enterprise users, expanding access to our AI agent that synthesizes large amounts of online information into a single report.",
+  "出力: ChatGPT Plus等のユーザー向けに、大量のオンライン情報を1つのレポートにまとめるAIエージェント機能を提供開始。",
+  "",
+  "入力: A new preprint extends single-minus amplitudes to gravitons, with GPT-5.2 Pro helping derive and verify nonzero graviton tree amplitudes in quantum gravity.",
+  "出力: GPT-5.2 Proを活用して、量子重力理論の新しい計算手法を拡張・検証した研究論文。",
+  "",
+  "要約のみ出力。",
+].join("\n");
+
+const summarizeJa = async (text: string): Promise<string> => {
+  const res = await ai.models.generateContent({
+    model: "gemini-2.5-flash",
+    config: { thinkingConfig: { thinkingBudget: 0 } },
+    contents: `${SUMMARIZE_PROMPT}\n\n入力: ${text}\n出力:`,
+  });
+  return res.text?.trim() ?? "";
 };
 
 const enrichWithJina = async (entries: Entry[]) => {
@@ -241,6 +267,15 @@ const main = async () => {
 
   const jinaEntries = entries.filter((e) => jinaNames.has(e.sourceName));
   await enrichWithJina(jinaEntries);
+
+  const summarizeTargets = entries.filter((e) => jinaNames.has(e.sourceName) && e.summary);
+  if (summarizeTargets.length > 0) {
+    console.log(`Summarizing ${summarizeTargets.length} entries with Gemini...`);
+    for (const entry of summarizeTargets) {
+      entry.summary = await summarizeJa(entry.summary);
+      console.log(`  Summarized: ${entry.title.slice(0, 40)}`);
+    }
+  }
 
   const batch = {
     fetchedAt: new Date().toISOString(),
