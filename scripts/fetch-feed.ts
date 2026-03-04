@@ -169,7 +169,54 @@ const fetchHNDigest = async (source: Source): Promise<Entry> => {
   };
 };
 
+const decodeHtmlEntities = (text: string) =>
+  text
+    .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)))
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"');
+
+const fetchRssDigest = async (source: Source, today: string): Promise<Entry | null> => {
+  const res = await fetch(source.url, {
+    headers: { "User-Agent": "feed-reader/1.0" },
+  });
+  const xml = await res.text();
+  const parsed = parser.parse(xml);
+
+  const rawEntries = parsed.rss?.channel?.item ?? [];
+  const items = (Array.isArray(rawEntries) ? rawEntries : [rawEntries]) as Record<string, unknown>[];
+
+  const categories = rssDigestCategories.get(source.name);
+
+  const todayItems = items.filter((item) => {
+    if (formatDate.format(new Date(String(item.pubDate))) !== today) return false;
+    if (!categories) return true;
+    const raw = item.category;
+    const cats: string[] = Array.isArray(raw) ? raw : raw ? [raw as string] : [];
+    return cats.some((c) => categories.has(c));
+  });
+  if (todayItems.length === 0) return null;
+
+  const lines = todayItems.map((item) => {
+    const title = decodeHtmlEntities(item.title as string);
+    const url = item.link as string;
+    return `- ${title}\n  ${url}`;
+  });
+
+  return {
+    sourceName: source.name,
+    title: `${todayItems.length} Articles`,
+    url: source.url.replace("/feed/", "/"),
+    summary: lines.join("\n"),
+    ogImage: null,
+    publishedAt: today,
+  };
+};
+
 const redditNames = new Set(["r/MacApps", "r/indiehackers", "r/ClaudeAI"]);
+const rssDigestNames = new Set(["TechCrunch"]);
+const rssDigestCategories = new Map([["TechCrunch", new Set(["AI", "Startups"])]]);
 const jinaNames = new Set(["OpenAI"]);
 
 const fetchSource = async (source: Source, today: string): Promise<Entry[]> => {
@@ -178,6 +225,10 @@ const fetchSource = async (source: Source, today: string): Promise<Entry[]> => {
   }
   if (redditNames.has(source.name)) {
     return [await fetchRedditDigest(source)];
+  }
+  if (rssDigestNames.has(source.name)) {
+    const entry = await fetchRssDigest(source, today);
+    return entry ? [entry] : [];
   }
   return fetchRss(source, today);
 };

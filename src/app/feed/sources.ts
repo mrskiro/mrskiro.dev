@@ -19,5 +19,6 @@ export const sources = [
   { name: "r/indiehackers", url: "https://www.reddit.com/r/indiehackers/hot/.rss" },
   { name: "r/ClaudeAI", url: "https://www.reddit.com/r/ClaudeAI/hot/.rss" },
   { name: "Hacker News", url: "https://hacker-news.firebaseio.com/v0/beststories.json" },
+  { name: "TechCrunch", url: "https://techcrunch.com/feed/" },
   // TODO: Anthropic — 公式RSSなし。https://www.anthropic.com/news をスクレイピングして取得する
 ] as const satisfies Source[];
