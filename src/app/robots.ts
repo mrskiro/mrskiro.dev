@@ -5,6 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
+      disallow: "/feed",
     },
     sitemap: "https://mrskiro.dev/sitemap.xml",
   };

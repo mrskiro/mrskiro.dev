@@ -32,7 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body className="mx-auto max-w-xl px-4 py-12">{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
