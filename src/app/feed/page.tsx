@@ -109,7 +109,7 @@ export default async function Page({
                           {entry.title}
                         </a>
                         {entry.summary && (
-                          <p className="text-sm leading-relaxed text-neutral-400 line-clamp-2">
+                          <p className="text-sm leading-relaxed line-clamp-2">
                             {entry.summary.slice(0, 200)}
                           </p>
                         )}

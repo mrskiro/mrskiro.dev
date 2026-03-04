@@ -135,10 +135,47 @@ const enrichWithJina = async (entries: Entry[]) => {
   }
 };
 
+type HNItem = {
+  title: string;
+  url?: string;
+  id: number;
+  score: number;
+};
+
+const fetchHNDigest = async (source: Source): Promise<Entry> => {
+  const res = await fetch(source.url);
+  const ids: number[] = await res.json();
+  const top10 = ids.slice(0, 10);
+
+  const items: HNItem[] = await Promise.all(
+    top10.map(async (id) => {
+      const r = await fetch(`https://hacker-news.firebaseio.com/v0/item/${id}.json`);
+      return r.json() as Promise<HNItem>;
+    }),
+  );
+
+  const lines = items.map((item) => {
+    const url = item.url ?? `https://news.ycombinator.com/item?id=${item.id}`;
+    return `- [${item.score}pt] ${item.title}\n  ${url}`;
+  });
+
+  return {
+    sourceName: source.name,
+    title: "Best Stories",
+    url: "https://news.ycombinator.com/best",
+    summary: lines.join("\n"),
+    ogImage: null,
+    publishedAt: formatDate.format(new Date()),
+  };
+};
+
 const redditNames = new Set(["r/MacApps", "r/indiehackers", "r/ClaudeAI"]);
 const jinaNames = new Set(["OpenAI"]);
 
 const fetchSource = async (source: Source, today: string): Promise<Entry[]> => {
+  if (source.name === "Hacker News") {
+    return [await fetchHNDigest(source)];
+  }
   if (redditNames.has(source.name)) {
     return [await fetchRedditDigest(source)];
   }
