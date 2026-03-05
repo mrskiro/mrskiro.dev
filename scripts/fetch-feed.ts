@@ -136,7 +136,7 @@ const fetchRedditDigest = async (source: Source): Promise<Entry> => {
 };
 
 const SUMMARIZE_PROMPT = [
-  "テック系ニュースフィードの要約者として、英語テキストを日本語1文で要約してください。",
+  "テック系ニュースフィードの要約者として、テキストを日本語1文で要約してください。",
   "専門分野の詳細は思い切って捨て、エンジニアが流し読みして「ふーん」とわかるレベルにする。",
   "",
   "例:",
@@ -490,7 +490,7 @@ const githubReleaseNames = new Set(["Claude Code"]);
 const redditNames = new Set(["r/MacApps", "r/indiehackers", "r/ClaudeAI"]);
 const rssDigestNames = new Set(["TechCrunch"]);
 const rssDigestCategories = new Map([["TechCrunch", new Set(["AI", "Startups"])]]);
-const jinaNames = new Set(["OpenAI"]);
+const jinaNames = new Set(["OpenAI", "Simon Willison", "Martin Fowler", "laiso", "mtx2s"]);
 
 const digestOgImages: Record<string, string> = {
   "Hacker News": "https://news.ycombinator.com/y18.svg",
