@@ -31,6 +31,29 @@ const formatDateTime = new Intl.DateTimeFormat("ja-JP", {
   timeZone: "Asia/Tokyo",
 });
 
+const digestSources = new Set([
+  "r/MacApps",
+  "r/indiehackers",
+  "r/ClaudeAI",
+  "Hacker News",
+  "TechCrunch",
+]);
+
+const parseSummaryLines = (summary: string) => {
+  const lines = summary.split("\n");
+  const items: { title: string; url: string }[] = [];
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    if (line.startsWith("- ")) {
+      const title = line.slice(2);
+      const url = lines[i + 1]?.trim() ?? "";
+      items.push({ title, url });
+      i++;
+    }
+  }
+  return items;
+};
+
 export default async function Page({
   searchParams,
 }: {
@@ -81,41 +104,78 @@ export default async function Page({
                     <span className="text-base">{formatDateTime.format(new Date(batch.fetchedAt))}</span>
                     <span className="text-base text-neutral-500">{entries.length} entries</span>
                   </div>
-                  {entries.map((entry) => (
-                    <article
-                      key={entry.url}
-                      className="grid grid-cols-[96px_1fr] gap-4 border-b border-neutral-100 py-4"
-                    >
-                      {entry.ogImage ? (
-                        <img
-                          src={entry.ogImage}
-                          alt=""
-                          className="h-16 w-24 rounded-sm object-cover"
-                        />
-                      ) : (
-                        <div className="h-16 w-24 rounded-sm bg-neutral-100" aria-hidden="true" />
-                      )}
-                      <div className="grid gap-1">
-                        <div className="flex items-center gap-2">
-                          <span className="text-sm text-neutral-500">{entry.sourceName}</span>
-                          <span className="text-sm text-neutral-500">{entry.publishedAt}</span>
-                        </div>
-                        <a
-                          href={entry.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-base leading-snug"
-                        >
-                          {entry.title}
-                        </a>
-                        {entry.summary && (
-                          <p className="text-sm leading-relaxed line-clamp-2">
-                            {entry.summary.slice(0, 200)}
-                          </p>
+                  {entries.map((entry) =>
+                    digestSources.has(entry.sourceName) ? (
+                      <article
+                        key={entry.url}
+                        className="grid grid-cols-[96px_1fr] gap-4 border-b border-neutral-100 py-4"
+                      >
+                        {entry.ogImage ? (
+                          <img
+                            src={entry.ogImage}
+                            alt=""
+                            className="h-16 w-24 rounded-sm object-cover"
+                          />
+                        ) : (
+                          <div className="h-16 w-24 rounded-sm bg-neutral-100" aria-hidden="true" />
                         )}
-                      </div>
-                    </article>
-                  ))}
+                        <div className="grid gap-2">
+                          <div className="flex items-center gap-2">
+                            <span className="text-sm text-neutral-500">{entry.sourceName}</span>
+                            <span className="text-sm text-neutral-500">{entry.publishedAt}</span>
+                            <span className="text-sm text-neutral-500">{entry.title}</span>
+                          </div>
+                          <ul className="grid gap-1 list-disc pl-5">
+                            {parseSummaryLines(entry.summary).map((item) => (
+                              <li key={item.url} className="text-sm leading-relaxed">
+                                <a
+                                  href={item.url}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  {item.title}
+                                </a>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </article>
+                    ) : (
+                      <article
+                        key={entry.url}
+                        className="grid grid-cols-[96px_1fr] gap-4 border-b border-neutral-100 py-4"
+                      >
+                        {entry.ogImage ? (
+                          <img
+                            src={entry.ogImage}
+                            alt=""
+                            className="h-16 w-24 rounded-sm object-cover"
+                          />
+                        ) : (
+                          <div className="h-16 w-24 rounded-sm bg-neutral-100" aria-hidden="true" />
+                        )}
+                        <div className="grid gap-1">
+                          <div className="flex items-center gap-2">
+                            <span className="text-sm text-neutral-500">{entry.sourceName}</span>
+                            <span className="text-sm text-neutral-500">{entry.publishedAt}</span>
+                          </div>
+                          <a
+                            href={entry.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-base leading-snug"
+                          >
+                            {entry.title}
+                          </a>
+                          {entry.summary && (
+                            <p className="text-sm leading-relaxed line-clamp-2">
+                              {entry.summary.slice(0, 200)}
+                            </p>
+                          )}
+                        </div>
+                      </article>
+                    ),
+                  )}
                 </section>
               );
             })}

@@ -109,8 +109,12 @@ const fetchRedditDigest = async (source: Source): Promise<Entry> => {
   const entries = parsed.feed?.entry ?? [];
   const items = (Array.isArray(entries) ? entries : [entries]) as Record<string, unknown>[];
 
-  const lines = items.map((item) => {
-    const title = item.title as string;
+  const top10 = items.slice(0, 10);
+  const rawTitles = top10.map((item) => item.title as string);
+  const jaTitles = await translateTitles(rawTitles);
+
+  const lines = top10.map((item, i) => {
+    const title = jaTitles[i] ?? (item.title as string);
     const url = parseAtomLink(item.link);
     return `- ${title}\n  ${url}`;
   });
@@ -120,7 +124,7 @@ const fetchRedditDigest = async (source: Source): Promise<Entry> => {
     title: "Hot Topics",
     url: source.url.replace("/.rss", "/"),
     summary: lines.join("\n"),
-    ogImage: null,
+    ogImage: digestOgImages[source.name] ?? null,
     publishedAt: formatDate.format(new Date()),
   };
 };
@@ -138,6 +142,26 @@ const SUMMARIZE_PROMPT = [
   "",
   "要約のみ出力。",
 ].join("\n");
+
+const TRANSLATE_TITLES_PROMPT = [
+  "テック系ニュースのタイトルを日本語に翻訳してください。",
+  "ルール：",
+  "- 直訳ではなく、日本語のニュース見出しとして自然な表現にする",
+  "- 固有名詞（人名・企業名・製品名）は英語のまま残す",
+  "- 各行1タイトル、番号付きで出力",
+  "- 翻訳のみ出力",
+].join("\n");
+
+const translateTitles = async (titles: string[]): Promise<string[]> => {
+  const numbered = titles.map((t, i) => `${i + 1}. ${t}`).join("\n");
+  const res = await ai.models.generateContent({
+    model: "gemini-2.5-flash",
+    config: { thinkingConfig: { thinkingBudget: 0 } },
+    contents: `${TRANSLATE_TITLES_PROMPT}\n\n${numbered}`,
+  });
+  const lines = (res.text ?? "").trim().split("\n");
+  return lines.map((line) => line.replace(/^\d+\.\s*/, ""));
+};
 
 const summarizeJa = async (text: string): Promise<string> => {
   const res = await ai.models.generateContent({
@@ -180,9 +204,13 @@ const fetchHNDigest = async (source: Source): Promise<Entry> => {
     }),
   );
 
-  const lines = items.map((item) => {
+  const rawTitles = items.map((item) => item.title);
+  const jaTitles = await translateTitles(rawTitles);
+
+  const lines = items.map((item, i) => {
     const url = item.url ?? `https://news.ycombinator.com/item?id=${item.id}`;
-    return `- [${item.score}pt] ${item.title}\n  ${url}`;
+    const title = jaTitles[i] ?? item.title;
+    return `- [${item.score}pt] ${title}\n  ${url}`;
   });
 
   return {
@@ -190,7 +218,7 @@ const fetchHNDigest = async (source: Source): Promise<Entry> => {
     title: "Best Stories",
     url: "https://news.ycombinator.com/best",
     summary: lines.join("\n"),
-    ogImage: null,
+    ogImage: digestOgImages[source.name] ?? null,
     publishedAt: formatDate.format(new Date()),
   };
 };
@@ -224,8 +252,11 @@ const fetchRssDigest = async (source: Source, today: string): Promise<Entry | nu
   });
   if (todayItems.length === 0) return null;
 
-  const lines = todayItems.map((item) => {
-    const title = decodeHtmlEntities(item.title as string);
+  const rawTitles = todayItems.map((item) => decodeHtmlEntities(item.title as string));
+  const jaTitles = await translateTitles(rawTitles);
+
+  const lines = todayItems.map((item, i) => {
+    const title = jaTitles[i] ?? decodeHtmlEntities(item.title as string);
     const url = item.link as string;
     return `- ${title}\n  ${url}`;
   });
@@ -235,7 +266,7 @@ const fetchRssDigest = async (source: Source, today: string): Promise<Entry | nu
     title: `${todayItems.length} Articles`,
     url: source.url.replace("/feed/", "/"),
     summary: lines.join("\n"),
-    ogImage: null,
+    ogImage: digestOgImages[source.name] ?? null,
     publishedAt: today,
   };
 };
@@ -244,6 +275,14 @@ const redditNames = new Set(["r/MacApps", "r/indiehackers", "r/ClaudeAI"]);
 const rssDigestNames = new Set(["TechCrunch"]);
 const rssDigestCategories = new Map([["TechCrunch", new Set(["AI", "Startups"])]]);
 const jinaNames = new Set(["OpenAI"]);
+
+const digestOgImages: Record<string, string> = {
+  "Hacker News": "https://news.ycombinator.com/y18.svg",
+  "r/MacApps": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+  "r/indiehackers": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+  "r/ClaudeAI": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+  "TechCrunch": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+};
 
 const fetchSource = async (source: Source, today: string): Promise<Entry[]> => {
   if (source.name === "Hacker News") {
