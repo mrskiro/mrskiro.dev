@@ -40,6 +40,7 @@ const digestSources = new Set([
   "Hacker News",
   "TechCrunch",
   "Claude Code",
+  "Product Hunt",
 ]);
 
 const parseSummaryLines = (summary: string) => {

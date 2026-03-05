@@ -441,6 +441,51 @@ const fetchGitHubReleaseDigest = async (source: Source, today: string): Promise<
   return results;
 };
 
+const extractPHTagline = (content: unknown): string => {
+  const raw =
+    typeof content === "object" && content !== null
+      ? String((content as Record<string, unknown>)["#text"] ?? "")
+      : String(content ?? "");
+  return raw
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .split("Discussion")[0]
+    .trim();
+};
+
+const fetchProductHuntDigest = async (source: Source): Promise<Entry> => {
+  const res = await fetch(source.url, {
+    headers: { "User-Agent": "feed-reader/1.0" },
+  });
+  const xml = await res.text();
+  const parsed = parser.parse(xml);
+  const entries = parsed.feed?.entry ?? [];
+  const items = (Array.isArray(entries) ? entries : [entries]) as Record<string, unknown>[];
+
+  const top10 = items.slice(0, 10);
+  const titlesWithTagline = top10.map((item) => {
+    const tagline = extractPHTagline(item.content);
+    return tagline ? `${item.title as string} — ${tagline}` : (item.title as string);
+  });
+  const jaTitles = await translateTitles(titlesWithTagline);
+
+  const lines = top10.map((item, i) => {
+    const title = jaTitles[i] ?? titlesWithTagline[i];
+    const url = parseAtomLink(item.link);
+    return `- ${title}\n  ${url}`;
+  });
+
+  return {
+    sourceName: source.name,
+    title: "Trending",
+    url: "https://www.producthunt.com",
+    summary: lines.join("\n"),
+    ogImage: digestOgImages[source.name] ?? null,
+    publishedAt: formatDate.format(new Date()),
+  };
+};
+
 const githubReleaseNames = new Set(["Claude Code"]);
 const redditNames = new Set(["r/MacApps", "r/indiehackers", "r/ClaudeAI"]);
 const rssDigestNames = new Set(["TechCrunch"]);
@@ -453,6 +498,7 @@ const digestOgImages: Record<string, string> = {
   "r/indiehackers": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
   "r/ClaudeAI": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
   TechCrunch: "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+  "Product Hunt": "https://ph-static.imgix.net/ph-logo-1.png",
 };
 
 const fetchSource = async (source: Source, today: string): Promise<Entry[]> => {
@@ -464,6 +510,9 @@ const fetchSource = async (source: Source, today: string): Promise<Entry[]> => {
   }
   if (redditNames.has(source.name)) {
     return [await fetchRedditDigest(source)];
+  }
+  if (source.name === "Product Hunt") {
+    return [await fetchProductHuntDigest(source)];
   }
   if (rssDigestNames.has(source.name)) {
     const entry = await fetchRssDigest(source, today);
