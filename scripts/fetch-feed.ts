@@ -355,6 +355,93 @@ const fetchRssDigest = async (source: Source, today: string): Promise<Entry | nu
   };
 };
 
+const RELEASE_TRANSLATE_PROMPT = [
+  "GitHubリリースノートを日本語に翻訳し、各項目にカテゴリタグを付けてください。",
+  "ルール：",
+  "- 技術用語・固有名詞・コマンド名・設定名はそのまま残す",
+  "- 簡潔に、機能の要点だけ伝える",
+  "- tagは Added / Fixed / Improved / Changed のいずれか",
+].join("\n");
+
+const fetchGitHubReleaseDigest = async (source: Source, today: string): Promise<Entry[]> => {
+  const res = await fetch(source.url, {
+    headers: { "User-Agent": "feed-reader/1.0" },
+  });
+  const xml = await res.text();
+  const parsed = parser.parse(xml);
+
+  const rawEntries = parsed.feed?.entry ?? [];
+  const entries = (Array.isArray(rawEntries) ? rawEntries : [rawEntries]) as Record<
+    string,
+    unknown
+  >[];
+
+  const todayEntries = entries.filter((entry) => {
+    const date = formatDate.format(new Date(String(entry.updated ?? entry.published)));
+    return date === today;
+  });
+
+  if (todayEntries.length === 0) return [];
+
+  const results: Entry[] = [];
+  for (const entry of todayEntries) {
+    const content = String(
+      (entry.content as Record<string, unknown>)?.["#text"] ?? entry.content ?? "",
+    );
+    const liItems = [...content.matchAll(/<li>(.*?)<\/li>/gs)].map((m) =>
+      m[1].replace(/<[^>]+>/g, "").trim(),
+    );
+    if (liItems.length === 0) continue;
+
+    const numbered = liItems.map((item, i) => `${i + 1}. ${item}`).join("\n");
+    const geminiRes = await ai.models.generateContent({
+      model: "gemini-2.5-flash",
+      config: {
+        thinkingConfig: { thinkingBudget: 0 },
+        responseMimeType: "application/json",
+        responseSchema: {
+          type: Type.ARRAY,
+          items: {
+            type: Type.OBJECT,
+            properties: {
+              tag: { type: Type.STRING },
+              text: { type: Type.STRING },
+            },
+            required: ["tag", "text"],
+          },
+        },
+      },
+      contents: `${RELEASE_TRANSLATE_PROMPT}\n\n${numbered}`,
+    });
+
+    let parsed: { tag: string; text: string }[];
+    try {
+      parsed = JSON.parse(geminiRes.text ?? "[]");
+    } catch {
+      console.warn(`${source.name} translation parse failed, using original`);
+      parsed = liItems.map((item) => ({ tag: "Other", text: item }));
+    }
+
+    const lines = parsed.map((item) => `- [${item.tag}] ${item.text}`);
+
+    results.push({
+      sourceName: source.name,
+      title: entry.title as string,
+      url: parseAtomLink(entry.link),
+      summary: lines.join("\n"),
+      ogImage:
+        ((entry["media:thumbnail"] as Record<string, unknown>)?.["@_url"] as string)?.replace(
+          /s=\d+/,
+          "s=200",
+        ) ?? null,
+      publishedAt: today,
+    });
+  }
+
+  return results;
+};
+
+const githubReleaseNames = new Set(["Claude Code"]);
 const redditNames = new Set(["r/MacApps", "r/indiehackers", "r/ClaudeAI"]);
 const rssDigestNames = new Set(["TechCrunch"]);
 const rssDigestCategories = new Map([["TechCrunch", new Set(["AI", "Startups"])]]);
@@ -369,6 +456,9 @@ const digestOgImages: Record<string, string> = {
 };
 
 const fetchSource = async (source: Source, today: string): Promise<Entry[]> => {
+  if (githubReleaseNames.has(source.name)) {
+    return fetchGitHubReleaseDigest(source, today);
+  }
   if (source.name === "Hacker News") {
     return [await fetchHNDigest(source)];
   }

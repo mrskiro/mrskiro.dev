@@ -1,6 +1,8 @@
 import { readdir, readFile } from "fs/promises";
 import Link from "next/link";
+
 import type { Entry } from "./sources.ts";
+
 import { sources } from "./sources.ts";
 
 const loadBatches = async (): Promise<{ fetchedAt: string; entries: Entry[] }[]> => {
@@ -37,6 +39,7 @@ const digestSources = new Set([
   "r/ClaudeAI",
   "Hacker News",
   "TechCrunch",
+  "Claude Code",
 ]);
 
 const parseSummaryLines = (summary: string) => {
@@ -101,7 +104,9 @@ export default async function Page({
               return (
                 <section key={batch.fetchedAt} className="grid">
                   <div className="flex items-center gap-2 border-b border-neutral-100 pb-4">
-                    <span className="text-base">{formatDateTime.format(new Date(batch.fetchedAt))}</span>
+                    <span className="text-base">
+                      {formatDateTime.format(new Date(batch.fetchedAt))}
+                    </span>
                     <span className="text-base text-neutral-500">{entries.length} entries</span>
                   </div>
                   {entries.map((entry) =>
@@ -125,14 +130,10 @@ export default async function Page({
                             <span className="text-sm text-neutral-500">{entry.publishedAt}</span>
                             <span className="text-sm text-neutral-500">{entry.title}</span>
                           </div>
-                          <ul className="grid gap-1 list-disc pl-5">
+                          <ul className="grid list-disc gap-1 pl-5">
                             {parseSummaryLines(entry.summary).map((item) => (
                               <li key={item.url} className="text-sm leading-relaxed">
-                                <a
-                                  href={item.url}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                >
+                                <a href={item.url} target="_blank" rel="noopener noreferrer">
                                   {item.title}
                                 </a>
                               </li>
@@ -168,7 +169,7 @@ export default async function Page({
                             {entry.title}
                           </a>
                           {entry.summary && (
-                            <p className="text-sm leading-relaxed line-clamp-2">
+                            <p className="line-clamp-2 text-sm leading-relaxed">
                               {entry.summary.slice(0, 200)}
                             </p>
                           )}
