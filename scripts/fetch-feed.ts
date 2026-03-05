@@ -72,7 +72,7 @@ const fetchJina = async (url: string): Promise<{ content?: string; ogImage?: str
   }
 };
 
-const fetchRss = async (source: Source, today: string): Promise<Entry[]> => {
+const fetchRss = async (source: Source, since: Date): Promise<Entry[]> => {
   const res = await fetch(source.url, {
     headers: { "User-Agent": "feed-reader/1.0" },
   });
@@ -85,17 +85,17 @@ const fetchRss = async (source: Source, today: string): Promise<Entry[]> => {
   return items
     .map((item: Record<string, unknown>) => {
       const isAtom = !!parsed.feed;
+      const date = new Date(String(isAtom ? (item.updated ?? item.published) : item.pubDate));
       return {
         title: item.title as string,
         url: isAtom ? parseAtomLink(item.link) : (item.link as string),
-        publishedAt: formatDate.format(
-          new Date(String(isAtom ? (item.updated ?? item.published) : item.pubDate)),
-        ),
+        publishedAt: formatDate.format(date),
+        date,
         image: extractImage(item),
         content: extractContent(item),
       };
     })
-    .filter((item) => item.publishedAt === today)
+    .filter((item) => item.date >= since)
     .map((item) => ({
       sourceName: source.name,
       title: item.title,
@@ -312,7 +312,7 @@ const decodeHtmlEntities = (text: string) =>
     .replace(/&gt;/g, ">")
     .replace(/&quot;/g, '"');
 
-const fetchRssDigest = async (source: Source, today: string): Promise<Entry | null> => {
+const fetchRssDigest = async (source: Source, since: Date): Promise<Entry | null> => {
   const res = await fetch(source.url, {
     headers: { "User-Agent": "feed-reader/1.0" },
   });
@@ -327,19 +327,19 @@ const fetchRssDigest = async (source: Source, today: string): Promise<Entry | nu
 
   const categories = rssDigestCategories.get(source.name);
 
-  const todayItems = items.filter((item) => {
-    if (formatDate.format(new Date(String(item.pubDate))) !== today) return false;
+  const recentItems = items.filter((item) => {
+    if (new Date(String(item.pubDate)) < since) return false;
     if (!categories) return true;
     const raw = item.category;
     const cats: string[] = Array.isArray(raw) ? raw : raw ? [raw as string] : [];
     return cats.some((c) => categories.has(c));
   });
-  if (todayItems.length === 0) return null;
+  if (recentItems.length === 0) return null;
 
-  const rawTitles = todayItems.map((item) => decodeHtmlEntities(item.title as string));
+  const rawTitles = recentItems.map((item) => decodeHtmlEntities(item.title as string));
   const jaTitles = await translateTitles(rawTitles);
 
-  const lines = todayItems.map((item, i) => {
+  const lines = recentItems.map((item, i) => {
     const title = jaTitles[i] ?? decodeHtmlEntities(item.title as string);
     const url = item.link as string;
     return `- ${title}\n  ${url}`;
@@ -347,11 +347,11 @@ const fetchRssDigest = async (source: Source, today: string): Promise<Entry | nu
 
   return {
     sourceName: source.name,
-    title: `${todayItems.length} Articles`,
+    title: `${recentItems.length} Articles`,
     url: source.url.replace("/feed/", "/"),
     summary: lines.join("\n"),
     ogImage: digestOgImages[source.name] ?? null,
-    publishedAt: today,
+    publishedAt: formatDate.format(new Date()),
   };
 };
 
@@ -363,7 +363,7 @@ const RELEASE_TRANSLATE_PROMPT = [
   "- tagは Added / Fixed / Improved / Changed のいずれか",
 ].join("\n");
 
-const fetchGitHubReleaseDigest = async (source: Source, today: string): Promise<Entry[]> => {
+const fetchGitHubReleaseDigest = async (source: Source, since: Date): Promise<Entry[]> => {
   const res = await fetch(source.url, {
     headers: { "User-Agent": "feed-reader/1.0" },
   });
@@ -376,15 +376,14 @@ const fetchGitHubReleaseDigest = async (source: Source, today: string): Promise<
     unknown
   >[];
 
-  const todayEntries = entries.filter((entry) => {
-    const date = formatDate.format(new Date(String(entry.updated ?? entry.published)));
-    return date === today;
-  });
+  const recentEntries = entries.filter(
+    (entry) => new Date(String(entry.updated ?? entry.published)) >= since,
+  );
 
-  if (todayEntries.length === 0) return [];
+  if (recentEntries.length === 0) return [];
 
   const results: Entry[] = [];
-  for (const entry of todayEntries) {
+  for (const entry of recentEntries) {
     const content = String(
       (entry.content as Record<string, unknown>)?.["#text"] ?? entry.content ?? "",
     );
@@ -434,7 +433,7 @@ const fetchGitHubReleaseDigest = async (source: Source, today: string): Promise<
           /s=\d+/,
           "s=200",
         ) ?? null,
-      publishedAt: today,
+      publishedAt: formatDate.format(new Date(String(entry.updated ?? entry.published))),
     });
   }
 
@@ -501,9 +500,9 @@ const digestOgImages: Record<string, string> = {
   "Product Hunt": "https://ph-static.imgix.net/ph-logo-1.png",
 };
 
-const fetchSource = async (source: Source, today: string): Promise<Entry[]> => {
+const fetchSource = async (source: Source, since: Date): Promise<Entry[]> => {
   if (githubReleaseNames.has(source.name)) {
-    return fetchGitHubReleaseDigest(source, today);
+    return fetchGitHubReleaseDigest(source, since);
   }
   if (source.name === "Hacker News") {
     return [await fetchHNDigest(source)];
@@ -515,16 +514,17 @@ const fetchSource = async (source: Source, today: string): Promise<Entry[]> => {
     return [await fetchProductHuntDigest(source)];
   }
   if (rssDigestNames.has(source.name)) {
-    const entry = await fetchRssDigest(source, today);
+    const entry = await fetchRssDigest(source, since);
     return entry ? [entry] : [];
   }
-  return fetchRss(source, today);
+  return fetchRss(source, since);
 };
 
 const main = async () => {
-  const today = formatDate.format(new Date());
+  const now = new Date();
+  const since = new Date(now.getTime() - 24 * 60 * 60 * 1000);
 
-  const results = await Promise.all(sources.map((s) => fetchSource(s, today)));
+  const results = await Promise.all(sources.map((s) => fetchSource(s, since)));
   const entries = results.flat();
 
   const jinaEntries = entries.filter((e) => jinaNames.has(e.sourceName));
@@ -540,13 +540,14 @@ const main = async () => {
   }
 
   const batch = {
-    fetchedAt: new Date().toISOString(),
+    fetchedAt: now.toISOString(),
     entries,
   };
 
   await mkdir(FEED_DIR, { recursive: true });
-  await writeFile(`${FEED_DIR}/${today}.json`, JSON.stringify(batch, null, 2) + "\n");
-  console.log(`Saved ${entries.length} entries to ${today}.json`);
+  const filename = formatDate.format(now);
+  await writeFile(`${FEED_DIR}/${filename}.json`, JSON.stringify(batch, null, 2) + "\n");
+  console.log(`Saved ${entries.length} entries to ${filename}.json`);
 };
 
 main().catch((err) => {
