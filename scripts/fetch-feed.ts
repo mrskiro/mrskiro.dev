@@ -1,8 +1,10 @@
-import { GoogleGenAI } from "@google/genai";
+import { GoogleGenAI, Type } from "@google/genai";
 import { XMLParser } from "fast-xml-parser";
 import { writeFile, mkdir } from "fs/promises";
-import { sources } from "../src/app/feed/sources.ts";
+
 import type { Entry, Source } from "../src/app/feed/sources.ts";
+
+import { sources } from "../src/app/feed/sources.ts";
 
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY! });
 
@@ -26,11 +28,15 @@ const extractImage = (item: Record<string, unknown>): string | undefined => {
 const extractContent = (item: Record<string, unknown>): string | undefined => {
   const field = item.content ?? item["content:encoded"] ?? item.description;
   if (!field) return undefined;
-  const raw = typeof field === "object" && field !== null
-    ? String((field as Record<string, unknown>)["#text"] ?? "")
-    : String(field);
+  const raw =
+    typeof field === "object" && field !== null
+      ? String((field as Record<string, unknown>)["#text"] ?? "")
+      : String(field);
   if (!raw) return undefined;
-  const text = raw.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+  const text = raw
+    .replace(/<[^>]+>/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
   return text || undefined;
 };
 
@@ -73,9 +79,7 @@ const fetchRss = async (source: Source, today: string): Promise<Entry[]> => {
   const xml = await res.text();
   const parsed = parser.parse(xml);
 
-  const rawEntries = parsed.feed
-    ? (parsed.feed.entry ?? [])
-    : (parsed.rss?.channel?.item ?? []);
+  const rawEntries = parsed.feed ? (parsed.feed.entry ?? []) : (parsed.rss?.channel?.item ?? []);
   const items = Array.isArray(rawEntries) ? rawEntries : [rawEntries];
 
   return items
@@ -84,7 +88,9 @@ const fetchRss = async (source: Source, today: string): Promise<Entry[]> => {
       return {
         title: item.title as string,
         url: isAtom ? parseAtomLink(item.link) : (item.link as string),
-        publishedAt: formatDate.format(new Date(String(isAtom ? (item.updated ?? item.published) : item.pubDate))),
+        publishedAt: formatDate.format(
+          new Date(String(isAtom ? (item.updated ?? item.published) : item.pubDate)),
+        ),
         image: extractImage(item),
         content: extractContent(item),
       };
@@ -190,6 +196,34 @@ type HNItem = {
   url?: string;
   id: number;
   score: number;
+  kids?: number[];
+};
+
+type HNComment = {
+  text?: string;
+};
+
+const HN_PROMPT = [
+  "Hacker Newsのストーリーについて、各ストーリーごとに：",
+  "1. タイトルを日本語に翻訳（直訳ではなく、日本語のニュース見出しとして自然な表現にする。固有名詞は英語のまま）",
+  "2. コメントの雰囲気を30文字以内で要約（例：「メモリ8GBの制限に不満の声が多い」「セキュリティ面で高評価、乗り換え報告も」）。コメントがない場合はnull",
+].join("\n");
+
+const fetchHNComments = async (kids: number[], limit = 5): Promise<string[]> => {
+  const topKids = kids.slice(0, limit);
+  const comments = await Promise.all(
+    topKids.map(async (id) => {
+      const r = await fetch(`https://hacker-news.firebaseio.com/v0/item/${id}.json`);
+      const c: HNComment = await r.json();
+      return (
+        c.text
+          ?.replace(/<[^>]+>/g, " ")
+          .replace(/\s+/g, " ")
+          .trim() ?? ""
+      );
+    }),
+  );
+  return comments.filter(Boolean);
 };
 
 const fetchHNDigest = async (source: Source): Promise<Entry> => {
@@ -204,13 +238,60 @@ const fetchHNDigest = async (source: Source): Promise<Entry> => {
     }),
   );
 
-  const rawTitles = items.map((item) => item.title);
-  const jaTitles = await translateTitles(rawTitles);
+  const storiesWithComments = await Promise.all(
+    items.map(async (item) => {
+      const comments = item.kids ? await fetchHNComments(item.kids) : [];
+      return { ...item, comments };
+    }),
+  );
+
+  const input = storiesWithComments
+    .map((item, i) => {
+      const commentsBlock =
+        item.comments.length > 0
+          ? `コメント:\n${item.comments.map((c) => c.slice(0, 200)).join("\n")}`
+          : "コメント: なし";
+      return `ストーリー${i + 1}: ${item.title}\n${commentsBlock}`;
+    })
+    .join("\n\n");
+
+  const geminiRes = await ai.models.generateContent({
+    model: "gemini-2.5-flash",
+    config: {
+      thinkingConfig: { thinkingBudget: 0 },
+      responseMimeType: "application/json",
+      responseSchema: {
+        type: Type.ARRAY,
+        items: {
+          type: Type.OBJECT,
+          properties: {
+            title: { type: Type.STRING },
+            commentSummary: { type: Type.STRING, nullable: true },
+          },
+          required: ["title", "commentSummary"],
+        },
+      },
+    },
+    contents: `${HN_PROMPT}\n\n${input}`,
+  });
+
+  let parsed: { title: string; commentSummary: string | null }[];
+  try {
+    parsed = JSON.parse(geminiRes.text ?? "[]");
+  } catch {
+    console.warn("HN structured output parse failed, falling back to translate-only");
+    const jaTitles = await translateTitles(items.map((item) => item.title));
+    parsed = jaTitles.map((t) => ({ title: t, commentSummary: null }));
+  }
 
   const lines = items.map((item, i) => {
-    const url = item.url ?? `https://news.ycombinator.com/item?id=${item.id}`;
-    const title = jaTitles[i] ?? item.title;
-    return `- [${item.score}pt] ${title}\n  ${url}`;
+    const url = `https://news.ycombinator.com/item?id=${item.id}`;
+    const title = parsed[i]?.title ?? item.title;
+    const comment = parsed[i]?.commentSummary;
+    const titleLine = comment
+      ? `- [${item.score}pt] ${title} | ${comment}`
+      : `- [${item.score}pt] ${title}`;
+    return `${titleLine}\n  ${url}`;
   });
 
   return {
@@ -239,7 +320,10 @@ const fetchRssDigest = async (source: Source, today: string): Promise<Entry | nu
   const parsed = parser.parse(xml);
 
   const rawEntries = parsed.rss?.channel?.item ?? [];
-  const items = (Array.isArray(rawEntries) ? rawEntries : [rawEntries]) as Record<string, unknown>[];
+  const items = (Array.isArray(rawEntries) ? rawEntries : [rawEntries]) as Record<
+    string,
+    unknown
+  >[];
 
   const categories = rssDigestCategories.get(source.name);
 
@@ -281,7 +365,7 @@ const digestOgImages: Record<string, string> = {
   "r/MacApps": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
   "r/indiehackers": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
   "r/ClaudeAI": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
-  "TechCrunch": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+  TechCrunch: "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
 };
 
 const fetchSource = async (source: Source, today: string): Promise<Entry[]> => {
