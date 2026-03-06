@@ -75,7 +75,10 @@ export default async function Page() {
         </ul>
       </section>
 
-      <Link href="/colophon">Colophon</Link>
+      <div className="flex gap-4">
+        <Link href="/uses">Uses</Link>
+        <Link href="/colophon">Colophon</Link>
+      </div>
     </div>
   );
 }

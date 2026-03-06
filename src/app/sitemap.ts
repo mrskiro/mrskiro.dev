@@ -24,6 +24,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: BASE_URL },
     { url: `${BASE_URL}/writing` },
     { url: `${BASE_URL}/colophon` },
+    { url: `${BASE_URL}/uses` },
     ...writingEntries,
   ];
 }
