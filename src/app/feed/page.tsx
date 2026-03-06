@@ -47,7 +47,7 @@ const parseSummaryLines = (summary: string) => {
   const lines = summary.split("\n");
   const items: { title: string; url: string }[] = [];
   for (let i = 0; i < lines.length; i++) {
-    const line = lines[i];
+    const line = lines[i]!;
     if (line.startsWith("- ")) {
       const title = line.slice(2);
       const url = lines[i + 1]?.trim() ?? "";

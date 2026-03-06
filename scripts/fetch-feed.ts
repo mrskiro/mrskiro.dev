@@ -387,8 +387,8 @@ const fetchGitHubReleaseDigest = async (source: Source, since: Date): Promise<En
     const content = String(
       (entry.content as Record<string, unknown>)?.["#text"] ?? entry.content ?? "",
     );
-    const liItems = [...content.matchAll(/<li>(.*?)<\/li>/gs)].map((m) =>
-      m[1].replace(/<[^>]+>/g, "").trim(),
+    const liItems = [...content.matchAll(/<li>([\s\S]*?)<\/li>/g)].map((m) =>
+      m[1]!.replace(/<[^>]+>/g, "").trim(),
     );
     if (liItems.length === 0) continue;
 
@@ -449,7 +449,7 @@ const extractPHTagline = (content: unknown): string => {
     .replace(/<[^>]+>/g, " ")
     .replace(/\s+/g, " ")
     .trim()
-    .split("Discussion")[0]
+    .split("Discussion")[0]!
     .trim();
 };
 
