@@ -1205,6 +1205,3879 @@
           "fontWeight": "normal"
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "Cnvo1",
+      "x": 0,
+      "y": 2500,
+      "name": "Feed",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "OQxl4",
+          "name": "Header",
+          "width": "fill_container",
+          "padding": [
+            48,
+            432,
+            0,
+            432
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "8MunD",
+              "name": "dateText",
+              "fill": "$text-primary",
+              "content": "2026-03-03",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "YGiLP",
+              "name": "todayLabel",
+              "fill": "$text-secondary",
+              "content": "Today",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "5MogI",
+          "name": "Feed List",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            32,
+            432
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "6WSSs",
+              "name": "Feed Entry — Anthropic",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 20,
+              "padding": [
+                24,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "2j6mP",
+                  "name": "OGP Thumbnail",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "loganvoss",
+                    "link": "https://unsplash.com/@loganvoss",
+                    "author": "Logan Voss"
+                  },
+                  "clip": true,
+                  "width": 120,
+                  "height": 80,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1764258560442-4c64eec055c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTQxODN8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 4
+                },
+                {
+                  "type": "frame",
+                  "id": "UvnEm",
+                  "name": "Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nII0E",
+                      "name": "source1",
+                      "fill": "$text-secondary",
+                      "content": "Anthropic Blog",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wZE8j",
+                      "name": "title1",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Introducing Claude 4.5: A new era of AI assistance",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "MB4HS",
+                      "name": "summary1",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Anthropicが最新モデルClaude 4.5を発表。推論速度が2倍に向上し、コーディングタスクでの精度が大幅に改善された。Extended thinkingの改良により、複雑な問題解決能力も強化されている。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "pBPm3",
+              "name": "Feed Entry — OpenAI",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 20,
+              "padding": [
+                24,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "UMiXe",
+                  "name": "OGP Thumbnail",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "loganvoss",
+                    "link": "https://unsplash.com/@loganvoss",
+                    "author": "Logan Voss"
+                  },
+                  "clip": true,
+                  "width": 120,
+                  "height": 80,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1744908898367-399be12358ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTQxODN8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 4
+                },
+                {
+                  "type": "frame",
+                  "id": "l0WVI",
+                  "name": "Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZWnIo",
+                      "name": "source2",
+                      "fill": "$text-secondary",
+                      "content": "OpenAI Blog",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TYiNz",
+                      "name": "title2",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "GPT-5 Turbo: Faster, smarter, more reliable",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pc3J7",
+                      "name": "summary2",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "OpenAIがGPT-5 Turboを発表。マルチモーダル対応が強化され、画像理解と生成の品質が大幅に向上。APIのレスポンス速度も改善されている。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "pWLIW",
+              "name": "Feed Entry — Hacker News",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 20,
+              "padding": [
+                24,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "hG9ZN",
+                  "name": "OGP Thumbnail",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "jelenalapina",
+                    "link": "https://unsplash.com/@jelenalapina",
+                    "author": "Jelena Lapina"
+                  },
+                  "clip": true,
+                  "width": 120,
+                  "height": 80,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1674816927062-45bae18a178e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTQxODd8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 4
+                },
+                {
+                  "type": "frame",
+                  "id": "JtFo4",
+                  "name": "Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "5ng2g",
+                      "name": "source3",
+                      "fill": "$text-secondary",
+                      "content": "Hacker News",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "oEa2N",
+                      "name": "title3",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Show HN: I built an open-source alternative to Notion with local-first sync",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "B0W32",
+                      "name": "summary3",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Notionのオープンソース代替をlocal-firstアーキテクチャで構築。CRDTベースの同期エンジンにより、オフラインでも完全に動作する。SQLiteをストレージに使用。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "0li7X",
+              "name": "Feed Entry — X (Anthropic)",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 20,
+              "padding": [
+                24,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xSqm9",
+                  "name": "OGP Thumbnail",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "loganvoss",
+                    "link": "https://unsplash.com/@loganvoss",
+                    "author": "Logan Voss"
+                  },
+                  "clip": true,
+                  "width": 120,
+                  "height": 80,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1766340118459-2af615146bcd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTQxODh8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 4
+                },
+                {
+                  "type": "frame",
+                  "id": "oKnP2",
+                  "name": "Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XV64s",
+                      "name": "source4",
+                      "fill": "$text-secondary",
+                      "content": "X · @AnthropicAI",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UfE0L",
+                      "name": "title4",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "We're excited to announce Claude 4.5 — our most capable model yet.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YHkx7",
+                      "name": "summary4",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Anthropic公式がClaude 4.5のリリースをXで告知。ブログ記事より先にXで速報が出た形。詳細はブログ記事を参照。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BObZ7",
+              "name": "Feed Entry — GitHub Release",
+              "width": "fill_container",
+              "gap": 20,
+              "padding": [
+                24,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "uUiAP",
+                  "name": "OGP Thumbnail",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "hdbernd",
+                    "link": "https://unsplash.com/@hdbernd",
+                    "author": "Bernd 📷 Dittrich"
+                  },
+                  "clip": true,
+                  "width": 120,
+                  "height": 80,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1675495277087-10598bf7bcd1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTQxODh8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 4
+                },
+                {
+                  "type": "frame",
+                  "id": "nv0zI",
+                  "name": "Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "LozIy",
+                      "name": "source5",
+                      "fill": "$text-secondary",
+                      "content": "GitHub · vercel/next.js",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dO0jV",
+                      "name": "title5",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "v16.2.0 — Improved Turbopack performance and new caching API",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lj4lz",
+                      "name": "summary5",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Next.js 16.2がリリース。Turbopackのビルド速度が30%改善、新しいキャッシュAPIが追加された。App Routerのストリーミング周りのバグ修正も含まれる。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "lc1J2",
+      "x": 6260,
+      "y": 0,
+      "name": "Feed v2",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "fJizf",
+          "name": "Batch Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            40,
+            200,
+            0,
+            200
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "nOkAw",
+              "name": "Batch Header",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 8,
+              "padding": [
+                0,
+                0,
+                16,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "S43pJ",
+                  "name": "batchDate",
+                  "fill": "$text-primary",
+                  "content": "2026-03-03 09:00",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "FwHqP",
+                  "name": "batchCount",
+                  "fill": "$text-tertiary",
+                  "content": "5 articles",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "43gLG",
+              "name": "Entry",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 16,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Tqbt9",
+                  "name": "OGP",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "loganvoss",
+                    "link": "https://unsplash.com/@loganvoss",
+                    "author": "Logan Voss"
+                  },
+                  "clip": true,
+                  "width": 96,
+                  "height": 64,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1762014270365-b64d35a829f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTQ1OTV8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "0r1z8",
+                  "name": "Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "4elmM",
+                      "name": "Meta",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "17sRu",
+                          "name": "src1",
+                          "fill": "$text-secondary",
+                          "content": "Anthropic Blog",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "c8QG3",
+                          "name": "date1",
+                          "fill": "$text-tertiary",
+                          "content": "Mar 2",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "9irtQ",
+                      "name": "t1",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Introducing Claude 4.5: A new era of AI assistance",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "1ZlhP",
+                      "name": "s1",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Anthropicが最新モデルClaude 4.5を発表。推論速度が2倍に向上し、コーディングタスクでの精度が大幅に改善された。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "nSgMi",
+              "name": "Entry",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 16,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "XyHMn",
+                  "name": "OGP",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "maltsev_",
+                    "link": "https://unsplash.com/@maltsev_",
+                    "author": "Anatoly Maltsev"
+                  },
+                  "clip": true,
+                  "width": 96,
+                  "height": 64,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1763888450540-9b59abff803b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTQ1OTV8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "hPQv3",
+                  "name": "Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "GDKSg",
+                      "name": "Meta",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZNiBC",
+                          "name": "src2",
+                          "fill": "$text-secondary",
+                          "content": "OpenAI Blog",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Bf3aD",
+                          "name": "date2",
+                          "fill": "$text-tertiary",
+                          "content": "Mar 3",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "srEcD",
+                      "name": "t2",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "GPT-5 Turbo: Faster, smarter, more reliable",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "373cv",
+                      "name": "s2",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "OpenAIがGPT-5 Turboを発表。マルチモーダル対応が強化され、画像理解と生成の品質が大幅に向上。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "QSM9z",
+              "name": "Entry",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 16,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "SLjy0",
+                  "name": "OGP",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "kanhaiyasharma",
+                    "link": "https://unsplash.com/@kanhaiyasharma",
+                    "author": "Kanhaiya Sharma"
+                  },
+                  "clip": true,
+                  "width": 96,
+                  "height": 64,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1658669742598-2f70354c3326?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTQ1OTZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "n89KK",
+                  "name": "Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "lDhqD",
+                      "name": "Meta",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "feCOi",
+                          "name": "src3",
+                          "fill": "$text-secondary",
+                          "content": "Hacker News",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "FnoxT",
+                          "name": "date3",
+                          "fill": "$text-tertiary",
+                          "content": "Mar 3",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "onmFl",
+                      "name": "t3",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Show HN: I built an open-source alternative to Notion with local-first sync",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qwNau",
+                      "name": "s3",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Notionのオープンソース代替をlocal-firstで構築。CRDTベースの同期でオフライン動作。SQLiteをストレージに使用。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ifrn8",
+              "name": "Entry",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 16,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "x7nnc",
+                  "name": "OGP",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "flyd2069",
+                    "link": "https://unsplash.com/@flyd2069",
+                    "author": "FlyD"
+                  },
+                  "clip": true,
+                  "width": 96,
+                  "height": 64,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1629006367966-fc91ef31d7d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTQ1OTZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "KD4wS",
+                  "name": "Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "3eafn",
+                      "name": "Meta",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kETr6",
+                          "name": "src4",
+                          "fill": "$text-secondary",
+                          "content": "X · @AnthropicAI",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "B72Qh",
+                          "name": "date4",
+                          "fill": "$text-tertiary",
+                          "content": "Mar 3",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "BywGf",
+                      "name": "t4",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "We're excited to announce Claude 4.5 — our most capable model yet.",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RcDce",
+                      "name": "s4",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Anthropic公式がClaude 4.5のリリースをXで告知。ブログ記事より先にXで速報が出た形。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aKlPq",
+              "name": "Entry",
+              "width": "fill_container",
+              "gap": 16,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "pZ4Bk",
+                  "name": "OGP",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "vmelnyk",
+                    "link": "https://unsplash.com/@vmelnyk",
+                    "author": "Vladyslav Melnyk"
+                  },
+                  "clip": true,
+                  "width": 96,
+                  "height": 64,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1650871963041-42fd7400eca7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTQ1OTd8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "cWfyM",
+                  "name": "Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "EZfFG",
+                      "name": "Meta",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "SZppG",
+                          "name": "src5",
+                          "fill": "$text-secondary",
+                          "content": "GitHub · vercel/next.js",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LEhHK",
+                          "name": "date5",
+                          "fill": "$text-tertiary",
+                          "content": "Mar 2",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "ESV0f",
+                      "name": "t5",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "v16.2.0 — Improved Turbopack performance and new caching API",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "DrUH2",
+                      "name": "s5",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Next.js 16.2がリリース。Turbopackのビルド速度が30%改善、新キャッシュAPIが追加された。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "qUVeD",
+          "name": "Batch Section — Previous",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            24,
+            200,
+            0,
+            200
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "h4De5",
+              "name": "Batch Header",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 8,
+              "padding": [
+                0,
+                0,
+                16,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wPuRn",
+                  "name": "bd2",
+                  "fill": "$text-primary",
+                  "content": "2026-03-02 09:00",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "QqDIp",
+                  "name": "bc2",
+                  "fill": "$text-tertiary",
+                  "content": "3 articles",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aX45R",
+              "name": "Entry",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 16,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Fbmzx",
+                  "name": "OGP",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "boliviainteligente",
+                    "link": "https://unsplash.com/@boliviainteligente",
+                    "author": "BoliviaInteligente"
+                  },
+                  "clip": true,
+                  "width": 96,
+                  "height": 64,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1665624193452-d1814e226bd2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTQ1OTd8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "Td95C",
+                  "name": "Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "6sSeH",
+                      "name": "Meta",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "VUEQQ",
+                          "name": "ps1",
+                          "fill": "$text-secondary",
+                          "content": "Product Hunt",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "uBRq2",
+                          "name": "pd1",
+                          "fill": "$text-tertiary",
+                          "content": "Mar 1",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "FadHz",
+                      "name": "pt1",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Product Hunt Weekly Digest — Top 10 Products of the Week",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WazKj",
+                      "name": "psu1",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "今週のトップ10プロダクト。AIコード補完ツールが1位、ノーコードDB構築ツールが2位にランクイン。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DnkYR",
+              "name": "Entry",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 16,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "QTmsM",
+                  "name": "OGP",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "loganvoss",
+                    "link": "https://unsplash.com/@loganvoss",
+                    "author": "Logan Voss"
+                  },
+                  "clip": true,
+                  "width": 96,
+                  "height": 64,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1756751579871-c161b35f1888?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTQ1OTh8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "BD9Fv",
+                  "name": "Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YA12P",
+                      "name": "Meta",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YXzhF",
+                          "name": "ps2",
+                          "fill": "$text-secondary",
+                          "content": "Anthropic Blog",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "PnJWc",
+                          "name": "pd2",
+                          "fill": "$text-tertiary",
+                          "content": "Mar 1",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "NSipr",
+                      "name": "pt2",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Research: Scaling Constitutional AI to production systems",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "PijeQ",
+                      "name": "psu2",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Constitutional AIを本番システムに適用するための研究成果を公開。安全性と有用性のバランスに関する新しい知見。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "xmFZM",
+      "x": 0,
+      "y": 3600,
+      "name": "Feed Filter — Pattern A: Tag Row",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "t0W0K",
+          "name": "Nav",
+          "width": "fill_container",
+          "gap": 8,
+          "padding": [
+            24,
+            200,
+            0,
+            200
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "gWd3a",
+              "name": "homeA",
+              "fill": "$text-secondary",
+              "content": "← Home",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "5bHJx",
+          "name": "Filter Row",
+          "width": "fill_container",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "$border"
+          },
+          "gap": 16,
+          "padding": [
+            16,
+            200
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "jSQlG",
+              "name": "allA",
+              "fill": "$text-primary",
+              "content": "All",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "u1NBF",
+              "name": "f1A",
+              "fill": "$text-secondary",
+              "content": "Anthropic",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "EhK8Q",
+              "name": "f2A",
+              "fill": "$text-secondary",
+              "content": "OpenAI",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "8RNm7",
+              "name": "f3A",
+              "fill": "$text-secondary",
+              "content": "Hacker News",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "MMvJ5",
+              "name": "f4A",
+              "fill": "$text-secondary",
+              "content": "X",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "V3bQQ",
+              "name": "f5A",
+              "fill": "$text-secondary",
+              "content": "GitHub",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Xrkrp",
+          "name": "Batch Header",
+          "width": "fill_container",
+          "gap": 8,
+          "padding": [
+            24,
+            200,
+            12,
+            200
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "pEx1Y",
+              "name": "bdA",
+              "fill": "$text-primary",
+              "content": "2026-03-03 09:00",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "lrJuM",
+              "name": "bcA",
+              "fill": "$text-tertiary",
+              "content": "5 articles",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kKLwD",
+          "name": "Entry",
+          "width": "fill_container",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "$border"
+          },
+          "gap": 16,
+          "padding": [
+            12,
+            200
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "NFHQV",
+              "name": "OGP",
+              "metadata": {
+                "type": "unsplash",
+                "username": "shotbywoliul",
+                "link": "https://unsplash.com/@shotbywoliul",
+                "author": "Woliul Hasan"
+              },
+              "clip": true,
+              "width": 96,
+              "height": 64,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1762951566390-e35eb7dfe9c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTU1MTN8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 3
+            },
+            {
+              "type": "frame",
+              "id": "F6zas",
+              "name": "Content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ONYls",
+                  "name": "Meta",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "2QMBh",
+                      "name": "sA",
+                      "fill": "$text-secondary",
+                      "content": "Anthropic Blog",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ws5aJ",
+                      "name": "dA",
+                      "fill": "$text-tertiary",
+                      "content": "Mar 2",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "rzXOU",
+                  "name": "tA",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Introducing Claude 4.5: A new era of AI assistance",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "UrrZs",
+                  "name": "suA",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Anthropicが最新モデルClaude 4.5を発表。推論速度が2倍に向上し、コーディングタスクでの精度が大幅に改善。",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "DVujb",
+      "x": 1540,
+      "y": 3600,
+      "name": "Feed Filter — Pattern B: Sidebar",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$bg",
+      "children": [
+        {
+          "type": "frame",
+          "id": "wlkqW",
+          "name": "Sidebar",
+          "width": 200,
+          "height": "fill_container",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "right": 1
+            },
+            "fill": "$border"
+          },
+          "layout": "vertical",
+          "gap": 16,
+          "padding": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "hk28x",
+              "name": "homeB",
+              "fill": "$text-secondary",
+              "content": "← Home",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "gVpz5",
+              "name": "slabel",
+              "fill": "$text-tertiary",
+              "content": "Sources",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "3GqDi",
+              "name": "sf1",
+              "fill": "$text-primary",
+              "content": "All",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "bUi4p",
+              "name": "sf2",
+              "fill": "$text-secondary",
+              "content": "Anthropic",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "JXjBB",
+              "name": "sf3",
+              "fill": "$text-secondary",
+              "content": "OpenAI",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "H5FN6",
+              "name": "sf4",
+              "fill": "$text-secondary",
+              "content": "Hacker News",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "ZBI8S",
+              "name": "sf5",
+              "fill": "$text-secondary",
+              "content": "X",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "DXeFo",
+              "name": "sf6",
+              "fill": "$text-secondary",
+              "content": "GitHub",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "aPBVR",
+          "name": "Main Content",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Fkvkk",
+              "name": "Batch Header",
+              "width": "fill_container",
+              "gap": 8,
+              "padding": [
+                24,
+                40,
+                12,
+                40
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "A0JZX",
+                  "name": "bdB",
+                  "fill": "$text-primary",
+                  "content": "2026-03-03 09:00",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "miWcA",
+                  "name": "bcB",
+                  "fill": "$text-tertiary",
+                  "content": "5 articles",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XCUz1",
+              "name": "Entry",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 16,
+              "padding": [
+                12,
+                40
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "VK8zF",
+                  "name": "OGP",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "loganvoss",
+                    "link": "https://unsplash.com/@loganvoss",
+                    "author": "Logan Voss"
+                  },
+                  "clip": true,
+                  "width": 96,
+                  "height": 64,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1762278804729-13d330fad71a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTU1MTN8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "XPZRF",
+                  "name": "Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "4xKNa",
+                      "name": "Meta",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Kch96",
+                          "name": "sB",
+                          "fill": "$text-secondary",
+                          "content": "Anthropic Blog",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vpIrs",
+                          "name": "dB",
+                          "fill": "$text-tertiary",
+                          "content": "Mar 2",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "beLIW",
+                      "name": "tB",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Introducing Claude 4.5: A new era of AI assistance",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VPadg",
+                      "name": "suB",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Anthropicが最新モデルClaude 4.5を発表。推論速度が2倍に向上し、コーディングタスクでの精度が大幅に改善。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ZWBxw",
+      "x": 3080,
+      "y": 3600,
+      "name": "Feed Filter — Pattern C: Dropdown",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "2aANJ",
+          "name": "Nav",
+          "width": "fill_container",
+          "padding": [
+            24,
+            200,
+            0,
+            200
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "rzR2l",
+              "name": "homeC",
+              "fill": "$text-secondary",
+              "content": "← Home",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "7wlTf",
+              "name": "Dropdown",
+              "cornerRadius": 4,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$border"
+              },
+              "gap": 6,
+              "padding": [
+                6,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jl5v3",
+                  "name": "dropLabel",
+                  "fill": "$text-primary",
+                  "content": "All sources",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "JOkzD",
+                  "name": "dropIcon",
+                  "fill": "$text-tertiary",
+                  "content": "▾",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "j89pN",
+          "name": "Batch Header",
+          "width": "fill_container",
+          "gap": 8,
+          "padding": [
+            24,
+            200,
+            12,
+            200
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "DlX6M",
+              "name": "bdC",
+              "fill": "$text-primary",
+              "content": "2026-03-03 09:00",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "ml5dc",
+              "name": "bcC",
+              "fill": "$text-tertiary",
+              "content": "5 articles",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "e5JYR",
+          "name": "Entry",
+          "width": "fill_container",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "$border"
+          },
+          "gap": 16,
+          "padding": [
+            12,
+            200
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "R1PvC",
+              "name": "OGP",
+              "metadata": {
+                "type": "unsplash",
+                "username": "loganvoss",
+                "link": "https://unsplash.com/@loganvoss",
+                "author": "Logan Voss"
+              },
+              "clip": true,
+              "width": 96,
+              "height": 64,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1759267853725-057b6651fda5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTU1MTR8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 3
+            },
+            {
+              "type": "frame",
+              "id": "c05b3",
+              "name": "Content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "yImk4",
+                  "name": "Meta",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "44BhH",
+                      "name": "sC",
+                      "fill": "$text-secondary",
+                      "content": "Anthropic Blog",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XcArI",
+                      "name": "dC",
+                      "fill": "$text-tertiary",
+                      "content": "Mar 2",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "0Yg0F",
+                  "name": "tC",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Introducing Claude 4.5: A new era of AI assistance",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "48J1X",
+                  "name": "suC",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Anthropicが最新モデルClaude 4.5を発表。推論速度が2倍に向上し、コーディングタスクでの精度が大幅に改善。",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "RFwKT",
+      "x": 4620,
+      "y": 3600,
+      "name": "Feed v3 — Sidebar",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$bg",
+      "children": [
+        {
+          "type": "frame",
+          "id": "a1BYT",
+          "name": "Sidebar",
+          "width": 200,
+          "height": "fill_container",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "right": 1
+            },
+            "fill": "$border"
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "gsaNE",
+              "name": "homeLink",
+              "fill": "$text-primary",
+              "content": "← Home",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "luTQJ",
+              "name": "srcLabel",
+              "fill": "$text-tertiary",
+              "content": "Sources",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "VkLyA",
+              "name": "Source List",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "uwb8e",
+                  "name": "srcAll",
+                  "fill": "$text-primary",
+                  "content": "All",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "y20gd",
+                  "name": "srcAnth",
+                  "fill": "$text-secondary",
+                  "content": "Anthropic",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Mm7R9",
+                  "name": "srcOai",
+                  "fill": "$text-secondary",
+                  "content": "OpenAI",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "8NAcK",
+                  "name": "srcHn",
+                  "fill": "$text-secondary",
+                  "content": "Hacker News",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "KpvFd",
+                  "name": "srcX",
+                  "fill": "$text-secondary",
+                  "content": "X",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "VS4B6",
+                  "name": "srcGh",
+                  "fill": "$text-secondary",
+                  "content": "GitHub",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "PJeD8",
+          "name": "Main",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "padding": 48,
+          "children": [
+            {
+              "type": "frame",
+              "id": "wF7bn",
+              "name": "Batch Header",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 8,
+              "padding": [
+                0,
+                0,
+                16,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "7bkyx",
+                  "name": "bDate",
+                  "fill": "$text-primary",
+                  "content": "2026-03-03 09:00",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "wkEGr",
+                  "name": "bCount",
+                  "fill": "$text-tertiary",
+                  "content": "5 articles",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XQFsD",
+              "name": "Entry",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 16,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gZHBI",
+                  "name": "OGP",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "loganvoss",
+                    "link": "https://unsplash.com/@loganvoss",
+                    "author": "Logan Voss"
+                  },
+                  "clip": true,
+                  "width": 96,
+                  "height": 64,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1764258560294-2b5e85e61dc9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTYxOTd8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "U2w0a",
+                  "name": "Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "irBlG",
+                      "name": "Meta",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "xnwNo",
+                          "name": "s1",
+                          "fill": "$text-secondary",
+                          "content": "Anthropic Blog",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "US3yr",
+                          "name": "d1",
+                          "fill": "$text-tertiary",
+                          "content": "Mar 2",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "uI5sk",
+                      "name": "t1",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Introducing Claude 4.5: A new era of AI assistance",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "f8yUD",
+                      "name": "su1",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Anthropicが最新モデルClaude 4.5を発表。推論速度が2倍に向上し、コーディングタスクでの精度が大幅に改善された。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "GateV",
+              "name": "Entry",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 16,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "kH1cN",
+                  "name": "OGP",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "loganvoss",
+                    "link": "https://unsplash.com/@loganvoss",
+                    "author": "Logan Voss"
+                  },
+                  "clip": true,
+                  "width": 96,
+                  "height": 64,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1762014270371-17b16dc4a1fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTYxOTd8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "XdRjN",
+                  "name": "Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "XjQST",
+                      "name": "Meta",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "5Qpfv",
+                          "name": "s2",
+                          "fill": "$text-secondary",
+                          "content": "OpenAI Blog",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "rozDP",
+                          "name": "d2",
+                          "fill": "$text-tertiary",
+                          "content": "Mar 3",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "ldMe6",
+                      "name": "t2",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "GPT-5 Turbo: Faster, smarter, more reliable",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "yTbqA",
+                      "name": "su2",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "OpenAIがGPT-5 Turboを発表。マルチモーダル対応が強化され、画像理解と生成の品質が大幅に向上した。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "q93AA",
+              "name": "Entry",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 16,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Hrm2d",
+                  "name": "OGP",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "aryanspixel",
+                    "link": "https://unsplash.com/@aryanspixel",
+                    "author": "Arian R"
+                  },
+                  "clip": true,
+                  "width": 96,
+                  "height": 64,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1685452215759-953a0c18a083?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTYxOTh8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "ITBpY",
+                  "name": "Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "pJ9QP",
+                      "name": "Meta",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "mXrtD",
+                          "name": "s3",
+                          "fill": "$text-secondary",
+                          "content": "Hacker News",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "RAVFC",
+                          "name": "d3",
+                          "fill": "$text-tertiary",
+                          "content": "Mar 3",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "cegk9",
+                      "name": "t3",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Show HN: Open-source Notion alternative with local-first sync",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "AJuZl",
+                      "name": "su3",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Notionのオープンソース代替をlocal-firstで構築。CRDTベースの同期でオフライン動作。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "201Mu",
+      "x": 6160,
+      "y": 3600,
+      "name": "Feed v4 — Mixed Entry Types",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$bg",
+      "children": [
+        {
+          "type": "frame",
+          "id": "1iBah",
+          "name": "Sidebar",
+          "width": 200,
+          "height": "fill_container",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "right": 1
+            },
+            "fill": "$border"
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "yNqJl",
+              "name": "hl",
+              "fill": "$text-primary",
+              "content": "← Home",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "1uwqy",
+              "name": "sl",
+              "fill": "$text-tertiary",
+              "content": "Sources",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "VjJ0S",
+              "name": "Source List",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "90C7S",
+                  "name": "sa",
+                  "fill": "$text-primary",
+                  "content": "All",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "H80J6",
+                  "name": "s1",
+                  "fill": "$text-secondary",
+                  "content": "Anthropic",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "cf3o1",
+                  "name": "s2",
+                  "fill": "$text-secondary",
+                  "content": "OpenAI",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "M08cl",
+                  "name": "s3",
+                  "fill": "$text-secondary",
+                  "content": "Hacker News",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "GqrkU",
+                  "name": "s4",
+                  "fill": "$text-secondary",
+                  "content": "X",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "JK2NQ",
+                  "name": "s5",
+                  "fill": "$text-secondary",
+                  "content": "GitHub",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "84uB5",
+                  "name": "s6",
+                  "fill": "$text-secondary",
+                  "content": "Product Hunt",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OMFZa",
+          "name": "Main",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "padding": 48,
+          "children": [
+            {
+              "type": "frame",
+              "id": "c6ns0",
+              "name": "Batch Header",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 8,
+              "padding": [
+                0,
+                0,
+                16,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "e6HrN",
+                  "name": "bd",
+                  "fill": "$text-primary",
+                  "content": "2026-03-03 09:00",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "3NGBn",
+                  "name": "bc",
+                  "fill": "$text-tertiary",
+                  "content": "5 entries",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Ge5fY",
+              "name": "Article Entry — Anthropic",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 16,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ydAzo",
+                  "name": "OGP",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "loganvoss",
+                    "link": "https://unsplash.com/@loganvoss",
+                    "author": "Logan Voss"
+                  },
+                  "clip": true,
+                  "width": 96,
+                  "height": 64,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1738174722364-65c0ba9ad0cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTcyODF8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "we0pC",
+                  "name": "Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "uMn2P",
+                      "name": "Meta",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ppDd9",
+                          "name": "ms1",
+                          "fill": "$text-secondary",
+                          "content": "Anthropic Blog",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "M031f",
+                          "name": "md1",
+                          "fill": "$text-tertiary",
+                          "content": "Mar 2",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "2Tr43",
+                      "name": "tt1",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Introducing Claude 4.5: A new era of AI assistance",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "H1hDf",
+                      "name": "su1",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Anthropicが最新モデルClaude 4.5を発表。推論速度が2倍に向上し、コーディングタスクでの精度が大幅に改善された。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bzO6i",
+              "name": "Article Entry — OpenAI",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 16,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "FXkw6",
+                  "name": "OGP",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "loganvoss",
+                    "link": "https://unsplash.com/@loganvoss",
+                    "author": "Logan Voss"
+                  },
+                  "clip": true,
+                  "width": 96,
+                  "height": 64,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1764347295944-00a896b12e2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTcyODJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "FdTj5",
+                  "name": "Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "fUOGK",
+                      "name": "Meta",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Ht4t1",
+                          "name": "ms2",
+                          "fill": "$text-secondary",
+                          "content": "OpenAI Blog",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "jy3rh",
+                          "name": "md2",
+                          "fill": "$text-tertiary",
+                          "content": "Mar 3",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "qP8HS",
+                      "name": "tt2",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "GPT-5 Turbo: Faster, smarter, more reliable",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BGtnE",
+                      "name": "su2",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "OpenAIがGPT-5 Turboを発表。マルチモーダル対応が強化され、画像理解と生成の品質が大幅に向上した。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bc3Z1",
+              "name": "Digest Entry — Hacker News",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "layout": "vertical",
+              "gap": 8,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "lFtgm",
+                  "name": "Meta",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bxOeh",
+                      "name": "ds1",
+                      "fill": "$text-secondary",
+                      "content": "Hacker News Digest",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "812iT",
+                      "name": "dd1",
+                      "fill": "$text-tertiary",
+                      "content": "Mar 3",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "FT7tR",
+                  "name": "dt1",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "今日のHacker Newsトレンド",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "bul5i",
+                  "name": "dsu1",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "AI関連ではNotion代替のlocal-firstエディタがトップに。CRDTベースの同期エンジンが注目を集めた。続いてRustで書かれた新しいバンドラーがフロントエンドコミュニティで話題に。セキュリティ分野ではGCP APIキーの大量流出が報告され、Geminiエンドポイントへの不正アクセスリスクが議論されている。",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "kTOkb",
+              "name": "Digest Entry — Product Hunt",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "layout": "vertical",
+              "gap": 8,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gFA0p",
+                  "name": "Meta",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "keEuP",
+                      "name": "ds2",
+                      "fill": "$text-secondary",
+                      "content": "Product Hunt Digest",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xB1KN",
+                      "name": "dd2",
+                      "fill": "$text-tertiary",
+                      "content": "Mar 3",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "E5BAG",
+                  "name": "dt2",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "今日のProduct Huntトップ",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "wdZq3",
+                  "name": "dsu2",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "1位はAIコード補完ツール「CodePilot Pro」。VS Code拡張として動作し、ローカルLLMにも対応。2位はノーコードDB構築ツール「BaseKit」。Airtableの代替として注目。3位はフリーランス向け請求書管理アプリ「InvoiceFlow」。",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "5iARC",
+      "x": 0,
+      "y": 4700,
+      "name": "Feed v5 — Unified Entry",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$bg",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Atxqz",
+          "name": "Sidebar",
+          "width": 200,
+          "height": "fill_container",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "right": 1
+            },
+            "fill": "$border"
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "wcJNp",
+              "name": "hl",
+              "fill": "$text-primary",
+              "content": "← Home",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "01xpV",
+              "name": "sl",
+              "fill": "$text-tertiary",
+              "content": "Sources",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "v8U8O",
+              "name": "Source List",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "6T356",
+                  "name": "sa",
+                  "fill": "$text-primary",
+                  "content": "All",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "YT5HD",
+                  "name": "s1",
+                  "fill": "$text-secondary",
+                  "content": "Anthropic",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Yo2Lv",
+                  "name": "s2",
+                  "fill": "$text-secondary",
+                  "content": "OpenAI",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "tJnLU",
+                  "name": "s3",
+                  "fill": "$text-secondary",
+                  "content": "Hacker News",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "EahL2",
+                  "name": "s4",
+                  "fill": "$text-secondary",
+                  "content": "X",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "WKebb",
+                  "name": "s5",
+                  "fill": "$text-secondary",
+                  "content": "GitHub",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "recTd",
+                  "name": "s6",
+                  "fill": "$text-secondary",
+                  "content": "Product Hunt",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "RmlSH",
+          "name": "Main",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "padding": 48,
+          "children": [
+            {
+              "type": "frame",
+              "id": "3Fu3N",
+              "name": "Batch Header",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 8,
+              "padding": [
+                0,
+                0,
+                16,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "5mhDP",
+                  "name": "bd",
+                  "fill": "$text-primary",
+                  "content": "2026-03-03 09:00",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "TAQYA",
+                  "name": "bc",
+                  "fill": "$text-tertiary",
+                  "content": "5 entries",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vMRJ8",
+              "name": "Entry",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 16,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "88Fr1",
+                  "name": "OGP",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "cherstve_pechivo",
+                    "link": "https://unsplash.com/@cherstve_pechivo",
+                    "author": "Liana S"
+                  },
+                  "clip": true,
+                  "width": 96,
+                  "height": 64,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1771875797242-77f69f061132?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTc0MzZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "gVLIG",
+                  "name": "Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "RUZxY",
+                      "name": "Meta",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Yrdo2",
+                          "name": "ms1",
+                          "fill": "$text-secondary",
+                          "content": "Anthropic Blog",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "eQT2L",
+                          "name": "md1",
+                          "fill": "$text-tertiary",
+                          "content": "Mar 2",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "FrV5P",
+                      "name": "t1",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Introducing Claude 4.5: A new era of AI assistance",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BQHQC",
+                      "name": "su1",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Anthropicが最新モデルClaude 4.5を発表。推論速度が2倍に向上し、コーディングタスクでの精度が大幅に改善された。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "uDR20",
+              "name": "Entry",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 16,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "sbhra",
+                  "name": "OGP",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "loganvoss",
+                    "link": "https://unsplash.com/@loganvoss",
+                    "author": "Logan Voss"
+                  },
+                  "clip": true,
+                  "width": 96,
+                  "height": 64,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1764258559785-70de78108992?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTc0MzZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "9lnLY",
+                  "name": "Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "6c9C0",
+                      "name": "Meta",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "dfdzo",
+                          "name": "ms2",
+                          "fill": "$text-secondary",
+                          "content": "OpenAI Blog",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "L7qoi",
+                          "name": "md2",
+                          "fill": "$text-tertiary",
+                          "content": "Mar 3",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "dWpxC",
+                      "name": "t2",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "GPT-5 Turbo: Faster, smarter, more reliable",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ysGOG",
+                      "name": "su2",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "OpenAIがGPT-5 Turboを発表。マルチモーダル対応が強化され、画像理解と生成の品質が大幅に向上した。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "z7Qgb",
+              "name": "Entry",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 16,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "avExx",
+                  "name": "OGP",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "tommaomaoer",
+                    "link": "https://unsplash.com/@tommaomaoer",
+                    "author": "tommao wang"
+                  },
+                  "clip": true,
+                  "width": 96,
+                  "height": 64,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1665110919319-2def9b69ec4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTc0MzZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "EUQ0Q",
+                  "name": "Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "QmhCx",
+                      "name": "Meta",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZXv9U",
+                          "name": "ms3",
+                          "fill": "$text-secondary",
+                          "content": "Hacker News",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Dp0gz",
+                          "name": "md3",
+                          "fill": "$text-tertiary",
+                          "content": "Mar 3",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "HngJg",
+                      "name": "t3",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "今日のトレンド: local-first エディタ、Rustバンドラー、GCP APIキー流出",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "t2KHe",
+                      "name": "su3",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "AI関連ではNotion代替のlocal-firstエディタがトップ。Rustで書かれた新バンドラーも話題。セキュリティではGCP APIキーの大量流出が報告された。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "A8I5b",
+              "name": "Entry",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 16,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "YBEZI",
+                  "name": "OGP",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "andretapia8",
+                    "link": "https://unsplash.com/@andretapia8",
+                    "author": "Andrea tapia"
+                  },
+                  "clip": true,
+                  "width": 96,
+                  "height": 64,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1619468918235-8eb7dd64a7b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTc0Mzd8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "7Q1PT",
+                  "name": "Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "XF6lk",
+                      "name": "Meta",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GmQ7N",
+                          "name": "ms4",
+                          "fill": "$text-secondary",
+                          "content": "Product Hunt",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LC872",
+                          "name": "md4",
+                          "fill": "$text-tertiary",
+                          "content": "Mar 3",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "wPSnx",
+                      "name": "t4",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "今日のトップ: AIコード補完、ノーコードDB、請求書管理",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BYxxo",
+                      "name": "su4",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "1位はAIコード補完ツール「CodePilot Pro」。ローカルLLMにも対応。2位はノーコードDB「BaseKit」。3位はフリーランス向け請求書アプリ。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "a0648",
+              "name": "Entry",
+              "width": "fill_container",
+              "gap": 16,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "PX1I6",
+                  "name": "OGP",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "gamell",
+                    "link": "https://unsplash.com/@gamell",
+                    "author": "Joan Gamell"
+                  },
+                  "clip": true,
+                  "width": 96,
+                  "height": 64,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1592609931041-40265b692757?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTc0Mzh8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "8spz1",
+                  "name": "Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "AASOm",
+                      "name": "Meta",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "h1xqP",
+                          "name": "ms5",
+                          "fill": "$text-secondary",
+                          "content": "GitHub · vercel/next.js",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "69SK2",
+                          "name": "md5",
+                          "fill": "$text-tertiary",
+                          "content": "Mar 2",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "vMbk3",
+                      "name": "t5",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "v16.2.0 — Improved Turbopack performance and new caching API",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KIA70",
+                      "name": "su5",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Next.js 16.2がリリース。Turbopackのビルド速度が30%改善、新キャッシュAPIが追加された。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "variables": {

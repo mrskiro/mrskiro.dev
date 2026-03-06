@@ -4,8 +4,10 @@
   --color-accent: #aa26ff;
 }
 
-a {
-  text-decoration: underline;
-  text-decoration-color: var(--color-accent);
-  text-underline-offset: 2.5px;
+@layer base {
+  a {
+    text-decoration: underline;
+    text-decoration-color: var(--color-accent);
+    text-underline-offset: 2.5px;
+  }
 }

@@ -1,0 +1,22 @@
+name: Feed
+
+on:
+  schedule:
+    - cron: "0 21 * * *" # 06:00 JST (21:00 UTC previous day)
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: ./.github/actions/setup
+      - run: pnpm feed:fetch
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add contents/feed/
+          git diff --cached --quiet || git commit -m "Update feed $(date -u +%Y-%m-%d)"
+          git push

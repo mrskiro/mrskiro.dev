@@ -25,6 +25,7 @@
 - Accent: `#aa26ff` (purple — personal identity, links and emphasis)
 - Code block background: `#F6F6F6`
 - Border: `#F0F0F0`
+- Secondary text (metadata, dates): `text-neutral-500` (`#737373`) minimum
 - Dark mode: not planned (adds complexity; use `prefers-color-scheme` if ever needed)
 
 ## Typography
@@ -63,6 +64,10 @@
 - Section dividers: whitespace only (no borders, no lines)
 - Section headings are plain text, not styled labels
 
+## Scope
+
+Rules in this document apply strictly to public pages (`(site)` route group: `/`, `/writing`, `/colophon`). `/feed` is a private dashboard — it follows the spirit of these rules but allows deviations for information density (e.g. secondary text colors, smaller font sizes, borders as dividers).
+
 ## Pages
 
 - `/` — Home (single page, all key info)
@@ -70,6 +75,7 @@
 - `/writing/[slug]` — Article detail
 - `/colophon` — Colophon (how this site is built)
 - `/resume` — Resume (optional)
+- `/feed` — Private feed dashboard (not indexed, own layout)
 
 ## Tategaki (Vertical Writing)
 
