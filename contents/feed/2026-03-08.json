@@ -1,0 +1,61 @@
+{
+  "fetchedAt": "2026-03-07T21:10:23.307Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.71",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.71",
+      "summary": "- [Added] /loopコマンドを追加し、プロンプトまたはスラッシュコマンドを定期的に実行できるようにしました（例：/loop 5m check the deploy）\n- [Added] セッション内で繰り返しプロンプトを実行するためのcronスケジューリングツールを追加しました\n- [Added] voice:pushToTalkキーバインディングを追加し、keybindings.jsonで音声起動キーを再バインドできるようにしました（デフォルト：space） — meta+kのような修飾キーと文字の組み合わせはタイピングの邪魔になりません\n- [Added] bashの自動承認許可リストにfmt, comm, cmp, numfmt, expr, test, printf, getconf, seq, tsort, prを追加しました\n- [Fixed] キーストロークが処理されなくなりプロセスは生きているものの、長時間のセッションでstdinがフリーズする問題を修正しました\n- [Fixed] システム起動後にCoreAudioの初期化がメインスレッドをブロックすることにより、音声モードが有効なユーザーで5〜8秒の起動フリーズが発生する問題を修正しました\n- [Fixed] 多数のclaude.aiプロキシコネクタが期限切れのOAuthトークンを同時に更新する際に、起動時にUIがフリーズする問題を修正しました\n- [Fixed] フォークされた会話（/fork）が同じプランファイルを共有し、一方のフォークでのプラン編集がもう一方を上書きしてしまう問題を修正しました\n- [Fixed] 画像処理が失敗した際にReadツールが特大画像をコンテキストに入れ、画像が多い長時間のセッションで後続のターンが壊れる問題を修正しました\n- [Fixed] ヒアドキュメントのコミットメッセージを含む複合bashコマンドで、誤ったパーミッションプロンプトが表示される問題を修正しました\n- [Fixed] 複数のClaude Codeインスタンスを実行すると、プラグインのインストールが失われる問題を修正しました\n- [Fixed] OAuthトークンの更新後にclaude.aiコネクタが再接続に失敗する問題を修正しました\n- [Fixed] claude.ai MCPコネクタの起動通知が、以前接続されたものだけでなく、組織設定されたすべてのコネクタに対して表示される問題を修正しました\n- [Fixed] バックグラウンドエージェントの完了通知に、出力ファイルのパスが欠落している問題を修正しました。これにより、親エージェントがコンテキスト圧縮後にエージェントの結果を回復することが困難になっていました\n- [Fixed] コマンドがゼロ以外のステータスで終了した際に、Bashツールのエラーメッセージが重複して出力される問題を修正しました\n- [Fixed] ローカルChromeがないマシンで実行後、Chrome拡張機能の自動検出が「インストールされていません」のまま永久にスタックする問題を修正しました\n- [Fixed] marketplaceがブランチ/タグ参照に固定されている場合に、/plugin marketplace updateがマージの競合で失敗する問題を修正しました\n- [Fixed] /plugin marketplace add owner/repo@refが@を正しく解析しない問題を修正しました — 以前は#のみが参照セパレータとして機能し、strictKnownMarketplacesで診断不能なエラーを引き起こしていました\n- [Fixed] 同じディレクトリが末尾のスラッシュの有無にかかわらず追加された場合に、/permissions Workspaceタブに重複エントリが表示される問題を修正しました\n- [Fixed] チームエージェントが設定されている場合に--printがハングアップする問題を修正しました — 終了ループは長期間実行されるin_process_teammateタスクを待機しなくなりました\n- [Fixed] ToolSearch呼び出しのたびにREPLに「❯ Tool loaded.」と表示される問題を修正しました\n- [Fixed] モデルがmingw形式のパスを使用する場合に、Windowsでcd <cwd> && git ...のプロンプトが表示される問題を修正しました\n- [Improved] ネイティブイメージプロセッサの読み込みを最初の使用時まで遅延させることで、起動時間を改善しました\n- [Improved] ブリッジセッションの再接続を改善し、ノートPCがスリープから復帰後、最大10分待つのではなく、数秒以内に完了するようにしました\n- [Improved] /plugin uninstallを改善し、プロジェクトスコープのプラグインを.claude/settings.local.jsonで無効にするようにしました。これにより、変更がチームメイトに影響を与えなくなります\n- [Improved] プラグイン提供のMCPサーバーの重複排除を改善しました — 手動で設定されたサーバーと重複するサーバー（同じコマンド/URL）はスキップされ、重複接続とツールセットが防止されます。抑制は/pluginメニューに表示されます\n- [Changed] /debugを更新し、デバッグログがデフォルトで書き込まれなくなったため、セッション中にデバッグロギングを切り替えられるようにしました\n- [Removed] 認証されていない組織登録済みのclaude.aiコネクタに対する起動通知ノイズを削除しました",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-03-07"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-08"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-08"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-08"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1123pt] 地球温暖化が大幅に加速 | 気候変動の専門家による研究が高く評価されており、気候変動対策と経済の両立について議論が集中しています。\n  https://news.ycombinator.com/item?id=47275088\n- [983pt] ハイテク産業の雇用状況、2008年や2020年の景気後退時よりも深刻に | トップ層は高給だが「平均的」な開発者は苦戦しており、データ解釈を巡って意見が分かれています。\n  https://news.ycombinator.com/item?id=47278426\n- [950pt] HNに投稿: 60歳。Claude Codeがプログラミングへの情熱を再燃させた | AIを活用したプログラミングで、一度引退したシニア層が再び熱意を取り戻すという共感の声が多く集まっています。\n  https://news.ycombinator.com/item?id=47282777\n- [833pt] System76、年齢認証法について声明を発表 | 子ども保護を名目にした年齢認証法に対し、プライバシー侵害や一般コンピューティングへの脅威を懸念する声が多く見られます。\n  https://news.ycombinator.com/item?id=47270784\n- [621pt] 国防総省との関係、現状について | 軍事関連企業への技術提供を巡る倫理的議論が活発で、テクノロジーと戦争の関係に多くの懸念が示されています。\n  https://news.ycombinator.com/item?id=47269263\n- [607pt] Plasma Bigscreen – KDE Plasma向けの10フィートUI | プロジェクトの古さと開発者の少なさが指摘される一方、KDEの優れたUIデザインへの評価も高いです。\n  https://news.ycombinator.com/item?id=47282736\n- [604pt] Anthropicのレッドチームを活用したFirefoxの強化 | AIによるセキュリティ監査の有効性が議論されており、バグの詳細が不明なことへの疑問も呈されています。\n  https://news.ycombinator.com/item?id=47273854\n- [587pt] 「パラダイムを相乗効果させる」のが好きな従業員は仕事ができない可能性 | 抽象的な専門用語を使う従業員は意思決定が苦手という研究結果に対し、共感や具体的な体験談が寄せられています。\n  https://news.ycombinator.com/item?id=47274676\n- [558pt] 米国経済、2月に予想外の9.2万人の雇用減 | 観光業の不振や関税政策が影響しているとの見方があり、政府発表の統計に対する不信感も表明されています。\n  https://news.ycombinator.com/item?id=47275035\n- [427pt] Proton Mail、FBIによる匿名の「Stop Cop City」抗議者特定に協力 | Proton Mailが法的な要請に従ったことに失望の声がある一方、利用者のセキュリティ対策の不備を指摘する意見もあります。\n  https://news.ycombinator.com/item?id=47267628",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-03-08"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "3 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- OpenAIロボット部門の責任者、Caitlin Kalinowski氏が国防総省との契約に反発し退社\n  https://techcrunch.com/2026/03/07/openai-robotics-lead-caitlin-kalinowski-quits-in-response-to-pentagon-deal/\n- OpenAI、ChatGPTの「アダルトモード」を再び延期\n  https://techcrunch.com/2026/03/07/openai-delays-chatgpts-adult-mode-again/\n- Robinhoodのスタートアップファンド、NYSE上場でつまずく\n  https://techcrunch.com/2026/03/06/robinhoods-startup-fund-stumbles-in-nyse-debut/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-03-08"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- FasterGH — GitHubをサクサク閲覧できる高速ツール\n  https://www.producthunt.com/products/fastergh\n- Codex Security — アプリケーションセキュリティエージェント\n  https://www.producthunt.com/products/openai\n- GetBeel — AIが請求書を自動回収し、照合まで実行\n  https://www.producthunt.com/products/getbeel\n- 21st Agents SDK — Claude Code AIエージェントをアプリに追加するSDK\n  https://www.producthunt.com/products/21st-dev-the-npm-for-design-engineers\n- TestSprite 2.1 — AIネイティブチーム向けエージェント型テスト\n  https://www.producthunt.com/products/testsprite\n- Tailwind Form Builder — ログイン不要。レスポンシブなHTMLフォームを数分で作成\n  https://www.producthunt.com/products/sheet-monkey\n- Copperlane — 数時間かかっていたローン処理を数秒に短縮\n  https://www.producthunt.com/products/copperlane\n- NotchPad — Mac向け、安全なメモ帳とクリップボードマネージャー\n  https://www.producthunt.com/products/notchpad\n- LTX Desktop — GPUに最適化されたローカルオープンソースLTX動画エディター\n  https://www.producthunt.com/products/ltx-desktop\n- Variant — アイデアを形にする無限のデザインをスクロールで発見\n  https://www.producthunt.com/products/variant-2",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-03-08"
+    }
+  ]
+}
