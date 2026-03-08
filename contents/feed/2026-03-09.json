@@ -1,0 +1,53 @@
+{
+  "fetchedAt": "2026-03-08T21:12:20.285Z",
+  "entries": [
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-09"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-09"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-09"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1026pt] HNに伝える: 60歳になった私がClaude Codeで情熱を再燃させた話 | 50代前後の開発者が、LLMが新たなコーディングの喜びをもたらした、一方で専門知識の価値が低下したと賛否両論。\n  https://news.ycombinator.com/item?id=47282777\n- [654pt] Plasma Bigscreen – KDE Plasma向けの10フィートインターフェース | KDEの取り組みを高く評価する声が多い。既存プロジェクトで小規模ながらも最近は改善が見られる。\n  https://news.ycombinator.com/item?id=47282736\n- [455pt] BitTorrent経由での海賊版書籍のアップロードはフェアユースに該当するとMetaが主張 | ファイル共有を巡る大企業の主張に驚きの声。過去のRIAAの訴訟を思い出す人も。\n  https://news.ycombinator.com/item?id=47285960\n- [443pt] LLMはユーザーが最初に受け入れ基準を定義すると最も効果を発揮する | LLMの生成コードは一見正しそうに見えるが、性能基準を満たさない場合がある。具体的な基準設定の重要性を指摘する声。\n  https://news.ycombinator.com/item?id=47283337\n- [428pt] Qwen 3.5をローカルで実行する方法 | ローカル環境でのQwen 3.5のパフォーマンスの高さに驚きの声多数。パラメータと量子化のバランスに関する疑問も。\n  https://news.ycombinator.com/item?id=47292522\n- [414pt] Ki Editor - ASTで動作するエディタ | JetBrains IDEの選択範囲拡張機能に似ているとの声。AST編集の難しさや、ツリー指向のエディタに関する議論。\n  https://news.ycombinator.com/item?id=47286311\n- [374pt] 郵便番号を最初に記入するUX提案 | 郵便番号だけで国や都市を特定できるという前提が、米国以外の国では通用しないと多くの指摘。\n  https://news.ycombinator.com/item?id=47292485\n- [374pt] このCSSが私が人間であることを証明する | AIと人間の書き方の違い、特に「—」（emダッシュ）の表現について興味深い考察。共感と批判の両方の意見。\n  https://news.ycombinator.com/item?id=47281593\n- [371pt] 日本の高齢化社会で孤独と戦うヤクルトレディ | ヤクルトレディがコミュニティの一員として、孤独対策に貢献しているという肯定的な意見が多い。\n  https://news.ycombinator.com/item?id=47287344\n- [367pt] Go標準ライブラリにUUIDパッケージが登場 | Goが便利な機能を追加する堅実な姿勢を評価する声。既存パッケージとの比較や、UUIDバージョンに関する議論も。\n  https://news.ycombinator.com/item?id=47283665",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-03-09"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "5 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- 米国防総省とAnthropicの契約問題、スタートアップを軍事関連事業から遠ざけるか\n  https://techcrunch.com/2026/03/08/will-the-pentagons-anthropic-controversy-scare-startups-away-from-defense-work/\n- ICEの収容施設を運営する企業、AI「マンキャンプ」に商機を見出す\n  https://techcrunch.com/2026/03/08/owner-of-ice-detention-facility-sees-big-opportunity-in-ai-man-camps/\n- AIのロードマップ、誰も耳を傾けなくても\n  https://techcrunch.com/2026/03/07/a-roadmap-for-ai-if-anyone-will-listen/\n- Google、Sundar Pichaiに6億9200万ドルの報酬パッケージを支給\n  https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/\n- Grammarlyの「専門家レビュー」、肝心の専門家が不在\n  https://techcrunch.com/2026/03/07/grammarlys-expert-review-is-just-missing-the-actual-experts/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-03-09"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- GetMimic：AIでSNS投稿・チャットのモックアップを瞬時に生成\n  https://www.producthunt.com/products/getmimic\n- Pulldog：Macでコードレビューを効率化するアプリ\n  https://www.producthunt.com/products/pulldog\n- Song Sweeper：重複する曲を削除\n  https://www.producthunt.com/products/song-sweeper\n- Vibe Marketplace by Greta：制作物を即座に販売できるマーケットプレイス\n  https://www.producthunt.com/products/gretabyquestera\n- Claude Marketplace：企業が必要なAIツールを簡単に入手\n  https://www.producthunt.com/products/claude-marketplace\n- するのに貢献\n  https://www.producthunt.com/products/ltx-desktop\n- LTX Desktop：GPUに最適化されたローカル・オープンソースのLTX動画エディター\n  https://www.producthunt.com/products/testsprite\n- TestSprite 2.1：AIネイティブチーム向けエージェント型テストツール\n  https://www.producthunt.com/products/copperlane\n- Copperlane：数時間かかっていたローン処理を数秒に短縮\n  https://www.producthunt.com/products/21st-dev-the-npm-for-design-engineers\n- 21st Agents SDK：Claude Code AIエージェントをアプリに追加するSDK\n  https://www.producthunt.com/products/allen-institute-of-artificial-intelligence",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-03-09"
+    }
+  ]
+}
