@@ -522,9 +522,7 @@ const extractJsonArray = (str: string, startIdx: number): string | null => {
 
 const parseRscPayload = (html: string): string | null => {
   const chunks: string[] = [];
-  for (const m of html.matchAll(
-    /self\.__next_f\.push\(\[1,"(.*?)"\]\)/g,
-  )) {
+  for (const m of html.matchAll(/self\.__next_f\.push\(\[1,"(.*?)"\]\)/g)) {
     try {
       chunks.push(JSON.parse(`"${m[1]}"`) as string);
     } catch {}
@@ -589,7 +587,14 @@ const githubReleaseNames = new Set(["Claude Code"]);
 const redditNames = new Set(["r/MacApps", "r/indiehackers", "r/ClaudeAI"]);
 const rssDigestNames = new Set(["TechCrunch"]);
 const rssDigestCategories = new Map([["TechCrunch", new Set(["AI", "Startups"])]]);
-const jinaNames = new Set(["OpenAI", "Anthropic", "Simon Willison", "Martin Fowler", "laiso", "mtx2s"]);
+const jinaNames = new Set([
+  "OpenAI",
+  "Anthropic",
+  "Simon Willison",
+  "Martin Fowler",
+  "laiso",
+  "mtx2s",
+]);
 
 const digestOgImages: Record<string, string> = {
   "Hacker News": "https://news.ycombinator.com/y18.svg",
