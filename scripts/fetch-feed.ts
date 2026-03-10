@@ -485,11 +485,111 @@ const fetchProductHuntDigest = async (source: Source): Promise<Entry> => {
   };
 };
 
+type AnthropicPost = {
+  title: string;
+  slug: { current: string };
+  publishedOn: string;
+  summary?: string;
+};
+
+const extractJsonArray = (str: string, startIdx: number): string | null => {
+  let depth = 0;
+  let inString = false;
+  let escape = false;
+  for (let i = startIdx; i < str.length; i++) {
+    const ch = str[i]!;
+    if (escape) {
+      escape = false;
+      continue;
+    }
+    if (ch === "\\") {
+      escape = true;
+      continue;
+    }
+    if (ch === '"') {
+      inString = !inString;
+      continue;
+    }
+    if (inString) continue;
+    if (ch === "[") depth++;
+    else if (ch === "]") {
+      depth--;
+      if (depth === 0) return str.slice(startIdx, i + 1);
+    }
+  }
+  return null;
+};
+
+const parseRscPayload = (html: string): string | null => {
+  const chunks: string[] = [];
+  for (const m of html.matchAll(
+    /self\.__next_f\.push\(\[1,"(.*?)"\]\)/g,
+  )) {
+    try {
+      chunks.push(JSON.parse(`"${m[1]}"`) as string);
+    } catch {}
+  }
+  const joined = chunks.join("");
+  return joined.includes("publishedOn") ? joined : null;
+};
+
+const fetchAnthropic = async (source: Source, since: Date): Promise<Entry[]> => {
+  const res = await fetch(source.url, {
+    headers: { "User-Agent": "feed-reader/1.0" },
+  });
+  const html = await res.text();
+
+  const payload = parseRscPayload(html);
+  if (!payload) return [];
+
+  const posts: AnthropicPost[] = [];
+  for (const key of ['"items":', '"posts":']) {
+    let searchFrom = 0;
+    while (true) {
+      const idx: number = payload.indexOf(key, searchFrom);
+      if (idx === -1) break;
+      const arrStart = idx + key.length;
+      if (payload[arrStart] !== "[") {
+        searchFrom = arrStart;
+        continue;
+      }
+      const arrStr = extractJsonArray(payload, arrStart);
+      if (arrStr) {
+        try {
+          const arr = JSON.parse(arrStr) as AnthropicPost[];
+          for (const item of arr) {
+            if (item.title && item.slug?.current && item.publishedOn) {
+              posts.push(item);
+            }
+          }
+        } catch {}
+      }
+      searchFrom = arrStart + 1;
+    }
+  }
+
+  const seen = new Set<string>();
+  return posts
+    .filter((post) => {
+      if (seen.has(post.slug.current)) return false;
+      seen.add(post.slug.current);
+      return new Date(post.publishedOn) >= since;
+    })
+    .map((post) => ({
+      sourceName: source.name,
+      title: post.title,
+      url: `https://www.anthropic.com/news/${post.slug.current}`,
+      summary: post.summary ?? "",
+      ogImage: null,
+      publishedAt: formatDate.format(new Date(post.publishedOn)),
+    }));
+};
+
 const githubReleaseNames = new Set(["Claude Code"]);
 const redditNames = new Set(["r/MacApps", "r/indiehackers", "r/ClaudeAI"]);
 const rssDigestNames = new Set(["TechCrunch"]);
 const rssDigestCategories = new Map([["TechCrunch", new Set(["AI", "Startups"])]]);
-const jinaNames = new Set(["OpenAI", "Simon Willison", "Martin Fowler", "laiso", "mtx2s"]);
+const jinaNames = new Set(["OpenAI", "Anthropic", "Simon Willison", "Martin Fowler", "laiso", "mtx2s"]);
 
 const digestOgImages: Record<string, string> = {
   "Hacker News": "https://news.ycombinator.com/y18.svg",
@@ -512,6 +612,9 @@ const fetchSource = async (source: Source, since: Date): Promise<Entry[]> => {
   }
   if (source.name === "Product Hunt") {
     return [await fetchProductHuntDigest(source)];
+  }
+  if (source.name === "Anthropic") {
+    return fetchAnthropic(source, since);
   }
   if (rssDigestNames.has(source.name)) {
     const entry = await fetchRssDigest(source, since);

@@ -26,5 +26,5 @@ export const sources = [
   { name: "mtx2s", url: "https://mtx2s.hatenablog.com/rss" },
   // TODO: Product Hunt — GraphQL API (upvote順) を使いたいがダッシュボードにアクセスできずトークン未取得。RSSで代替中
   { name: "Product Hunt", url: "https://www.producthunt.com/feed" },
-  // TODO: Anthropic — 公式RSSなし。https://www.anthropic.com/news をスクレイピングして取得する
+  { name: "Anthropic", url: "https://www.anthropic.com/news" },
 ] as const satisfies Source[];
