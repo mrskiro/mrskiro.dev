@@ -1,67 +1,29 @@
 # CLAUDE.md
 
-## Tech Stack
+## Commands
 
-- Framework: Next.js 16 (App Router) + TypeScript
-- Styling: Tailwind CSS v4
-- Content: MDX via @next/mdx, articles in `contents/writing/*.mdx`
-- Deployment: Vercel
-
-## Tooling
-
-- Linter: oxlint (not ESLint) — config: .oxlintrc.json
-- Formatter: oxfmt (not Prettier) — config: .oxfmtrc.json
-- Run `pnpm lint` and `pnpm format:check` to verify
-- `pnpm typecheck` for TypeScript (build skips type checking)
-- `pnpm test` for vitest
+- `pnpm lint` and `pnpm format:check` to verify
+- `pnpm typecheck` — build skips type checking
+- `pnpm test`
+- `pnpm format` before committing
 
 ## MDX
 
+- Articles live in `contents/writing/*.mdx`
 - Turbopack serializes @next/mdx plugin options. Functions cause build errors — only use string (package name) for rehype/remark plugins. For local plugins, process at React component level instead
-
-## CI
-
-- GitHub Actions: format, lint, typecheck, test, build run in parallel
-- Composite action at .github/actions/setup/
-
-## Commands
-
-- Claude runs non-interactive commands (pnpm install, git operations, etc.)
-- User runs interactive CLIs (prompts/wizards like create-next-app)
-- Run `pnpm format` before committing (oxfmt auto-format)
-- NEVER commit without explicit user instruction
 
 ## Repository
 
 - Public repo — never commit secrets, personal URLs, or reference site lists
-- Reference/inspiration sites go in DESIGN.md Colophon section (public is OK as colophon)
-- `/tmp` directory for local-only files (gitignored)
+- Reference/inspiration sites go in DESIGN.md Colophon section
 
 ## Design
 
 - Keep globals.css minimal — no custom classes. Use Tailwind className (arbitrary properties, variants, `group-data-*` etc.) instead
 - `design.pen` is encrypted — use Pencil MCP tools only, not Read/Grep
-- `DESIGN.md` for design principles and decisions
-- All design values (font size, spacing, width) must use Tailwind standard scale
-- Use browser_eval screenshots when researching reference sites visually
-- デザイン案を出すとき、DESIGN.md の原則（フォントサイズ、色、リンクスタイル等）を最初に確認してから作業する
+- Before proposing design changes, read DESIGN.md principles (font size, color, link style) first
 
 ## Coding Conventions
 
-- Next.js convention files (page, layout, not-found, sitemap etc.) use `export default function` (exception to arrow function rule). Function name is the generic convention name (`Layout`, `Page`, `NotFound` etc.) — directory already provides context, so do not prefix (e.g. `Layout` not `FeedLayout`)
-- Always colocate export with definition — never separate `const foo = ...` then `export { foo }`
+- Next.js convention files (page, layout, not-found, sitemap etc.) use `export default function` (exception to arrow function rule). Function name is the generic convention name (`Layout`, `Page`, `NotFound` etc.)
 - Tategaki conditional styles: use `data-tategaki` attribute on container with Tailwind `group/tategaki` + `group-data-[tategaki]/tategaki:` variant (not CSS class selector)
-- Before using Tailwind arbitrary properties (`[property:value]`), always check context7 docs for existing utility classes (e.g. `wrap-anywhere` not `[overflow-wrap:anywhere]`, `max-inline-full` not `max-is-full`)
-
-## Project Structure
-
-- Articles: `contents/writing/*.mdx` (repository root)
-- MDX prose styles: `mdx-components.tsx` (Tailwind classes per element)
-- Pages: `src/app/`
-- OGP image: `src/app/opengraph-image.tsx` (`next/og` ImageResponse, all pages share one image)
-- Favicon: `src/app/icon.png` (32x32), `src/app/apple-icon.png` (180x180) — pixel cat
-
-## Development
-
-- Start dev server in background, then verify with browser_eval (Chrome)
-- Next.js API/conventions: always check Next.js MCP docs (`nextjs_docs`) before implementing
