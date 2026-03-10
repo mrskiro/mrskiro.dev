@@ -1,0 +1,148 @@
+---
+title: "2026年3月の開発環境"
+date: "2026-03-06"
+---
+
+これまでVSCodeを開発環境の中心にしていましたが、[cmux](https://www.cmux.dev/)を使い始めたタイミングでターミナルベースに移行しました。dotfilesやCLI周辺も合わせて見直しています。
+一覧は[Uses](/uses)にまとめています。
+
+## これまで
+
+Claude Codeを並列で動かし始めたあたりからVSCode内でターミナルを複数並べつつ、並列作業間でスコープが被りそうなものはgit worktreeの数だけVSCodeを起動する、という運用をしていました。
+VSCodeで使っていた機能はファイルツリーや検索、Source Controlでstagedとchangesの確認くらい。AIが編集したファイルのチェックポイントとして使っていました。
+ほぼ自分ではコードを書かなくなったのでVSCodeである必要性が減ってきていたことと、cmuxの使い心地が良さそうだったのでこれを機に開発環境を移行することに。
+
+## ターミナル
+
+### cmux
+![cmuxでyazi、lazygit、Claude Codeを並べた画面](/writing/dev-env-2026-03/cmux.png)
+右上にyazi、右下にlazygit。残りのペインでClaude Codeを複数走らせる配置。コードを深く読みたいときだけLSPのためにVSCodeを開く予定。
+cmux(ghostty)のカーソル点滅が気になったので`cursor-style-blink = false` を設定。
+
+### yazi
+
+Explorerの代替。マウスでも操作できるのが移行組として助かってる。
+カスタマイズは最小限で、`.claude`を見るためにshow_hidden` を有効に。`ratio` はお試し中。
+
+```toml
+[mgr]
+show_hidden = true
+ratio = [1, 2, 4]
+```
+
+テーマはtokyo-night、catppuccin-mocha、kanagawa-dragonを試したが、シンタックスハイライトが馴染まずデフォルトのままに。
+文字列検索はshift + s。
+
+#### MDXプレビュー
+
+`mdx`のシンタックスハイライトが効かなかったので、batをpiper経由で通した。ここではglowも試したがbatの方が好みだった。
+
+```toml
+[[plugin.prepend_previewers]]
+url = "*.mdx"
+run = 'piper -- bat -p --color=always --language=markdown "$1"'
+```
+
+#### zoxide
+
+shift + z で最近のcdの履歴を検索できる。とりあえず入れてみてる。
+yazi内のディレクトリ移動も記録したかったので `init.lua` を設定。
+
+```lua
+require("zoxide"):setup {
+	update_db = true,
+}
+```
+
+#### git
+
+gitのfetcherとpluginを入れて、ファイル一覧にgitの変更状態を表示するようにした。
+
+```lua
+require("git"):setup {
+	order = 1500,
+}
+```
+
+#### lazygit
+
+`g` `i` で後述するlazygitを開けるようにした。
+
+```toml
+[[mgr.prepend_keymap]]
+on   = ["g", "i"]
+run  = "plugin lazygit"
+desc = "run lazygit"
+```
+
+#### その他
+
+resvg、fd、ripgrep
+
+### lazygit
+
+Source Controlの代替。
+diffが見慣れかったのでpagerにdeltaを設定。difftasticとも比較しましたが、シンタックスハイライトの見やすさでdeltaに。
+
+```yaml
+git:
+  pagers:
+    - pager: "delta --dark --paging=never"
+```
+
+diffからファイルの全文を確認したいタイミングで`o` でyaziを開くカスタムコマンドを追加。
+
+```yaml
+customCommands:
+  - key: 'o'
+    context: 'files'
+    command: 'yazi {{.SelectedFile.Name | quote}}'
+    description: 'Open in yazi'
+    output: terminal
+```
+
+### micro
+
+ファイル編集の代替。AIに指示するほどではないファイル編集用に。
+Vimに慣れていないのでVSCodeに操作感が近いmicroを選んだ。
+yaziやlazygitから開けるように`export EDITOR=micro` を.zshrcに設定。
+
+yazi同様mdxのシンタックスハイライトが効かなかったのでカスタムsyntaxを設定。
+
+```yaml
+filetype: markdown
+
+detect:
+    filename: "\\.mdx$"
+
+rules:
+    # JSX tags
+    - identifier: "</?[A-Z][a-zA-Z0-9]*"
+    - identifier: "/>"
+
+    # import/export
+    - preproc: "^(import|export) .*"
+```
+
+## zsh
+
+ここまででRustやGo制のツールを積極的に選んでいたので、ついでにプラグインマネージャーもzinitからsheldonに変えた。元々3つしかpluginを入れていなかったのでパフォーマンスの向上は体感できなかったが`plugins.toml`への移行によってzshrcが肥大化しなくなったのは嬉しい。
+
+コマンドの補完には新しくcarapaceを導入。元々fzfのCtrl+Rで履歴を参照しているので併用。
+
+dotfilesの管理もシンボリックリンク + Makefileで手動タスク管理からchezmoiに移行。AIがCLIでどこからでも設定の参照と編集ができるので便利。
+
+## その他
+
+batやdeltaなどの動作確認をしたい時にbrew installするの面倒だな...って時にpkgxを使ったがとても便利だった。
+
+## フォント
+
+Moralerspaceに変更。
+VSCodeでMonaspace Argonを設定していましたが、cmuxを使い始めてから初めてVSCodeで日本語フォントがfallbackされてることに気づきました。cmux(Ghostty)と見え方が違っていたので、Monaspaceに日本語フォントが合成されたMoralerspaceを使っています
+
+## 移行してみて
+
+ターミナル中心への移行は前々から興味を持っていたもののハードルを感じていましたが、コードを自分が書かないという前提によって求めるものが少なく、意外とスムーズにできました。
+Claude Codeにここまでの調査と移行を全てやってもらいました。使い始めた今でもわからない挙動やショートカットは適宜質問しています。
+一旦しっくりきているのでしばらくこの構成でいきます。
