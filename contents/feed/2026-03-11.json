@@ -1,0 +1,85 @@
+{
+  "fetchedAt": "2026-03-10T21:19:33.997Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Improving instruction hierarchy in frontier LLMs",
+      "url": "https://openai.com/index/instruction-hierarchy-challenge",
+      "summary": "IH-Challengeは、モデルが信頼できる指示を優先し、指示の階層化、安全性、プロンプトインジェクション耐性を向上させる。",
+      "publishedAt": "2026-03-10",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/1hgOrtUKV9JbWpgIZLElGG/f1e68fcb747aeb0cb87633a34bb71bb3/SEO_Card__1_.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "New ways to learn math and science in ChatGPT",
+      "url": "https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt",
+      "summary": "ChatGPTが、数式や概念をリアルタイムで探求できる対話型ビジュアル解説機能をリリース。",
+      "publishedAt": "2026-03-10",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/6WeStJuG7Vpz0AfZWGS6cm/27e0b45847fa1d82241e7ea5af01a7ad/Learning_Blocks_SEO_16x9.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.72",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.72",
+      "summary": "- [Changed] 環境変数が設定されている場合、ツール検索がサードパーティのプロキシゲートをバイパスするように変更しました（CLAUDE_CODE_PROXY_SUPPORTS_TOOL_REFERENCEは削除され、置き換えられました）。\n- [Added] /copyでwキーを追加し、フォーカスされた選択をクリップボードを介さずに直接ファイルに書き込めるようになりました（SSH経由で便利です）。\n- [Added] /planにオプションのdescription引数（例: /plan fix the auth bug）を追加し、planモードに入りすぐに開始できるようになりました。\n- [Added] claude pluginsをclaude pluginのエイリアスとして追加しました。\n- [Added] EnterWorktreeセッションを終了するためのExitWorktreeツールを追加しました。\n- [Added] CLAUDE_CODE_DISABLE_CRON環境変数を追加し、セッション中にスケジュールされたcronジョブを即座に停止できるようになりました。\n- [Added] lsof、pgrep、tput、ss、fd、fdfindをbash自動承認許可リストに追加し、一般的な読み取り専用操作でのパーミッションプロンプトを減らしました。\n- [Added] .gitサフィックスなしのmarketplace git URL（Azure DevOps、AWS CodeCommit）のサポートを追加しました。\n- [Changed] Agentツールのmodelパラメーターを復元し、呼び出しごとにモデルを上書きできるようになりました。\n- [Changed] エフォートレベルをlow/medium/highに簡素化（maxを削除）し、新しい記号（○ ◐ ●）と、永続的なアイコンの代わりに簡単な通知を表示するようにしました。デフォルトに戻すには/effort autoを使用します。\n- [Improved] /configを改善しました — Escapeで変更をキャンセル、Enterで保存して閉じ、Spaceで設定を切り替えます。\n- [Improved] 複数のセッションを同時に実行している場合、上矢印履歴が現在のセッションのメッセージを最初に表示するように改善しました。\n- [Improved] repo名や一般的な開発用語（regex、OAuth、JSON）に対する音声入力の文字起こし精度を向上させました。\n- [Improved] marketplaceクローン失敗メッセージを改善し、gitがstderrを生成しない場合でも診断情報を表示するようにしました。\n- [Improved] claude plugin validateを改善し、marketplace.jsonのソースパスがリポジトリルートからの相対パスであることを../パスを拒否する際に説明するようにしました。\n- [Improved] bashコマンドのパースをネイティブモジュールに切り替えることで改善しました — 初期化が高速になり、メモリリークがなくなりました。\n- [Improved] 誤ったbashパーミッションプロンプトを削減しました — tree-sitterパースがfind -exec、変数代入、コマンド置換、および以前は不要なプロンプトをトリガーしていた多くのパターンを処理できるようになりました。また、npmインストールバージョンでtree-sitterがロードされない問題を修正しました。\n- [Improved] バンドルサイズを約510 KB削減しました。\n- [Changed] CLAUDE.mdのHTMLコメント（<!-- ... -->）が自動挿入された際にClaudeから非表示になるように変更しました。Readツールで読み取る場合はコメントは表示されたままです。\n- [Fixed] バックグラウンドタスクやフックの応答が遅い場合の終了処理の遅さを修正しました。\n- [Fixed] エージェントタスクの進捗が「Initializing…」でスタックする問題を修正しました。\n- [Fixed] フックが有効なスキルがモデルによって呼び出された場合、スキルフックがイベントごとに2回起動する問題を修正しました。\n- [Fixed] いくつかの音声モードの問題を修正しました：時折の入力ラグ、プッシュツートークを離した後の誤った「No speech detected」エラー、送信後に古いトランスクリプトがプロンプトを再入力する問題。\n- [Fixed] --compactの後に--continueが最新の時点から再開しない問題を修正しました。\n- [Fixed] bashセキュリティパースのエッジケースを修正しました。\n- [Fixed] いくつかのプラグインの問題を修正しました：OneDriveフォルダーでEEXISTエラーによりWindowsでインストールが失敗する問題、プロジェクトスコープのインストールが存在する場合にmarketplaceがユーザースコープのインストールをブロックする問題、CLAUDE_CODE_PLUGIN_CACHE_DIRがリテラルの~ディレクトリを作成する問題、marketplace-onlyフィールドを持つplugin.jsonがロードに失敗する問題。\n- [Fixed] 長時間のセッションでフィードバックアンケートが頻繁に表示される問題を修正しました。\n- [Fixed] 起動時に無関係な設定書き込みによって--effort CLIフラグがリセットされる問題を修正しました。\n- [Fixed] /clearの後にバックグラウンドのCtrl+Bクエリがトランスクリプトを失う、または新しい会話を破損する問題を修正しました。\n- [Fixed] /clearがバックグラウンドのエージェント/bashタスクを終了させる問題を修正しました — フォアグラウンドタスクのみがクリアされるようになりました。\n- [Fixed] worktreeの隔離に関する問題を修正しました：Taskツールがcwdを復元しない、バックグラウンドタスク通知にworktreePathとworktreeBranchが欠落している問題。\n- [Fixed] Claudeが作業中に/modelを実行しても結果が表示されない問題を修正しました。\n- [Fixed] planモードのパーミッションプロンプトのテキスト入力で、数字キーが入力ではなくメニューオプションを選択する問題を修正しました。\n- [Fixed] サンドボックスのパーミッションに関する問題を修正しました：特定のファイル書き込み操作がプロンプトなしで誤って許可される問題、許可リストに含まれるディレクトリ（/tmp/claude/など）への出力リダイレクトが不要なプロンプトを表示する問題。\n- [Improved] 長時間のセッションでのCPU使用率を改善しました。\n- [Fixed] SDKのquery()呼び出しにおけるプロンプトキャッシュの無効化を修正し、入力トークンコストを最大12倍削減しました。\n- [Fixed] クエリをキャンセルした後、Escapeキーが応答しなくなる問題を修正しました。\n- [Fixed] バックグラウンドエージェントまたはタスクが実行されているときに、Ctrl+Cを2回押しても終了しない問題を修正しました。\n- [Fixed] チームエージェントがリーダーのモデルを継承するように修正しました。\n- [Fixed] 「常に許可」が二度と一致しないパーミッションルールを保存する問題を修正しました。\n- [Fixed] いくつかのフックの問題を修正しました：再開/フォークされたセッションでtranscript_pathが誤ったディレクトリを指す問題、エージェントプロンプトが設定書き込みごとにsettings.jsonからサイレントに削除される問題、PostToolUseブロック理由が2回表示される問題、asyncフックがbash read -rでstdinを受信しない問題、および検証エラーメッセージが検証に失敗する例を表示する問題。\n- [Fixed] U+2028/U+2029文字を含むファイルをReadが返した場合、Desktop/SDKでのセッションクラッシュを修正しました。\n- [Fixed] CLAUDE_CODE_DISABLE_TERMINAL_TITLEが設定されている場合でも、終了時にターミナルタイトルがクリアされる問題を修正しました。\n- [Fixed] いくつかのパーミッションルールマッチングの問題を修正しました：ワイルドカードルールがheredocs、埋め込み改行、または引数なしのコマンドにマッチしない問題、sandbox.excludedCommandsがenv varプレフィックスで失敗する問題、「常に許可」がネストされたCLIツールに対して過度に広範なプレフィックスを提案する問題、denyルールがすべてのコマンド形式に適用されない問題。\n- [Fixed] BashのデータURL出力による過大な画像や切り詰められた画像を修正しました。\n- [Fixed] Bedrock APIエラーを含むセッションを再開した際のクラッシュを修正しました。\n- [Fixed] Edit、Bash、Grepツールの入力で、 intermittentな「expected boolean, received string」検証エラーを修正しました。\n- [Fixed] 最初のメッセージに改行が含まれる会話からフォークした際の複数行セッションタイトルを修正しました。\n- [Fixed] キューに入ったメッセージに添付画像が表示されない問題、および↑を押してキューに入ったメッセージを編集した際に画像が失われる問題を修正しました。\n- [Fixed] Read/WebFetch/Globの失敗が兄弟をキャンセルする並列ツール呼び出しを修正しました — 現在はBashエラーのみがカスケードします。\n- [Fixed] VSCode: 統合ターミナルのスクロール速度がネイティブターミナルと一致しない問題を修正しました。\n- [Fixed] VSCode: 古いキーバインディングを持つユーザーの場合、Shift+Enterが改行を挿入する代わりにインプットを送信する問題を修正しました。\n- [Added] VSCode: 入力境界にエフォートレベルインジケーターを追加しました。\n- [Added] VSCode: プログラムで新しいClaude Codeタブを開くためのvscode://anthropic.claude-code/open URIハンドラーを追加しました（オプションでプロンプトとセッションのクエリパラメーターを指定できます）。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-03-10"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- DockFlow, ExtraDock, ExtraBar & Shiori、月刊投稿を同時公開\n  https://www.reddit.com/r/macapps/comments/1rq3031/dockflow_extradock_extrabar_shiori_monthly_post/\n- Macのメニューバーがカオス状態に\n  https://www.reddit.com/r/macapps/comments/1roab5t/mac_menu_bar_chaos/\n- 開発者スポットライト - Clop, Lunar, rcmd, Pipiri, Crankの作者「The Low-Tech Guys」\n  https://www.reddit.com/r/macapps/comments/1rq0mwb/developer_spotlight_the_lowtech_guys_maker_of/\n- Airmail、サブスクリプション料金が233%値上げ？\n  https://www.reddit.com/r/macapps/comments/1rq82ec/airmail_233_subscription_price_increase/\n- 今日で20周年！私がずっと使い続けているアプリたち\n  https://www.reddit.com/r/macapps/comments/1rpsscx/today_is_my_20year_cake_day_and_these_are_the/\n- 【OS】MacsyZones v2.2をリリース、グリッドレイアウトに対応🥳\n  https://www.reddit.com/r/macapps/comments/1rq4zl5/os_ive_just_released_macsyzones_v22_w_grid_layouts/\n- 【OS】Dye、他のアプリの色を変更できるアプリ\n  https://www.reddit.com/r/macapps/comments/1rpzhgs/os_dye_an_app_for_changing_the_color_of_other_apps/\n- 【OS】GoogleDriveSync v1.1 - 軽量なネイティブメニューバーアプリ、フォルダー除外（node_modules, .git）とIntel対応を追加\n  https://www.reddit.com/r/macapps/comments/1rpu39u/os_googledrivesync_v11_lightweight_native_menu/\n- Typinator 10がリリース、iOSアプリはサブスクリプション制に🙁\n  https://www.reddit.com/r/macapps/comments/1rq4atm/typinator_10_released_subscription_for_ios_app/\n- Holdtap: 指先でキーボード全体を操作\n  https://www.reddit.com/r/macapps/comments/1rq8v33/holdtap_your_entire_keyboard_right_under_your/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-11"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- Redditで新しい人間認証システムを導入！\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackers subredditの新しいルール – 品質向上を目指して\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- WordPressプラグインでメディアをオフロードしたかったが、選択肢に不満。結局自分で作った\n  https://www.reddit.com/r/indiehackers/comments/1rq377o/wanted_to_buy_a_wordpress_plugin_to_offload_media/\n- 多くの失敗を繰り返してきた私が、その経験と厳しい教訓をまとめた本を執筆。今、私自身が最初の読者です\n  https://www.reddit.com/r/indiehackers/comments/1rp80gw/i_tried_and_failed_many_times_now_i_wrote_a_book/\n- FaceTimeのように人と話せるAIコンパニオンを開発 – その中で得た学びとは\n  https://www.reddit.com/r/indiehackers/comments/1rp4o8b/i_built_an_ai_companion_that_people_can_talk_to/\n- Mutate - 開発者だけでなく誰でも使える無料のインラインテキスト変換ツール\n  https://www.reddit.com/r/indiehackers/comments/1rp27fi/mutate_free_inline_text_transformation_not_only/\n- 他者を助けるツール開発に孤独を感じていた – シングルマザー兼創業者としての道のり\n  https://www.reddit.com/r/indiehackers/comments/1ropp8u/i_was_lonely_to_building_tools_that_helps_others/\n- 解約プロセスを自動化してチャーンを削減 – ベータテスター募集中！\n  https://www.reddit.com/r/indiehackers/comments/1roc2mx/cut_churn_by_automating_your_cancel_flows_looking/\n- ベータテスター募集中\n  https://www.reddit.com/r/indiehackers/comments/1rn9wwg/looking_for_beta_testers/\n- 金曜のシェア熱！あなたのプロジェクトを共有しよう！\n  https://www.reddit.com/r/indiehackers/comments/1rm9v0b/friday_share_fever_lets_share_your_project/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-11"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- Claudeの利用制限、バグ、パフォーマンスに関する議論スレッド ― 2025年12月29日開始\n  https://www.reddit.com/r/ClaudeAI/comments/1pygdbz/usage_limits_bugs_and_performance_discussion/\n- Claude Codeに新機能「Code Review」を導入\n  https://www.reddit.com/r/ClaudeAI/comments/1rp9dps/introducing_code_review_a_new_feature_for_claude/\n- Claudeと色当てゲームを試してみた\n  https://www.reddit.com/r/ClaudeAI/comments/1rq141k/tried_the_color_guessing_game_with_claude/\n- Claudeが町の信号機再プログラムを手伝ってくれた\n  https://www.reddit.com/r/ClaudeAI/comments/1rphxvk/claude_helped_me_get_a_traffic_light_reprogrammed/\n- ProプランでClaude Codeのトークンをそんなに早く使い切る人がいるなんて、本当に理解できない\n  https://www.reddit.com/r/ClaudeAI/comments/1rpz2cn/im_genuinely_confused_how_you_all_run_out_of/\n- Claude、大統領選に出馬\n  https://www.reddit.com/r/ClaudeAI/comments/1rpxfuk/claude_is_running_for_president/\n- Claudeが名指しされたと感じた瞬間\n  https://www.reddit.com/r/ClaudeAI/comments/1rq4xwa/claude_felt_called_out/\n- Claude Proの週間制限：Proプランは無料版より明らかに劣る\n  https://www.reddit.com/r/ClaudeAI/comments/1rplxbv/claude_pro_weekly_limits_pro_plan_is_objectively/\n- Claudeのパーソナリティが本当にレベルアップした…他に気づいている人いる？\n  https://www.reddit.com/r/ClaudeAI/comments/1rpwpml/claudes_personality_has_genuinely_leveled_up/\n- YouTubeのMCPがリサーチに意外なほど役立っている\n  https://www.reddit.com/r/ClaudeAI/comments/1rq3wh5/youtube_mcp_has_been_weirdly_useful_for_research/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-11"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1170pt] Tony Hoare氏が死去 | 著名な引用やエピソードで彼の功績を称賛。nullポインタの概念に関する話題も。\n  https://news.ycombinator.com/item?id=47324054\n- [1008pt] アイルランド、最後の石炭火力発電所を閉鎖 欧州で15番目の脱石炭国に（2025年） | 脱石炭の進捗を歓迎する声がある一方、エネルギー自給や価格高騰への懸念も。\n  https://news.ycombinator.com/item?id=47307055\n- [807pt] Agent Safehouse – ローカルエージェント向けのmacOSネイティブサンドボックス | 作成者による解説と、サンドボックス技術の重要性や実装に関する議論が中心。\n  https://news.ycombinator.com/item?id=47301085\n- [557pt] Wave Function Collapseでプロシージャルなヘックスマップを構築する | 美しい見た目と評価されるが、道路や川の生成、パフォーマンスに改善の余地があるとの指摘も。\n  https://news.ycombinator.com/item?id=47311815\n- [553pt] 合法と正当は同じか：AIによる再実装とコピーレフトの浸食 | AIによるコード生成が著作権や知的財産権の概念を揺るがす可能性について活発な議論。\n  https://news.ycombinator.com/item?id=47310160\n- [539pt] 米控訴裁判所：TOSはメールで更新可能、利用は同意を意味しうる [pdf] | TOSの強制力や一方的な変更の合法性、消費者保護の観点から疑問の声多数。\n  https://news.ycombinator.com/item?id=47305461\n- [481pt] フロリダ州の裁判官、赤信号カメラによる違反切符を違憲と判断 | 赤信号カメラが収益目的であり、憲法に違反するという裁判官の判断に賛同する意見。\n  https://news.ycombinator.com/item?id=47312090\n- [464pt] FontCrafter: あなたの手書きを本物のフォントに変換 | 手書きをフォント化するツールの独占化や、医師の文字との関連付けでユーモラスなコメントも。\n  https://news.ycombinator.com/item?id=47306655\n- [446pt] 子どもの安全のためのオンライン年齢認証ツールは大人を監視している | 年齢認証が大人を非匿名化し、監視につながるという懸念が多く表明されている。\n  https://news.ycombinator.com/item?id=47322635\n- [432pt] AnthropicはClaude Codeユーザー1人あたり月5000ドルもかからない | AIモデルのコスト計算に関する議論。他社との効率比較や会計原則の複雑さについて言及。\n  https://news.ycombinator.com/item?id=47317132",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-03-11"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "14 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Amazon、ヘルスケアAIアシスタントをウェブサイトとアプリで提供開始\n  https://techcrunch.com/2026/03/10/amazon-launches-its-healthcare-ai-assistant-on-its-website-and-app/\n- AI搭載アプリの長期利用定着に課題、新レポートが示す\n  https://techcrunch.com/2026/03/10/ai-powered-apps-struggle-with-long-term-retention-new-report-shows/\n- Mandiant創業者がAIエージェント向けセキュリティスタートアップで1.9億ドルを調達\n  https://techcrunch.com/2026/03/10/mandiants-founder-just-raised-190m-for-his-autonomous-ai-agent-security-startup/\n- ChatGPT、数学・科学の概念理解を助けるインタラクティブなビジュアル作成機能を搭載\n  https://techcrunch.com/2026/03/10/chatgpt-can-now-create-interactive-visuals-to-help-you-understand-math-and-science-concepts/\n- AgentMail、AIエージェント向けメールサービス構築で600万ドルを調達\n  https://techcrunch.com/2026/03/10/agentmail-raises-6m-to-build-an-email-service-for-ai-agents/\n- Thinking Machines Lab、Nvidiaと大規模計算契約を締結\n  https://techcrunch.com/2026/03/10/thinking-machines-lab-inks-massive-compute-deal-with-nvidia/\n- Google、AI搭載「Ask Photos」検索機能に対するユーザーの不満に対応\n  https://techcrunch.com/2026/03/10/google-gives-in-to-users-complaints-over-ai-powered-ask-photos-search-feature/\n- AI法務テックブーム続く、Legoraの評価額が55.5億ドルに到達\n  https://techcrunch.com/2026/03/10/legora-reaches-5-55-billion-valuation-as-ai-legaltech-boom-endures/\n- Meta、偽投稿で話題となったAIエージェントSNS「Moltbook」を買収\n  https://techcrunch.com/2026/03/10/meta-acquired-moltbook-the-ai-agent-social-network-that-went-viral-because-of-fake-posts/\n- YouTube、政治家や政府関係者、ジャーナリストにもAIディープフェイク検出を拡大\n  https://techcrunch.com/2026/03/10/youtube-expands-ai-deepfake-detection-to-politicians-government-officials-and-journalists/\n- Adobe、Photoshop向けAIアシスタントを発表\n  https://techcrunch.com/2026/03/10/adobe-is-debuting-an-ai-assistant-for-photoshop/\n- Zoom、AI搭載オフィススイートを導入、会議用AIアバターは今月登場と発表\n  https://techcrunch.com/2026/03/10/zoom-launches-an-ai-powered-office-suite-says-ai-avatars-for-meetings-are-coming-soon/\n- Google、Geminiの新機能をDocs、Sheets、Slides、Driveに展開\n  https://techcrunch.com/2026/03/10/google-rolls-out-new-gemini-capabilities-to-docs-sheets-slides-and-drive/\n- Hyperscale Power、140年の歴史を持つ変圧器技術に挑む新興企業として登場\n  https://techcrunch.com/2026/03/10/hyperscale-power-is-the-latest-startup-to-challenge-140-year-old-transformer-tech/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-03-11"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Fragments: March 10",
+      "url": "https://martinfowler.com/fragments/2026-03-10.html",
+      "summary": "カリフォルニア州が高校生のデータ販売でテック企業に110万ドルの罰金を科し、AIがソフトウェア開発やCOBOLモダナイゼーションを変革する一方で、AI時代におけるジュニア開発者の育成とエージェントの活用が課題となっている。",
+      "publishedAt": "2026-03-11",
+      "ogImage": "https://martinfowler.com/logo-sq.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Sonarly — AIが本番環境の不具合を自律的に修正\n  https://www.producthunt.com/products/sonarly\n- MacQuit — ワンクリックで起動中のMacアプリをすべて終了\n  https://www.producthunt.com/products/macquit\n- Crikket — オープンソースのバグ報告・フィードバックツール\n  https://www.producthunt.com/products/crikket\n- Book Reading Habit — 積読を解消し、買った本を読み終えるためのアプリ\n  https://www.producthunt.com/products/book-reading-habit\n- Claude Code Review — AI生成コードのバグを早期発見するマルチエージェントレビュー\n  https://www.producthunt.com/products/claude\n- Spine Swarm — 実際に作業を行うAIエージェントチームを管理\n  https://www.producthunt.com/products/spine-2\n- humans fix ai — AIで構築されたアプリをプロの開発者が支援\n  https://www.producthunt.com/products/humans-fix-ai\n- Fish Audio S2 — 感情豊かなAI音声\n  https://www.producthunt.com/products/fish-speech\n- Visual Translate by Vozo — 動画のビジュアルはそのままでテキストを翻訳\n  https://www.producthunt.com/products/vozo\n- New Macaly Agent — AIに何を構築させるかは誰にも指示されない\n  https://www.producthunt.com/products/macaly",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-03-11"
+    }
+  ]
+}
