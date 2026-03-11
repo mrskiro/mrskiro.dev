@@ -1,0 +1,101 @@
+{
+  "fetchedAt": "2026-03-11T21:20:05.602Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Rakuten fixes issues twice as fast with Codex",
+      "url": "https://openai.com/index/rakuten",
+      "summary": "楽天がOpenAIのコーディングAI「Codex」を活用し、ソフトウェア開発を迅速化・安全化。",
+      "publishedAt": "2026-03-11",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/3PSiVDH1PKd0544F7v5oOy/acba6baa055d87310e4665d76e83a269/oai_Rakuten_SEO.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Designing AI agents to resist prompt injection",
+      "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+      "summary": "ChatGPTがプロンプトインジェクションやソーシャルエンジニアリングに対し、危険な行動を制限し機密データを保護することで防御する仕組み。",
+      "publishedAt": "2026-03-11",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/7vwwEVWeYVswN8KAIIRiAZ/3b21f7147ba40289879f844649d6897e/OAI_Designing_AI_agentsto_resist_prompt_injection_SEO_16x9.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "From model to agent: Equipping the Responses API with a computer environment ",
+      "url": "https://openai.com/index/equip-responses-api-computer-environment",
+      "summary": "OpenAIがResponses API等を用いて、ファイルやツールを扱う安全でスケーラブルなエージェント実行環境を構築した方法を解説。",
+      "publishedAt": "2026-03-11",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/7cy5agupSmbTruQd6hlgxU/f8ac88fa18599d1dc9221bca58512f13/SEO__1_.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+      "url": "https://openai.com/index/wayfair",
+      "summary": "WayfairがOpenAIモデルを活用し、ECサイトのサポートと商品カタログの精度を向上。",
+      "publishedAt": "2026-03-11",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/2BwLsAc9CDgCMWPnvMG6zT/88486652ebb56e9410a9949bfb4938f8/oai_wayfair_SEO.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.73",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.73",
+      "summary": "- [Added] modelOverrides設定を追加し、モデルピッカーのエントリをカスタムプロバイダーのモデルID（例: Bedrock inference profile ARNs）にマッピングできるようにしました。\n- [Added] OAuthログインまたは接続チェックがSSL証明書エラー（企業プロキシ、NODE_EXTRA_CA_CERTS）で失敗した場合に、実行可能なガイダンスを追加しました。\n- [Fixed] 複雑なbashコマンドの権限プロンプトによってトリガーされるフリーズと100% CPUループを修正しました。\n- [Fixed] 多くのスキルファイルが一度に変更された際（例: 大規模な.claude/skills/ディレクトリを持つリポジトリでgit pull中）、Claude Codeをフリーズさせる可能性のあるデッドロックを修正しました。\n- [Fixed] 同じプロジェクトディレクトリで複数のClaude Codeセッションを実行したときに、Bashツールの出力が失われる問題を修正しました。\n- [Fixed] model: opus/sonnet/haikuを持つサブエージェントが、Bedrock、Vertex、およびMicrosoft Foundryで以前のモデルバージョンにサイレントにダウングレードされる問題を修正しました。\n- [Fixed] サブエージェントによって生成されたバックグラウンドbashプロセスが、エージェントの終了時にクリーンアップされない問題を修正しました。\n- [Fixed] /resumeがピッカーに現在のセッションを表示する問題を修正しました。\n- [Fixed] 拡張機能を自動インストールする際に、onInstallが定義されていないというエラーで/ideがクラッシュする問題を修正しました。\n- [Fixed] /loopがBedrock/Vertex/Foundryで利用できない場合や、テレメトリーが無効になっている場合に利用できない問題を修正しました。\n- [Fixed] --resumeまたは--continueでセッションを再開する際に、SessionStartフックが2回起動する問題を修正しました。\n- [Fixed] JSON出力フックが、ターンごとにno-opのsystem-reminderメッセージをモデルのコンテキストに挿入する問題を修正しました。\n- [Fixed] 低速な接続が新しい録音と重なった場合の音声モードセッションの破損を修正しました。\n- [Fixed] ネイティブビルドで「ripgrep (rg) not found」というエラーでLinuxサンドボックスが起動に失敗する問題を修正しました。\n- [Fixed] Amazon Linux 2およびその他のglibc 2.26システムでLinuxネイティブモジュールがロードされない問題を修正しました。\n- [Fixed] Remote Control経由で画像を受信する際の「media_type: Field required」APIエラーを修正しました。\n- [Fixed] デスクトップフォルダがすでに存在する場合に、WindowsでEEXISTエラーで/heapdumpが失敗する問題を修正しました。\n- [Improved] Claudeの中断後の上矢印キーの動作を改善し、中断されたプロンプトを復元し、会話を1ステップ巻き戻すようになりました。\n- [Improved] 起動時のIDE検出速度を改善しました。\n- [Improved] macOSでのクリップボード画像貼り付けパフォーマンスを改善しました。\n- [Improved] Claudeが応答している間も/effortが機能するように改善し、/modelの動作と一致させました。\n- [Improved] 音声モードを改善し、迅速なプッシュツートークの再押下中に一時的な接続障害を自動的に再試行するようにしました。\n- [Improved] Remote Controlのspawnモード選択プロンプトに、より良いコンテキストを追加して改善しました。\n- [Changed] Bedrock、Vertex、およびMicrosoft FoundryのデフォルトのOpusモデルをOpus 4.6に変更しました（以前はOpus 4.1でした）。\n- [Changed] /output-styleコマンドは非推奨となりました。代わりに/configを使用してください。出力スタイルは、より良いプロンプトキャッシュのためにセッション開始時に固定されるようになりました。\n- [Fixed] VSCode: プロキシの背後にあるユーザーや、Bedrock/VertexでClaude 4.5モデルを使用しているユーザーのHTTP 400エラーを修正しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- Pandemojo：このサブレディットが成功した理由\n  https://www.reddit.com/r/macapps/comments/1rmq6em/pandemojo_the_reason_for_this_subreddits_success/\n- 低品質コンテンツ対策の新投稿要件（フェーズ2）\n  https://www.reddit.com/r/macapps/comments/1r6d06r/new_post_requirements_to_combat_low_quality/\n- ClipDoc - macOS 26のクリップボードマネージャーはOSの一部のように感じる\n  https://www.reddit.com/r/macapps/comments/1rr3pzy/clipdoc_macos_26_clipboard_manager_feels_like/\n- Waitee - ネイティブアプリ\n  https://www.reddit.com/r/macapps/comments/1rqvv5m/waitee_native_app/\n- DriveVault - オフラインHDDカタログアプリがApp Storeでリリース！【プロモコードあり】\n  https://www.reddit.com/r/macapps/comments/1rqxc87/drivevault_offline_hard_drive_cataloging_app_app/\n- Airmailのサブスクリプションが233%値上げ？\n  https://www.reddit.com/r/macapps/comments/1rq82ec/airmail_233_subscription_price_increase/\n- Tidyshot - デバイス上のAIでスクリーンショットを自動整理\n  https://www.reddit.com/r/macapps/comments/1rqynff/tidyshot_autoorganize_your_screenshots_with/\n- Holdtap：キーボード全体が指の下に\n  https://www.reddit.com/r/macapps/comments/1rq8v33/holdtap_your_entire_keyboard_right_under_your/\n- Wipr (1) Legacyが3月末でサービス終了\n  https://www.reddit.com/r/macapps/comments/1rqemvg/wipr_1_legacy_will_be_discontinued_at_the_end_of/\n- AltTABとDock Door、macOS 26.3でウィンドウスイッチャーが表示されない不具合\n  https://www.reddit.com/r/macapps/comments/1rqwyhz/alttab_and_dock_door_are_both_not_displaying_the/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- Redditに新本人認証システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackers subredditで新ルール施行へ、質の向上目指す\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- Reddit広告に100ドル投下、50クリックでコンバージョンゼロの顛末\n  https://www.reddit.com/r/indiehackers/comments/1rqubg9/i_put_100_into_reddit_ads_i_got_50_clicks_but_not/\n- ソロ起業家、Product Huntローンチで飛躍の一日を飾る\n  https://www.reddit.com/r/indiehackers/comments/1rqp0po/im_a_solo_founder_and_today_is_the_biggest_day_of/\n- 起動ウェブサイトを見せてください！　実用的なフィードバックを提供（説明を要確認）\n  https://www.reddit.com/r/indiehackers/comments/1rr3voy/show_me_your_startup_website_and_ill_give_you/\n- WordPressプラグインを自作：既存製品に不満、メディアオフロード機能に着手\n  https://www.reddit.com/r/indiehackers/comments/1rq377o/wanted_to_buy_a_wordpress_plugin_to_offload_media/\n- 失敗から学ぶ：自身の過ちと厳しいルールをまとめた本を執筆、最初の読者は私自身\n  https://www.reddit.com/r/indiehackers/comments/1rp80gw/i_tried_and_failed_many_times_now_i_wrote_a_book/\n- AIコンパニオンを開発：FaceTimeのように会話可能、開発者が得た知見とは\n  https://www.reddit.com/r/indiehackers/comments/1rp4o8b/i_built_an_ai_companion_that_people_can_talk_to/\n- Mutate：開発者向け（だけじゃない）無料インラインテキスト変換ツール\n  https://www.reddit.com/r/indiehackers/comments/1rp27fi/mutate_free_inline_text_transformation_not_only/\n- シングルマザー起業家が語る、人を助けるツール開発への道のり\n  https://www.reddit.com/r/indiehackers/comments/1ropp8u/i_was_lonely_to_building_tools_that_helps_others/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- Claudeの利用制限、バグ、パフォーマンスに関する議論スレッド ― 2025年12月29日開始\n  https://www.reddit.com/r/ClaudeAI/comments/1pygdbz/usage_limits_bugs_and_performance_discussion/\n- Claude Codeに新機能「Code Review」が登場\n  https://www.reddit.com/r/ClaudeAI/comments/1rp9dps/introducing_code_review_a_new_feature_for_claude/\n- 「Claude、LLMであることについてビデオを作って」\n  https://www.reddit.com/r/ClaudeAI/comments/1rqqtes/claude_make_a_video_about_what_its_like_to_be_an/\n- 「AIブートキャンプ」に1000ドル以上払うのはやめよう。Anthropic（Claudeの開発元）が無料アカデミーを公開\n  https://www.reddit.com/r/ClaudeAI/comments/1rqopis/stop_paying_1000_for_ai_bootcamps_anthropic/\n- デモ動画の費用が払えず、製品発売を数ヶ月遅らせた。Claude CodeとRemotionで週末を過ごしたところ、リールが数千回再生されるように\n  https://www.reddit.com/r/ClaudeAI/comments/1rr47ya/i_delayed_my_product_launch_for_months_because_i/\n- Claudeのステータス更新：Claude.aiでエラー発生 (2026年3月11日14時47分22秒)\n  https://www.reddit.com/r/ClaudeAI/comments/1rqvucq/claude_status_update_elevated_errors_on_claudeai/\n- Claudeを使って顔出しなしのYouTubeチャンネルを密かに作っていたが、収益化が目前で驚いている\n  https://www.reddit.com/r/ClaudeAI/comments/1rqbrsm/been_quietly_building_a_faceless_youtube_channel/\n- それと、これらの迅速なリリースサイクルを簡素化するために「ultrathinking」しているところです\n  https://www.reddit.com/r/ClaudeAI/comments/1rqgtlc/btw_im_ultrathinking_to_simplify_the_loop_of/\n- 彼女は的を射ているね（笑）\n  https://www.reddit.com/r/ClaudeAI/comments/1rqpsv3/she_is_so_on_point_lol/\n- Claude Codeを4ヶ月使ってみて、正直一番難しいのはコーディングではない\n  https://www.reddit.com/r/ClaudeAI/comments/1rr1069/4_months_of_claude_code_and_honestly_the_hardest/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1969pt] Tony Hoare氏が死去 | 著名な引用やエピソードでHoare氏の功績を称賛する声が多い。\n  https://news.ycombinator.com/item?id=47324054\n- [1287pt] 生成AIによるコメント投稿を禁止。HNは人間同士の会話の場。 | AIではなく人間の意見を読みたいという肯定的な意見が多数。\n  https://news.ycombinator.com/item?id=47340079\n- [646pt] 子どもの安全のためのオンライン年齢確認ツールが大人を監視している | 年齢確認ツールの効果やプライバシー侵害、監視を懸念する声が多数。\n  https://news.ycombinator.com/item?id=47322635\n- [628pt] 他人に価値を提供し、見返りを気にするな | タイトルが誤解を招くという意見や、エンジニアにとっては罠だと批判的なコメントも。\n  https://news.ycombinator.com/item?id=47332074\n- [627pt] 障害発生後、AmazonはAI支援による変更をシニアエンジニアの承認必須に | シニアによるレビューの有効性や、Amazonの企業文化に関するコメントが寄せられている。\n  https://news.ycombinator.com/item?id=47323017\n- [592pt] Yann LeCun氏、物理世界を理解するAI構築のため10億ドルを調達 | LLMの限界と世界モデルの可能性について議論が活発。\n  https://news.ycombinator.com/item?id=47320600\n- [543pt] MetaがMoltbookを買収 | Moltbookの性質や買収の意図について疑問や皮肉を述べるコメントが見られる。\n  https://news.ycombinator.com/item?id=47323900\n- [536pt] 内部告発者、元DOGEメンバーが社会保障データを新しい職場に持ち出したと主張 | DOGEチームの行動やデータセキュリティに関する詳細な情報と議論が展開。\n  https://news.ycombinator.com/item?id=47335572\n- [468pt] AnthropicはClaude Codeユーザー1人あたり5000ドルもかからない | AIモデルのコスト計算に関する議論や、競合他社との効率比較が展開。\n  https://news.ycombinator.com/item?id=47317132\n- [466pt] Cloudflareのクロールエンドポイント | Cloudflareがスクレイピング対策とスクレイピングの両方を提供することへの皮肉と懸念。\n  https://news.ycombinator.com/item?id=47329557",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "13 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Quince、Iconiq主導の5億ドル調達で評価額100億ドルに\n  https://techcrunch.com/2026/03/11/quince-series-e-10b-valuation-with-500m-round-led-by-iconiq/\n- Replit、前回の調達から6カ月で評価額90億ドルに到達\n  https://techcrunch.com/2026/03/11/replit-snags-9b-valuation-6-months-after-hitting-3b/\n- Breakout Ventures、AI科学スタートアップ支援のため1億1400万ドルのファンドを組成\n  https://techcrunch.com/2026/03/11/breakout-ventures-raises-114m-fund-to-back-ai-science-startups/\n- 今年誕生したユニコーン企業はすでに40社近く――全リスト\n  https://techcrunch.com/2026/03/11/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/\n- VCのメガファンドが復活、General CatalystとSparkが数十億ドル規模の調達か\n  https://techcrunch.com/2026/03/11/vc-mega-funds-are-back-with-general-catalyst-spark-rumored-to-be-raising-billions/\n- Poppi創業者が語るTikTok、スーパーボウル広告、そして「Shark Tank」への復帰\n  https://techcrunch.com/video/poppi-founder-on-tiktok-super-bowl-ads-and-her-return-to-shark-tank/\n- WordPress、ブラウザで動作するプライベートワークスペース「my.WordPress.net」を発表\n  https://techcrunch.com/2026/03/11/wordpress-debuts-a-private-workspace-that-runs-in-your-browser-via-a-new-service-my-wordpress-net/\n- RivianスピンアウトのMind Robotics、産業用AIロボット開発で5億ドル調達\n  https://techcrunch.com/2026/03/11/rivian-mind-robotics-series-a-500m-fund-raise-industrial-ai-powered-robots/\n- EVスタートアップHarbinger、電動とハイブリッドの小型ワークトラックを発表\n  https://techcrunch.com/2026/03/11/ev-startup-harbinger-reveals-a-smaller-work-truck-with-electric-and-hybrid-variants/\n- MetaのMoltbook買収、AIエージェントが主流となる未来を示唆\n  https://techcrunch.com/2026/03/11/metas-moltbook-deal-points-to-a-future-built-around-ai-agents/\n- Amazon、顧客が他社サイトからも購入できるプログラムを拡大\n  https://techcrunch.com/2026/03/11/amazon-expands-a-program-that-lets-customers-shop-from-other-retailers-sites/\n- 元Appleエンジニアが500万ドル調達、音声のみを記録するメモ用ペンダント開発\n  https://techcrunch.com/2026/03/11/former-apple-engineer-raises-5m-for-a-note-taking-pendant-that-only-records-your-voice/\n- Canopii、過去の失敗を乗り越え屋内農場の成功を目指す\n  https://techcrunch.com/2026/03/11/canopii-looks-to-succeed-where-past-indoor-farms-have-not/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Fort：長寿を追求する人々のための健康追跡アプリ\n  https://www.producthunt.com/products/fort-2\n- IonRouter：あらゆるAIモデルをより速く、安価に提供\n  https://www.producthunt.com/products/ionrouter-by-cumulus-labs\n- ScreenGeany AI：ホットキー一発で画面上のあらゆる情報をAIに質問\n  https://www.producthunt.com/products/screengeany-ai\n- CodeYam CLI & Memory：Claude Codeのための包括的なメモリ管理ツール\n  https://www.producthunt.com/products/codeyam-cli-memory\n- Teract AI：LinkedIn、X、Redditなどで役立つAIレピュテーションコーチ\n  https://www.producthunt.com/products/teract\n- Typinator 10：macOSとiOS向けの高速・プライベートなテキスト展開ツール\n  https://www.producthunt.com/products/typinator-10\n- ELVES：AIエージェントの軍隊を召喚\n  https://www.producthunt.com/products/no-more-vibe-coding-in-the-blind\n- Knowlify：アニメーションビデオ用カーソルツール\n  https://www.producthunt.com/products/knowlify\n- Product Workbench for Claude Code：機能アイデアをステークホルダー向けコードプロトタイプに変換\n  https://www.producthunt.com/products/chordio-workbench\n- Nativeline AI + Cloud：ネイティブSwiftアプリとリアルクラウドデータベースをワンプロンプトで実現\n  https://www.producthunt.com/products/nativeline",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Introducing The Anthropic Institute",
+      "url": "https://www.anthropic.com/news/the-anthropic-institute",
+      "summary": "強力なAIが社会に与える課題に取り組むため、アンソロピック研究所を設立。",
+      "ogImage": null,
+      "publishedAt": "2026-03-11"
+    }
+  ]
+}
