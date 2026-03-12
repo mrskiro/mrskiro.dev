@@ -1,0 +1,69 @@
+{
+  "fetchedAt": "2026-03-12T21:21:41.297Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.74",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.74",
+      "summary": "- [Added] /contextコマンドに実用的な提案が追加されました。context-heavyなツール、メモリ肥大化、容量警告を特定し、具体的な最適化のヒントを提供します。\n- [Added] autoMemoryDirectory設定が追加され、自動メモリ保存用のカスタムディレクトリを設定できるようになりました。\n- [Fixed] ストリーミングAPIレスポンスバッファがジェネレーターの早期終了時に解放されず、Node.js/npmコードパスでRSSが無制限に増加するメモリリークを修正しました。\n- [Fixed] ユーザーの許可ルールまたはskill allowed-toolsによって、管理ポリシーのaskルールがバイパスされる問題を修正しました。\n- [Fixed] agentのfrontmatterのmodel:フィールドと--agents JSON設定で、完全なモデルID（例: claude-opus-4-5）がサイレントに無視される問題を修正しました。agentが--modelと同じモデル値を受け入れるようになりました。\n- [Fixed] MCP OAuth認証で、コールバックポートが既に使用中の場合にハングする問題を修正しました。\n- [Fixed] MCP OAuthリフレッシュで、リフレッシュトークンの期限切れ後に再認証が促されない問題を修正しました（HTTP 200でエラーを返すOAuthサーバー、例: Slackの場合）。\n- [Fixed] マイクのアクセス許可が一度も付与されていないユーザーのmacOSネイティブバイナリで、音声モードがサイレントに失敗する問題を修正しました。バイナリにaudio-inputエンタイトルメントが含まれるようになり、macOSが正しくプロンプトを表示するようになりました。\n- [Fixed] SessionEndフックがhook.timeoutに関係なく終了時に1.5秒で強制終了される問題を修正しました。CLAUDE_CODE_SESSIONEND_HOOKS_TIMEOUT_MSで設定可能になりました。\n- [Fixed] ローカルソースを持つマーケットプレイスプラグインの場合、REPL内で/plugin installが失敗する問題を修正しました。\n- [Fixed] マーケットプレイスのアップデートでgitサブモジュールが同期されない問題を修正しました。サブモジュール内のプラグインソースがアップデート後に破損しなくなりました。\n- [Fixed] 引数を持つ不明なスラッシュコマンドがサイレントに入力をドロップする問題を修正しました。入力が警告として表示されるようになりました。\n- [Fixed] Windows Terminal、conhost、およびVS Code統合ターミナルで、ヘブライ語、アラビア語、その他のRTLテキストが正しくレンダリングされない問題を修正しました。\n- [Fixed] 不正な形式のファイルURIにより、WindowsでLSPサーバーが機能しない問題を修正しました。\n- [Changed] --plugin-dirを変更し、ローカル開発コピーが同じ名前のインストール済みマーケットプレイスプラグインを上書きするようになりました（ただし、そのプラグインが管理設定によって強制的に有効化されている場合を除く）。\n- [Fixed] [VSCode] 無題のセッションで削除ボタンが機能しない問題を修正しました。\n- [Improved] [VSCode] ターミナルを認識するアクセラレーションにより、統合ターミナルでのスクロールホイールの応答性が向上しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- Pandemojo：このサブレディットが成功した理由とは\n  https://www.reddit.com/r/macapps/comments/1rmq6em/pandemojo_the_reason_for_this_subreddits_success/\n- 低品質コンテンツ対策に向けた新たな投稿要件（フェーズ2）\n  https://www.reddit.com/r/macapps/comments/1r6d06r/new_post_requirements_to_combat_low_quality/\n- [初のmacOSアプリ、緊張しています] Dropadoo：たった1つの機能を完璧にこなす\n  https://www.reddit.com/r/macapps/comments/1rrw9hf/first_macos_app_me_nervous_dropadoo_does_exactly/\n- [App Store] CodePeek+：コードファイルの構文ハイライト表示付きQuick Lookプレビューを無料で提供\n  https://www.reddit.com/r/macapps/comments/1rs1216/app_store_codepeek_free_syntaxhighlighted_quick/\n- macOS (ユニバーサル)：Speaklone - MLX搭載Apple Siliconで高速動作、プロフェッショナルなテキスト読み上げと音声クローンを実現\n  https://www.reddit.com/r/macapps/comments/1rrrp4h/macos_universal_speaklone_professional_text_to/\n- [macOS] Chunk v2：メニューバーでタイムブロッキング\n  https://www.reddit.com/r/macapps/comments/1rrpg0h/macos_chunk_v2_menubar_timeblocking/\n- ClipDoc：macOSのクリップボードマネージャー、OSの一部のように馴染む26機能\n  https://www.reddit.com/r/macapps/comments/1rr3pzy/clipdoc_macos_26_clipboard_manager_feels_like/\n- 特定の要件を満たすTypinator 10の代替アプリを探しています\n  https://www.reddit.com/r/macapps/comments/1rrs3o0/looking_for_typinator_10_alternatives_with_a/\n- 開発者の皆様へ：アプリに関するフィードバックです\n  https://www.reddit.com/r/macapps/comments/1rrk7jf/dear_developers_im_here_to_give_you_feedback_on/\n- Setapp：学生にとって利用する価値はあるのか？\n  https://www.reddit.com/r/macapps/comments/1rrwtgp/setapp_is_it_worth_it_as_a_student/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-13"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- Redditに新たな人間認証システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackers subredditの新しいルール ― 品質向上を目指して\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- プロジェクトへの率直なフィードバック、本日募集中\n  https://www.reddit.com/r/indiehackers/comments/1rrncz2/anyone_want_some_honest_feedback_on_their_project/\n- 比較SEO戦略を早期活用し、ファネル下部のトラフィックを増やす\n  https://www.reddit.com/r/indiehackers/comments/1rs0cz4/use_the_comparison_seo_strategy_early_to_get_more/\n- あなたのスタートアップサイトを見せてください！実践的なフィードバックを提供します（※説明必読）\n  https://www.reddit.com/r/indiehackers/comments/1rr3voy/show_me_your_startup_website_and_ill_give_you/\n- Reddit広告に100ドルを投じた結果：50クリック、しかしコンバージョンはゼロ\n  https://www.reddit.com/r/indiehackers/comments/1rqubg9/i_put_100_into_reddit_ads_i_got_50_clicks_but_not/\n- ソロファウンダーとして最大の挑戦、本日Product Huntでローンチしました。皆さんの応援が何よりの力になります\n  https://www.reddit.com/r/indiehackers/comments/1rqp0po/im_a_solo_founder_and_today_is_the_biggest_day_of/\n- メディアオフロード目的でWordPressプラグイン購入を検討。選択肢に不満を感じ、自作を決意\n  https://www.reddit.com/r/indiehackers/comments/1rq377o/wanted_to_buy_a_wordpress_plugin_to_offload_media/\n- 多くの失敗を乗り越え、自らの過ちと厳しい教訓をまとめた一冊を執筆。今、私が最初の読者です\n  https://www.reddit.com/r/indiehackers/comments/1rp80gw/i_tried_and_failed_many_times_now_i_wrote_a_book/\n- FaceTimeのように会話できるAIコンパニオンを開発、そこから学んだこと\n  https://www.reddit.com/r/indiehackers/comments/1rp4o8b/i_built_an_ai_companion_that_people_can_talk_to/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-13"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- 【議論】2025年12月29日開始：利用制限、バグ、パフォーマンスに関する総合スレッド\n  https://www.reddit.com/r/ClaudeAI/comments/1pygdbz/usage_limits_bugs_and_performance_discussion/\n- Claude、インタラクティブなチャートや図、データ可視化に対応\n  https://www.reddit.com/r/ClaudeAI/comments/1rruo4u/claude_now_creates_interactive_charts_diagrams/\n- 新しいキーボードをゲット！これでコードを書きまくるのが楽しみ\n  https://www.reddit.com/r/ClaudeAI/comments/1rru8zw/just_picked_up_a_new_keyboard_cant_wait_to_write/\n- あなたと私\n  https://www.reddit.com/r/ClaudeAI/comments/1rs18z9/me_and_you/\n- Claude Code、単一プロンプトからゲームを丸ごと作成可能に – GDScript、アセット、バグ発見のビジュアルQAまで\n  https://www.reddit.com/r/ClaudeAI/comments/1rrzlw2/claude_code_now_builds_entire_games_from_a_single/\n- Claude 状況更新：2026年3月12日16時28分26秒（UTC）にClaude Sonnet 4.6とClaude.aiでエラー増加を確認\n  https://www.reddit.com/r/ClaudeAI/comments/1rrvhj8/claude_status_update_elevated_errors_on_claude/\n- Claude 状況更新：2026年3月12日16時34分27秒（UTC）にClaude Sonnet 4.6でエラー増加を確認\n  https://www.reddit.com/r/ClaudeAI/comments/1rrvpny/claude_status_update_elevated_errors_on_claude/\n- 忖度だらけのやり取りにうんざりしない？\n  https://www.reddit.com/r/ClaudeAI/comments/1rryfik/anyone_else_sick_of_sycophantic_interaction/\n- AI製品立ち上げプレイブックをClaude対応の無料リポジトリとして公開 – Product Hunt、Reddit、KOL連携、UGC向け\n  https://www.reddit.com/r/ClaudeAI/comments/1rrns58/i_turned_our_ai_product_launch_playbook_into_a/\n- デモ動画の費用が捻出できず、製品ローンチを数ヶ月延期。Claude CodeとRemotionを週末に使い倒したら、リール動画が数千回再生された\n  https://www.reddit.com/r/ClaudeAI/comments/1rr47ya/i_delayed_my_product_launch_for_months_because_i/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-13"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [4089pt] 生成AIによるコメント投稿の禁止：HNは人間同士の会話の場 | AI生成コンテンツの利用がソーシャルコントラクト違反であるという意見が多数。\n  https://news.ycombinator.com/item?id=47340079\n- [867pt] Malus – クリーンルーム・アズ・ア・サービス | これは風刺であるというコメントが多く、理解に時間がかかった。\n  https://news.ycombinator.com/item?id=47350424\n- [760pt] Temporal: JavaScriptで時間を修正する9年間の旅 | 時間管理の複雑さに対処するTemporalの必要性を評価する声が多い。\n  https://news.ycombinator.com/item?id=47336989\n- [696pt] 他人に価値を創造し、見返りを気にしない | 見出しが誤解を招くという意見や、見返りを気にしないことの危険性を指摘する声も。\n  https://news.ycombinator.com/item?id=47332074\n- [630pt] WebAssemblyをWebにおける第一級言語にする | WebAssemblyの複雑なツールチェーンや、Web APIの構成に対する不満の声がある。\n  https://news.ycombinator.com/item?id=47331811\n- [624pt] MacBook Neo | PC業界の現状や、MacBook Neoの価格と性能について議論が活発。\n  https://news.ycombinator.com/item?id=47334293\n- [616pt] 元DOGEメンバーが社会保障データを新しい職場に持ち出したと内部告発者が主張 | 告発内容の信憑性や、情報公開のあり方について疑問の声があがっている。\n  https://news.ycombinator.com/item?id=47335572\n- [486pt] Cloudflareのクロールエンドポイント | Cloudflareがスクレイピング対策とスクレイピングサービスの両方を提供することに批判的な意見。\n  https://news.ycombinator.com/item?id=47329557\n- [471pt] McKinseyのAIプラットフォームをハッキングした方法 | タイトルの表現や、McKinseyの技術力に対する疑問の声が上がっている。\n  https://news.ycombinator.com/item?id=47333627\n- [401pt] AIボットに仕事の面接をされた | AI面接の非人間性や、それが生むバイアスについて批判的な意見が多い。\n  https://news.ycombinator.com/item?id=47339164",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-03-13"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "9 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Facebook Marketplace、Meta AIで顧客メッセージへの返信が可能に\n  https://techcrunch.com/2026/03/12/facebook-marketplace-now-lets-meta-ai-respond-to-buyers-messages/\n- Tinder、リアルイベントやバーチャルスピードデートでオンラインデートへの回帰を狙う\n  https://techcrunch.com/2026/03/12/tinder-tries-to-lure-people-back-to-online-dating-with-irl-events-virtual-speed-dating/\n- AtlassianもAIを理由に人員削減、Blockに続く動き\n  https://techcrunch.com/2026/03/12/atlassian-follows-blocks-footsteps-and-cuts-staff-in-the-name-of-ai/\n- 人型ロボットメーカーSunday、家庭用ロボット開発で評価額11.5億ドルに到達\n  https://techcrunch.com/2026/03/12/humanoid-robotics-maker-sunday-reaches-1-15b-valuation-to-build-household-robots/\n- Bumble、AIデートアシスタント「Bee」をリリースへ\n  https://techcrunch.com/2026/03/12/bumble-to-launch-an-ai-dating-assistant-bee/\n- 作家がGrammarlyを提訴、同意なく自身らを「AIエディター」に変えたとして\n  https://techcrunch.com/2026/03/12/a-writer-is-suing-grammarly-for-turning-her-and-other-authors-into-ai-editors-without-consent/\n- Gumloop、Benchmarkから5,000万ドル調達 全従業員をAIエージェントビルダーに\n  https://techcrunch.com/2026/03/12/gumloop-lands-50m-from-benchmark-to-turn-every-employee-into-an-ai-agent-builder/\n- Alexa+に「大人限定」の新パーソナリティオプション登場、罵り言葉も、ただし不適切なコンテンツはなし\n  https://techcrunch.com/2026/03/12/alexa-gets-a-new-adults-only-personality-option-that-curses-but-wont-get-into-nsfw-content/\n- Wonderful、シリーズBで1.5億ドル調達、評価額20億ドルに\n  https://techcrunch.com/2026/03/12/wonderful-raises-150m-series-b-at-2b-valuation/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-03-13"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Needle 2.0 — ワークフローを自動化し受動的収入を得るVibe-automate\n  https://www.producthunt.com/products/needle-3\n- AskNeo — チーム向け音声・SMS共有インボックスの統合ソリューション\n  https://www.producthunt.com/products/askneo\n- bugstack — 睡眠中に本番環境のエラーを修正・デプロイ\n  https://www.producthunt.com/products/bugstack\n- Retell — 一度見れば、永遠に語り継げる。\n  https://www.producthunt.com/products/retell-2\n- Concipe — 顧客フィードバックをAIコーディングエージェントの仕様書に変換\n  https://www.producthunt.com/products/concipe\n- Basement Browser — AIエージェントを搭載したマルチプレイヤーモバイルブラウザ\n  https://www.producthunt.com/products/basement-browser\n- Gauge — オーガニック、有料、AI検索に対応するマーケティングエージェント\n  https://www.producthunt.com/products/gauge\n- Prava — AIエージェント向け決済スタック\n  https://www.producthunt.com/products/prava-2\n- HTML Pub — AI生成HTMLをMCP/API経由でライブURLに変換\n  https://www.producthunt.com/products/htmlpub\n- Email API benchmarks — メールプロバイダーのパフォーマンスをリアルタイムで表示するダッシュボード\n  https://www.producthunt.com/products/knock-6",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-03-13"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Anthropic invests $100 million into the Claude Partner Network",
+      "url": "https://www.anthropic.com/news/claude-partner-network",
+      "summary": "企業向けClaude導入支援のため「Claude Partner Network」プログラムを開始。",
+      "ogImage": null,
+      "publishedAt": "2026-03-12"
+    }
+  ]
+}
