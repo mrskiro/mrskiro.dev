@@ -337,10 +337,11 @@ const fetchRssDigest = async (source: Source, since: Date): Promise<Entry | null
   if (recentItems.length === 0) return null;
 
   const rawTitles = recentItems.map((item) => decodeHtmlEntities(item.title as string));
-  const jaTitles = await translateTitles(rawTitles);
+  const skipTranslation = rssDigestSkipTranslation.has(source.name);
+  const titles = skipTranslation ? rawTitles : await translateTitles(rawTitles);
 
   const lines = recentItems.map((item, i) => {
-    const title = jaTitles[i] ?? decodeHtmlEntities(item.title as string);
+    const title = titles[i] ?? decodeHtmlEntities(item.title as string);
     const url = item.link as string;
     return `- ${title}\n  ${url}`;
   });
@@ -348,7 +349,7 @@ const fetchRssDigest = async (source: Source, since: Date): Promise<Entry | null
   return {
     sourceName: source.name,
     title: `${recentItems.length} Articles`,
-    url: source.url.replace("/feed/", "/"),
+    url: source.url.replace(/\/feed\/?$/, "/"),
     summary: lines.join("\n"),
     ogImage: digestOgImages[source.name] ?? null,
     publishedAt: formatDate.format(new Date()),
@@ -647,8 +648,12 @@ const fetchYCDigest = async (_source: Source, since: Date): Promise<Entry | null
 
 const githubReleaseNames = new Set(["Claude Code"]);
 const redditNames = new Set(["r/MacApps", "r/indiehackers", "r/ClaudeAI"]);
-const rssDigestNames = new Set(["TechCrunch"]);
-const rssDigestCategories = new Map([["TechCrunch", new Set(["AI", "Startups"])]]);
+const rssDigestNames = new Set(["TechCrunch", "BRIDGE"]);
+const rssDigestCategories = new Map([
+  ["TechCrunch", new Set(["AI", "Startups"])],
+  ["BRIDGE", new Set(["News & Column"])],
+]);
+const rssDigestSkipTranslation = new Set(["BRIDGE"]);
 const jinaNames = new Set([
   "OpenAI",
   "Anthropic",
@@ -666,6 +671,8 @@ const digestOgImages: Record<string, string> = {
   TechCrunch: "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
   "Product Hunt": "https://ph-static.imgix.net/ph-logo-1.png",
   "Y Combinator": "https://www.ycombinator.com/favicon.ico",
+  BRIDGE:
+    "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
 };
 
 const fetchSource = async (source: Source, since: Date): Promise<Entry[]> => {
