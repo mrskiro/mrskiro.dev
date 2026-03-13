@@ -41,6 +41,7 @@ const digestSources = new Set([
   "TechCrunch",
   "Claude Code",
   "Product Hunt",
+  "Y Combinator",
 ]);
 
 const parseSummaryLines = (summary: string) => {
