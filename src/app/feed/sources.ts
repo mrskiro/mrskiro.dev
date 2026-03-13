@@ -27,4 +27,5 @@ export const sources = [
   // TODO: Product Hunt — GraphQL API (upvote順) を使いたいがダッシュボードにアクセスできずトークン未取得。RSSで代替中
   { name: "Product Hunt", url: "https://www.producthunt.com/feed" },
   { name: "Anthropic", url: "https://www.anthropic.com/news" },
+  { name: "Y Combinator", url: "https://www.ycombinator.com/companies" },
 ] as const satisfies Source[];

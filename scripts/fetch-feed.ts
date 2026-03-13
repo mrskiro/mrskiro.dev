@@ -583,6 +583,68 @@ const fetchAnthropic = async (source: Source, since: Date): Promise<Entry[]> => 
     }));
 };
 
+type YCCompany = {
+  name: string;
+  one_liner: string;
+  website: string;
+  batch: string;
+  industries: string[];
+  small_logo_thumb_url: string;
+  launched_at: number;
+};
+
+const fetchYCAlgoliaKey = async (): Promise<{ app: string; key: string } | null> => {
+  const res = await fetch("https://www.ycombinator.com/companies", {
+    headers: { "User-Agent": "feed-reader/1.0" },
+  });
+  const html = await res.text();
+  const match = html.match(/AlgoliaOpts\s*=\s*(\{[^}]+\})/);
+  if (!match) return null;
+  return JSON.parse(match[1]!) as { app: string; key: string };
+};
+
+const fetchYCDigest = async (_source: Source, since: Date): Promise<Entry | null> => {
+  const creds = await fetchYCAlgoliaKey();
+  if (!creds) {
+    console.warn("Y Combinator: failed to extract Algolia credentials");
+    return null;
+  }
+
+  const sinceUnix = Math.floor(since.getTime() / 1000);
+  const res = await fetch(
+    `https://${creds.app}-dsn.algolia.net/1/indexes/YCCompany_By_Launch_Date_production/query`,
+    {
+      method: "POST",
+      headers: {
+        "X-Algolia-Application-Id": creds.app,
+        "X-Algolia-API-Key": creds.key,
+      },
+      body: JSON.stringify({
+        params: `hitsPerPage=20&query=&numericFilters=launched_at>=${sinceUnix}`,
+      }),
+    },
+  );
+  const data: { hits: YCCompany[]; nbHits: number } = await res.json();
+
+  if (data.hits.length === 0) return null;
+
+  const jaTitles = await translateTitles(data.hits.map((c) => `${c.name} — ${c.one_liner}`));
+
+  const jaLines = data.hits.map((company, i) => {
+    const translated = jaTitles[i] ?? `${company.name} — ${company.one_liner}`;
+    return `- ${translated}\n  ${company.website}`;
+  });
+
+  return {
+    sourceName: "Y Combinator",
+    title: `${data.hits.length} New Launches`,
+    url: "https://www.ycombinator.com/companies",
+    summary: jaLines.join("\n"),
+    ogImage: digestOgImages["Y Combinator"] ?? null,
+    publishedAt: formatDate.format(new Date()),
+  };
+};
+
 const githubReleaseNames = new Set(["Claude Code"]);
 const redditNames = new Set(["r/MacApps", "r/indiehackers", "r/ClaudeAI"]);
 const rssDigestNames = new Set(["TechCrunch"]);
@@ -603,6 +665,7 @@ const digestOgImages: Record<string, string> = {
   "r/ClaudeAI": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
   TechCrunch: "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
   "Product Hunt": "https://ph-static.imgix.net/ph-logo-1.png",
+  "Y Combinator": "https://www.ycombinator.com/favicon.ico",
 };
 
 const fetchSource = async (source: Source, since: Date): Promise<Entry[]> => {
@@ -620,6 +683,10 @@ const fetchSource = async (source: Source, since: Date): Promise<Entry[]> => {
   }
   if (source.name === "Anthropic") {
     return fetchAnthropic(source, since);
+  }
+  if (source.name === "Y Combinator") {
+    const entry = await fetchYCDigest(source, since);
+    return entry ? [entry] : [];
   }
   if (rssDigestNames.has(source.name)) {
     const entry = await fetchRssDigest(source, since);
