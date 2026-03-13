@@ -28,4 +28,5 @@ export const sources = [
   { name: "Product Hunt", url: "https://www.producthunt.com/feed" },
   { name: "Anthropic", url: "https://www.anthropic.com/news" },
   { name: "Y Combinator", url: "https://www.ycombinator.com/companies" },
+  { name: "BRIDGE", url: "https://thebridge.jp/feed" },
 ] as const satisfies Source[];
