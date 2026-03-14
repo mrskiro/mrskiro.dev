@@ -1,0 +1,77 @@
+{
+  "fetchedAt": "2026-03-14T21:15:20.869Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.76",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.76",
+      "summary": "- [Added] MCPサーバーが、対話型ダイアログ（フォームフィールドまたはブラウザURL）を介して、タスクの途中で構造化入力を要求できるようになりました。\n- [Added] 応答が返される前にそれをインターセプトおよびオーバーライドするための新しいElicitationおよびElicitationResultフックを追加しました。\n- [Added] 起動時にセッションの表示名を設定するための-n / --name <name> CLIフラグを追加しました。\n- [Added] 大規模なモノレポでclaude --worktreeを使用する際のworktree.sparsePaths設定を追加しました。これにより、git sparse-checkoutを介して必要なディレクトリのみをチェックアウトできます。\n- [Added] コンパクション完了後に起動するPostCompactフックを追加しました。\n- [Added] モデルの労力レベルを設定する/effortスラッシュコマンドを追加しました。\n- [Added] セッション品質調査を追加しました。エンタープライズ管理者は、feedbackSurveyRate設定を介してサンプルレートを設定できます。\n- [Fixed] 会話のコンパクション後に、遅延ツール（ToolSearchを介してロードされたもの）が入力スキーマを失い、配列および数値パラメータが型エラーで拒否される問題を修正しました。\n- [Fixed] スラッシュコマンドが「Unknown skill」と表示される問題を修正しました。\n- [Fixed] プランが既に承認された後に、プランモードで再承認を求める問題を修正しました。\n- [Fixed] 権限ダイアログまたはプランエディターが開いている間、ボイスモードがキー入力を無視する問題を修正しました。\n- [Fixed] npm経由でインストールした場合にWindowsで/voiceが機能しない問題を修正しました。\n- [Fixed] 1Mコンテキストセッションでmodel: frontmatterを持つスキルを呼び出したときに、誤った「Context limit reached」が表示される問題を修正しました。\n- [Fixed] 非標準のモデル文字列を使用する際に「adaptive thinking is not supported on this model」エラーが発生する問題を修正しました。\n- [Fixed] 引用符付きの引数に#が含まれている場合に、Bash(cmd:*)の権限ルールが一致しない問題を修正しました。\n- [Fixed] Bashの権限ダイアログで「don't ask again」を選択したときに、パイプや複合コマンドの生のコマンド全体が表示される問題を修正しました。\n- [Fixed] 連続した失敗後に自動コンパクションが無期限に再試行される問題を修正しました。サーキットブレーカーが3回試行後に停止するようになりました。\n- [Fixed] MCPの再接続スピナーが正常な再接続後も表示され続ける問題を修正しました。\n- [Fixed] LSP Managerがマーケットプレイスが調整される前に初期化された場合、LSPプラグインがサーバーを登録しない問題を修正しました。\n- [Fixed] SSH経由のtmuxでのクリップボードコピーを修正しました。直接ターミナル書き込みとtmuxクリップボード統合の両方を試行するようになりました。\n- [Fixed] /exportが成功メッセージでファイル名のみを表示し、完全なファイルパスを表示しない問題を修正しました。\n- [Fixed] テキストを選択した後、トランスクリプトが新しいメッセージに自動スクロールしない問題を修正しました。\n- [Fixed] ログイン方法選択画面を終了するためにEscapeキーが機能しない問題を修正しました。\n- [Fixed] いくつかのRemote Controlの問題を修正しました。サーバーがアイドル状態の環境を回収したときにセッションがサイレントに終了する、迅速なメッセージがバッチではなく1つずつキューに入れられる、JWT更新後に古いワークアイテムが再配信される問題を修正しました。\n- [Fixed] 長時間のWebSocket切断後にブリッジセッションが回復できない問題を修正しました。\n- [Fixed] ソフト非表示コマンドの正確な名前を入力したときにスラッシュコマンドが見つからない問題を修正しました。\n- [Improved] git refsを直接読み取り、リモートブランチが既にローカルで利用可能な場合に冗長なgit fetchをスキップすることで、--worktreeの起動パフォーマンスを改善しました。\n- [Improved] バックグラウンドエージェントの動作を改善しました。バックグラウンドエージェントを強制終了すると、部分的な結果が会話コンテキストに保持されるようになりました。\n- [Improved] モデルのフォールバック通知を改善しました。詳細モードの背後に隠されるのではなく、常に表示され、人間が理解しやすいモデル名が表示されるようになりました。\n- [Improved] ダークターミナルテーマでのブロッククォートの可読性を改善しました。テキストは薄暗い表示ではなく、左バー付きのイタリックになりました。\n- [Improved] 古いワークツリーのクリーンアップを改善しました。中断された並行実行後に残されたワークツリーは自動的にクリーンアップされるようになりました。\n- [Improved] Remote Controlセッションのタイトルを改善しました。これまでの「Interactive session」ではなく、最初のプロンプトから派生するようになりました。\n- [Improved] /voiceを改善し、有効化時にディクテーション言語を表示し、言語設定が音声入力でサポートされていない場合に警告を表示するようにしました。\n- [Changed] --plugin-dirがサブコマンドをサポートするために1つのパスのみを受け入れるように更新しました。複数のディレクトリには繰り返し--plugin-dirを使用してください。\n- [Fixed] [VSCode] コンマを含むgitignoreパターンが、@-mentionファイルピッカーからファイルタイプ全体をサイレントに除外する問題を修正しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-03-14"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- 低品質コンテンツ対策の新投稿要件（フェーズ2）\n  https://www.reddit.com/r/macapps/comments/1r6d06r/new_post_requirements_to_combat_low_quality/\n- ボリュームミキサーアプリをいくつか試したところ、SoundSourceは無料代替品よりもCPU使用率が高いようです。SoundSourceでは一般的なことなのでしょうか？\n  https://www.reddit.com/r/macapps/comments/1rtrje0/i_was_in_need_of_a_volume_mixer_app_so_i_tested/\n- Forkliftの代替ツールはありますか？\n  https://www.reddit.com/r/macapps/comments/1rtsjcf/forklift_alternatives/\n- M2以降のMacBook Air/Proユーザーを募集：macOSアプリのテストにご協力ください（無料ライセンスキー進呈）\n  https://www.reddit.com/r/macapps/comments/1rtii5q/looking_for_m2_macbook_air_pro_users_to_test_my/\n- Screenize v0.4.0がリリース！\n  https://www.reddit.com/r/macapps/comments/1rtpce7/screenize_v040_is_now_available/\n- Calibre以外にepubファイルを圧縮するアプリはありますか？\n  https://www.reddit.com/r/macapps/comments/1rtnyi4/other_than_calibre_is_there_any_other_app_to/\n- メール「ディープリンク」：SparkやCanaryが対応しないのはなぜ？\n  https://www.reddit.com/r/macapps/comments/1rtjtrn/email_deep_linkswhy_dont_spark_or_canary_make/\n- 音声録音や通話参加なしで会議の字幕を保存するMacアプリを開発しました\n  https://www.reddit.com/r/macapps/comments/1rtogc4/i_built_a_mac_app_that_saves_meeting_captions/\n- Screenize v0.4.0がリリース！\n  https://www.reddit.com/r/macapps/comments/1rtirpr/screenize_v040_is_now_available/\n- [OS] Neon Vision Editor 5.1 – macOS、iPadOS、iOS向け無料ネイティブコードエディター\n  https://www.reddit.com/r/macapps/comments/1rt6xsh/os_neon_vision_editor_51_a_free_native_code/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-15"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- Redditに新たな人間認証システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackers subredditのルールを改定、品質向上を目指す\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- 金曜シェアデー！あなたのプロジェクトを共有しよう\n  https://www.reddit.com/r/indiehackers/comments/1rsjrmi/friday_share_fever_lets_share_your_project/\n- 無料クレジット利用者が有料プランに移行：ソロ開発者として最大の成功事例\n  https://www.reddit.com/r/indiehackers/comments/1rspv24/a_user_used_3_free_credits_bought_4_more_then/\n- 残り資金0ユーロ、AIdeasセミファイナリストの開発者が生存戦略を公開\n  https://www.reddit.com/r/indiehackers/comments/1rso84j/day_0_of_runway_600_balance_i_stopped_coding_to/\n- AIを実務で活用している人向けの週次イベントを来週から開始、興味ある人募集\n  https://www.reddit.com/r/indiehackers/comments/1rshot3/starting_a_weekly_thing_from_next_week_for_people/\n- データツールにおけるAIの役割とは\n  https://www.reddit.com/r/indiehackers/comments/1rs4o4s/where_ai_plays_a_role_in_data_tools/\n- 比較SEO戦略を早期に導入し、ファネル下部のトラフィックを増加させる\n  https://www.reddit.com/r/indiehackers/comments/1rs0cz4/use_the_comparison_seo_strategy_early_to_get_more/\n- プロジェクトへの正直なフィードバック、本日受け付けます\n  https://www.reddit.com/r/indiehackers/comments/1rrncz2/anyone_want_some_honest_feedback_on_their_project/\n- あなたのスタートアップウェブサイトを見せてください、具体的なフィードバックを提供します（説明必読）\n  https://www.reddit.com/r/indiehackers/comments/1rr3voy/show_me_your_startup_website_and_ill_give_you/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-15"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- Claude Opus 4.6、Claude Sonnet 4.6、利用制限、バグ、パフォーマンスに関する議論（2025年12月29日開始）\n  https://www.reddit.com/r/ClaudeAI/comments/1pygdbz/usage_limits_bugs_and_performance_discussion/\n- Claude Opus 4.6およびClaude Sonnet 4.6で100万コンテキストウィンドウが一般提供開始\n  https://www.reddit.com/r/ClaudeAI/comments/1rsubm0/1_million_context_window_is_now_generally/\n- Claude、3周年を迎える\n  https://www.reddit.com/r/ClaudeAI/comments/1rtezds/claude_turns_3_today/\n- 雰囲気でコーディングされたプロジェクトの大多数が失敗する理由\n  https://www.reddit.com/r/ClaudeAI/comments/1rt31th/why_the_majority_of_vibe_coded_projects_fail/\n- 誰もあなたの作ったものに興味はない\n  https://www.reddit.com/r/ClaudeAI/comments/1rtey4g/no_one_cares_what_you_built/\n- MAXに100万コンテキストが搭載されて約15時間、ほとんどハイな気分だ\n  https://www.reddit.com/r/ClaudeAI/comments/1rtgq1o/15_or_so_hours_later_since_1m_context_included_in/\n- Tsが現実になった\n  https://www.reddit.com/r/ClaudeAI/comments/1rtnj28/ts_real/\n- 私は、えーと、ClaudeがブラウザでプロフェッショナルなAIビデオエディターを構築した。サーバーとのやり取りなし、すべてGPUで動作\n  https://www.reddit.com/r/ClaudeAI/comments/1rthbmn/i_built_ehm_claude_built_an_professional_ai_video/\n- 【速報】オフピーク時間帯（東部時間午前8時～午後2時、太平洋時間午前5時～午前11時以外）は利用時間が2倍に。3月13日～3月27日まで。\n  https://www.reddit.com/r/ClaudeAI/comments/1rtsqv1/just_noticed_the_announcement_your_fivehour_usage/\n- ClaudeにWord文書の作成を依頼するのをやめたら、セッションが著しく高速化された\n  https://www.reddit.com/r/ClaudeAI/comments/1rtpww1/stopped_asking_claude_for_word_docs_and_my/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-15"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1535pt] 「実装しますか？ いいえ」とAIが応答する問題 | AIエージェントの指示従順性と品質低下について、不満や懸念の声が多数。\n  https://news.ycombinator.com/item?id=47357042\n- [1382pt] AIをローカルで実行できるか？ | ローカルAIモデルの活用法や課題について議論。特にモデル選択やツールの有用性に関する不満が見られる。\n  https://news.ycombinator.com/item?id=47363754\n- [1258pt] Meta Platforms：ロビー活動、闇資金、そしてApp Store Accountability Act | 子どもの安全やApp Storeの規制を巡るMetaのロビー活動に疑問や批判の声。調査手法への懐疑論も。\n  https://news.ycombinator.com/item?id=47362528\n- [1089pt] Opus 4.6とSonnet 4.6で1Mコンテキストが一般提供開始 | 1Mコンテキストの有用性や効果的な活用法について様々な意見。実際の利用では100k未満が多いという声も。\n  https://news.ycombinator.com/item?id=47367129\n- [972pt] 「これはあなた向きのコンピューターではない」 | Chromebookの限界と、それを乗り越えようとするユーザーの情熱について共感の声。\n  https://news.ycombinator.com/item?id=47359744\n- [742pt] AI顔認証で誤認され、無実の女性が投獄される | AIの誤りだけでなく、警察や司法関係者の過失も指摘され、強い怒りや訴訟への言及が見られる。\n  https://news.ycombinator.com/item?id=47356968\n- [668pt] カタールでのヘリウム供給停止、半導体サプライチェーンに2週間の猶予 | ヘリウム供給の不安が半導体産業や物価に与える影響について懸念の声が多数。\n  https://news.ycombinator.com/item?id=47363584\n- [613pt] TUI Studio – ターミナルUIデザインツール | UIデザインツールのコンセプトには興味を示す声もあるが、機能性やTUIとしての妥当性に批判的な意見も。\n  https://news.ycombinator.com/item?id=47362613\n- [540pt] Vite 8.0がリリース | Vite 8のパフォーマンス向上に称賛の声多数。ビルド時間の短縮や生産性向上への貢献が高く評価されている。\n  https://news.ycombinator.com/item?id=47360730\n- [527pt] Wyden議員が再び警鐘：NSAの活動に「愕然とする」だろう | NSAの秘密裏の監視活動に対する怒りや懸念の声が多数。プライバシー侵害への強い警戒感が示されている。\n  https://news.ycombinator.com/item?id=47366374",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-03-15"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "7 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- 米陸軍、Andurilと最大200億ドルの契約締結を発表\n  https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/\n- Metaが全社員の20％に影響するレイオフを検討か\n  https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/\n- ChatGPTの新アプリ連携機能、DoorDash、Spotify、Uberなどの使い方\n  https://techcrunch.com/2026/03/14/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/\n- 「最初から正しく作られていない」Musk氏のxAI、またもやり直しへ\n  https://techcrunch.com/2026/03/13/not-built-right-the-first-time-musks-xai-is-starting-over-again-again/\n- AI精神病の訴訟に関わる弁護士が大量死傷のリスクを警告\n  https://techcrunch.com/2026/03/13/lawyer-behind-ai-psychosis-cases-warns-of-mass-casualty-risks/\n- Digg、アプリ閉鎖と人員削減で事業再編へ\n  https://techcrunch.com/2026/03/13/digg-lays-off-staff-and-shuts-down-app-as-company-retools/\n- 父子が創業したNyne、AIエージェントに不足する人間的文脈を付与\n  https://techcrunch.com/2026/03/13/nyne-founded-by-a-father-son-duo-gives-ai-agents-the-human-context-theyre-missing/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-03-15"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "My fireside chat about agentic engineering at the Pragmatic Summit",
+      "url": "https://simonwillison.net/2026/Mar/14/pragmatic-summit/#atom-entries",
+      "summary": "AIエージェントを活用した開発では、信頼性、テスト手法、コード品質、サンドボックス化、オープンソースへの影響が重要な論点となる。",
+      "publishedAt": "2026-03-15",
+      "ogImage": "https://img.youtube.com/vi/owmJyKVu5f8/maxresdefault.jpg"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Agent 37 — 月額3.99ドルでOpenClawインスタンスを提供\n  https://www.producthunt.com/products/agent-37\n- Lingofable — 物語で学ぶ、新しい言語学習\n  https://www.producthunt.com/products/lingofable\n- Docket — 独立系開発者とAIエージェント向けJira\n  https://www.producthunt.com/products/docket-4\n- MyNextBrowser — あらゆるブラウザをエージェント化し、ワークフローを自動化\n  https://www.producthunt.com/products/mynextbrowser\n- OpenMolt — コードでAIエージェントを生成・管理 (オープンソース)\n  https://www.producthunt.com/products/openmolt\n- Socra — ソクラテス流学習で好奇心から習得へ\n  https://www.producthunt.com/products/socra-socratic-ai-tutor-partner\n- Struct — エンジニアリングアラートの原因を特定するAIエージェント\n  https://www.producthunt.com/products/struct-2\n- Lemon — 音声でタスクを完了するAIエージェント\n  https://www.producthunt.com/products/lemon-3\n- Campee — 見積もり作成をスムーズに\n  https://www.producthunt.com/products/campee-planning-poker-online\n- Rainfrog — キャンペーンビジュアルを自在に作成、一貫性も維持\n  https://www.producthunt.com/products/rainfrog-2",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-03-15"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "3 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Ontora、管理者の組織運営を支援するサービスを発表\n  https://ontora.com\n- Manicule、AIネイティブの技術文書作成スタジオを立ち上げ\n  https://manicule.dev\n- ProjectX、あらゆるデバイスでアプリを動かすクラウドOS「Infinity」を開発\n  https://www.projectx.cloud/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-03-15"
+    }
+  ]
+}
