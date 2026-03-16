@@ -45,7 +45,8 @@
 
 ## Links
 
-- All links: black text + underline in accent color (`#aa26ff`)
+- All links: browser default blue text (`color: revert`), no underline by default
+- Hover: underline in accent color (`#aa26ff`)
 - `text-underline-offset: 2.5px`
 - Consistent — no exceptions for any link type
 
