@@ -214,9 +214,9 @@ const fetchHNComments = async (kids: number[], limit = 5): Promise<string[]> => 
   const comments = await Promise.all(
     topKids.map(async (id) => {
       const r = await fetch(`https://hacker-news.firebaseio.com/v0/item/${id}.json`);
-      const c: HNComment = await r.json();
+      const c: HNComment | null = await r.json();
       return (
-        c.text
+        c?.text
           ?.replace(/<[^>]+>/g, " ")
           .replace(/\s+/g, " ")
           .trim() ?? ""
@@ -231,12 +231,14 @@ const fetchHNDigest = async (source: Source): Promise<Entry> => {
   const ids: number[] = await res.json();
   const top10 = ids.slice(0, 10);
 
-  const items: HNItem[] = await Promise.all(
-    top10.map(async (id) => {
-      const r = await fetch(`https://hacker-news.firebaseio.com/v0/item/${id}.json`);
-      return r.json() as Promise<HNItem>;
-    }),
-  );
+  const items = (
+    await Promise.all(
+      top10.map(async (id) => {
+        const r = await fetch(`https://hacker-news.firebaseio.com/v0/item/${id}.json`);
+        return r.json() as Promise<HNItem | null>;
+      }),
+    )
+  ).filter((item): item is HNItem => item != null);
 
   const storiesWithComments = await Promise.all(
     items.map(async (item) => {
