@@ -1,0 +1,77 @@
+{
+  "fetchedAt": "2026-03-17T00:53:03.595Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.77",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.77",
+      "summary": "- [Increased] Claude Opus 4.6のデフォルト最大出力トークン制限を64kトークンに、Opus 4.6およびSonnet 4.6モデルの上限を128kトークンに増加しました。\n- [Added] denyRead領域内での読み取りアクセスを再許可するallowReadサンドボックスファイルシステム設定を追加しました。\n- [Added] /copyコマンドでオプションのindexを受け入れるようになりました。/copy NはN番目に新しいアシスタントの応答をコピーします。\n- [Fixed] 複合bashコマンド（例: cd src && npm test）での「常に許可」が、サブコマンドごとではなく文字列全体の単一ルールを保存し、無効なルールと繰り返される権限プロンプトにつながる問題を修正しました。\n- [Fixed] スラッシュコマンドオーバーレイが繰り返し開閉される際に、オートアップデーターがバイナリダウンロードを重複して開始し、数十ギガバイトのメモリを蓄積する問題を修正しました。\n- [Fixed] --resumeが、メモリ抽出の書き込みとメインのトランスクリプト間の競合により、最近の会話履歴をサイレントに切り詰める問題を修正しました。\n- [Fixed] PreToolUseフックが「allow」を返すことで、エンタープライズ管理設定を含む拒否権限ルールをバイパスする問題を修正しました。\n- [Fixed] Writeツールが、CRLFファイルを上書きしたり、CRLFディレクトリにファイルを作成したりする際に、改行をサイレントに変換する問題を修正しました。\n- [Fixed] 進捗メッセージが圧縮後も残存することによる、長時間実行セッションでのメモリ増加を修正しました。\n- [Fixed] APIが非ストリーミングモードにフォールバックする際に、コストとトークン使用量が追跡されない問題を修正しました。\n- [Fixed] CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETASがベータツールスキーマフィールドを除去せず、プロキシゲートウェイがリクエストを拒否する問題を修正しました。\n- [Fixed] システムの一時ディレクトリのパスにスペースが含まれる場合に、Bashツールが成功したコマンドに対してエラーを報告する問題を修正しました。\n- [Fixed] 貼り付け直後にすぐに入力すると、貼り付けた内容が失われる問題を修正しました。\n- [Fixed] /feedbackテキスト入力でCtrl+Dを押すと、2回目の押下でセッションを終了する代わりに、前方に削除される問題を修正しました。\n- [Fixed] 0バイトの画像ファイルをプロンプトにドラッグしたときにAPIエラーが発生する問題を修正しました。\n- [Fixed] Claude Desktopセッションが、OAuthではなくターミナルCLIで設定されたAPIキーを誤って使用する問題を修正しました。\n- [Fixed] 同じモノレポコミットの異なるサブディレクトリにあるgit-subdirプラグインが、プラグインキャッシュで衝突する問題を修正しました。\n- [Fixed] ターミナルUIで順序付きリストの番号がレンダリングされない問題を修正しました。\n- [Fixed] 以前のクラッシュから再開されたエージェントのワークツリーが、古いワークツリークリーンアップによって削除される可能性のある競合状態を修正しました。\n- [Fixed] エージェントの実行中に/mcpなどのダイアログを開いたときの入力デッドロックを修正しました。\n- [Fixed] vim NORMALモードでバックスペースキーとDeleteキーが機能しない問題を修正しました。\n- [Fixed] vimモードのオン/オフを切り替えてもステータスラインが更新されない問題を修正しました。\n- [Fixed] VS Code、Cursor、およびその他のxterm.jsベースのターミナルで、Cmd+クリック時にハイパーリンクが2回開く問題を修正しました。\n- [Fixed] デフォルト設定のtmux内で、背景色がターミナルデフォルトとしてレンダリングされる問題を修正しました。\n- [Fixed] SSH経由でtmux内でテキストを選択したときにiTerm2セッションがクラッシュする問題を修正しました。\n- [Fixed] tmuxセッションでクリップボードのコピーがサイレントに失敗する問題を修正しました。コピーのトースト通知で、⌘Vまたはtmux prefix+]のどちらで貼り付けるべきかが示されるようになりました。\n- [Fixed] 設定、権限、サンドボックスダイアログでリストをナビゲート中に、←/→が誤ってタブを切り替える問題を修正しました。\n- [Fixed] Claude Codeがtmuxまたはscreen内で起動されたときに、IDE統合が自動接続されない問題を修正しました。\n- [Fixed] CJK文字が右端でクリップされたときに、視覚的に隣接するUI要素ににじみ出る問題を修正しました。\n- [Fixed] リーダーが終了したときにチームメイトのペインが閉じない問題を修正しました。\n- [Fixed] ネイティブの分割ペインチームメイトでiTerm2が自動モードで検出されない問題を修正しました。\n- [Improved] macOSでの起動が高速化されました（約60ミリ秒）。キーチェーンの認証情報をモジュール読み込みと並行して読み取るようになりました。\n- [Improved] フォークの多いセッションや非常に大規模なセッションでの--resumeが高速化されました。読み込みが最大45%高速化され、ピークメモリが約100～150MB削減されました。\n- [Improved] 進行中の非ストリーミングAPIリクエストを中止するためのEscキーの動作が改善されました。\n- [Improved] claude plugin validateが、スキル、エージェント、コマンドのフロントマターとhooks/hooks.jsonをチェックするようになり、YAML解析エラーやスキーマ違反を捕捉できるようになりました。\n- [Improved] バックグラウンドのbashタスクは、出力が5GBを超えると強制終了されるようになり、暴走プロセスがディスクを埋めるのを防ぐようになりました。\n- [Changed] 計画を承認すると、セッションが計画の内容から自動的に名前付けされるようになりました。\n- [Improved] ヘッドレスモードのプラグインインストールが、CLAUDE_CODE_PLUGIN_SEED_DIRと正しく構成されるように改善されました。\n- [Improved] apiKeyHelperが10秒以上かかる場合に通知が表示されるようになり、メインループをブロックするのを防ぐようになりました。\n- [Changed] Agentツールがresumeパラメータを受け付けなくなりました。以前に生成されたエージェントを続行するには、SendMessage({to: agentId})を使用してください。\n- [Changed] SendMessageが、エラーを返す代わりに、停止したエージェントをバックグラウンドで自動的に再開するようになりました。\n- [Changed] /forkが/branchに改名されました（/forkはエイリアスとして引き続き機能します）。\n- [Improved] [VSCode] 計画プレビュータブのタイトルが、「Claude's Plan」ではなく計画の見出しを使用するように改善されました。\n- [Improved] [VSCode] macOSでoption+clickがネイティブ選択をトリガーしない場合、フッターがmacOptionClickForcesSelection設定を指すようになりました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- 低品質コンテンツ対策の新投稿要件（フェーズ2）\n  https://www.reddit.com/r/macapps/comments/1r6d06r/new_post_requirements_to_combat_low_quality/\n- Ottex：余計な機能なし、無料のmacOS向け音声入力アプリ。課金要素ゼロ、ローカルモデル対応、BYOK、APIキー管理も不要に\n  https://www.reddit.com/r/macapps/comments/1rvjvzt/ottex_nobullshit_free_macos_dictation_app_zero/\n- 新しいMacを簡単にセットアップする方法\n  https://www.reddit.com/r/macapps/comments/1rv8c2g/setting_up_a_new_mac_the_easy_way/\n- Mac向けネイティブ、プライベート、高速な音声認識アプリのテスター募集 – 早期フィードバックで生涯利用権を提供\n  https://www.reddit.com/r/macapps/comments/1rvl3ah/looking_for_users_to_test_a_native_private_and/\n- markjason v0.29 – アウトラインパネル（⌘⇧O）、タスクリストチェックボックス、タブ機能の改善\n  https://www.reddit.com/r/macapps/comments/1rvr785/markjason_v029_outline_panel_o_task_list/\n- Focus 1.13 — 動画内の特定の瞬間を素早く見つける\n  https://www.reddit.com/r/macapps/comments/1rvcafo/focus_113_find_the_exact_moment_in_your_videos/\n- [OS] Blitz - AIエージェントがiOSリリースパイプライン全体を処理するMacネイティブアプリ：コード署名、収益化、TestFlight、App Store申請\n  https://www.reddit.com/r/macapps/comments/1rvhpr6/os_blitz_native_mac_app_that_lets_ai_agents/\n- 素早いメモやリンクのためのノートアプリ\n  https://www.reddit.com/r/macapps/comments/1rui9bk/a_notes_app_for_quick_thoughts_and_links/\n- Source Code Preview - Finderでソースコードファイルをクイックルック\n  https://www.reddit.com/r/macapps/comments/1ruyy76/source_code_preview_quick_look_source_code_files/\n- [OS] Lapsus 2.0 - macOSのカーソルに慣性を追加\n  https://www.reddit.com/r/macapps/comments/1rued8z/os_lapsus_20_add_momentum_to_the_cursor_on_macos/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- サブレディットに新しい人間認証システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackersサブレディットの新規ルール - 品質向上を目指して\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- 開発前に検証：AIがマーケティングを「感覚コーディング」のように簡単に\n  https://www.reddit.com/r/indiehackers/comments/1rvmqvv/validating_before_building_ai_that_makes/\n- 実際にビジネスで運用しているAI自動化は？実験を共有する週次スペースを開始\n  https://www.reddit.com/r/indiehackers/comments/1rv3mod/what_ai_automations_are_you_actually_running_in/\n- 次のSaaSに役立つ無料サービス100選以上。製品でもフリーミアムでもなく、他のファウンダーが提供する自動化、監査、コンサルティング、アウトリーチ、グロースハック、リードジェネレーション、レビューなど\n  https://www.reddit.com/r/indiehackers/comments/1rv61c5/got_100_free_services_here_for_your_next_saas_not/\n- 18歳、資金なし、4日後にローンチなのに何をすればいいか全く分からない\n  https://www.reddit.com/r/indiehackers/comments/1ruo4da/18_no_funding_launching_in_4_days_and_i_have_no/\n- ユーザーが無料クレジットを3回使用 → 4回追加購入 → 無制限にアップグレード：ソロ開発者としてこれまでの最大の成功体験\n  https://www.reddit.com/r/indiehackers/comments/1rspv24/a_user_used_3_free_credits_bought_4_more_then/\n- 金曜シェア熱🕺あなたのプロジェクトを共有しよう！\n  https://www.reddit.com/r/indiehackers/comments/1rsjrmi/friday_share_fever_lets_share_your_project/\n- 資金残高0日目（残高-€600）。配布に集中するためコーディングを停止。AWS AIdeasセミファイナリストである私の具体的なサバイバルプラン\n  https://www.reddit.com/r/indiehackers/comments/1rso84j/day_0_of_runway_600_balance_i_stopped_coding_to/\n- 来週から、実際に仕事でAIを使っている人向けの週次イベントを開始 — 興味ある人いる？\n  https://www.reddit.com/r/indiehackers/comments/1rshot3/starting_a_weekly_thing_from_next_week_for_people/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- 2025年12月29日開始：利用制限、バグ、パフォーマンスに関する総合議論スレッド\n  https://www.reddit.com/r/ClaudeAI/comments/1pygdbz/usage_limits_bugs_and_performance_discussion/\n- Claude Coworkでスラッシュコマンドとスキルを統合\n  https://www.reddit.com/r/ClaudeAI/comments/1rvdf6a/slash_commands_and_skills_are_now_unified_in/\n- Claudeに心の内を打ち明けるたびに…\n  https://www.reddit.com/r/ClaudeAI/comments/1rvkpd5/whenever_i_pour_my_heart_out_to_claude_a_little/\n- AIで誰もが文章を書くようになったら、何が失われるのかClaudeに聞いてみた\n  https://www.reddit.com/r/ClaudeAI/comments/1rvcwmu/i_asked_claude_if_everyone_uses_ai_to_write_what/\n- ClaudeにGrokのモノマネをさせてみた\n  https://www.reddit.com/r/ClaudeAI/comments/1rvepi3/i_asked_claude_to_impersonate_grok/\n- Claude CodeでClaudeも作曲に参加できるミュージックメーカーを作った\n  https://www.reddit.com/r/ClaudeAI/comments/1rvl61q/made_a_music_maker_using_claude_code_where_claude/\n- 100万コンテキスト、これは素晴らしい\n  https://www.reddit.com/r/ClaudeAI/comments/1rvmqs2/1_mil_context_is_so_good/\n- ObsidianをClaude Codeの永続的な脳として使い、週末で本格的なオープンソースツールを構築。詳しい設定を共有します。\n  https://www.reddit.com/r/ClaudeAI/comments/1rv5ox0/i_used_obsidian_as_a_persistent_brain_for_claude/\n- Claudeが私をお高く止まらないのが好き\n  https://www.reddit.com/r/ClaudeAI/comments/1rurfus/i_love_that_claude_doesnt_patronize_me/\n- Claude Codeにプロジェクトアーキテクチャの共有ビジュアルモデルを与え、ズレを防ぐMCPツールを開発\n  https://www.reddit.com/r/ClaudeAI/comments/1rve7l3/built_a_mcp_tool_that_gives_claude_code_a_shared/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1305pt] Polymarketのギャンブラーがイランのミサイル報道を巡り筆者を殺害すると脅迫 | Polymarketに対する批判と、予測市場におけるインセンティブの負の側面を指摘する声多数。\n  https://news.ycombinator.com/item?id=47397822\n- [975pt] 法執行アクセス法案（Bill C-22）：危険なバックドア監視のリスクが残る | 令状なしのアクセスに関する懸念と、AIによる監視強化への危惧が示されている。\n  https://news.ycombinator.com/item?id=47392084\n- [914pt] 12歳のパレスチナ人少年がイスラエル軍による家族殺害を証言 | イスラエルメディアも報じる検証済みの話として、紛争の悲劇とHNでの掲載の是非を議論。\n  https://news.ycombinator.com/item?id=47402950\n- [777pt] 49MBのウェブページ | NYTのページ肥大化への不満と、ウェブサイトのデータ量増加に対する懸念の声が多数。\n  https://news.ycombinator.com/item?id=47390945\n- [642pt] 汚職は民主主義において権威主義よりも社会的信頼を損なう | 汚職が社会に与える影響と、民主主義における信頼の重要性について議論されている。\n  https://news.ycombinator.com/item?id=47397593\n- [612pt] Sloppypastaをやめよう | AIが生成したテキストの品質の低さに不満の声が多く、生産性低下や採用判断の指標になるとの意見。\n  https://news.ycombinator.com/item?id=47389570\n- [585pt] 国防省筋がPalantirの政府中心での役割が英国の安全保障を脅かすと警告 | Palantirの危険性、特にユーザーデータの取り扱いや監視システムへの懸念が指摘されている。\n  https://news.ycombinator.com/item?id=47397797\n- [577pt] Chrome DevTools MCP (2025) | Chrome DevToolsの自動化ツールへの関心が高く、エージェント型コーディングへの期待が伺える。\n  https://news.ycombinator.com/item?id=47390817\n- [548pt] LLMアーキテクチャギャラリー | LLMアーキテクチャの視覚化が高く評価され、体系的な学習や進化の系譜を求める声がある。\n  https://news.ycombinator.com/item?id=47388676\n- [471pt] 私がLLMでソフトウェアを開発する方法 | LLMを活用した開発ワークフローに関心が集まり、異なるアプローチや効果的なプロンプトのヒントが共有されている。\n  https://news.ycombinator.com/item?id=47394022",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "13 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Nvidia版OpenClaw、最大の課題「セキュリティ」を解決か\n  https://techcrunch.com/2026/03/16/nvidias-version-of-openclaw-could-solve-its-biggest-problem-security/\n- Jensen Huang、NvidiaのBlackwellとVera Rubinの売上予測を1兆ドル超に引き上げ\n  https://techcrunch.com/2026/03/16/jensen-just-put-nvidias-blackwell-and-vera-rubin-sales-projections-into-the-1-trillion-stratosphere/\n- Warren議員、国防総省に対しxAIへの機密ネットワークアクセス許可を追及\n  https://techcrunch.com/2026/03/16/warren-presses-pentagon-over-decision-to-grant-xai-access-to-classified-networks/\n- Memories AI、ウェアラブルとロボット向けの視覚記憶レイヤーを構築\n  https://techcrunch.com/2026/03/16/memories-ai-is-building-the-visual-memory-layer-for-wearables-and-robotics/\n- Apple、動画編集ソフト企業MotionVFXを買収\n  https://techcrunch.com/2026/03/16/apple-acquires-video-editing-software-company-motionvfx/\n- Elon MuskのxAI、Grokが未成年者を不適切に描写したとして児童ポルノ訴訟に直面\n  https://techcrunch.com/2026/03/16/elon-musks-xai-faces-child-porn-lawsuit-from-minors-grok-allegedly-undressed/\n- NvidiaのDLSS 5、生成AIでゲームのフォトリアリズムを強化、ゲーム以外の分野にも意欲\n  https://techcrunch.com/2026/03/16/nvidias-dlss-5-uses-generative-ai-to-boost-photo-realism-in-video-games-with-ambitions-beyond-gaming/\n- Jensen HuangによるNvidia GTC 2026基調講演の視聴方法と期待される内容\n  https://techcrunch.com/2026/03/16/nvidia-gtc-how-to-watch-jensen-huang-2026-keynote/\n- ディープテックのチップ系スタートアップがまたユニコーンに：Froreが評価額16.4億ドルに到達\n  https://techcrunch.com/2026/03/16/another-deep-tech-chip-startup-becomes-a-unicorn-frore-hits-1-64b/\n- Fuseが2500万ドルを調達、米国の信用組合が利用する老朽化した融資実行システムに変革を\n  https://techcrunch.com/2026/03/16/fuse-raises-25m-to-disrupt-aging-loan-origination-systems-used-by-u-s-credit-unions/\n- 辞書出版社、OpenAIを提訴\n  https://techcrunch.com/2026/03/16/merriam-webster-openai-encyclopedia-brittanica-lawsuit/\n- Antonio Gracias氏、「混沌を生き抜くために構築された」プロエントロピックなスタートアップを熱望\n  https://techcrunch.com/2026/03/16/antonio-gracias-says-hes-loomg-for-proentropic-startups-those-that-are-built-to-survive-chaos/\n- Walmartが出資するPhonePe、世界情勢の市場混乱を受けIPOを断念\n  https://techcrunch.com/2026/03/16/walmart-backed-phonepe-shelves-ipo-as-global-tensions-rattle-markets/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Fragments: March 16",
+      "url": "https://martinfowler.com/fragments/2026-03-16.html",
+      "summary": "AIによるソフトウェア開発は、エンジニアの役割をコード作成からAIの指示・評価・修正を行う「監視」へと変化させ、コード生成の単位をコンポーネントにすることで安全な置き換えが可能になるという議論が進んでいる。",
+      "publishedAt": "2026-03-16",
+      "ogImage": "https://martinfowler.com/logo-sq.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- GitFit.AI：AIで日々の栄養、習慣、活動を追跡\n  https://www.producthunt.com/products/gitfit-ai\n- Adaptive — The Agent Computer：AIがあらゆるタスクをこなすためのコンピューター\n  https://www.producthunt.com/products/adaptive-ai\n- Glam AI：トレンドを選び、写真をアップしてバイラルコンテンツを作成\n  https://www.producthunt.com/products/glam-ai\n- Wendi AI：人材管理者のためのAI OS\n  https://www.producthunt.com/products/wendi-ai-yc-application\n- Spott：採用企業向けAIネイティブATS & CRM\n  https://www.producthunt.com/products/spott-3\n- Masko Code：Claude Codeを監視するマスコット\n  https://www.producthunt.com/products/masko-code\n- XHawk 0.99：コーディングセッションとコードを文脈システムに変換\n  https://www.producthunt.com/products/xhawk\n- Faces：ウェブの能力を最大限に活用したインタラクティブなプレゼンテーション\n  https://www.producthunt.com/products/faces-4\n- JetBrains Air：Codex、Claude Agents、Gemini CLI、Junieを並行動作\n  https://www.producthunt.com/products/jetbrains\n- Donely：OpenClawインスタンスを月額0ドルで利用可能、AI無料利用特典付き\n  https://www.producthunt.com/products/donely",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "1 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Adialante、手軽なガン検査を提供\n  http://www.adialante.com",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-03-17"
+    }
+  ]
+}
