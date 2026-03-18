@@ -1,0 +1,117 @@
+{
+  "fetchedAt": "2026-03-18T00:10:17.913Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Introducing GPT-5.4 mini and nano",
+      "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+      "summary": "GPT-5.4 miniとnanoは、より小型で高速なモデルで、コーディングやツール利用などに最適化された。",
+      "publishedAt": "2026-03-17",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/6EnJZAuVLIIArGkpgWz9Mh/92ab6109d7f17ca20ebc70e830294c66/5.4_Mini_Nano_Hero___SEO.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.78",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.78",
+      "summary": "- [Added] APIエラー（レート制限、認証失敗など）によりターンが終了した際に発火するStopFailureフックイベントを追加しました。\n- [Added] プラグインの更新後も保持されるプラグインの永続的な状態のための${CLAUDE_PLUGIN_DATA}変数を追加しました。/plugin uninstall時に削除前のプロンプトが表示されます。\n- [Added] プラグインに同梱されるエージェント向けに、effort、maxTurns、disallowedToolsのフロントマターサポートを追加しました。\n- [Improved] tmuxでset -g allow-passthroughがオンの場合、ターミナル通知（iTerm2/Kitty/Ghosttyのポップアップ、プログレスバー）が外部ターミナルに届くようになりました。\n- [Improved] 応答テキストが生成され次第、行ごとにストリーミングされるようになりました。\n- [Fixed] サンドボックス化されたLinux上のBash内でgit log HEADが「ambiguous argument」で失敗する問題と、作業ディレクトリ内でスタブファイルがgit statusを汚染する問題を修正しました。\n- [Fixed] サブエージェントを使用した大規模セッション（>5 MB）で、cc logおよび--resumeが会話履歴をサイレントに切り詰める問題を修正しました。\n- [Fixed] APIエラーがストップフックをトリガーし、そのフックがブロッキングエラーをモデルに再供給する際に発生する無限ループを修正しました。\n- [Fixed] deny: [\"mcp__servername\"]パーミッションルールが、モデルに送信する前にMCPサーバーツールを削除せず、モデルがブロックされたツールを認識して試行することを許してしまう問題を修正しました。\n- [Fixed] sandbox.filesystem.allowWriteが絶対パスで機能しない問題（以前は//プレフィックスが必要でした）を修正しました。\n- [Fixed] /sandbox DependenciesタブがmacOS固有の情報ではなく、macOS上でLinuxの前提条件を表示する問題を修正しました。\n- [Fixed] セキュリティ: sandbox.enabled: trueが設定されているにもかかわらず依存関係が不足している場合に、サンドボックスがサイレントに無効になる問題を修正しました。現在は起動時に警告が表示されます。\n- [Fixed] .git、.claude、およびその他の保護されたディレクトリがbypassPermissionsモードでプロンプトなしで書き込み可能になる問題を修正しました。\n- [Fixed] ノーマルモードでのctrl+uがreadlineのkill-lineではなくスクロールしてしまう問題を修正しました（ctrl+u/ctrl+dの半ページスクロールはトランスクリプトモードのみに移動）。\n- [Fixed] ボイスモードの修飾子複合プッシュツートークキーバインディング（例: ctrl+k）が、即座にアクティブになるのではなく、ホールドを必要とする問題を修正しました。\n- [Fixed] WSL2とWSLg（Windows 11）でボイスモードが機能しない問題を修正しました。WSL1/Win10ユーザーには明確なエラーが表示されるようになりました。\n- [Fixed] --worktreeフラグがworktreeディレクトリからスキルとフックを読み込まない問題を修正しました。\n- [Fixed] CLAUDE_CODE_DISABLE_GIT_INSTRUCTIONSとincludeGitInstructions設定がシステムプロンプトのgit statusセクションを抑制しない問題を修正しました。\n- [Fixed] VS CodeがDock/Spotlightから起動された際に、BashツールがHomebrewやその他のPATH依存のバイナリを見つけられない問題を修正しました。\n- [Fixed] truecolorサポートを告知しないVS Code/Cursor/code-serverのターミナルで、Claudeのオレンジ色が色褪せて表示される問題を修正しました。\n- [Added] /modelピッカーにカスタムエントリを追加するためのANTHROPIC_CUSTOM_MODEL_OPTION env変数を追加しました。表示用にオプションで_NAMEと_DESCRIPTIONのサフィックス変数を付けられます。\n- [Fixed] Haikuモデルを使用する際にANTHROPIC_BETAS環境変数がサイレントに無視される問題を修正しました。\n- [Fixed] キューに入れられたプロンプトが改行区切りなしで連結される問題を修正しました。\n- [Improved] 大規模セッション再開時のメモリ使用量と起動時間を改善しました。\n- [Fixed] [VSCode] 既に認証済みの場合にサイドバーを開くと、ログイン画面が一瞬表示される問題を修正しました。\n- [Fixed] [VSCode] Opus選択時に「API Error: Rate limit reached」が発生する問題を修正しました。プランティアが不明な購読者には、モデルドロップダウンで1Mコンテキストのバリアントが提供されなくなりました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-03-18"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.77",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.77",
+      "summary": "- [Added] Claude Opus 4.6のデフォルトの最大出力トークン制限を64kに、Opus 4.6とSonnet 4.6モデルの上限を128kトークンに引き上げました。\n- [Added] denyRead領域内で読み取りアクセスを再許可するallowReadサンドボックスファイルシステム設定を追加しました。\n- [Added] /copyがオプションのindexを受け入れるようになりました。/copy NはN番目に最新のアシスタントの応答をコピーします。\n- [Fixed] 複合bashコマンド（例: cd src && npm test）での「常に許可」が、サブコマンドごとではなく文字列全体の単一ルールを保存し、無効なルールと繰り返しの権限プロンプトを引き起こしていた問題を修正しました。\n- [Fixed] スラッシュコマンドオーバーレイが繰り返し開閉される際に、オートアップデーターが重複するバイナリダウンロードを開始し、数十ギガバイトのメモリが蓄積されていた問題を修正しました。\n- [Fixed] --resumeがメモリ抽出の書き込みとメインのトランスクリプト間の競合により、最近の会話履歴を黙って切り捨てていた問題を修正しました。\n- [Fixed] PreToolUseフックが「許可」を返すことで、エンタープライズ管理設定を含む拒否権限ルールをバイパスしていた問題を修正しました。\n- [Fixed] WriteツールがCRLFファイルを上書きしたり、CRLFディレクトリにファイルを作成したりする際に、改行を黙って変換していた問題を修正しました。\n- [Fixed] 進行メッセージが圧縮後も残り、長時間のセッションでメモリが増加していた問題を修正しました。\n- [Fixed] APIが非ストリーミングモードにフォールバックする際に、コストとトークンの使用量が追跡されていなかった問題を修正しました。\n- [Fixed] CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETASがベータ版ツールスキーマフィールドを削除せず、プロキシゲートウェイがリクエストを拒否する原因となっていた問題を修正しました。\n- [Fixed] システムの一時ディレクトリパスにスペースが含まれている場合、Bashツールが成功したコマンドに対してエラーを報告していた問題を修正しました。\n- [Fixed] 貼り付け直後にすぐに入力すると、貼り付けた内容が失われていた問題を修正しました。\n- [Fixed] /feedbackテキスト入力でCtrl+Dを押すと、セッションを終了する2回目の押下ではなく、前方削除されていた問題を修正しました。\n- [Fixed] 0バイトの画像ファイルをプロンプトにドラッグした際にAPIエラーが発生していた問題を修正しました。\n- [Fixed] Claude DesktopセッションがOAuthではなく、ターミナルCLIの設定済みAPIキーを誤って使用していた問題を修正しました。\n- [Fixed] 同じモノレポコミットの異なるサブディレクトリにあるgit-subdirプラグインがプラグインキャッシュで衝突していた問題を修正しました。\n- [Fixed] ターミナルUIで順序付きリストの番号がレンダリングされていなかった問題を修正しました。\n- [Fixed] 以前のクラッシュから再開されたエージェントの作業ツリーを、古い作業ツリーのクリーンアップが削除してしまう競合状態を修正しました。\n- [Fixed] エージェントの実行中に/mcpなどのダイアログを開いた際の入力デッドロックを修正しました。\n- [Fixed] vimのNORMALモードでBackspaceキーとDeleteキーが機能しない問題を修正しました。\n- [Fixed] vimモードがオンまたはオフに切り替えられたときにステータス行が更新されない問題を修正しました。\n- [Fixed] VS Code、Cursor、その他のxterm.jsベースのターミナルでCmd+クリック時にハイパーリンクが2回開く問題を修正しました。\n- [Fixed] デフォルト設定のtmux内で背景色がターミナルデフォルトとしてレンダリングされていた問題を修正しました。\n- [Fixed] SSH経由でtmux内でテキストを選択した際にiTerm2セッションがクラッシュする問題を修正しました。\n- [Fixed] tmuxセッションでクリップボードのコピーが黙って失敗していた問題を修正しました。コピー通知で、⌘Vまたはtmux prefix+]のどちらで貼り付けるべきかを示すようになりました。\n- [Fixed] 設定、権限、サンドボックスダイアログでリストをナビゲート中に、←/→キーが誤ってタブを切り替えていた問題を修正しました。\n- [Fixed] Claude Codeがtmuxまたはscreen内で起動されたときに、IDE統合が自動接続しない問題を修正しました。\n- [Fixed] CJK文字が右端でクリップされたときに、隣接するUI要素に視覚的に滲み出ていた問題を修正しました。\n- [Fixed] リーダーが終了したときにチームメイトのペインが閉じない問題を修正しました。\n- [Fixed] iTerm2の自動モードがネイティブの分割ペインのチームメイトに対してiTerm2を検出しない問題を修正しました。\n- [Improved] macOSでの起動が高速化されました（約60ms）。これは、モジュール読み込みと並行してキーチェーン資格情報を読み取ることで実現されました。\n- [Improved] フォークが多く、非常に大規模なセッションでの--resumeが高速化されました。読み込みが最大45%高速化され、ピークメモリが約100-150MB削減されました。\n- [Improved] 非ストリーミングAPIリクエストの実行中にEscキーで中止できるよう改善されました。\n- [Improved] claude plugin validateがskill、agent、commandのフロントマターに加え、hooks/hooks.jsonをチェックし、YAML解析エラーやスキーマ違反を捕捉するよう改善されました。\n- [Improved] バックグラウンドのbashタスクは、出力が5GBを超えると強制終了され、暴走プロセスによるディスクの占有を防ぎます。\n- [Improved] プランを承認すると、セッションがプランの内容から自動的に命名されるようになりました。\n- [Improved] ヘッドレスモードのプラグインインストールがCLAUDE_CODE_PLUGIN_SEED_DIRと正しく構成されるよう改善されました。\n- [Improved] apiKeyHelperが10秒以上かかる場合に通知を表示し、メインループのブロックを防ぎます。\n- [Changed] Agentツールがresumeパラメータを受け入れなくなりました。以前に生成されたエージェントを続行するには、SendMessage({to: agentId})を使用してください。\n- [Changed] SendMessageは、エラーを返す代わりに、停止したエージェントをバックグラウンドで自動的に再開するようになりました。\n- [Changed] /forkを/branchにリネームしました（/forkはエイリアスとして引き続き機能します）。\n- [Improved] [VSCode] プランのプレビュータブのタイトルが「Claude's Plan」ではなくプランの見出しを使用するように改善されました。\n- [Improved] [VSCode] macOSでoption+クリックがネイティブ選択をトリガーしない場合、フッターがmacOptionClickForcesSelection設定を指すようになりました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- 低品質コンテンツ対策の新投稿要件（第2フェーズ）\n  https://www.reddit.com/r/macapps/comments/1r6d06r/new_post_requirements_to_combat_low_quality/\n- Keylume - デモや画面録画に最適なスタイリッシュなオンスクリーンキーボード\n  https://www.reddit.com/r/macapps/comments/1rwiee0/keylume_stylish_onscreen_keyboard_for_demos_and/\n- Typinatorは素晴らしい…しかし、強制アップグレードのポップアップが体験を損ねている\n  https://www.reddit.com/r/macapps/comments/1rw931e/typinator_is_great_but_these_forced_upgrade/\n- [macOS] Maestri — コーディングエージェントが並行して作業する無限キャンバス。完全ネイティブ。[生涯ライセンス]\n  https://www.reddit.com/r/macapps/comments/1rwejai/macos_maestri_a_infinite_canvas_where_coding/\n- Specimen - フォントマネージャー - 29ドル\n  https://www.reddit.com/r/macapps/comments/1rwdlnc/specimen_font_manager_29/\n- Ottex: 余計な機能なしの無料macOSディクテーションアプリ。課金なし、ローカルモデル、BYOK、APIキー管理も不要に\n  https://www.reddit.com/r/macapps/comments/1rvjvzt/ottex_nobullshit_free_macos_dictation_app_zero/\n- [OS] ローカルファーストなPDFツールキット「ZapPDF」をmacOS/iPhone/iPad向けに開発しました\n  https://www.reddit.com/r/macapps/comments/1rw7cp4/os_i_built_zappdf_a_localfirst_pdf_toolkit_for/\n- 新しいMacを簡単にセットアップする方法\n  https://www.reddit.com/r/macapps/comments/1rv8c2g/setting_up_a_new_mac_the_easy_way/\n- より良いApple Notesが欲しかったのでGrapeを開発しました\n  https://www.reddit.com/r/macapps/comments/1rwjqmj/i_wanted_a_better_apple_notes_so_i_built_grape/\n- Mac向けネイティブでプライベート、超高速な音声認識アプリのテスター募集 - 早期フィードバックで生涯アクセスを提供\n  https://www.reddit.com/r/macapps/comments/1rvl3ah/looking_for_users_to_test_a_native_private_and/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-18"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- Redditの subreddit に新しい人間認証システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackers subreddit の新ルール – 品質向上を目指して\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- 6つのSaaSを開発して顧客ゼロ。その方法とは\n  https://www.reddit.com/r/indiehackers/comments/1rw64vw/built_6_saas_and_got_0_customers_heres_how/\n- ソロ創業者がかつてない速さで成功中 – 持続可能なのか、それともバブルなのか？\n  https://www.reddit.com/r/indiehackers/comments/1rwdcdv/solo_founders_are_winning_faster_than_ever_right/\n- VC資金なしで2周年を迎えたソーシャルメディアAPI\n  https://www.reddit.com/r/indiehackers/comments/1rwdmkv/our_social_media_api_is_2_years_old_without_vc/\n- 孤独な真空での開発。語り合おう\n  https://www.reddit.com/r/indiehackers/comments/1rw9uux/building_in_a_vacuum_is_lonely_lets_actually_talk/\n- 開発前の検証：AIがマーケティングを「Vibe Coding」のように簡単にする\n  https://www.reddit.com/r/indiehackers/comments/1rvmqvv/validating_before_building_ai_that_makes/\n- 実際にビジネスで稼働させているAI自動化は？実験を共有する週次スペースを開始\n  https://www.reddit.com/r/indiehackers/comments/1rv3mod/what_ai_automations_are_you_actually_running_in/\n- 次のSaaSに役立つ100以上の無料サービス集。製品でも無料枠でもフリーミアムでもなく、他の創業者が提供するもの。自動化、監査、コンサルティング、アウトリーチ、グロースハック、リード獲得、レビューなど何でもあり！\n  https://www.reddit.com/r/indiehackers/comments/1rv61c5/got_100_free_services_here_for_your_next_saas_not/\n- 18歳、資金なし、4日後にローンチ…何から手をつけていいか分からない\n  https://www.reddit.com/r/indiehackers/comments/1ruo4da/18_no_funding_launching_in_4_days_and_i_have_no/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-18"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- Claude Coworkにリモートアクセス機能を導入（研究プレビュー）\n  https://www.reddit.com/r/ClaudeAI/comments/1rwiop4/introducing_remote_access_for_claude_cowork/\n- 【2025年12月29日開始】利用制限、バグ、パフォーマンスに関する総合スレッド\n  https://www.reddit.com/r/ClaudeAI/comments/1pygdbz/usage_limits_bugs_and_performance_discussion/\n- これはアメリカ史上前例のない事態だ\n  https://www.reddit.com/r/ClaudeAI/comments/1rwdqer/this_is_unprecedented_in_the_history_of_america/\n- Opus 4.6、PDFから不審なプロンプトインジェクションを検出\n  https://www.reddit.com/r/ClaudeAI/comments/1rw8dy6/opus_46_just_noticed_a_tentative_prompt_injection/\n- もう否定できない\n  https://www.reddit.com/r/ClaudeAI/comments/1rw8q5v/icant_even_deny_this_at_this_point/\n- ObsidianとClaudeでコピペ不要に\n  https://www.reddit.com/r/ClaudeAI/comments/1rwh44v/obsidian_claude_no_more_copy_paste/\n- 調べ物に没頭しては忘れてしまうので、記録する場所を作った\n  https://www.reddit.com/r/ClaudeAI/comments/1rwn902/i_keep_going_down_rabbit_holes_and_forgetting/\n- Claude稼働状況：2026年3月17日19時48分43秒（UTC）にClaude Opus 4.6でエラー率上昇\n  https://www.reddit.com/r/ClaudeAI/comments/1rwh96s/claude_status_update_elevated_errors_on_claude/\n- ChatGPT ProのフィードバックをClaudeに与え始めたら、Claudeの魅力が薄れた\n  https://www.reddit.com/r/ClaudeAI/comments/1rw1b8i/was_loving_claude_until_i_started_feeding_it/\n- 今日、最も謙虚になる瞬間を体験した\n  https://www.reddit.com/r/ClaudeAI/comments/1rvyz7j/had_the_most_humbling_moment_today/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-18"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1574pt] Polymarketのギャンブラーが、イランのミサイルに関する記事を巡って私を殺すと脅迫 | 予測市場のインセンティブが人間の最悪な部分を引き出すという指摘や、ジャーナリストにとって危険な状況だったとの意見がある。\n  https://news.ycombinator.com/item?id=47397822\n- [1304pt] Kagi TranslateがLinkedIn Speakを出力言語としてサポート | LinkedInのビジネス英語をパロディ化した翻訳機能が面白いと高評価。\n  https://news.ycombinator.com/item?id=47408703\n- [1198pt] 12歳のパレスチナ人少年が、イスラエル軍が車内で家族を殺害した様子を語る | イスラエル軍による家族殺害の検証可能性や、ガザにおけるイスラエルの暴力について多くのコメントが寄せられている。\n  https://news.ycombinator.com/item?id=47402950\n- [837pt] RedditユーザーがMetaの20億ドル規模の年齢確認技術ロビー活動の黒幕を暴く | 以前にも議論された内容であるとの指摘が複数ある。\n  https://news.ycombinator.com/item?id=47410870\n- [736pt] Leanstral: 信頼性の高いコーディングと形式的証明エンジニアリングのためのオープンソースエージェント | エージェントがコード生成において検証とテスト駆動開発を促進する可能性に期待の声が上がっている。\n  https://news.ycombinator.com/item?id=47404796\n- [723pt] 米国SEC、四半期報告義務の廃止を準備 | 一般投資家にとって不利、インサイダーに有利、情報が少なくなることへの懸念の声が多数。\n  https://news.ycombinator.com/item?id=47406779\n- [723pt] 腐敗は独裁国家よりも民主主義国家の方が社会的信頼を損なう | 権威主義体制では腐敗が社会を維持する要素であるという意見や、社会的信頼の重要性について議論されている。\n  https://news.ycombinator.com/item?id=47397593\n- [684pt] Kagi Small Web | Small Webという名称に対する誤解や、Kagi検索エンジンの品質について様々な意見が交わされている。\n  https://news.ycombinator.com/item?id=47410542\n- [661pt] 国防省筋が、政府の中枢におけるPalantirの役割は英国の安全保障に対する脅威であると警告 | Palantirが市民を監視・制御する「リアルなSkynet」であり、地球全体の脅威であるという強い懸念が示されている。\n  https://news.ycombinator.com/item?id=47397797\n- [528pt] 「Small Web」はあなたが思うよりも大きい | Small Webのキュレーション方法や、更新頻度の低いブログの扱いに様々な意見が寄せられている。\n  https://news.ycombinator.com/item?id=47401879",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-03-18"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "11 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Mistral、企業向けAIでOpenAIやAnthropicに挑む「自社開発AI」に注力\n  https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/\n- Garry TanのClaudeコード設定が賛否両論を呼んだ理由\n  https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate/\n- 米国防総省、Anthropicの代替技術を開発中か\n  https://techcrunch.com/2026/03/17/the-pentagon-is-developing-alternatives-to-anthropic-report-says/\n- BuzzFeed、AIアプリで新たな収益源を模索\n  https://techcrunch.com/2026/03/17/buzzfeed-ai-slop-apps-sxsw-bf-island-conjure/\n- GoogleのPersonal Intelligence機能、米国全ユーザーに拡大\n  https://techcrunch.com/2026/03/17/googles-personal-intelligence-feature-is-expanding-to-all-us-users/\n- OpenAI、AWSとの提携で政府との連携を強化か\n  https://techcrunch.com/2026/03/17/openai-expands-government-footprint-with-aws-deal/\n- AI業界の「男性優位」が女性の富の格差を広げる可能性、Rana el Kaliouby氏が警鐘\n  https://techcrunch.com/2026/03/17/ais-boys-club-could-widen-the-wealth-gap-for-women-says-rana-el-kaliouby/\n- World、AIショッピングエージェントの人間性を検証するツールを発表\n  https://techcrunch.com/2026/03/17/world-launches-tool-to-verify-humans-behind-ai-shopping-agents/\n- Niv-AI、GPUの電力性能を向上させる技術で本格始動\n  https://techcrunch.com/2026/03/17/niv-ai-exits-stealth-to-wring-more-power-performance-out-of-gpus/\n- H&M、スタートアップ技術でCO2から衣料品を製造へ\n  https://techcrunch.com/2026/03/17/hm-wants-to-make-clothing-from-co2-using-this-startups-tech/\n- Gamma、AI画像生成ツール追加でCanvaとAdobeに対抗\n  https://techcrunch.com/2026/03/17/gamma-adds-ai-image-generation-tools-in-bid-to-take-on-canva-and-adobe/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-03-18"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "GPT-5.4 mini and GPT-5.4 nano, which can describe 76,000 photos for $52",
+      "url": "https://simonwillison.net/2026/Mar/17/mini-and-nano/#atom-entries",
+      "summary": "OpenAIが新モデル「GPT-5.4 mini」と「GPT-5.4 nano」を発表、低コストで高性能な画像記述が可能に。",
+      "publishedAt": "2026-03-18",
+      "ogImage": "https://static.simonwillison.net/static/2026/gpt-5.4-pelicans-card.jpg"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Context Anchoring",
+      "url": "https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html",
+      "summary": "AIとの会話において失われがちな意思決定の文脈を、外部ドキュメントとして保持する手法が登場。",
+      "publishedAt": "2026-03-17",
+      "ogImage": "https://martinfowler.com/logo-sq.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Kira 4.0 — 友達をシェア可能なコンテンツに\n  https://www.producthunt.com/products/kira-art\n- My Computer by Manus AI — ファイル、アプリ、ワークフローを自動化するManus Desktop\n  https://www.producthunt.com/products/manus\n- Angy — AI駆動のスケジュールと安全性チェックを備えたマルチエージェントパイプライン\n  https://www.producthunt.com/products/angy\n- Codex Subagents — 複雑なタスクに対応する並列カスタムエージェント\n  https://www.producthunt.com/products/openai\n- Ocean Orchestrator — ワンクリックでIDEからAIジョブを実行\n  https://www.producthunt.com/products/ocean-orchestrator\n- Folderly — 99.9%の受信箱到達率で、あらゆるメールキャンペーンから収益を\n  https://www.producthunt.com/products/folderly\n- ClickSay — どんな要素もクリックするだけでClickSayが即座にキャプチャ\n  https://www.producthunt.com/products/clicksay\n- Kipps.AI Campaign — リードの適格性評価、一括アプローチ、記念日リマインダー\n  https://www.producthunt.com/products/kipps-ai\n- Lightning Rod — 実世界データを高速でトレーニングデータセットに変換\n  https://www.producthunt.com/products/training-data-generator\n- mTarsier — MCPサーバーとクライアントを管理するオープンソースプラットフォーム\n  https://www.producthunt.com/products/mcp360",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-03-18"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "3 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Playabl.ai — 誰もがAIゲームを簡単に作れるプロンプトtoプレイAIゲームビルダー\n  https://playabl.ai\n- TesterArmy — コード出荷前にテストするAI QAエージェント\n  https://tester.army\n- Foaster — 企業のマッピングとAI統合ポイントを数日で可視化\n  https://foaster.ai",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-03-18"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Why Anthropic Thinks AI Should Have Its Own Computer — Felix Rieseberg of Claude Cowork & Claude Code Desktop",
+      "url": "https://www.latent.space/p/felix-anthropic",
+      "summary": "AnthropicのFelix Rieseberg氏が、よりユーザーフレンドリーなエージェントワークフローを実現する「Claude Cowork」について、その開発背景や技術的詳細、AIエージェントの未来について語った。",
+      "publishedAt": "2026-03-18",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!FIAV!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F191097767%2Fec442b0a-bce1-438e-9940-0c654aaede15%2Ftranscoded-1773778585.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] NVIDIA GTC: Jensen goes hard on OpenClaw, Vera CPU, and announces $1T sales backlog in 2027",
+      "url": "https://www.latent.space/p/ainews-nvidia-gtc-jensen-goes-hard",
+      "summary": "NVIDIA GTCでは推論中心の発表があり、BlackwellやRubinなどの新製品が好調で、DLSS 5も注目されたほか、コーディングエージェントやオープンエージェントのエコシステムが成熟し、Perplexity Computerがエージェント機能をローカルブラウザに拡張するなど、AI技術の多様な進化が報告された。",
+      "publishedAt": "2026-03-17",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!fyMz!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3c9e5d8d-2b90-4c27-ab1c-fd67c035acb4_3592x1886.png"
+    }
+  ]
+}
