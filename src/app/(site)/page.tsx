@@ -7,6 +7,11 @@ const projects = [
     description: "Sync your calendars",
     url: "https://calect.com",
   },
+  {
+    name: "Stint",
+    description: "Sit/stand reminders for macOS",
+    url: "https://github.com/mrskiro/stint",
+  },
 ];
 
 const getPosts = async () => {
