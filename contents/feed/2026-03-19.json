@@ -1,0 +1,85 @@
+{
+  "fetchedAt": "2026-03-18T21:23:43.074Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.78",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.78",
+      "summary": "- [Added] APIエラー（レート制限、認証失敗など）によってターンが終了したときに発生するStopFailureフックイベントを追加しました。\n- [Added] プラグインのアップデート後も保持されるプラグインの永続状態のための${CLAUDE_PLUGIN_DATA}変数を追加しました。/plugin uninstallは、削除前にプロンプトを表示します。\n- [Added] プラグインに同梱されたエージェント向けにeffort、maxTurns、およびdisallowedToolsフロントマターのサポートを追加しました。\n- [Improved] tmuxでset -g allow-passthroughが有効になっている場合、ターミナル通知（iTerm2/Kitty/Ghosttyポップアップ、プログレスバー）が外部ターミナルに届くようになりました。\n- [Improved] 応答テキストが生成されながら行ごとにストリーミングされるようになりました。\n- [Fixed] サンドボックス化されたLinux上のBash内でgit log HEADが「ambiguous argument」で失敗する問題と、ワーキングディレクトリでスタブファイルがgit statusを汚染する問題を修正しました。\n- [Fixed] cc logと--resumeが、サブエージェントを使用した大規模なセッション（5 MB以上）で会話履歴をサイレントに切り詰める問題を修正しました。\n- [Fixed] APIエラーが、ブロックするエラーをモデルに再フィードするストップフックをトリガーしたときの無限ループを修正しました。\n- [Fixed] deny: [\"mcp__servername\"]パーミッションルールが、MCPサーバーツールをモデルに送信する前に削除せず、ブロックされたツールをモデルが参照して試行できるようにする問題を修正しました。\n- [Fixed] sandbox.filesystem.allowWriteが絶対パスで動作しない問題を修正しました（以前は//プレフィックスが必要でした）。\n- [Fixed] /sandbox DependenciesタブがmacOSではなくLinuxの前提条件を表示する問題を修正しました。\n- [Fixed] セキュリティ: sandbox.enabled: trueが設定されているが依存関係が不足している場合に、サンドボックスがサイレントに無効になる問題を修正しました。現在は起動時に警告が表示されます。\n- [Fixed] .git、.claude、およびその他の保護されたディレクトリが、bypassPermissionsモードでプロンプトなしで書き込み可能であった問題を修正しました。\n- [Fixed] ノーマルモードでのctrl+uがreadlineのkill-lineではなくスクロールする問題を修正しました（ctrl+u/ctrl+dの半ページスクロールはトランスクリプトモードのみに移動しました）。\n- [Fixed] ボイスモードの修飾キーと組み合わせたプッシュツートークキーバインディング（例: ctrl+k）が、即座にアクティブにならずにホールドが必要だった問題を修正しました。\n- [Fixed] WSL2でWSLg（Windows 11）を使用している場合にボイスモードが機能しない問題を修正しました。WSL1/Win10ユーザーには明確なエラーが表示されるようになりました。\n- [Fixed] --worktreeフラグがworktreeディレクトリからスキルとフックをロードしない問題を修正しました。\n- [Fixed] CLAUDE_CODE_DISABLE_GIT_INSTRUCTIONSとincludeGitInstructions設定が、システムプロンプトのgit statusセクションを抑制しない問題を修正しました。\n- [Fixed] Dock/SpotlightからVS Codeを起動したときに、BashツールがHomebrewやその他のPATH依存のバイナリを見つけられない問題を修正しました。\n- [Fixed] truecolorサポートを通知しないVS Code/Cursor/code-serverターミナルでの、色あせたClaudeオレンジ色の問題を修正しました。\n- [Added] /modelピッカーにカスタムエントリを追加するためのANTHROPIC_CUSTOM_MODEL_OPTION env varを追加しました。表示用のオプションの_NAMEおよび_DESCRIPTIONサフィックス変数をサポートします。\n- [Fixed] Haikuモデルを使用している場合にANTHROPIC_BETAS環境変数がサイレントに無視される問題を修正しました。\n- [Fixed] キューに入れられたプロンプトが改行区切りなしで連結される問題を修正しました。\n- [Improved] 大規模セッション再開時のメモリ使用量と起動時間を改善しました。\n- [Fixed] [VSCode] 既に認証済みの場合にサイドバーを開くと、ログイン画面が一瞬表示される問題を修正しました。\n- [Fixed] [VSCode] Opus選択時に「API Error: Rate limit reached」が発生する問題を修正しました。モデルドロップダウンは、プランティアが不明なサブスクライバーに1Mコンテキストバリアントを提供しなくなりました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-03-18"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- 低品質コンテンツ対策の新投稿要件（フェーズ2）\n  https://www.reddit.com/r/macapps/comments/1r6d06r/new_post_requirements_to_combat_low_quality/\n- CleanMyMacが無意味だと思っていたあなたへ。この投稿を読めば、さらにひどいアプリだとわかるでしょう\n  https://www.reddit.com/r/macapps/comments/1rx4cp4/if_you_thought_cleanmymac_was_useless_this_post/\n- [macOS] Chronoid - 自動時間追跡＆生産性向上ツール\n  https://www.reddit.com/r/macapps/comments/1rx8jak/macos_chronoid_automatic_time_tracking/\n- 作業中に参考にしたい情報を他のアプリの上に浮かせて表示するアプリを作ってみました\n  https://www.reddit.com/r/macapps/comments/1rxabe4/i_made_an_app_that_lets_your_references_float/\n- [OS] OpenTeleprompter – 画面共有中に自動で隠れる音声起動型テレプロンプター\n  https://www.reddit.com/r/macapps/comments/1rx3lp4/os_openteleprompter_voiceactivated_teleprompter/\n- Gmail ネイティブアプリ\n  https://www.reddit.com/r/macapps/comments/1rx5cek/gmail_native_app/\n- Avocado — 軽量かつ目立たないノッチ型テレプロンプター\n  https://www.reddit.com/r/macapps/comments/1rx7lyl/avocado_lightweight_invisible_notchteleprompter/\n- Mux は Ethernet 接続時に Wi-Fi を自動でオフにします\n  https://www.reddit.com/r/macapps/comments/1rwxjts/mux_automatically_toggles_wifi_when_you_plug_in/\n- Keylume - デモや画面録画に最適なスタイリッシュなオンスクリーンキーボード\n  https://www.reddit.com/r/macapps/comments/1rwiee0/keylume_stylish_onscreen_keyboard_for_demos_and/\n- リアルタイム音声認識（テキスト化）のオープンソースアプリを知りませんか？ Macの音声入力機能を利用していても構いません\n  https://www.reddit.com/r/macapps/comments/1rx17tm/does_anyone_know_any_opensource_app_for_realtime/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- サブレディット向けに新たな人間認証システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackersサブレディット新ルール発表 ― 品質向上を目指す\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- Notionとは真逆のメモアプリを開発、本日ローンチ！ カスタマイズ一切なしのセカンドブレインツール\n  https://www.reddit.com/r/indiehackers/comments/1rx5pfr/i_built_the_opposite_of_notion_its_a_notessecond/\n- 録画やスクリーンショットからアプリやウェブサイトを監査するツールを開発\n  https://www.reddit.com/r/indiehackers/comments/1rwzwci/i_built_a_tool_that_audits_your_app_or_website/\n- 6つのSaaSを開発して顧客ゼロ。その経緯とは\n  https://www.reddit.com/r/indiehackers/comments/1rw64vw/built_6_saas_and_got_0_customers_heres_how/\n- ソロファウンダーがかつてない速さで成功中 ― 持続可能か、それともバブルか\n  https://www.reddit.com/r/indiehackers/comments/1rwdcdv/solo_founders_are_winning_faster_than_ever_right/\n- 創業2年、VC資金なしでソーシャルメディアAPIを開発\n  https://www.reddit.com/r/indiehackers/comments/1rwdmkv/our_social_media_api_is_2_years_old_without_vc/\n- 孤独な開発からの脱却：語り合いませんか？\n  https://www.reddit.com/r/indiehackers/comments/1rw9uux/building_in_a_vacuum_is_lonely_lets_actually_talk/\n- WeTransferの代替サービス「TrunkTransfer」を開発。ぜひお試しを\n  https://www.reddit.com/r/indiehackers/comments/1rwsect/build_trunktransfer_an_alternative_to_wetransfer/\n- 開発前の検証：AIがマーケティングを「vibe coding」のように簡単に\n  https://www.reddit.com/r/indiehackers/comments/1rvmqvv/validating_before_building_ai_that_makes/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- 2025年12月29日開始：利用制限、バグ、パフォーマンスに関する議論\n  https://www.reddit.com/r/ClaudeAI/comments/1pygdbz/usage_limits_bugs_and_performance_discussion/\n- Code with Claudeが復活。サンフランシスコ、ロンドン、東京で開催\n  https://www.reddit.com/r/ClaudeAI/comments/1rx8ta7/code_with_claude_is_back_san_francisco_london/\n- Uttr、壊滅的な状況に\n  https://www.reddit.com/r/ClaudeAI/comments/1rx0yzr/uttr_devastation/\n- Claude向けカスタムスタイル付きデザインスキルファイル48選を公開\n  https://www.reddit.com/r/ClaudeAI/comments/1rx7v8i/i_built_a_list_of_48_design_skill_files_with/\n- AI投資の73%がAnthropicに、OpenAIは26%に減少\n  https://www.reddit.com/r/ClaudeAI/comments/1rxb8k3/73_of_ai_spend_now_on_anthropic_openai_now_down/\n- Andrej Karpathyが認める「ソフトウェア開発は永久に変わった」\n  https://www.reddit.com/r/ClaudeAI/comments/1rxc7wj/andrej_karpathy_admits_software_development_has/\n- 20ドルティアは意図的に使いにくい設計に\n  https://www.reddit.com/r/ClaudeAI/comments/1rx6tfo/the_20_dollar_tier_kind_of_sucks_by_design/\n- Claude CoWorkに1M Context Windowを搭載\n  https://www.reddit.com/r/ClaudeAI/comments/1rx8kvt/claude_cowork_just_got_the_1m_context_window/\n- 消費者法で企業AIと戦うブラウザゲームを開発、36ケースに対応\n  https://www.reddit.com/r/ClaudeAI/comments/1rwyzpn/i_built_a_browser_game_where_you_fight_corporate/\n- Claude Proは素晴らしいが、ChatGPTやGeminiと比較して制限が厳しすぎるのはなぜ？\n  https://www.reddit.com/r/ClaudeAI/comments/1rwpa4q/claude_pro_feels_amazing_but_the_limits_are_a/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1413pt] Kagi Translateが「LinkedIn Speak」を出力言語としてサポート | 「LinkedIn Speak」の翻訳例が面白く、コメント欄は盛り上がっている\n  https://news.ycombinator.com/item?id=47408703\n- [889pt] RedditユーザーがMetaの20億ドル規模の年齢確認技術ロビー活動の黒幕を暴く | 数日前に議論済みで、重複投稿を指摘するコメントが多い\n  https://news.ycombinator.com/item?id=47410870\n- [813pt] 「ウェブサイトくらい持てよ」 | ウェブサイトを持たない企業への批判と、ウェブサイト不要論が対立\n  https://news.ycombinator.com/item?id=47421442\n- [771pt] Leanstral: 信頼できるコーディングと形式的証明工学のためのオープンソースエージェント | AIエージェントによるコード生成と検証への期待感、性能とコストに関する議論\n  https://news.ycombinator.com/item?id=47404796\n- [768pt] Microsoftの「ハック不可能」なXbox Oneが「Bliss」によってハッキングされる | 電圧グリッチ攻撃の巧妙さに驚きの声、初代モデルのみへの影響を指摘\n  https://news.ycombinator.com/item?id=47413876\n- [764pt] ロブ・パイクのプログラミングの規則（1989年） | ボトルネック予測不能性、データ構造の重要性について共感が集まる\n  https://news.ycombinator.com/item?id=47423647\n- [764pt] Kagi Small Web | 「Small Web」の定義に対する意見の相違と、StumbleUponとの類似性を指摘\n  https://news.ycombinator.com/item?id=47410542\n- [747pt] 米国SECが四半期報告義務の廃止を準備 | 一般投資家への悪影響や、インサイダー取引の助長を懸念する声が多い\n  https://news.ycombinator.com/item?id=47406779\n- [719pt] Slugの10年 | アルゴリズムの優雅さやライブラリの完成度の高さに賞賛の声\n  https://news.ycombinator.com/item?id=47416736\n- [689pt] Mistral AIがForgeをリリース | Mistralの独自のアプローチとEUでのデータ保持が高く評価されている\n  https://news.ycombinator.com/item?id=47418295",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "10 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- NothingのCarl Pei氏、AIエージェントの台頭でスマホアプリは消滅すると予測\n  https://techcrunch.com/2026/03/18/nothing-ceo-carl-pei-says-smartphone-apps-will-disappear-as-ai-agents-take-their-place/\n- Nvidia、半導体事業に匹敵する巨大ビジネスを静かに構築中\n  https://techcrunch.com/2026/03/18/nvidia-networking-division-building-a-multibillion-dollar-behemoth-to-rival-its-chips-business/\n- PatreonのCEO、AI企業のフェアユース主張を「でっち上げ」と批判、クリエイターへの報酬を要求\n  https://techcrunch.com/2026/03/18/patreon-ceo-calls-ai-companies-fair-use-argument-bogus-says-creators-should-be-paid/\n- Rebel Audio、初心者向けAIポッドキャストツールを発表\n  https://techcrunch.com/2026/03/18/rebel-audio-is-a-new-ai-podcasting-tool-aimed-at-first-time-creators/\n- Google WorkspaceのGemini搭載機能で、使う価値のあるもの\n  https://techcrunch.com/2026/03/18/the-gemini-powered-features-in-google-workspace-that-are-worth-using/\n- ランク付けされた企業が資金提供する「不正できない」リーダーボード\n  https://techcrunch.com/video/the-leaderboard-you-cant-game-funded-by-the-companies-it-ranks/\n- このスタートアップ、企業向けソフトウェアをプロンプト風に変革\n  https://techcrunch.com/2026/03/18/this-startup-wants-to-make-enterprise-software-look-more-like-a-prompt/\n- Sequen、TikTok風パーソナライゼーション技術をあらゆる消費者企業へ提供するため1,600万ドルを調達\n  https://techcrunch.com/2026/03/18/sequen-snags-16m-to-bring-tiktok-style-personalization-tech-to-any-consumer-company/\n- Microsoft、Sequoiaが出資するAIコラボレーションプラットフォームCoveのチームを獲得\n  https://techcrunch.com/2026/03/18/microsoft-hires-the-team-of-sequioa-backed-ai-collaboration-platform-cove/\n- 米国防総省、Anthropicの「レッドライン」は「国家安全保障上容認できないリスク」と指摘\n  https://techcrunch.com/2026/03/18/dod-says-anthropics-red-lines-make-it-an-unacceptable-risk-to-national-security/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Lista：GTDワークフローとiCloud同期に対応したシンプルなToDoリスト\n  https://www.producthunt.com/products/lista-4\n- Lore：あなたの記憶のカーソル。100%プライベート、オープンソース、無料\n  https://www.producthunt.com/products/lore-4\n- Genie by Databox：ビジネスパフォーマンスを分析するAIアナリスト\n  https://www.producthunt.com/products/databox\n- Bookshelf for NotebookLM：Google NotebookLMにフォルダ、検索、同期機能を追加\n  https://www.producthunt.com/products/bookshelf-for-notebooklm\n- Lightfield：AIネイティブCRM、自己構築型であなたに代わって業務をこなす\n  https://www.producthunt.com/products/lightfield\n- UseAgents：ツールを一度定義すれば、あらゆるエージェントが利用可能に\n  https://www.producthunt.com/products/useagents\n- Permit.io MCP Gateway：開発者もCISOも納得の組み込み型MCPセキュリティ\n  https://www.producthunt.com/products/permit-io\n- ClawMetry Cloud：OpenClawエージェントのコスト、アクティビティ、メモリをリアルタイムで可視化\n  https://www.producthunt.com/products/clawmetry\n- GPT-5.4 mini and nano：コーディングとサブエージェント向けに最適化された高速・高効率モデル\n  https://www.producthunt.com/products/openai\n- Banyan AI Lite：SaaSの解約を検知・防止するAI\n  https://www.producthunt.com/products/banyan-ai-lite",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "3 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Oddpool：予測市場向け機関投資家向けデータレイヤー\n  https://www.oddpool.com\n- Saffron：AIネイティブな技術アセスメントと実務トライアル\n  https://www.trysaffron.ai/\n- Playabl.ai：誰でも使える、プロンプトからプレイできるAIゲームビルダー\n  https://playabl.ai",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Claude Cowork Dispatch: Anthropic's Answer to OpenClaw",
+      "url": "https://www.latent.space/p/ainews-claude-cowork-dispatch-anthropics",
+      "summary": "OpenAIがコーディングに特化した小型モデルGPT-5.4 Mini/Nanoをリリースし、エージェント機能とローカル実行環境の進化が目立つ一方、NVIDIAはエージェントと推論重視の戦略を打ち出し、AIによるホワイトカラー職削減の懸念も浮上。",
+      "publishedAt": "2026-03-18",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!dA-8!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F319f7604-68d5-44d5-b37e-61de653f6941_1208x1334.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Why Anthropic Thinks AI Should Have Its Own Computer — Felix Rieseberg of Claude Cowork & Claude Code Desktop",
+      "url": "https://www.latent.space/p/felix-anthropic",
+      "summary": "Anthropicは、開発者向けのClaude Codeの機能を非技術者にも使いやすくしたデスクトップアプリケーション「Claude Cowork」を発表し、ユーザーがより複雑なタスクをAIに任せられるようにする。",
+      "publishedAt": "2026-03-18",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!FIAV!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F191097767%2Fec442b0a-bce1-438e-9940-0c654aaede15%2Ftranscoded-1773778585.png"
+    }
+  ]
+}
