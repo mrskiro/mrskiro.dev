@@ -1,0 +1,109 @@
+{
+  "fetchedAt": "2026-03-19T21:23:31.868Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "How we monitor internal coding agents for misalignment",
+      "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+      "summary": "OpenAIが内部コーディングエージェントの誤動作を検出し、AIの安全性向上に繋げるための監視手法を導入。",
+      "publishedAt": "2026-03-19",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/6QiOsDAtMDSQDtyJdqygZ3/e00d303b22fcbefb76ebb13ed003f6b9/OAI_Monitoring_internal_deployments_for_loss_of_control_risks_SEO_16x9.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "OpenAI to acquire Astral",
+      "url": "https://openai.com/index/openai-to-acquire-astral",
+      "summary": "Python開発ツール開発を加速するCodex。",
+      "publishedAt": "2026-03-19",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/3uWAsXbgJZrNpl7YfjNXdx/e206142c84dd1b0c9580f03c112f588b/OAI_Astral_16x9_Art_Card_text.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.79",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.79",
+      "summary": "- [Added] --consoleフラグをclaude auth loginに追加し、Anthropic Console (API billing)認証に対応しました。\n- [Added] /configメニューに「Show turn duration」トグルを追加しました。\n- [Fixed] claude -pが明示的なstdinなしでサブプロセスとして起動された場合 (例: Python subprocess.run) にハングする問題を修正しました。\n- [Fixed] -p (print) モードでCtrl+Cが機能しない問題を修正しました。\n- [Fixed] ストリーミング中にトリガーされた際に、/btwがサイドの質問に答える代わりにメインエージェントの出力​​を返す問題を修正しました。\n- [Fixed] voiceEnabled: trueが設定されている場合、起動時に音声モードが正しくアクティブにならない問題を修正しました。\n- [Fixed] /permissionsでの左右矢印キーによるタブナビゲーションの不具合を修正しました。\n- [Fixed] CLAUDE_CODE_DISABLE_TERMINAL_TITLEが起動時にターミナルタイトルが設定されるのを防がない問題を修正しました。\n- [Fixed] ワークスペースの信頼がブロックしている場合に、カスタムステータス行が何も表示しない問題を修正しました。\n- [Fixed] エンタープライズユーザーがレート制限 (429) エラーでリトライできない問題を修正しました。\n- [Fixed] インタラクティブな/resumeを使用してセッションを切り替える際にSessionEndフックが起動しない問題を修正しました。\n- [Improved] すべてのシナリオで起動時のメモリ使用量を約18MB削減しました。\n- [Improved] 非ストリーミングAPIのフォールバックを改善し、試行ごとに2分のタイムアウトを設定することで、セッションが indefinite にハングするのを防ぎます。\n- [Changed] CLAUDE_CODE_PLUGIN_SEED_DIRがプラットフォームのパス区切り文字 (Unixでは:、Windowsでは;) で区切られた複数のシードディレクトリをサポートするようになりました。\n- [Added] [VSCode] /remote-controlを追加しました — セッションをclaude.ai/codeにブリッジして、ブラウザまたはスマートフォンから続行できます。\n- [Added] [VSCode] セッションタブに最初のメッセージに基づいたAI生成のタイトルが付くようになりました。\n- [Fixed] [VSCode] 応答完了後に思考ピルが「Thinking」ではなく「Thought for Ns」と表示される問題を修正しました。\n- [Fixed] [VSCode] 左サイドバーからセッションを開いたときにセッションdiffボタンが欠落していた問題を修正しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- [メガ・スレッド] 定番アプリ情報 - 2026年3月/4月版\n  https://www.reddit.com/r/macapps/comments/1rybab4/megathread_the_app_pile_marchapril_2026/\n- r/MacAppsのモデレーターはやりすぎた！変更点について（フェーズ3）\n  https://www.reddit.com/r/macapps/comments/1ryaeex/rmacapps_mods_went_too_far_whats_changing_phase_3/\n- [OS] DMGMaker - SwiftUIメッシュグラデーションとノーハローリンク対応のmacOS向け高機能DMG作成ツール\n  https://www.reddit.com/r/macapps/comments/1ry06j6/os_dmgmaker_premium_macos_dmg_creation_with_live/\n- [macOS] Hitoku Draft: コンテキスト認識型ローカル音声入力アプリ\n  https://www.reddit.com/r/macapps/comments/1ry041m/macos_hitoku_draft_contextaware_local_voice/\n- macOS 11.x向けChromeのレガシーバージョンをダウンロードできるサイトを教えてください。\n  https://www.reddit.com/r/macapps/comments/1ryc12n/can_someone_please_direct_me_to_a_source_for/\n- ユーティリティアプリのパッケージに関心はありますか？\n  https://www.reddit.com/r/macapps/comments/1ryc0a0/would_you_interested_in_a_utility_apps_package/\n- Raycastに代わる魅力的なオープンソースアプリは？\n  https://www.reddit.com/r/macapps/comments/1rxlfr9/compelling_open_source_alternatives_to_raycast/\n- [OS] LaunchNext、macOS 26+向けオープンソースLaunchpad (6ヶ月アップデート)\n  https://www.reddit.com/r/macapps/comments/1rxmb42/os_launchnext_an_opensource_launchpad_for_macos/\n- Blocs 6.4 – macOS向けビジュアルWebサイトビルダー – 無料版提供開始\n  https://www.reddit.com/r/macapps/comments/1ry53b4/blocs_64_visual_website_builder_for_macos_free/\n- 作業中に参考にしている資料を他のアプリの上に表示できるアプリを作ってみました\n  https://www.reddit.com/r/macapps/comments/1rxabe4/i_made_an_app_that_lets_your_references_float/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-20"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- Redditの subredditに新たな本人認証システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackers subredditの新規制 — クオリティ向上を目指す\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- 無料トライアル目的でアカウントを新規作成するユーザーへの対処法\n  https://www.reddit.com/r/indiehackers/comments/1rxzlek/dealing_with_users_who_creates_a_new_account_each/\n- 「お褒めの言葉」よりも「批評」を求めるビルダー募集\n  https://www.reddit.com/r/indiehackers/comments/1rxyeew/looking_for_builders_who_prefer_critique_over/\n- Notionとは真逆のツールを開発 — カスタマイズ一切不可のノート/セカンドブレインツール、本日ローンチ！\n  https://www.reddit.com/r/indiehackers/comments/1rx5pfr/i_built_the_opposite_of_notion_its_a_notessecond/\n- 録画やスクリーンショットからアプリ・ウェブサイトを監査するツールを開発\n  https://www.reddit.com/r/indiehackers/comments/1rwzwci/i_built_a_tool_that_audits_your_app_or_website/\n- 13か月のプロジェクトを中断し、AIエージェントのライブマーケットを2か月で構築 — 私とClaude Code、そして空のレポジトリのみで\n  https://www.reddit.com/r/indiehackers/comments/1rxewfe/i_walked_away_from_a_13month_project_and_built_a/\n- 6つのSaaSを開発したが、顧客はゼロ。その経緯とは。\n  https://www.reddit.com/r/indiehackers/comments/1rw64vw/built_6_saas_and_got_0_customers_heres_how/\n- ソロファウンダーがかつてない速さで成功しているが、これは持続可能か、それともバブルか？\n  https://www.reddit.com/r/indiehackers/comments/1rwdcdv/solo_founders_are_winning_faster_than_ever_right/\n- WeTransferの代替「TrunkTransfer」を開発。ぜひお試しいただき、ご意見をお聞かせください\n  https://www.reddit.com/r/indiehackers/comments/1rwsect/build_trunktransfer_an_alternative_to_wetransfer/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-20"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- 2025年12月29日開始：利用制限、バグ、パフォーマンスに関する議論\n  https://www.reddit.com/r/ClaudeAI/comments/1pygdbz/usage_limits_bugs_and_performance_discussion/\n- Code with Claudeが復活！サンフランシスコ、ロンドン、東京で開催\n  https://www.reddit.com/r/ClaudeAI/comments/1rx8ta7/code_with_claude_is_back_san_francisco_london/\n- 念のため\n  https://www.reddit.com/r/ClaudeAI/comments/1ry5hkp/just_in_case/\n- AIツール向けに正確なプロンプトを作成するClaudeスキルを開発！質の悪いプロンプトによるクレジット消費を阻止。GitHubで600スター獲得達成‼️\n  https://www.reddit.com/r/ClaudeAI/comments/1rxyarx/i_built_a_claude_skill_that_writes_accurate/\n- 最高の品質のみ\n  https://www.reddit.com/r/ClaudeAI/comments/1ry4eek/only_the_best/\n- Boris Chernyがメモリリークを追跡\n  https://www.reddit.com/r/ClaudeAI/comments/1ry35th/boris_cherny_was_tracking_down_a_memory_leak/\n- Sonnetの前にHaikuをゲートキーパーとして活用し、APIコストを約80%削減する方法\n  https://www.reddit.com/r/ClaudeAI/comments/1ry7ad1/how_i_use_haiku_as_a_gatekeeper_before_sonnet_to/\n- Anthropicへ：ChatGPT難民はここにいる。彼らが再び去る理由とは。\n  https://www.reddit.com/r/ClaudeAI/comments/1rxle6k/dear_anthropic_the_chatgpt_refugees_are_here/\n- Claudeを最大限に活用できていない気がする…おすすめのプラグインやコネクタは？\n  https://www.reddit.com/r/ClaudeAI/comments/1rxswkv/pretty_sure_im_not_using_claude_to_its_full/\n- Claudeステータス更新：2026年3月19日15:59:48（UTC）にClaude Opus 4.6でエラー発生率上昇\n  https://www.reddit.com/r/ClaudeAI/comments/1ry4fgp/claude_status_update_elevated_errors_on_claude/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-20"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1058pt] AstralがOpenAIに買収 | オープンソースエコシステムへの影響や買収への失望、懸念が表明されています。\n  https://news.ycombinator.com/item?id=47438723\n- [1018pt] Afroman、名誉毀損訴訟で責任なしと判断される | 警察の過剰な対応やプライバシー侵害、表現の自由を支持する声が上がっています。\n  https://news.ycombinator.com/item?id=47436950\n- [961pt] Rob Pikeのプログラミングルール（1989年） | データ構造とAPIの重要性や、各ルールの哲学的な考察について議論されています。\n  https://news.ycombinator.com/item?id=47423647\n- [912pt] 自分自身のウェブサイトを持つべきだ | ウェブサイトの必要性について意見が分かれており、LLMによる簡素化への期待も。\n  https://news.ycombinator.com/item?id=47421442\n- [764pt] Austinの新規住宅建設急増が賃料を押し下げた | 住宅供給が増えれば家賃が下がるという経済学の基本原理を検証した結果に歓迎の声が上がっています。\n  https://news.ycombinator.com/item?id=47433058\n- [719pt] Mistral AIがForgeをリリース | Mistral AIのコストパフォーマンスの高さと、特定の顧客ニーズに対応するアプローチが高く評価されています。\n  https://news.ycombinator.com/item?id=47418295\n- [574pt] 十分に詳細な仕様はコードである | 詳細な仕様がコードと同等か、LLMがそのギャップを埋められるかについて議論されています。\n  https://news.ycombinator.com/item?id=47434047\n- [567pt] Nightingale – PC上のどんな曲でも使えるオープンソースのカラオケアプリ | 音声分離と歌詞同期の技術的課題や、アプリの機能性への関心が示されています。\n  https://news.ycombinator.com/item?id=47422942\n- [494pt] 「再生成された場合、保証は無効」 | 作品がAI生成であることに対する読者の感情、特に「騙された」と感じる声が見られます。\n  https://news.ycombinator.com/item?id=47431237\n- [493pt] FBIが米国市民を追跡するために位置データを購入していることを長官が確認 | 位置データの販売元や、ワイヤータップ規定のような法整備の必要性について懸念が表明されています。\n  https://news.ycombinator.com/item?id=47430797",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-03-20"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "11 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- 米レストランで暴走するロボットを従業員が拘束する事態に\n  https://techcrunch.com/2026/03/19/restaurant-dancing-robot-went-wild-hot-pot-cupertino-haidilao-agibot/\n- 2027年までにボットの通信量が人間の通信量を超える、とCloudflare CEOが予測\n  https://techcrunch.com/2026/03/19/online-bot-traffic-will-exceed-human-traffic-by-2027-cloudflare-ceo-says/\n- Bluesky、CEO交代後に1億ドルのシリーズB資金調達を発表\n  https://techcrunch.com/2026/03/19/bluesky-announces-100m-series-b-after-ceo-transition/\n- Meta、AIコンテンツの取り締まりシステムを導入、サードパーティへの依存を軽減\n  https://techcrunch.com/2026/03/19/meta-rolls-out-new-ai-content-enforcement-systems-while-reducing-reliance-on-third-party-vendors/\n- DoorDash、AI学習用動画投稿で配達員に報酬を支払う新アプリ「Tasks」を公開\n  https://techcrunch.com/2026/03/19/doordash-launches-a-new-tasks-app-that-pays-couriers-to-submit-videos-to-train-ai/\n- TechCrunch Startup Battlefield 200の推薦受付中\n  https://techcrunch.com/2026/03/19/techcrunch-startup-battlefield-200-nominations-are-still-open/\n- K2、宇宙コンピューティング向け初の高出力衛星を打ち上げへ\n  https://techcrunch.com/2026/03/19/k2-to-launch-its-first-high-powered-satellite-for-space-compute/\n- 創業者向け、対立を乗り越えるためのツール\n  https://techcrunch.com/2026/03/19/tools-for-founders-to-navigate-and-move-past-conflict/\n- AlphabetのX、新スピンアウト企業が世界で最も費用のかかる行政課題に挑む\n  https://techcrunch.com/2026/03/19/alphabets-x-has-a-new-spinout-and-its-going-after-one-of-the-worlds-most-expensive-bureaucratic-nightmares/\n- 消費者向けプライバシー企業のCloaked、法人向け拡大で3億7500万ドルを調達\n  https://techcrunch.com/2026/03/19/consumer-focused-privacy-company-cloaked-raises-375m-as-it-expands-to-enterprise/\n- Arc、5000万ドル調達で電動商用・防衛艇事業に参入\n  https://techcrunch.com/2026/03/19/arc-expands-into-electric-commercial-and-defense-boats-with-50m-raise/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-03-20"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "Thoughts on OpenAI acquiring Astral and uv/ruff/ty",
+      "url": "https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-entries",
+      "summary": "OpenAIがPythonエコシステムの主要なオープンソースツールを開発するAstralを買収。",
+      "publishedAt": "2026-03-20",
+      "ogImage": null
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Fragments: March 19",
+      "url": "https://martinfowler.com/fragments/2026-03-19.html",
+      "summary": "コードレビューはバグ探しだけでなく、コードベース健全化やコミュニケーションが重要になり、AIの活用で判断の質が向上し、また、AI時代にはシステムの振る舞いを理解する上でオブザーバビリティがより重要になる一方で、GPSのようにAIが人間の認知能力を代替する際に失われるものにも注意が必要である。",
+      "publishedAt": "2026-03-20",
+      "ogImage": "https://martinfowler.com/logo-sq.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- MelonSound、macOS向けAIミュージックスタジオ\n  https://www.producthunt.com/products/melonsound\n- Bit Office：AIエージェントとマルチエージェント連携のためのピクセルオフィス\n  https://www.producthunt.com/products/github-311\n- Google Stitch 2.0：美しいUIを素早くデザイン\n  https://www.producthunt.com/products/stitch-2-0-by-google-2\n- Netlify.new：プロンプトだけでプロジェクトを開始\n  https://www.producthunt.com/products/netlify\n- talat：Macで完結するリアルタイム議事録\n  https://www.producthunt.com/products/talat\n- Cimanote：かつてのEvernoteのような高速でクリーンなメモアプリ\n  https://www.producthunt.com/products/cimanote\n- Comet for iOS：Perplexityによるモバイル向けエージェントAIブラウザ＆アシスタント\n  https://www.producthunt.com/products/perplexity-ai\n- MiniMax-M2.7：自律エージェントを動かす自己進化型AIモデル\n  https://www.producthunt.com/products/minimax-agent\n- Doodles Ai：Doodles IP LLMを活用したアーティストプラットフォーム\n  https://www.producthunt.com/products/doodles-ai\n- InfrOS：クラウドアーキテクチャをローンチ前に予測・検証\n  https://www.producthunt.com/products/infros",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-03-20"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "4 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Runtime、コーディングにおけるチームの生産性向上を支援するガードレールと可視化ツールを提供\n  https://www.runtm.com/\n- Kinro、保険業界向けAIセールスエージェントを発表 – あらゆる顧客接点で販売を支援\n  https://www.kinro.ai/\n- Andustry、産業用製品の調達と販売をAIで効率化するプラットフォーム\n  http://andustry.com/\n- matforge、半導体材料開発を加速するAI科学者プラットフォームをリリース\n  https://matforge.ai/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-03-20"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] MiniMax 2.7: GLM-5 at 1/3 cost SOTA Open Model",
+      "url": "https://www.latent.space/p/ainews-minimax-27-glm-5-at-13-cost",
+      "summary": "MiniMaxが、自己進化能力や高効率性を特徴とする新しいAIモデル「MiniMax 2.7」を発表し、既存モデルとの性能比較で優位性を示しました。",
+      "publishedAt": "2026-03-19",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!bZgR!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f6a39ab-2a8a-499d-898d-437396bd2f4b_3600x2114.png"
+    }
+  ]
+}
