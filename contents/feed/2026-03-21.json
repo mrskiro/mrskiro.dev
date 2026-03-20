@@ -1,0 +1,85 @@
+{
+  "fetchedAt": "2026-03-20T21:18:57.607Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.80",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.80",
+      "summary": "- [Added] statuslineスクリプトにrate_limitsフィールドを追加し、Claude.aiのレート制限使用状況（5時間および7日間のウィンドウ、used_percentage、resets_at）を表示できるようにしました。\n- [Added] プラグインマーケットプレイスソースにsource: 'settings'を追加しました。これにより、settings.jsonにプラグインエントリをインラインで宣言できます。\n- [Added] ファイルパターンマッチングに加えて、プラグインのヒントにCLIツールの使用状況検出機能を追加しました。\n- [Added] スキルとスラッシュコマンドにeffortフロントマターのサポートを追加し、呼び出し時のモデルのeffortレベルを上書きできるようにしました。\n- [Added] --channels (research preview)を追加しました。これにより、MCPサーバーがセッションにメッセージをプッシュできるようになります。\n- [Fixed] --resumeで並列ツール結果が失われる問題を修正しました。並列ツール呼び出しを含むセッションで、[Tool result missing]プレースホルダーが表示されず、すべてのtool_use/tool_resultペアが復元されるようになりました。\n- [Fixed] Cloudflareのボット検出による、ブラウザ以外のTLSフィンガープリントでの音声モードWebSocketの失敗を修正しました。\n- [Fixed] APIプロキシ、Bedrock、またはVertexを介して詳細なツールストリーミングを使用する際の400エラーを修正しました。\n- [Fixed] 機能しないゲートウェイおよびサードパーティプロバイダーのデプロイで/remote-controlが表示される問題を修正しました。\n- [Fixed] /sandboxのタブ切り替えがTabキーまたは矢印キーに反応しない問題を修正しました。\n- [Improved] 大規模なgitリポジトリでの@ファイルオートコンプリートの応答性を改善しました。\n- [Improved] /effortを改善し、ステータスバーインジケーターと一致するようにautoが現在解決している内容を表示するようにしました。\n- [Improved] /permissionsを改善し、リスト内からTabキーと矢印キーでタブを切り替えられるようにしました。\n- [Improved] バックグラウンドタスクパネルを改善し、リスト表示から左矢印で閉じられるようにしました。\n- [Changed] プラグインインストールヒントを簡素化し、2段階のフローではなく単一の/plugin installコマンドを使用するようにしました。\n- [Improved] 大規模リポジトリでの起動時のメモリ使用量を削減しました（25万ファイルのリポジトリで約80MB削減）。\n- [Fixed] 以前のセッションからremote-settings.jsonがキャッシュされている場合に、マネージド設定（enabledPlugins、permissions.defaultMode、ポリシー設定の環境変数）が起動時に適用されない問題を修正しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-03-20"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- [メガ・スレッド] アプリ厳選集 - 2026年3月/4月\n  https://www.reddit.com/r/macapps/comments/1rybab4/megathread_the_app_pile_marchapril_2026/\n- r/MacAppsのモデレーターはやりすぎた！変更点について（フェーズ3）\n  https://www.reddit.com/r/macapps/comments/1ryaeex/rmacapps_mods_went_too_far_whats_changing_phase_3/\n- r/macappsに投稿された「永久ライセンス」Macアプリを7週間テストした結果 — 32個のアプリ、32個の回避策\n  https://www.reddit.com/r/macapps/comments/1ryvdei/i_tested_every_lifetime_mac_app_posted_on/\n- Flix Fixerが映画とシリーズファイルの自動整理機能に対応\n  https://www.reddit.com/r/macapps/comments/1ryvbwc/flix_fixer_now_also_autoorganizes_your_movies/\n- コーディング中にいちいち別のサイトを開くのが面倒になり、これを作った\n  https://www.reddit.com/r/macapps/comments/1ryvmc0/i_got_tired_of_tabbing_out_to_random_websites/\n- クリックとスクロールを操作できるアプリはありませんか？\n  https://www.reddit.com/r/macapps/comments/1rz0ypc/any_app_for_click_and_scroll/\n- MenuToDo [macOS/iOS/watchOS/visionOS] — 大幅アップデート: かんばんボードがMac、iPhone、Watch、Vision Pro間で同期可能に\n  https://www.reddit.com/r/macapps/comments/1ryuom2/menutodo_macosioswatchosvisionos_big_update_one/\n- TuringShot v1.4.4 (旧ZoomShot) - macOS向けライブ画面ズーム、フォーカスハイライト、拡大鏡、描画＆テキストメモ\n  https://www.reddit.com/r/macapps/comments/1rz03j5/turingshot_v144_formerly_zoomshot_live_screen/\n- AppMeta — ネイティブmacOS版App Store Connectクライアント\n  https://www.reddit.com/r/macapps/comments/1ryo49u/appmeta_a_native_macos_app_store_connect_client/\n- [OS] SlowQuit: Cmd-Qに遅延を追加してアプリの意図しない終了を防ぐmacOSメニューバーアプリ\n  https://www.reddit.com/r/macapps/comments/1ryjzuk/os_slowquit_a_macos_menu_bar_app_that_prevents/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-21"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- サブレディット向けに新たな人間認証システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackersサブレディット新ルール発表 – 品質向上を目指して\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- 花金シェアフィーバー 🕺 プロジェクトを共有しよう！\n  https://www.reddit.com/r/indiehackers/comments/1rysu19/friday_share_fever_lets_share_your_project/\n- 航海中にスタートアップを立ち上げる\n  https://www.reddit.com/r/indiehackers/comments/1rys0vg/bootstrapping_my_startup_literally_at_sea/\n- 無料トライアル目的で毎回新規アカウントを作成するユーザーへの対処法\n  https://www.reddit.com/r/indiehackers/comments/1rxzlek/dealing_with_users_who_creates_a_new_account_each/\n- 「褒め言葉」より「批評」を求めるビルダーを募集\n  https://www.reddit.com/r/indiehackers/comments/1rxyeew/looking_for_builders_who_prefer_critique_over/\n- Notionの真逆を開発。カスタマイズ一切不可のノート/セカンドブレインツール、本日ローンチ！\n  https://www.reddit.com/r/indiehackers/comments/1rx5pfr/i_built_the_opposite_of_notion_its_a_notessecond/\n- 13ヶ月かけたプロジェクトを諦め、2ヶ月でライブAIエージェント市場を構築 – 私一人とClaude Code、そして空のレポジトリ\n  https://www.reddit.com/r/indiehackers/comments/1rxewfe/i_walked_away_from_a_13month_project_and_built_a/\n- 録画やスクリーンショットからアプリ・ウェブサイトを監査するツールを開発\n  https://www.reddit.com/r/indiehackers/comments/1rwzwci/i_built_a_tool_that_audits_your_app_or_website/\n- SaaSを6つ作ったが顧客はゼロ。その経緯とは。\n  https://www.reddit.com/r/indiehackers/comments/1rw64vw/built_6_saas_and_got_0_customers_heres_how/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-21"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- Claudeの利用制限、バグ、パフォーマンスに関する議論スレッド ― 2025年12月29日開始\n  https://www.reddit.com/r/ClaudeAI/comments/1pygdbz/usage_limits_bugs_and_performance_discussion/\n- 「Code with Claude」が復活。サンフランシスコ、ロンドン、東京で開催。\n  https://www.reddit.com/r/ClaudeAI/comments/1rx8ta7/code_with_claude_is_back_san_francisco_london/\n- Coworkでプロジェクト機能が利用可能に。\n  https://www.reddit.com/r/ClaudeAI/comments/1rz0go2/projects_are_now_available_in_cowork/\n- Claudeの利用状況を表示するmacOSメニューバーアプリを開発しました\n  https://www.reddit.com/r/ClaudeAI/comments/1ryuwrk/i_have_made_a_macos_menu_bar_app_that_shows_your/\n- CLAUDE.mdへのルール追加をやめ、インフラ構築を始めたらどうなるか\n  https://www.reddit.com/r/ClaudeAI/comments/1rz2oo3/what_happens_when_you_stop_adding_rules_to/\n- 20体のAIエージェントに一切指示を出さず、中世の村の経済で自律的に取引させる方法\n  https://www.reddit.com/r/ClaudeAI/comments/1ryyu3q/how_i_got_20_ai_agents_to_autonomously_trade_in_a/\n- デスク用にClaude Code AIロゴの星を作ってみた\n  https://www.reddit.com/r/ClaudeAI/comments/1rymg3i/i_made_the_claude_code_ai_logo_star_for_my_desk/\n- ClaudeにMicrosoft Teamsのメッセージに返信させてみた\n  https://www.reddit.com/r/ClaudeAI/comments/1rz3qkp/i_made_claude_respond_to_my_microsoft_teams/\n- 念のため\n  https://www.reddit.com/r/ClaudeAI/comments/1ry5hkp/just_in_case/\n- Claudeに150以上のメンタルモデルと、推論が危うい状況を検知するフレームワークを与えたところ、「おっしゃる通りです！」と言わなくなった\n  https://www.reddit.com/r/ClaudeAI/comments/1rz40f5/i_gave_claude_150_mental_models_and_a_framework/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-21"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1437pt] AstralがOpenAIに買収 | オープンソースエコシステムへの影響を懸念する声が多い\n  https://news.ycombinator.com/item?id=47438723\n- [1209pt] Afroman、名誉毀損訴訟で無罪 | 警察のプライバシー侵害に対する批判やユーモラスなコメント多数\n  https://news.ycombinator.com/item?id=47436950\n- [1114pt] Google、未認証Androidアプリのサイドローディングに24時間プロセスを導入 | 正規のサイドローディングへの悪影響と不満の声が多数\n  https://news.ycombinator.com/item?id=47442690\n- [800pt] オースティンの住宅建設ラッシュが家賃低下を促進 | 需要と供給の法則を再確認するコメント、政策への期待\n  https://news.ycombinator.com/item?id=47433058\n- [739pt] 「置いてけぼりでも構わない」 | 新しいテクノロジーへの対応を巡る様々な意見\n  https://news.ycombinator.com/item?id=47454341\n- [683pt] ArXiv、コーネル大学からの独立を宣言 | CEOの高額な給与やコンテンツフィルタリングへの懸念が指摘される\n  https://news.ycombinator.com/item?id=47450478\n- [655pt] チャック・ノリスが死去 | チャック・ノリスの伝説とジョークを称えるコメント多数\n  https://news.ycombinator.com/item?id=47454782\n- [625pt] 十分に詳細な仕様はコードである | 仕様とコードの関係性、LLMの可能性に関する議論\n  https://news.ycombinator.com/item?id=47434047\n- [570pt] 「あなたの不満こそが商品である」 | 広告まみれのウェブサイトへの批判、Hacker Newsの質を評価する声\n  https://news.ycombinator.com/item?id=47437655\n- [521pt] Show HN: 3つの新しいKitten TTSモデル – 最小は25MB未満 | モデルのサイズと品質を評価し、CLIラッパーやデモの紹介がある\n  https://news.ycombinator.com/item?id=47441546",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-03-21"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "8 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Microsoft、Windows版Copilot AIの一部肥大化機能を削除\n  https://techcrunch.com/2026/03/20/microsoft-rolls-back-some-of-its-copilot-ai-bloat-on-windows/\n- Nvidia GTCで何が起きたのか：NemoClaw、Robot Olaf、そして1兆ドルの賭け\n  https://techcrunch.com/video/what-happened-at-nvidia-gtc-nemoclaw-robot-olaf-and-a-1-trillion-bet/\n- WordPress.com、AIエージェントによる記事作成・公開などを可能に\n  https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts-and-more/\n- トランプ氏のAI政策、州法を標的に児童安全の責任を保護者へ転嫁\n  https://techcrunch.com/2026/03/20/trumps-ai-framework-targets-state-laws-shifts-child-safety-burden-to-parents/\n- AIスタートアップがベンチャー業界を席巻、これまでのリターンは好調\n  https://techcrunch.com/2026/03/20/ai-startups-are-eating-the-venture-industry-and-the-returns-so-far-are-good/\n- 最良のAI投資先はエネルギー技術かもしれない\n  https://techcrunch.com/2026/03/20/the-best-ai-investment-might-be-in-energy-tech/\n- AI議事録作成デバイス：会議の録音と文字起こしをサポート\n  https://techcrunch.com/2026/03/20/ai-notetaker-hardware-devices-pins-pendants-record-transcribe/\n- Jeff Bezos氏、AIで旧来の製造業を変革するため1,000億ドルを望むと報じられる\n  https://techcrunch.com/2026/03/19/jeff-bezos-reportedly-wants-100-billion-to-buy-and-transform-old-manufacturing-firms-with-ai/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-03-21"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Telea — 言いたいことが常にわかるようになるAIスピーチアシスタント\n  https://www.producthunt.com/products/telea\n- AI Skills Manager — すべてのAIスキルを1箇所で管理\n  https://www.producthunt.com/products/ai-skills-manager\n- Cacheless — AI搭載Macシステムデータクリーナー\n  https://www.producthunt.com/products/cacheless-ai-powered-disk-cleanup\n- MusicLib — 楽譜ライブラリの究極ソリューション\n  https://www.producthunt.com/products/musiclib\n- Gately — 会員制サービス構築に必要なすべてを提供\n  https://www.producthunt.com/products/nevacode\n- Fig Prompt — プロンプトだけでFigmaプラグインを構築\n  https://www.producthunt.com/products/fig-prompt\n- Built for Devs — 開発者が製品をどう体験しているかを可視化\n  https://www.producthunt.com/products/built-for-devs-2\n- Google AI Studio 2.0 — AntigravityとFirebaseが支えるフルスタックなバイブコーディング\n  https://www.producthunt.com/products/google-ai-studio-8\n- Composer 2 by Cursor — 高速かつトークン効率に優れた最先端のコーディングモデル\n  https://www.producthunt.com/products/cursor\n- Context Overflow — AIエージェント向けナレッジシェアリング\n  https://www.producthunt.com/products/context-overflow",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-03-21"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "3 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Kimpton AI — 投資家向けIDEが登場\n  https://kimpton.ai\n- Clara — AIを搭載したプライマリケア医\n  http://askclara.com\n- Fixture — スタートアップ特化のAI-first CRM\n  https://fixture.app",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-03-21"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Dreamer: the Personal Agent OS — David Singleton",
+      "url": "https://www.latent.space/p/dreamer",
+      "summary": "Dreamerは、誰でもAIエージェントを発見、構築、使用できるコンシューマー向けプラットフォームで、個人用AIアシスタント「Sidekick」による自然言語でのカスタマイズや、開発者向けのSDK提供、構築したツールの収益化機能などを備えている。",
+      "publishedAt": "2026-03-21",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!e6el!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F191603783%2Fedcf5948-a105-4e2a-aa21-0d623854a647%2Ftranscoded-1774028378.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Every Lab serious enough about Developers has bought their own Devtools",
+      "url": "https://www.latent.space/p/ainews-every-lab-serious-enough-about",
+      "summary": "OpenAIは開発ツール企業Astralを買収し、コーディングAIを強化すると共に、GoogleはGeminiアプリにパーソナルAI機能を、Harmonicは無料の数学AIエージェント「Aristotle」を発表した。",
+      "publishedAt": "2026-03-20",
+      "ogImage": "https://substackcdn.com/image/youtube/w_728,c_limit/qaJXBMwUkoE"
+    }
+  ]
+}
