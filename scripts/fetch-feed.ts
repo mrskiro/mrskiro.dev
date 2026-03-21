@@ -648,6 +648,61 @@ const fetchYCDigest = async (_source: Source, since: Date): Promise<Entry | null
   };
 };
 
+const GITHUB_TRENDING_PROMPT = [
+  "GitHub Trendingリポジトリの説明を日本語に翻訳してください。",
+  "ルール：",
+  "- 各行は「リポジトリ名：説明」の形式",
+  "- 固有名詞・技術用語はそのまま残す",
+  "- 簡潔に、1行で",
+  "- 番号付きで出力",
+  "- 翻訳のみ出力",
+].join("\n");
+
+const fetchGitHubTrendingDigest = async (source: Source): Promise<Entry> => {
+  const res = await fetch(`https://r.jina.ai/${source.url}`, {
+    headers: { Accept: "text/plain" },
+    signal: AbortSignal.timeout(30_000),
+  });
+  const text = await res.text();
+
+  const repos: { name: string; url: string; description: string; stars: string }[] = [];
+  const lines = text.split("\n");
+  for (let i = 0; i < lines.length; i++) {
+    const match = lines[i]!.match(/^## \[(.+?) \/ (.+?)\]\((https:\/\/github\.com\/.+?)\)/);
+    if (!match) continue;
+    const [, owner, repo, url] = match;
+    const description = lines[i + 2]?.trim() || "";
+    const starsMatch = lines[i + 4]?.match(/(\d[\d,]*) stars (today|this week|this month)/);
+    const stars = starsMatch ? starsMatch[1]! : "";
+    repos.push({ name: `${owner}/${repo}`, url: url!, description, stars });
+  }
+
+  const top10 = repos.slice(0, 10);
+  const numbered = top10.map((r, i) => `${i + 1}. ${r.name}：${r.description}`).join("\n");
+  const geminiRes = await ai.models.generateContent({
+    model: "gemini-2.5-flash",
+    config: { thinkingConfig: { thinkingBudget: 0 } },
+    contents: `${GITHUB_TRENDING_PROMPT}\n\n${numbered}`,
+  });
+  const jaLines = (geminiRes.text ?? "").trim().split("\n");
+  const jaDescriptions = jaLines.map((line) => line.replace(/^\d+\.\s*/, ""));
+
+  const summaryLines = top10.map((r, i) => {
+    const desc = jaDescriptions[i] ?? `${r.name}：${r.description}`;
+    const starsInfo = r.stars ? ` ⭐${r.stars}/week` : "";
+    return `- ${desc}${starsInfo}\n  ${r.url}`;
+  });
+
+  return {
+    sourceName: source.name,
+    title: "Weekly Trending",
+    url: "https://github.com/trending?since=weekly",
+    summary: summaryLines.join("\n"),
+    ogImage: digestOgImages[source.name] ?? null,
+    publishedAt: formatDate.format(new Date()),
+  };
+};
+
 const githubReleaseNames = new Set(["Claude Code"]);
 const redditNames = new Set(["r/MacApps", "r/indiehackers", "r/ClaudeAI"]);
 const rssDigestNames = new Set(["TechCrunch", "BRIDGE"]);
@@ -676,6 +731,7 @@ const digestOgImages: Record<string, string> = {
   "Y Combinator": "https://www.ycombinator.com/favicon.ico",
   BRIDGE:
     "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
+  "GitHub Trending": "https://github.githubassets.com/favicons/favicon.svg",
 };
 
 const fetchSource = async (source: Source, since: Date): Promise<Entry[]> => {
@@ -694,6 +750,9 @@ const fetchSource = async (source: Source, since: Date): Promise<Entry[]> => {
   if (source.name === "Anthropic") {
     return fetchAnthropic(source, since);
   }
+  if (source.name === "GitHub Trending") {
+    return [await fetchGitHubTrendingDigest(source)];
+  }
   if (source.name === "Y Combinator") {
     const entry = await fetchYCDigest(source, since);
     return entry ? [entry] : [];
@@ -705,11 +764,20 @@ const fetchSource = async (source: Source, since: Date): Promise<Entry[]> => {
   return fetchRss(source, since);
 };
 
+const weeklyOnlyNames = new Set(["GitHub Trending"]);
+
+const isJstMonday = (date: Date) =>
+  new Intl.DateTimeFormat("en-US", { weekday: "short", timeZone: "Asia/Tokyo" }).format(date) ===
+  "Mon";
+
 const main = async () => {
   const now = new Date();
   const since = new Date(now.getTime() - 24 * 60 * 60 * 1000);
 
-  const results = await Promise.all(sources.map((s) => fetchSource(s, since)));
+  const activeSources = isJstMonday(now)
+    ? sources
+    : sources.filter((s) => !weeklyOnlyNames.has(s.name));
+  const results = await Promise.all(activeSources.map((s) => fetchSource(s, since)));
   const entries = results.flat();
 
   const jinaEntries = entries.filter((e) => jinaNames.has(e.sourceName));

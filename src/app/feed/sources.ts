@@ -30,4 +30,5 @@ export const sources = [
   { name: "Y Combinator", url: "https://www.ycombinator.com/companies" },
   { name: "BRIDGE", url: "https://thebridge.jp/feed" },
   { name: "Latent Space", url: "https://www.latent.space/feed" },
+  { name: "GitHub Trending", url: "https://github.com/trending?since=weekly" },
 ] as const satisfies Source[];
