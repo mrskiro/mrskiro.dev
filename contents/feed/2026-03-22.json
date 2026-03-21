@@ -1,0 +1,69 @@
+{
+  "fetchedAt": "2026-03-21T21:13:48.875Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.81",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.81",
+      "summary": "- [Added] --bareフラグがスクリプト化された-p呼び出しに追加されました。これにより、フック、LSP、プラグイン同期、スキルディレクトリウォークがスキップされます。ANTHROPIC_API_KEYまたは--settings経由のapiKeyHelperが必要です（OAuthおよびキーチェーン認証は無効）。自動メモリは完全に無効になります。\n- [Added] --channelsパーミッションリレーが追加されました。パーミッション機能を宣言するチャネルサーバーは、ツールの承認プロンプトをスマートフォンに転送できます。\n- [Fixed] 複数の同時Claude Codeセッションが、1つのセッションがOAuthトークンを更新するたびに繰り返し再認証を要求する問題を修正しました。\n- [Fixed] 音声モードが再試行の失敗をサイレントに無視し、実際のエラーの代わりに「ネットワークを確認してください」という誤解を招くメッセージを表示する問題を修正しました。\n- [Fixed] サーバーがWebSocket接続をサイレントに切断したときに音声モードのオーディオが回復しない問題を修正しました。\n- [Fixed] CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETASがstructured-outputsベータヘッダーを抑制せず、Vertex/Bedrockに転送するプロキシゲートウェイで400エラーが発生する問題を修正しました。\n- [Fixed] 他の管理設定が構成されていないTeam/Enterprise組織の--channelsバイパスの問題を修正しました。\n- [Fixed] Node.js 18でのクラッシュを修正しました。\n- [Fixed] 文字列にダッシュを含むBashコマンドの不要なパーミッションプロンプトを修正しました。\n- [Fixed] セッション中にプラグインディレクトリが削除されたときに、プラグインフックがプロンプトの送信をブロックする問題を修正しました。\n- [Fixed] バックグラウンドエージェントタスクの出力が、ポーリング間隔の間にタスクが完了した場合に indefinitely ハングする可能性のある競合状態を修正しました。\n- [Changed] ワークツリーにあったセッションを再開すると、そのワークツリーに戻るようになりました。\n- [Fixed] アクティブな応答中に使用された場合、/btwが貼り付けられたテキストを含まない問題を修正しました。\n- [Fixed] tmuxでCmd+Tabを素早く押した後にペーストすると、クリップボードのコピーが先行する可能性のある競合状態を修正しました。\n- [Fixed] ターミナルタブのタイトルが自動生成されたセッション説明で更新されない問題を修正しました。\n- [Fixed] 非表示のフックアタッチメントがトランスクリプトモードでメッセージ数を増加させる問題を修正しました。\n- [Fixed] リモートコントロールセッションが最初のプロンプトから派生したタイトルではなく、一般的なタイトルを表示する問題を修正しました。\n- [Fixed] /renameがリモートコントロールセッションのタイトルを同期しない問題を修正しました。\n- [Fixed] リモートコントロールの/exitがセッションを確実にアーカイブしない問題を修正しました。\n- [Improved] MCPの読み取り/検索ツール呼び出しが、単一の「Queried {server}」行に折りたたまれるようになりました（Ctrl+Oで展開）。\n- [Improved] ! bashモードの発見性が向上しました。インタラクティブなコマンドを実行する必要がある場合、Claudeがそれを提案するようになりました。\n- [Improved] プラグインの鮮度が向上しました。参照追跡されたプラグインは、アップストリームの変更を取得するためにロードごとに再クローンされるようになりました。\n- [Improved] リモートコントロールセッションのタイトルが3番目のメッセージの後に更新されるようになりました。\n- [Changed] MCP OAuthが、動的クライアント登録なしのサーバー向けにClient ID Metadata Document (CIMD / SEP-991) をサポートするように更新されました。\n- [Changed] 計画モードで「コンテキストをクリア」オプションがデフォルトで非表示になりました（「showClearContextOnPlanAccept」: trueで復元）。\n- [Disabled] Windowsでの行ごとの応答ストリーミング（Windows TerminalのWSLを含む）が、レンダリングの問題により無効になりました。\n- [Fixed] [VSCode] Git Bashを使用する際のBashツールのWindows PATH継承を修正しました（v2.1.78でのリグレッション）。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-03-21"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- 【メガトレンド】App Pile - 2026年3月・4月\n  https://www.reddit.com/r/macapps/comments/1rybab4/megathread_the_app_pile_marchapril_2026/\n- r/MacAppsのモデレーターが行き過ぎた対応！何が変わるのか（フェーズ3）\n  https://www.reddit.com/r/macapps/comments/1ryaeex/rmacapps_mods_went_too_far_whats_changing_phase_3/\n- フィードバック：「永久ライセンス監査」スレッド\n  https://www.reddit.com/r/macapps/comments/1s021oe/feedback_the_lifetime_license_audit_thread/\n- macOSで多数のウィンドウを管理：あなたの設定は？\n  https://www.reddit.com/r/macapps/comments/1rztv05/managing_lots_of_open_windows_on_macos_whats_your/\n- Valdis：現在の日付/時刻と周辺の提案機能を追加\n  https://www.reddit.com/r/macapps/comments/1rzz2if/valdis_added_builtin_tools_for_current_datetime/\n- 【OS】Atoll v2.1.0 Seychelles：外部DDCサポート、拡張機能など\n  https://www.reddit.com/r/macapps/comments/1s0267k/os_atoll_v210_seychelles_external_ddc_support/\n- r/macappsで紹介された「永久ライセンス」Macアプリ32本を7週間試した結果 - 全てを回避\n  https://www.reddit.com/r/macapps/comments/1ryvdei/i_tested_every_lifetime_mac_app_posted_on/\n- Flix Fixerが映画とシリーズファイルの自動整理にも対応\n  https://www.reddit.com/r/macapps/comments/1ryvbwc/flix_fixer_now_also_autoorganizes_your_movies/\n- Launchpadツール開発12年、Appleが実装しなかった機能を追加しました\n  https://www.reddit.com/r/macapps/comments/1rzuqg1/after_12_years_building_launchpad_tools_heres/\n- コーディング中に別サイトへタブ移動するのが面倒で、これを開発しました\n  https://www.reddit.com/r/macapps/comments/1ryvmc0/i_got_tired_of_tabbing_out_to_random_websites/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-22"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- Redditに新システム導入！人間による認証でセキュリティ強化へ\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackers subreddit、品質向上のため新ルールを発表\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- 18歳、資金なし、それでも完成させたプロダクト「Contral」が遂にリリース\n  https://www.reddit.com/r/indiehackers/comments/1rzlp3d/18_no_funding_we_shipped_contral_is_live/\n- 金曜恒例！あなたのプロジェクトをシェアしませんか？\n  https://www.reddit.com/r/indiehackers/comments/1rysu19/friday_share_fever_lets_share_your_project/\n- まさに洋上で！海の上でスタートアップを立ち上げる起業家\n  https://www.reddit.com/r/indiehackers/comments/1rys0vg/bootstrapping_my_startup_literally_at_sea/\n- 無料トライアルを繰り返すユーザー対策に悩む\n  https://www.reddit.com/r/indiehackers/comments/1rxzlek/dealing_with_users_who_creates_a_new_account_each/\n- 「褒め言葉」より「批判」を求める開発者募集\n  https://www.reddit.com/r/indiehackers/comments/1rxyeew/looking_for_builders_who_prefer_critique_over/\n- Notionの対極？カスタマイズ不可能なメモ・セカンドブレインツールを本日リリース\n  https://www.reddit.com/r/indiehackers/comments/1rx5pfr/i_built_the_opposite_of_notion_its_a_notessecond/\n- 13ヶ月のプロジェクトを断念し、AIエージェント市場を2ヶ月で構築 ― Claude Codeと私だけで\n  https://www.reddit.com/r/indiehackers/comments/1rxewfe/i_walked_away_from_a_13month_project_and_built_a/\n- 録画やスクリーンショットからアプリ・ウェブサイトを監査するツールを開発\n  https://www.reddit.com/r/indiehackers/comments/1rwzwci/i_built_a_tool_that_audits_your_app_or_website/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-22"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- 利用制限、バグ、パフォーマンスに関する総合スレッド - 2025年12月29日開始\n  https://www.reddit.com/r/ClaudeAI/comments/1pygdbz/usage_limits_bugs_and_performance_discussion/\n- Coworkでプロジェクト機能が利用可能に\n  https://www.reddit.com/r/ClaudeAI/comments/1rz0go2/projects_are_now_available_in_cowork/\n- 至って普通でクールな出来事\n  https://www.reddit.com/r/ClaudeAI/comments/1rzpnx9/totally_normal_and_cool/\n- Claudeの幻覚を劇的に減らす3つの指示をAnthropicのドキュメントで発見。ほとんどの人がその存在を知らない。\n  https://www.reddit.com/r/ClaudeAI/comments/1rzyqqt/found_3_instructions_in_anthropics_docs_that/\n- Anthropicの研究が示す、AIコーディングツールが開発者の能力を密かに低下させている可能性\n  https://www.reddit.com/r/ClaudeAI/comments/1rzmfyd/anthropics_research_proves_ai_coding_tools_are/\n- 驚異的な進化の速さ。ポケモンで2ヶ月で10倍上達。\n  https://www.reddit.com/r/ClaudeAI/comments/1rzt2ik/insane_rate_of_progress_10x_better_at_pokemon_in/\n- Claudeをペアプログラマーとして活用し、Apple Watchアプリを開発。2000ダウンロードと600ドルの収益を達成。\n  https://www.reddit.com/r/ClaudeAI/comments/1rzvr8s/i_used_claude_as_a_pair_programmer_to_build_an/\n- Linuxターミナルと連携したClaudeが驚異的な能力を発揮！10GBストレージと4GB RAMのLinux環境で。\n  https://www.reddit.com/r/ClaudeAI/comments/1rzvt8n/claude_with_a_linux_terminal_can_do_some_crazy/\n- Claudeに空想の相談をしたら、代わりにトラウマの歴史を紐解いてくれた\n  https://www.reddit.com/r/ClaudeAI/comments/1rzs3m5/i_asked_claude_to_help_me_with_some_fantasies_and/\n- ClaudeがStravaと連携、私のパーソナルコーチに\n  https://www.reddit.com/r/ClaudeAI/comments/1rzt3bg/claude_is_connected_to_my_strava_and_is_now_my/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-22"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1167pt] OpenCode：オープンソースのAIコーディングエージェント | 初めて使ったオープンソースAIエージェントとして高評価。他のAIとの連携やモデル選択の自由度も評価されている。\n  https://news.ycombinator.com/item?id=47460525\n- [938pt] AIに取り残されても構わない、ありがとう | AI技術の進化に対する様々な意見。取り残される不安、早期参入の価値、仕事への影響など。\n  https://news.ycombinator.com/item?id=47454341\n- [789pt] ArXivがコーネル大学からの独立を宣言 | 独立とCEOの高給に疑問の声。コンテンツフィルタリングよりもインデックス修正を望む意見も。\n  https://news.ycombinator.com/item?id=47450478\n- [740pt] チャック・ノリスが死去 | チャック・ノリスの死を惜しむ声と、彼を題材にしたジョークで追悼するコメントが多い。\n  https://news.ycombinator.com/item?id=47454782\n- [614pt] フランス空母、フィットネスアプリでリアルタイムに位置が特定される | 兵士のフィットネスアプリ利用による位置情報漏洩について議論。以前の類似事件も挙げられている。\n  https://news.ycombinator.com/item?id=47453942\n- [601pt] Windowsの品質に対する我々のコミットメント | Microsoftのユーザー無視の姿勢への不満、Linuxの優位性を指摘する声が多い。\n  https://news.ycombinator.com/item?id=47459296\n- [443pt] Internet ArchiveのブロックはAIを止めず、ウェブの歴史的記録を消し去るだけ | AIクローラー対策とInternet Archiveブロックの関連、ウェブの歴史的記録消失への懸念の声。\n  https://news.ycombinator.com/item?id=47464818\n- [432pt] 日本語の箸のタブー用語集（2022年） | 箸のマナーについて興味深いという声、一部のタブーは日本人でもやっているという意見も。\n  https://news.ycombinator.com/item?id=47460452\n- [396pt] チャネルを使って実行中のセッションにイベントをプッシュ | Telegram連携やClaude Code活用について議論。AIツールの急速な開発への懸念も。\n  https://news.ycombinator.com/item?id=47448524\n- [379pt] 物事には時間がかかる | AIツールに焦点を当てた現代において、速さだけでなく方向性や反復の重要性を指摘する声。\n  https://news.ycombinator.com/item?id=47467537",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-03-22"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "4 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- 出版社、AIへの懸念からホラー小説「Shy Girl」の出版中止へ\n  https://techcrunch.com/2026/03/21/publisher-pulls-horror-novel-shy-girl-over-ai-concerns/\n- Delve、顧客を「偽りのコンプライアンス」で欺いたとして非難される\n  https://techcrunch.com/2026/03/21/delve-accused-of-misleading-customers-with-fake-compliance/\n- なぜウォール街はNvidiaの大規模カンファレンスに感銘を受けなかったのか\n  https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/\n- 新たな訴訟文書で判明：トランプが関係解消を宣言した1週間後、国防総省はAnthropicに両者はほぼ連携していると伝えていた\n  https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-03-22"
+    },
+    {
+      "sourceName": "laiso",
+      "title": "Codex CLIのsubagentsを使って並列コードレビューを試す",
+      "url": "https://blog.lai.so/codex-subagents/",
+      "summary": "Codex CLIのsubagents機能を使うとPRレビュー時間が短縮され、指摘数も増えるが、料金は高くなる。",
+      "publishedAt": "2026-03-21",
+      "ogImage": null
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Mindspend — お金の流れだけでなく、支出への感情も記録\n  https://www.producthunt.com/products/mindspend\n- Novi Notes — Mac向けAIノートアプリ、ローカルファーストでMCP経由のゼロコンフィグに対応\n  https://www.producthunt.com/products/novi-notes\n- Sanota — 美しく紡がれた物語\n  https://www.producthunt.com/products/sanota\n- Vite+ — ウェブ向け統合ツールチェイン\n  https://www.producthunt.com/products/vite-alpha\n- Design Agent by Lokuma — AIエージェント（Openclaw、CC、Codex）のためのデザイナー\n  https://www.producthunt.com/products/lokuma-ai\n- Fractal — ChatGPTアプリを最速でリリースする方法\n  https://www.producthunt.com/products/fractal-2\n- Educato App — パーソナライズされた試験対策をポケットに\n  https://www.producthunt.com/products/educato-app\n- Everest AI — 世界最速のIPMIシングルボードコンピューターを開発\n  https://www.producthunt.com/products/everest-ai\n- Cursor Glass — クラウドへのシームレスなハンドオフ機能を備えた統合エージェントワークスペース\n  https://www.producthunt.com/products/glass-4\n- Contral — 構築しながら学べるエージェント型IDE\n  https://www.producthunt.com/products/contral",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-03-22"
+    }
+  ]
+}
