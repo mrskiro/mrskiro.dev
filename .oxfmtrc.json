@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/oxfmt/configuration_schema.json",
   "ignorePatterns": [".claude/", ".vercel/", "node_modules/"],
-  "experimentalSortImports": {
+  "sortImports": {
     "groups": [
       "type-import",
       ["value-builtin", "value-external"],
@@ -12,11 +12,11 @@
       "unknown"
     ]
   },
-  "experimentalTailwindcss": {
+  "tailwindcss": {
     "stylesheet": "./src/app/globals.css",
     "functions": ["clsx", "cn"]
   },
-  "experimentalSortPackageJson": {
+  "sortPackageJson": {
     "sortScripts": true
   }
 }
