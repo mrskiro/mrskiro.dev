@@ -1,0 +1,77 @@
+{
+  "fetchedAt": "2026-03-23T21:24:28.392Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Creating with Sora Safely",
+      "url": "https://openai.com/index/creating-with-sora-safely",
+      "summary": "動画モデル「Sora 2」と動画作成プラットフォーム「Sora app」を、安全性重視で開発。",
+      "publishedAt": "2026-03-23",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/5ZBXQ6hhDc5zt8htDwq6z5/649000b7f37a9fd33a562f3bfe82cb21/16_x_9____2_.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- 【まとめ】注目のアプリ - 2026年3月/4月\n  https://www.reddit.com/r/macapps/comments/1rybab4/megathread_the_app_pile_marchapril_2026/\n- r/MacApps モデレーターの対応は度を越した？変更点について（フェーズ3）\n  https://www.reddit.com/r/macapps/comments/1ryaeex/rmacapps_mods_went_too_far_whats_changing_phase_3/\n- 私のお気に入りMacアプリ厳選リスト！\n  https://www.reddit.com/r/macapps/comments/1s1e5zn/a_curated_list_of_my_favourite_mac_apps/\n- Launchpad 導入以前のmacOSでアプリ一覧を表示する方法。ApplicationsフォルダをDockに追加し、グリッド表示にする。Cmd + - でアプリのアイコンを小さくすると、より多くのアプリが見える。キーボードの文字を押すと、その文字で始まる最初のアプリにジャンプする。\n  https://www.reddit.com/r/macapps/comments/1s1m3qu/before_the_introduction_of_launchpad_this_is_how/\n- 今月、約60個のメニューバーアプリを追加しました。ここではまだ紹介されていない、無料・オープンソースのいくつかを紹介します\n  https://www.reddit.com/r/macapps/comments/1s1d9r4/i_added_60_menu_bar_apps_this_month_here_are_a/\n- Dropzone 5 登場！\n  https://www.reddit.com/r/macapps/comments/1s1i0ze/dropzone_5_is_here/\n- Mac でメモと計算機を切り替えるのにうんざりしたので、両方の機能を持つ Soulver 風のアプリを作ってみた\n  https://www.reddit.com/r/macapps/comments/1s1qncs/i_got_tired_of_switching_between_notes_and/\n- [macOS] Interview Assist: 就職活動を整理し、面接中に情報を簡単に引き出せるようにサポート\n  https://www.reddit.com/r/macapps/comments/1s1nnzg/macos_interview_assist_helps_organize_your_job/\n- EUへ移住：Dropshare で純粋なヨーロッパ製ファイル共有環境を構築\n  https://www.reddit.com/r/macapps/comments/1s1st6b/migrate_to_the_eu_build_a_purely_european/\n- Antinote の消費電力\n  https://www.reddit.com/r/macapps/comments/1s1g6ns/antinote_power_consumption/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-24"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- Redditに新本人確認システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackersのRedditで新ルール施行 - 品質向上を目指す\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- 最初のユーザー5人を獲得した方法\n  https://www.reddit.com/r/indiehackers/comments/1s1fp4n/how_i_got_my_5_first_users/\n- 18歳、資金なし、Contralをリリース。\n  https://www.reddit.com/r/indiehackers/comments/1rzlp3d/18_no_funding_we_shipped_contral_is_live/\n- 花金シェアフィーバー！あなたのプロジェクトを共有しよう！\n  https://www.reddit.com/r/indiehackers/comments/1rysu19/friday_share_fever_lets_share_your_project/\n- まさに海上でスタートアップを立ち上げた話\n  https://www.reddit.com/r/indiehackers/comments/1rys0vg/bootstrapping_my_startup_literally_at_sea/\n- 無料トライアル目的で毎回新規アカウントを作成するユーザーへの対処法\n  https://www.reddit.com/r/indiehackers/comments/1rxzlek/dealing_with_users_who_creates_a_new_account_each/\n- 「賞賛」よりも「批評」を好む開発者募集\n  https://www.reddit.com/r/indiehackers/comments/1rxyeew/looking_for_builders_who_prefer_critique_over/\n- Notionの対極を目指したメモ/第二の脳ツールを開発。カスタマイズ一切不可で本日ローンチ！\n  https://www.reddit.com/r/indiehackers/comments/1rx5pfr/i_built_the_opposite_of_notion_its_a_notessecond/\n- 13ヶ月かけたプロジェクトを諦め、AIエージェントのライブマーケットを2ヶ月で構築 ― 私一人とClaude Code、そして空のリポジトリだけで\n  https://www.reddit.com/r/indiehackers/comments/1rxewfe/i_walked_away_from_a_13month_project_and_built_a/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-24"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- 利用制限、バグ、パフォーマンスに関する総合スレッド（2025年12月29日開始）\n  https://www.reddit.com/r/ClaudeAI/comments/1pygdbz/usage_limits_bugs_and_performance_discussion/\n- Coworkでプロジェクト機能が利用可能に\n  https://www.reddit.com/r/ClaudeAI/comments/1rz0go2/projects_are_now_available_in_cowork/\n- これについてどう感じるか、まだ分からない\n  https://www.reddit.com/r/ClaudeAI/comments/1s1d0vc/not_sure_how_i_feel_about_this/\n- Claude Codeの5つのレベル（それぞれの限界を見極める方法）\n  https://www.reddit.com/r/ClaudeAI/comments/1s1ipep/the_5_levels_of_claude_code_and_how_to_know_when/\n- Claudeによる自画像\n  https://www.reddit.com/r/ClaudeAI/comments/1s1jetw/claude_self_portrait/\n- Claudeに日付、時刻、または就寝時間について言及する前にdatetimeを確認させるよう求める請願\n  https://www.reddit.com/r/ClaudeAI/comments/1s16eiz/petition_to_force_claude_to_check_datetime_before/\n- ADHDで時間管理が苦手な方、先延ばししがちな方へ：これをカスタム指示に追加しよう\n  https://www.reddit.com/r/ClaudeAI/comments/1s1ln43/if_you_have_adhd_and_are_time_blind_or/\n- これが私が実際にAIと協業する方法です\n  https://www.reddit.com/r/ClaudeAI/comments/1s1hkmo/this_is_how_i_actually_collaborate_with_ai/\n- Claude (Opus 4.6) が、私の幼少期のゲームを現代のWindowsでプレイできるようにパッチを当てる方法を発見\n  https://www.reddit.com/r/ClaudeAI/comments/1s0z27t/claude_opus_46_figured_out_how_to_patch_my/\n- Claudeを適切に使うためにターミナルタブを10個も開くのにうんざりして、これを作った\n  https://www.reddit.com/r/ClaudeAI/comments/1s1l50n/built_this_because_i_was_sick_of_having_10/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-24"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [827pt] 児童保護をインターネットアクセス規制に転用するな | 児童保護を装ったデータ収集や監視への懸念、ネット利用者の匿名性維持を求める声が多い\n  https://news.ycombinator.com/item?id=47470991\n- [801pt] PC GamerがRSSリーダーを推奨する記事、そのサイズは37MBでダウンロードが止まらない | PC Gamerの記事が非常に重いことに不満の声、広告や自動再生動画が原因との指摘が多数\n  https://news.ycombinator.com/item?id=47480507\n- [772pt] EUへの移行（サービス、インフラなど） | EU内のサーバーやCRM、CDNなどのサービスに関する具体的な推奨情報が多く寄せられている\n  https://news.ycombinator.com/item?id=47487436\n- [646pt] ホルムズ機雷除去ゲーム – 勝ち続けることに飽きたか？ | 「マインスイーパー」のパロディ版として楽しむ声や、追加機能への要望が見られる\n  https://news.ycombinator.com/item?id=47475686\n- [640pt] バージョン管理の未来 | CRDTsをバージョン管理に使うことへの疑問や、マージの概念に対する議論が展開されている\n  https://news.ycombinator.com/item?id=47478401\n- [575pt] GrapheneOSは個人情報を要求せず、誰でも使い続けられる | GrapheneOSへの乗り換え報告や、プライバシー保護、地域による法規制への対応に関する期待が寄せられている\n  https://news.ycombinator.com/item?id=47482217\n- [571pt] Project Nomad – 決してオフラインにならない知識 | 非常時や検閲下での情報アクセス手段としての価値を評価する声、米国外での利用に関する課題が指摘されている\n  https://news.ycombinator.com/item?id=47476821\n- [567pt] コードの死はかなり誇張されている | AIが生成するコードの革新性への疑問や、AIの限界、人間の仕事の未来に関する議論が活発\n  https://news.ycombinator.com/item?id=47476315\n- [557pt] 最適化のゴールドスタンダード: ローラーコースタータイクーンの内部を探る | 古いゲームの最適化技術に感嘆する声や、現代のプログラミングとの比較に関するコメントが見られる\n  https://news.ycombinator.com/item?id=47480886\n- [471pt] JavaScript肥大化の三つの柱 | JavaScriptの依存関係の多さや標準ライブラリの不足が肥大化の原因であるという意見が多数\n  https://news.ycombinator.com/item?id=47473718",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-03-24"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "7 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- バーニー・サンダース氏のAI「やらせ」動画は失敗もミームは好評\n  https://techcrunch.com/2026/03/23/bernie-sanders-ai-gotcha-video-flops-but-the-memes-are-great/\n- 雰囲気コーディングのスタートアップLovable、企業買収を模索\n  https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/\n- Apple、WWDC 2026の開催日を6月に設定、「AIの進化」を予告\n  https://techcrunch.com/2026/03/23/apple-wwdc-june-8-12-ai-advancements-siri-developers-conference/\n- スタートアップGimlet Labs、AI推論のボトルネックを驚くほどエレガントな方法で解決\n  https://techcrunch.com/2026/03/23/startup-gimlet-labs-is-solving-the-ai-inference-bottleneck-in-a-surprisingly-elegant-way/\n- Littlebird、AIアシスト型「リコール」ツールで1100万ドルを調達 - PC画面を読み取り\n  https://techcrunch.com/2026/03/23/littlebird-raises-11m-to-capture-context-from-your-computer-so-you-can-query-your-data/\n- エリザベス・ウォーレン氏、国防総省によるAnthropic排除決定を「報復」と非難\n  https://techcrunch.com/2026/03/23/elizabeth-warren-anthropic-pentagon-defense-supply-chain-risk-retaliation/\n- Sam Altman氏支援の核融合スタートアップHelion、OpenAIへの電力供給で協議中\n  https://techcrunch.com/2026/03/23/sam-altman-openai-fusion-energy-board-helion/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-03-24"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "Experimenting with Starlette 1.0 with Claude skills",
+      "url": "https://simonwillison.net/2026/Mar/22/starlette/#atom-entries",
+      "summary": "Claudeのスキル機能を使って、最新版Starlette 1.0に対応したWebアプリを生成・検証した実験結果が公開された。",
+      "publishedAt": "2026-03-23",
+      "ogImage": "https://static.simonwillison.net/static/2026/starlette-skill-card.jpg"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Tobira.ai：AIエージェントが最適な取引を提案するネットワーク\n  https://www.producthunt.com/products/tobira-ai\n- Zoer.ai：データベースからフルスタックWebアプリを構築\n  https://www.producthunt.com/products/zoer-ai-2\n- Fastlane：マーケティング業界のTinder\n  https://www.producthunt.com/products/fastlane-3\n- Nomie：AIウェルネスアプリ「ドゥームスクロールをセルフケアに」\n  https://www.producthunt.com/products/nomie\n- DataSieve 2.0：テキスト、ファイル、アーカイブから構造化データを抽出\n  https://www.producthunt.com/products/textmine-extract-data-from-text\n- Pause.do：スクロール、タブ過多、AI自動操縦を中断\n  https://www.producthunt.com/products/pause-do-don-t-outsource-your-thinking\n- Honestly：オンラインショッピングでRedditとYouTubeの本音レビューをチェック\n  https://www.producthunt.com/products/honestly\n- Claude Usage Tracker：Claudeの利用料金をツールごとに正確に把握\n  https://www.producthunt.com/products/claude-usage-tracker\n- AlphaClaw Apex：Mac向けOpenClawハーネス＆フリートマネージャー\n  https://www.producthunt.com/products/alphaclaw-apex\n- Iris：美しい作品を送信、ピン留めフィードバック、閲覧状況も確認\n  https://www.producthunt.com/products/iris-e28eb72c-ccff-4a5a-a7e8-6cf066ee9d41",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-03-24"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "3 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Stage：現代エンジニアのためのコードレビュープラットフォーム\n  https://www.stagereview.app/\n- Keyframe Labs：エージェントをリアルなビデオ通話に変身、1分あたり$0.06\n  https://keyframelabs.com\n- OpenWork：Claude Coworkに代わるオープンソースツール\n  https://openworklabs.com",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-03-24"
+    }
+  ]
+}
