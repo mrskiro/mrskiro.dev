@@ -777,7 +777,16 @@ const main = async () => {
   const activeSources = isJstMonday(now)
     ? sources
     : sources.filter((s) => !weeklyOnlyNames.has(s.name));
-  const results = await Promise.all(activeSources.map((s) => fetchSource(s, since)));
+  const results = await Promise.all(
+    activeSources.map(async (s) => {
+      try {
+        return await fetchSource(s, since);
+      } catch (err) {
+        console.error(`[${s.name}] fetch failed, skipping:`, err);
+        return [];
+      }
+    }),
+  );
   const entries = results.flat();
 
   const jinaEntries = entries.filter((e) => jinaNames.has(e.sourceName));
