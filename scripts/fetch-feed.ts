@@ -782,8 +782,18 @@ const main = async () => {
       try {
         return await fetchSource(s, since);
       } catch (err) {
-        console.error(`[${s.name}] fetch failed, skipping:`, err);
-        return [];
+        console.error(`[${s.name}] fetch failed:`, err);
+        const message = err instanceof Error ? err.message : String(err);
+        return [
+          {
+            sourceName: s.name,
+            title: `⚠ ${s.name} の取得に失敗しました`,
+            url: s.url,
+            summary: message,
+            ogImage: null,
+            publishedAt: formatDate.format(now),
+          },
+        ];
       }
     }),
   );
