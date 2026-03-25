@@ -1,0 +1,93 @@
+{
+  "fetchedAt": "2026-03-25T21:25:58.173Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Inside our approach to the Model Spec",
+      "url": "https://openai.com/index/our-approach-to-the-model-spec",
+      "summary": "AIの進化に伴い、モデルの安全性やユーザーの自由、説明責任のバランスを取るための枠組み「Model Spec」を公開。",
+      "publishedAt": "2026-03-25",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/35bHEbm0rP6Pp4Vz11SaVW/1033fdf6bbcac970107c7503b38ddeba/oai_model_spec_16x9.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Introducing the OpenAI Safety Bug Bounty program",
+      "url": "https://openai.com/index/safety-bug-bounty",
+      "summary": "OpenAIがAIの悪用や安全上のリスクを発見するバグバウンティプログラムを開始。",
+      "publishedAt": "2026-03-25",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/6tvi0m9Z8P15gx4gd3ClmR/cfb5e925a1d3b2f9ac2ccbcd311c50cc/Frame__2_.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.83",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.83",
+      "summary": "- [Added] managed-settings.d/ ドロップインディレクトリをmanaged-settings.jsonの隣に追加。これにより、個別のチームが独立したポリシーフラグメントをデプロイし、アルファベット順にマージできるようになります。\n- [Added] 反応的な環境管理（例：direnv）のために、CwdChangedとFileChangedフックイベントを追加しました。\n- [Added] sandbox.failIfUnavailable設定を追加。サンドボックスが有効だが起動できない場合に、サンドボックスなしで実行する代わりにエラーで終了するようになります。\n- [Added] claude-cli://プロトコルハンドラの登録を防ぐdisableDeepLinkRegistration設定を追加しました。\n- [Added] サブプロセス環境（Bash tool、hooks、MCP stdio servers）からAnthropicおよびクラウドプロバイダの認証情報を削除するためにCLAUDE_CODE_SUBPROCESS_ENV_SCRUB=1を追加しました。\n- [Added] トランスクリプト検索機能を追加しました。トランスクリプトモード（Ctrl+O）で / を押すと検索でき、n/Nで一致箇所をステップ実行できます。\n- [Added] 外部エディタを開くエイリアスとしてCtrl+X Ctrl+Eを追加しました（readline-native binding; Ctrl+Gも引き続き機能します）。\n- [Added] 貼り付けられた画像は、カーソル位置に[Image #N]チップを挿入するようになり、プロンプト内で位置で参照できるようになります。\n- [Added] AgentはフロントマターでinitialPromptを宣言できるようになり、最初のターンを自動で送信できるようになりました。\n- [Changed] chat:killAgentsとchat:fastModeは、~/.claude/keybindings.json経由で再バインドできるようになりました。\n- [Fixed] 終了後、マウス追跡エスケープシーケンスがシェルプロンプトに漏れる問題を修正しました。\n- [Fixed] macOSでClaude Codeが終了時にハングする問題を修正しました。\n- [Fixed] 数秒間アイドル状態になった後、画面が空白に点滅する問題を修正しました。\n- [Fixed] 共通行がほとんどない非常に大きなファイルをdiffする際にハングする問題を修正しました。diffは5秒後にタイムアウトし、正常にフォールバックするようになりました。\n- [Fixed] 音声入力が有効になっている場合に、ネイティブオーディオモジュールを積極的にロードすることによって発生する、起動時の1〜8秒のUIフリーズを修正しました。\n- [Fixed] Claude Codeが進行する前にclaude.ai MCP設定の取得に約3秒待機する、起動時のリグレッションを修正しました。\n- [Fixed] --mcp-config CLIフラグがallowedMcpServers/deniedMcpServers管理ポリシーの適用をバイパスする問題を修正しました。\n- [Fixed] claude.ai MCPコネクタ（Slack、Gmailなど）がシングルターンの--printモードで利用できない問題を修正しました。\n- [Fixed] Claude Code終了時にcaffeinateプロセスが適切に終了せず、Macのスリープを妨げる問題を修正しました。\n- [Fixed] !-prefixedコマンド提案をタブで受け入れたときにbashモードがアクティブにならない問題を修正しました。\n- [Fixed] 古いスラッシュコマンドの選択が、提案をナビゲートした後に間違ったハイライトされたコマンドを表示する問題を修正しました。\n- [Fixed] /configメニューが検索カーソルとリスト選択の両方を同時に表示する問題を修正しました。\n- [Fixed] コンテキスト圧縮後にバックグラウンドサブエージェントが非表示になり、重複するエージェントが生成される可能性があった問題を修正しました。\n- [Fixed] gitまたはAPI呼び出しがクリーンアップ中にハングした場合に、バックグラウンドエージェントタスクが「実行中」状態のままになる問題を修正しました。\n- [Fixed] アップグレード後の初回起動時に--channelsが「Channels are not currently available」と表示される問題を修正しました。\n- [Fixed] アンインストールされたプラグインフックが次のセッションまで引き続き発生する問題を修正しました。\n- [Fixed] ストリーミング応答中にキューに入ったコマンドが点滅する問題を修正しました。\n- [Fixed] メッセージ処理中に送信されたスラッシュコマンドがテキストとしてモデルに送信される問題を修正しました。\n- [Fixed] 折りたたまれた読み取り/検索グループが画面外にスクロールした後で完了したときに、スクロールバックがジャンプする問題を修正しました。\n- [Fixed] モデルが考え始めたり停止したりしたときに、スクロールバックが一番上までジャンプする問題を修正しました。\n- [Fixed] フックの進行状況/添付メッセージがparentUuidチェーンをフォークすることによって発生する、再開時のSDKセッション履歴の損失を修正しました。\n- [Fixed] ターミナルウィンドウの外でマウスを離したときに、選択時のコピーが起動しない問題を修正しました。\n- [Fixed] アイテムがオーバーフローしたときに、高さが制限されたリストにゴースト文字が表示される問題を修正しました。\n- [Fixed] Ctrl+Bがアイドルプロンプトでreadline backward-charと干渉する問題を修正しました。フォアグラウンドタスクがバックグラウンドにできる場合にのみ起動するようになりました。\n- [Fixed] ツール結果ファイルがcleanupPeriodDays設定を無視してクリーンアップされない問題を修正しました。\n- [Fixed] 音声ホールドトゥトークを解除した後、スペースキーが最大3秒間飲み込まれる問題を修正しました。\n- [Fixed] オーディオハードウェアなしでLinuxで音声モードを使用している場合（Docker、headless、WSL1）、ALSAライブラリエラーによってターミナルUIが破損する問題を修正しました。\n- [Fixed] whichの生成がカーネルによって制限されているTermux/Androidでの音声モードSoX検出を修正しました。\n- [Fixed] Remote Controlセッションがウェブセッションリストでアクティブに実行されている間、「Idle」と表示される問題を修正しました。\n- [Fixed] config駆動モードで、フッターナビゲーションが目に見えないRemote Controlピルを選択する問題を修正しました。\n- [Fixed] ツール使用IDが無期限に蓄積されるリモートセッションでのメモリリークを修正しました。\n- [Improved] 他のブート作業とプロファイル取得をオーバーラップさせることで、Bedrock SDKのコールドスタートレイテンシーを改善しました。\n- [Improved] 大規模セッションでの--resumeのメモリ使用量と起動レイテンシーを改善しました。\n- [Improved] プラグインの起動を改善しました。コマンド、スキル、エージェントが再取得せずにディスクキャッシュからロードされるようになりました。\n- [Improved] Remote Controlセッションのタイトルを改善しました。AI生成のタイトルが最初のメッセージから数秒以内に表示されるようになりました。\n- [Improved] WebFetchがClaude-Userとして識別するようになり、サイト運営者がrobots.txt経由でClaude Codeトラフィックを認識し、許可リストに追加できるようになりました。\n- [Improved] 大規模なページでのWebFetchのピークメモリ使用量を削減しました。\n- [Improved] 長いセッションでのスクロールバックのリセットを、1ターンに1回から約50メッセージに1回に減らしました。\n- [Improved] 認証されていないHTTP/SSE MCPサーバーでのclaude -pの起動が高速化されました（約600ms短縮）。\n- [Improved] Bashのゴーストテキストの提案に、直前に送信されたコマンドが即座に含まれるようになりました。\n- [Improved] 非ストリーミングのフォールバックトークン上限（21k → 64k）とタイムアウト（120s → 300s local）が増加し、フォールバックリクエストが途中で打ち切られる可能性が低くなりました。\n- [Improved] 応答が始まる前にプロンプトを中断すると、入力が自動的に復元されるようになり、編集して再送信できるようになりました。\n- [Improved] /statusは、ターンが終了するまでキューに入れられるのではなく、Claudeが応答中でも機能するようになりました。\n- [Improved] 組織によって管理されているコネクタと重複するプラグインMCPサーバーは、2番目の接続を実行する代わりに抑制されるようになりました。\n- [Improved] Linux: claude-cli://プロトコルハンドラを登録する際にXDG_DATA_HOMEを尊重するようになりました。\n- [Changed] 「すべてのバックグラウンドエージェントを停止」のキーバインディングをCtrl+FからCtrl+X Ctrl+Kに変更し、readline forward-charとの重複を解消しました。\n- [Changed] TaskOutputツールは、バックグラウンドタスクの出力ファイルパスでReadを使用することを推奨するため、非推奨になりました。\n- [Fixed] [VSCode] バックエンドが60秒間応答しない場合、スピナーが赤くなり「Not responding」と表示されるようになりました。\n- [Fixed] [VSCode] URL経由または再起動後にセッションを再度開いたときに、セッション履歴が正しくロードされない問題を修正しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- [Megathread] The App Pile - 2026年3月/4月版\n  https://www.reddit.com/r/macapps/comments/1rybab4/megathread_the_app_pile_marchapril_2026/\n- r/MacAppsのモデレーターはやりすぎた！変更点（フェーズ3）\n  https://www.reddit.com/r/macapps/comments/1ryaeex/rmacapps_mods_went_too_far_whats_changing_phase_3/\n- Actions 4 — ショートカットアプリを強化する180以上のアクションが追加\n  https://www.reddit.com/r/macapps/comments/1s36znh/actions_4_now_180_actions_to_elevate_the/\n- Quitty — アプリを完全に終了させる（隠れたプロセスなし）無料のオープンソースmacOSアプリ\n  https://www.reddit.com/r/macapps/comments/1s36sfr/quitty_a_free_opensource_macos_app_to_properly/\n- Macの3Dモデルビューアに不満があったので、自作しました — 無料、ネイティブ、12MB\n  https://www.reddit.com/r/macapps/comments/1s3l3zz/i_got_tired_of_bad_3d_model_viewers_on_mac_so_i/\n- ここで紹介するツールを使った10の小さな自動化Tweak\n  https://www.reddit.com/r/macapps/comments/1s3m7yz/10_small_automation_tweaks_using_the_tools_we/\n- 1ヶ月前に初のMacアプリをリリース、今日では33人にご利用いただいています🥹 そしてScreenSorts v1.1\n  https://www.reddit.com/r/macapps/comments/1s3euwo/a_month_ago_i_launched_my_first_mac_app_and_today/\n- このサブを「トップ」と「今年」でソートすると、見逃していた宝物が見つかるかもしれません\n  https://www.reddit.com/r/macapps/comments/1s36p70/sort_this_sub_by_top_and_this_year_and_youll_find/\n- [OS] EdgeMark - SideNotesの代替アプリ\n  https://www.reddit.com/r/macapps/comments/1s3dirf/os_edgemark_alternative_to_sidenotes/\n- CalibreのUIに泣き、Apple BooksがEPUB3を無視するので、ネイティブのmacOS/iOS電子書籍リーダーを作りました\n  https://www.reddit.com/r/macapps/comments/1s2jy1f/i_built_a_native_macosios_ebook_reader_because/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-26"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- Reddit、サブReddit向けに新たな人間認証システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackersのサブReddit、品質向上のため新ルールを導入\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- ソロプレナー向けプロダクト代替案の構築を検討中？\n  https://www.reddit.com/r/indiehackers/comments/1s3htak/building_product_alternatives_for_solopreneurs/\n- プレシード期の創業者が24時間でブランドを危機に瀕させた理由\n  https://www.reddit.com/r/indiehackers/comments/1s3dabv/preseed_founders_almost_killed_their_brand_in_24/\n- 今週、短期スピードネットワーキングコールに参加しませんか？（開発者・創業者限定）\n  https://www.reddit.com/r/indiehackers/comments/1s2etuu/anyone_up_for_a_quick_speed_networking_call_this/\n- 最初のユーザー5人を獲得した方法\n  https://www.reddit.com/r/indiehackers/comments/1s1fp4n/how_i_got_my_5_first_users/\n- 18歳、資金なし、Contralをリリース\n  https://www.reddit.com/r/indiehackers/comments/1rzlp3d/18_no_funding_we_shipped_contral_is_live/\n- 金曜シェア熱！あなたのプロジェクトをシェアしよう\n  https://www.reddit.com/r/indiehackers/comments/1rysu19/friday_share_fever_lets_share_your_project/\n- 文字通り海上からスタートアップを立ち上げる方法\n  https://www.reddit.com/r/indiehackers/comments/1rys0vg/bootstrapping_my_startup_literally_at_sea/\n- 無料トライアルのため毎回新規アカウントを作成するユーザーへの対処法\n  https://www.reddit.com/r/indiehackers/comments/1rxzlek/dealing_with_users_who_creates_a_new_account_each/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-26"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- 利用制限、バグ、パフォーマンスに関する議論の集中スレッド（2025年12月29日開始）\n  https://www.reddit.com/r/ClaudeAI/comments/1pygdbz/usage_limits_bugs_and_performance_discussion/\n- Claude Codeにオートモードが登場\n  https://www.reddit.com/r/ClaudeAI/comments/1s2ok85/claude_code_now_has_auto_mode/\n- Claudeの最新アップデートがすごい\n  https://www.reddit.com/r/ClaudeAI/comments/1s37yiy/this_new_claude_update_is_crazy/\n- 「Hey」と言っただけで利用制限の22%を消費\n  https://www.reddit.com/r/ClaudeAI/comments/1s3hh29/saying_hey_cost_me_22_of_my_usage_limits/\n- 一体どうなってるんだ？\n  https://www.reddit.com/r/ClaudeAI/comments/1s30ilh/wtaf/\n- これは非常に役立つ、もっと多くの機能を追加してほしい\n  https://www.reddit.com/r/ClaudeAI/comments/1s39fxd/this_so_helpful_i_hope_they_add_more_things/\n- プロンプト3〜4回でトークン切れ、効率的な使い方のアドバイスをください\n  https://www.reddit.com/r/ClaudeAI/comments/1s3dw1w/im_out_of_tokens_with_just_34_prompts_need_advice/\n- Claudeのステータス更新：claude.aiでエラー発生（2026-03-25T13:45:25.000Z）\n  https://www.reddit.com/r/ClaudeAI/comments/1s3b9fi/claude_status_update_elevated_errors_on_claudeai/\n- Claude Codeの利用制限は減っていない — 1Mコンテキストウィンドウが消費しているのかも\n  https://www.reddit.com/r/ClaudeAI/comments/1s3bcit/your_claude_code_limits_didnt_shrink_i_think_the/\n- Claudeのステータス更新：claude.aiでエラー発生（2026-03-25T13:52:44.000Z）\n  https://www.reddit.com/r/ClaudeAI/comments/1s3bd5y/claude_status_update_elevated_errors_on_claudeai/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-26"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1198pt] Wine 11、カーネルレベルのWindowsゲーム実行を刷新し大幅な速度向上を実現 | Wineへの高い評価と、Steamでのオープンソースプロジェクトへの寄付を求める声。大幅な速度向上に興奮する声と、ベンチマークの結果に対する懐疑的な意見がある。\n  https://news.ycombinator.com/item?id=47507150\n- [1048pt] Soraとの別れ | Soraがもたらした喜びと創造性の高さを評価する一方、OpenAIの製品方針やSora自体のコンセプトに疑問を抱く声も。\n  https://news.ycombinator.com/item?id=47508246\n- [1011pt] MicrosoftによるWindows 11の「修正」 | Microsoftがユーザーに不満を与える方針を繰り返しているとの指摘。Windows 11のタスクバーに関する不満など、様々な批判が寄せられている。\n  https://news.ycombinator.com/item?id=47500335\n- [891pt] Tell HN: PyPI上のLitellm 1.82.7および1.82.8が侵害される | Litellm開発者からの状況説明。依存関係や開発環境の信頼性への懸念、セキュリティツールの紹介、最近のサイバー攻撃との関連が議論されている。\n  https://news.ycombinator.com/item?id=47501426\n- [730pt] litellm 1.82.8 PyPIパッケージ内の悪意あるlitellm_init.pth – 認証情報窃取 | コメントは別のスレッドに移動した。\n  https://news.ycombinator.com/item?id=47501729\n- [716pt] Apple Business | Apple Business Managerの設定が複雑で、中小企業にはハードルが高いとの意見がある。一方、サービス拡充への期待や、小規模企業向けの潜在的な利点を指摘する声も。\n  https://news.ycombinator.com/item?id=47504112\n- [706pt] AIに関する議論に飽きた人はいる？ | AIの活用には深く学ぶ必要があるという意見と、AIへの疲弊感を訴える声が多数。AIが人間の創造性を阻害する可能性への懸念も。\n  https://news.ycombinator.com/item?id=47508745\n- [668pt] Claude Codeチートシート | Claude Codeのチートシートの有用性への評価。CLIツールの改善点や、チートシートの鮮度に関する疑問、VS Code拡張機能への移行が話題に。\n  https://news.ycombinator.com/item?id=47495527\n- [597pt] Show HN: 16年ぶりにVideo.jsを取り戻し、88%小型化して再構築 | Video.jsの新規ユーザーからの質問。サイトデザイン、バンドルサイズ削減の意義、オーディオプレイヤーとしての機能ギャップ、動画配信の技術的な疑問が議論されている。\n  https://news.ycombinator.com/item?id=47506713\n- [533pt] トランプ大統領の投稿を前に原油取引に謎の急増、監視の対象に | 謎というほどではないとの意見が多い。事前に情報が漏洩した可能性や、今後の市場の動きを予測するコメントが寄せられている。\n  https://news.ycombinator.com/item?id=47504060",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-03-26"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "11 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Google、新AIメモリ圧縮アルゴリズム「TurboQuant」を発表──ネットは早くも「Pied Piper」と命名\n  https://techcrunch.com/2026/03/25/google-turboquant-ai-memory-compression-silicon-valley-pied-piper/\n- メラニア・トランプ、子どもの家庭教師にロボットを希望\n  https://techcrunch.com/2026/03/25/melania-trump-wants-a-robot-to-homeschool-your-child/\n- GLP-1ブームに乗るVITL、750万ドル調達し自費診療クリニックの処方システムを刷新へ\n  https://techcrunch.com/2026/03/25/riding-the-glp-1-boom-vitl-lands-7-5m-to-overhaul-cash-pay-clinic-prescribing/\n- バーニー・サンダースとAOC、データセンター建設禁止を提案\n  https://techcrunch.com/2026/03/25/bernie-sanders-and-aoc-propose-a-ban-on-data-center-construction/\n- Google、音楽生成モデル「Lyria 3 Pro」をリリース\n  https://techcrunch.com/2026/03/25/google-launches-lyria-3-pro-music-generation-model/\n- Reddit、不審な行動に「人間認証」義務付けでボット対策を強化\n  https://techcrunch.com/2026/03/25/reddit-bots-new-human-verification-requirements/\n- ソープオペラとTikTokの融合が10億ドル規模のビジネスになった背景\n  https://techcrunch.com/video/how-soap-opera-tiktok-hybrids-became-a-billion-dollar-business/\n- Harvey、評価額110億ドルを確定──Sequoiaが3倍の追加出資\n  https://techcrunch.com/2026/03/25/harvey-confirms-11b-valuation-sequoia-triples-down/\n- Granola、会議議事録作成からエンタープライズAIアプリへ拡大し1億2500万ドル調達、評価額15億ドルに\n  https://techcrunch.com/2026/03/25/granola-raises-125m-hits-1-5b-valuation-as-it-expands-from-meeting-notetaker-to-enterprise-ai-app/\n- Meta、起業家支援とAI導入促進の新イニシアティブを開始\n  https://techcrunch.com/2026/03/25/meta-launches-new-initiative-to-support-entrepreneurship-drive-ai-adoption/\n- Meta、InstagramとFacebookでのショッピング体験をAIで向上\n  https://techcrunch.com/2026/03/25/meta-turns-to-ai-to-make-shopping-easier-on-instagram-and-facebook/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-03-26"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- CronBox：AIエージェントがクラウドでスケジュール実行\n  https://www.producthunt.com/products/cronbox-2\n- Descent：予算を設定、航空券が安くなったら通知\n  https://www.producthunt.com/products/descent-2\n- Agentplace AI Agents：AIエージェントを特定タスクやワークフロー向けに作成\n  https://www.producthunt.com/products/agentplace\n- Flowershow：Markdownを美しいウェブサイトとして瞬時に公開\n  https://www.producthunt.com/products/flowershow\n- 3Flow AI：製品デザイン向け画像・3Dモデル生成AI\n  https://www.producthunt.com/products/3flow\n- Axra：新興国市場向けステーブルコイン特化型AIグローバルバンキング\n  https://www.producthunt.com/products/axra\n- LayerProof Matte：ソーシャルメディア投稿をフォーマットごとに独自コンテンツで再利用\n  https://www.producthunt.com/products/layerproof-social-content-generation\n- Splitsense：トラフィックを寝ている間に収益に変えるAI\n  https://www.producthunt.com/products/splitsense\n- Basedash Insights：日次インサイトを提供する完全自動データ分析エージェント\n  https://www.producthunt.com/products/basedash\n- agumbe.dev：Kubernetes上でアプリ構築・実行できるAIワークスペース\n  https://www.producthunt.com/products/agumbe-dev",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-03-26"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "3 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Alchemy、ライフサイエンス向けAI画像分析ツールを発表\n  https://www.alchemyai.dev/\n- Gojiberry AI、中小営業チーム向けGTM Brainを提供開始\n  https://www.gojiberry.ai\n- Prototyping.io、AIネイティブな機械製造プラットフォームをリリース\n  https://www.prototyping.io",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-03-26"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Apple's War on Slop",
+      "url": "https://www.latent.space/p/ainews-apples-war-on-slop",
+      "summary": "MicrosoftがAI2幹部を引き抜き、OpenAIのSoraが終了し、LiteLLMが大規模なサプライチェーン脆弱性を露呈するなど、AI業界で大きな動きがあった。",
+      "publishedAt": "2026-03-25",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!QXAa!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72bc7ca8-9c2b-4fc8-a615-0d3210287f22_1190x1682.png"
+    }
+  ]
+}
