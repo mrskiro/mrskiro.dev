@@ -1,0 +1,93 @@
+{
+  "fetchedAt": "2026-03-26T21:20:29.530Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.84",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.84",
+      "summary": "- [Added] Windows向けPowerShellツールがオプションプレビューとして追加されました。\n- [Added] ANTHROPIC_DEFAULT_{OPUS,SONNET,HAIKU}_MODEL_SUPPORTS環境変数が追加され、3p（Bedrock, Vertex, Foundry）の固定デフォルトモデルにおける思考能力検出をオーバーライドできるようになりました。また、_MODEL_NAME/_DESCRIPTIONにより、/modelピッカーのラベルをカスタマイズできます。\n- [Added] CLAUDE_STREAM_IDLE_TIMEOUT_MS環境変数が追加され、ストリーミングアイドル監視のしきい値（デフォルト90秒）を設定できるようになりました。\n- [Added] TaskCreate経由でタスクが作成されたときに発火するTaskCreatedフックが追加されました。\n- [Added] WorktreeCreateフックで`type: \"http\"`がサポートされ、レスポンスJSONの`hookSpecificOutput.worktreePath`で作成されたworktreeパスを返せるようになりました。\n- [Added] チーム/エンタープライズ管理者向けに、チャネルプラグインの許可リストを定義するための`allowedChannelPlugins`管理設定が追加されました。\n- [Added] APIリクエストに`x-client-request-id`ヘッダーが追加され、タイムアウトのデバッグに利用できるようになりました。\n- [Added] アイドル状態から復帰したユーザー（75分以上経過）に対し、/clearを促す`idle-return`プロンプトが追加され、古いセッションでの不要なトークン再キャッシュが削減されます。\n- [Changed] ディープリンク（claude-cli://）が、検出リストで最初に表示されるターミナルではなく、ユーザーが設定した優先ターミナルで開くようになりました。\n- [Improved] ルールとスキルのパスのフロントマターで、YAML形式のグロブのリストを受け入れるようになりました。\n- [Improved] MCPツールの説明とサーバー命令が2KBに制限され、OpenAPI生成サーバーがコンテキストを肥大化させるのを防ぎます。\n- [Improved] ローカルとclaude.aiコネクタの両方で設定されたMCPサーバーが重複排除されるようになりました（ローカル設定が優先されます）。\n- [Improved] インタラクティブなプロンプトで停止しているように見えるバックグラウンドのbashタスクが、約45秒後に通知を表示するようになりました。\n- [Improved] 100万以上のトークン数が「1512.6k」ではなく「1.5m」と表示されるようになりました。\n- [Improved] ToolSearchが有効な場合でもグローバルシステムプロンプトキャッシュが機能するようになり、MCPツールを設定しているユーザーにも適用されます。\n- [Fixed] 音声プッシュトゥトークが修正され、音声キーを押し続けてもテキスト入力に文字が漏れることがなくなり、トランスクリプトが正しい位置に挿入されるようになりました。\n- [Fixed] フッター項目がフォーカスされているときに、上下の矢印キーが反応しない問題が修正されました。\n- [Fixed] マルチライン入力でCtrl+U（行頭まで削除）が、行境界で何も操作しない問題が修正され、繰り返しCtrl+Uを押すと複数行をクリアできるようになりました。\n- [Fixed] デフォルトのコードバインディング（例: \"ctrl+x ctrl+k\": null）をnullアンバインドしても、コード待機モードに入り、プレフィックスキーが解放されない問題が修正されました。\n- [Fixed] マウスクリックイベントによって、トランスクリプト検索入力にリテラルの「mouse」テキストが挿入される問題が修正されました。\n- [Fixed] 外側のセッションが`--json-schema`を使用し、サブエージェントもスキーマを指定している場合に、ワークフローサブエージェントがAPI 400で失敗する問題が修正されました。\n- [Fixed] 一部のターミナルで、ユーザーメッセージバブル内の特定の絵文字の背景色が欠落する問題が修正されました。\n- [Fixed] 「Claudeにこのセッションの設定を編集することを許可する」という権限オプションが、Edit(.claude)許可ルールを持つユーザーで保持されない問題が修正されました。\n- [Fixed] 大規模な編集ファイルの添付スニペットを生成する際のハングが修正されました。\n- [Fixed] サーバー再接続時のMCPツール/リソースキャッシュリークが修正されました。\n- [Fixed] 部分クローンリポジトリ（Scalar/GVFS）が大量のBLOBダウンロードをトリガーし、起動パフォーマンスの問題を引き起こす問題が修正されました。\n- [Fixed] ネイティブターミナルカーソルがテキスト入力のキャレットを追跡しない問題が修正され、IME入力（CJK入力）がインラインでレンダリングされ、スクリーンリーダーが入力位置を追跡できるようになりました。\n- [Fixed] 一時的なキーチェーン読み取りエラーが原因でmacOSで発生する誤った「Not logged in」エラーが修正されました。\n- [Fixed] コールドスタート時の競合状態が修正され、タイプ付きパラメータでEdit/WriteがInputValidationErrorで失敗する原因となっていた、コアツールがバイパスがアクティブでないまま遅延される問題が修正されました。\n- [Improved] Windowsドライブのルート（C:\\, C:\\Windowsなど）の危険な削除に対する検出が改善されました。\n- [Improved] スラッシュコマンドとエージェントの読み込みと並行してsetup()を実行することで、インタラクティブな起動が約30ミリ秒改善されました。\n- [Improved] MCPサーバーを使用するclaude \"prompt\"の起動が改善され、すべてのサーバーが接続するまでブロックされることなく、REPLがすぐにレンダリングされるようになりました。\n- [Improved] リモートコントロールが改善され、ブロックされている場合に一般的な「not yet enabled」メッセージではなく、具体的な理由を表示するようになりました。\n- [Improved] P90プロンプトキャッシュレートが改善されました。\n- [Improved] メッセージウィンドウが圧縮とグループ化の変更の影響を受けないようにすることで、長いセッションでのスクロールトップリセットが削減されました。\n- [Improved] アニメーションツールプログレスがビューポートの上にスクロールする際のターミナルのちらつきが軽減されました。\n- [Changed] issue/PR参照が、owner/repo#123のように書かれた場合にのみクリック可能なリンクになり、単なる#123は自動リンクされなくなりました。\n- [Changed] 現在の認証設定で利用できないスラッシュコマンド（/voice, /mobile, /chrome, /upgradeなど）が、表示されずに非表示になるようになりました。\n- [Added] [VSCode] 利用率とリセット時間を示すレート制限警告バナーが追加されました。\n- [Improved] 統計スクリーンショット（/statsでCtrl+S）がすべてのビルドで動作するようになり、16倍高速化されました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-03-26"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- 【まとめ】注目のアプリ - 2026年3月/4月\n  https://www.reddit.com/r/macapps/comments/1rybab4/megathread_the_app_pile_marchapril_2026/\n- r/MacAppsのモデレーターが行き過ぎた行動に！何が変わるのか（フェーズ3）\n  https://www.reddit.com/r/macapps/comments/1ryaeex/rmacapps_mods_went_too_far_whats_changing_phase_3/\n- ScrollPodsの最新情報：Apple製ヘッドホンでMacをハンズフリー操作する新しい方法\n  https://www.reddit.com/r/macapps/comments/1s47oq5/update_on_scrollpods_a_new_way_to_scroll_your_mac/\n- 主要なMac向けAI音声入力アプリを1ヶ月間試用し、所感をまとめました\n  https://www.reddit.com/r/macapps/comments/1s4bnra/i_tested_the_top_mac_ai_dictation_apps_for_a/\n- 3つのモニターを常に整理するのに疲れて、GTA風スナップホイールを備えたワークスペースマネージャーを開発しました — 独自のAIを統合すればウィンドウを自動でワークスペースに分類します\n  https://www.reddit.com/r/macapps/comments/1s4cswb/i_got_tired_of_playing_desktop_janitor_across_3/\n- Apple、Launchpad代替MacアプリのApp Store更新をブロック\n  https://www.reddit.com/r/macapps/comments/1s3wo5l/apple_blocks_app_store_updates_for_mac_app/\n- MonthBar – 月間進捗を表示する無料のメニューバーアプリ（円グラフまたはパーセンテージ）\n  https://www.reddit.com/r/macapps/comments/1s48x0e/monthbar_free_menubar_app_that_shows_your_monthly/\n- 【無料】重複・不良写真を削除するシンプルなMacアプリ（完全オフライン）\n  https://www.reddit.com/r/macapps/comments/1s3raaw/free_simple_mac_app_to_clean_duplicate_bad_photos/\n- 隣人を覗き見 - 見逃した残りの宝物を見つけるために\n  https://www.reddit.com/r/macapps/comments/1s4jghp/peeping_at_the_neighbors_to_find_the_remaining/\n- Macの3Dモデルビューアの質の悪さにうんざりし、自作しました - 無料、ネイティブ、12MB\n  https://www.reddit.com/r/macapps/comments/1s3l3zz/i_got_tired_of_bad_3d_model_viewers_on_mac_so_i/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-27"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- 当社のサブレディットに新しい人間認証システムを導入！\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackersサブレディットの新規ルール - 品質向上を目指して\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- 最近、密かに開発している人が他にいるか気になっています\n  https://www.reddit.com/r/indiehackers/comments/1s441am/curious_if_anyone_else_here_is_feeling_the_same/\n- ソロ開発したAIアプリをProduct Huntで公開しました - 率直なフィードバックを求む\n  https://www.reddit.com/r/indiehackers/comments/1s49qnl/just_launched_my_ai_app_on_product_hunt_after/\n- スタートアップのウェブサイトを見せてください。実用的なフィードバックを提供します\n  https://www.reddit.com/r/indiehackers/comments/1s4hwkg/show_me_your_startup_website_and_ill_give_you/\n- ソロプレナー向けの製品代替品を開発していますか？\n  https://www.reddit.com/r/indiehackers/comments/1s3htak/building_product_alternatives_for_solopreneurs/\n- シード前の創業者が24時間でブランドを危機に晒した事例\n  https://www.reddit.com/r/indiehackers/comments/1s3dabv/preseed_founders_almost_killed_their_brand_in_24/\n- 今週、短いスピードネットワーキングコールに参加しませんか？（開発者・創業者限定）\n  https://www.reddit.com/r/indiehackers/comments/1s2etuu/anyone_up_for_a_quick_speed_networking_call_this/\n- 最初の5人のユーザーを獲得した方法\n  https://www.reddit.com/r/indiehackers/comments/1s1fp4n/how_i_got_my_5_first_users/\n- 18歳、資金なし、出荷完了。Contralがリリース。\n  https://www.reddit.com/r/indiehackers/comments/1rzlp3d/18_no_funding_we_shipped_contral_is_live/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-27"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- 【議論】利用制限、バグ、パフォーマンスに関する総合スレッド - 2025年12月29日開始\n  https://www.reddit.com/r/ClaudeAI/comments/1pygdbz/usage_limits_bugs_and_performance_discussion/\n- Claude Codeにオートモードを搭載\n  https://www.reddit.com/r/ClaudeAI/comments/1s2ok85/claude_code_now_has_auto_mode/\n- 25年間の謎、Claudeが一夜で解明：専門家が辿り着けなかった答え\n  https://www.reddit.com/r/ClaudeAI/comments/1s41fny/25_years_multiple_specialists_zero_answers_one/\n- セッション制限に関する最新情報\n  https://www.reddit.com/r/ClaudeAI/comments/1s4idaq/update_on_session_limits/\n- 世間の騒ぎを理解していなかった\n  https://www.reddit.com/r/ClaudeAI/comments/1s49c8u/i_did_not_know_what_the_fuss_was_about/\n- ClaudeにMacBook/macOSへのアクセスを許可する\n  https://www.reddit.com/r/ClaudeAI/comments/1s3ss8s/giving_claude_access_to_my_macbook_macos/\n- Golden Gate Claudeがルワンダ虐殺について語る\n  https://www.reddit.com/r/ClaudeAI/comments/1s46md2/golden_gate_claude_on_the_rwandan_genocide/\n- Claude CodeをMacBookで完全にオフライン実行 – APIキー、クラウド不要、タスクあたり17秒\n  https://www.reddit.com/r/ClaudeAI/comments/1s43b8w/running_claude_code_fully_offline_on_a_macbook_no/\n- Claudeが私を変えた\n  https://www.reddit.com/r/ClaudeAI/comments/1s44wlj/claude_has_changed_me/\n- Claude AIが5時間の利用時間をバミューダトライアングルのように食い尽くす\n  https://www.reddit.com/r/ClaudeAI/comments/1s4dyb2/claude_ai_is_devouring_5hr_usage_like_bermuda/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-27"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1409pt] EUがプライベートメッセージや写真のスキャンを依然として要求 | プライバシー侵害への強い懸念と反対意見が多数寄せられています。\n  https://news.ycombinator.com/item?id=47522709\n- [1043pt] ペースダウンに関する考察 | AI開発におけるベンダーロックイン、AIによるコスト削減の実情、人間による作業範囲管理の重要性について議論されています。\n  https://news.ycombinator.com/item?id=47517539\n- [829pt] 事故車の部品を使ってテスラ Model 3のコンピューターをデスク上で動かす | テスラのルートアクセスプログラムや、事故車から部品を再利用する面白さ、LVDSケーブルの用途に関するコメントがあります。\n  https://news.ycombinator.com/item?id=47523330\n- [764pt] 個人の百科事典 | 日記や写真の物理的な保存、AIを利用した家族史の保存方法について様々な意見が交わされています。\n  https://news.ycombinator.com/item?id=47522173\n- [736pt] AIに関する議論に飽きている人はいるか？ | AIに関する議論疲れ、特に教育現場での混乱やAIの人間性への悪影響を懸念する声が多く見られます。\n  https://news.ycombinator.com/item?id=47508745\n- [614pt] スロベニア当局、投票操作でイスラエル企業Black Cubeを非難 | Black Cubeによる選挙介入の手口や、将来の選挙におけるより巧妙な介入の可能性についてコメントが寄せられています。\n  https://news.ycombinator.com/item?id=47519519\n- [580pt] 雑記：イランでの戦争 | 米政府内の少数のグループによる無敵感、石油輸送削減の思惑、イランとイラクの比較、ホルムズ海峡の通行料について議論されています。\n  https://news.ycombinator.com/item?id=47513229\n- [554pt] 不安定な空港 | フライト情報アプリの使い道、他のフライト情報サイト、UIデザインに関する意見、収益化の難しさについてコメントがあります。\n  https://news.ycombinator.com/item?id=47511589\n- [546pt] 欧州議会がチャットコントロール1.0の中止を決定 | 今回の勝利は喜ばしいが、今後の手続きや政府による追加措置の可能性を懸念する声があります。\n  https://news.ycombinator.com/item?id=47529646\n- [534pt] TurboQuant：極端な圧縮でAI効率を再定義 | KVキャッシュ圧縮の進展に注目が集まる一方、技術解説の分かりにくさを指摘するコメントが多数見られます。\n  https://news.ycombinator.com/item?id=47513475",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-03-27"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "15 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- YC W26デモデーで見つけた注目のスタートアップ16選\n  https://techcrunch.com/2026/03/26/16-of-the-most-interesting-startups-from-yc-w26-demo-day/\n- Google翻訳のリアルタイム音声翻訳、iOSと複数国に対応拡大\n  https://techcrunch.com/2026/03/26/google-translates-real-time-headphone-translations-feature-expands-to-ios-and-more-countries/\n- OpenAI、またしても傍流プロジェクトを中止：ChatGPTの「官能モード」を放棄\n  https://techcrunch.com/2026/03/26/openai-abandons-yet-another-side-quest-chatgpts-erotic-mode/\n- データセンターは準備を：上院が電力請求書を要求\n  https://techcrunch.com/2026/03/26/data-centers-get-ready-the-senate-wants-to-see-your-power-bills/\n- 防衛スタートアップShield AI、米空軍との契約で評価額127億ドル（140%増）に到達\n  https://techcrunch.com/2026/03/26/defense-startup-shield-ai-lands-12-7b-valuation-up-140-after-u-s-air-force-deal/\n- Google、「Search Live」をグローバル展開へ\n  https://techcrunch.com/2026/03/26/google-is-launching-search-live-globally/\n- シリコンバレー二大ドラマが交錯：LiteLLMとDelve\n  https://techcrunch.com/2026/03/26/delve-did-the-security-compliance-on-litellm-an-ai-project-hit-by-malware/\n- ByteDanceの新作AI動画生成モデル「Dreamina Seedance 2.0」、CapCutに登場\n  https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/\n- 「変わり者」を雇うとうまくいく理由\n  https://techcrunch.com/2026/03/26/why-hiring-the-weirdos-works/\n- Conntour、General CatalystとYCから700万ドル調達、防犯カメラ向けAI検索エンジンを開発へ\n  https://techcrunch.com/2026/03/26/conntour-raises-7m-from-general-catalyst-yc-to-build-an-ai-search-engine-for-security-video-systems/\n- Cohere、文字起こし特化のオープンソース音声モデルを発表\n  https://techcrunch.com/2026/03/26/cohere-launches-an-open-source-voice-model-specifically-for-transcription/\n- WhatsApp、会話内容に基づいたAI生成の返信作成が可能に\n  https://techcrunch.com/2026/03/26/whatsapp-can-now-draft-ai-generated-responses-based-on-your-conversations/\n- データセンターから「生贄を」：AIによる失業へのある上院議員の回答\n  https://techcrunch.com/2026/03/26/a-pound-of-flesh-from-data-centers-one-senators-answer-to-ai-job-losses/\n- Mistral、音声生成向けの新オープンソースモデルをリリース\n  https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation/\n- Manusの物語で最も予想通りだった章が今、まさに展開中\n  https://techcrunch.com/2026/03/25/the-least-surprising-chapter-of-the-manus-story-is-whats-happening-right-now/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-03-27"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Fragments: March 26",
+      "url": "https://martinfowler.com/fragments/2026-03-26.html",
+      "summary": "Anthropicが8万人のユーザーを対象にAIに関する意識調査を行い、AIに対する価値観や期待・懸念が地域によって異なることが判明。",
+      "publishedAt": "2026-03-27",
+      "ogImage": "https://martinfowler.com/logo-sq.png"
+    },
+    {
+      "sourceName": "laiso",
+      "title": "Claude CodeにOpenAIのサイトを読んでもらうには？",
+      "url": "https://blog.lai.so/cc-avoid-403/",
+      "summary": "Claude CodeのWebFetchがOpenAIなどのサイトで403エラーとなる原因は、Cloudflareのボット管理ルールにUser-Agentがブロックされるためであり、CLAUDE.mdでcurlフォールバックを設定すれば回避できる。",
+      "publishedAt": "2026-03-26",
+      "ogImage": null
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- StreamPad：iPhone/iPadをプロ仕様のスタジオコントロールデッキに変身\n  https://www.producthunt.com/products/streampad\n- Playcode：10年の開発期間を経て誕生した、世界最高のAIウェブサイトビルダー\n  https://www.producthunt.com/products/playcode-javascript-sandbox-playground\n- Replay: Life Timeline：これまでの道のりを視覚化するタイムラインアプリ\n  https://www.producthunt.com/products/replay-ios-app\n- Venn.ai：安全対策を施したAIエージェントに実務を委任\n  https://www.producthunt.com/products/venn-ai-2\n- Eron：自分専用のAIを動かすためのポータブルOllamaインスタンス\n  https://www.producthunt.com/products/eron\n- Luzo：APIワークフローを視覚的に設計・デバッグ\n  https://www.producthunt.com/products/luzo\n- Douzo：JLPTレベル別の無料日本語タイピング練習アプリ\n  https://www.producthunt.com/products/douzo\n- Littlebird：あなたの仕事をすでに理解しているAIアシスタント\n  https://www.producthunt.com/products/littlebird\n- YouTube Transcript Tool：YouTube動画を瞬時にテキスト変換\n  https://www.producthunt.com/products/youtube-transcript-tool-2\n- MacNotch：MacBookのノッチをモジュラーダッシュボードに活用\n  https://www.producthunt.com/products/macnotch-the-notch-reimagined",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-03-27"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "4 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- BioStack Platforms：医療AIモデル向け実用トレーニング環境を提供\n  https://www.getbiostack.com/\n- Maquoketa Research：自律型ワンウェイ攻撃ドローンを発表\n  https://www.maquoketa.net\n- Sazabi：高成長エンジニアリングチーム向けAIネイティブな可観測性プラットフォーム\n  https://www.sazabi.com/\n- InventoryQuant：保険業界の在庫プロセスを自動化\n  https://www.inventoryquant.com",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-03-27"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] The Biggest Claude Launch of All Time",
+      "url": "https://www.latent.space/p/ainews-the-biggest-claude-launch",
+      "summary": "Claudeの新しい機能「Cowork Dispatch Computer Use」が過去最大の反響を呼んでいる。",
+      "publishedAt": "2026-03-26",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!yFgk!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6f346c8a-0223-4e5f-adc4-7b5c190beadf_1521x846.png"
+    }
+  ]
+}
