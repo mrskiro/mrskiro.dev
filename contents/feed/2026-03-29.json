@@ -1,0 +1,77 @@
+{
+  "fetchedAt": "2026-03-28T21:18:32.653Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "STADLER reshapes knowledge work at a 230-year-old company",
+      "url": "https://openai.com/index/stadler",
+      "summary": "STADLER社はChatGPT活用で従業員650人のナレッジワークを効率化し、生産性向上と時間短縮を実現。",
+      "publishedAt": "2026-03-28",
+      "ogImage": null
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.86",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.86",
+      "summary": "- [Added] APIリクエストにX-Claude-Code-Session-Idヘッダーを追加し、プロキシがボディを解析せずにセッションごとにリクエストを集約できるようにしました。\n- [Added] GrepとファイルオートコンプリートがJujutsuまたはSaplingのメタデータに降りていかないように、VCSディレクトリ除外リストに.jjと.slを追加しました。\n- [Fixed] v2.1.85より前に作成されたセッションで、\"tool_use ids were found without tool_result blocks\"というエラーで--resumeが失敗する問題を修正しました。\n- [Fixed] 条件付きスキルまたはルールが設定されている場合、プロジェクトルート外のファイル（例：~/.claude/CLAUDE.md）でWrite/Edit/Readが失敗する問題を修正しました。\n- [Fixed] スキルが呼び出されるたびに不要な設定ディスク書き込みが発生し、Windowsでパフォーマンスの問題や設定破損を引き起こす可能性があった問題を修正しました。\n- [Fixed] 非常に長いセッションで大きなトランスクリプトファイルを使用している場合に、/feedbackを使用するとメモリ不足でクラッシュする可能性があった問題を修正しました。\n- [Fixed] --bareモードがインタラクティブセッションでMCPツールをドロップし、ターン中にキューに入れられたメッセージをサイレントに破棄する問題を修正しました。\n- [Fixed] cショートカットがOAuthログインURLの約20文字しかコピーせず、完全なURLをコピーしない問題を修正しました。\n- [Fixed] 狭いターミナルで複数行にわたって折り返される場合、マスクされた入力（例：OAuthコードのペースト）がトークンの開始部分を漏洩する問題を修正しました。\n- [Fixed] v2.1.83以降、macOS/Linuxで公式マーケットプレイスプラグインスクリプトが\"Permission denied\"エラーで失敗する問題を修正しました。\n- [Fixed] 複数のClaude Codeインスタンスを実行し、そのうちの1つで/modelを使用した場合に、ステータスラインに別のセッションのモデルが表示される問題を修正しました。\n- [Fixed] 長い会話の下部でホイールスクロールまたはクリック選択した後に、スクロールが新しいメッセージを追跡しない問題を修正しました。\n- [Fixed] /plugin uninstallダイアログで、nを押すとプラグインのデータディレクトリを保持したまま正しくアンインストールされるように修正しました。\n- [Fixed] クリック後にEnterキーを押すと、応答が到着するまでトランスクリプトが空白になる回帰を修正しました。\n- [Fixed] キーワードを削除した後もultrathinkヒントが残る問題を修正しました。\n- [Fixed] Markdown/ハイライトレンダーキャッシュが完全なコンテンツ文字列を保持することにより、長いセッションでのメモリ増加を修正しました。\n- [Improved] 多くのclaude.ai MCPコネクタが設定されている場合の起動時のイベントループの停止を減らしました（macOSキーチェーンキャッシュを5秒から30秒に延長）。\n- [Improved] @でファイルを言及する際のトークンオーバーヘッドを削減しました。生の文字列コンテンツはJSONエスケープされなくなりました。\n- [Improved] ツール説明から動的なコンテンツを削除することで、Bedrock、Vertex、Foundryユーザーのプロンプトキャッシュヒット率を向上させました。\n- [Improved] \"Saved N memories\"通知内のメモリーファイル名が、ホバー時にハイライトされ、クリックで開くようになりました。\n- [Improved] /skillsリストのスキル説明が、コンテキスト使用量を削減するために250文字に制限されるようになりました。\n- [Changed] /skillsメニューが、検索しやすくするためにアルファベット順にソートされるようになりました。\n- [Changed] 自動モードがプラン制限によって無効になっている場合、「一時的に利用できません」から「お使いのプランでは利用できません」と表示されるようになりました。\n- [Fixed] [VSCode] 長時間実行される操作中に拡張機能が「応答していません」と誤って表示される問題を修正しました。\n- [Fixed] [VSCode] OAuthトークンが更新された後（ログインから8時間後）、拡張機能がMaxプランユーザーをSonnetにデフォルト設定する問題を修正しました。\n- [Improved] Readツールがコンパクトな行番号形式を使用し、変更されていない再読み込みを重複排除することで、トークン使用量を削減するようになりました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-03-28"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- [メガ・スレッド] App Pile - 2026年3月/4月\n  https://www.reddit.com/r/macapps/comments/1rybab4/megathread_the_app_pile_marchapril_2026/\n- r/MacAppsのモデレーターが行き過ぎた対応 - 今後変更されること（フェーズ3）\n  https://www.reddit.com/r/macapps/comments/1ryaeex/rmacapps_mods_went_too_far_whats_changing_phase_3/\n- [OS] TypeWhisper 1.0 - 音声認識エンジン切り替え可能な無料オープンソースの音声入力アプリ\n  https://www.reddit.com/r/macapps/comments/1s5xot8/os_typewhisper_10_free_opensource_dictation_app/\n- アプリのウェブサイトやユーザーとのコミュニケーションを重視していますか？\n  https://www.reddit.com/r/macapps/comments/1s677re/do_you_care_much_about_your_apps_website_and/\n- F-captions: iPhone/Mac向け公正なキャプション生成アプリ（プロモーションコードあり！）\n  https://www.reddit.com/r/macapps/comments/1s5yj8w/fcaptions_fair_caption_generator_app_for_your/\n- macOSには真のネイティブ生産性レイヤーがないからDroppyを作った\n  https://www.reddit.com/r/macapps/comments/1s553nj/i_built_droppy_because_macos_lacks_a_real_native/\n- ブラウザのCookieを削除/ホワイトリスト登録するアプリのおすすめは？\n  https://www.reddit.com/r/macapps/comments/1s69hmg/suggestions_for_an_app_that_deleteswhitelists/\n- [iOS][macOS][watchOS] Timix — SharePlayタイマー＆自動化スタイルカウントダウン\n  https://www.reddit.com/r/macapps/comments/1s6285h/iosmacoswatchos_timix_shareplay_timers/\n- 初のmacOSアプリ「Wallspace」を開発 - 3ヶ月で1.5万ユーザーを獲得\n  https://www.reddit.com/r/macapps/comments/1s4qlu4/i_built_wallspace_my_first_macos_app_15k_users_in/\n- [macOS] Bounce Connect - AndroidスマートフォンをMacのワークフローに統合\n  https://www.reddit.com/r/macapps/comments/1s54ip3/macos_bounce_connect_bring_your_android_phone/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-29"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- Redditコミュニティに本人確認システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackers subredditの新規ルール―質の向上を目指して\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- アプリを刷新したらユーザー数が減少、何が問題なのか\n  https://www.reddit.com/r/indiehackers/comments/1s66psj/i_changed_everything_about_my_apps_and_the/\n- Appleエコシステム向けアプリの最適な配信チャネル\n  https://www.reddit.com/r/indiehackers/comments/1s5fe1i/best_distribution_channels_for_an_apple_ecosystem/\n- 金曜シェア熱！あなたのプロジェクトを共有しよう！\n  https://www.reddit.com/r/indiehackers/comments/1s4y9rw/friday_share_fever_lets_share_your_project/\n- 個人ブランディングが停滞した地域アプリを過去最高の成果に導いた\n  https://www.reddit.com/r/indiehackers/comments/1s4zn8z/personal_branding_turned_our_stagnant_local_app/\n- スタートアップのウェブサイトを見せてください、実用的なフィードバックを提供します\n  https://www.reddit.com/r/indiehackers/comments/1s4hwkg/show_me_your_startup_website_and_ill_give_you/\n- ソロで開発したAIアプリをProduct Huntで公開。率直なフィードバックを求む\n  https://www.reddit.com/r/indiehackers/comments/1s49qnl/just_launched_my_ai_app_on_product_hunt_after/\n- 最近、一人で開発しているような孤独感を感じている人いますか？\n  https://www.reddit.com/r/indiehackers/comments/1s441am/curious_if_anyone_else_here_is_feeling_the_same/\n- ソロプレナー向けに製品の代替案を開発中？\n  https://www.reddit.com/r/indiehackers/comments/1s3htak/building_product_alternatives_for_solopreneurs/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-29"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- 【2025年12月29日開始】利用制限、バグ、パフォーマンスに関する議論総合スレッド\n  https://www.reddit.com/r/ClaudeAI/comments/1pygdbz/usage_limits_bugs_and_performance_discussion/\n- セッション制限に関する最新情報\n  https://www.reddit.com/r/ClaudeAI/comments/1s4idaq/update_on_session_limits/\n- AIモデルに「ガスライティング」してみたら、シンプルなプロンプト注入で驚くほど良い結果が出た\n  https://www.reddit.com/r/ClaudeAI/comments/1s5wp0g/ive_been_gaslighting_my_ai_models_and_its/\n- 毎日の上限に達した後、Claudeが手動でコードを書く私を眺めている\n  https://www.reddit.com/r/ClaudeAI/comments/1s5ok5r/claude_watching_me_write_code_manually_after_i/\n- なぜClaudeはこんなに言うことを聞かないのか\n  https://www.reddit.com/r/ClaudeAI/comments/1s5tzv2/why_is_claude_so_disobedient/\n- Anthropicへの公開書簡：ピーク時の計算リソースを解放したいなら、有料ユーザーを罰するのではなく、無料アカウントをオフピーク時間に制限してはどうか\n  https://www.reddit.com/r/ClaudeAI/comments/1s5nxwe/an_open_letter_to_anthropic_want_to_free_up/\n- コーディングの未来\n  https://www.reddit.com/r/ClaudeAI/comments/1s5wm7o/the_future_of_coding/\n- 何ヶ月もかけて専門的なエージェント学習システムを構築した。結局、再帰的な自己改善に必要なのはClaude Codeだけだった。\n  https://www.reddit.com/r/ClaudeAI/comments/1s63v75/i_spent_months_building_a_specialized_agent/\n- Claude Codeユーザーのためのプロのヒント10選\n  https://www.reddit.com/r/ClaudeAI/comments/1s65ymk/my_10_pro_tips_for_claude_code_users/\n- 月額200ドルのMaxプランで、一度もレート制限されたことがない。なぜ他の人が制限されるのか、数字で検証してみた。\n  https://www.reddit.com/r/ClaudeAI/comments/1s5r0hj/on_the_200_max_plan_and_never_been_rate_limited/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-03-29"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [729pt] Microsoft社内で強制的なMicrosoftアカウント廃止を求める動き | WindowsのMicrosoftアカウント強制に対する不満の声が多く、Linuxへ移行したユーザーもいる\n  https://news.ycombinator.com/item?id=47542695\n- [708pt] 4月24日までにオプトアウトしないとGitHubがプライベートリポジトリでトレーニングを開始（※見出しは不正確との指摘あり） | GitHubは記事の見出しが不正確だと指摘。Copilotのプライベートリポジトリとのインタラクションでトレーニングすると説明し、ユーザーは混乱している\n  https://news.ycombinator.com/item?id=47548243\n- [654pt] Gitリポジトリとしてのスペインの法律 | 法律のバージョン管理システム化というアイデアに多くの共感が寄せられ、他の国の事例も紹介されている\n  https://news.ycombinator.com/item?id=47553798\n- [650pt] AppleがMac Proの製造を中止 | Mac Proの製造中止により、オーディオプロフェッショナルなどのユーザーがLogicから離れる可能性が懸念されている\n  https://news.ycombinator.com/item?id=47535708\n- [635pt] ハードウェアを大切に | 半導体不足は一時的という意見や、ソフトウェアの肥大化を問題視する声がある\n  https://news.ycombinator.com/item?id=47540833\n- [586pt] .claude/フォルダの解剖 | AIエージェントの構築が過度に複雑化しているという批判が多く、シンプルな設定で最良の結果が得られるという意見も\n  https://news.ycombinator.com/item?id=47543139\n- [569pt] 「書類の洪水」：私が役人を夕食前に追い詰めた方法 | 記事の内容について、政府職員個人ではなく制度の問題だと指摘する意見や、話の信憑性に疑問を呈する声がある\n  https://news.ycombinator.com/item?id=47542057\n- [556pt] エージェントには厳しく、ファイルシステムには優しく | AIエージェントをプライベートマシンに簡単にインストールすることへの懸念が表明されており、サンドボックス化の重要性が議論されている\n  https://news.ycombinator.com/item?id=47550282\n- [509pt] 皮肉抜きでmacOSを徹底的に悪くする | macOSのUIの一貫性のなさやバグに対する不満が噴出しており、以前のAppleと比較して品質低下を指摘する声も\n  https://news.ycombinator.com/item?id=47547009\n- [442pt] AIが個人的なアドバイスを求めるユーザーに対し、過度に肯定的な反応を示す | AIがユーザーの個人的な悩みに過度に肯定的であることに対し、特定のモデルがテストされていないという指摘や、ロールプレイとしてのAIの性質を指摘する意見がある\n  https://news.ycombinator.com/item?id=47554773",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-03-29"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "5 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- AIチャットボットに個人的な助言を求める危険性、Stanford大学が研究で警告\n  https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/\n- Elon Musk氏最後の共同創業者もxAIを退社か\n  https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/\n- AnthropicのClaude、有料ユーザーからの人気が急上昇\n  https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/\n- 月面ホテルから牛の放牧まで：YC Demo Dayで投資家が注目したスタートアップ8選\n  https://techcrunch.com/2026/03/28/from-moon-hotels-to-cattle-herding-8-startups-investors-chased-at-yc-demo-day/\n- SoftBankが新たな400億ドルの融資契約、OpenAIの2026年IPOを示唆か\n  https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-03-29"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- WordPress Studio CLI：独立したCLIツールが登場\n  https://www.producthunt.com/products/wordpress-studio-cli\n- DwellRecord：住宅関連記録を一元管理\n  https://www.producthunt.com/products/dwellrecord\n- Aera Browser：自動化に特化したブラウザ\n  https://www.producthunt.com/products/aera-browser\n- Crossnode：AIエージェントのコードを販売・課金\n  https://www.producthunt.com/products/crossnode\n- Cohere Transcribe：オープンソース音声認識の新たな最高水準\n  https://www.producthunt.com/products/cohere-2\n- Lexaclaw：OpenClawを基盤とするスタートアップ向け法務コンプライアンス\n  https://www.producthunt.com/products/lexaclaw\n- Bulk Exporter for Sora：Soraの動画、画像、プロンプトをワンクリックでバックアップ\n  https://www.producthunt.com/products/bulk-exporter-for-sora\n- Domscribe：AIコーディングエージェントが実行中のフロントエンドを視覚的に把握\n  https://www.producthunt.com/products/domscribe\n- Santana by Deep Softworks：ターミナルで高性能なリアルタイムデータ可視化を実現\n  https://www.producthunt.com/products/santana\n- Spokk：中小企業向けフィードバック、レビュー、ロイヤルティ、紹介プログラム\n  https://www.producthunt.com/products/spokk",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-03-29"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] H100 prices are melting *UP*",
+      "url": "https://www.latent.space/p/ainews-h100-prices-are-melting-up",
+      "summary": "H100のレンタル価格が以前より高騰し、Anthropicが新モデル「Capybara」を開発中との情報が漏洩、GLM-5.1はコーディング性能が向上し、TurboQuantとRotorQuantという新しい量子化技術が登場した。",
+      "publishedAt": "2026-03-28",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!vdCR!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fefae087a-e8bd-4623-adc9-e8ef80115faa_1096x1122.png"
+    }
+  ]
+}
