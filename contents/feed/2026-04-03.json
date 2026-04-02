@@ -1,0 +1,125 @@
+{
+  "fetchedAt": "2026-04-02T21:25:16.543Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "OpenAI acquires TBPN",
+      "url": "https://openai.com/index/openai-acquires-tbpn",
+      "summary": "OpenAIがAIに関する議論を加速させるため、独立系メディアのTBPNを買収。",
+      "publishedAt": "2026-04-02",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/1r6GrogaVsLY9VGAL871G6/9319636f74fa5a4d16d391476a6f85f1/Frame-1.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Codex now offers more flexible pricing for teams",
+      "url": "https://openai.com/index/codex-flexible-pricing-for-teams",
+      "summary": "ChatGPT BusinessとEnterprise向けに、使用量に応じた料金体系を導入。",
+      "publishedAt": "2026-04-02",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/3eC7r4XbfcRRygMKKbcr4p/8ae6d08d1d96945c8cf2035bcb76424d/Frame__2_.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.90",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.90",
+      "summary": "- [Added] /powerup を追加しました。これは、アニメーションデモでClaude Codeの機能を教えるインタラクティブなレッスンです。\n- [Added] git pull の失敗時に既存のmarketplaceキャッシュを保持するための環境変数 CLAUDE_CODE_PLUGIN_KEEP_MARKETPLACE_ON_FAILURE を追加しました。これはオフライン環境で役立ちます。\n- [Added] .husky を保護されたディレクトリ（acceptEditsモード）に追加しました。\n- [Fixed] レート制限オプションダイアログが使用制限に達した後に繰り返し自動的に開き、最終的にセッションをクラッシュさせる無限ループを修正しました。\n- [Fixed] --resume が、遅延ツール、MCPサーバー、またはカスタムエージェントを使用するユーザーに対して、最初のリクエストで完全なプロンプトキャッシュミスを引き起こす問題を修正しました（v2.1.69以降のデグレード）。\n- [Fixed] 連続した編集間に PostToolUse の format-on-save フックがファイルを書き換える際に、Edit/Write が「File content has changed」で失敗する問題を修正しました。\n- [Fixed] JSON を標準出力に出力し、コード2で終了する PreToolUse フックがツール呼び出しを正しくブロックしない問題を修正しました。\n- [Fixed] ツール呼び出し中に CLAUDE.md ファイルが自動ロードされる際に、折りたたまれた検索/読み取りサマリーバッジがフルスクリーンロールバックで複数回表示される問題を修正しました。\n- [Fixed] autoモードが、アクションが許可される場合でも明示的なユーザー境界（「pushしない」、「Xの前にYを待つ」）を尊重しない問題を修正しました。\n- [Fixed] ライトテーマのターミナルで、クリックして展開するホバーテキストがほぼ見えない問題を修正しました。\n- [Fixed] 不正なツール入力が権限ダイアログに到達したときのUIクラッシュを修正しました。\n- [Fixed] /model、/config、およびその他の選択画面をスクロールしたときにヘッダーが消える問題を修正しました。\n- [Improved] PowerShellツールの権限チェックを強化しました。末尾の &amp; バックグラウンドジョブのバイパス、-ErrorAction Break デバッガーのハング、アーカイブ抽出のTOCTOU、および解析失敗時のフォールバック拒否ルールの劣化を修正しました。\n- [Improved] パフォーマンスを改善しました。キャッシュキー検索時のMCPツールスキーマのJSON.stringifyのターンごとの実行を排除しました。\n- [Improved] パフォーマンスを改善しました。SSEトランスポートが大きなストリームフレームを線形時間で処理するようになりました（以前は2次時間でした）。\n- [Improved] パフォーマンスを改善しました。長い会話を持つSDKセッションが、トランスクリプト書き込み時に2次的に遅くならなくなりました。\n- [Improved] /resume の全プロジェクトビューを改善し、プロジェクトセッションを並行してロードするようにしました。これにより、多くのプロジェクトを持つユーザーのロード時間が短縮されます。\n- [Changed] --resume ピッカーが、claude -p またはSDK呼び出しによって作成されたセッションを表示しなくなりました。\n- [Removed] Get-DnsClientCache と ipconfig /displaydns を自動許可から削除しました（DNSキャッシュのプライバシーのため）。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-04-02"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- Macアプリの殿堂入り（悪い意味で）：避けるべきアプリリスト\n  https://www.reddit.com/r/macapps/comments/1s953qk/the_macapps_hall_of_shame/\n- 【まとめ】App Pile - 2026年3月・4月版\n  https://www.reddit.com/r/macapps/comments/1rybab4/megathread_the_app_pile_marchapril_2026/\n- 【macOS】シンプルなEXIFビューアを作ってみた\n  https://www.reddit.com/r/macapps/comments/1sarkg8/macos_i_built_a_simple_exif_viewer/\n- compress.mov：ターミナル不要で動画の圧縮・トリム・変換ができる無料Macアプリ\n  https://www.reddit.com/r/macapps/comments/1saexwe/compressmov_a_free_mac_app_to_compress_trim_and/\n- 【macOS】メニューバーで遊べる小さなPongゲームを作りました - 1.99ドル\n  https://www.reddit.com/r/macapps/comments/1sad1jy/macos_i_made_a_tiny_pong_game_that_lives_in_your/\n- Apple Intelligenceをアプリ機能に活用している人はいる？\n  https://www.reddit.com/r/macapps/comments/1sajl66/is_anyone_actually_using_apple_intelligence_for/\n- 【OS】Cling 2.0 - どんなファイルでも50ミリ秒未満でファジー検索\n  https://www.reddit.com/r/macapps/comments/1s9zuuy/os_cling_20_fuzzy_search_any_file_in_less_than/\n- 【OS】Muxy：Ghosttyで構築された、縦タブ付き軽量ネイティブターミナルマルチプレクサ\n  https://www.reddit.com/r/macapps/comments/1sacdb8/os_muxy_a_lightweight_native_terminal_multiplexer/\n- Macアプリケーションにおけるコマンドパラダイムとステート（冪等）パラダイム\n  https://www.reddit.com/r/macapps/comments/1saj4bi/command_paradigm_vs_state_idempotent_paradigm_in/\n- 【macOS】Unfold v2.0 - Mac上の様々なファイルをQuick Lookで素早く表示\n  https://www.reddit.com/r/macapps/comments/1sa7u6t/macos_unfold_v20_quick_look_a_variety_of_files_on/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-03"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- Redditに新本人確認システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackers subredditの新ルールについて – 品質向上を目指して\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- 小規模チームに聞く：あなたのフォーム作成フローは？\n  https://www.reddit.com/r/indiehackers/comments/1sai5g6/small_teams_whats_your_actual_form_workflow/\n- 戦争の影響で家を失う可能性があり、デジタル資産の一部を清算する必要があります\n  https://www.reddit.com/r/indiehackers/comments/1s9yxdo/i_may_lose_my_house_due_to_the_war_so_i_need_to/\n- 離島での「Vibeコーディング」合宿に参加してみたいですか？\n  https://www.reddit.com/r/indiehackers/comments/1s9e9zi/would_you_join_a_vibe_coding_residency_on_an/\n- 私のSaaS事業の現状（数字、成功、失敗、そしてこれから）\n  https://www.reddit.com/r/indiehackers/comments/1s8wz28/my_saas_journey_so_far_numbers_wins_mistakes_and/\n- YCスタートアップ、わずか3人で100人規模のコンサルティング会社を運営（残りはAIが担当）\n  https://www.reddit.com/r/indiehackers/comments/1s9spbn/yc_startup_runs_a_100person_consultancy_with_just/\n- 新しいオンラインビジネスで初入金。専門サービスが時間と費用を無駄にする箇所を2ヶ月かけてカタログ化し、公開データベースとして提供\n  https://www.reddit.com/r/indiehackers/comments/1s8nykx/got_first_payment_for_my_new_online_business_i/\n- トランザクションメールが迷惑メールフォルダに入らないようにするには？\n  https://www.reddit.com/r/indiehackers/comments/1s8ghc2/how_to_avoid_transaction_email_land_to_spam_folder/\n- 「実際に開発している」起業家コミュニティはどこに？（Vibeコーダーはお断り）\n  https://www.reddit.com/r/indiehackers/comments/1s7x5lg/where_are_the_actually_building_founder/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-03"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI、進行中のメガトレンドをリストアップ\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- 利用制限に関する続報\n  https://www.reddit.com/r/ClaudeAI/comments/1sat07y/followup_on_usage_limits/\n- 複数のAIに株式投資のための資金を与えてみた\n  https://www.reddit.com/r/ClaudeAI/comments/1salhpg/i_gave_several_ais_money_to_invest_in_the_stock/\n- Claudeが私を殺そうとした\n  https://www.reddit.com/r/ClaudeAI/comments/1sam5pw/claude_tried_to_kill_me/\n- Anthrophicの最新研究、Claudeに「機能的感情」の可能性を指摘\n  https://www.reddit.com/r/ClaudeAI/comments/1saoa8i/latest_research_by_anthrophic_highlights_that/\n- Claudeのコード作成でMCPからCLIに切り替えたらもう戻れない\n  https://www.reddit.com/r/ClaudeAI/comments/1sakut1/switched_from_mcps_to_clis_for_claude_code_and/\n- Claudeが「NO_FLICKERモード」をリリース - Boris Cherny氏の投稿から9つの詳細\n  https://www.reddit.com/r/ClaudeAI/comments/1sakkoh/claude_launches_no_flicker_mode_boris_cherny/\n- Claudeをパーソナルアシスタントとして活用する方法（Slack + Outlook + To-Do）？ADHDに優しい設定を教えてください🙏\n  https://www.reddit.com/r/ClaudeAI/comments/1sad9rb/how_are_people_using_claude_as_a_personal/\n- /Buddyがすごい\n  https://www.reddit.com/r/ClaudeAI/comments/1sabp9j/buddy_is_awesome/\n- カオスだった単独でのClaudeコーディングを、シンプルな3エージェントチーム（Architect + Builder + Reviewer）に置き換えたら、驚くほど効果的でトークン効率も高かった\n  https://www.reddit.com/r/ClaudeAI/comments/1sa7ju4/i_replaced_chaotic_solo_claude_coding_with_a/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-03"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1448pt] LinkedIn、ブラウザ拡張機能をスキャンしている疑惑が浮上 | 見出しが誤解を招くという意見が多く、LinkedIn側は規約違反によるアカウント制限だと反論。\n  https://news.ycombinator.com/item?id=47613981\n- [1086pt] Claude Codeの内部構造を視覚的に解説したガイド | 自律型エージェントの背景タスクの発見が最も重要との声。AIを使わないエージェントハーネスを求める意見も。\n  https://news.ycombinator.com/item?id=47597085\n- [1067pt] Artemis II打ち上げ日の最新情報 | 打ち上げ成功への興奮と期待の声。ヒートシールド問題や今後のStarshipへの関心も寄せられている。\n  https://news.ycombinator.com/item?id=47603657\n- [854pt] Googleがオープンモデル「Gemma 4」をリリース | モデルの性能評価やベンチマーク比較が行われている。一部モデルでは画像の生成精度に差が見られる。\n  https://news.ycombinator.com/item?id=47616361\n- [703pt] 3月にLinux版Steamの利用率が5%を突破 | Steamハードウェア調査の月次変化に対する懐疑的な意見と、Linuxでのゲーム体験への満足の声が寄せられている。\n  https://news.ycombinator.com/item?id=47609564\n- [678pt] スウェーデン、教室でスクリーンから書籍へ回帰 | デジタルから紙媒体への回帰に賛同する声が多数。手書きや集中力への影響について議論されている。\n  https://news.ycombinator.com/item?id=47612601\n- [659pt] EmDash – WordPressの精神的後継、プラグインのセキュリティ問題を解決 | TypeScriptとWorkerプラグインの採用が高く評価されているが、Cloudflareのアプローチへの疑問の声も。\n  https://news.ycombinator.com/item?id=47602832\n- [599pt] DRAM価格の高騰がホビー向けSBC市場を圧迫 | DRAM価格高騰によるRaspberry Piなどの値上げに不満の声。中古ノートPCとの価格差が指摘されている。\n  https://news.ycombinator.com/item?id=47606840\n- [570pt] 「1日1ドット」で散らかりをなくす整理術 | 整理術の有効性には関心が寄せられているが、実践には課題がある。電子版への期待の声も。\n  https://news.ycombinator.com/item?id=47593556\n- [415pt] Show HN: 1-Bit Bonsai、初の商用可能な1-Bit LLM | 1-Bit LLMの性能に驚きの声。ベンチマーク結果やiPhoneでの動作報告、CPUでの動作速度に関するコメントが寄せられている。\n  https://news.ycombinator.com/item?id=47593422",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-04-03"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "7 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Gateway Capital、2,500万ドルのファンド第2号を初回クローズ\n  https://techcrunch.com/2026/04/02/gateway-capital-dana-guthrie-milwaukee-first-close-fund-ii/\n- OpenAI、話題の起業家向けトーク番組TBPNを買収\n  https://techcrunch.com/2026/04/02/openai-acquires-tbpn-the-buzzy-founder-led-business-talk-show/\n- Microsoft、3つの新たな基盤モデルでAI競合に挑む\n  https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/\n- Google、Vidsアプリでプロンプトによるアバター操作を可能に\n  https://techcrunch.com/2026/04/02/google-now-lets-you-direct-avatars-through-prompts-in-its-vids-app/\n- Commonwealth Fusion Systems、磁石を活用し短期収益目指す\n  https://techcrunch.com/2026/04/02/commonwealth-fusion-systems-leans-on-magnets-for-near-term-revenue/\n- 多様なチームは多様なVCから生まれる\n  https://techcrunch.com/2026/04/02/diverse-teams-start-with-diverse-vcs/\n- Anthropic、流出したソースコード削除のため数千のGitHubリポジトリを閉鎖 — 同社は「過失」と説明\n  https://techcrunch.com/2026/04/01/anthropic-took-down-thousands-of-github-repos-trying-to-yank-its-leaked-source-code-a-move-the-company-says-was-an-accident/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-04-03"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "Highlights from my conversation about agentic engineering on Lenny's Podcast",
+      "url": "https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-entries",
+      "summary": "AIエージェントの進化によりソフトウェア開発のボトルネックがテストに移り、開発者のスキルや働き方も変化している。",
+      "publishedAt": "2026-04-03",
+      "ogImage": "https://static.simonwillison.net/static/2026/youtube-lenny.jpg"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Fragments: April  2",
+      "url": "https://martinfowler.com/fragments/2026-04-02.html",
+      "summary": "LLMによるコード生成が進む中で、システム理解を失う「コグニティブ負債」と、AI活用における「検証」の重要性が高まると指摘。",
+      "publishedAt": "2026-04-03",
+      "ogImage": "https://martinfowler.com/logo-sq.png"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Harness engineering for coding agent users",
+      "url": "https://martinfowler.com/articles/harness-engineering.html",
+      "summary": "プログラミングエージェントの活用を助ける「ハーネス・エンジニアリング」に関するメンタルモデルを提唱。",
+      "publishedAt": "2026-04-02",
+      "ogImage": "https://martinfowler.com/articles/harness-engineering/card.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Denovo：睡眠中にビジネスを構築・運営\n  https://www.producthunt.com/products/denovo\n- Claude Code 音声モード：Claude Codeにプロンプトを音声入力\n  https://www.producthunt.com/products/claude-code-voice-mode\n- Lightning V3：音声エージェント向けに開発されたテキスト読み上げ機能\n  https://www.producthunt.com/products/smallest-ai\n- tama96：デスクトップ、ターミナル、AIエージェント向けたまごっち\n  https://www.producthunt.com/products/tama96-desktop-terminal-ai-pet\n- Roger AI：あらゆるタスクに対応するフレンドリーな画面ガイド\n  https://www.producthunt.com/products/roger-ai-2\n- Wan 2.7-Image：インタラクティブなピクセルレベル編集と一貫性のあるストーリーボード\n  https://www.producthunt.com/products/wan-2-2\n- Nitro by Rocketlane：現代のサービス提供を支えるAIエージェント\n  https://www.producthunt.com/products/rocketlane\n- Mngr：何百ものClaudeエージェントを並行稼働\n  https://www.producthunt.com/products/imbue-7\n- GitCity：GitHubコントリビューションを3D都市でドライブ体験\n  https://www.producthunt.com/products/gitcity\n- Protocol: Survival：課題を把握し、手遅れになる前に解決する\n  https://www.producthunt.com/products/protocol-survival",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-04-03"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "4 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Mochatrade：グローバル株式の無期限先物取引を提供\n  https://www.mochatrade.com\n- Ara：誰でも使えるパーソナルAIクラウドコンピューティング\n  https://ara.so\n- Standard Signal：AIがすべての取引を調査・実行するヘッジファンド\n  https://standardsignal.com\n- Userlens：顧客離反を数ヶ月前に予測するAIエージェント\n  https://userlens.io",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-04-03"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Moonlake: Causal World Models should be Multimodal, Interactive, and Efficient — with Chris Manning and Fan-yun Sun",
+      "url": "https://www.latent.space/p/moonlake",
+      "summary": "Moonlake AIは、物理シミュレーションと因果関係を重視した「World Model」により、ゲームエンジンを基盤に、より効率的でインタラクティブな仮想世界生成を目指している。",
+      "publishedAt": "2026-04-03",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!hIXC!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F192967759%2F11249de6-d9db-4b15-8219-44750548a026%2Ftranscoded-1775151119.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] A quiet April Fools",
+      "url": "https://www.latent.space/p/ainews-a-quiet-april-fools",
+      "summary": "Claude Codeのソースコードが流出し、タマゴッチ機能や自律エージェントシステムなどのユニークな機能が明らかになった一方、1ビットモデルの「Bonsai」やAMD GPU向け高速推論エンジン「ZINC」といった効率化技術の進展も報じられた。",
+      "publishedAt": "2026-04-02",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!KuJk!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fswyx.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1652097308%26version%3D9"
+    }
+  ]
+}
