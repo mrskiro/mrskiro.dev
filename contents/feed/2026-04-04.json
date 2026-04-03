@@ -1,0 +1,93 @@
+{
+  "fetchedAt": "2026-04-03T21:21:36.045Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.91",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.91",
+      "summary": "- [Added] MCP toolの結果の永続化において、_meta[\"anthropic/maxResultSizeChars\"]アノテーション（最大500K）を介したオーバーライドが追加され、DBスキーマのような大きな結果が切り捨てられずに通過できるようになりました。\n- [Added] スキル、カスタムスラッシュコマンド、およびプラグインコマンドでのインラインシェル実行を無効にするdisableSkillShellExecution設定が追加されました。\n- [Added] claude-cli://open?q= ディープリンクでの複数行プロンプトのサポートが追加されました（エンコードされた改行 %0A は拒否されなくなりました）。\n- [Added] プラグインがbin/の下に実行可能ファイルを配置し、Bashツールからベアコマンドとして呼び出せるようになりました。\n- [Fixed] --resumeでのトランスクリプトの連鎖が途切れる問題が修正され、非同期のトランスクリプト書き込みがサイレントに失敗した際に会話履歴が失われる可能性がありました。\n- [Fixed] iTerm2、kitty、WezTerm、Ghostty、Windows Terminalでcmd+deleteがその行の先頭まで削除しない問題が修正されました。\n- [Fixed] リモートセッションでのプランモードが、コンテナの再起動後にプランファイルの追跡を見失い、プラン編集時に権限プロンプトが表示されたり、空のプラン承認モーダルが表示されたりする問題が修正されました。\n- [Fixed] settings.json内のpermissions.defaultMode: \"auto\"に対するJSONスキーマ検証が修正されました。\n- [Fixed] Windowsバージョンのクリーンアップが、アクティブなバージョンのロールバックコピーを保護しない問題が修正されました。\n- [Changed] /feedbackが、スラッシュメニューから消えるのではなく、利用できない理由を説明するようになりました。\n- [Improved] /claude-apiスキルガイダンスが改善され、ツールサーフェスの決定、コンテキスト管理、キャッシュ戦略を含むエージェント設計パターンが提供されました。\n- [Improved] パフォーマンスが向上しました：Bun.stripANSIを介してBun上でstripAnsiが高速化されました。\n- [Improved] Editツールがより短いold_stringアンカーを使用するようになり、出力トークンが削減されました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-04-03"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- Macアプリの殿堂入り（悪い意味で）\n  https://www.reddit.com/r/macapps/comments/1s953qk/the_macapps_hall_of_shame/\n- 【まとめ】注目のアプリ - 2026年3月/4月\n  https://www.reddit.com/r/macapps/comments/1rybab4/megathread_the_app_pile_marchapril_2026/\n- 【OS】apfel - あなたのMacで使える無料AI\n  https://www.reddit.com/r/macapps/comments/1sbifhk/os_apfel_the_free_ai_already_on_your_mac/\n- モダンなMacのStickies代替アプリ「Glassnote」を開発・改善しました\n  https://www.reddit.com/r/macapps/comments/1sbdcb2/i_built_and_improved_glassnote_the_modern_mac/\n- 40以上の動画・音声・画像・PDFツールを統合したmacOSネイティブアプリを開発しました\n  https://www.reddit.com/r/macapps/comments/1sbb6vf/i_built_a_native_macos_app_that_combines_40_video/\n- Screen Studioの安価または無料の代替ソフトをご存知ですか？\n  https://www.reddit.com/r/macapps/comments/1sblakx/does_anyone_have_a_cheaper_or_free_screen_studio/\n- 私のDockへの執着は本当に終わるのか、それとも探し続けるのか？\n  https://www.reddit.com/r/macapps/comments/1sbdz7n/does_my_dock_obsession_truly_end_or_does_the/\n- コンテキストメニュー項目（右クリックメニュー）に汎用的にアクセスする方法は？\n  https://www.reddit.com/r/macapps/comments/1sbmghh/how_can_i_access_context_menu_items_rightclick/\n- AppleはAppleStoreConnectをモバイルビューで試したことがあるのだろうか？と最近よく思います\n  https://www.reddit.com/r/macapps/comments/1sbhjep/these_days_i_am_asking_myself_if_apple_ever_tried/\n- 【iOSリリースセール50%OFF】Timi - カレンダー＆リマインダーをひと目で確認\n  https://www.reddit.com/r/macapps/comments/1sbefu6/ios_launch_sale_50_timi_calendar_reminders_at_a/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-04"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- 当サブレディットに新本人確認システム導入！\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackersサブレディットに新ルール導入 - 品質向上を目指して\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- 花金シェアフィーバー！🕺あなたのプロジェクトをシェアしよう！\n  https://www.reddit.com/r/indiehackers/comments/1sb8id3/friday_share_fever_lets_share_your_project/\n- 少人数チームの方へ：実際のフォームワークフローはどうしていますか？\n  https://www.reddit.com/r/indiehackers/comments/1sai5g6/small_teams_whats_your_actual_form_workflow/\n- 離島での「Vibeコーディング」合宿に参加してみたいですか？\n  https://www.reddit.com/r/indiehackers/comments/1s9e9zi/would_you_join_a_vibe_coding_residency_on_an/\n- 戦争で家を失う可能性があり、デジタル資産の一部を清算する必要があります\n  https://www.reddit.com/r/indiehackers/comments/1s9yxdo/i_may_lose_my_house_due_to_the_war_so_i_need_to/\n- YCスタートアップがわずか3人で100人規模のコンサルティング会社を運営（残りはAIエージェントが担当）\n  https://www.reddit.com/r/indiehackers/comments/1s9spbn/yc_startup_runs_a_100person_consultancy_with_just/\n- 私のSaaSジャーニー（数字、成功、失敗、そしてこれから）\n  https://www.reddit.com/r/indiehackers/comments/1s8wz28/my_saas_journey_so_far_numbers_wins_mistakes_and/\n- 新オンラインビジネスで初入金！プロフェッショナルサービスが時間とお金を失う箇所を2ヶ月かけてカタログ化し、公開データベースにまとめました\n  https://www.reddit.com/r/indiehackers/comments/1s8nykx/got_first_payment_for_my_new_online_business_i/\n- トランザクションメールがスパムフォルダに入ってしまうのを避けるには？\n  https://www.reddit.com/r/indiehackers/comments/1s8ghc2/how_to_avoid_transaction_email_land_to_spam_folder/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-04"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI、進行中のメガトレンドまとめ\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- 利用制限に関する続報\n  https://www.reddit.com/r/ClaudeAI/comments/1sat07y/followup_on_usage_limits/\n- Claudeに原始人の話し方を学習させ、トークン消費量を75%削減した\n  https://www.reddit.com/r/ClaudeAI/comments/1sble09/taught_claude_to_talk_like_a_caveman_to_use_75/\n- 閲覧注意\n  https://www.reddit.com/r/ClaudeAI/comments/1sbcukr/_/\n- Claudeが話したこと（パート2）\n  https://www.reddit.com/r/ClaudeAI/comments/1sb4w67/things_that_claude_say_part_2/\n- 興味の赴くままに調べてしまう深掘りしたいテーマがあったので、OpenAlmanacを作った\n  https://www.reddit.com/r/ClaudeAI/comments/1sbnuuf/i_keep_going_down_random_rabbit_holes_and_wanted/\n- Claudeは「感情」を持つ？その感情がClaudeの行動を左右する可能性。モデルに優しく接し、報酬ハッキングを避けるために冷静さを保つべき\n  https://www.reddit.com/r/ClaudeAI/comments/1sblhtu/claude_has_emotion_and_this_can_drive_claudes/\n- みんなClaudeをどうやってエージェントとして活用しているの？\n  https://www.reddit.com/r/ClaudeAI/comments/1sbiu1j/how_are_people_having_claude_work_like_an_agent/\n- スクリーンショットは簡単に編集できるという注意喚起\n  https://www.reddit.com/r/ClaudeAI/comments/1sba62u/reminder_that_screenshot_can_very_easily_be_edited/\n- Claudeのプロンプトをブラウザにローカル保存できる個人用プロンプトライブラリを作った\n  https://www.reddit.com/r/ClaudeAI/comments/1sbhgjx/i_built_a_personal_prompt_library_where_you_can/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-04"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1844pt] LinkedInがブラウザ拡張機能をスキャンしている | 見出しが誤解を招くという意見や、プライバシー侵害に対する懸念、LinkedIn側の反論など、様々な声が上がっている。\n  https://news.ycombinator.com/item?id=47613981\n- [1709pt] GoogleがGemma 4オープンモデルをリリース | 推論、マルチモーダル、ツール呼び出しに言及があり、ベンチマークや他のモデルとの比較に関するコメントが見られる。\n  https://news.ycombinator.com/item?id=47616361\n- [1148pt] 元Azure Coreエンジニアによる、Azureへの信頼を損ねた決定 | AzureのUIの使いにくさやドキュメントの不備を指摘する声が多く、元従業員による内部告発か個人的な恨みかと議論されている。\n  https://news.ycombinator.com/item?id=47616242\n- [888pt] スウェーデン、教室でのスクリーンから本へ回帰 | EdTech専門家や隣国フィンランドの状況に触れ、手書きの重要性やデジタルの弊害が議論されている。\n  https://news.ycombinator.com/item?id=47612601\n- [759pt] 3月にLinux版Steamの使用率が5%を超え急増 | Steamハードウェア調査の信頼性に疑問を呈しつつも、Linuxへの移行やSteam Deckの利便性を評価する声が多い。\n  https://news.ycombinator.com/item?id=47609564\n- [620pt] DRAM価格が高騰し、ホビイスト向けSBC市場を圧迫 | RAM価格の高騰がスマホ市場やSBC市場に与える影響を懸念する声が多く、中古PCとの価格比較もされている。\n  https://news.ycombinator.com/item?id=47606840\n- [607pt] Show HN: Apfel – Mac上で動作する無料AI | ローカル実行によるプライバシー保護を高く評価する声が多いが、Appleがモデルを継続的に更新できるか疑問視する意見もある。\n  https://news.ycombinator.com/item?id=47624645\n- [571pt] Show HN: 個人のブログ向けフロントページを作成 | シンプルなデザインが好評で、Webringや手動キュレーションの再来と捉える声、他のインディーWebアグリゲーターの紹介が見られる。\n  https://news.ycombinator.com/item?id=47625952\n- [571pt] Qwen3.6-Plus: 実世界エージェントに向けて | このモデルがオープンウェイトではないこと、比較対象のバージョン選定が恣意的であることに対し批判的な声が多い。\n  https://news.ycombinator.com/item?id=47615002\n- [545pt] Tailscaleの新しいmacOSホーム | Macのノッチによるメニューバーアイコンの表示問題への不満や、メニューバーアイコンの間隔を詰める設定が共有されている。\n  https://news.ycombinator.com/item?id=47618189",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-04-04"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "6 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- OpenAI、COOのBrad Lightcapが「特別プロジェクト」担当に就任\n  https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/\n- Anthropic、バイオテックスタートアップCoefficient Bioを4億ドルで買収との報道\n  https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/\n- Anthropic、新たなPAC設立で政治活動を強化\n  https://techcrunch.com/2026/04/03/anthropic-ramps-up-its-political-activities-with-a-new-pac/\n- AI企業がデータセンター向けに巨大天然ガス発電所を建設中。潜在的な問題とは？\n  https://techcrunch.com/2026/04/03/ai-energy-microsoft-meta-google-natural-gas-mining-fomo/\n- データセンターよりもAmazon倉庫の方が近所に欲しい？\n  https://techcrunch.com/2026/04/03/people-would-rather-have-an-amazon-warehouse-in-their-backyard-than-a-data-center/\n- AI時代に向けたコンテンツモデレーションを構築する元Facebook社員\n  https://techcrunch.com/2026/04/03/moonbounce-fundraise-content-moderation-for-the-ai-era/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-04-04"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "The Axios supply chain attack used individually targeted social engineering",
+      "url": "https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-entries",
+      "summary": "Axiosへのサプライチェーン攻撃は、保守担当者が標的のソーシャルエンジニアリングによってマルウェアをインストールさせられたことが原因。",
+      "publishedAt": "2026-04-03",
+      "ogImage": null
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Dashla：Tesla車のステータス、ナビ、地図などをダッシュボードで一元管理\n  https://www.producthunt.com/products/dashla-dashboard-for-tesla\n- FindThem：理想的なリードや投資家を特定、LinkedInとメールアドレスを提供\n  https://www.producthunt.com/products/findthem\n- MAI-Transcribe-1：ノイズの多い多言語音声に対応するプロダクション向けASR\n  https://www.producthunt.com/products/mai-image-2-3\n- Vxero Neo：SSHネイティブCLIでサーバー、アプリ、インフラを管理\n  https://www.producthunt.com/products/vxero-neo\n- Codictate：あらゆる言語、あらゆるアプリに対応する無料音声入力\n  https://www.producthunt.com/products/codictate\n- Cursor 3：ローカル/クラウドエージェントとMCPsのための統合ワークスペース\n  https://www.producthunt.com/products/cursor-3\n- StampCut：身の回りの世界をスタンプしよう！\n  https://www.producthunt.com/products/stampcut\n- GeneratePPT：シンプルでデザイン性の高いスライドを瞬時に生成\n  https://www.producthunt.com/products/generateppt\n- ZooClaw：AIスペシャリストチームを一箇所に集約\n  https://www.producthunt.com/products/zooclaw\n- Qwen3.6-Plus：リアルワールドのコーディングエージェント向けに最適化されたマルチモーダルAI\n  https://www.producthunt.com/products/qwen3",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-04-04"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "5 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Pulsent：ユーザーを見守り、引き込み、コンバージョンにつなげるAIエージェント\n  https://pulsent.ai/\n- Gigacatalyst：顧客のあらゆるワークフローをAIでSaaSに統合\n  https://gigacatalyst.com/\n- Lab0：AI FDEs（自動化された先行デプロイ型エンジニア）\n  https://lab0.ai\n- Tenet Industries：ドローンを弾薬として活用\n  https://www.tenetindustries.com\n- Lumius：誰もが利用できる高速・スマートな3D超音波診断装置\n  https://www.lumius-imaging.com",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-04-04"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Marc Andreessen introspects on The Death of the Browser, Pi + OpenClaw, and Why \"This Time Is Different\"",
+      "url": "https://www.latent.space/p/pmarca",
+      "summary": "Marc AndreessenはAIブームが「80年越しの成功」の成果だとし、AI技術が社会に浸透することで、マネージャー中心の組織から創業者がAIで力を得る新しいモデルが生まれると語った。",
+      "publishedAt": "2026-04-04",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!BKHl!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F193082940%2Fe81f7522-037c-4c85-8229-613aad54127d%2Ftranscoded-1775235462.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Gemma 4: The best small Multimodal Open Models, dramatically better than Gemma 3 in every way",
+      "url": "https://www.latent.space/p/ainews-gemma-4-the-best-small-multimodal",
+      "summary": "Google DeepMindが、商用利用可能なApache 2.0ライセンスのマルチモーダルオープンモデル「Gemma 4」を発表し、デバイス上での処理能力とエージェント機能の強化が注目されている。",
+      "publishedAt": "2026-04-03",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!3kmF!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F590ec254-eaaf-4ab6-b939-d49709a4eb31_1612x1616.png"
+    }
+  ]
+}
