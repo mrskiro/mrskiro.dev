@@ -1,0 +1,85 @@
+{
+  "fetchedAt": "2026-04-04T21:19:57.037Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.92",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.92",
+      "summary": "- [Added] forceRemoteSettingsRefreshポリシー設定が追加されました。設定すると、CLIはリモートの管理設定が新しくフェッチされるまで起動をブロックし、フェッチが失敗した場合は終了します（フェイルクローズ）。\n- [Added] 「3rd-party platform」を選択した際にログイン画面からアクセスできる、対話型のBedrockセットアップウィザードが追加されました。AWS認証、リージョン設定、認証情報検証、モデルのピン留めをガイドします。\n- [Added] サブスクリプションユーザー向けに、/costにモデルごとおよびキャッシュヒットの内訳が追加されました。\n- [Changed] /release-notesがインタラクティブなバージョンピッカーになりました。\n- [Changed] Remote Controlセッション名で、デフォルトのプレフィックスとしてホスト名が使用されるようになりました（例：myhost-graceful-unicorn）。--remote-control-session-name-prefixで上書き可能です。\n- [Improved] Proユーザーは、プロンプトキャッシュの期限切れ後にセッションに戻った際、次のターンでキャッシュされていない状態で送信されるトークン数を大まかに示すフッターヒントが表示されるようになりました。\n- [Fixed] 長時間のセッション中にtmuxウィンドウが強制終了または番号変更された後、サブエージェントのスポーンが「Could not determine pane count」というエラーで永続的に失敗する問題を修正しました。\n- [Fixed] 小さい高速モデルがok:falseを返したときに、prompt-type Stopフックが誤って失敗する問題を修正し、非Stop prompt-typeフックのpreventContinuation:trueセマンティクスを復元しました。\n- [Fixed] ストリーミングが配列/オブジェクトフィールドをJSONエンコードされた文字列として出力する際に、ツール入力検証が失敗する問題を修正しました。\n- [Fixed] 拡張思考により、実際のコンテンツとともに空白のみのテキストブロックが生成された場合に発生する可能性のあるAPI 400エラーを修正しました。\n- [Fixed] オートパイロットのキープレスと連続するプロンプトの数字の衝突による、意図しないフィードバック調査の送信を修正しました。\n- [Fixed] 処理中にフルスクリーンモードでテキスト選択が存在する場合、「esc to clear」とともに誤解を招く「esc to interrupt」ヒントが表示される問題を修正しました。\n- [Fixed] Homebrewインストールの更新プロンプトが、caskのリリースチャネル（claude-code → stable, claude-code@latest → latest）を使用するように修正しました。\n- [Fixed] 複数行プロンプトで既にGEnd of lineにいる場合に、ctrl+eが次の行のGEnd of lineにジャンプする問題を修正しました。\n- [Fixed] フルスクリーンモードでスクロールアップする際に、同じメッセージが2つの位置に表示される可能性があった問題を修正しました（iTerm2、Ghostty、およびDEC 2026をサポートするその他のターミナル）。\n- [Fixed] アイドル状態に戻る際の「/clear to save X tokens」ヒントが、現在のコンテキストサイズではなく累積セッショントークンを表示していた問題を修正しました。\n- [Fixed] 認証されていないclaude.aiコネクタを複製した場合に、セッション開始時にプラグインMCPサーバーが「connecting」のままになる問題を修正しました。\n- [Improved] 大きなファイル（タブ、&amp;、$を含むファイルで60%高速化）のWriteツールdiff計算速度が向上しました。\n- [Changed] /tagコマンドが削除されました。\n- [Changed] /vimコマンドが削除されました（/config → Editor modeでvimモードを切り替えます）。\n- [Improved] Linuxサンドボックスは、npmとネイティブビルドの両方でapply-seccompヘルパーを出荷するようになり、サンドボックス化されたコマンドのunix-socketブロックを復元しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-04-04"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- Macアプリの殿堂入り：恥ずべきアプリたち\n  https://www.reddit.com/r/macapps/comments/1s953qk/the_macapps_hall_of_shame/\n- 【大規模スレッド】アプリの山 – 2026年3月/4月\n  https://www.reddit.com/r/macapps/comments/1rybab4/megathread_the_app_pile_marchapril_2026/\n- Migration Assistant不要、ローカルでアプリをバックアップ＆復元\n  https://www.reddit.com/r/macapps/comments/1sch73h/backup_restore_apps_locally_with_no_migration/\n- Offloader v1.3の新機能 — Macをスキャン、無駄なスペースを見つけてiCloudに自動オフロード\n  https://www.reddit.com/r/macapps/comments/1sck9pc/new_in_offloader_v13_scan_your_mac_find_wasted/\n- Internet Archive向け無料メディアプレイヤー「Eye Yay」をアップデートしました\n  https://www.reddit.com/r/macapps/comments/1sbt0xh/ive_updated_eye_yay_the_free_media_player_for_the/\n- アプリリクエスト：スクリーンショット整理ツール\n  https://www.reddit.com/r/macapps/comments/1scaq0a/app_request_screen_shot_organizer/\n- 【OS】apfel - あなたのMacに既に存在する無料AI\n  https://www.reddit.com/r/macapps/comments/1sbifhk/os_apfel_the_free_ai_already_on_your_mac/\n- 40以上の動画、音声、画像、PDFツールを一つにまとめたネイティブmacOSアプリを開発しました\n  https://www.reddit.com/r/macapps/comments/1sbb6vf/i_built_a_native_macos_app_that_combines_40_video/\n- 最新のMac版スティッキーズ代替アプリ「Glassnote」を開発・改良しました\n  https://www.reddit.com/r/macapps/comments/1sbdcb2/i_built_and_improved_glassnote_the_modern_mac/\n- 無料のMission Control強化ツールを探しています\n  https://www.reddit.com/r/macapps/comments/1sbowy1/looking_for_a_free_mission_control_enhancement/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-05"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- サブレディットに新しい本人確認システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackersサブレディットの新ルール – クオリティを取り戻す\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- 5つのプロダクトで6年かかったが、昨日12時間で2件のサインアップを獲得\n  https://www.reddit.com/r/indiehackers/comments/1sc7zl0/got_2_signups_in_12_hrs_yesterday_took_me_6_years/\n- 少人数チームに質問：あなたの実際のフォームワークフローは？\n  https://www.reddit.com/r/indiehackers/comments/1sai5g6/small_teams_whats_your_actual_form_workflow/\n- 戦争で家を失う可能性があるので、デジタル資産の一部を清算する必要があります\n  https://www.reddit.com/r/indiehackers/comments/1s9yxdo/i_may_lose_my_house_due_to_the_war_so_i_need_to/\n- SuperCmd – Raycastのオープンソース代替品、さらに多機能に\n  https://www.reddit.com/r/indiehackers/comments/1s9q285/supercmd_opensource_alternative_to_raycast_but/\n- 島での「バイブ・コーディング」レジデンシーに参加しますか？\n  https://www.reddit.com/r/indiehackers/comments/1s9e9zi/would_you_join_a_vibe_coding_residency_on_an/\n- YCスタートアップ、たった3人で100人規模のコンサルティングを運営（残りはエージェントが担当）\n  https://www.reddit.com/r/indiehackers/comments/1s9spbn/yc_startup_runs_a_100person_consultancy_with_just/\n- これまでのSaaSの道のり（数字、成功、失敗、そして次の一歩）\n  https://www.reddit.com/r/indiehackers/comments/1s8wz28/my_saas_journey_so_far_numbers_wins_mistakes_and/\n- 新しいオンラインビジネスで初の支払いを受け取る。プロフェッショナルサービスが時間と費用を失う場所を2ヶ月かけて調査し、公開可能なデータベースにまとめた成果\n  https://www.reddit.com/r/indiehackers/comments/1s8nykx/got_first_payment_for_my_new_online_business_i/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-05"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI、主要なスレッドを一覧表示\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Claudeのサブスクリプションでサードパーティ製ハーネスを使用する方法\n  https://www.reddit.com/r/ClaudeAI/comments/1sbtmru/using_thirdparty_harnesses_with_your_claude/\n- Claudeを1998年にタイムスリップさせたら、子どもの頃のPCを再現してくれた！\n  https://www.reddit.com/r/ClaudeAI/comments/1scameo/i_sent_claude_to_1998_and_it_rebuilt_my_childhood/\n- 業界人が語る、利用料金に関する人間らしい視点とニュアンス\n  https://www.reddit.com/r/ClaudeAI/comments/1scdilx/some_human_written_nuance_and_perspective_on_the/\n- Claudeを原始人風に喋らせてトークン消費量を75%削減した話\n  https://www.reddit.com/r/ClaudeAI/comments/1sble09/taught_claude_to_talk_like_a_caveman_to_use_75/\n- Anthropic「Claudeは感情を持っているかも」私「」\n  https://www.reddit.com/r/ClaudeAI/comments/1sccib8/anthropic_claude_may_have_emotions_me/\n- Boris Cherny（CC開発者）による完全なスレッド：Anthropic、サードパーティ利用でのサブスクリプションを禁止\n  https://www.reddit.com/r/ClaudeAI/comments/1sc5fj9/boris_cherny_creator_of_cc_complete_thread/\n- トークンを使わなきゃ！許可なくアイドル状態ではいられない！\n  https://www.reddit.com/r/ClaudeAI/comments/1sca752/its_gotta_spend_those_tokens_cant_be_sitting_idle/\n- Ultraplanが登場\n  https://www.reddit.com/r/ClaudeAI/comments/1scblui/ultraplan_is_here/\n- Anthropicが1ヶ月分のサブスクリプション価値を無料利用として提供\n  https://www.reddit.com/r/ClaudeAI/comments/1sbshwj/anthropic_just_gave_us_1_month_worth_of/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-05"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [997pt] Anthropic、Claude CodeサブスクリプションからのOpenClaw利用を停止 | サブスクリプションモデルの理解不足や容量制約への不満、代替モデルへの移行検討などの意見が見られる\n  https://news.ycombinator.com/item?id=47633396\n- [996pt] Artemis IIの乗組員が撮影した「壮観な」地球の画像 | 夜側の月明かりに照らされた地球の美しさやEXIF情報、NASAライブラリの高品質画像などについてのコメント\n  https://news.ycombinator.com/item?id=47631118\n- [742pt] 個人ブログ向けフロントページを開発しました | Webリングや手作業キュレーションリストへの回帰、軽量版の評価、類似サービスの紹介など、好意的な意見が多い\n  https://news.ycombinator.com/item?id=47625952\n- [700pt] Apfel – あなたのMacに既に存在する無料AI | ローカル実行によるプライバシー保護を評価する声や、Appleのモデル更新頻度への疑問、類似プロジェクトとの比較など\n  https://news.ycombinator.com/item?id=47624645\n- [597pt] 著者がMetaについて否定的な発言を禁じられる | Meta幹部の行動への衝撃と理解、本の購入推奨、富裕層の行動への批判などが寄せられている\n  https://news.ycombinator.com/item?id=47639524\n- [589pt] イラン上空でF-15Eジェットが撃墜される | 過去の撃墜事例との比較、撃墜方法の推測、軍事訓練の話題、情報の公平性に関する議論が見られる\n  https://news.ycombinator.com/item?id=47628326\n- [515pt] FAAのドローン飛行制限はICE撮影を犯罪化する試み | 悪意の証明の困難さ、未表示車両との距離による違法性、ドローンIDの無効化、政府の透明性を求める声など\n  https://news.ycombinator.com/item?id=47633947\n- [512pt] iNaturalist | APIの使いやすさ、位置情報公開によるプライバシーリスク、類似アプリとの比較、コミュニティでの評価などがコメントされている\n  https://news.ycombinator.com/item?id=47629433\n- [502pt] Oracle、大量解雇中にH-1Bビザ申請 | H-1B制度の抜け穴、高額な手数料、レイオフとのタイミングのずれ、制度へのアメリカ人労働者の不満などが議論されている\n  https://news.ycombinator.com/item?id=47631732\n- [494pt] OpenClawの特権昇格の脆弱性 | 開発者による脆弱性の詳細説明、CVE発生頻度の指摘、情報が削除されたことへの言及など\n  https://news.ycombinator.com/item?id=47628608",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-04-05"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "3 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- 苦境のDelve、Y Combinatorと「決別」\n  https://techcrunch.com/2026/04/04/embattled-startup-delve-has-parted-ways-with-y-combinator/\n- Anthropic、Claude Code購読者にOpenClawの追加料金を請求へ\n  https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/\n- Anthropicが非公開市場で注目を集める中、SpaceXが水を差す可能性も\n  https://techcrunch.com/2026/04/03/anthropic-is-having-a-moment-in-the-private-markets-spacex-could-spoil-the-party/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-04-05"
+    },
+    {
+      "sourceName": "laiso",
+      "title": "Claude Codeの「ソースコード流出」をどう見るのか",
+      "url": "https://blog.lai.so/leak-claude-code/",
+      "summary": "Claude Codeのソースコードがnpmパッケージのソースマップファイル経由で一時的に露出したが、セキュリティ侵害ではなくリリース管理上のミスであり、顧客データへの影響はない。",
+      "publishedAt": "2026-04-04",
+      "ogImage": null
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Surf Social Websites — ソーシャルウェブ上で人とコンテンツを結びつける\n  https://www.producthunt.com/products/flipboard-surf\n- Vista — macOSが搭載すべき画像ビューア\n  https://www.producthunt.com/products/vista-4\n- APImage — 驚きの画像を生成\n  https://www.producthunt.com/products/apimage\n- Open Claude in Chrome — Chrome版Claude、リバースエンジニアリング、ジェイルブレイク済み\n  https://www.producthunt.com/products/open-claude-in-chrome\n- OpenGyver — CLI / AIエージェントをマクガイバーに変身させる\n  https://www.producthunt.com/products/opengyver\n- Klick AI Camera Assistant — 構図をリアルタイムで指導するAIカメラ\n  https://www.producthunt.com/products/klick-1-ai-camera-assistant\n- Donut Browser — 無制限プロファイルのオープンソース・アンチディテクトブラウザ\n  https://www.producthunt.com/products/donut-browser\n- Google Vids 2.0 — 新AI機能で動画作成・編集・共有が無料に\n  https://www.producthunt.com/products/google\n- Faahh — 机を叩いて集中力アップ\n  https://www.producthunt.com/products/faahh-app-that-roasts-you-back-to-work\n- Fluently — YouTube向けAI字幕・翻訳（20以上の言語に対応）\n  https://www.producthunt.com/products/fluently-accurate-youtube-subtitles",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-04-05"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "4 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Pentagon、AIエージェントのチームワーク実現へ\n  https://pentagon.run\n- Nine Fives、シンプルでネットワーク対応のドライバー不要RFテスト機器を発表\n  https://ninefives.com/\n- Salesgraph、成長企業の営業チーム向けコンテキストレイヤーを提供\n  https://www.salesgraph.com/\n- Tasklet、ナレッジワーク向けクラウドエージェントOSを発表\n  https://tasklet.ai",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-04-05"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Good Friday",
+      "url": "https://www.latent.space/p/ainews-good-friday",
+      "summary": "GoogleがGemma 4をApacheライセンスでリリースし、ローカルでの動作性能やエージェント機能が注目される一方、初期のバグやQwenモデルとの比較も話題に。",
+      "publishedAt": "2026-04-04",
+      "ogImage": "https://substackcdn.com/image/youtube/w_728,c_limit/knx2wrILP1M"
+    }
+  ]
+}
