@@ -703,7 +703,90 @@ const fetchGitHubTrendingDigest = async (source: Source): Promise<Entry> => {
   };
 };
 
+const GITHUB_COMMIT_CONTENT_PREFIX = "src/content/";
+
+type GitHubCommitDetail = {
+  sha: string;
+  commit: { message: string };
+  files?: { filename: string; patch?: string }[];
+};
+
+const COMMIT_SUMMARIZE_PROMPT = [
+  "GitHubコミットのdiffから、ドキュメントの変更内容を日本語で簡潔に要約してください。",
+  "ルール：",
+  "- 技術用語・固有名詞はそのまま残す",
+  "- 「〜を追加」「〜を修正」など、何が変わったかを具体的に書く",
+  "- 1コミットにつき1〜2文",
+  "- 要約のみ出力",
+].join("\n");
+
+const fetchGitHubCommitDigest = async (source: Source, since: Date): Promise<Entry | null> => {
+  const res = await fetch(source.url, {
+    headers: { "User-Agent": "feed-reader/1.0" },
+  });
+  const xml = await res.text();
+  const parsed = parser.parse(xml);
+
+  const rawEntries = parsed.feed?.entry ?? [];
+  const entries = (Array.isArray(rawEntries) ? rawEntries : [rawEntries]) as Record<
+    string,
+    unknown
+  >[];
+
+  const recentEntries = entries.filter((entry) => new Date(String(entry.updated)) >= since);
+  if (recentEntries.length === 0) return null;
+
+  const repoPath = source.url.replace("https://github.com/", "").replace("/commits/main.atom", "");
+
+  const commits = await Promise.all(
+    recentEntries.map(async (entry) => {
+      const sha = parseAtomLink(entry.link).split("/").pop()!;
+      const r = await fetch(`https://api.github.com/repos/${repoPath}/commits/${sha}`, {
+        headers: { "User-Agent": "feed-reader/1.0" },
+      });
+      return r.json() as Promise<GitHubCommitDetail>;
+    }),
+  );
+
+  const contentCommits = commits.filter((c) =>
+    c.files?.some((f) => f.filename.startsWith(GITHUB_COMMIT_CONTENT_PREFIX)),
+  );
+  if (contentCommits.length === 0) return null;
+
+  const lines: string[] = [];
+  for (const commit of contentCommits) {
+    const contentFiles = commit.files!.filter((f) =>
+      f.filename.startsWith(GITHUB_COMMIT_CONTENT_PREFIX),
+    );
+    const patchSummary = contentFiles
+      .map((f) => `--- ${f.filename}\n${(f.patch ?? "").slice(0, 500)}`)
+      .join("\n\n");
+
+    const geminiRes = await ai.models.generateContent({
+      model: "gemini-2.5-flash",
+      config: { thinkingConfig: { thinkingBudget: 0 } },
+      contents: `${COMMIT_SUMMARIZE_PROMPT}\n\nコミットメッセージ: ${commit.commit.message.split("\n")[0]}\n\n${patchSummary}`,
+    });
+    const summary = (geminiRes.text?.trim() ?? commit.commit.message.split("\n")[0]!).replace(
+      /\n/g,
+      " ",
+    );
+    const url = `https://github.com/${repoPath}/commit/${commit.sha}`;
+    lines.push(`- ${summary}\n  ${url}`);
+  }
+
+  return {
+    sourceName: source.name,
+    title: `${contentCommits.length} Updates`,
+    url: `https://github.com/${repoPath}`,
+    summary: lines.join("\n"),
+    ogImage: digestOgImages[source.name] ?? null,
+    publishedAt: formatDate.format(new Date()),
+  };
+};
+
 const githubReleaseNames = new Set(["Claude Code"]);
+const githubCommitNames = new Set(["Agentic Engineering"]);
 const redditNames = new Set(["r/MacApps", "r/indiehackers", "r/ClaudeAI"]);
 const rssDigestNames = new Set(["TechCrunch", "BRIDGE"]);
 const rssDigestCategories = new Map([
@@ -732,11 +815,16 @@ const digestOgImages: Record<string, string> = {
   BRIDGE:
     "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
   "GitHub Trending": "https://github.githubassets.com/favicons/favicon.svg",
+  "Agentic Engineering": "https://github.githubassets.com/favicons/favicon.svg",
 };
 
 const fetchSource = async (source: Source, since: Date): Promise<Entry[]> => {
   if (githubReleaseNames.has(source.name)) {
     return fetchGitHubReleaseDigest(source, since);
+  }
+  if (githubCommitNames.has(source.name)) {
+    const entry = await fetchGitHubCommitDigest(source, since);
+    return entry ? [entry] : [];
   }
   if (source.name === "Hacker News") {
     return [await fetchHNDigest(source)];
