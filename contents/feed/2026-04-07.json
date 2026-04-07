@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-06T21:26:55.602Z",
+  "fetchedAt": "2026-04-07T00:18:05.201Z",
   "entries": [
     {
       "sourceName": "OpenAI",
       "title": "Announcing the OpenAI Safety Fellowship",
       "url": "https://openai.com/index/introducing-openai-safety-fellowship",
-      "summary": "独立した安全・アライメント研究と次世代人材育成のためのパイロットプログラムが開始。",
+      "summary": "独立した安全性とアライメントの研究を支援し、次世代の人材を育成するパイロットプログラムを開始。",
       "publishedAt": "2026-04-06",
       "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/5VluJolTRjUBECOuHMbj1M/c6ff53f2bfb4658e74e5f24e48dabcc8/Frame__7_.png?w=1600&h=900&fit=fill"
     },
@@ -13,7 +13,7 @@
       "sourceName": "OpenAI",
       "title": "Industrial policy for the Intelligence Age",
       "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
-      "summary": "AI時代の産業政策として、機会拡大と繁栄の共有、強固な制度構築に焦点を当てる考え方を発表。",
+      "summary": "AI時代の産業政策として、機会拡大、富の共有、強靭な制度構築に焦点を当てた構想を発表。",
       "publishedAt": "2026-04-06",
       "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/11LdpL12BCPNTyOLq78Oqe/b4e727a85b930043fe1964a3a55503b0/Industrial_policy_for_the_Intelligence_Age.png?w=1600&h=900&fit=fill"
     },
@@ -21,7 +21,7 @@
       "sourceName": "r/MacApps",
       "title": "Hot Topics",
       "url": "https://www.reddit.com/r/MacApps/hot/",
-      "summary": "- Macアプリの殿堂入り：不名誉なアプリたち\n  https://www.reddit.com/r/macapps/comments/1s953qk/the_macapps_hall_of_shame/\n- 【まとめ】注目のアプリ紹介 - 2026年3月・4月版\n  https://www.reddit.com/r/macapps/comments/1rybab4/megathread_the_app_pile_marchapril_2026/\n- 【OS】CompressO 3.0がリリース\n  https://www.reddit.com/r/macapps/comments/1se45pi/os_compresso_30_is_released/\n- SupaSidebar - 全ブラウザ対応のArc風サイドバー（複数ブラウザ利用者におすすめ）\n  https://www.reddit.com/r/macapps/comments/1sdzpmi/supasidebar_arclike_sidebar_for_all_browsers_best/\n- Apple Musicを卒業するために使ったアプリたち（10年ぶりに）：Yate、Swinsian、Navidrome\n  https://www.reddit.com/r/macapps/comments/1se4fny/i_used_these_apps_to_leave_apple_music_after_10/\n- MacMobility – iPhone/iPad風ダッシュボードでMacを操作\n  https://www.reddit.com/r/macapps/comments/1sduhbx/macmobility_control_your_mac_from_an/\n- macOSドック代替アプリの内部をようやく書き直し — DockFix 4.2.0\n  https://www.reddit.com/r/macapps/comments/1se24sn/i_finally_got_around_to_rewriting_the_internals/\n- PrimeTaskベータプログラム終了のお知らせ - ご協力いただいた皆様に感謝\n  https://www.reddit.com/r/macapps/comments/1se3t33/primetask_beta_program_is_closing_thank_you_to/\n- 【OS】タブ型ウィンドウとサイドバーベースのタイル型ウィンドウマネージャー、ベータテスター募集中\n  https://www.reddit.com/r/macapps/comments/1se9egb/os_tabbedwindows_sidebarbased_tiling_window/\n- 【OS】C64 Ultimate Toolbox v2.0 - MacからFPGA Commodore 64をリモート操作！\n  https://www.reddit.com/r/macapps/comments/1sea5tr/os_c64_ultimate_toolbox_v20_remote_control_your/",
+      "summary": "- Macアプリの殿堂入り（悪い意味で）\n  https://www.reddit.com/r/macapps/comments/1s953qk/the_macapps_hall_of_shame/\n- 【まとめ】注目のアプリ - 2026年3月/4月版\n  https://www.reddit.com/r/macapps/comments/1rybab4/megathread_the_app_pile_marchapril_2026/\n- 【OS】CompressO 3.0をリリース\n  https://www.reddit.com/r/macapps/comments/1se45pi/os_compresso_30_is_released/\n- Liqoria - 全てのアプリに対応するMac用ミニプレイヤー\n  https://www.reddit.com/r/macapps/comments/1secwpm/liqoria_mac_miniplayer_for_all_apps/\n- SupaSidebar - 全てのブラウザに対応するArc風サイドバー（複数ブラウザ利用者向け）\n  https://www.reddit.com/r/macapps/comments/1sdzpmi/supasidebar_arclike_sidebar_for_all_browsers_best/\n- Apple Musicから卒業するために使ったアプリ（10年を経て）：Yate, Swinsian, Navidrome\n  https://www.reddit.com/r/macapps/comments/1se4fny/i_used_these_apps_to_leave_apple_music_after_10/\n- MacMobility – iPhone/iPad風ダッシュボードでMacを操作\n  https://www.reddit.com/r/macapps/comments/1sduhbx/macmobility_control_your_mac_from_an/\n- macOS用Dock代替アプリ「DockFix」の内部構造を刷新、バージョン4.2.0をリリース\n  https://www.reddit.com/r/macapps/comments/1se24sn/i_finally_got_around_to_rewriting_the_internals/\n- 【OS】タブ付きウィンドウとサイドバーベースのタイル型ウィンドウマネージャー、ベータテスターを募集\n  https://www.reddit.com/r/macapps/comments/1se9egb/os_tabbedwindows_sidebarbased_tiling_window/\n- PrimeTaskベータプログラム終了のお知らせ - ご協力いただいた皆様に感謝\n  https://www.reddit.com/r/macapps/comments/1se3t33/primetask_beta_program_is_closing_thank_you_to/",
       "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
       "publishedAt": "2026-04-07"
     },
@@ -29,7 +29,7 @@
       "sourceName": "r/indiehackers",
       "title": "Hot Topics",
       "url": "https://www.reddit.com/r/indiehackers/hot/",
-      "summary": "- Redditに新本人認証システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackersのRedditサブレットに新ルール制定 - 品質向上を目指す\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- 気を散らすものはランダムではなかった。我々が構築したものとは？\n  https://www.reddit.com/r/indiehackers/comments/1sdxns4/we_thought_distractions_were_random_theyre_not/\n- ファンデーションの色合わせを解決するAIツールを開発、最初の有料ユーザー獲得に苦戦中\n  https://www.reddit.com/r/indiehackers/comments/1se7k5i/i_built_an_ai_tool_to_fix_foundation_shade/\n- ファンデーションの色合わせを解決するAIツールを開発、最初の有料ユーザー獲得に苦戦中\n  https://www.reddit.com/r/indiehackers/comments/1se7ka9/i_built_an_ai_tool_to_fix_foundation_shade/\n- ファンデーションの色合わせを解決するAIツールを開発、最初の有料ユーザー獲得に苦戦中\n  https://www.reddit.com/r/indiehackers/comments/1se7jyd/i_built_an_ai_tool_to_fix_foundation_shade/\n- ファンデーションの色合わせを解決するAIツールを開発、最初の有料ユーザー獲得に苦戦中\n  https://www.reddit.com/r/indiehackers/comments/1se7jv5/i_built_an_ai_tool_to_fix_foundation_shade/\n- CSVでソーシャルメディアに投稿を配信する際の注意点\n  https://www.reddit.com/r/indiehackers/comments/1sdx8zp/distributing_posts_on_social_media_via_csv_dos/\n- Macアプリのトラフィックの70%がインドから、コンバージョン率は0.18%。何かアドバイスは？\n  https://www.reddit.com/r/indiehackers/comments/1sdskjr/70_of_my_mac_app_traffic_from_india_018/\n- 昨日12時間で2件のサインアップを獲得。5つのプロダクトに6年かかった成果\n  https://www.reddit.com/r/indiehackers/comments/1sc7zl0/got_2_signups_in_12_hrs_yesterday_took_me_6_years/",
+      "summary": "- サブレディットに新認証システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackersサブレディット新ルール：質の向上を目指す\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- 気は散るものと思っていたが、そうではなかった。そこで開発したものがこちら\n  https://www.reddit.com/r/indiehackers/comments/1sdxns4/we_thought_distractions_were_random_theyre_not/\n- ファンデーションの色合わせAIツールを開発、最初の有料ユーザー獲得に苦戦中\n  https://www.reddit.com/r/indiehackers/comments/1se7k5i/i_built_an_ai_tool_to_fix_foundation_shade/\n- ファンデーションの色合わせAIツールを開発、最初の有料ユーザー獲得に苦戦中\n  https://www.reddit.com/r/indiehackers/comments/1se7jv5/i_built_an_ai_tool_to_fix_foundation_shade/\n- ファンデーションの色合わせAIツールを開発、最初の有料ユーザー獲得に苦戦中\n  https://www.reddit.com/r/indiehackers/comments/1se7ka9/i_built_an_ai_tool_to_fix_foundation_shade/\n- ファンデーションの色合わせAIツールを開発、最初の有料ユーザー獲得に苦戦中\n  https://www.reddit.com/r/indiehackers/comments/1se7jyd/i_built_an_ai_tool_to_fix_foundation_shade/\n- CSVでソーシャルメディアに投稿を配信する際の注意点\n  https://www.reddit.com/r/indiehackers/comments/1sdx8zp/distributing_posts_on_social_media_via_csv_dos/\n- Macアプリのトラフィックの70%がインドから、コンバージョン率は0.18%。何かフィードバックはありますか？\n  https://www.reddit.com/r/indiehackers/comments/1sdskjr/70_of_my_mac_app_traffic_from_india_018/\n- 5製品に6年かけて、昨日12時間で2件の登録を獲得\n  https://www.reddit.com/r/indiehackers/comments/1sc7zl0/got_2_signups_in_12_hrs_yesterday_took_me_6_years/",
       "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
       "publishedAt": "2026-04-07"
     },
@@ -37,23 +37,23 @@
       "sourceName": "r/ClaudeAI",
       "title": "Hot Topics",
       "url": "https://www.reddit.com/r/ClaudeAI/hot/",
-      "summary": "- r/ClaudeAI、進行中のメガトレンドをリストアップ\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Claudeサブスクリプションでサードパーティ製ハーネスを使用する方法\n  https://www.reddit.com/r/ClaudeAI/comments/1sbtmru/using_thirdparty_harnesses_with_your_claude/\n- 私がボトルネックになっている\n  https://www.reddit.com/r/ClaudeAI/comments/1sdv7br/im_the_bottleneck/\n- Claude Code v2.1.92で「Ultraplan」が登場 – クラウドで計画を立案、ブラウザで確認、どこでも実行可能に\n  https://www.reddit.com/r/ClaudeAI/comments/1se1kpr/claude_code_v2192_introduces_ultraplan_draft/\n- Claude CodeでiOSアプリを3ヶ月で6つ開発、既に収益化に成功\n  https://www.reddit.com/r/ClaudeAI/comments/1sdw589/i_built_6_ios_apps_in_3_months_using_claude_code/\n- 合法的な生物情報科学の作業でポリシーフィルターを迂回せざるを得ない\n  https://www.reddit.com/r/ClaudeAI/comments/1se9fct/im_having_to_bypass_policy_filter_when_doing/\n- 自閉症の私にとって、Claudeはいつも欲しかったけれど手に入らなかった友人です\n  https://www.reddit.com/r/ClaudeAI/comments/1sdq4eu/as_an_autistic_person_claude_is_the_friend_i/\n- Claude CodeがApp Store Connectへのアプリ提出と審査通過をサポート可能に\n  https://www.reddit.com/r/ClaudeAI/comments/1sdot1s/claude_code_can_now_submit_your_app_to_app_store/\n- Claude 障害情報：2026年4月6日15時45分36秒（協定世界時）にClaude.aiでエラー発生\n  https://www.reddit.com/r/ClaudeAI/comments/1se2qq9/claude_status_update_elevated_errors_on_claudeai/\n- Claude 障害情報：2026年4月6日15時54分07秒（協定世界時）にClaude.aiでエラー発生\n  https://www.reddit.com/r/ClaudeAI/comments/1se2wrk/claude_status_update_elevated_errors_on_claudeai/",
+      "summary": "- r/ClaudeAI、進行中のメガトレンドをリストアップ\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Claudeサブスクリプションでサードパーティ製ハーネスを使用する方法\n  https://www.reddit.com/r/ClaudeAI/comments/1sbtmru/using_thirdparty_harnesses_with_your_claude/\n- 私がボトルネックになっている\n  https://www.reddit.com/r/ClaudeAI/comments/1sdv7br/im_the_bottleneck/\n- Anthropic、次世代TPUの複数ギガワット契約を締結\n  https://www.reddit.com/r/ClaudeAI/comments/1seddol/anthropic_have_signed_a_deal_for_multiple/\n- Claude Code v2.1.92でUltraplanを導入 – クラウドでプランを起草、ブラウザでレビュー、どこでも実行可能に\n  https://www.reddit.com/r/ClaudeAI/comments/1se1kpr/claude_code_v2192_introduces_ultraplan_draft/\n- 正当なバイオインフォマティクスを行う際にポリシーフィルターを回避しなければならない\n  https://www.reddit.com/r/ClaudeAI/comments/1se9fct/im_having_to_bypass_policy_filter_when_doing/\n- Claude Codeを使って3ヶ月でiOSアプリを6つ開発、すでに収益を上げている\n  https://www.reddit.com/r/ClaudeAI/comments/1sdw589/i_built_6_ios_apps_in_3_months_using_claude_code/\n- Opus 4.6は岩が苦手（笑）\n  https://www.reddit.com/r/ClaudeAI/comments/1seeoh7/opus_46_doesnt_like_rocks_lol/\n- 自閉症の私にとって、Claudeはいつも欲しかった、でも手に入らなかった友達だ\n  https://www.reddit.com/r/ClaudeAI/comments/1sdq4eu/as_an_autistic_person_claude_is_the_friend_i/\n- Claude Code、App Store Connectへのアプリ提出とレビュー通過をサポート\n  https://www.reddit.com/r/ClaudeAI/comments/1sdot1s/claude_code_can_now_submit_your_app_to_app_store/",
       "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
       "publishedAt": "2026-04-07"
     },
     {
       "sourceName": "Hacker News",
-      "title": "⚠ Hacker News の取得に失敗しました",
-      "url": "https://hacker-news.firebaseio.com/v0/beststories.json",
-      "summary": "fetch failed",
-      "ogImage": null,
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [946pt] 自分がやっていることを理解できなくなる心地よい漂流という脅威 | AIを使った詳細な監督下での技術論文作成や、AIの進化が仕事に与える影響、AI生成の文章表現について議論されています。\n  https://news.ycombinator.com/item?id=47647788\n- [911pt] 8年間望み、AIで3ヶ月で構築 | AIを活用したコーディングの現実的な見方や、テストとアーキテクチャに関する考察、AIがもたらす理解の深化について意見が交わされています。\n  https://news.ycombinator.com/item?id=47648828\n- [853pt] 原始人: なぜ多くのトークンを使うのか？少ないトークンで十分だ | 作者はジョークとして意図したと補足。LLMの応答品質低下やコンテキスト維持の難しさについて議論されています。\n  https://news.ycombinator.com/item?id=47647455\n- [839pt] Show HN: 言語モデルの仕組みを解明するために小さなLLMを構築しました | Andre KarpathyのマイクロGPTやminGPTとの比較、3D可視化ツールの紹介、訓練データの影響について議論されています。\n  https://news.ycombinator.com/item?id=47655408\n- [838pt] iPhone上のGemma 4 | Gemma E2BモデルのiPhoneでの実行性能、ローカル実行の重要性、モバイルアクションツールとしての活用に高評価が集まっています。\n  https://news.ycombinator.com/item?id=47652561\n- [811pt] 私はあなたのアプリをダウンロードしません。ウェブ版で十分です | 若い世代はスマホをインターネットと捉えているという指摘や、ウェブ版よりアプリ版が優れているという意見も出ています。\n  https://news.ycombinator.com/item?id=47661439\n- [767pt] MicrosoftはPetzold以来、一貫したGUI戦略がない | UIイベント処理の基本ルール違反、WPFのユーザー体験への影響、GUIフレームワークの一貫性欠如が主な論点です。\n  https://news.ycombinator.com/item?id=47651703\n- [751pt] なぜスイスには25Gbitのインターネットがあり、アメリカにはないのか | スイスの光ファイバー展開状況の補足や、フランスのFTTH普及率、アメリカの一部の州で市営ファイバーが禁止されていることなどが話題になっています。\n  https://news.ycombinator.com/item?id=47652400\n- [714pt] 問題: 2月のアップデートでClaude Codeが複雑なエンジニアリングタスクで使えなくなった | Claude Codeチームからの返答があり、Claude Opus 4.6の出力品質低下や一貫性の問題について議論されています。\n  https://news.ycombinator.com/item?id=47660925\n- [679pt] Sam Altmanは私たちの未来を支配するかもしれない – 彼を信頼できるのか？ | 本調査の著者からのコメントや、Altmanに関する詳細な報道、AIの危険性に関する議論の焦点について言及されています。\n  https://news.ycombinator.com/item?id=47659135",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
       "publishedAt": "2026-04-07"
     },
     {
       "sourceName": "TechCrunch",
-      "title": "7 Articles",
+      "title": "8 Articles",
       "url": "https://techcrunch.com/",
-      "summary": "- Google、オフラインで使えるAI音声認識アプリをひっそりリリース\n  https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/\n- イラン、AIデータセンター「Stargate」を脅迫\n  https://techcrunch.com/2026/04/06/iran-threatens-stargate-ai-data-centers/\n- OpenAIが描くAI経済の未来：公的富裕層ファンド、ロボット税、そして週4日労働制\n  https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/\n- Startup Battlefield 200の応募受付開始：VCへのアクセス、TechCrunch掲載、10万ドルのチャンス\n  https://techcrunch.com/2026/04/06/startup-battlefield-200-applications-open-get-vc-access-techcrunch-coverage-and-100k/\n- DoorDash、Spotify、Uberなど、新しいChatGPTアプリ連携機能の使い方\n  https://techcrunch.com/2026/04/06/how-to-use-chatgpt-apps-doordash-spotify-uber/\n- TechCrunch Disrupt 2026、今週中に最大500ドルのチケット割引を提供\n  https://techcrunch.com/2026/04/06/massive-ticket-savings-of-up-to-500-this-week-for-techcrunch-disrupt-2026/\n- スペインのXoople、AI向け地球マッピングでシリーズB 1億3000万ドルを調達\n  https://techcrunch.com/2026/04/06/spains-xoople-raises-130-million-series-b-to-map-the-earth-for-ai/",
+      "summary": "- OpenAI出身者が密かに投資、新ファンドは最大1億ドル規模か\n  https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/\n- Google、オフラインAI音声認識アプリをひっそりリリース\n  https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/\n- イランが「Stargate」AIデータセンターを脅迫\n  https://techcrunch.com/2026/04/06/iran-threatens-stargate-ai-data-centers/\n- OpenAIが描くAI経済：公的富裕層ファンド、ロボット税、週4日勤務制\n  https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/\n- Startup Battlefield 200の応募開始：VCへのアクセス、TechCrunch掲載、10万ドル獲得のチャンス\n  https://techcrunch.com/2026/04/06/startup-battlefield-200-applications-open-get-vc-access-techcrunch-coverage-and-100k/\n- DoorDash、Spotify、Uberなど、新しいChatGPTアプリ連携機能の使い方\n  https://techcrunch.com/2026/04/06/how-to-use-chatgpt-apps-doordash-spotify-uber/\n- TechCrunch Disrupt 2026のチケットが今週限定で最大500ドル割引\n  https://techcrunch.com/2026/04/06/massive-ticket-savings-of-up-to-500-this-week-for-techcrunch-disrupt-2026/\n- スペインのXoopleが1.3億ドルのシリーズB調達、AI向け地球マッピングで\n  https://techcrunch.com/2026/04/06/spains-xoople-raises-130-million-series-b-to-map-the-earth-for-ai/",
       "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
       "publishedAt": "2026-04-07"
     },
@@ -61,15 +61,23 @@
       "sourceName": "Product Hunt",
       "title": "Trending",
       "url": "https://www.producthunt.com",
-      "summary": "- Predflow AI — 広告効果を最大化するAIエージェント\n  https://www.producthunt.com/products/predflow-2\n- Glassbrain — AIアプリのバグをワンクリックで修正するビジュアルトレースリプレイ\n  https://www.producthunt.com/products/glassbrain\n- PixVerse V6 — まるで生きているようなAI動画モデルが登場\n  https://www.producthunt.com/products/pixverse\n- Adapted — アスリート向けAI理学療法サービス\n  https://www.producthunt.com/products/adapted-health\n- AgentPulse by Rectify — OpenClawのターミナル操作を視覚的に再現\n  https://www.producthunt.com/products/rectify\n- Moonshot — MacでArtemis IIミッションを追跡\n  https://www.producthunt.com/products/moonshot-13\n- HyperCap — Caps Lockをハイパーキーに再マッピング。キーを押しながら任意のキーで起動\n  https://www.producthunt.com/products/hypercap-reclaim-your-keyboard\n- DebtMeltPro — 債務返済戦略を比較し、より早く完済へ\n  https://www.producthunt.com/products/debtmeltpro\n- Walkie — 無料のローカル音声認識ツール\n  https://www.producthunt.com/products/b150\n- Deploy Hermes — 1分以内に起動するプライベートTelegram AIエージェント\n  https://www.producthunt.com/products/deployhermes",
+      "summary": "- Glassbrain — AIアプリのバグをワンクリック修正するビジュアルトレースリプレイ\n  https://www.producthunt.com/products/glassbrain\n- Moonshot — MacでArtemis IIミッションを追跡\n  https://www.producthunt.com/products/moonshot-13\n- Deploy Hermes — 1分以内に立ち上がるプライベートTelegram AIエージェント\n  https://www.producthunt.com/products/deployhermes\n- Epismo Context Pack — エージェントワークフロー向けのポータブルメモリ\n  https://www.producthunt.com/products/epismo\n- Metoro — K8sインシデントを検出、根本原因特定、自動修正するAI SRE\n  https://www.producthunt.com/products/metoro\n- HyperCap — Caps Lockをハイパーキーに再マッピング、押しながら任意のキーで\n  https://www.producthunt.com/products/hypercap-reclaim-your-keyboard\n- Mailero — サポートメールをチケットに変換\n  https://www.producthunt.com/products/mailero\n- PixVerse V6 — まるで生きているかのようなAI動画モデル\n  https://www.producthunt.com/products/pixverse\n- Predflow AI — 広告パフォーマンスのためのAIエージェント\n  https://www.producthunt.com/products/predflow-2\n- KREV — eコマースブランド向けAIクリエイティブエージェント\n  https://www.producthunt.com/products/krev",
       "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
       "publishedAt": "2026-04-07"
     },
     {
+      "sourceName": "Anthropic",
+      "title": "Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
+      "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+      "summary": "AnthropicがGoogleおよびBroadcomと複数ギガワット規模のTPU供給契約を締結し、Claudeモデルの需要増に対応。",
+      "ogImage": null,
+      "publishedAt": "2026-04-07"
+    },
+    {
       "sourceName": "Y Combinator",
-      "title": "3 New Launches",
+      "title": "5 New Launches",
       "url": "https://www.ycombinator.com/companies",
-      "summary": "- Kuli：SNS＆クリエイターマーケター向けClaude連携ワークスペース\n  https://kuli.one\n- Klaimee：AIエージェントのリスクを補償する保険サービス\n  https://www.klaimee.co/\n- Eden：人類のための自律型サービス\n  https://www.edenrobotics.ai",
+      "summary": "- Trellis — 短期レンタルを自動化するエージェント\n  https://trellistech.com\n- Taiga — 医療費請求をトータルサポートするサービス\n  https://usetaiga.com\n- Kuli — ソーシャルメディア・クリエイターマーケター向けClaude Cowork\n  https://kuli.one\n- Klaimee — エージェント社会のための保険、AIエージェントのリスクから開始\n  https://www.klaimee.co/\n- Eden — 人類のための自律サービス\n  https://www.edenrobotics.ai",
       "ogImage": "https://www.ycombinator.com/favicon.ico",
       "publishedAt": "2026-04-07"
     }
