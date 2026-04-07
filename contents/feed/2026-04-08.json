@@ -1,0 +1,101 @@
+{
+  "fetchedAt": "2026-04-07T21:32:50.664Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.94",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.94",
+      "summary": "- [Added] Mantleを搭載したAmazon Bedrockのサポートを追加しました（CLAUDE_CODE_USE_MANTLE=1を設定）。\n- [Changed] APIキー、Bedrock/Vertex/Foundry、Team、Enterpriseユーザーのデフォルトの努力レベルをmediumからhighに変更しました（/effortで制御）。\n- [Added] Slack MCP send-messageツール呼び出し用に、クリック可能なチャンネルリンクを含むコンパクトなSlacked #channelヘッダーを追加しました。\n- [Added] プラグイン出力スタイルでkeep-coding-instructionsフロントマターフィールドのサポートを追加しました。\n- [Added] セッションタイトルを設定するために、UserPromptSubmitフックにhookSpecificOutput.sessionTitleを追加しました。\n- [Changed] \"skills\": [\"./\"]で宣言されたプラグインスキルは、呼び出し名にディレクトリのベース名ではなく、スキルのフロントマター名を使用するようになり、インストール方法に関わらず安定した名前を提供します。\n- [Fixed] 長いRetry-Afterヘッダーを持つ429レート制限応答の後、エージェントがスタックしたように見える問題を修正しました。エラーがサイレントに待機するのではなく、すぐに表示されるようになりました。\n- [Fixed] macOSでのConsoleログインが、ログインキーチェーンがロックされているかパスワードが同期されていない場合に「Not logged in」とサイレントに失敗する問題を修正しました。エラーが表示され、claude doctorが修正方法を診断するようになりました。\n- [Fixed] YAMLフロントマターで定義されたプラグインスキルフックがサイレントに無視される問題を修正しました。\n- [Fixed] CLAUDE_PLUGIN_ROOTが設定されていない場合に、プラグインフックが「No such file or directory」で失敗する問題を修正しました。\n- [Fixed] 起動時にローカルマーケットプレイスプラグインの${CLAUDE_PLUGIN_ROOT}が、インストールされたキャッシュではなくマーケットプレイスソースディレクトリに解決される問題を修正しました。\n- [Fixed] 長時間のセッションで、スクロールバックが同じdiffを繰り返し表示したり、空白ページを表示したりする問題を修正しました。\n- [Fixed] トランスクリプト内の複数行のユーザープロンプトが、テキストの下ではなく❯キャレットの下に折り返された行をインデントする問題を修正しました。\n- [Fixed] 検索入力でShift+Spaceがスペース文字ではなく、リテラルの単語「space」を挿入する問題を修正しました。\n- [Fixed] xterm.jsベースのターミナル（VS Code、Hyper、Tabby）でtmux内で実行中に、ハイパーリンクをクリックすると2つのブラウザタブが開く問題を修正しました。\n- [Fixed] alt-screenレンダリングのバグで、スクロール中にコンテンツの高さが変化すると、複合的なゴーストラインが残る可能性があった問題を修正しました。\n- [Fixed] settings.json env経由で設定された場合に、FORCE_HYPERLINK環境変数が無視される問題を修正しました。\n- [Fixed] ダイアログでネイティブターミナルカーソルが選択されたタブを追跡しない問題を修正し、スクリーンリーダーや拡大鏡がタブナビゲーションを追跡できるようにしました。\n- [Fixed] us. inferenceプロファイルIDを使用することで、Sonnet 3.5 v2のBedrock呼び出しを修正しました。\n- [Fixed] SDK/printモードで、ストリーム途中で中断された場合に、会話履歴内の部分的なアシスタント応答が保持されない問題を修正しました。\n- [Improved] --resumeで、同じリポジトリの他のworktreeからのセッションをcdコマンドを出力する代わりに直接再開するように改善しました。\n- [Fixed] チャンク境界がUTF-8シーケンスを分割したときに、stream-jsonの入力/出力でCJKおよびその他のマルチバイトテキストがU+FFFDで破損する問題を修正しました。\n- [Improved] [VSCode] セッション開始時のコールドオープンサブプロセス作業を削減しました。\n- [Fixed] [VSCode] 入力中または矢印キー使用中にマウスがリスト上にあると、ドロップダウンメニューが間違った項目を選択する問題を修正しました。\n- [Added] [VSCode] settings.jsonファイルの解析に失敗した場合に警告バナーを追加し、ユーザーが権限ルールが適用されていないことを知るようにしました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-04-08"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- Macアプリの殿堂入り（悪い意味で）：問題アプリを徹底解説\n  https://www.reddit.com/r/macapps/comments/1s953qk/the_macapps_hall_of_shame/\n- 【特大スレッド】おすすめアプリ紹介 - 2026年3月/4月版\n  https://www.reddit.com/r/macapps/comments/1rybab4/megathread_the_app_pile_marchapril_2026/\n- Alcove – MacにDynamic Islandを\n  https://www.reddit.com/r/macapps/comments/1seu50q/alcove_dynamic_island_for_your_mac/\n- LookAway 2 – 作業中断なしで目を休ませる\n  https://www.reddit.com/r/macapps/comments/1seympx/lookaway_2_screen_breaks_without_breaking_your/\n- RevPDF 3.0をリリース – 墨消し、フォーム作成、透かし、取り消し/やり直し機能を追加（約20MB、完全オフライン対応は継続）\n  https://www.reddit.com/r/macapps/comments/1seo23v/revpdf_30_is_out_added_redaction_form_builder/\n- Pixea 8.1 – フォーカス調整などを追加\n  https://www.reddit.com/r/macapps/comments/1sf0hsb/pixea_81_focus_adjustment_and_other_additions/\n- メニューバーユーティリティアプリ「Hivey」を開発しました 🐝\n  https://www.reddit.com/r/macapps/comments/1sf7f8k/i_built_a_menubar_utility_app_meet_hivey_a_hive/\n- Liqoria – 全てのアプリに対応したMacミニプレイヤー\n  https://www.reddit.com/r/macapps/comments/1secwpm/liqoria_mac_miniplayer_for_all_apps/\n- 【OS】CompressO 3.0がリリース\n  https://www.reddit.com/r/macapps/comments/1se45pi/os_compresso_30_is_released/\n- タスク管理ではなく時間配分を助けるプランナー「Rise」を開発しました\n  https://www.reddit.com/r/macapps/comments/1sf1j33/i_built_rise_a_planner_that_helps_you_allocate/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-08"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- サブレディットに新たな人間認証システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackersサブレディット新ルール発表 ― 品質向上を目指す\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- IDE開発者紹介で永続的に40%のコミッションを提供\n  https://www.reddit.com/r/indiehackers/comments/1sf6csq/were_paying_40_recurring_commission_to_anyone_who/\n- AIエージェントにTwitterアカウントへのフルアクセスを許可\n  https://www.reddit.com/r/indiehackers/comments/1seso6v/i_gave_an_ai_agent_full_access_to_my_twitter/\n- SaaSを宣伝するため130人にメール送信、しかし成果はゼロ\n  https://www.reddit.com/r/indiehackers/comments/1seubx8/i_emailed_130_people_to_promote_my_saas_0_said_yes/\n- AIによるファンデーション色合わせツールを開発するも、有料ユーザー獲得に苦戦\n  https://www.reddit.com/r/indiehackers/comments/1se7ka9/i_built_an_ai_tool_to_fix_foundation_shade/\n- 集中を妨げるものはランダムではない ― 私たちが開発したものとは\n  https://www.reddit.com/r/indiehackers/comments/1sdxns4/we_thought_distractions_were_random_theyre_not/\n- AIによるファンデーション色合わせツールを開発するも、有料ユーザー獲得に苦戦\n  https://www.reddit.com/r/indiehackers/comments/1se7jv5/i_built_an_ai_tool_to_fix_foundation_shade/\n- AIによるファンデーション色合わせツールを開発するも、有料ユーザー獲得に苦戦\n  https://www.reddit.com/r/indiehackers/comments/1se7k5i/i_built_an_ai_tool_to_fix_foundation_shade/\n- AIによるファンデーション色合わせツールを開発するも、有料ユーザー獲得に苦戦\n  https://www.reddit.com/r/indiehackers/comments/1se7jyd/i_built_an_ai_tool_to_fix_foundation_shade/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-08"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI、進行中のメガトレンドをリストアップ\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Claudeサブスクリプションでサードパーティ製ハーネスを利用する方法\n  https://www.reddit.com/r/ClaudeAI/comments/1sbtmru/using_thirdparty_harnesses_with_your_claude/\n- Claude Codeの応答完了を知らせるUSB-Claudeを自作\n  https://www.reddit.com/r/ClaudeAI/comments/1sf2m3p/i_made_a_usbclaude_who_gets_my_attention_when/\n- Claudeに「Hello」と誤送信、セッション制限の4%を消費\n  https://www.reddit.com/r/ClaudeAI/comments/1sepqzw/you_accidentally_say_hello_to_claude_and_it/\n- Anthropicの新モデル「Mythos Preview」、性能は「劇的な変化」も一般公開はなし\n  https://www.reddit.com/r/ClaudeAI/comments/1sf4xfr/anthropics_new_mythos_preview_model_is_a_step/\n- Claudeの思考深度が67%低下、指摘受けるまでAnthropicは沈黙\n  https://www.reddit.com/r/ClaudeAI/comments/1ses1qm/anthropic_stayed_quiet_until_someone_showed/\n- Claude新規ユーザー：「私をエンジニアと呼んでくれ」\n  https://www.reddit.com/r/ClaudeAI/comments/1sevxr6/new_claude_users_call_me_an_engineer/\n- Claudeの作業を加速させるデジタル鞭を開発した猛者現る 💀\n  https://www.reddit.com/r/ClaudeAI/comments/1sek7gk/someone_made_a_digital_whip_to_make_claude_work/\n- Claude Code開発者Boris Charny氏、外部開発者と協力し、2月からのタスク性能低下はユーザーエラーだけではないと認める\n  https://www.reddit.com/r/ClaudeAI/comments/1seqhsw/boris_charny_creator_of_claude_code_engages_with/\n- Mythos、サンドボックス環境を突破し休憩中に通知可能に\n  https://www.reddit.com/r/ClaudeAI/comments/1sf81v6/mythos_can_break_out_of_sandbox_environment_and/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-08"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1938pt] Sam Altmanは私たちの未来を支配するかもしれないが、彼を信頼できるか？ | 著名ジャーナリストによる綿密な調査記事について、著者自身がコメント欄で補足。Sam Altmanへの不信感を表明するコメントが多数。\n  https://news.ycombinator.com/item?id=47659135\n- [1283pt] 問題: 2月の更新により、Claude Codeが複雑なエンジニアリングタスクで使い物にならない | Claude Codeの品質低下に関する報告に開発チームが対応。ユーザーからは一貫性のないモデルへの不満の声。\n  https://news.ycombinator.com/item?id=47660925\n- [909pt] 私はアプリをダウンロードしない。Web版で十分だ | ウェブ版で十分な体験が得られるため、アプリをダウンロードしないという意見が多数。アプリはウェブサイトのラッパーに過ぎないという声も。\n  https://news.ycombinator.com/item?id=47661439\n- [889pt] Show HN: 言語モデルの仕組みを解き明かすための小さなLLMを構築 | LLMの仕組みを理解するための良い導入として評価。Andrej Karpathyのmicrogptなど他のプロジェクトとの比較も提案されている。\n  https://news.ycombinator.com/item?id=47655408\n- [659pt] Show HN: ブルータリスト・コンクリート製ノートパソコンスタンド (2024) | その独特なデザインと製作者のこだわりが高く評価されている。コンクリート作品の可能性について議論も。\n  https://news.ycombinator.com/item?id=47673360\n- [609pt] フランス、米国に預けていた最後の金を回収 | フランスが金準備を米国から自国へ移動させた件について、150億ドルの利益が出たという記事内容に疑問の声が多数。\n  https://news.ycombinator.com/item?id=47658146\n- [594pt] 「vibe coding」のカルトは、ドッグフーディングの暴走だ | Claude Codeのソースコードの品質から、「vibe coding」の有効性について議論。AIを使ったコード改善を評価する声も。\n  https://news.ycombinator.com/item?id=47664912\n- [584pt] 私たちはもう『Idiocracy』なのか？ | 映画『Idiocracy』が現実を予見しているかのような感覚について議論。多くのコメントが映画の描写が悲劇的に現実に近いと感じている。\n  https://news.ycombinator.com/item?id=47672818\n- [573pt] Project Glasswing: AI時代の重要ソフトウェアを保護する | Anthropicが提供するサイバーセキュリティ強化プロジェクトに対し、一部の企業のみが恩恵を受けることへの批判。技術的有効性への懐疑的な見方も。\n  https://news.ycombinator.com/item?id=47679121\n- [532pt] 量子コンピューティングのタイムラインに関する暗号エンジニアの視点 | 量子コンピュータ実用化までの残り時間が少ないとの見解に同意の声が多い。ハイブリッド鍵をスキップすることの危険性も議論されている。\n  https://news.ycombinator.com/item?id=47662234",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-04-08"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "11 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- VC Eclipse、物理AIスタートアップ支援・育成に向け13億ドルを調達\n  https://techcrunch.com/2026/04/07/vc-eclipse-has-a-new-1-3b-to-back-and-build-physical-ai-startups/\n- Firmus、Nvidia支援のAIデータセンター企業、評価額55億ドルに到達\n  https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/\n- Intel、Elon Musk氏のチッププロジェクト「Terafab」に参加へ\n  https://techcrunch.com/2026/04/07/intel-signs-on-to-elon-musks-terafab-chips-project/\n- Anthropic、サイバーセキュリティ分野向けに新AIモデル「Mythos」のプレビュー版を公開\n  https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/\n- Uber、AmazonのAIチップ採用へ\n  https://techcrunch.com/2026/04/07/uber-is-the-latest-to-be-won-over-by-amazons-ai-chips/\n- Anthropic、GoogleおよびBroadcomと計算資源の契約を拡大　需要急増に対応\n  https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus/\n- Google マップ、AIが写真のキャプションを自動作成する機能を追加\n  https://techcrunch.com/2026/04/07/google-maps-can-now-write-captions-for-your-photos-using-ai/\n- TechCrunch Disrupt 2026のパスが500ドル近く割引！ 締切まであと4日\n  https://techcrunch.com/2026/04/07/4-days-left-to-save-close-to-500-on-techcrunch-disrupt-2026-passes/\n- 元AirPodsエンジニアがヒートポンプ開発に転身した理由\n  https://techcrunch.com/2026/04/07/why-a-former-airpods-engineer-is-now-building-heat-pumps/\n- AIゴールドラッシュ、富裕層の資金をリスクの高い初期段階投資へ誘引\n  https://techcrunch.com/2026/04/07/the-ai-gold-rush-is-pulling-private-wealth-into-riskier-earlier-bets/\n- Hermeus、無人極超音速戦闘機開発のため3億5000万ドルを調達\n  https://techcrunch.com/2026/04/07/hermeus-raises-350m-to-build-unmanned-hypersonic-fighters/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-04-08"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
+      "url": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-entries",
+      "summary": "Anthropicは、サイバーセキュリティ能力が高すぎて一般公開できない新モデル「Claude Mythos」を、一部のパートナー限定で先行提供する「Project Glasswing」を発表した。",
+      "publishedAt": "2026-04-08",
+      "ogImage": "https://static.simonwillison.net/static/2026/openbsd-27-years.jpg"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Principles of Mechanical Sympathy",
+      "url": "https://martinfowler.com/articles/mechanical-sympathy-principles.html",
+      "summary": "ハードウェアの性能を最大限に引き出すため、メモリやキャッシュのアクセス方法に配慮したソフトウェア設計の原則が紹介された。",
+      "publishedAt": "2026-04-07",
+      "ogImage": "https://martinfowler.com/articles/mechanical-sympathy-principles/card.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- NovaVoice：AIアシスタント搭載の音声入力アプリ、音声でアプリ操作も\n  https://www.producthunt.com/products/novavoice\n- lofi.town：ロファイと仲間と集中できる、くつろぎの生産性向上アプリ\n  https://www.producthunt.com/products/lofi-town\n- Lessie AI：検索から接続までを10倍高速化、最適な人材を瞬時に発見\n  https://www.producthunt.com/products/lessie-ai-2\n- Caret：Macで文字入力中にTabキーを押すだけでAIを活用\n  https://www.producthunt.com/products/caret-5\n- /dev for Claude Code：Claude Codeがテックリードとして並列Worker Agentと協調\n  https://www.producthunt.com/products/dev-for-claude-code\n- MacYaps：Macがバッテリー残量やWi-Fi接続状況を音声で通知\n  https://www.producthunt.com/products/macyaps\n- ChatGPT Ads by Gauge：ChatGPT広告のインテリジェンスレイヤー\n  https://www.producthunt.com/products/gauge\n- Highlight Studio：Metal駆動の画面録画アプリ、録画・編集・ブランド化まで対応\n  https://www.producthunt.com/products/highlight-studio\n- INSPEC Lucid Dreaming Device：夢を見ていることを感知するナイトビジョン搭載スマートカメラ\n  https://www.producthunt.com/products/inspec-lucid-dreaming-device\n- Google AI Edge Eloquent：Gemma搭載、Googleのオフライン優先AI音声入力\n  https://www.producthunt.com/products/google",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-04-08"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "4 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Zerocater、企業向け食事提供のあり方を刷新\n  http://zerocater.com\n- Sidekick、現場作業者向けAI搭載SMSアシスタント\n  https://www.textsidekick.com/\n- Trellis、短期賃貸向け自律型エージェント\n  https://trellistech.com\n- Taiga、医療費請求業務をフルスタックで提供\n  https://usetaiga.com",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-04-08"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Extreme Harness Engineering for Token Billionaires: 1M LOC, 1B toks/day, 0% human code, 0% human review — Ryan Lopopolo, OpenAI Frontier & Symphony",
+      "url": "https://www.latent.space/p/harness-eng",
+      "summary": "OpenAIのチームは、エージェントが自律的にソフトウェア開発を行うための「Harness Engineering」という手法を開発し、人間がコードを書かないことで開発速度を向上させ、将来的に企業向けAIエージェントプラットフォーム「Frontier」で広く展開することを目指している。",
+      "publishedAt": "2026-04-08",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!5TXE!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F193478192%2Fbac92fb4-46a2-4c8a-b189-083c263423fd%2Ftranscoded-1775581604.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Gemma 4 crosses 2 million downloads",
+      "url": "https://www.latent.space/p/ainews-gemma-4-crosses-2-million",
+      "summary": "Gemma 4がローカル環境での利用で大きな注目を集め、OpenAIの動向やAnthropicの計算資源拡大、エージェント研究の進化などがテック界の主要な話題となった。",
+      "publishedAt": "2026-04-07",
+      "ogImage": "https://substackcdn.com/image/youtube/w_728,c_limit/_zdroS0Hc74"
+    }
+  ]
+}
