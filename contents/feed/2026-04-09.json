@@ -1,0 +1,109 @@
+{
+  "fetchedAt": "2026-04-08T21:35:21.063Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "The next phase of enterprise AI",
+      "url": "https://openai.com/index/next-phase-of-enterprise-ai",
+      "summary": "OpenAIが、ChatGPT Enterprise等のAIツール群で企業向けAI導入の次なる段階を定義。",
+      "publishedAt": "2026-04-08",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/6hAH6ERUZCYnjwvdeDQf1v/afda5a94a25682356a0375536dbb5944/Next_phase_of_enterprise_AI_SEO_16x9.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Introducing the Child Safety Blueprint",
+      "url": "https://openai.com/index/introducing-child-safety-blueprint",
+      "summary": "OpenAIが、AIの健全な開発と利用に向けた、子どもを保護するための行動指針を発表。",
+      "publishedAt": "2026-04-08",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/59uMg1AsR5K8rad2GHLAdV/e12fabf63048e84b575703221cce09fe/Frame__8_.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.96",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.96",
+      "summary": "- [Fixed] AWS_BEARER_TOKEN_BEDROCK または CLAUDE_CODE_SKIP_BEDROCK_AUTH 使用時に Bedrock リクエストが 403 \"Authorization header is missing\" エラーで失敗する問題を修正 (2.1.94 のリグレッション)",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-04-08"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- Macアプリの殿堂入り（悪い意味で）\n  https://www.reddit.com/r/macapps/comments/1s953qk/the_macapps_hall_of_shame/\n- 【まとめ】注目のアプリ - 2026年3月/4月版\n  https://www.reddit.com/r/macapps/comments/1rybab4/megathread_the_app_pile_marchapril_2026/\n- 【OS】SuperCmd — Raycast Proのオープンソース代替アプリが登場\n  https://www.reddit.com/r/macapps/comments/1sfve50/os_supercmd_opensource_alternative_to_raycast_pro/\n- Prickle — macOSにはヤマアラシのようなトゲトゲしいアプリが足りなかったので作ってみた\n  https://www.reddit.com/r/macapps/comments/1sfpzif/prickle_macos_was_missing_a_little_prick_of_a/\n- コピーしたものをよく失くすので自作しました（無料公開中）\n  https://www.reddit.com/r/macapps/comments/1sfsfr7/i_built_this_because_i_kept_losing_things_i/\n- スクリーンレコーディングアプリの月額課金にうんざり。その問題を解決すべく、3ヶ月かけてアプリをゼロから作り直しました。\n  https://www.reddit.com/r/macapps/comments/1sfufi6/im_tired_of_monthly_subscriptions_for_screen/\n- 【OS】macOS用のシンプルな無料クリップボードマネージャーが見つからなかったので作ってみた（400以上のダウンロード、GitHubで115以上のスターを獲得）\n  https://www.reddit.com/r/macapps/comments/1sg1lwj/os_i_couldnt_find_a_simple_free_clipboard_manager/\n- Appleのインディーデベロッパーの皆さん、アプリローンチ前のテストにAIを活用していますか？\n  https://www.reddit.com/r/macapps/comments/1sg0bgu/indie_apple_devs_anyone_using_ai_to_test_their/\n- Mellem - 忙しい仕事の合間のちょっとした瞑想のためのメニューバーアプリ\n  https://www.reddit.com/r/macapps/comments/1sfnohx/mellem_menu_bar_app_for_micro_meditations_during/\n- ライティングアプリを探しています\n  https://www.reddit.com/r/macapps/comments/1sg5300/looking_for_a_writing_so/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-09"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- RedditのサブRedditに新しい人間認証システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackersのサブRedditに新ルールを導入、品質向上へ\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- 開発者向けプラットフォーム、ゼロから140ユーザーを獲得：チーム結成・プロジェクト共同開発を支援\n  https://www.reddit.com/r/indiehackers/comments/1sfu4x2/0_to_140_users_building_a_platform_where/\n- SaaSのプロモーションで130人にメールを送信、結果は「0件」の承諾\n  https://www.reddit.com/r/indiehackers/comments/1seubx8/i_emailed_130_people_to_promote_my_saas_0_said_yes/\n- IDEの紹介者に40%の継続コミッションを提供\n  https://www.reddit.com/r/indiehackers/comments/1sf6csq/were_paying_40_recurring_commission_to_anyone_who/\n- AIエージェントにTwitterアカウントの全権限を与えてみた\n  https://www.reddit.com/r/indiehackers/comments/1seso6v/i_gave_an_ai_agent_full_access_to_my_twitter/\n- ファンデーションのシェードマッチング問題を解決するAIツールを開発、有料ユーザー獲得に苦戦\n  https://www.reddit.com/r/indiehackers/comments/1se7ka9/i_built_an_ai_tool_to_fix_foundation_shade/\n- 邪魔はランダムではない：代替案として私たちが開発したもの\n  https://www.reddit.com/r/indiehackers/comments/1sdxns4/we_thought_distractions_were_random_theyre_not/\n- ファンデーションのシェードマッチング問題を解決するAIツールを開発、有料ユーザー獲得に苦戦\n  https://www.reddit.com/r/indiehackers/comments/1se7jv5/i_built_an_ai_tool_to_fix_foundation_shade/\n- ファンデーションのシェードマッチング問題を解決するAIツールを開発、有料ユーザー獲得に苦戦\n  https://www.reddit.com/r/indiehackers/comments/1se7k5i/i_built_an_ai_tool_to_fix_foundation_shade/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-09"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "⚠ r/ClaudeAI の取得に失敗しました",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/.rss",
+      "summary": "{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+      "ogImage": null,
+      "publishedAt": "2026-04-09"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "⚠ Hacker News の取得に失敗しました",
+      "url": "https://hacker-news.firebaseio.com/v0/beststories.json",
+      "summary": "{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+      "ogImage": null,
+      "publishedAt": "2026-04-09"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "⚠ TechCrunch の取得に失敗しました",
+      "url": "https://techcrunch.com/feed/",
+      "summary": "{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+      "ogImage": null,
+      "publishedAt": "2026-04-09"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Feedback Flywheel",
+      "url": "https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html",
+      "summary": "AIアシスト開発の改善に関する連載が完結し、AIセッションからの学びを共有しチーム全体の改善に繋げるフィードバック手法を提案。",
+      "publishedAt": "2026-04-08",
+      "ogImage": "https://martinfowler.com/logo-sq.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- AI営業担当「Roger」を雇用：あなたの次の同僚に\n  https://www.producthunt.com/products/hire-roger\n- Keeby：Macでメカニカルキーボードのサウンドを\n  https://www.producthunt.com/products/keeby\n- Flint：あらゆるキャンペーン・広告・見込み客向けにブランドページを公開\n  https://www.producthunt.com/products/flint-6\n- LookAway 2：あなたの体を労わるMacアプリ\n  https://www.producthunt.com/products/lookaway\n- VibeSonic：文字起こしだけじゃない、AI音声ツールキット\n  https://www.producthunt.com/products/vibesonic\n- SnapRewrite：macOSで選択テキストをAIが柔軟にアシスト\n  https://www.producthunt.com/products/snaprewrite\n- Gauntlet：Stravaチャレンジで友人と賭け、敗者はUSDCで支払い\n  https://www.producthunt.com/products/gauntlet-2\n- PassportReader：パスポート・IDカード・デジタル認証情報をAPIで検証\n  https://www.producthunt.com/products/iris-id-by-passportreader\n- git-fire：Gitリポジトリをワンコマンドでバックアップ、その他多数\n  https://www.producthunt.com/products/git-fire\n- BizCalc：無料のビジネス計算ツール – 登録不要で即座に結果を\n  https://www.producthunt.com/products/bizcalc",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-04-09"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "3 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Framewise Health、AIが個別化する患者向けリハビリ動画を提供\n  https://framewisehealth.com\n- Aster、AIモデル学習を自動化\n  https://www.asterlab.ai/\n- Mount、AIエージェントの保険とセキュリティを両立\n  https://mount.insure",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-04-09"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Anthropic @ $30B ARR, Project GlassWing and Claude Mythos Preview — first model too dangerous to release since GPT-2",
+      "url": "https://www.latent.space/p/ainews-anthropic-30b-arr-project",
+      "summary": "Anthropicは、史上最大の訓練と言われる「Claude Mythos」を発表し、その危険性から一般公開せず、40のパートナーに限定提供するサイバー防衛プロジェクト「Project Glasswing」を開始した。",
+      "publishedAt": "2026-04-08",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!OlKB!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e44dee4-d07c-4497-993b-8cca142a9e28_1210x1316.png"
+    },
+    {
+      "sourceName": "Agentic Engineering",
+      "title": "2 Updates",
+      "url": "https://github.com/software-mansion/agentic-engineering",
+      "summary": "- Autoresearchに関する新しいページを追加しました。\n  https://github.com/software-mansion/agentic-engineering/commit/acd47827aa171e1195ffed6bb95bcd747b6e5fe6\n- Leverage CLIsセクションに、agent-friendlyなCLI設計のヒントを追加しました。\n  https://github.com/software-mansion/agentic-engineering/commit/870bb2d8823f24693bac7556626c3338c7eeae5d",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-04-09"
+    }
+  ]
+}
