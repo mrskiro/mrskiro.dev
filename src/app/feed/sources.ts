@@ -35,4 +35,8 @@ export const sources = [
     name: "Agentic Engineering",
     url: "https://github.com/software-mansion/agentic-engineering/commits/main.atom",
   },
+  {
+    name: "Claude Code Docs",
+    url: "https://github.com/ericbuess/claude-code-docs/commits/main.atom",
+  },
 ] as const satisfies Source[];
