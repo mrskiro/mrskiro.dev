@@ -45,6 +45,7 @@ const digestSources = new Set([
   "BRIDGE",
   "GitHub Trending",
   "Agentic Engineering",
+  "Claude Code Docs",
 ]);
 
 const parseSummaryLines = (summary: string) => {
