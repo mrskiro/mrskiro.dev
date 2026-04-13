@@ -703,7 +703,10 @@ const fetchGitHubTrendingDigest = async (source: Source): Promise<Entry> => {
   };
 };
 
-const GITHUB_COMMIT_CONTENT_PREFIX = "src/content/";
+const githubCommitFileFilter: Record<string, (filename: string) => boolean> = {
+  "Agentic Engineering": (f) => f.startsWith("src/content/"),
+  "Claude Code Docs": (f) => f.startsWith("docs/") && f.endsWith(".md"),
+};
 
 type GitHubCommitDetail = {
   sha: string;
@@ -748,16 +751,13 @@ const fetchGitHubCommitDigest = async (source: Source, since: Date): Promise<Ent
     }),
   );
 
-  const contentCommits = commits.filter((c) =>
-    c.files?.some((f) => f.filename.startsWith(GITHUB_COMMIT_CONTENT_PREFIX)),
-  );
+  const filterFn = githubCommitFileFilter[source.name] ?? (() => true);
+  const contentCommits = commits.filter((c) => c.files?.some((f) => filterFn(f.filename)));
   if (contentCommits.length === 0) return null;
 
   const lines: string[] = [];
   for (const commit of contentCommits) {
-    const contentFiles = commit.files!.filter((f) =>
-      f.filename.startsWith(GITHUB_COMMIT_CONTENT_PREFIX),
-    );
+    const contentFiles = commit.files!.filter((f) => filterFn(f.filename));
     const patchSummary = contentFiles
       .map((f) => `--- ${f.filename}\n${(f.patch ?? "").slice(0, 500)}`)
       .join("\n\n");
@@ -786,7 +786,7 @@ const fetchGitHubCommitDigest = async (source: Source, since: Date): Promise<Ent
 };
 
 const githubReleaseNames = new Set(["Claude Code"]);
-const githubCommitNames = new Set(["Agentic Engineering"]);
+const githubCommitNames = new Set(["Agentic Engineering", "Claude Code Docs"]);
 const redditNames = new Set(["r/MacApps", "r/indiehackers", "r/ClaudeAI"]);
 const rssDigestNames = new Set(["TechCrunch", "BRIDGE"]);
 const rssDigestCategories = new Map([
@@ -816,6 +816,7 @@ const digestOgImages: Record<string, string> = {
     "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
   "GitHub Trending": "https://github.githubassets.com/favicons/favicon.svg",
   "Agentic Engineering": "https://github.githubassets.com/favicons/favicon.svg",
+  "Claude Code Docs": "https://claude.ai/images/claude_app_icon.png",
 };
 
 const fetchSource = async (source: Source, since: Date): Promise<Entry[]> => {
