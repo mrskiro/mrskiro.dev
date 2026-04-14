@@ -715,11 +715,12 @@ type GitHubCommitDetail = {
 };
 
 const COMMIT_SUMMARIZE_PROMPT = [
-  "GitHubコミットのdiffから、ドキュメントの変更内容を日本語で簡潔に要約してください。",
+  "GitHubコミットのdiffから、ドキュメントの変更内容を日本語で箇条書きで要約してください。",
   "ルール：",
   "- 技術用語・固有名詞はそのまま残す",
   "- 「〜を追加」「〜を修正」など、何が変わったかを具体的に書く",
-  "- 1コミットにつき1〜2文",
+  "- 変更ごとに1行、「- 」で始める",
+  "- 重複や些末な変更（typo修正、リンク追加のみ等）はまとめるか省略する",
   "- 要約のみ出力",
 ].join("\n");
 
@@ -767,12 +768,15 @@ const fetchGitHubCommitDigest = async (source: Source, since: Date): Promise<Ent
       config: { thinkingConfig: { thinkingBudget: 0 } },
       contents: `${COMMIT_SUMMARIZE_PROMPT}\n\nコミットメッセージ: ${commit.commit.message.split("\n")[0]}\n\n${patchSummary}`,
     });
-    const summary = (geminiRes.text?.trim() ?? commit.commit.message.split("\n")[0]!).replace(
-      /\n/g,
-      " ",
-    );
     const url = `https://github.com/${repoPath}/commit/${commit.sha}`;
-    lines.push(`- ${summary}\n  ${url}`);
+    const text = geminiRes.text?.trim() || commit.commit.message.split("\n")[0]!;
+    const rawLines = text
+      .split("\n")
+      .map((l) => l.replace(/^-\s*/, "").trim())
+      .filter(Boolean);
+    for (const l of rawLines) {
+      lines.push(`- ${l}\n  ${url}`);
+    }
   }
 
   return {
