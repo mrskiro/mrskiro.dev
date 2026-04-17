@@ -1,0 +1,93 @@
+{
+  "fetchedAt": "2026-04-17T21:30:33.510Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.113",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.113",
+      "summary": "- [Changed] CLIがバンドルされたJavaScriptではなく、ネイティブのClaude Codeバイナリを起動するように変更されました（プラットフォームごとのオプションの依存関係を介して）。\n- [Added] sandbox.network.deniedDomains設定が追加され、広範なallowedDomainsワイルドカードで許可される場合でも特定のドメインをブロックできるようになりました。\n- [Improved] フルスクリーンモードで、選択範囲を可視範囲を超えて拡張する際、Shift+↑/↓でビューポートがスクロールするようになりました。\n- [Improved] Ctrl+AとCtrl+Eが、マルチライン入力で現在の論理行の先頭/末尾に移動するようになり、readlineの動作と一致するようになりました。\n- [Improved] Windowsで、Ctrl+Backspaceで前の単語が削除されるようになりました。\n- [Improved] レスポンスやbash出力の長いURLが複数行にわたって折り返されてもクリック可能になりました（OSC 8ハイパーリンクをサポートするターミナルで）。\n- [Improved] /loopが改善され、Escキーを押すと保留中のウェイクアップがキャンセルされ、ウェイクアップが「Claude resuming /loop wakeup」と表示され明確になりました。\n- [Improved] /extra-usageがRemote Control (モバイル/ウェブ) クライアントから機能するようになりました。\n- [Improved] Remote Controlクライアントで、@-ファイルのオートコンプリート候補を照会できるようになりました。\n- [Improved] /ultrareviewが改善され、並列化されたチェックによる高速起動、起動ダイアログでのdiffstat表示、アニメーション表示の起動状態が追加されました。\n- [Fixed] ストリーム途中で停止するサブエージェントが、サイレントにハングアップする代わりに10分後に明確なエラーで失敗するようになりました。\n- [Fixed] Bashツールで、最初の行がコメントであるマルチラインコマンドがトランスクリプトに完全なコマンドを表示するようになり、UI詐称の脆弱性が解消されました。\n- [Fixed] cd <current-directory> && git … を実行しても、cdがno-opの場合にパーミッションプロンプトが表示されなくなりました。\n- [Security] macOSで、/private/{etc,var,tmp,home}パスがBash(rm:*)許可ルールにおいて危険な削除ターゲットとして扱われるようになりました。\n- [Security] Bash拒否ルールが、env/sudo/watch/ionice/setsidや同様のexecラッパーでラップされたコマンドにも一致するようになりました。\n- [Security] Bash(find:*)許可ルールがfind -exec/-deleteを自動承認しなくなりました。\n- [Fixed] MCPの同時呼び出しタイムアウト処理が修正され、あるツール呼び出しのメッセージが別の呼び出しのウォッチドッグをサイレントに解除する問題が解消されました。\n- [Fixed] Cmd-backspace / Ctrl+Uが、カーソルから行頭までを削除する機能が再び動作するようになりました。\n- [Fixed] マークダウンテーブルが、セルにパイプ文字を含むインラインコードスパンが含まれている場合に破損する問題が修正されました。\n- [Fixed] プロンプトで未送信のテキストを作成中にセッションリキャップが自動的に起動する問題が修正されました。\n- [Fixed] /copy \"Full response\"が、GitHub、Notion、またはSlackに貼り付ける際にマークダウンテーブルの列を揃えない問題が修正されました。\n- [Fixed] 実行中のサブエージェントを表示中にタイプされたメッセージが、そのトランスクリプトから隠され、親AIに誤って帰属される問題が修正されました。\n- [Fixed] Bash dangerouslyDisableSandboxが、パーミッションプロンプトなしにサンドボックス外でコマンドを実行する問題が修正されました。\n- [Fixed] /effortの自動確認が修正され、ステータスバーのラベルに合わせて「Effort level set to max」と表示されるようになりました。\n- [Fixed] 「copied N chars」トーストが絵文字やその他のマルチコードユニット文字を過剰にカウントする問題が修正されました。\n- [Fixed] /insightsがWindowsでEBUSYエラーでクラッシュする問題が修正されました。\n- [Fixed] 終了確認ダイアログが、一回限りのスケジュールタスクを定期的なものと誤って表示する問題が修正され、カウントダウンが表示されるようになりました。\n- [Fixed] フルスクリーンモードで、スラッシュ/@補完メニューがプロンプトの境界線にぴったりと揃わない問題が修正されました。\n- [Fixed] CLAUDE_CODE_EXTRA_BODY output_config.effortが、efforをサポートしないモデルへのサブエージェント呼び出しやVertex AIで400エラーを引き起こす問題が修正されました。\n- [Fixed] NO_COLORが設定されている場合にプロンプトカーソルが消える問題が修正されました。\n- [Fixed] ToolSearchのランキングが修正され、貼り付けられたMCPツール名が説明に一致する兄弟ではなく実際のツールを表示するようになりました。\n- [Fixed] 再開された長文コンテキストセッションを圧縮すると、「Extra usage is required for long context requests」というエラーで失敗する問題が修正されました。\n- [Fixed] 依存関係のバージョンが既にインストールされているプラグインと競合する場合にプラグインのインストールが成功する問題が修正され、範囲競合を報告するようになりました。\n- [Fixed] 「Refine with Ultraplan」がトランスクリプトにリモートセッションURLを表示しない問題が修正されました。\n- [Fixed] 処理に失敗したSDK画像コンテンツブロックがセッションをクラッシュさせる問題が修正され、テキストプレースホルダーにダウングレードされるようになりました。\n- [Fixed] Remote Controlセッションがサブエージェントのトランスクリプトをストリーミングしない問題が修正されました。\n- [Fixed] Claude Codeの終了時にRemote Controlセッションがアーカイブされない問題が修正されました。\n- [Fixed] Bedrock Application Inference Profile ARN経由でOpus 4.7を使用する際に発生する「thinking.type.enabled is not supported 400 error」が修正されました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-04-18"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- Macアプリの殿堂入り（悪い意味で）\n  https://www.reddit.com/r/macapps/comments/1s953qk/the_macapps_hall_of_shame/\n- 【まとめ】注目のアプリ - 2026年3月/4月\n  https://www.reddit.com/r/macapps/comments/1rybab4/megathread_the_app_pile_marchapril_2026/\n- USB Status – メニューバーからUSBとThunderboltの統計情報をリアルタイム表示\n  https://www.reddit.com/r/macapps/comments/1snuunl/usb_status_live_usb_and_thunderbolt_statistic/\n- Launchie 1.4.1リリース - macOS向けLaunchpad代替アプリ\n  https://www.reddit.com/r/macapps/comments/1so885u/launchie_141_released_launchpad_alternative_for/\n- flickery – 高機能なMac用Flickrクライアントが無料化\n  https://www.reddit.com/r/macapps/comments/1sny2eg/flickery_the_fullfeatured_flickr_client_for_mac/\n- RedQuitter、Secure Erase、高度なコンテキストメニューを備えた軽量のFinder拡張機能を開発\n  https://www.reddit.com/r/macapps/comments/1sodiab/i_built_a_lightweight_native_finder_extension/\n- ターミナルアプリの新しいペインUIを試作中 - ご意見は？\n  https://www.reddit.com/r/macapps/comments/1snt36g/prototyping_a_new_pane_ui_for_my_terminal_app_wdyt/\n- Floxtop 1.9 – macOS向けオフラインファイル整理アプリ\n  https://www.reddit.com/r/macapps/comments/1sn8zev/floxtop_19_offline_file_organizer_for_macos/\n- 「デスクトップ1」にうんざり？Spacesにカスタム名を付けよう。AIコード不使用。\n  https://www.reddit.com/r/macapps/comments/1sn8pqt/tired_of_desktop_1_get_custom_names_for_spaces/\n- 5つのアプリについてパワーユーザーからのフィードバックを募集\n  https://www.reddit.com/r/macapps/comments/1sndkgw/looking_for_power_user_feedback_on_five_apps/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-18"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- Redditに新たな人間認証システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackersのsubredditに新ルールを導入、品質向上を目指す\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- 3通の解約メールで今期1,000ドル以上のコスト削減に成功\n  https://www.reddit.com/r/indiehackers/comments/1snxo82/saved_1k_this_quarter_with_3_simple_churn_emails/\n- 金曜のシェア熱！あなたのプロジェクトを共有しよう\n  https://www.reddit.com/r/indiehackers/comments/1snw700/friday_share_fever_lets_share_your_project/\n- 訪問者がウェブサイトで登録しない理由をどう見つけるか？\n  https://www.reddit.com/r/indiehackers/comments/1smtafn/how_do_i_find_out_why_people_visited_my_website/\n- コーディング中にTwitter、LinkedIn、ブログの管理が嫌なので、それらを自動化する高機能ボイスメモアプリを開発した\n  https://www.reddit.com/r/indiehackers/comments/1sm23ml/i_hate_managing_twitter_linkedin_and_a_blog_while/\n- ソロ起業家として学んだこと：ウェブサイトの見方を変えた発見をIndieHackersの皆と共有したい\n  https://www.reddit.com/r/indiehackers/comments/1sl7xpt/i_am_a_solo_entrepreneur_learnt_one_new_thing/\n- 成功しているスタートアップのファウンダーたちが、あなたのスタートアップを軌道に乗せるために提供できる170以上のこと\n  https://www.reddit.com/r/indiehackers/comments/1sl7a8j/170_things_that_founders_of_other_startups_are/\n- SaaS構築1ヶ月目、収益化に向けたアドバイスを求む\n  https://www.reddit.com/r/indiehackers/comments/1skxvhn/first_month_build_saas_need_your_advices_to_get/\n- 過去3年で5つのSaaSを構築後、6つ目を開発中。今、私が変えていることとは\n  https://www.reddit.com/r/indiehackers/comments/1skh6rz/im_building_my_6th_saas_after_building_5_over_the/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-18"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI、進行中のメガトレンド一覧を公開\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Anthropic Labsが「Claude Design」を発表\n  https://www.reddit.com/r/ClaudeAI/comments/1so3k1y/introducing_claude_design_by_anthropic_labs/\n- 「Claude Design」発表でFigma株が一日で4.26%下落、歴史的瞬間に立ち会う\n  https://www.reddit.com/r/ClaudeAI/comments/1so6z2t/claude_design_just_launched_and_figma_dropped_426/\n- Claude Opus 4.7 テキストカテゴリランキング\n  https://www.reddit.com/r/ClaudeAI/comments/1so814j/claude_opus_47_text_category_rankings/\n- Claude Opus 4.7、どんなものにも対応\n  https://www.reddit.com/r/ClaudeAI/comments/1snuu1o/opus_47_with_literally_anything/\n- 「Claude Design」がリリース、これは注目だ\n  https://www.reddit.com/r/ClaudeAI/comments/1so3sif/claude_design_just_launched_this_one_looks/\n- Claude Opus 4.7は深刻な後退、アップグレードではない\n  https://www.reddit.com/r/ClaudeAI/comments/1snhfzd/claude_opus_47_is_a_serious_regression_not_an/\n- Opus 4.7のリサーチモードがすごい\n  https://www.reddit.com/r/ClaudeAI/comments/1snvj8x/opus_47_research_mode_is_insane/\n- Anthropicの出荷スピードが速すぎて、ドキュメント更新が追いつかない\n  https://www.reddit.com/r/ClaudeAI/comments/1soaldj/anthropic_ships_so_fast_they_dont_bother_updating/\n- Claudeを再考させる方法\n  https://www.reddit.com/r/ClaudeAI/comments/1so08z2/how_to_make_claude_think_again/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-18"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1929pt] Claude Opus 4.7：新たなAIモデルの評価 | 旧バージョンからの変化が乏しく、トークン消費量が多いとの指摘がある。サイバーセキュリティフィルターの強化に不満の声も。\n  https://news.ycombinator.com/item?id=47793411\n- [1230pt] Qwen3.6-35B-A3B: エージェント向けコーディング能力を一般公開 | オープンウェイトのリリースに安堵の声が上がっており、ローカル実行での性能の高さが評価されている。\n  https://news.ycombinator.com/item?id=47792764\n- [980pt] Codex：ほぼ全ての作業に対応 | 非技術者向けの「プロフェッショナルエージェント」としての可能性に期待の声がある一方、コードが隠蔽されるUIに疑問の声も。\n  https://news.ycombinator.com/item?id=47796469\n- [708pt] あらゆる未来は嘘になる：私たちはどこへ向かうのか？ | LLMが人間の基本的なスキルを脅かすという懸念や、テクノロジーの不可逆性について議論されている。\n  https://news.ycombinator.com/item?id=47792718\n- [689pt] 日本のマクドナルドのハンバーガー写真、バンズがすべて少し斜めになっている謎 | バンズの傾きがハンバーガーを魅力的に見せる心理的効果や、ウェブページの表示速度について言及されている。\n  https://news.ycombinator.com/item?id=47785738\n- [687pt] Claude Design：AIを活用したデザインツール | トークン消費量の多さやロゴ作成能力の低さが指摘される一方、デザインにおけるコミュニケーションツールとしての有用性が評価されている。\n  https://news.ycombinator.com/item?id=47806725\n- [631pt] ローカルLLMエコシステムにOllamaは不要か？ | Ollamaの優れたUXを評価する声が多く、代替となるllama.cppの使いにくさについて不満が述べられている。\n  https://news.ycombinator.com/item?id=47788385\n- [551pt] アイザック・アシモフ：最後の質問 (1956) | この物語の再読を促す声や、関連するショートストーリー、ゲームとの比較がされている。\n  https://news.ycombinator.com/item?id=47804965\n- [497pt] 正確な位置情報の販売を禁止すべきか？ | 位置情報データの匿名化の限界、プライバシー保護の枠組みの欠如、富裕層が標的になった場合の規制強化への期待が議論されている。\n  https://news.ycombinator.com/item?id=47806304\n- [491pt] Darkbloom – アイドル状態のMacでプライベート推論 | 収益性の主張への疑問、アプリの未熟さ、MDMソフトウェアの導入によるセキュリティ懸念が指摘されている。\n  https://news.ycombinator.com/item?id=47788542",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-04-18"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "9 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- OpenAI、Kevin WeilとBill Peeblesが退社 「サイドクエスト」整理続く\n  https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/\n- Cursor、企業向け成長急拡大で500億ドル評価額20億ドル以上の調達交渉中か\n  https://techcrunch.com/2026/04/17/sources-cursor-in-talks-to-raise-2b-at-50b-valuation-as-enterprise-growth-surges/\n- 「Tokenmaxxing」が開発者の生産性を低下させている可能性\n  https://techcrunch.com/2026/04/17/tokenmaxxing-is-making-developers-less-productive-than-they-think/\n- Anthropic、素早いビジュアル作成の新製品「Claude Design」を発表\n  https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/\n- SaySo、ニュースへの信頼回復目指すショート動画アプリをローンチ\n  https://techcrunch.com/2026/04/17/sayso-is-a-new-short-form-video-app-that-aims-to-restore-users-trust-in-news/\n- Loop、サプライチェーンの混乱予測AI開発で9500万ドルを調達\n  https://techcrunch.com/2026/04/17/loop-raises-95m-to-build-supply-chain-ai-that-predicts-disruptions/\n- 「Tokenmaxxing」は徒労に終わるのか？\n  https://techcrunch.com/video/are-we-tokenmaxxing-our-way-to-nowhere/\n- Factory、企業向けAIコーディング開発で評価額15億ドルに到達\n  https://techcrunch.com/2026/04/16/factory-hits-1-5b-valuation-to-build-ai-coding-for-enterprises/\n- Luma、信仰に特化した「Wonder Project」でAI搭載制作スタジオを始動\n  https://techcrunch.com/2026/04/16/luma-launches-ai-powered-production-studio-with-faith-focused-wonder-project/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-04-18"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Claude Opus 4.7 — 推論とエージェントコーディングに特化したClaudeの高性能モデル\n  https://www.producthunt.com/products/claude-opus-4-7\n- E.Y.E. by Expert Chase — 人間の生活とAIが融合する場所\n  https://www.producthunt.com/products/expert-chase-deleted-1107920\n- Macaly 4.0 — チャットからWebサイトとアプリを完全デリバリー\n  https://www.producthunt.com/products/macaly\n- Submit.DIY — メーカー向けオールインワンAIローンチプラットフォーム\n  https://www.producthunt.com/products/submit-diy\n- Build Check (for Outsiders) — あなたのアプリのアイデアは本当に作る価値があるのか？\n  https://www.producthunt.com/products/build-check-for-outsiders\n- Codex 2.0 by OpenAI — アプリ実行、タスク自動化、コーディングなどが可能に\n  https://www.producthunt.com/products/openai\n- Cloudflare Email Service — 既存の受信トレイをAIエージェントのネイティブインターフェースに\n  https://www.producthunt.com/products/cloudflare\n- Briq (Beta) — ワンクリックでバグ検証\n  https://www.producthunt.com/products/briq-beta\n- Qwen3.6-35B-A3B — エージェントコーディング向けオープンな疎MoEモデル\n  https://www.producthunt.com/products/qwen3\n- Form Dump — AIエージェントと人間向けのフォームバックエンド\n  https://www.producthunt.com/products/form-dump",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-04-18"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Introducing Claude Design by Anthropic Labs",
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "summary": "Claude Designは、Claudeと共同でデザインやプロトタイプなどのビジュアルコンテンツを作成する新製品。",
+      "ogImage": null,
+      "publishedAt": "2026-04-17"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "1 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Pairio、AI搭載の産業用メンテナンスソフトを発表\n  https://pairio.com",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-04-18"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Anthropic Claude Opus 4.7 - literally one step better than 4.6 in every dimension",
+      "url": "https://www.latent.space/p/ainews-anthropic-claude-opus-47-literally",
+      "summary": "Anthropicが最新モデル「Claude Opus 4.7」を発表、コード生成や長文処理、高解像度画像認識などが向上し、ベンチマークでも大幅な改善を示した。",
+      "publishedAt": "2026-04-17",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!iEJA!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7242e5f5-6105-4489-bc8b-143002fe7da6_1344x756.png"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "3 Updates",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "- `agent-sdk__hosting.md` にて、Claude Code CLIのランタイム要件について「Node.js (SDKにバンドルされているため別途インストール不要)」から「両方のSDKパッケージにネイティブなClaude Codeバイナリがバンドルされている」という説明に修正されました。\n  https://github.com/ericbuess/claude-code-docs/commit/6bf2a292cc34c667f5ff13a464d80c2033858217\n- `agent-sdk__overview.md` と `agent-sdk__quickstart.md` にて、TypeScript SDKがプラットフォーム固有のネイティブClaude Codeバイナリをオプションの依存関係としてバンドルしているため、Claude Codeを別途インストールする必要がない旨の注記が追加されました。\n  https://github.com/ericbuess/claude-code-docs/commit/6bf2a292cc34c667f5ff13a464d80c2033858217\n- `agent-sdk__typescript-v2-preview.md` にて、SDKがプラットフォーム固有のネイティブClaude Codeバイナリをオプションの依存関係としてバンドルしているため、Claude Codeを別途インストールする必要がない旨の注記が追加されました。\n  https://github.com/ericbuess/claude-code-docs/commit/6bf2a292cc34c667f5ff13a464d80c2033858217\n- `agent-sdk__typescript.md` にて、SDKがプラットフォーム固有のネイティブClaude Codeバイナリをオプションの依存関係としてバンドルしているため、Claude Codeを別途インストールする必要がない旨と、パッケージマネージャーがオプションの依存関係をスキップした場合の対処法に関する注記が追加されました。\n  https://github.com/ericbuess/claude-code-docs/commit/6bf2a292cc34c667f5ff13a464d80c2033858217\n- `setup.md` にて、Claude Codeのネイティブインストールコマンドブロックの `theme` 属性が重複していた箇所が修正されました。\n  https://github.com/ericbuess/claude-code-docs/commit/6bf2a292cc34c667f5ff13a464d80c2033858217\n- `troubleshooting.md` にて、「Native binary not found after npm install」という新しいトラブルシューティングセクションが追加され、npmパッケージがプラットフォームごとのオプション依存関係を介してネイティブバイナリをプルすること、そしてバイナリが見つからない場合の対処法が説明されました。\n  https://github.com/ericbuess/claude-code-docs/commit/6bf2a292cc34c667f5ff13a464d80c2033858217\n- `opusplan`モデルエイリアスの計画モードOpusフェーズが、標準の200Kコンテキストウィンドウで実行されることを明記\n  https://github.com/ericbuess/claude-code-docs/commit/8961a4ce51a4de0410e0cce61d664761f3e2d938\n- 「Extended context」で説明されている自動1Mアップグレードは`opus`モデル設定に適用され、`opusplan`には適用されないことを追加\n  https://github.com/ericbuess/claude-code-docs/commit/8961a4ce51a4de0410e0cce61d664761f3e2d938\n- プルリクエストのフィルタ条件から「From fork」を削除\n  https://github.com/ericbuess/claude-code-docs/commit/8961a4ce51a4de0410e0cce61d664761f3e2d938\n- changelog.mdには変更なし\n  https://github.com/ericbuess/claude-code-docs/commit/634bfc343ec10ce2bcd21ec898ce40cf598921cc\n- desktop-quickstart.mdからClaudeデスクトップアプリのダウンロードリンクが削除された\n  https://github.com/ericbuess/claude-code-docs/commit/634bfc343ec10ce2bcd21ec898ce40cf598921cc\n- desktop.mdにmacOSとWindows用のClaudeデスクトップアプリのダウンロードカードが追加された\n  https://github.com/ericbuess/claude-code-docs/commit/634bfc343ec10ce2bcd21ec898ce40cf598921cc",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-04-18"
+    }
+  ]
+}
