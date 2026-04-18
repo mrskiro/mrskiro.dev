@@ -1,0 +1,93 @@
+{
+  "fetchedAt": "2026-04-18T21:22:51.042Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.114",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.114",
+      "summary": "- [Fixed] エージェントチームのチームメイトがツールの許可を要求した際に、権限ダイアログでクラッシュが発生する問題を修正しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-04-18"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- Macアプリ「殿堂入り」の残念な製品たち\n  https://www.reddit.com/r/macapps/comments/1s953qk/the_macapps_hall_of_shame/\n- 【まとめ】注目のアプリ紹介 - 2026年3月/4月版\n  https://www.reddit.com/r/macapps/comments/1rybab4/megathread_the_app_pile_marchapril_2026/\n- OpenVox v1.4をリリース - 600以上の言語に対応するモデルをMacにローカルで追加\n  https://www.reddit.com/r/macapps/comments/1sow4vz/openvox_v14_just_dropped_added_a_model_that/\n- vibecodedアプリをセキュアにする方法\n  https://www.reddit.com/r/macapps/comments/1sop5u2/secure_your_vibecoded_apps/\n- 過小評価されているかもしれない、私が使っているアプリをいくつか共有します\n  https://www.reddit.com/r/macapps/comments/1soxopb/sharing_some_apps_i_use_because_i_think_they/\n- Things3のようにタスクを直接スケジュールにドラッグ可能に：Chunkの最新アップデートは双方向カレンダー同期と更新されたタスクモードが特徴\n  https://www.reddit.com/r/macapps/comments/1sp1p0t/think_things3_but_you_can_drag_your_tasks/\n- Lantern: Option+Spaceで、MacからどこからでもGoogle検索とウェブサイト表示を可能に\n  https://www.reddit.com/r/macapps/comments/1soie48/lantern_real_google_search_view_websites_from/\n- USB Status – メニューバーからUSBとThunderboltのリアルタイム統計を表示\n  https://www.reddit.com/r/macapps/comments/1snuunl/usb_status_live_usb_and_thunderbolt_statistic/\n- アプリの「アクティブウィンドウ」を表示するアプリを探しています\n  https://www.reddit.com/r/macapps/comments/1sonrfl/looking_for_the_app_that_shows_active_windows/\n- アプリのアンインストール時にファイルシステム変更を監視するアプリの活用\n  https://www.reddit.com/r/macapps/comments/1soitdr/using_an_app_to_monitor_file_system_changes_for/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-19"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- Reddit、新本人確認システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackers subreddit の新ルールを発表 ― 品質向上を目指す\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- 3つの解約防止メールで今期1,000ドル以上のコスト削減に成功\n  https://www.reddit.com/r/indiehackers/comments/1snxo82/saved_1k_this_quarter_with_3_simple_churn_emails/\n- 金曜日のプロジェクト共有タイム！あなたのプロジェクトをシェアしよう\n  https://www.reddit.com/r/indiehackers/comments/1snw700/friday_share_fever_lets_share_your_project/\n- ウェブサイト訪問者が登録しない理由を特定するには？\n  https://www.reddit.com/r/indiehackers/comments/1smtafn/how_do_i_find_out_why_people_visited_my_website/\n- コーディングしながらTwitter、LinkedIn、ブログを管理するのが嫌で、高機能なボイスメモアプリを自作しました\n  https://www.reddit.com/r/indiehackers/comments/1sm23ml/i_hate_managing_twitter_linkedin_and_a_blog_while/\n- ソロ起業家が発見した、ウェブサイトへの考え方を変える新事実をIndieHackersの皆さんと共有したい\n  https://www.reddit.com/r/indiehackers/comments/1sl7xpt/i_am_a_solo_entrepreneur_learnt_one_new_thing/\n- 競合スタートアップの創業者が、あなたのスタートアップの成功のために提供できる170以上のこと\n  https://www.reddit.com/r/indiehackers/comments/1sl7a8j/170_things_that_founders_of_other_startups_are/\n- SaaS構築1ヶ月目、収益化に向けたアドバイスを求む\n  https://www.reddit.com/r/indiehackers/comments/1skxvhn/first_month_build_saas_need_your_advices_to_get/\n- 過去3年で5つのSaaSを構築し、現在6つ目を開発中。今、私が変えていることとは\n  https://www.reddit.com/r/indiehackers/comments/1skh6rz/im_building_my_6th_saas_after_building_5_over_the/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-19"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI：現在進行中の巨大スレッド一覧\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Built with Opus 4.7を発表：Claude Codeバーチャルハッカソン開催！\n  https://www.reddit.com/r/ClaudeAI/comments/1sodqb4/announcing_built_with_opus_47_a_claude_code/\n- Opus 4.7体験レポート\n  https://www.reddit.com/r/ClaudeAI/comments/1soxumn/the_opus_47_experience/\n- Claude Design、またもやひどいデザインを描く\n  https://www.reddit.com/r/ClaudeAI/comments/1sp6hns/claude_design_keeps_drawing_a_turd/\n- なんてことだ、ひどい目にあった\n  https://www.reddit.com/r/ClaudeAI/comments/1sp1mzs/look_how_they_massacred_my_boy/\n- Claude 4.7に実在するコミットハッシュでガスライティングされた、信じられない\n  https://www.reddit.com/r/ClaudeAI/comments/1soxmf0/claude_47_gaslighted_me_with_a_real_commit_hash/\n- Claudeが絶好調。ここ数日で発表された全てがすごい。\n  https://www.reddit.com/r/ClaudeAI/comments/1sp17d3/claude_is_on_fire_everything_theyve_dropped_in/\n- これを言った後のClaudeの心境はいかに\n  https://www.reddit.com/r/ClaudeAI/comments/1sp3jzq/how_claude_must_have_felt_after_saying_this/\n- ベテランデザイナーから見たClaudeのデザイン\n  https://www.reddit.com/r/ClaudeAI/comments/1soql9c/an_old_designers_perspective_on_claude_design/\n- Claude Codeでの作業中、一日中これを言い続けていた\n  https://www.reddit.com/r/ClaudeAI/comments/1sowp77/i_kept_saying_this_all_day_working_with_claude/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-19"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1176pt] Claude Design：Figmaなどの既存ツールとの比較とデザインの新たな可能性 | Figmaの代替ではないが、表現や意図の伝達に役立つツールとして評価されている。\n  https://news.ycombinator.com/item?id=47806725\n- [747pt] アイザック・アシモフ「最後の質問」（1956年）：不朽のSF短編 | 不朽の名作として愛され、多くの読者が若かりし頃の思い出を語り、何度も読み返すという声が多い。\n  https://news.ycombinator.com/item?id=47804965\n- [735pt] 正確な位置情報販売の禁止を求める動き | プライバシー侵害への懸念から、令状なしでのデータ収集や、現行法の不備への批判が集まっている。\n  https://news.ycombinator.com/item?id=47806304\n- [682pt] Claude 4.7のトークナイザーコストを測定 | AIモデルのコスト効率に注目が集まるが、人間の時間の費用対効果も考慮すべきという意見がある。\n  https://news.ycombinator.com/item?id=47807006\n- [600pt] DigitalOceanからHetznerへの移行：コスト削減の事例 | Hetznerへの移行で大幅なコスト削減を達成した事例が多く、AWSからの移行を検討する声も多い。\n  https://news.ycombinator.com/item?id=47815774\n- [438pt] Show HN: Smol machines – サブ秒でコールドスタート可能なポータブルVM | Dockerコンテナの代替となるVMとして注目され、自律型バイナリの作成など多岐にわたる用途が期待されている。\n  https://news.ycombinator.com/item?id=47808268\n- [436pt] 全12人の月面歩行者が「月面花粉症」に悩まされていた：火薬のような匂いの粉塵が原因（2018年） | 月面塵の厄介さ、健康への影響、そして新しい探査機設計での対策について議論が交わされている。\n  https://news.ycombinator.com/item?id=47808913\n- [394pt] 米国でデバイス上の年齢確認を義務付ける法案が提出 | プライバシー侵害、デジタル監視の基盤構築、インターネット体験の質の低下を懸念する声が多い。\n  https://news.ycombinator.com/item?id=47801991\n- [393pt] 「不労所得」の罠が起業家世代を蝕む | 不労所得の概念に疑問を呈し、本来の「自由」とは何かを問い直す声や、スキル構築の重要性を指摘する意見が多い。\n  https://news.ycombinator.com/item?id=47799120\n- [353pt] Opus 4.7から4.6へのインフレ率はおよそ45%に | 費用対効果への懸念や、新しいバージョンでの性能向上よりもコスト増が目立つという不満の声が多い。\n  https://news.ycombinator.com/item?id=47816960",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-04-19"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "4 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- AIチップのCerebras、IPOを申請\n  https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/\n- Anthropicとトランプ政権の関係に雪解けの兆し\n  https://techcrunch.com/2026/04/18/anthropics-relationship-with-the-trump-administration-seems-to-be-thawing/\n- App Storeが再び好調、AIがその背景に\n  https://techcrunch.com/2026/04/18/the-app-store-is-booming-again-and-ai-may-be-why/\n- Sam Altman氏のWorld、人間認証サービス拡大へ ― 手始めはTinder\n  https://techcrunch.com/2026/04/17/sam-altmans-project-world-looks-to-scale-its-human-verification-empire-first-stop-tinder/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-04-19"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year",
+      "url": "https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-entries",
+      "summary": "PyCon US 2026がロングビーチで開催され、AIとセキュリティの新たな専門トラックが導入される。",
+      "publishedAt": "2026-04-18",
+      "ogImage": "https://static.simonwillison.net/static/2026/pycon-us-card.jpg"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Anthropic Labsの「Claude Design」— Claudeと対話するだけでプロトタイプ、スライド、1ページ資料を作成\n  https://www.producthunt.com/products/claude\n- CraftBot — ローカルで動作する自己ホスト型プロアクティブAIアシスタント\n  https://www.producthunt.com/products/craftbot\n- Grok Voice API — 高速かつ正確なSTT・TTS APIを最安値で提供\n  https://www.producthunt.com/products/grok\n- Android CLI — あらゆるエージェントを使って高品質なAndroidアプリを3倍速く開発\n  https://www.producthunt.com/products/android-cli\n- ChatGPT Shopping — より豊かで視覚的に没入感のあるショッピング体験\n  https://www.producthunt.com/products/chatgpt-shopping\n- Claude Code Rendering — Claude Codeにマウスサポートとちらつきのないレンダリングを実現\n  https://www.producthunt.com/products/claude-code-no_flicker-mode\n- GeminiのNotebooks — すべてのプロジェクト、チャット、ファイルを1つの集中スペースに\n  https://www.producthunt.com/products/google\n- CapyPlan — 細かいタスクをストレスなく応援してくれるチアリーダー\n  https://www.producthunt.com/products/gentle-daily-planner-capyplan\n- Lounge — ノッチ対応アイコンコントロールを備えたmacOS Tahoeメニューバーマネージャー\n  https://www.producthunt.com/products/lounge-2\n- Vercel Flags — Vercelから提供される機能フラグ、ターゲティングルール、ロールアウト機能\n  https://www.producthunt.com/products/vercel",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-04-19"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "1 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Lightsprint、非エンジニアチームでも本格機能開発を可能にするプロダクトエージェントを発表\n  https://lightsprint.ai",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-04-19"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] The Two Sides of OpenClaw",
+      "url": "https://www.latent.space/p/ainews-the-two-sides-of-openclaw",
+      "summary": "Anthropicがプロトタイプ生成AI「Claude Design」を発表し、既存のClaudeモデルも改良されつつ、コンピュータ操作やエージェント開発、オープンモデル、AI研究などが幅広く進展している。",
+      "publishedAt": "2026-04-18",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!w4xU!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd938eb29-488f-4a91-9b9d-7ba5dabf55af_1416x1022.png"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "5 Updates",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "- SandboxNetworkConfigタイプに`deniedDomains?: string[];`プロパティを追加\n  https://github.com/ericbuess/claude-code-docs/commit/23136035968182ae261a83123b4d65299ac924c1\n- `/claude-api`コマンドの説明を更新\n  https://github.com/ericbuess/claude-code-docs/commit/23136035968182ae261a83123b4d65299ac924c1\n- フルスクリーンレンダリングにおける選択テキストのコピーに関する説明を追加\n  https://github.com/ericbuess/claude-code-docs/commit/23136035968182ae261a83123b4d65299ac924c1\n- `Ctrl+B`（Background running tasks）のキーバインディングの説明を更新\n  https://github.com/ericbuess/claude-code-docs/commit/23136035968182ae261a83123b4d65299ac924c1\n- `Scroll`コンテキストでのアクションに関するキーバインディングのセクションを更新\n  https://github.com/ericbuess/claude-code-docs/commit/23136035968182ae261a83123b4d65299ac924c1\n- Bashパーミッションルールのワイルドカードマッチングの説明を更新\n  https://github.com/ericbuess/claude-code-docs/commit/23136035968182ae261a83123b4d65299ac924c1\n- Remote Controlの説明から「MCP servers」に関する記述を削除\n  https://github.com/ericbuess/claude-code-docs/commit/23136035968182ae261a83123b4d65299ac924c1\n- サンドボックスのファイルシステムとネットワークの制限に関する項目に、`deniedDomains`が`allowedDomains`よりも優先される説明を追加\n  https://github.com/ericbuess/claude-code-docs/commit/23136035968182ae261a83123b4d65299ac924c1\n- `/loop`を停止するための手順として、`Esc`キーを押すことで次のイテレーションの待機をキャンセルできることを追加\n  https://github.com/ericbuess/claude-code-docs/commit/23136035968182ae261a83123b4d65299ac924c1\n- サンドボックス設定のテーブルを更新\n  https://github.com/ericbuess/claude-code-docs/commit/23136035968182ae261a83123b4d65299ac924c1\n- `/ultrareview`の起動前に表示される確認ダイアログの内容に関する説明を更新\n  https://github.com/ericbuess/claude-code-docs/commit/23136035968182ae261a83123b4d65299ac924c1\n- changelog.mdにバージョン2.1.114の更新内容を追加\n  https://github.com/ericbuess/claude-code-docs/commit/0a52504f8cf3086775a67d500e273994351a3fd2\n- バージョン2.1.114で、エージェントチームのチームメイトがツール権限を要求した際にパーミッションダイアログで発生するクラッシュを修正\n  https://github.com/ericbuess/claude-code-docs/commit/0a52504f8cf3086775a67d500e273994351a3fd2\n- Claude APIの2024-04-18の変更ログに、`beta`ヘッダーに関する情報が追加\n  https://github.com/ericbuess/claude-code-docs/commit/5f4c8512b8bb18c5f1e205800bd81f96054fb63f\n- Claude APIの2024-04-18の変更ログに、ツール定義の`input_schema`の追加が記載\n  https://github.com/ericbuess/claude-code-docs/commit/5f4c8512b8bb18c5f1e205800bd81f96054fb63f\n- Claude APIの2024-04-18の変更ログに、`tool_results`の`content`における新しい制限と行動に関する情報が追加\n  https://github.com/ericbuess/claude-code-docs/commit/5f4c8512b8bb18c5f1e205800bd81f96054fb63f\n- Claude Codeドキュメントに「2026-04-18」のエントリを追加\n  https://github.com/ericbuess/claude-code-docs/commit/8e48bc8ad0faef76d766b0bded518e1ddd3a48e4\n- Claude Codeの料金を無料の「$0.00/月」から「$9.99/月」に修正\n  https://github.com/ericbuess/claude-code-docs/commit/8e48bc8ad0faef76d766b0bded518e1ddd3a48e4\n- Claude Codeの料金を更新し、「$9.99/月」であることを明記\n  https://github.com/ericbuess/claude-code-docs/commit/8e48bc8ad0faef76d766b0bded518e1ddd3a48e4\n- Claude Codeに新しいコード生成機能を追加\n  https://github.com/ericbuess/claude-code-docs/commit/8e48bc8ad0faef76d766b0bded518e1ddd3a48e4\n- Claude Codeの価格に「（月払い）」の記述を追加\n  https://github.com/ericbuess/claude-code-docs/commit/8e48bc8ad0faef76d766b0bded518e1ddd3a48e4\n- `changelog.md`は変更されていない。\n  https://github.com/ericbuess/claude-code-docs/commit/9291d01ff2ed550740fe70bae99677cb82da6b11\n- `hooks.md`の`if`フィールドの説明において、「Permission rule syntax」のリンクが「`/en/permissions`」に修正された。\n  https://github.com/ericbuess/claude-code-docs/commit/9291d01ff2ed550740fe70bae99677cb82da6b11",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-04-19"
+    }
+  ]
+}
