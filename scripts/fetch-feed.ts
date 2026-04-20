@@ -792,7 +792,7 @@ const fetchGitHubCommitDigest = async (source: Source, since: Date): Promise<Ent
 const githubReleaseNames = new Set(["Claude Code"]);
 const githubCommitNames = new Set(["Agentic Engineering", "Claude Code Docs"]);
 const redditNames = new Set(["r/MacApps", "r/indiehackers", "r/ClaudeAI"]);
-const rssDigestNames = new Set(["TechCrunch", "BRIDGE"]);
+const rssDigestNames = new Set(["TechCrunch", "BRIDGE", "GitHub Copilot"]);
 const rssDigestCategories = new Map([
   ["TechCrunch", new Set(["AI", "Startups"])],
   ["BRIDGE", new Set(["News & Column"])],
@@ -821,6 +821,7 @@ const digestOgImages: Record<string, string> = {
   "GitHub Trending": "https://github.githubassets.com/favicons/favicon.svg",
   "Agentic Engineering": "https://github.githubassets.com/favicons/favicon.svg",
   "Claude Code Docs": "https://claude.ai/images/claude_app_icon.png",
+  "GitHub Copilot": "https://github.githubassets.com/favicons/favicon.svg",
 };
 
 const fetchSource = async (source: Source, since: Date): Promise<Entry[]> => {
