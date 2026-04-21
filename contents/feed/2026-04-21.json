@@ -1,0 +1,101 @@
+{
+  "fetchedAt": "2026-04-21T05:08:05.701Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.116",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.116",
+      "summary": "- [Improved] 大規模なセッションでの /resume が最大67%高速化され（40MB以上のセッションの場合）、多数のデッドフォークエントリを持つセッションをより効率的に処理できるようになりました。\n- [Improved] 複数のstdioサーバーが設定されている場合のMCP起動が高速化されました。resources/templates/list は、最初の @-mention まで遅延されるようになりました。\n- [Improved] VS Code、Cursor、Windsurfのターミナルでのフルスクリーンスクロールがよりスムーズになりました。/terminal-setup でエディタのスクロール感度を設定できるようになりました。\n- [Improved] 思考中のスピナーが、個別のヒント行を置き換え、進捗状況をインラインで表示するようになりました（「まだ考え中」、「さらに考え中」、「思考ほぼ完了」）。\n- [Improved] /config search がオプション値と一致するようになりました（例：「vim」を検索するとEditor mode設定が見つかります）。\n- [Improved] /doctor は、Claudeが応答中でも、現在のターンが完了するのを待たずに開けるようになりました。\n- [Improved] /reload-plugins およびバックグラウンドでのプラグイン自動更新が、既に追加したマーケットプレイスから不足しているプラグインの依存関係を自動インストールするようになりました。\n- [Improved] Bashツールが、ghコマンドがGitHubのAPIレート制限に達したときにヒントを表示するようになり、エージェントがリトライせずに待機できるようになりました。\n- [Improved] SettingsのUsageタブに、5時間および週間の使用状況がすぐに表示されるようになり、使用状況エンドポイントがレート制限された場合でも失敗しなくなりました。\n- [Added] エージェントのフロントマターフック: --agent 経由でメインスレッドエージェントとして実行する際に発火するようになりました。\n- [Improved] スラッシュコマンドメニューで、フィルター結果がゼロの場合に「一致するコマンドなし」と表示されるようになり、消えなくなりました。\n- [Fixed] セキュリティ: サンドボックスの自動許可が、rm/rmdir が /、$HOME、またはその他の重要なシステムディレクトリをターゲットとする場合の危険なパスの安全チェックをバイパスしなくなりました。\n- [Fixed] Devanagariなどのインド系スクリプトがターミナルUIで列の配置が崩れてレンダリングされる問題を修正しました。\n- [Fixed] Kittyキーボードプロトコルを使用するターミナル（iTerm2、Ghostty、kitty、WezTerm、Windows Terminal）でCtrl+-がアンドゥをトリガーしない問題を修正しました。\n- [Fixed] Kittyキーボードプロトコルを使用するターミナル（Warp fullscreen、kitty、Ghostty、WezTerm）でCmd+Left/Rightが行の先頭/末尾にジャンプしない問題を修正しました。\n- [Fixed] Claude Codeがラッパープロセス（例: npx、bun run）を介して起動されたときにCtrl+Zがターミナルをハングさせる問題を修正しました。\n- [Fixed] インラインモードでのスクロールバックの重複問題を修正しました。ターミナルのリサイズや大量の出力バーストが以前の会話履歴を繰り返す問題を修正しました。\n- [Fixed] 短いターミナル高さでモーダル検索ダイアログが画面からはみ出し、検索ボックスとキーボードヒントが隠れてしまう問題を修正しました。\n- [Fixed] VS Code統合ターミナルでのスクロール中に、散発的な空白セルやコンポーザーのクロームが消える問題を修正しました。\n- [Fixed] 並行リクエストがリクエスト設定中に完了したときに発生する可能性のある、キャッシュ制御TTL順序に関連する断続的なAPI 400エラーを修正しました。\n- [Fixed] /branch が50MBを超えるトランスクリプトを持つ会話を拒否する問題を修正しました。\n- [Fixed] 大規模なセッションファイルで /resume がロードエラーを報告せずに、空の会話をサイレントに表示する問題を修正しました。\n- [Fixed] /plugin のInstalledタブで、「Needs attention」または「Favorites」の下に表示されるアイテムが二重に表示される問題を修正しました。\n- [Fixed] セッション中にワークツリーに入った後、/update と /tui が機能しない問題を修正しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-04-21"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- Macアプリの殿堂入り（悪い意味で）：避けるべきアプリリスト\n  https://www.reddit.com/r/macapps/comments/1s953qk/the_macapps_hall_of_shame/\n- 【大規模議論】アプリ山脈 - 2026年3月・4月版\n  https://www.reddit.com/r/macapps/comments/1rybab4/megathread_the_app_pile_marchapril_2026/\n- 【OS】Sniffnet：無料のインターネットトラフィック監視アプリ\n  https://www.reddit.com/r/macapps/comments/1sqoh2o/os_sniffnet_free_app_to_monitor_internet_traffic/\n- Trail - 閲覧履歴を視覚化\n  https://www.reddit.com/r/macapps/comments/1sqqvq8/trail_visualize_your_browsing_history/\n- SitTall - AirPodsで姿勢をリマインド\n  https://www.reddit.com/r/macapps/comments/1sqi778/sittall_airpods_powered_posture_reminder/\n- メニューバーの充電ユーティリティ？\n  https://www.reddit.com/r/macapps/comments/1sr2ndz/menu_bar_charging_utility/\n- 【OS】Codeburn menubar - リアルタイムAI利用状況＋コスト追跡\n  https://www.reddit.com/r/macapps/comments/1sqqht5/os_codeburn_menubar_real_time_ai_usage_cost/\n- 【macOS】Canto v0.5.11 — @メンション、スラッシュコマンド、スキルが追加された完全ローカルAIノート\n  https://www.reddit.com/r/macapps/comments/1sq8mxp/macos_canto_v0511_mentions_slash_commands_and/\n- CCCCorners – アプリの人気を支えてくれたコミュニティに感謝 (アップデート)\n  https://www.reddit.com/r/macapps/comments/1spzip9/ccccorners_a_massive_thank_you_to_the_community/\n- スタートレイルと天体写真\n  https://www.reddit.com/r/macapps/comments/1sqov77/star_trails_and_astrophotography/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-21"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- サブレディットに新たな人間認証システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackersサブレディットの新ルール – クオリティを取り戻すために\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- conductor.buildとVS Codeに関するアドバイス求む\n  https://www.reddit.com/r/indiehackers/comments/1src1fj/need_advice_conductorbuild_be_vscode/\n- ClickyがTwitterで話題だったので、ウェブ版を開発してみた\n  https://www.reddit.com/r/indiehackers/comments/1sqrsgv/i_saw_clicky_go_viral_on_twitter_so_i_built_the/\n- スポンサー業界の現状：冷たいメールと仲介業者の20〜30%のマージン、ついに解決策が登場\n  https://www.reddit.com/r/indiehackers/comments/1sqhzvd/the_sponsorship_industry_is_still_run_on_cold/\n- プロダクトのキャッチフレーズ選び、ご協力お願いします\n  https://www.reddit.com/r/indiehackers/comments/1spxlh2/need_your_help_picking_a_tagline_for_my_product/\n- リリースからわずか1週間でMRR 17ドル、ユーザー数36人を達成 🎉\n  https://www.reddit.com/r/indiehackers/comments/1spnx02/just_hit_17_mrr_36_users_and_1_week_since_launch/\n- シンプルな3通のチャーンメールで今期1000ドル以上のコストを削減\n  https://www.reddit.com/r/indiehackers/comments/1snxo82/saved_1k_this_quarter_with_3_simple_churn_emails/\n- 金曜シェア熱！🕺あなたのプロジェクトを共有しよう！\n  https://www.reddit.com/r/indiehackers/comments/1snw700/friday_share_fever_lets_share_your_project/\n- なぜウェブサイト訪問者が登録に至らないのか、その理由を見つけるには？\n  https://www.reddit.com/r/indiehackers/comments/1smtafn/how_do_i_find_out_why_people_visited_my_website/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-21"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI、進行中のメガトレンドをリストアップ\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Claude Cowork、ライブ成果物の構築が可能に\n  https://www.reddit.com/r/ClaudeAI/comments/1sr3rgq/claude_cowork_can_now_build_live_artifacts/\n- Amazon、Anthropicに最大250億ドル投資へ — 1000億ドル規模のクラウド契約の一環\n  https://www.reddit.com/r/ClaudeAI/comments/1sr8q0k/amazon_to_invest_up_to_25_billion_in_anthropic_as/\n- 20年間のデータ損失トラウマが女性に与える影響 (Claude Code)\n  https://www.reddit.com/r/ClaudeAI/comments/1sqv4g9/what_two_decades_of_data_loss_trauma_does_to_a/\n- Opus 4.6と4.7の論争が一目でわかる画像\n  https://www.reddit.com/r/ClaudeAI/comments/1sr4gq2/the_opus_46_vs_47_controversy_in_one_image/\n- 信じられない、これが現実だなんて\n  https://www.reddit.com/r/ClaudeAI/comments/1sqpb2f/this_cannot_be_real_i_cannot_believe_my_eyes/\n- アップデート不要\n  https://www.reddit.com/r/ClaudeAI/comments/1sr4uue/no_update_needed/\n- Claude Designがすごい！もうダメだ！\n  https://www.reddit.com/r/ClaudeAI/comments/1squwsy/claude_design_is_amazing_were_cooked/\n- Claude Electrician 4.7 パート2\n  https://www.reddit.com/r/ClaudeAI/comments/1sqyx82/claude_electrician_47_part_2/\n- Claude、ただただすごい…\n  https://www.reddit.com/r/ClaudeAI/comments/1sqk4dz/wow_claudejust_wow/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-21"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1467pt] John Ternus氏がAppleのCEOに就任へ | ハードウェアのリーダーシップに期待が集まる一方、ソフトウェアの品質低下を懸念する声も\n  https://news.ycombinator.com/item?id=47840219\n- [1087pt] 2027年よりEUで販売される全スマートフォンに交換可能なバッテリーが義務付け | 交換可能バッテリーの時代を懐かしむ声、既存の交換サービスやApple製品への影響について議論\n  https://news.ycombinator.com/item?id=47834195\n- [851pt] Vercelの2026年4月のセキュリティインシデント | OAuthトークンによる広範な影響、第三者AIツールが発端、初期対応への批判などが挙げられている\n  https://news.ycombinator.com/item?id=47824463\n- [755pt] GitHubの「偽のスター経済」 | スター数を評価指標とすることへの疑問や批判が多く、プロジェクト選定には別の基準を推奨\n  https://news.ycombinator.com/item?id=47831621\n- [620pt] Kimi K2.6：オープンソースコーディングの進化 | ベンチマークでの大幅な改善、クリエイティブな能力が高く評価される一方、実務での利用経験は賛否両論\n  https://news.ycombinator.com/item?id=47835735\n- [579pt] Qwen3.6-Max-Preview：より賢く、シャープに、進化を続ける | Kimi K2.6との比較でコスト差が指摘され、オープンソースモデルの継続的なリリースを望む声\n  https://news.ycombinator.com/item?id=47834565\n- [562pt] ついにInfoWarsが我々のものに | 裁判所の承認待ちであり確定ではないとの指摘、The Onionの登場を喜ぶ声もあるが、真偽の見分けにくさも\n  https://news.ycombinator.com/item?id=47837611\n- [535pt] Atlassian、AI学習のためのデータ収集をデフォルトで有効化 | データ収集のデフォルト有効化に対する批判、他の企業も同様の傾向にあるとの指摘\n  https://news.ycombinator.com/item?id=47833247\n- [452pt] NSA、ブラックリストにもかかわらずAnthropicのMythosを使用 | 政府の規制と実際の運用との乖離、契約免除の可能性を指摘する声や、Anthropicの戦略に言及する声も\n  https://news.ycombinator.com/item?id=47832222\n- [405pt] 人の話を聞くことから逃れるためのエンジニアリングをやめよう | 言葉の解釈やコミュニケーションの難しさについて議論。記事への共感と同時に、その内容への皮肉も\n  https://news.ycombinator.com/item?id=47827259",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-04-21"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "5 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- AmazonがAnthropicに50億ドル出資、AnthropicはAWSに1000億ドル投下へ\n  https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/\n- Google、GeminiをChromeに統合し7カ国で提供開始\n  https://techcrunch.com/2026/04/20/google-rolls-out-gemini-in-chrome-in-seven-new-countries/\n- それは単なる一つの問題ではない、また別の問題なのだ\n  https://techcrunch.com/2026/04/20/ai-writing-its-not-just-this-its-that-barrons/\n- NSA、国防総省との対立にもかかわらずAnthropicのMythosを使用と報道\n  https://techcrunch.com/2026/04/20/nsa-spies-are-reportedly-using-anthropics-mythos-despite-pentagon-feud/\n- AIスタートアップFermi、CEOとCFOが突然の退任\n  https://techcrunch.com/2026/04/20/fermi-ceo-and-cfo-depart-texas-nuclear-power-ai/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-04-21"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Silex – スイス発、弁護士が開発した弁護士のための法律AI\n  https://www.producthunt.com/products/silex-2\n- Tetractys – バイオ製造業向けAI\n  https://www.producthunt.com/products/tetractys\n- Auxilius.ai – エージェントAIでコンプライアンスをコードに\n  https://www.producthunt.com/products/auxilius-ai\n- Getpin – ビジネスをピン留めし、関心を集め、見つけられる\n  https://www.producthunt.com/products/getpin\n- Telagri – リアルタイムの圃場可視化でスマートな農業融資\n  https://www.producthunt.com/products/telagri\n- Sirputis – エンジニアリングと海藻が出会う場所\n  https://www.producthunt.com/products/sirputis\n- MIRA vision – 合成データでAIを活用した病理分析\n  https://www.producthunt.com/products/mira-vision\n- OptionV – macOSメニューバーのクリップボードマネージャー\n  https://www.producthunt.com/products/optionv-clipboard-manager-for-mac\n- Vertai Technology – (サイトは近日公開予定のプレースホルダー)\n  https://www.producthunt.com/products/vertai-technology\n- Mav9 – 資本を配分する時\n  https://www.producthunt.com/products/mav9",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-04-21"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "2 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- RentAHuman、AIエージェントが人間を雇用するマーケットプレイスを公開\n  https://rentahuman.ai\n- Archal、自律型ソフトウェア評価プラットフォームを発表\n  https://www.archal.ai/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-04-21"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Moonshot Kimi K2.6: the world's leading Open Model refreshes to catch up to Opus 4.6 (ahead of DeepSeek v4?)",
+      "url": "https://www.latent.space/p/ainews-moonshot-kimi-k26-the-worlds",
+      "summary": "MoonshotのKimi K2.6とAlibabaのQwen3.6-Max-Previewがエージェント型コーディングモデルとしてリリースされ、Hermes Agentも急成長し、AIエージェントの記憶・コンテキスト管理機能が進化している。",
+      "publishedAt": "2026-04-21",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!t76W!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fba3bb8e1-94f7-4acd-a98b-e7d2ce0d577e_2886x1483.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "🔬 Training Transformers to solve 95% failure rate of Cancer Trials — Ron Alfa & Daniel Bear, Noetik",
+      "url": "https://www.latent.space/p/noetik",
+      "summary": "AIを使って既存の癌治療の成功率を向上させる研究が進んでおり、大手製薬会社も関心を示している。",
+      "publishedAt": "2026-04-21",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!4KQH!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F194810752%2F0d06304d-46fc-4b3a-89f6-e70a7ff556f1%2Ftranscoded-1776701411.png"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "4 Updates",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "- `SDKMessage`タイプに`SDKTaskUpdatedMessage`を追加\n  https://github.com/ericbuess/claude-code-docs/commit/8ae594abee206bfd543dfe8020be02160a33c6e5\n- バックグラウンドタスクの状態変化時に発行される`SDKTaskUpdatedMessage`セクションを追加\n  https://github.com/ericbuess/claude-code-docs/commit/8ae594abee206bfd543dfe8020be02160a33c6e5\n- `/compact`コマンドの使用方法について、「Customize compaction behavior in CLAUDE.md with instructions like `\"When comp`」を修正\n  https://github.com/ericbuess/claude-code-docs/commit/8ae594abee206bfd543dfe8020be02160a33c6e5\n- `CLAUDE_CONFIG_DIR`環境変数のパス記述を修正\n  https://github.com/ericbuess/claude-code-docs/commit/8ae594abee206bfd543dfe8020be02160a33c6e5\n- `/autofix-pr`コマンドの引数記述を修正\n  https://github.com/ericbuess/claude-code-docs/commit/8ae594abee206bfd543dfe8020be02160a33c6e5\n- 「Work in notes and non-code folders」セクションを追加し、Claude Codeが任意のディレクトリで動作すること、`.claude/`ディレクトリと`CLAUDE.md`が他のツールの設定ディレクトリと競合しないこと、Claudeがツール呼び出しごとにファイルを読み込むことを説明\n  https://github.com/ericbuess/claude-code-docs/commit/8ae594abee206bfd543dfe8020be02160a33c6e5\n- SSH接続の「Pre-configure SSH connections for your team」セクションを追加し、管理者が`sshConfigs`を管理設定ファイルに追加することでチームにSSH接続を配布できることを説明\n  https://github.com/ericbuess/claude-code-docs/commit/8ae594abee206bfd543dfe8020be02160a33c6e5\n- `spinnerTipsEnabled`設定の説明を追加\n  https://github.com/ericbuess/claude-code-docs/commit/8ae594abee206bfd543dfe8020be02160a33c6e5\n- ステータスラインの設定で、`/statusline`コマンドへのリンクを修正\n  https://github.com/ericbuess/claude-code-docs/commit/8ae594abee206bfd543dfe8020be02160a33c6e5\n- サブエージェントの代わりに`/btw`を使用する場合の説明を修正\n  https://github.com/ericbuess/claude-code-docs/commit/8ae594abee206bfd543dfe8020be02160a33c6e5\n- VS Codeのプロンプトボックスのパーミッションモードの説明を修正\n  https://github.com/ericbuess/claude-code-docs/commit/8ae594abee206bfd543dfe8020be02160a33c6e5\n- ZDRの申請方法について、担当チームに連絡するのではなく「contact sales」へのリンクに修正\n  https://github.com/ericbuess/claude-code-docs/commit/8ae594abee206bfd543dfe8020be02160a33c6e5\n- Claude Codeのドキュメントが更新された。\n  https://github.com/ericbuess/claude-code-docs/commit/de2b5209303a4d803e4fb2f425fc8ad87bbb203b\n- `/tasks` コマンドのエイリアスとして `/bashes` を追加\n  https://github.com/ericbuess/claude-code-docs/commit/19235dcf44a3c214ac22fe5a25afefe4dff96689\n- `CLAUDE_CONFIG_DIR` 環境変数の説明で、`alias claude-work='CLAUDE_CONFIG_DIR=~/.claude-work claude'` の例を修正\n  https://github.com/ericbuess/claude-code-docs/commit/19235dcf44a3c214ac22fe5a25afefe4dff96689\n- `CwdChanged` hook の説明で、direnv のようなツールが環境変数を自動的に変更するが、Claude の Bash ツールはそれらの変更を自動的に取得しないという文脈を追加\n  https://github.com/ericbuess/claude-code-docs/commit/19235dcf44a3c214ac22fe5a25afefe4dff96689\n- `PreToolUse` hook の例で、破壊的なシェルコマンドをブロックする例を修正し、具体的なコマンド (rm) の言及を削除\n  https://github.com/ericbuess/claude-code-docs/commit/19235dcf44a3c214ac22fe5a25afefe4dff96689\n- macOS の Option/Alt キーショートカットの設定方法について、iTerm2 の設定パスを「Settings → Profiles → Keys → General → set Left/Right Option key to \"Esc+\"」に修正\n  https://github.com/ericbuess/claude-code-docs/commit/19235dcf44a3c214ac22fe5a25afefe4dff96689\n- macOS の Option/Alt キーショートアップの設定方法について、Terminal.app の名前を「Apple Terminal」に修正し、設定パスを「Settings → Profiles → Keyboard → check \"Use Option as Meta Key\"」に修正\n  https://github.com/ericbuess/claude-code-docs/commit/19235dcf44a3c214ac22fe5a25afefe4dff96689\n- `terminal-config.md` のタイトルを「Optimize your terminal setup」から「Configure your terminal for Claude Code」に修正\n  https://github.com/ericbuess/claude-code-docs/commit/19235dcf44a3c214ac22fe5a25afefe4dff96689\n- `terminal-config.md` の概要で、提供される設定ガイドラインに「Shift+Enter for newlines」「terminal bell when Claude finishes」「configure tmux」「match the color theme」を追加\n  https://github.com/ericbuess/claude-code-docs/commit/19235dcf44a3c214ac22fe5a25afefe4dff96689\n- `hooks-guide.md` 内で、`\"type\": \"agent\"` の説明に「Agent hooks are experimental and may change.」（Agentフックは実験的であり、変更される可能性があります。）を追加し、Agentフックが実験的な機能であることを明記しました。\n  https://github.com/ericbuess/claude-code-docs/commit/6ddcd9499ca00e40288809b6820348c011a57e64\n- `hooks.md` 内で、不要な空白行が削除されました。\n  https://github.com/ericbuess/claude-code-docs/commit/6ddcd9499ca00e40288809b6820348c011a57e64\n- `setup.md` 内で、インストールコマンドのコードブロックから不要な `theme={null}` が削除されました。\n  https://github.com/ericbuess/claude-code-docs/commit/6ddcd9499ca00e40288809b6820348c011a57e64",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-04-21"
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "1 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- GitHub Copilot、個人向けプラン改定を発表\n  https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-04-21"
+    }
+  ]
+}
