@@ -1,0 +1,101 @@
+{
+  "fetchedAt": "2026-04-21T21:35:03.026Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Scaling Codex to enterprises worldwide",
+      "url": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
+      "summary": "OpenAIはCodex Labsを開始し、企業向けにCodexの導入とスケールアップを支援するパートナーシップを締結、週次アクティブユーザーは400万を達成。",
+      "publishedAt": "2026-04-21",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/6vVWsdD8Je8NBRf5rzcKgO/627fd8bf52395077f3ed200aaeb615b9/Frame.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.116",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.116",
+      "summary": "- [Improved] 大規模セッションでの /resume が大幅に高速化（40MB以上のセッションで最大67%）され、多くのdead-forkエントリを持つセッションをより効率的に処理できるようになりました。\n- [Improved] 複数のstdioサーバーが設定されている場合のMCP起動が高速化されました。resources/templates/list は、最初の @-mention まで遅延されるようになりました。\n- [Improved] VS Code、Cursor、Windsurfのターミナルでフルスクリーンでのスクロールがスムーズになりました。/terminal-setup でエディタのスクロール感度を設定できるようになりました。\n- [Improved] 思考中のスピナーがインラインで進行状況（\"still thinking\", \"thinking more\", \"almost done thinking\"）を表示するようになり、別のヒント行が廃止されました。\n- [Improved] /config search がオプション値と一致するようになりました（例: \"vim\"を検索するとEditor mode設定が見つかる）。\n- [Improved] /doctor がClaudeの応答中でも開けるようになり、現在のターンが終了するのを待つ必要がなくなりました。\n- [Improved] /reload-plugins とバックグラウンドのプラグイン自動更新が、追加済みのマーケットプレイスから不足しているプラグインの依存関係を自動インストールするようになりました。\n- [Improved] BashツールがghコマンドがGitHubのAPIレートリミットに達した際にヒントを表示するようになり、エージェントが再試行せずに待機できるようになりました。\n- [Improved] 設定のUsageタブで5時間および週間の使用状況が即座に表示されるようになり、使用状況エンドポイントがレートリミットに達しても失敗しなくなりました。\n- [Improved] エージェントのフロントマターフックが、--agentを介してメインスレッドエージェントとして実行されている場合に発火するようになりました。\n- [Improved] スラッシュコマンドメニューが、フィルタ結果がゼロの場合に「No commands match」と表示されるようになり、消えなくなりました。\n- [Fixed] セキュリティ: サンドボックスの自動許可が、rm/rmdir が /, $HOME, またはその他の重要なシステムディレクトリをターゲットとする場合の危険なパスの安全チェックをバイパスしなくなりました。\n- [Fixed] Devanagariおよびその他のインド系文字がターミナルUIでカラムアライメントが崩れてレンダリングされる問題を修正しました。\n- [Fixed] Kittyキーボードプロトコルを使用するターミナル（iTerm2, Ghostty, kitty, WezTerm, Windows Terminal）でCtrl+-がアンドゥをトリガーしない問題を修正しました。\n- [Fixed] Kittyキーボードプロトコルを使用するターミナル（Warp fullscreen, kitty, Ghostty, WezTerm）でCmd+Left/Rightが行頭/行末にジャンプしない問題を修正しました。\n- [Fixed] Claude Codeがラッパープロセス（例: npx, bun run）を介して起動されたときにCtrl+Zでターミナルがハングする問題を修正しました。\n- [Fixed] インラインモードでターミナルのリサイズや大量の出力バースト時に以前の会話履歴が繰り返されるスクロールバックの重複問題を修正しました。\n- [Fixed] ターミナル高さが短い場合にモーダル検索ダイアログが画面からはみ出し、検索ボックスとキーボードヒントが隠れる問題を修正しました。\n- [Fixed] スクロール中にVS Code統合ターミナルで散発的な空白セルとコンポーザーのクロームが消える問題を修正しました。\n- [Fixed] リクエスト設定中に並行リクエストが完了した際に発生する可能性のある、キャッシュ制御TTL順序に関連する断続的なAPI 400エラーを修正しました。\n- [Fixed] /branch がトランスクリプトサイズが50MBを超える会話を拒否する問題を修正しました。\n- [Fixed] 大規模なセッションファイルで /resume がロードエラーを報告せずに、空の会話をサイレントに表示する問題を修正しました。\n- [Fixed] /plugin のInstalledタブで、同じアイテムがNeeds attentionまたはFavoritesの下に表示される場合に二重に表示される問題を修正しました。\n- [Fixed] セッション途中でworktreeに入った後に /update と /tui が機能しなくなる問題を修正しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-04-21"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- Macアプリの殿堂入り、その裏側：悪質なアプリの実態\n  https://www.reddit.com/r/macapps/comments/1s953qk/the_macapps_hall_of_shame/\n- 【まとめ】App Pile - 2026年3月・4月版\n  https://www.reddit.com/r/macapps/comments/1rybab4/megathread_the_app_pile_marchapril_2026/\n- ViewPorts – あなたのMacの全ポートをライブ表示\n  https://www.reddit.com/r/macapps/comments/1sro2tp/viewports_a_live_view_of_every_port_on_your_mac/\n- Backdrop 2.5リリース：Macライブ壁紙にプレイリストと大規模コミュニティアップグレードを実装\n  https://www.reddit.com/r/macapps/comments/1srj2ug/backdrop_25_is_out_playlists_and_major_community/\n- Lattice: 軽量で洗練された文献管理ツール\n  https://www.reddit.com/r/macapps/comments/1srqvbu/lattice_a_lightweight_and_elegant_reference/\n- Fluent 1.8 – Spotlight風AIアシスタント：アクション編集UI刷新、プロンプト改善、並行アクションなど新機能多数\n  https://www.reddit.com/r/macapps/comments/1srr0md/fluent_18_spotlightlike_ai_assistant_new_action/\n- SmoothCapture 1.2.41 - ユニークで楽しいmacOSスクリーンレコーダー\n  https://www.reddit.com/r/macapps/comments/1srofp4/smoothcapture_1241_a_unique_and_fun_macos_screen/\n- SRV Status – メニューバーからボリュームを管理するより良い方法\n  https://www.reddit.com/r/macapps/comments/1srxa69/srv_status_a_better_way_to_manage_volumes_from/\n- Docksideがドラッグ＆ドロップを本格的なワークフローに変革\n  https://www.reddit.com/r/macapps/comments/1sru247/dockside_turns_draganddrop_into_a_real_workflow/\n- StorageRadarがMac App Storeに登場：レビューを重視したクリーンアップで、何を削除するのかを明確に表示\n  https://www.reddit.com/r/macapps/comments/1srkevl/storageradar_is_now_on_the_mac_app_store/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-22"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- 当社subredditに新しい人間認証システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackersのsubredditに新ルールを導入 – 品質向上を目指して\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- conductor.buildをVSCodeで利用するためのアドバイスを求む\n  https://www.reddit.com/r/indiehackers/comments/1src1fj/need_advice_conductorbuild_be_vscode/\n- Hacker Newsに製品を投稿するのを手伝ってくれる人はいませんか？\n  https://www.reddit.com/r/indiehackers/comments/1srn06k/anyone_willing_to_help_post_my_product_on_hacker/\n- ClickyがTwitterで拡散しているのを見て、ウェブ版を開発しました\n  https://www.reddit.com/r/indiehackers/comments/1sqrsgv/i_saw_clicky_go_viral_on_twitter_so_i_built_the/\n- コールドメールと20-30%の手数料を取る仲介業者によって成り立っていたスポンサーシップ業界に、ついに解決策が登場\n  https://www.reddit.com/r/indiehackers/comments/1sqhzvd/the_sponsorship_industry_is_still_run_on_cold/\n- リリースからわずか1週間でMRR 17ドル、ユーザー数36人を達成 🎉\n  https://www.reddit.com/r/indiehackers/comments/1spnx02/just_hit_17_mrr_36_users_and_1_week_since_launch/\n- 製品のタグライン選定にご協力ください\n  https://www.reddit.com/r/indiehackers/comments/1spxlh2/need_your_help_picking_a_tagline_for_my_product/\n- 3つのシンプルなチャーン対策メールで今四半期に1000ドル以上を節約\n  https://www.reddit.com/r/indiehackers/comments/1snxo82/saved_1k_this_quarter_with_3_simple_churn_emails/\n- 金曜日のシェア熱！あなたのプロジェクトをシェアしましょう 🕺\n  https://www.reddit.com/r/indiehackers/comments/1snw700/friday_share_fever_lets_share_your_project/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-22"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI、進行中のメガトレンドをリストアップ\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Claude Cowork、ライブアーティファクトの構築が可能に\n  https://www.reddit.com/r/ClaudeAI/comments/1sr3rgq/claude_cowork_can_now_build_live_artifacts/\n- Claude、2年間NASを悪用していたクリプトマイナーを検出\n  https://www.reddit.com/r/ClaudeAI/comments/1srv55h/claude_caught_a_cryptominer_thatd_been_using_my/\n- 誤解するなかれ！\n  https://www.reddit.com/r/ClaudeAI/comments/1sre84i/make_no_mistakes/\n- 注意喚起：Claude Pro、Claude Codeを機能リストから削除\n  https://www.reddit.com/r/ClaudeAI/comments/1srzhd7/psa_claude_pro_no_longer_lists_claude_code_as_an/\n- 私はClaudeを「ミスター・ミーシークス」と呼んでいる\n  https://www.reddit.com/r/ClaudeAI/comments/1srw3ff/i_call_claude_mr_meeseeks_now/\n- AIをセラピスト代わりに使おうとした。「Claude、もう限界だ」と言うと、「私もです！」とClaude\n  https://www.reddit.com/r/ClaudeAI/comments/1srgzok/tried_to_use_ai_as_a_shrink_i_said_claude_im_at/\n- エージェントスキルあり/なしで9つのモデルをテスト。Haiku 4.5（スキルあり）がOpus 4.7（ベースライン）を上回る\n  https://www.reddit.com/r/ClaudeAI/comments/1srpv7c/tested_9_models_with_and_without_agent_skills/\n- ついに「[貼り付けたテキスト #1 +23行]」が消滅 – 貼り付けた内容全体を確認可能に\n  https://www.reddit.com/r/ClaudeAI/comments/1srpb4f/finally_no_more_pasted_text_1_23_lines_now_you/\n- Amazon、1000億ドルのクラウド契約の一環としてAnthropicに最大250億ドル投資へ\n  https://www.reddit.com/r/ClaudeAI/comments/1sr8q0k/amazon_to_invest_up_to_25_billion_in_anthropic_as/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-22"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "⚠ Hacker News の取得に失敗しました",
+      "url": "https://hacker-news.firebaseio.com/v0/beststories.json",
+      "summary": "fetch failed",
+      "ogImage": null,
+      "publishedAt": "2026-04-22"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "11 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- AppleのJohn Ternus氏、世界有数の有力企業を率いる重責に就任\n  https://techcrunch.com/2026/04/21/apples-john-ternus-will-run-one-of-the-worlds-most-powerful-companies-the-job-is-a-minefield/\n- AI研究室NeoCognition、人間のように学習するエージェント構築へ4000万ドルのシード調達\n  https://techcrunch.com/2026/04/21/ai-research-lab-neocognition-lands-40m-seed-to-build-agents-that-learn-like-humans/\n- SusHi Tech Tokyoはカンファレンスではない、6万人規模の商談の場だ\n  https://techcrunch.com/2026/04/21/sushi-tech-tokyo-isnt-a-conference-its-a-deal-room-with-60000-people/\n- ChatGPTの新たな「Images 2.0」、テキスト生成能力が驚くほど向上\n  https://techcrunch.com/2026/04/21/chatgpts-new-images-2-0-model-is-surprisingly-good-at-generating-text/\n- Sam Altman氏、AnthropicのサイバーモデルMythosを批判「恐怖ベースのマーケティングだ」\n  https://techcrunch.com/2026/04/21/sam-altman-throws-shade-at-anthropics-cyber-model-mythos-fear-based-marketing/\n- Clarifai、OkCupidから提供された300万枚の顔認識AI学習用写真を削除と報道\n  https://techcrunch.com/2026/04/21/clarifai-okcupid-facial-recognition-ai-ftc-settlement/\n- 元Pinterestチームが再構築したメールアプリ「Extra」が意外と良い\n  https://techcrunch.com/2026/04/21/former-pinterest-team-redesigns-email-with-extra-and-its-actually-good/\n- AI Dungeon開発のLatitude、AI搭載RPG制作プラットフォーム「Voyage」を発表\n  https://techcrunch.com/2026/04/21/voyage-is-an-ai-rpg-platform-for-creating-custom-gaming-worlds-with-ai-generated-npc-interactions/\n- 新SNSプラットフォームBond、AIで「ドゥームスクロール」習慣からの脱却を支援\n  https://techcrunch.com/2026/04/21/bond-social-media-platform-ai-memories-kick-doomscrolling-habit/\n- YouTube、AIによる著名人酷似検出技術の適用範囲を拡大\n  https://techcrunch.com/2026/04/21/youtube-expands-its-ai-likeness-detection-technology-to-celebrities/\n- GRAIが提唱：AIは音楽をよりソーシャルにし、アーティストを置き換えるものではない\n  https://techcrunch.com/2026/04/21/grai-believes-ai-can-make-music-more-social-not-replace-artists/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-04-22"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
+      "url": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-entries",
+      "summary": "OpenAIの新しい画像生成モデル「ChatGPT Images 2.0」をテストしたところ、Geminiより優れていることが判明。",
+      "publishedAt": "2026-04-22",
+      "ogImage": "https://static.simonwillison.net/static/2026/image-fc93bd-q100.webp"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Fragments: April 21",
+      "url": "https://martinfowler.com/fragments/2026-04-21.html",
+      "summary": "ThoughtworksがAI中心の技術トレンドをまとめた「Technology Radar」最新版を公開し、AIエージェントのセキュリティ課題や、生成AIコードのレビューの重要性などを指摘。",
+      "publishedAt": "2026-04-21",
+      "ogImage": "https://martinfowler.com/logo-sq.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Magic Lane：欧州向け「主権」ナビゲーションインフラを構築\n  https://www.producthunt.com/products/magic-lane\n- Perplexity Health：医療記録、検査結果、ウェアラブルデータから健康に関する質問に回答\n  https://www.producthunt.com/products/perplexity-ai\n- Dageno AI：7つ以上の主要LLMで最も推奨されるブランドになる\n  https://www.producthunt.com/products/agent-powered-geo-by-dageno\n- Flow AI：LinkedInを自動操縦で無限のリードに変換\n  https://www.producthunt.com/products/agent-maya-by-flow-ai\n- Katzilla：AI向けに最適化された、市民が政府データに簡単にアクセスできるツール\n  https://www.producthunt.com/products/katzilla\n- Twenty 2.0：AIフレンドリーなSDKでエンタープライズCRMを構築\n  https://www.producthunt.com/products/twenty-crm\n- Kimi K2.6：長期的コーディングとエージェント群のためのオープンソースSOTA\n  https://www.producthunt.com/products/kimi-ai-assistant\n- RankAI：GoogleとAI検索から自動的に購入者を獲得するRankAI\n  https://www.producthunt.com/products/rankai-2\n- Devaito：ビジネスの構築、立ち上げ、成長を自動操縦で\n  https://www.producthunt.com/products/devaito\n- ClankerPass：AIに「あなたはAIだ」と納得させられるか？\n  https://www.producthunt.com/products/clankerpass",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-04-22"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "3 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Huscarl、企業リスク担当者向けにアクチュアリーAIを提供\n  https://www.huscarl.io/\n- Juno、慢性疾患向けAIヘルスアシスタントを発表\n  https://juno-chat.com/\n- RentAHuman、AIエージェントが人間を雇うためのマーケットプレイスを開始\n  https://rentahuman.ai",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-04-22"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Moonshot Kimi K2.6: the world's leading Open Model refreshes to catch up to Opus 4.6 (ahead of DeepSeek v4?)",
+      "url": "https://www.latent.space/p/ainews-moonshot-kimi-k26-the-worlds",
+      "summary": "Kimi K2.6やQwen3.6-Max-Previewなど、中国のAIラボが強力なコーディング・エージェントモデルを発表し、Hermes Agentもエコシステムを拡大している。",
+      "publishedAt": "2026-04-21",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!t76W!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fba3bb8e1-94f7-4acd-a98b-e7d2ce0d577e_2886x1483.png"
+    }
+  ]
+}
