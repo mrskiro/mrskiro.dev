@@ -38,6 +38,7 @@ export const sources = [
   { name: "Y Combinator", url: "https://www.ycombinator.com/companies" },
   { name: "BRIDGE", url: "https://thebridge.jp/feed" },
   { name: "Latent Space", url: "https://www.latent.space/feed" },
+  { name: "AI News (smol.ai)", url: "https://news.smol.ai/rss.xml" },
   { name: "GitHub Trending", url: "https://github.com/trending?since=weekly" },
   {
     name: "Agentic Engineering",
