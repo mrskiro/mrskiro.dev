@@ -1,9 +1,16 @@
 import { readdir, readFile } from "fs/promises";
 import Link from "next/link";
 
-import type { Entry } from "./sources.ts";
+import type { DocsUpdate, Entry } from "./sources.ts";
 
 import { sources } from "./sources.ts";
+
+const tagStyles: Record<DocsUpdate["tag"], string> = {
+  Added: "bg-emerald-50 text-emerald-700",
+  Fixed: "bg-amber-50 text-amber-700",
+  Improved: "bg-sky-50 text-sky-700",
+  Changed: "bg-neutral-100 text-neutral-700",
+};
 
 const loadBatches = async (): Promise<{ fetchedAt: string; entries: Entry[] }[]> => {
   try {
@@ -116,7 +123,53 @@ export default async function Page({
                     <span className="text-base text-neutral-500">{entries.length} entries</span>
                   </div>
                   {entries.map((entry) =>
-                    digestSources.has(entry.sourceName) ? (
+                    entry.docsUpdates && entry.docsUpdates.length > 0 ? (
+                      <article
+                        key={entry.url}
+                        className="grid gap-3 border-b border-neutral-100 py-4"
+                      >
+                        <div className="flex items-center gap-2">
+                          <span className="text-sm text-neutral-500">{entry.sourceName}</span>
+                          <span className="text-sm text-neutral-500">{entry.publishedAt}</span>
+                          <span className="text-sm text-neutral-500">{entry.title}</span>
+                        </div>
+                        <div className="grid gap-4">
+                          {Object.entries(
+                            entry.docsUpdates.reduce<Record<string, DocsUpdate[]>>((acc, u) => {
+                              (acc[u.file] ??= []).push(u);
+                              return acc;
+                            }, {}),
+                          ).map(([file, updates]) => (
+                            <div key={file} className="grid gap-2">
+                              <code className="text-sm text-neutral-500">{file}</code>
+                              <ul className="grid gap-1.5">
+                                {updates.map((u, i) => (
+                                  <li
+                                    key={`${u.commitUrl}-${i}`}
+                                    className="grid grid-cols-[64px_1fr_auto] items-baseline gap-2 text-sm leading-relaxed"
+                                  >
+                                    <span
+                                      className={`justify-self-start rounded-sm px-1.5 py-0.5 text-xs font-medium ${tagStyles[u.tag]}`}
+                                    >
+                                      {u.tag}
+                                    </span>
+                                    <span>{u.text}</span>
+                                    <a
+                                      href={u.commitUrl}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="text-xs text-neutral-400 no-underline hover:text-neutral-600"
+                                    >
+                                      {u.commitUrl.split("/").pop()!.slice(0, 7)}
+                                    </a>
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          ))}
+                        </div>
+                      </article>
+                    ) : digestSources.has(entry.sourceName) ? (
                       <article
                         key={entry.url}
                         className="grid grid-cols-[96px_1fr] gap-4 border-b border-neutral-100 py-4"

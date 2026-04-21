@@ -3,6 +3,13 @@ export type Source = {
   url: string;
 };
 
+export type DocsUpdate = {
+  tag: "Added" | "Fixed" | "Improved" | "Changed";
+  file: string;
+  text: string;
+  commitUrl: string;
+};
+
 export type Entry = {
   sourceName: string;
   title: string;
@@ -10,6 +17,7 @@ export type Entry = {
   summary: string;
   ogImage: string | null;
   publishedAt: string;
+  docsUpdates?: DocsUpdate[];
 };
 
 export const sources = [
