@@ -10,6 +10,29 @@ const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY! });
 
 const FEED_DIR = "contents/feed";
 
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
+const generateContentWithRetry: typeof ai.models.generateContent = async (params) => {
+  const maxAttempts = 4;
+  let lastErr: unknown;
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    try {
+      return await ai.models.generateContent(params);
+    } catch (err) {
+      lastErr = err;
+      const msg = err instanceof Error ? err.message : String(err);
+      const retriable = /"code":\s*(429|500|502|503|504)/.test(msg);
+      if (!retriable || attempt === maxAttempts) throw err;
+      const delay = 1000 * 2 ** (attempt - 1) + Math.floor(Math.random() * 500);
+      console.warn(
+        `Gemini retriable error (attempt ${attempt}/${maxAttempts}), retrying in ${delay}ms`,
+      );
+      await sleep(delay);
+    }
+  }
+  throw lastErr;
+};
+
 const formatDate = new Intl.DateTimeFormat("sv-SE", {
   year: "numeric",
   month: "2-digit",
@@ -160,7 +183,7 @@ const TRANSLATE_TITLES_PROMPT = [
 
 const translateTitles = async (titles: string[]): Promise<string[]> => {
   const numbered = titles.map((t, i) => `${i + 1}. ${t}`).join("\n");
-  const res = await ai.models.generateContent({
+  const res = await generateContentWithRetry({
     model: "gemini-2.5-flash",
     config: { thinkingConfig: { thinkingBudget: 0 } },
     contents: `${TRANSLATE_TITLES_PROMPT}\n\n${numbered}`,
@@ -170,7 +193,7 @@ const translateTitles = async (titles: string[]): Promise<string[]> => {
 };
 
 const summarizeJa = async (text: string): Promise<string> => {
-  const res = await ai.models.generateContent({
+  const res = await generateContentWithRetry({
     model: "gemini-2.5-flash",
     config: { thinkingConfig: { thinkingBudget: 0 } },
     contents: `${SUMMARIZE_PROMPT}\n\n入力: ${text}\n出力:`,
@@ -257,7 +280,7 @@ const fetchHNDigest = async (source: Source): Promise<Entry> => {
     })
     .join("\n\n");
 
-  const geminiRes = await ai.models.generateContent({
+  const geminiRes = await generateContentWithRetry({
     model: "gemini-2.5-flash",
     config: {
       thinkingConfig: { thinkingBudget: 0 },
@@ -396,7 +419,7 @@ const fetchGitHubReleaseDigest = async (source: Source, since: Date): Promise<En
     if (liItems.length === 0) continue;
 
     const numbered = liItems.map((item, i) => `${i + 1}. ${item}`).join("\n");
-    const geminiRes = await ai.models.generateContent({
+    const geminiRes = await generateContentWithRetry({
       model: "gemini-2.5-flash",
       config: {
         thinkingConfig: { thinkingBudget: 0 },
@@ -679,7 +702,7 @@ const fetchGitHubTrendingDigest = async (source: Source): Promise<Entry> => {
 
   const top10 = repos.slice(0, 10);
   const numbered = top10.map((r, i) => `${i + 1}. ${r.name}：${r.description}`).join("\n");
-  const geminiRes = await ai.models.generateContent({
+  const geminiRes = await generateContentWithRetry({
     model: "gemini-2.5-flash",
     config: { thinkingConfig: { thinkingBudget: 0 } },
     contents: `${GITHUB_TRENDING_PROMPT}\n\n${numbered}`,
@@ -763,7 +786,7 @@ const fetchGitHubCommitDigest = async (source: Source, since: Date): Promise<Ent
       .map((f) => `--- ${f.filename}\n${(f.patch ?? "").slice(0, 500)}`)
       .join("\n\n");
 
-    const geminiRes = await ai.models.generateContent({
+    const geminiRes = await generateContentWithRetry({
       model: "gemini-2.5-flash",
       config: { thinkingConfig: { thinkingBudget: 0 } },
       contents: `${COMMIT_SUMMARIZE_PROMPT}\n\nコミットメッセージ: ${commit.commit.message.split("\n")[0]}\n\n${patchSummary}`,
@@ -899,8 +922,12 @@ const main = async () => {
   if (summarizeTargets.length > 0) {
     console.log(`Summarizing ${summarizeTargets.length} entries with Gemini...`);
     for (const entry of summarizeTargets) {
-      entry.summary = await summarizeJa(entry.summary);
-      console.log(`  Summarized: ${entry.title.slice(0, 40)}`);
+      try {
+        entry.summary = await summarizeJa(entry.summary);
+        console.log(`  Summarized: ${entry.title.slice(0, 40)}`);
+      } catch (err) {
+        console.error(`  Summarize failed: ${entry.title.slice(0, 40)}`, err);
+      }
     }
   }
 
