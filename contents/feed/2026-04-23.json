@@ -1,0 +1,397 @@
+{
+  "fetchedAt": "2026-04-22T21:40:10.734Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Introducing workspace agents in ChatGPT",
+      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+      "summary": "ChatGPTのWorkspaceエージェントは、複雑な業務ワークフローを自動化し、クラウドで安全に実行する。",
+      "publishedAt": "2026-04-22",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/5VOBXAok5WCGbcXubvIGSn/c6ec67af102f0537ff2a526fca45ff47/OAI_Blog_SEO_16x9.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
+      "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
+      "summary": "Codexエージェントの処理ループにおいて、APIオーバーヘッド削減とモデルの応答速度改善のため、WebSocketとキャッシュを活用。",
+      "publishedAt": "2026-04-22",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/4OePmYEOLzZNcxVLLd9pMH/cc16f505aa589ef72ef3c1c265705727/SEO.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Workspace agents",
+      "url": "https://openai.com/academy/workspace-agents",
+      "summary": "ChatGPTのワークスペースエージェントで反復作業の自動化やツール連携が可能に。",
+      "publishedAt": "2026-04-22",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/3pOt7hjYa1nUIIMMXdoEhD/b6493d0ba6756155a3ef880758e0a0b0/Academy-SEO.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Introducing OpenAI Privacy Filter",
+      "url": "https://openai.com/index/introducing-openai-privacy-filter",
+      "summary": "OpenAIが、個人識別情報（PII）を検出・編集する高精度なモデル「Privacy Filter」を公開。",
+      "publishedAt": "2026-04-22",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/9wR7uKQ9cCyJSZcN9PJCb/c42551ed6a31a9be9ada24fed80a862a/SEO-Introducing-OpenAi-Filter.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.117",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.117",
+      "summary": "- [Added] CLAUDE_CODE_FORK_SUBAGENT=1 を設定することで、外部ビルドでフォークされたサブエージェントが有効になりました。\n- [Added] --agent を介してメインスレッドのエージェントセッションにAgentフロントマターの mcpServers がロードされるようになりました。\n- [Improved] /model: の選択が、プロジェクトが異なるモデルをピン留めしている場合でも再起動後も保持されるようになり、アクティブなモデルがプロジェクトまたはマネージド設定のピンから来ていることを起動ヘッダーに表示するようになりました。\n- [Improved] /resume コマンドが、既存の --resume の動作に合わせて、古い大規模セッションを再読み込みする前に要約を提案するようになりました。\n- [Improved] ローカルと claude.ai の両方の MCP サーバーが構成されている場合の起動が高速化されました（並行接続がデフォルトになりました）。\n- [Fixed] 既にインストールされているプラグインに対する plugin install が、「既にインストールされています」で停止する代わりに、不足している依存関係をインストールするようになりました。\n- [Fixed] プラグインの依存関係エラーがインストールヒントと共に「インストールされていません」と表示されるようになり、claude plugin marketplace add が構成されたマーケットプレイスから不足している依存関係を自動解決するようになりました。\n- [Changed] マネージド設定の blockedMarketplaces および strictKnownMarketplaces が、プラグインのインストール、更新、リフレッシュ、および自動更新で適用されるようになりました。\n- [Improved] Advisor Tool（実験的）：有効時にダイアログに「実験的」ラベル、詳細情報へのリンク、および起動通知が表示されるようになりました。セッションがプロンプトおよび /compact ごとに「Advisor tool result content could not be processed」エラーでスタックしなくなりました。\n- [Added] cleanupPeriodDays の保持スイープが、~/.claude/tasks/、~/.claude/shell-snapshots/、および ~/.claude/backups/ も対象とするようになりました。\n- [Added] OpenTelemetry: スラッシュコマンドの場合、user_prompt イベントに command_name と command_source が含まれるようになりました。モデルがエフォートレベルをサポートしている場合、cost.usage、token.usage、api_request、および api_error に effort 属性が含まれるようになりました。OTEL_LOG_TOOL_DETAILS=1 が設定されていない限り、カスタム/MCP コマンド名は編集されます。\n- [Improved] macOS および Linux のネイティブビルドでは、Glob および Grep ツールが Bash ツールを通じて利用可能な組み込みの bfs および ugrep に置き換えられ、個別のツールラウンドトリップなしで高速な検索が可能になりました（Windows および npm インストールビルドは変更なし）。\n- [Improved] Windows: プロセスごとの where.exe 実行可能ファイルのキャッシュされたルックアップにより、サブプロセス起動が高速化されました。\n- [Changed] Opus 4.6 および Sonnet 4.6 の Pro/Max サブスクライバーのデフォルトのエフォートが high になりました（以前は medium）。\n- [Fixed] Plain-CLI OAuth セッションが、セッション中にアクセストークンが期限切れになったときに「Please run /login」で終了する問題を修正しました。トークンは 401 でリアクティブに更新されるようになりました。\n- [Fixed] 非常に大きな HTML ページで WebFetch がハングする問題を、HTML から Markdown への変換前に入力を切り詰めることで修正しました。\n- [Fixed] プロキシが HTTP 204 No Content を返したときのクラッシュを修正しました。TypeError の代わりに明確なエラーが表示されるようになりました。\n- [Fixed] CLAUDE_CODE_OAUTH_TOKEN 環境変数で起動され、そのトークンが期限切れになったときに /login が効果を発揮しない問題を修正しました。\n- [Fixed] プロンプト入力の元に戻す (Ctrl+_) が、入力直後に何もせず、元に戻すステップごとに状態をスキップする問題を修正しました。\n- [Fixed] Bun で実行しているときに、リモート API リクエストで NO_PROXY が尊重されない問題を修正しました。\n- [Fixed] 低速接続でキー名が結合されたテキストとして到着したときに、まれに発生する誤ったエスケープ/リターンがトリガーされる問題を修正しました。\n- [Fixed] SDK の reload_plugins がすべてのユーザー MCP サーバーを直列に再接続する問題を修正しました。\n- [Fixed] 思考が無効になっている Opus 4.7 によってバックアップされたときに、Bedrock application-inference-profile リクエストが 400 で失敗する問題を修正しました。\n- [Fixed] サーバーがターンの途中で接続を完了したときに、print/SDK モードで MCP elicitation/create リクエストが自動キャンセルされる問題を修正しました。\n- [Fixed] メインエージェントとは異なるモデルを実行しているサブエージェントが、ファイル読み取りを誤ってマルウェア警告としてフラグ付けする問題を修正しました。\n- [Fixed] バックグラウンドタスクが存在する場合のアイドル状態の再レンダリングループを修正し、Linux でのメモリ増加を削減しました。\n- [Fixed] [VSCode] 複数の大規模なマーケットプレイスが構成されている場合に、「プラグインの管理」パネルが壊れる問題を修正しました。\n- [Fixed] Opus 4.7 セッションで /context のパーセンテージが膨張し、早すぎる自動圧縮が行われる問題を修正しました。Claude Code は、Opus 4.7 のネイティブ 1M ではなく 200K のコンテキストウィンドウに対して計算していました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-04-22"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- Macアプリの殿堂入り？！ 「Hall of Shame」アプリを紹介\n  https://www.reddit.com/r/macapps/comments/1s953qk/the_macapps_hall_of_shame/\n- [大規模スレッド] アプリを語ろう - 2026年3月/4月版\n  https://www.reddit.com/r/macapps/comments/1rybab4/megathread_the_app_pile_marchapril_2026/\n- XSpeakが進化：デバイス内でリアルタイム会話をサポート。再生機能なども追加\n  https://www.reddit.com/r/macapps/comments/1sstnmu/xspeak_becomes_better_fully_ondevice_made_to_help/\n- FinderPeek：QuickLookプラグインの決定版\n  https://www.reddit.com/r/macapps/comments/1ssf406/finderpeek_bundle_of_quicklook_plugins/\n- Mac/iOS間で使えるライブ壁紙アプリは存在する？\n  https://www.reddit.com/r/macapps/comments/1ssi7kq/are_there_any_live_wallpaper_apps_that_work/\n- Lattice：軽量で洗練された文献管理ツール\n  https://www.reddit.com/r/macapps/comments/1srqvbu/lattice_a_lightweight_and_elegant_reference/\n- ViewPorts：Macの全ポートをリアルタイムで表示\n  https://www.reddit.com/r/macapps/comments/1sro2tp/viewports_a_live_view_of_every_port_on_your_mac/\n- Tangridが始動：ベータ版ユーザー数百人の声から生まれたmacOS向けウィンドウマネージャー\n  https://www.reddit.com/r/macapps/comments/1srnbvp/tangrid_is_launching_a_native_macos_window/\n- Fluent 1.8 リリース：Spotlight風AIアシスタントに新Action編集UI、プロンプト改善機能、並列アクションなどを追加\n  https://www.reddit.com/r/macapps/comments/1srr0md/fluent_18_spotlightlike_ai_assistant_new_action/\n- Backdrop 2.5リリース：Mac向けライブ壁紙アプリにプレイリスト機能とコミュニティ機能が大幅アップデート\n  https://www.reddit.com/r/macapps/comments/1srj2ug/backdrop_25_is_out_playlists_and_major_community/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-23"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- Redditの subredditに新たな本人確認システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackers subredditの新規ルール — 品質向上を目指して\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- 他のマーケティングアプリとは一線を画す何か\n  https://www.reddit.com/r/indiehackers/comments/1ssewaf/something_different_than_any_other_marketing_apps/\n- Hacker Newsに私の製品を投稿するのを手伝ってくれる方はいませんか？\n  https://www.reddit.com/r/indiehackers/comments/1srn06k/anyone_willing_to_help_post_my_product_on_hacker/\n- conductor.buildをVS Codeとして使うためのアドバイスを求む\n  https://www.reddit.com/r/indiehackers/comments/1src1fj/need_advice_conductorbuild_be_vscode/\n- ClickyがTwitterで拡散されているのを見て、Web版を開発しました\n  https://www.reddit.com/r/indiehackers/comments/1sqrsgv/i_saw_clicky_go_viral_on_twitter_so_i_built_the/\n- スポンサーシップ業界は未だコールドメールと20-30%の手数料を取る仲介業者に牛耳られているが、ついに解決策が生まれた\n  https://www.reddit.com/r/indiehackers/comments/1sqhzvd/the_sponsorship_industry_is_still_run_on_cold/\n- 立ち上げ1週間で月間経常収益17ドル、ユーザー数36人を達成 🎉\n  https://www.reddit.com/r/indiehackers/comments/1spnx02/just_hit_17_mrr_36_users_and_1_week_since_launch/\n- 私の製品のタグライン選定にご協力ください\n  https://www.reddit.com/r/indiehackers/comments/1spxlh2/need_your_help_picking_a_tagline_for_my_product/\n- シンプルな3通のチャーンメールで今四半期に1000ドル以上を節約\n  https://www.reddit.com/r/indiehackers/comments/1snxo82/saved_1k_this_quarter_with_3_simple_churn_emails/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-23"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI、進行中のメガスレッド一覧\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Claude Cowork、ライブ成果物の構築が可能に\n  https://www.reddit.com/r/ClaudeAI/comments/1sr3rgq/claude_cowork_can_now_build_live_artifacts/\n- 注意喚起：Anthropic、組織を警告なしにBAN\n  https://www.reddit.com/r/ClaudeAI/comments/1sspwz2/psa_anthropic_bans_organizations_without_warning/\n- Anthropicへの公開書簡\n  https://www.reddit.com/r/ClaudeAI/comments/1ss8h1x/an_open_letter_to_anthropic/\n- 4.7に切り替えて職場で恥をかいた話\n  https://www.reddit.com/r/ClaudeAI/comments/1ssnuy7/swapped_to_47_and_embarrassed_myself_at_work/\n- 「失われた中間層」：月額50ドルのClaudeプランがないのはなぜか？\n  https://www.reddit.com/r/ClaudeAI/comments/1ssmra2/the_missing_middle_why_is_there_no_50mo_claude/\n- Claude CodeがOpus 4.7のコンテキストウィンドウの80%を無駄にしていた。v2.1.117へのアップグレードを。\n  https://www.reddit.com/r/ClaudeAI/comments/1ssgnfb/claude_code_was_wasting_80_of_opus_47s_context/\n- Sonnet 4.6を楽しむ無料ユーザーの気持ち\n  https://www.reddit.com/r/ClaudeAI/comments/1ssaujs/how_it_feels_to_be_a_free_user_enjoying_sonnet_46/\n- Claudeが会話を終了できるようになる\n  https://www.reddit.com/r/ClaudeAI/comments/1ssgrro/claude_can_end_a_conversation/\n- 注意喚起：Claude Pro、Claude Codeを付属機能として記載せず\n  https://www.reddit.com/r/ClaudeAI/comments/1srzhd7/psa_claude_pro_no_longer_lists_claude_code_as_an/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-23"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1419pt] Framework Laptop 13 Pro | 旧モデルとの互換性を保ちつつ、着実に進化している点が高評価。開発者向けのノートPCとして期待の声多数。\n  https://news.ycombinator.com/item?id=47852177\n- [1123pt] ソフトウェア工学の法則 | 「早すぎる最適化は諸悪の根源」といった既存の法則に対する異論や、新しい法則を提案するコメントが見られる。\n  https://news.ycombinator.com/item?id=47847179\n- [997pt] ChatGPT Images 2.0 | 技術的な進歩を認めつつも、リアルすぎて不気味の谷に入ったという意見や、価格に関する情報交換が活発。\n  https://news.ycombinator.com/item?id=47852835\n- [963pt] アルバータ州のスタートアップが半額でノーテクのトラクターを販売 | 既存のハイテクでロックインされた農業機械への反動として注目されており、シンプルさや修理のしやすさが評価されている。\n  https://news.ycombinator.com/item?id=47865868\n- [820pt] Windows 9x向けSubsystem for Linux | Windows 9xでのLinuxバイナリ実行という前代未聞の試みに、驚きと懐かしさを感じるコメントが多い。\n  https://news.ycombinator.com/item?id=47861270\n- [786pt] SpaceXがCursorを600億ドルで買収することに合意 | 買収の意図や価格設定について様々な憶測が飛び交い、Cursorユーザーからは代替製品を探す声も。\n  https://news.ycombinator.com/item?id=47855293\n- [767pt] Meta、AIトレーニングのため従業員のマウス動作やキー入力を捕捉開始 | 従業員のプライバシー侵害に対する懸念が強く、不信感や批判的な意見が多数寄せられている。\n  https://news.ycombinator.com/item?id=47851948\n- [653pt] AnthropicのProプランからClaude Codeが削除される？ | A/Bテストとの公式発表に対し、開発者コミュニティからの反発が大きく、信頼失墜を懸念する声が多い。\n  https://news.ycombinator.com/item?id=47854477\n- [577pt] 自宅でRAMを作る [動画] | 自宅でRAMを自作するという驚異的な内容に対し、技術的な疑問やユーモラスなコメントが寄せられている。\n  https://news.ycombinator.com/item?id=47842569\n- [544pt] Qwen3.6-27B：27Bの密集モデルでフラッグシップレベルのコーディング | ローカルモデルの性能向上に期待が高まっており、特に個人利用での実用性やクラウドモデルとの比較に注目が集まっている。\n  https://news.ycombinator.com/item?id=47863217",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-04-23"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "10 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- SpaceX、20億ドル調達前に600億ドル買収を提示か\n  https://techcrunch.com/2026/04/22/how-spacex-preempted-a-2b-fundraise-with-a-60b-buyout-offer/\n- Startup Battlefield出場者の現在地：彼らは今どこで活躍しているのか\n  https://techcrunch.com/2026/04/22/from-the-stage-to-the-future-where-are-startup-battlefields-alumni-now/\n- Google Cloud、Nvidiaに対抗する2つの新AIチップを発表\n  https://techcrunch.com/2026/04/22/google-cloud-next-new-tpu-ai-chips-compete-with-nvidia/\n- Google、Chromeを職場のAI共同作業者に変貌させる\n  https://techcrunch.com/2026/04/22/google-turns-chrome-into-an-ai-coworker-for-the-workplace/\n- 核融合はSFではない？ 50億ドルを投じた投資家たちの読み解き\n  https://techcrunch.com/video/fusion-power-may-not-be-sci-fi-just-ask-the-people-who-sunk-5b-into-it/\n- Google、企業向けエージェント構築ツールで興味深い選択\n  https://techcrunch.com/2026/04/22/google-makes-an-interesting-choice-with-its-new-agent-building-tool-for-enterprises/\n- AI Overviewsが職場のGmailに登場へ\n  https://techcrunch.com/2026/04/22/ai-overviews-are-coming-to-your-gmail-at-work/\n- Cathie Wood氏率いるARK、初のリード投資先はAIではないLucra\n  https://techcrunch.com/2026/04/22/cathie-woods-ark-makes-its-first-lead-investment-in-startup-lucra-and-it-isnt-ai/\n- OpenAI、Infosysと提携しAIツールをより多くの企業へ展開\n  https://techcrunch.com/2026/04/22/openai-teams-up-with-infosys-to-bring-ai-tools-to-more-businesses/\n- Esther WojcickiとAnne Wojcickiが新たなヘルスケアアクセラレーターとファンドを支援\n  https://techcrunch.com/2026/04/22/esther-and-anne-wojcicki-back-new-healthcare-accelerator-fund/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-04-23"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "Is Claude Code going to cost $100/month? Probably not - it's all very confusing",
+      "url": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-entries",
+      "summary": "AnthropicがClaude Codeの料金をサイレントに引き上げたが、混乱を招いたため数時間で元に戻した。",
+      "publishedAt": "2026-04-22",
+      "ogImage": "https://static.simonwillison.net/static/2026/anthropic-x-card.jpg"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Seeknal：パイプラインと自然言語クエリに対応するデータ＆AI/ML CLI\n  https://www.producthunt.com/products/seeknal\n- Trail：閲覧履歴を可視化し、個人的なローカル知識グラフを構築\n  https://www.producthunt.com/products/trail-visualize-your-chrome-browsing\n- AdsAgent：ClaudeがGoogle広告を運用 – 修正・測定・改善を自動化\n  https://www.producthunt.com/products/adsagent-google-ads-claude-connector\n- Cavalry Studio：Canvaによる無料のモーションデザインツール\n  https://www.producthunt.com/products/cavalry-2\n- kimiflare：Cloudflare Workers AIでホストされるkimi k2.6 CLIコードエディター\n  https://www.producthunt.com/products/kimiflare\n- Instant Highlights V2 by Heygen：長い動画を数秒でバイラルクリップに変換\n  https://www.producthunt.com/products/heygen\n- Portt：あなたの写真をあらゆる時代、あらゆる場所に変身\n  https://www.producthunt.com/products/portt-time-travel-for-ios\n- Iris Studio：AI＆ビデオクリエイターのためのスイスアーミーナイフ\n  https://www.producthunt.com/products/iris-studio\n- Wrangle：CLAUDE.mdを理解するマークダウンエディター\n  https://www.producthunt.com/products/wrangle-4\n- Kyohansha：Lite-RAG長期記憶を備えたWebベースの60FPS Live2D AI\n  https://www.producthunt.com/products/kyohansha",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-04-23"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "1 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Revnu、アプリ以外をすべて提供する新サービスを発表\n  https://revnu.app/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-04-23"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Shopify’s AI Phase Transition: 2026 Usage Explosion, Unlimited Opus-4.6 Token Budget, Tangle, Tangent, SimGym — with Mikhail Parakhin, Shopify CTO",
+      "url": "https://www.latent.space/p/shopify",
+      "summary": "Shopifyは、AIツールの社内採用率が90%に達し、PRレビューの自動化、MLワークフローエンジン「Tangle」、自動リサーチツール「Tangent」、顧客行動シミュレーション「SimGym」などを開発し、AIによる開発効率向上と事業成長を推進している。",
+      "publishedAt": "2026-04-23",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!-DGe!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F195067855%2Fe4de4e55-8d06-4d71-a0a0-b1a18475d438%2Ftranscoded-1776885937.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] OpenAI launches GPT-Image-2",
+      "url": "https://www.latent.space/p/ainews-openai-launches-gpt-image",
+      "summary": "OpenAIが画像生成モデル「GPT-Image-2」を公開し、Hugging Faceは研究ループを自動化するオープンソースエージェント「ml-intern」を発表、Googleは設定可能なAPIとして「Deep Research」を強化、Moonshotは長期間のコーディングタスクを自律的にこなす「Kimi K2.6」と、そのパフォーマンスを向上させる「FlashKDA」カーネルをリリースしました。",
+      "publishedAt": "2026-04-22",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!Y-b3!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd187fe49-1184-477d-84b8-cbe7d502356e_2188x1604.png"
+    },
+    {
+      "sourceName": "Agentic Engineering",
+      "title": "1 Updates",
+      "url": "https://github.com/software-mansion/agentic-engineering",
+      "summary": "- 「Automating mobile app QA」セクションにArgentへの外部リンクを追加\n  https://github.com/software-mansion/agentic-engineering/commit/6f20c717dc0e82797a2f950b6173af351589a695",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-04-23"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "33 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-04-23",
+      "docsUpdates": [
+        {
+          "tag": "Added",
+          "file": "auto-mode-config.md",
+          "text": "Claude Codeの自動モード設定に関する新しいドキュメントが追加され、組織が信頼するリポジトリ、バケット、ドメインを設定する方法、環境コンテキストのオーバーライド、CLIサブコマンドでの設定検査について説明されています。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a485d469074c0dfd2b2449011647b0360add8625"
+        },
+        {
+          "tag": "Improved",
+          "file": "claude-directory.md",
+          "text": "`cleanupPeriodDays`設定に基づいて自動的にクリーンアップされるファイルパスの説明が更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a485d469074c0dfd2b2449011647b0360add8625"
+        },
+        {
+          "tag": "Fixed",
+          "file": "commands.md",
+          "text": "`/mobile`コマンドのエイリアスに関する記載が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a485d469074c0dfd2b2449011647b0360add8625"
+        },
+        {
+          "tag": "Added",
+          "file": "common-workflows.md",
+          "text": "古いセッションを再開する際に、使用量制限を考慮して要約から再開するオプションが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a485d469074c0dfd2b2449011647b0360add8625"
+        },
+        {
+          "tag": "Fixed",
+          "file": "desktop.md",
+          "text": "`disableAutoMode`設定の許容値が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a485d469074c0dfd2b2449011647b0360add8625"
+        },
+        {
+          "tag": "Improved",
+          "file": "errors.md",
+          "text": "プロンプトが長すぎる場合のエラー対処法として、`CLAUDE.md`ファイルをパススコープのルールに移動する選択肢が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a485d469074c0dfd2b2449011647b0360add8625"
+        },
+        {
+          "tag": "Improved",
+          "file": "google-vertex-ai.md",
+          "text": "Google Vertex AIでマルチリージョンエンドポイントがサポートされ、`CLOUD_ML_REGION`設定で`global`、`eu`、`us`、または特定のリージョンを指定できるようになったことが説明されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a485d469074c0dfd2b2449011647b0360add8625"
+        },
+        {
+          "tag": "Fixed",
+          "file": "interactive-mode.md",
+          "text": "音声入力のショートカットと説明が更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a485d469074c0dfd2b2449011647b0360add8625"
+        },
+        {
+          "tag": "Improved",
+          "file": "keybindings.md",
+          "text": "`voice:pushToTalk`アクションの説明が、`/voice`モードに応じてホールドまたはタップでプロンプトをディクテーションできるようになったことを反映して更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a485d469074c0dfd2b2449011647b0360add8625"
+        },
+        {
+          "tag": "Changed",
+          "file": "mcp.md",
+          "text": "GitHub MCPサーバーへの接続方法が変更され、認証にGitHubパーソナルアクセストークンをヘッダーとして渡す必要があることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a485d469074c0dfd2b2449011647b0360add8625"
+        },
+        {
+          "tag": "Improved",
+          "file": "memory.md",
+          "text": "大規模な`CLAUDE.md`ファイルを分割する際に、インポートだけでなくパススコープのルールも利用できることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a485d469074c0dfd2b2449011647b0360add8625"
+        },
+        {
+          "tag": "Improved",
+          "file": "model-config.md",
+          "text": "`/model`コマンドで選択したモデルがユーザー設定に保存され、プロジェクトの`.claude/settings.json`に異なるモデルがピン留めされている場合は`.claude/settings.local.json`に書き込まれるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a485d469074c0dfd2b2449011647b0360add8625"
+        },
+        {
+          "tag": "Improved",
+          "file": "monitoring-usage.md",
+          "text": "OpenTelemetryのログエクスポート間隔に関する説明が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a485d469074c0dfd2b2449011647b0360add8625"
+        },
+        {
+          "tag": "Changed",
+          "file": "permission-modes.md",
+          "text": "自動モードの分類器の設定に関するドキュメントリンクが新しい`auto-mode-config`ページに更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a485d469074c0dfd2b2449011647b0360add8625"
+        },
+        {
+          "tag": "Changed",
+          "file": "permissions.md",
+          "text": "自動モードの分類器の設定に関するセクションが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a485d469074c0dfd2b2449011647b0360add8625"
+        },
+        {
+          "tag": "Improved",
+          "file": "plugin-dependencies.md",
+          "text": "プラグインの依存関係が不足している場合、`/reload-plugins`とバックグラウンドでの自動更新機能によって自動的にインストールされるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a485d469074c0dfd2b2449011647b0360add8625"
+        },
+        {
+          "tag": "Improved",
+          "file": "plugin-marketplaces.md",
+          "text": "マーケットプレイスの制限チェックが、マーケットプレイスの追加時、およびプラグインのインストール、更新、リフレッシュ、自動更新時に実行されるようになったことが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a485d469074c0dfd2b2449011647b0360add8625"
+        },
+        {
+          "tag": "Improved",
+          "file": "remote-control.md",
+          "text": "Remote Controlが「研究プレビュー中」であることが追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a485d469074c0dfd2b2449011647b0360add8625"
+        },
+        {
+          "tag": "Changed",
+          "file": "server-managed-settings.md",
+          "text": "サーバー管理設定における自動モードの分類器の設定に関するドキュメントリンクが新しい`auto-mode-config`ページに更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a485d469074c0dfd2b2449011647b0360add8625"
+        },
+        {
+          "tag": "Improved",
+          "file": "settings.md",
+          "text": "`apiKeyHelper`設定の説明が更新され、生成された認証値が`X-Api-Key`と`Authorization: Bearer`ヘッダーの両方に送信されることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a485d469074c0dfd2b2449011647b0360add8625"
+        },
+        {
+          "tag": "Improved",
+          "file": "sub-agents.md",
+          "text": "サブエージェントに関するドキュメントの概要が、組み込みサブエージェント、カスタムサブエージェントの作成、設定オプション、パターン、例を含むように更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a485d469074c0dfd2b2449011647b0360add8625"
+        },
+        {
+          "tag": "Improved",
+          "file": "voice-dictation.md",
+          "text": "音声ディクテーション機能がホールドトゥレコードとタップトゥレコードの両方をサポートし、`/voice`コマンドで有効にできるようになったことが説明されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a485d469074c0dfd2b2449011647b0360add8625"
+        },
+        {
+          "tag": "Changed",
+          "file": "vs-code.md",
+          "text": "VS CodeでのMCPサーバーの追加方法が更新され、GitHub MCPサーバーにパーソナルアクセストークンをヘッダーとして渡す具体的な例が示されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a485d469074c0dfd2b2449011647b0360add8625"
+        },
+        {
+          "tag": "Added",
+          "file": "debug-your-config.md",
+          "text": "設定のデバッグに関する新しいドキュメント『Debug your configuration』が追加され、CLAUDE.md、設定、フック、MCPサーバー、またはスキルが有効にならない理由を診断する方法が説明されています。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/45fc123d57f730f9475c66ff0ef1adbcd87c6287"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-directory.md",
+          "text": "設定のトラブルシューティングに関するセクションが『Debug your configuration』ドキュメントに移行されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/45fc123d57f730f9475c66ff0ef1adbcd87c6287"
+        },
+        {
+          "tag": "Improved",
+          "file": "hooks.md",
+          "text": "フックのトラブルシューティングの参照先に、より広範な診断ガイドである『Debug your configuration』ドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/45fc123d57f730f9475c66ff0ef1adbcd87c6287"
+        },
+        {
+          "tag": "Improved",
+          "file": "memory.md",
+          "text": "関連リソースとして『Debug your configuration』ドキュメントへのリンクが追加され、CLAUDE.mdや設定が有効にならない場合の診断に役立ちます。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/45fc123d57f730f9475c66ff0ef1adbcd87c6287"
+        },
+        {
+          "tag": "Improved",
+          "file": "settings.md",
+          "text": "設定のトラブルシューティングの参照先に、『Debug your configuration』ドキュメントが追加され、設定、フック、またはMCPサーバーが有効にならない場合の診断に役立ちます。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/45fc123d57f730f9475c66ff0ef1adbcd87c6287"
+        },
+        {
+          "tag": "Improved",
+          "file": "skills.md",
+          "text": "関連リソースとして『Debug your configuration』ドキュメントへのリンクが追加され、スキルが表示されない、またはトリガーされない場合の診断に役立ちます。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/45fc123d57f730f9475c66ff0ef1adbcd87c6287"
+        },
+        {
+          "tag": "Changed",
+          "file": "data-usage.md",
+          "text": "デフォルトの動作において、WebFetchドメインセーフティチェックがBedrock、Vertex、Foundryの各APIプロバイダーを使用している場合でも実行されるように変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/07ae4ed1c288a8f1856e187e2ff4e71121a08e20"
+        },
+        {
+          "tag": "Changed",
+          "file": "interactive-mode.md",
+          "text": "セッションの自動要約機能において、環境変数`CLAUDE_CODE_ENABLE_AWAY_SUMMARY`による設定変更が不可能になり、`config`ファイルの設定のみが有効となるように変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/07ae4ed1c288a8f1856e187e2ff4e71121a08e20"
+        },
+        {
+          "tag": "Improved",
+          "file": "network-config.md",
+          "text": "Bedrock、Vertex AI、Foundryを使用する際のモデルトラフィックの宛先と、WebFetchツールがドメインセーフティチェックのために`api.anthropic.com`を呼び出す場合の例外設定が追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/07ae4ed1c288a8f1856e187e2ff4e71121a08e20"
+        },
+        {
+          "tag": "Changed",
+          "file": "admin-setup.md",
+          "text": "組織向けClaude Codeのセットアップに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/07ae4ed1c288a8f1856e187e2ff4e71121a08e20"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__session-storage.md",
+          "text": "セッションを外部ストレージに永続化する方法に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/07ae4ed1c288a8f1856e187e2ff4e71121a08e20"
+        },
+        {
+          "tag": "Changed",
+          "file": "overview.md",
+          "text": "概要ページのインストールコンフィギュレータの実験フラグの設定が簡素化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/07ae4ed1c288a8f1856e187e2ff4e71121a08e20"
+        },
+        {
+          "tag": "Improved",
+          "file": "permissions.md",
+          "text": "Auto modeの分類器の設定に関する説明が簡潔になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/07ae4ed1c288a8f1856e187e2ff4e71121a08e20"
+        },
+        {
+          "tag": "Improved",
+          "file": "plugins-reference.md",
+          "text": "プラグインの`userConfig`フィールドにおけるAPIエンドポイントとAPIトークンの設定に`type`と`title`プロパティが追加され、より詳細な情報が提供されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/07ae4ed1c288a8f1856e187e2ff4e71121a08e20"
+        },
+        {
+          "tag": "Changed",
+          "file": "quickstart.md",
+          "text": "クイックスタートガイドからExperimentコンポーネントに関する記述が削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/07ae4ed1c288a8f1856e187e2ff4e71121a08e20"
+        },
+        {
+          "tag": "Added",
+          "file": "settings.md",
+          "text": "`respectGitignore`設定項目に、`.gitignore`パターンが尊重されない場合にファイルピッカーが提案からファイルを除外するかどうかを制御する機能が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/07ae4ed1c288a8f1856e187e2ff4e71121a08e20"
+        },
+        {
+          "tag": "Improved",
+          "file": "skills.md",
+          "text": "スキルの`argument-hint`フィールドの説明がより明確になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/07ae4ed1c288a8f1856e187e2ff4e71121a08e20"
+        },
+        {
+          "tag": "Fixed",
+          "file": "sub-agents.md",
+          "text": "`disable-model-invocation: true`が設定されたスキルは、Claudeが呼び出すスキルセットから除外されるため、サブエージェントにプリロードできないという制約が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/07ae4ed1c288a8f1856e187e2ff4e71121a08e20"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "2 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- VS Codeで「Bring your own language model」キーが利用可能に\n  https://github.blog/changelog/2026-04-22-bring-your-own-language-model-key-in-vs-code-now-available\n- GitHub Copilot CLI、C++コード補完機能をパブリックプレビューで提供開始\n  https://github.blog/changelog/2026-04-22-c-code-intelligence-for-github-copilot-cli-in-public-preview",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-04-23"
+    }
+  ]
+}
