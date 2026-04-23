@@ -1,0 +1,189 @@
+{
+  "fetchedAt": "2026-04-23T21:35:09.582Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "GPT-5.5 System Card",
+      "url": "https://openai.com/index/gpt-5-5-system-card",
+      "summary": "OpenAIが、複雑な実務に対応する新モデル「GPT-5.5」を発表し、サイバーセキュリティや生物学における安全性評価も実施済み。",
+      "publishedAt": "2026-04-23",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/4qBEDs71GX4NIuRrjXfZpA/8e5c587702a354616d4d99b1489a49b1/System_Card_Card_SEO_16x9.jpg?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Introducing GPT-5.5",
+      "url": "https://openai.com/index/introducing-gpt-5-5",
+      "summary": "GPT-5.5を発表、より高性能で複雑なタスクに対応するスマートなモデル。",
+      "publishedAt": "2026-04-23",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/2Bh47W4cA48dvG5FbDtNQH/5897109fb0de6fc3125c0c35c4f60001/Hero_Art_Card_16x9.jpg?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "What is Codex?",
+      "url": "https://openai.com/academy/what-is-codex",
+      "summary": "Codexが、タスク自動化やツール連携により、ドキュメントやダッシュボード作成等の実用的な出力を支援。",
+      "publishedAt": "2026-04-23",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/7v5h6Z00V6Tt9XQW2AVW62/4ec32f6ad895b9fb038c46ab27b10067/Academy-SEO.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Automations",
+      "url": "https://openai.com/academy/codex-automations",
+      "summary": "Codexでスケジュールとトリガーを活用し、レポート作成やワークフローを自動化する方法を学ぶ。",
+      "publishedAt": "2026-04-23",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/7v5h6Z00V6Tt9XQW2AVW62/4ec32f6ad895b9fb038c46ab27b10067/Academy-SEO.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Plugins and skills",
+      "url": "https://openai.com/academy/codex-plugins-and-skills",
+      "summary": "Codexプラグインとスキルを使って、ツール連携やデータ活用でタスク自動化・結果改善する方法を解説。",
+      "publishedAt": "2026-04-23",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/7v5h6Z00V6Tt9XQW2AVW62/4ec32f6ad895b9fb038c46ab27b10067/Academy-SEO.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Working with Codex",
+      "url": "https://openai.com/academy/working-with-codex",
+      "summary": "Codexワークスペースのセットアップ方法やファイル管理について、ステップバイステップで解説。",
+      "publishedAt": "2026-04-23",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/7v5h6Z00V6Tt9XQW2AVW62/4ec32f6ad895b9fb038c46ab27b10067/Academy-SEO.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "How to get started with Codex",
+      "url": "https://openai.com/academy/codex-how-to-start",
+      "summary": "Codexのプロジェクト設定から最初のタスク完了までを、段階的に解説する入門ガイド。",
+      "publishedAt": "2026-04-23",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/7v5h6Z00V6Tt9XQW2AVW62/4ec32f6ad895b9fb038c46ab27b10067/Academy-SEO.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Codex settings",
+      "url": "https://openai.com/academy/codex-settings",
+      "summary": "Codexの設定（パーソナライズ、詳細レベル、権限など）をカスタマイズしてタスクをスムーズに実行する方法。",
+      "publishedAt": "2026-04-23",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/7v5h6Z00V6Tt9XQW2AVW62/4ec32f6ad895b9fb038c46ab27b10067/Academy-SEO.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Top 10 uses for Codex at work",
+      "url": "https://openai.com/academy/top-10-use-cases-codex-for-work",
+      "summary": "Codexの10の活用事例を紹介し、様々なタスクやツールでの自動化と成果物作成を支援。",
+      "publishedAt": "2026-04-23",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/7v5h6Z00V6Tt9XQW2AVW62/4ec32f6ad895b9fb038c46ab27b10067/Academy-SEO.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
+      "summary": "GPT-5.5 Bioのバグバウンティプログラムを開始、生物学的安全性リスクに対するユニバーサルなジェイルブレイクを探求し、最大25,000ドルの報酬を提供。",
+      "publishedAt": "2026-04-23",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/3dibW4TSEOQpjByxBjnpr2/8cefbfd6ae3b56e540fbd8e54fabbc64/Frame__16_.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.118",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.118",
+      "summary": "- [Added] vim visual mode (v) と visual-line mode (V) を追加しました。これには、選択、オペレーター、および視覚的なフィードバックが含まれます。\n- [Changed] /cost と /stats を /usage に統合しました。これらは、関連するタブを開くショートカットとして引き続き利用できます。\n- [Added] /theme から名前付きカスタムテーマを作成および切り替えたり、~/.claude/themes/ のJSONファイルを直接編集したりできるようになりました。また、プラグインは themes/ ディレクトリを介してテーマを提供できます。\n- [Added] Hooksが type: \"mcp_tool\" を介してMCPツールを直接呼び出せるようになりました。\n- [Added] DISABLE_UPDATES 環境変数を追加しました。これにより、手動の claude update を含むすべての更新パスを完全にブロックし、DISABLE_AUTOUPDATER よりも厳格になりました。\n- [Added] Windows上のWSLが、wslInheritsWindowsSettings ポリシーキーを介してWindows側の管理設定を継承できるようになりました。\n- [Improved] Auto modeで、\"$defaults\" を autoMode.allow、autoMode.soft_deny、または autoMode.environment に含めることで、組み込みリストを置き換えるのではなく、カスタムルールを追加できるようになりました。\n- [Added] Auto modeのオプトインプロンプトに「今後表示しない」オプションを追加しました。\n- [Added] claude plugin tag を追加し、バージョン検証付きのプラグインのリリースgitタグを作成できるようになりました。\n- [Improved] --continue/--resume が、現在のディレクトリを /add-dir 経由で追加したセッションを見つけられるようになりました。\n- [Improved] /color が、Remote Control接続時にセッションのアクセントカラーを claude.ai/code と同期するようになりました。\n- [Improved] /model ピッカーが、カスタムの ANTHROPIC_BASE_URL ゲートウェイを使用している場合に ANTHROPIC_DEFAULT_*_MODEL_NAME/_DESCRIPTION のオーバーライドを尊重するようになりました。\n- [Improved] 他のプラグインのバージョン制約により自動更新がプラグインをスキップした場合、そのスキップが /doctor と /plugin Errors タブに表示されるようになりました。\n- [Fixed] /mcp メニューが、headersHelper で設定されたサーバーのOAuth Authenticate/Re-authenticateアクションを隠したり、カスタムヘッダーを持つHTTP/SSE MCPサーバーが一時的な401後に「認証が必要です」のままになる問題を修正しました。\n- [Fixed] OAuthトークン応答で expires_in が省略されているMCPサーバーが、1時間ごとに再認証を必要とする問題を修正しました。\n- [Fixed] MCPのステップアップ認証が、サーバーの insufficient_scope 403 が現在のトークンがすでに持っているスコープを名指しした場合に、再同意を促さずにサイレントに更新される問題を修正しました。\n- [Fixed] MCPサーバーのOAuthフローがタイムアウトまたはキャンセルされた場合に、未処理のpromise拒否が発生する問題を修正しました。\n- [Fixed] 競合状態において、MCP OAuthの更新がプロセス間ロックなしで進行する問題を修正しました。\n- [Fixed] macOSキーチェーンの競合状態により、同時に行われたMCPトークン更新が新たに更新されたOAuthトークンを上書きし、「/loginを実行してください」という予期せぬプロンプトが表示される問題を修正しました。\n- [Fixed] サーバーがローカルの有効期限前にトークンを失効させた場合に、OAuthトークンの更新が失敗する問題を修正しました。\n- [Fixed] Linux/Windowsでの認証情報保存クラッシュが ~/.claude/.credentials.json を破損する問題を修正しました。\n- [Fixed] CLAUDE_CODE_OAUTH_TOKEN で起動されたセッションで /login が効果を発揮しない問題を修正しました。環境変数トークンがクリアされ、ディスク認証情報が有効になるようになりました。\n- [Fixed] 「新しいメッセージ」スクロールピルと /plugin バッジのテキストが読みにくい問題を修正しました。\n- [Fixed] --dangerously-skip-permissions で実行している場合、プラン承諾ダイアログが「bypass permissions」ではなく「auto mode」を提供する問題を修正しました。\n- [Fixed] agent-typeフックが、StopまたはSubagentStop以外のイベントに設定されている場合に「Messages are required for agent hooks」で失敗する問題を修正しました。\n- [Fixed] エージェントフック検証用サブエージェントが行ったツール呼び出しでプロンプトフックが再発火する問題を修正しました。\n- [Fixed] /fork が、フォークごとに親の会話全体をディスクに書き込む問題を修正しました。現在はポインタを書き込み、読み込み時にハイドレートします。\n- [Fixed] Alt+K / Alt+X / Alt+^ / Alt+_ でキーボード入力がフリーズする問題を修正しました。\n- [Fixed] リモートセッションへの接続時に、ローカルのモデル設定が ~/.claude/settings.json で上書きされる問題を修正しました。\n- [Fixed] ファイルパスをペーストする際に、タイプアヘッドが「No commands match」エラーを表示する問題を修正しました。\n- [Fixed] 既にインストールされているプラグインへのプラグインインストールで、誤ったバージョンでインストールされた依存関係が再解決されない問題を修正しました。\n- [Fixed] 無効なパスまたはfd枯渇によるファイルウォッチャーからの未処理エラーを修正しました。\n- [Fixed] JWT更新中の一時的なCCR初期化エラーでRemote Controlセッションがアーカイブされる問題を修正しました。\n- [Fixed] SendMessage 経由で再開されたサブエージェントが、それらが生成された明示的なcwdを復元しない問題を修正しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-04-23"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- AIがApp Storeに大量のアプリを投入 – その実態とは\n  https://www.reddit.com/r/macapps/comments/1stlrui/ai_is_flooding_the_app_store_with_new_apps_and_it/\n- 【総まとめ】アプリ情報 – 2026年3月/4月\n  https://www.reddit.com/r/macapps/comments/1rybab4/megathread_the_app_pile_marchapril_2026/\n- Mac版 Poolsuite FM – 究極のサマーミュージックプレイヤー（完全無料、登録不要）\n  https://www.reddit.com/r/macapps/comments/1stjj8t/poolsuite_fm_for_mac_the_ultrasummer_music_player/\n- r/MacAppsのネガティブな意見について\n  https://www.reddit.com/r/macapps/comments/1sth67g/thoughts_on_rmacapps_negativity/\n- 無料代替アプリを探すことさえしなかった4つのアプリ\n  https://www.reddit.com/r/macapps/comments/1std212/four_apps_where_i_didnt_even_check_if_there_was_a/\n- macOSの複数の動画プレイヤーで色精度をテストしてみた\n  https://www.reddit.com/r/macapps/comments/1stnktc/i_tested_color_accuracy_across_several_macos/\n- アンインストールしないアプリ集 パート7\n  https://www.reddit.com/r/macapps/comments/1stkojz/apps_i_am_not_uninstalling_part_7/\n- 1時間で1000ダウンロード達成？！\n  https://www.reddit.com/r/macapps/comments/1stlngw/1000_downloads_in_1_hour/\n- macOS向けネイティブTwitchアプリ「Kulve」を開発、現在TestFlightで公開中\n  https://www.reddit.com/r/macapps/comments/1st232v/i_made_a_fully_native_twitch_app_for_macos_called/\n- 商用利用可能な無料の動画編集ソフトはありますか？\n  https://www.reddit.com/r/macapps/comments/1stjew0/are_there_any_free_video_editors_for_commercial/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-24"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- 新しい人間認証システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackers subredditの新規ルール — 品質向上を目指して\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- あなたのスタートアップが次のAI企業の機能に取って代わられるリスクにどう対処しますか？\n  https://www.reddit.com/r/indiehackers/comments/1std3x4/how_do_you_deal_with_the_risk_your_startup_can_be/\n- すべてのビルダーにチャンスを\n  https://www.reddit.com/r/indiehackers/comments/1sti6d6/every_builder_gets_his_chance/\n- 他のどのマーケティングアプリとも違う何か\n  https://www.reddit.com/r/indiehackers/comments/1ssewaf/something_different_than_any_other_marketing_apps/\n- Hacker Newsへの製品投稿を手伝ってくれる方いませんか？\n  https://www.reddit.com/r/indiehackers/comments/1srn06k/anyone_willing_to_help_post_my_product_on_hacker/\n- conductor.buildをVS Codeにするためのアドバイス求む\n  https://www.reddit.com/r/indiehackers/comments/1src1fj/need_advice_conductorbuild_be_vscode/\n- ClickyがTwitterで拡散されているのを見て、ウェブ版を開発しました\n  https://www.reddit.com/r/indiehackers/comments/1sqrsgv/i_saw_clicky_go_viral_on_twitter_so_i_built_the/\n- スポンサーシップ業界は未だコールドメールと20-30%の手数料を取る仲介業者頼み — ついに解決策が登場\n  https://www.reddit.com/r/indiehackers/comments/1sqhzvd/the_sponsorship_industry_is_still_run_on_cold/\n- リリース1週間でMRR 17ドル、ユーザー数36人を達成 🎉\n  https://www.reddit.com/r/indiehackers/comments/1spnx02/just_hit_17_mrr_36_users_and_1_week_since_launch/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-24"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI、進行中のメガスレッド一覧\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Claudeのコード品質問題に関する事後分析\n  https://www.reddit.com/r/ClaudeAI/comments/1stq98j/postmortem_on_recent_claude_code_quality_issues/\n- Claude、全ユーザーの利用制限をリセット\n  https://www.reddit.com/r/ClaudeAI/comments/1stozsr/claude_reset_limits_for_everyone/\n- この「CLAUDE.md」ファイル、なぜこんなに人気なの？\n  https://www.reddit.com/r/ClaudeAI/comments/1stfoo7/why_does_this_claudemd_file_have_so_many_stars/\n- Claudeのコード作成者、Boris ChernyがClaudeの事後分析レポートを投稿\n  https://www.reddit.com/r/ClaudeAI/comments/1stqjlp/boris_cherny_creator_of_claude_code_posted/\n- 実話に基づいています。私が開発者です\n  https://www.reddit.com/r/ClaudeAI/comments/1st1kj9/based_on_a_true_story_im_the_developer/\n- リマインダー：Opus 4.6は依然として長文コンテキスト検索ベンチマーク（MRCR v2）で最高性能\n  https://www.reddit.com/r/ClaudeAI/comments/1stsa24/reminder_opus_46_is_still_the_best_at_long/\n- Opus 4.7のおかげで、Claude Maxのみだった2ヶ月を経てCodexを再購読した\n  https://www.reddit.com/r/ClaudeAI/comments/1stfc4t/opus_47_made_me_resubscribe_to_codex_after_two/\n- Claude Codeには大きな問題があり、事後分析だけでは不十分\n  https://www.reddit.com/r/ClaudeAI/comments/1strcoa/claude_code_has_big_problems_and_the_postmortem/\n- 私のClaudeが競合を見つけようとしている\n  https://www.reddit.com/r/ClaudeAI/comments/1stnn01/my_claude_trying_to_find_out_who_its_competitors/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-24"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "⚠ Hacker News の取得に失敗しました",
+      "url": "https://hacker-news.firebaseio.com/v0/beststories.json",
+      "summary": "{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+      "ogImage": null,
+      "publishedAt": "2026-04-24"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "7 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Bret Taylor氏率いるSierra、YC支援のAIスタートアップFragmentを買収\n  https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/\n- 絶望的な情報収集を代行するAIボット「Noscroll」が登場\n  https://techcrunch.com/2026/04/23/meet-noscroll-an-ai-bot-that-does-your-doomscrolling-for-you/\n- 「人材採用を止めるな、間違った人材の採用を止めろ」Artisan創設者が語る\n  https://techcrunch.com/2026/04/23/dont-stop-hiring-humans-stop-hiring-the-wrong-humans-artisans-founder-says/\n- OpenAIがGPT-5.5をリリース、AI「スーパーアプリ」実現へ一歩前進\n  https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/\n- Era、AIガジェット向けソフトウェアプラットフォーム構築で1,100万ドルを調達\n  https://techcrunch.com/2026/04/23/era-computer-raises-11m-to-build-a-software-platform-for-ai-gadgets/\n- チケットは今すぐ：2026年最初のStrictlyVCがサンフランシスコで来週開催\n  https://techcrunch.com/2026/04/23/grab-a-ticket-today-the-first-strictlyvc-of-2026-kicks-off-in-just-a-week-in-san-francisco/\n- 問題続きのスタートアップDelveの顧客がまたも大規模なセキュリティインシデントに遭遇\n  https://techcrunch.com/2026/04/23/another-customer-of-troubled-startup-delve-suffered-a-big-security-incident/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-04-24"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
+      "url": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-entries",
+      "summary": "GPT-5.5がCodexの非公式API経由で利用可能になり、既存のChatGPTサブスクリプションでアクセスできるようになった。",
+      "publishedAt": "2026-04-24",
+      "ogImage": "https://static.simonwillison.net/static/2026/gpt-5.5-pelican-xhigh.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- FocuSee 2.0：洗練されたデモとチュートリアルを画面録画で作成\n  https://www.producthunt.com/products/focusee\n- Monid：エージェントが必要とする有料ツールを一つにまとめたウォレット\n  https://www.producthunt.com/products/monid\n- Reloop Animation Studio：どんな動画アイデアもPixar、クレイ、漫画風に変換\n  https://www.producthunt.com/products/reloop\n- Design.MD：AIコーディングエージェントが読み込めるデザインシステム\n  https://www.producthunt.com/products/figma-for-ai-agents\n- Ikes: Idea Notes：アイデアを捕捉し、素早く見つけ出す\n  https://www.producthunt.com/products/ikes\n- Blink AI CFO：Slackで株やオプションを自律的に取引するAI CFO\n  https://www.producthunt.com/products/blink-21\n- Gemini Enterprise Agent Platform：Googleが提供するエンタープライズ向けAIエージェント実行プラットフォーム\n  https://www.producthunt.com/products/google\n- Typewise AI Customer Service：システム横断で顧客サポートをAIエージェントで自動化\n  https://www.producthunt.com/products/typewise\n- PopTask v2.0：思考からタスクまで3秒。クリック不要、アプリ切り替え不要\n  https://www.producthunt.com/products/poptask\n- ASI:One：あなたの代わりに計画・実行する、記憶を持つパーソナルAI\n  https://www.producthunt.com/products/asi",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-04-24"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "1 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Archer、即時決済システムで労働とインセンティブを効率化\n  https://archermoney.com/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-04-24"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "AIE Europe Debrief + Agent Labs Thesis: Unsupervised Learning x Latent Space Crossover Special (2026)",
+      "url": "https://www.latent.space/p/unsupervised-learning-2026",
+      "summary": "AI業界で起きている変化について、AIエンジニアリングの最前線にいる専門家が、モデル、インフラ、AIコーディング戦争など幅広いトピックを議論した。",
+      "publishedAt": "2026-04-24",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!45KJ!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F195264855%2F9555e9f7-7fae-4334-a611-77c682f215d5%2Ftranscoded-1776972950.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Tasteful Tokenmaxxing",
+      "url": "https://www.latent.space/p/ainews-tasteful-tokenmaxxing",
+      "summary": "GoogleはCloud NextでTPUv8を発表し、AlibabaのQwen3.6-27Bなど新しいオープンモデルやOpenAIのプライバシーフィルターも登場、エージェントや推論効率に関する技術も進化している。",
+      "publishedAt": "2026-04-23",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!4_2l!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb2b6f77-150d-4fb4-a74a-259318cba0dd_1698x1172.png"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "⚠ Claude Code Docs の取得に失敗しました",
+      "url": "https://github.com/ericbuess/claude-code-docs/commits/main.atom",
+      "summary": "{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+      "ogImage": null,
+      "publishedAt": "2026-04-24"
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "8 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- Copilot Chat、プルリクエスト関連機能が改善\n  https://github.blog/changelog/2026-04-23-copilot-chat-improvements-for-pull-requests\n- Copilotのクラウドエージェント項目が利用状況指標に追加\n  https://github.blog/changelog/2026-04-23-copilot-cloud-agent-fields-added-to-usage-metrics\n- Web版GitHub Copilotでデバッグ機能が向上\n  https://github.blog/changelog/2026-04-23-better-debugging-with-github-copilot-on-the-web\n- IssuesとProjectsからエージェントセッションを表示・管理\n  https://github.blog/changelog/2026-04-23-view-and-manage-agent-sessions-from-issues-and-projects\n- GitHub Copilot Business、セルフサービスによる新規登録を一時停止\n  https://github.blog/changelog/2026-04-22-pausing-new-self-serve-signups-for-github-copilot-business\n- GitHub Copilot for Jira、最新の機能強化を発表\n  https://github.blog/changelog/2026-04-22-github-copilot-for-jira-our-latest-enhancements\n- Copilot利用状況指標レポートのダウンロードURL変更について\n  https://github.blog/changelog/2026-04-22-upcoming-change-to-copilot-usage-metrics-report-download-urls\n- Copilotのコードレビューユーザー数が利用状況指標APIで集計可能に\n  https://github.blog/changelog/2026-04-22-copilot-code-review-user-counts-now-aggregate-in-usage-metrics-api",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-04-24"
+    }
+  ]
+}
