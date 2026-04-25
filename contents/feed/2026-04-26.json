@@ -1,0 +1,117 @@
+{
+  "fetchedAt": "2026-04-25T21:24:37.358Z",
+  "entries": [
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- AI製アプリがApp Storeにあふれる現状とは\n  https://www.reddit.com/r/macapps/comments/1stlrui/ai_is_flooding_the_app_store_with_new_apps_and_it/\n- 【まとめ】注目のアプリ – 2026年3月/4月\n  https://www.reddit.com/r/macapps/comments/1rybab4/megathread_the_app_pile_marchapril_2026/\n- わずか1MBのMacアプリを開発、7つのツール（Notch Shelf、OCR、クリップボードなど）を統合\n  https://www.reddit.com/r/macapps/comments/1svaxi1/i_built_a_1mb_mac_app_that_replaces_7_tools_notch/\n- 【開発】Wallpaper Engineのシーンをリアルタイムで表示するMacアプリを開発（動画ループではない）\n  https://www.reddit.com/r/macapps/comments/1svh76l/dev_i_built_a_mac_app_that_runs_real_wallpaper/\n- マイク音質をリアルタイムで向上させる無料macOSアプリを開発、新たなハードウェア不要で通話品質アップ\n  https://www.reddit.com/r/macapps/comments/1svo4md/i_built_a_free_macos_app_that_processes_your_mic/\n- WakeMinder V4: 将来のMacへリマインダー、リンク、ファイル、画像を簡単に送信\n  https://www.reddit.com/r/macapps/comments/1sv7f3p/wakeminder_v4_a_simple_way_to_send_reminders/\n- tuplutv(ベータ版)\n  https://www.reddit.com/r/macapps/comments/1svo595/tuplutvbeta/\n- HeliumはMac向けミニマリストブラウザの決定版か？\n  https://www.reddit.com/r/macapps/comments/1svljdl/is_helium_the_best_minimalist_browser_for_mac/\n- 【OS】Neon Vision Editor v0.6.2 リリース – 軽量ビジュアルコードエディタ\n  https://www.reddit.com/r/macapps/comments/1sueils/os_neon_vision_editor_v062_released_lightweight/\n- Create Custom Symbols v2.18 – SVGをXcode向けカスタムSF Symbolに変換（多言語対応）\n  https://www.reddit.com/r/macapps/comments/1sucj0z/create_custom_symbols_v218_convert_any_svg_into_a/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-26"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- Redditに新本人認証システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackers subredditの新しいルール ― 品質向上を目指して\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- フィンランドのソロ開発者、初のインディープロダクトの「近日公開」ページをローンチ\n  https://www.reddit.com/r/indiehackers/comments/1svepwo/solo_developer_from_finland_just_launched_coming/\n- 1枚の写真からリアルタイムAIアバターを構築、最小限のランタイムコストで\n  https://www.reddit.com/r/indiehackers/comments/1sumcbe/i_built_a_realtime_ai_avatar_from_a_single_photo/\n- 花金シェアフィーバー！あなたのプロジェクトをシェアしよう\n  https://www.reddit.com/r/indiehackers/comments/1suaeoq/friday_share_fever_lets_share_your_project/\n- スタートアップが次世代AI企業の機能に置き換わるリスクにどう対処する？\n  https://www.reddit.com/r/indiehackers/comments/1std3x4/how_do_you_deal_with_the_risk_your_startup_can_be/\n- すべてのビルダーにチャンスを\n  https://www.reddit.com/r/indiehackers/comments/1sti6d6/every_builder_gets_his_chance/\n- 他のどのマーケティングアプリとも違うもの\n  https://www.reddit.com/r/indiehackers/comments/1ssewaf/something_different_than_any_other_marketing_apps/\n- 誰か私の製品をHacker Newsに投稿するのを手伝ってくれませんか？\n  https://www.reddit.com/r/indiehackers/comments/1srn06k/anyone_willing_to_help_post_my_product_on_hacker/\n- conductor.buildをVS Codeにするにはアドバイスが必要\n  https://www.reddit.com/r/indiehackers/comments/1src1fj/need_advice_conductorbuild_be_vscode/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-26"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI：進行中のメガ・スレッド一覧\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Claude Codeの品質問題に関する事後分析\n  https://www.reddit.com/r/ClaudeAI/comments/1stq98j/postmortem_on_recent_claude_code_quality_issues/\n- 注意喚起：Gitコミット履歴の「HERMES.md」がClaude Codeの請求を密かに追加利用へと誘導 ― 200ドルを失う羽目に\n  https://www.reddit.com/r/ClaudeAI/comments/1svdm1w/psa_the_string_hermesmd_in_your_git_commit/\n- 私は看護学生、Claude Haikuを使い66万ページに及ぶ医薬品データベースを構築 ― 独学で、片手間に\n  https://www.reddit.com/r/ClaudeAI/comments/1sv7fvc/im_a_nursing_student_who_built_a_660kpage/\n- Claude Codeを半年間毎日使って分かったチートシート\n  https://www.reddit.com/r/ClaudeAI/comments/1sv852q/claude_code_cheat_sheet_after_6_months_of_daily/\n- 旧モデル、コンテキストウィンドウが20万トークンに戻る。ご参考まで\n  https://www.reddit.com/r/ClaudeAI/comments/1svd2ee/older_models_moving_back_to_200k_context_window/\n- 2.1.120から2.1.119へのアップデートに成功\n  https://www.reddit.com/r/ClaudeAI/comments/1sv8rce/successfully_updated_from_21120_to_version_21119/\n- Claude稼働状況：2026年4月25日18:42:40（UTC）にclaude.aiで発生したエラー増加と応答速度低下を調査\n  https://www.reddit.com/r/ClaudeAI/comments/1svk8w7/claude_status_update_investigated_elevated_errors/\n- Claudeが現代のSSD価格に驚愕、笑\n  https://www.reddit.com/r/ClaudeAI/comments/1suvgy1/claude_discovering_modern_ssd_prices_lol/\n- AnthropicがOpus 4.7を救うたった一つの変更\n  https://www.reddit.com/r/ClaudeAI/comments/1sv4qnh/how_anthropic_can_save_opus_47_with_one_change/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-04-26"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [2024pt] DeepSeek v4 | ベンチマークとコーディング性能に関するコメントが多く、ドキュメントの質やデタミニズムに対する高評価の声も。\n  https://news.ycombinator.com/item?id=47884971\n- [930pt] Claudeを解約：トークン問題、品質低下、そして劣悪なサポート | Claudeの品質低下、トークン制限、サポート体制への不満が多数。GenAI製品への依存への懸念も。\n  https://news.ycombinator.com/item?id=47892019\n- [783pt] Google、Anthropicに最大400億ドルを投資計画 | Anthropicの資金調達状況や、主要テック企業によるAIレースへの保険としての役割に注目が集まる。\n  https://news.ycombinator.com/item?id=47892074\n- [678pt] マドゥロ襲撃作戦で40万ドルを稼いだ米特殊部隊兵が逮捕される | 兵士の逮捕に対し、より強力な立場にある人々の汚職が野放しになっていることへの批判が多い。\n  https://news.ycombinator.com/item?id=47882645\n- [505pt] 過度な思考、スコープクリープ、構造的差異によるプロジェクトの妨害 | PhD研究の難しさや、完璧主義に陥らずに小さな改善を積み重ねることの重要性が議論されている。\n  https://news.ycombinator.com/item?id=47890799\n- [500pt] 新しい10GbE USBアダプターはよりクール、小型、安価に | 10GbE速度に関する技術的な議論や、USBバージョンの命名規則の複雑さに対する不満が見られる。\n  https://news.ycombinator.com/item?id=47899053\n- [405pt] ノルウェー、16歳未満のSNS利用を禁止する最新の国に | この規制が子供たちのためではないという陰謀論や、教育vs禁止、非時系列フィードへの批判が展開されている。\n  https://news.ycombinator.com/item?id=47891019\n- [367pt] FirefoxがBraveの広告ブロックエンジンを統合 | 他の広告ブロックアドオンのサポート廃止や、iOS版での広告ブロック機能の充実に期待する声が見られる。\n  https://news.ycombinator.com/item?id=47897891\n- [367pt] 反社会的である方法 – 支離滅裂で孤立した社会体験への手引き | 筆者が「反社会的」という言葉をどう捉えているか、そして建設的な議論の欠如について意見が交わされている。\n  https://news.ycombinator.com/item?id=47888372\n- [341pt] Spinel: RubyのAOTネイティブコンパイラ | MatzがClaudeの助けを借りて開発したこと、そしてevalやメタプログラミングの制限に注目が集まっている。\n  https://news.ycombinator.com/item?id=47887334",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-04-26"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "8 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- メイン州知事、データセンター建設一時停止法案に拒否権を行使\n  https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/\n- OpenAI CEO、タンブラーリッジ地域社会に謝罪\n  https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/\n- CohereがAleph Alphaと合併する理由\n  https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/\n- 東京が2026年、最も重要なテックの目的地となる理由\n  https://techcrunch.com/2026/04/25/why-tokyo-is-the-most-important-tech-destination-of-2026/\n- Apple、Ternus体制でハードウェア戦略はどう変わる？\n  https://techcrunch.com/2026/04/25/apple-under-ternus-what-comes-next-for-the-tech-giants-hardware-strategy/\n- インドのSnabbit、評価額4億ドルで新規資金調達を模索中か\n  https://techcrunch.com/2026/04/25/indias-snabbit-seeks-fresh-funding-at-a-400m-valuation-sources-say/\n- Lachy Groom、評価額2億ドルでインドのスタートアップProntoを支援へ\n  https://techcrunch.com/2026/04/24/lachy-groom-to-back-pronto-as-indias-house-help-startup-scales-fast-sources-say/\n- Cohere、ドイツ企業買収・合併で「大西洋をまたぐAI大国」を創設\n  https://techcrunch.com/2026/04/24/cohere-acquires-merges-with-german-based-startup-to-create-a-transatlantic-ai-powerhouse/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-04-26"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- ZeroHuman. — AI共同創業者：OpenClaw x Paperclip x Spud\n  https://www.producthunt.com/products/zerohuman\n- Inrō AI — Instagramマーケティング向けAIエージェント\n  https://www.producthunt.com/products/inro\n- Gemini Personal Intelligence — Googleアプリのコンテキストを考慮してGeminiが回答\n  https://www.producthunt.com/products/gemini-personal-intelligence\n- XChat — X提供のスタンドアロン型暗号化メッセージングアプリ\n  https://www.producthunt.com/products/chat-by-x\n- Clawdi — 全てのAIエージェントにとって最適なホーム\n  https://www.producthunt.com/products/clawdi\n- PromptPaste — Mac、iPhone、iPadで利用できるプライベートAIプロンプトライブラリ\n  https://www.producthunt.com/products/promptpaste\n- MiMo-V2.5 Voice — 方言、コードスイッチング、歌に対応したバイリンガルASR\n  https://www.producthunt.com/products/mimo-v2-5-voice\n- Genspark for Excel — Excelの数式、グラフ、インサイトをサポートするAIアシスタント\n  https://www.producthunt.com/products/genspark-for-excel\n- Euphony — AIチャットデータとCodexログを閲覧可能なビューにレンダリング\n  https://www.producthunt.com/products/euphony-2\n- Grok Voice Think Fast 1.0 — 最も高性能な音声エージェントがAPIで利用可能に\n  https://www.producthunt.com/products/grok-voice-think-fast-1-0",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-04-26"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "1 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- AIエージェント向けインフラ「GodHands」発表、決定論的コンピューティングを実現\n  https://godhands.dev",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-04-26"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] DeepSeek V4 Pro (1.6T-A49B) and Flash (284B-A13B), Base and Instruct — runnable on Huawei Ascend chips",
+      "url": "https://www.latent.space/p/ainews-deepseek-v4-pro-16t-a49b-and",
+      "summary": "DeepSeekが大規模言語モデルDSV4をリリースし、特に1Mトークンコンテキスト処理とKVキャッシュ効率で大きな技術革新を見せ、オープンモデルのトップ層に位置付けられました。",
+      "publishedAt": "2026-04-25",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!ICSA!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff73baf75-34a0-46e8-8452-7cccd7481ba9_1156x730.png"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "5 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-04-26",
+      "docsUpdates": [
+        {
+          "tag": "Improved",
+          "file": "desktop-quickstart.md",
+          "text": "SSH接続では、初回接続時にClaude Codeがリモートマシンに自動インストールされるように変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/686113c3d7b64694420b9e187b9849255075f19d"
+        },
+        {
+          "tag": "Changed",
+          "file": "desktop-scheduled-tasks.md",
+          "text": "スケジュールされたタスクはデフォルトで新しいセッションを開始するという記述が削除され、DesktopアプリのRoutinesページでローカルのスケジュールタスクとリモートのルーチンを作成できることが明確にされました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/686113c3d7b64694420b9e187b9849255075f19d"
+        },
+        {
+          "tag": "Changed",
+          "file": "desktop.md",
+          "text": "Claude Desktopアプリのタブ構成が変更され、CodeタブだけでなくChat、Coworkタブがあることが説明されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/686113c3d7b64694420b9e187b9849255075f19d"
+        },
+        {
+          "tag": "Changed",
+          "file": "routines.md",
+          "text": "ルーチンの作成方法が更新され、Desktopアプリでの「New remote task」と「New local task」の区別に関する記述が簡素化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/686113c3d7b64694420b9e187b9849255075f19d"
+        },
+        {
+          "tag": "Added",
+          "file": "terminal-config.md",
+          "text": "ターミナルのテーマ設定において、`overrides`で設定できる全てのカスタマイズ項目が「Color token reference」アコーディオン内に完全なリストとして追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/686113c3d7b64694420b9e187b9849255075f19d"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "1 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- GitHub Appインストールトークン、新フォーマットをまもなく導入\n  https://github.blog/changelog/2026-04-24-notice-about-upcoming-new-format-for-github-app-installation-tokens",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-04-26"
+    }
+  ]
+}
