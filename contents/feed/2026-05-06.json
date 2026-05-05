@@ -1,0 +1,413 @@
+{
+  "fetchedAt": "2026-05-05T21:49:57.311Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "GPT-5.5 Instant System Card",
+      "url": "https://openai.com/index/gpt-5-5-instant-system-card",
+      "summary": "OpenAIが最新の高速モデル「GPT-5.5 Instant」をリリースし、サイバーセキュリティと生物・化学兵器対策の分野で高レベルの安全対策を導入した。",
+      "publishedAt": "2026-05-05",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/Aj1UBJC1Kpt5IYhqrwOn4/0b039f2804579e9bbe42a67f8316a5c0/System_Card_16x9.jpg?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+      "url": "https://openai.com/index/gpt-5-5-instant",
+      "summary": "ChatGPTのデフォルトモデルがGPT-5.5 Instantにアップデートされ、より賢く、正確で、パーソナライズ可能な機能を提供。",
+      "publishedAt": "2026-05-05",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/360kMX00WHnA5T0OV55dEf/72aedfc1c8d09cbc8662acd8af2e2afc/20250822.jpg?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "New ways to buy ChatGPT ads",
+      "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
+      "summary": "OpenAI expands ChatGPT ads with a beta self-serve Ads Manager, CPC bidding, and enhanced measurement tools—built to protect privacy and keep conversations separate from ads.",
+      "publishedAt": "2026-05-05",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/7BFuH170Tk8pxf9XMjXE48/253f0f50015a47b3a94a42c57c5bd3b9/SEO-ChatGPT-Ads.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "⚠ Claude Code の取得に失敗しました",
+      "url": "https://github.com/anthropics/claude-code/releases.atom",
+      "summary": "{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+      "ogImage": null,
+      "publishedAt": "2026-05-06"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- 【まとめ】今月の注目アプリ 2026年5月\n  https://www.reddit.com/r/macapps/comments/1t0rojv/megathread_the_app_pile_may_2026/\n- r/MacAppsのモデレーターはやりすぎた！変更点について（フェーズ3）\n  https://www.reddit.com/r/macapps/comments/1ryaeex/rmacapps_mods_went_too_far_whats_changing_phase_3/\n- Little Snitch 6を6ヶ月使って分かったこと — Macがどれだけネットと通信しているか\n  https://www.reddit.com/r/macapps/comments/1t45cy8/6months_with_little_snitch_6_what_i_learned_about/\n- Clingが素晴らしい\n  https://www.reddit.com/r/macapps/comments/1t4gja0/cling_is_awesome/\n- [OS] TablePro: 無料のmacOSネイティブデータベースクライアント。18種類のDB、MCPサーバー、TestFlight版iPadアプリ\n  https://www.reddit.com/r/macapps/comments/1t45ql1/os_tablepro_free_native_macos_database_client_18/\n- Substage - Finder向け自然言語コマンドラインツールで作業が簡単に\n  https://www.reddit.com/r/macapps/comments/1t4oc6z/substage_a_natural_language_command_line_tool_for/\n- Mojave Paint 1.0.0がMac App Storeに登場\n  https://www.reddit.com/r/macapps/comments/1t4res6/mojave_paint_100_is_in_the_mac_app_store/\n- [OS] OpenPets - あなたのMacアプリ、エージェント、スクリプトのためのCodexペット\n  https://www.reddit.com/r/macapps/comments/1t4rmdw/os_openpets_a_codex_pet_for_all_your_mac_apps/\n- 投稿ルールと自己宣伝についてのご質問\n  https://www.reddit.com/r/macapps/comments/1t4d1ga/question_about_rules_for_posting_and_self/\n- Citrix/VDI/RDP向け音声入力アプリを開発（ペーストではなくキー入力で文字をタイプ）\n  https://www.reddit.com/r/macapps/comments/1t4p99a/built_a_dictation_app_for_citrixvdirdp_it_types/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-05-06"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- Redditに新本人確認システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackers subredditの新規ルール―質の向上を目指して\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- 映画の要約動画を自動生成するツールを開発・販売開始、収益を公開\n  https://www.reddit.com/r/indiehackers/comments/1t4ez04/i_built_a_tool_that_automates_movie_recap_videos/\n- 開発を終え、厳しい現実に直面し始めた\n  https://www.reddit.com/r/indiehackers/comments/1t4lu2q/a_cold_reality_is_beginning_to_hithaving_built_it/\n- Script7の有料プランを開始、先着5名に$200の生涯メンバーシップを提供\n  https://www.reddit.com/r/indiehackers/comments/1t4sx9a/just_launched_paid_plans_for_script7_also/\n- 私の「ビルダーの罠」体験とそこから学ぼうとしていること\n  https://www.reddit.com/r/indiehackers/comments/1t4k4su/my_builder_trap_experience_and_how_i_try_to_learn/\n- ウェブサイト向けAIアシスタントを開発、2週間後のアップデート\n  https://www.reddit.com/r/indiehackers/comments/1t4eqho/how_i_built_an_ai_assistant_for_websites_two/\n- ゲームを開発し、これまでどのアプリよりも多くの有料ユーザーを獲得\n  https://www.reddit.com/r/indiehackers/comments/1t3s7c3/made_a_game_and_got_more_paying_users_than_i_did/\n- Script7にフィードバックページとモバイル最適化を追加、その理由\n  https://www.reddit.com/r/indiehackers/comments/1t443qo/added_a_feedback_page_and_mobile_optimization_to/\n- 将来の顧客の心を読み取る（ような）方法を開発\n  https://www.reddit.com/r/indiehackers/comments/1t2yos8/built_a_way_to_ready_your_future_customers_minds/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-05-06"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "⚠ r/ClaudeAI の取得に失敗しました",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/.rss",
+      "summary": "{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+      "ogImage": null,
+      "publishedAt": "2026-05-06"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1463pt] ジムで見知らぬ人と話すこと | 見知らぬ人との交流を推奨する声が多く、ポジティブな意見が目立つ\n  https://news.ycombinator.com/item?id=48007438\n- [1087pt] Google Chromeがユーザーの同意なしに4GBのAIモデルをサイレントインストール | 同意なしインストールへの不満と、モデル削除方法に関する議論が活発\n  https://news.ycombinator.com/item?id=48019219\n- [699pt] GameStopがeBayに555億ドルの買収提案 | 買収の実現可能性に疑問の声が多く、資金面での懸念が指摘されている\n  https://news.ycombinator.com/item?id=48006402\n- [694pt] ZigからRustへのポーティングガイド | コードの品質や移植の意図について、活発な議論が交わされている\n  https://news.ycombinator.com/item?id=48016880\n- [669pt] DeepClaude – DeepSeek V4 Proを使ったClaude Codeエージェントループ | DeepSeek V4 Proの利用方法や価格、他の代替ツールについてのコメント\n  https://news.ycombinator.com/item?id=48002136\n- [626pt] 商標権侵害：Mac用偽Notepad++ | 商標権侵害に対する懸念と、マルウェア感染のリスクが指摘されている\n  https://news.ycombinator.com/item?id=48006445\n- [609pt] Microsoft Edgeがすべてのパスワードを未使用時でもメモリに平文で保存 | セキュリティ上の懸念が示されており、他のブラウザとの比較も\n  https://news.ycombinator.com/item?id=48012735\n- [595pt] Spirit Airを買収しよう | 航空会社の収益構造と、所有形態に関する議論が展開されている\n  https://news.ycombinator.com/item?id=48002777\n- [568pt] EU、2027年からスマートフォンの着脱式バッテリーを義務化 | 義務化の例外規定や、バッテリー交換に関するコストへの言及が多い\n  https://news.ycombinator.com/item?id=48009697\n- [508pt] Bunについて心配している | 買収後のBunの将来性や安定性について、ユーザーの懸念と擁護意見が交錯\n  https://news.ycombinator.com/item?id=48011184",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-05-06"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "12 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- a16z crypto、22億ドルのファンドを調達──仮想通貨市場の冷え込みの中で\n  https://techcrunch.com/2026/05/05/as-crypto-cools-a16zcrypto-raises-a-2-2b-fund/\n- Apple、iOS 27でAIモデル選択型「Choose Your Own Adventure」を計画か\n  https://techcrunch.com/2026/05/05/apple-plans-to-make-ios-27-a-choose-your-own-adventure-of-ai-models/\n- ASML CEO Christophe Fouquet、自社の独占状態について「追随者なし」と語る\n  https://techcrunch.com/2026/05/05/asml-ceo-christophe-fouquet-no-one-is-coming-for-us/\n- ペンシルベニア州、Character.AIを提訴──チャットボットが医師を装った疑い\n  https://techcrunch.com/2026/05/05/pennsylvania-sues-character-ai-after-a-chatbot-allegedly-posed-as-a-doctor/\n- OpenAI、ChatGPTの新デフォルトモデル「GPT-5.5 Instant」をリリース\n  https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/\n- PayPal、「再びテクノロジー企業に」──その意味はAI活用\n  https://techcrunch.com/2026/05/05/paypal-says-its-becoming-a-technology-company-again-that-means-ai/\n- Etsy、ChatGPT内にアプリをローンチ──AI推進を継続\n  https://techcrunch.com/2026/05/05/etsy-launches-its-app-within-chatgpt-as-it-continues-its-ai-push/\n- Meta、AIで身長と骨格を分析し未成年ユーザーを特定へ\n  https://techcrunch.com/2026/05/05/meta-will-use-ai-to-analyze-height-and-bone-structure-to-identify-if-users-are-underage/\n- ElevenLabs、新規投資家としてBlackRock、Jamie Foxx、Eva Longoriaを発表\n  https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-eva-longoria-as-new-investors/\n- CopilotKit、2,700万ドルを調達──アプリネイティブなAIエージェントの展開を支援\n  https://techcrunch.com/2026/05/05/copilotkit-raises-27m-to-help-devs-deploy-app-native-ai-agents/\n- 【残り4日】TechCrunch Disrupt 2026の2枚目パスが50%オフ、取引成立を加速\n  https://techcrunch.com/2026/05/05/4-days-left-get-50-off-a-second-techcrunch-disrupt-2026-pass-to-make-more-deals-faster/\n- インド初のGenAIユニコーン、AIモデルの野望に直面しクラウドサービスへ移行\n  https://techcrunch.com/2026/05/05/indias-first-genai-unicorn-shifts-to-cloud-services-as-ai-model-ambitions-face-reality/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-05-06"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Fragments: May  5",
+      "url": "https://martinfowler.com/fragments/2026-05-05.html",
+      "summary": "Over the last couple of months Rahul Garg published a series of posts here on how to reduce the friction in AI-assisted programming. To make it easier to put these ideas into practice he’s now built an open-source framework to operationalize these patterns. AI coding assistants jump straight to code, silently make design decisions, forget constraints mid-conversation, and produce output nobody reviewed against real engineering standards. Lattice fixes this with composable skills in three tiers – atoms, molecules, refiners – that embed battle-tested engineering disciplines (Clean Architecture, DDD, design-first methodology, secure coding, and more), plus a living context layer (the .lattice/ folder) that accumulates your project’s standards, decisions, and review insights. The system gets smarter with use – after a few feature cycles, atoms aren’t applying generic rules, they’re applying your rules, informed by your history. It can be installed as a Claude Code plugin or downloaded for use with any AI tool. ❄ ❄ ❄ ❄ ❄ This is also a good point to note that the article by my colleagues Wei Zhang and Jessie Jie Xia on Structured-Prompt-Driven Development (SPDD) has generated an enormous amount of traffic, and quite a few questions. They have thus added a Q&amp;A section to the article that answers a dozen of them. ❄ ❄ ❄ ❄ ❄ Jessica Kerr (Jessitron) posted a merry tidbit of building a tool to work with conversation logs. She observes the double feedback loop involved. There are (at least) two feedback loops running here. One is the development loop, with Claude doing what I ask and then me checking whether that is indeed what I want.[…] Then there’s a meta-level feedback loop, the “is this working?” check when I feel resistance. Frustration, tedium, annoyance–these feelings are a signal to me that maybe this work could be easier. The double loop here is both changing the thing we are building but also changing the thing we are using to build the thing we are building. As developers using software to build software, we have potential to mold our own work environment. With AI making software change superfast, changing our program to make debugging easier pays off immediately. Also, this is fun! Indeed it is, and makes me think that agents are allowing us to (re)discover one of the Great Lost Joys of software development - that of molding my development environment to exactly fit the problem and my personal tastes. A while ago I wrote about this under the name Internal Reprogramability. It was a central feature of the Smalltalk and Lisp communities but was mostly lost as we got complex and polished IDEs (although the unix command line gives a hint of its appeal). ❄ ❄ ❄ ❄ ❄ Ashley MacIsaac is a musician from Cape Breton, who plays folk-influenced music (I have a couple of his albums in my collection). Google generated an AI overview that asserted that had been convicted of crimes, including sexual assault and was on the national sex-offender registry. These were completely false, confusing him with another man with the same name. MacIsaac is suing Google for defamation: “This was not a search engine just scanning through things and giving somebody else’s story […] It was published by them. And to me, that is defamation. The guardrails were not there to prevent Google AI from publishing that content.” MacIsaac’s point is that Google must take responsibility for what a tool it controls publishes. MacIsaac suffered genuine harm here, not just to his reputation, but he also had a concert canceled and the claims affect his performing. “I felt that tangible fear from something that was published by a media company,” he said in an interview with The Canadian Press. “I feared for my own safety going on stage because of what I was labelled as. And I don’t know how long this will follow me.” Too often tech companies try to dodge the consequences of their actions. There are genuine issues about the difficulties of monitoring what’s published at scale, but that’s a responsibility that they should face up to. ❄ ❄ ❄ ❄ ❄ Stephen O’Grady (RedMonk) takes a serious look at how much the big tech companies are spending on AI build-outs. The sums involved are staggering, not just in absolute terms (over $100 Billion), but also compared to the revenues of the companies involved. Firms like Amazon, Alphabet, and Microsoft are spending over 50% of their revenues (not profits). Meta and Oracle hit or pass 75% of revenues. That level of investment would have been unthinkable a decade ago. Today, the chart suggests it’s table stakes There is a notable exception: Apple. Here they are clearly Thinking Different, eyeballing the chart they seem closer to 10% of revenues. ❄ ❄ ❄ ❄ ❄ Most folks I talk to about agentic programming are using models in the cloud: Claude, Codex, and the like. Everyone agrees these are the most powerful models, the ones that triggered the November Inflection. But do we need to use the Most Powerful Models, particularly when we have to ship data to them, and pay handsomely for the privilege? Willem van den Ende considers an alternative, that local models are Good Enough. Assumptions - We are all figuring this out. - Quality of a harness (coding agent + “skills” + extensions) can matter as least as much as the model - Running open models and an open coding agent + custom extensions takes time, but pays off in understanding and a stable base where engineering effort compounds - Open, local, models have (for me) crossed the point where they are good enough for daily work with a coding agent. The post describes in detail his setup for local model work. It includes sandboxing with Nono, which is something to consider even if using a Cloud model - such powerful tools need a Zero Trust Architecture. ❄ ❄ ❄ ❄ ❄ In case you haven’t noticed, those last two fragments resonate. Apple isn’t playing the cloud AI model game, they are saving a huge amount of money, and if local models end up being the future, they’ll be looking rather wise. Van den Ende’s post led me to a podcast by Nate B Jones that argues that Apple is replaying a fifty-year old strategy here. All those years ago anyone who used a computer bought time on a mainframe, the Apple II put far less capable compute into the home and small office. From there came spreadsheets, desktop publishing, and the modern home computer - things that weren’t possible using mainframes. He sees the rise of John Ternus as CEO isn’t merely a switch to a known insider successor - but a bet that the future of AI is sophisticated hardware in the home, office, and pocket. If Open Source models are Good Enough, then why spend money sending tokens - containing your sensitive data - to the AI megacorps? ❄ ❄ ❄ ❄ ❄ Talking of five decades in the past, it was in 1974 that Fred Brooks opened one of the most influential books in our profession with these paragraphs: No scene from prehistory is quite so vivid as that of the mortal struggles of great beasts in the tar pits. In the mind’s eye one sees dinosaurs, mammoths, and sabertoothed tigers struggling against the grip of the tar. The fiercer the struggle, the more entangling the tar, and no beast is so strong or so skillful but that he ultimately sinks. Large-system programming has over the past decade been such a tar pit, and many great and powerful beasts have thrashed violently in it. Most have emerged with running systems — few have met goals, schedules, and budgets. Large and small, massive or wiry, team after team has become entangled in the tar. No one thing seems to cause the difficulty — any particular paw can be pulled away. But the accumulation of simultaneous and interacting factors brings slower and slower motion. Everyone seems to have been surprised by the stickiness of the problem, and it is hard to discern the nature of it. But we must try to understand it if we are to solve it. With the title of his recent post Kent Beck summons up that imagery as the Genie Tarpit. After explaining why skilled software development is about building both features and futures, he observes that these AI tools aren’t doing a good job of producing software with the kind of internal quality that is needed for a good future. Here’s what I’ve observed — genies naturally live down &amp; to the left of muddling. The “plausible deniability” task orientation of the genie leaves it claiming success even though the code doesn’t work at all. And complexity piles on complexity until even the genie can’t pretend to make progress any more. It’s still an open question whether, or to what extent, internal quality matters in the age of agentic programming. One view is, as Laura Tacho puts it, “The Venn Diagram of Developer Experience and Agent Experience is a circle”. Well organized elements, with good naming, help The Genie understand code, so are important if we can continue to go beyond small disposable systems. The other view is that such internal quality doesn’t matter, that the galaxy brain of LLMs will make sense of the biggest bowls of spaghetti. Maybe not now, but after a couple more inflections. That’s the fundamental question. Can The Genie evade the tar pit, or will it struggle fruitlessly against the tar’s sticky grip?",
+      "publishedAt": "2026-05-06",
+      "ogImage": "https://martinfowler.com/logo-sq.png"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Bliki: Mythical Man Month",
+      "url": "https://martinfowler.com/bliki/MythicalManMonth.html",
+      "summary": "ソフトウェア開発の古典「人月の神話」は、現代でも通用する概念的完全性の重要性を説いている。",
+      "publishedAt": "2026-05-06",
+      "ogImage": "https://martinfowler.com/logo-sq.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Kilo Code v7 for VS Code — 並列エージェント、差分レビュー、マルチモデル比較に対応\n  https://www.producthunt.com/products/kilocode\n- Steam Controller — TMRスティック、デュアルハプティックトラックパッド、ジャイロ操作でゲームをプレイ\n  https://www.producthunt.com/products/steam-machine\n- Velo 2.0 — 音声と画面を瞬時に共有可能な動画に変換\n  https://www.producthunt.com/products/velo-4\n- Breathwrk — ガイド付き呼吸エクササイズでブレスワークを学びマスター\n  https://www.producthunt.com/products/breathwrk\n- Intuned Agent — AIが構築・保守する本番向けブラウザ自動化ツール\n  https://www.producthunt.com/products/intuned\n- Flowstep 1.0 — 思考を編集可能なUIに変えるAIデザインエンジニア\n  https://www.producthunt.com/products/flowstep\n- Unity AI — Unityワークフローに直接組み込まれたAIエージェント\n  https://www.producthunt.com/products/unity\n- PanicMode — ショートカット1つで公共の場での画面を保護\n  https://www.producthunt.com/products/panicmode\n- Blaze — AIがあなたの1日を計画するカレンダー\n  https://www.producthunt.com/products/blaze-your-new-calendar\n- PaceBar — Mac用の静かなペース計測器\n  https://www.producthunt.com/products/pacebar",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-05-06"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Agents for financial services",
+      "url": "https://www.anthropic.com/news/finance-agents",
+      "summary": "金融機関・保険会社向けに、CoworkとClaude Codeプラグイン、Microsoft 365連携、新コネクタ、MCPアプリを提供開始。",
+      "ogImage": null,
+      "publishedAt": "2026-05-06"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "3 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- AIエージェントに電話番号を付与する「AgentPhone」が登場\n  https://www.agentphone.to/\n- Chronicle Labs、企業向けAIエージェントのステージング環境を提供\n  https://chronicle-labs.com\n- 感情を読み取りEQを高めるウェアラブルデバイス「ANORIA」\n  https://www.anoria.com",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-05-06"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "🔬Doing Vibe Physics — Alex Lupsasca, OpenAI",
+      "url": "https://www.latent.space/p/lupsasca",
+      "summary": "GPT-5が未発表論文の物理学問題を解き、グラビトンに関する110ページの新研究も生成し、理論物理学のブレークスルーを加速している。",
+      "publishedAt": "2026-05-06",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!NyAT!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F196292432%2F0cd72a41-6b64-405c-8aff-508c149bafb4%2Ftranscoded-1778013234.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] The Other vs The Utility",
+      "url": "https://www.latent.space/p/ainews-the-other-vs-the-utility",
+      "summary": "AIモデルの性能向上に加え、多様なモデルを組み合わせて利用するエージェント連携技術や、開発・運用のための周辺ツールが進化している。",
+      "publishedAt": "2026-05-05",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!SLGB!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcae188ad-3ef3-4d8c-be2e-3d70cb4bb429_1098x800.png"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "41 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-05-06",
+      "docsUpdates": [
+        {
+          "tag": "Improved",
+          "file": "commands.md",
+          "text": "/fastコマンドの説明が、高速モードについてより詳しく説明するよう更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/1ee4352a7c020b25514294aae0592c373e149ccb"
+        },
+        {
+          "tag": "Added",
+          "file": "desktop.md",
+          "text": "デスクトップ版で2つのセッションを同時に表示する方法が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/1ee4352a7c020b25514294aae0592c373e149ccb"
+        },
+        {
+          "tag": "Improved",
+          "file": "hooks.md",
+          "text": "Webhookのレスポンスフィールド`ok`と`reason`の説明が、より明確になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/1ee4352a7c020b25514294aae0592c373e149ccb"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__agent-loop.md",
+          "text": "`SDKCompactBoundaryMessage`は`SDKSystemMessage`のサブタイプではなく独自の型として扱われるというTypeScript固有の記述が削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Fixed",
+          "file": "agent-sdk__claude-code-features.md",
+          "text": "`settingSources`と`setting_sources`のTypeScriptおよびPython SDKリファレンスへのリンクが修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Fixed",
+          "file": "agent-sdk__cost-tracking.md",
+          "text": "`SDKResult Message`のTypeScript SDKリファレンスへのリンクが修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Fixed",
+          "file": "agent-sdk__custom-tools.md",
+          "text": "`createSdkMcpServer`のTypeScript SDKリファレンスへのリンクが修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Fixed",
+          "file": "agent-sdk__hooks.md",
+          "text": "`settingSources`と`setting_sources`のTypeScriptおよびPython SDKリファレンスへのリンクが修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Fixed",
+          "file": "agent-sdk__hosting.md",
+          "text": "プログラムによるサンドボックス設定へのリンクが修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__observability.md",
+          "text": "アプリケーションのエンドユーザーにアクションを帰属させるための新しいセクションが追加され、OpenTelemetryリソース属性としてエンドユーザーIDを注入する方法が説明されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Fixed",
+          "file": "agent-sdk__python.md",
+          "text": "Python SDKの`tool()`関数のパラメータに関する表の書式が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Fixed",
+          "file": "agent-sdk__quickstart.md",
+          "text": "PythonおよびTypeScript SDKのオプションへのリンクが修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Fixed",
+          "file": "agent-sdk__sessions.md",
+          "text": "`ClaudeAgentOptions`と`Options`のPythonおよびTypeScript SDKリファレンスへのリンクが修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Fixed",
+          "file": "agent-sdk__skills.md",
+          "text": "`settingSources`と`setting_sources`のTypeScriptおよびPython SDKリファレンスへのリンクが修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Fixed",
+          "file": "agent-sdk__subagents.md",
+          "text": "プログラムでサブエージェントを定義する際のTypeScriptおよびPython SDKの`agent-definition`へのリンクが修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Fixed",
+          "file": "agent-sdk__typescript.md",
+          "text": "TypeScript SDKの`query()`関数のパラメータに関する表の書式が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Fixed",
+          "file": "agent-sdk__user-input.md",
+          "text": "ユーザー入力のコールバック引数に関する表の書式が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Improved",
+          "file": "authentication.md",
+          "text": "資格情報の保存場所に関する説明が、macOS、Linux、Windowsそれぞれのパスとファイルモードについて明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Changed",
+          "file": "channels-reference.md",
+          "text": "チャンネルの認証要件から`claude.ai`ログインが必要という記述が削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Changed",
+          "file": "channels.md",
+          "text": "チャンネルの認証要件が変更され、`claude.ai`またはConsole APIキーによるAnthropic認証が必要であり、Amazon Bedrock、Google Vertex AI、Microsoft Foundryでは利用できないことが明記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Fixed",
+          "file": "cli-reference.md",
+          "text": "CLIリファレンスのテーブルヘッダーの書式が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Fixed",
+          "file": "commands.md",
+          "text": "コマンドリファレンスのテーブルヘッダーの書式が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Fixed",
+          "file": "data-usage.md",
+          "text": "データフロー図の画像URLが修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Fixed",
+          "file": "env-vars.md",
+          "text": "環境変数リファレンスのテーブルヘッダーの書式が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Improved",
+          "file": "fullscreen.md",
+          "text": "tmuxでのフルスクリーンレンダリングに関する注意点が追加され、iTerm2のtmux統合モードとの非互換性が追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Added",
+          "file": "headless.md",
+          "text": "Claude Code v2.1.128以降、パイプされた標準入力が10MBに制限されること、および制限を超過した場合の挙動に関する注記が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Fixed",
+          "file": "hooks.md",
+          "text": "`PostToolUse`フックのJSON出力フィールドに関するテーブルの書式が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Added",
+          "file": "mcp.md",
+          "text": "`/mcp`パネルがツール数を表示し、ツールを公開していないサーバーにフラグを立てること、および`workspace`が予約済みのサーバー名であることが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Added",
+          "file": "monitoring-usage.md",
+          "text": "Claude Codeが生成するサブプロセスには`OTEL_*`環境変数が渡されないため、テレメトリーをエクスポートする必要がある場合はコマンド内で変数を直接設定する必要があるという注記が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Fixed",
+          "file": "permissions.md",
+          "text": "権限に関する設定のテーブルヘッダーの書式が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Improved",
+          "file": "plugin-marketplaces.md",
+          "text": "プラグインマーケットプレイスの許可リストにおけるURL正規化について、`hostPattern`の使用が推奨される説明が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Fixed",
+          "file": "plugins-reference.md",
+          "text": "`CLAUDE_PLUGIN_ROOT`の説明の書式が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Improved",
+          "file": "remote-control.md",
+          "text": "Claudeモバイルアプリでセッションリストにアクセスする方法が明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Changed",
+          "file": "scheduled-tasks.md",
+          "text": "スケジューラがタスクの起動時刻に追加するジッターのロジックが変更され、定期的なタスクは最大30分遅れて起動する可能性があることが明記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Improved",
+          "file": "settings.md",
+          "text": "Windowsにおける`~/.claude`パスの解決先が `%USERPROFILE%\\.claude` であることが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Added",
+          "file": "skills.md",
+          "text": "スキルコンテンツはターン間でコンテキストに保持されるため、スキル本体を簡潔に保ち、重要な情報に焦点を当てるべきであるというベストプラクティスが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Changed",
+          "file": "statusline.md",
+          "text": "ステータスラインのスクリプトが更新されるタイミングに`/compact`の完了が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Fixed",
+          "file": "tools-reference.md",
+          "text": "ツールリファレンスのテーブルヘッダーの書式が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Improved",
+          "file": "voice-dictation.md",
+          "text": "音声ディクテーションのトラブルシューティングセクションに、APIキーまたはサードパーティプロバイダーで認証されている場合に`Voice mode requires a Claude.ai account`が表示されることが追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/df78503daaa95215fc1496e626f963d7f13afa0e"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "Claude Codeのドキュメントリポジトリのコミットログが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a8a6f5f1509905472fdc1748ddf876dad47d3a4b"
+        },
+        {
+          "tag": "Changed",
+          "file": "features-overview.md",
+          "text": "SkillsとSubagentsの違いを表形式で説明する際、Subagentの「主な利点」の記述が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5dda102fee49e0c11bc1e0125a26db1f4405d8b1"
+        },
+        {
+          "tag": "Improved",
+          "file": "hooks.md",
+          "text": "`sessionTitle`フック設定の説明から、「`/rename`と同じ効果」という記述が削除され、セッションタイトル設定の目的が明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5dda102fee49e0c11bc1e0125a26db1f4405d8b1"
+        },
+        {
+          "tag": "Changed",
+          "file": "sub-agents.md",
+          "text": "組み込みサブエージェントのリストで、「Claude Code Guide」という名前が「claude-code-guide」に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5dda102fee49e0c11bc1e0125a26db1f4405d8b1"
+        },
+        {
+          "tag": "Fixed",
+          "file": "voice-dictation.md",
+          "text": "音声ディクテーションのホールドモードにおけるキーバインディングに関する注意書きが修正され、キーリピートによるウォームアップ時の文字入力の問題がより詳細に説明されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5dda102fee49e0c11bc1e0125a26db1f4405d8b1"
+        },
+        {
+          "tag": "Added",
+          "file": "vs-code.md",
+          "text": "macOSでCmd+EscがVS Codeで機能しない場合のトラブルシューティング手順が追加され、システム設定でのGame Overlayショートカットの解除方法が説明されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5dda102fee49e0c11bc1e0125a26db1f4405d8b1"
+        }
+      ]
+    }
+  ]
+}
