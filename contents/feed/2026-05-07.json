@@ -1,0 +1,133 @@
+{
+  "fetchedAt": "2026-05-06T21:50:06.927Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Introducing ChatGPT Futures: Class of 2026",
+      "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
+      "summary": "ChatGPTを活用し、社会貢献する学生イノベーター26名を「ChatGPT Futures Class 2026」として紹介。",
+      "publishedAt": "2026-05-06",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/59y5qvmWpHUH174x36IAzJ/1b5a6e7411dff6705e0846ed642d099e/Futures-Cover.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "How frontier enterprises are building an AI advantage",
+      "url": "https://openai.com/index/introducing-b2b-signals",
+      "summary": "OpenAIが企業のAI導入深化と競争優位構築に関する調査結果を発表。",
+      "publishedAt": "2026-05-06",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/nLjavCv9SqZk0i5Ds1h7B/9c25cdb04fdb79c8b30d7c1e181d4b97/Frame2.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "⚠ Claude Code の取得に失敗しました",
+      "url": "https://github.com/anthropics/claude-code/releases.atom",
+      "summary": "{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+      "ogImage": null,
+      "publishedAt": "2026-05-07"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "⚠ r/MacApps の取得に失敗しました",
+      "url": "https://www.reddit.com/r/MacApps/hot/.rss",
+      "summary": "{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+      "ogImage": null,
+      "publishedAt": "2026-05-07"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "⚠ r/indiehackers の取得に失敗しました",
+      "url": "https://www.reddit.com/r/indiehackers/hot/.rss",
+      "summary": "{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+      "ogImage": null,
+      "publishedAt": "2026-05-07"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI、進行中のメガトレンドをリストアップ\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Claude Managed Agentsの新機能：夢想、成果、マルチエージェントオーケストレーション、Webhooks\n  https://www.reddit.com/r/ClaudeAI/comments/1t5j84j/new_in_claude_managed_agents_dreaming_outcomes/\n- SpaceX、コンピュート契約で上限を倍増\n  https://www.reddit.com/r/ClaudeAI/comments/1t5htq1/spacex_conpute_deal_double_limits/\n- Elonが所有するGPUをAnthropicに貸し出した真意とは\n  https://www.reddit.com/r/ClaudeAI/comments/1t5kz8t/what_it_means_that_elon_just_rented_out_all_his/\n- Claudeの利用制限緩和とSpaceXとのコンピュート契約\n  https://www.reddit.com/r/ClaudeAI/comments/1t5i7vh/higher_usage_limits_for_claude_and_a_compute_deal/\n- プロンプトインジェクション初体験\n  https://www.reddit.com/r/ClaudeAI/comments/1t56zqw/prompt_injection_experience_my_first_time_ever/\n- Claude、利用制限を全員に倍増したのか？\n  https://www.reddit.com/r/ClaudeAI/comments/1t5hxcs/did_claude_just_double_usage_limits_for_everyone/\n- Claudeのおかげで詐欺から免れた、90歳になった気分だ\n  https://www.reddit.com/r/ClaudeAI/comments/1t5hjs5/claude_just_saved_me_from_sending_money_to_a/\n- 幼稚園レベルの名詞\n  https://www.reddit.com/r/ClaudeAI/comments/1t5dfjn/kindergartengrade_nouns/\n- Claudeには良心がある！\n  https://www.reddit.com/r/ClaudeAI/comments/1t5mcqa/claude_has_a_conscience/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-05-07"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "⚠ Hacker News の取得に失敗しました",
+      "url": "https://hacker-news.firebaseio.com/v0/beststories.json",
+      "summary": "{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+      "ogImage": null,
+      "publishedAt": "2026-05-07"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "15 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Snap、Perplexityとの4億ドルの契約が「友好的に終了」と発表\n  https://techcrunch.com/2026/05/06/snap-says-its-400m-deal-with-perplexity-amicably-ended/\n- xAIは新たなネオクラウドになるのか？\n  https://techcrunch.com/2026/05/06/is-xai-a-neocloud-now/\n- 保険スタートアップCorgi、シリーズAから4ヶ月で評価額13億ドルに到達\n  https://techcrunch.com/2026/05/06/insurance-startup-corgi-hits-1-3b-valuation-4-months-after-its-series-a/\n- Greg Brockmanが語る、Elon MuskがOpenAIを去った経緯\n  https://techcrunch.com/2026/05/06/how-elon-musk-left-openai-according-to-greg-brockman/\n- AI評価スタートアップBraintrust、情報漏えいを認め全顧客に機密キーのローテーションを要請\n  https://techcrunch.com/2026/05/06/ai-evaluation-startup-braintrust-confirms-breach-tells-every-customer-to-rotate-sensitive-keys/\n- SpaceX、テキサス州の「Terafab」チップ工場に最大1190億ドルを投じる可能性\n  https://techcrunch.com/2026/05/06/spacex-may-spend-up-to-119-billion-on-terafab-chip-factory-in-texas/\n- DeepSeek、初回投資ラウンドで評価額450億ドルに達する見込み\n  https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round/\n- Google、AI検索をアップデートしRedditなどの引用元を含めるように\n  https://techcrunch.com/2026/05/06/google-updates-ai-search-to-include-expert-advice-from-reddit-and-other-web-forums/\n- Khosla支援のロボティクススタートアップGenesis AI、フルスタック化をデモで披露\n  https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/\n- Tinder運営のMatch Group、AIツール利用拡大の費用捻出のため採用を減速\n  https://techcrunch.com/2026/05/06/tinder-owner-match-group-is-slowing-hiring-to-pay-for-its-increased-use-of-ai-tools/\n- Apple、SiriのAI機能遅延訴訟で2億5000万ドルの和解金支払いへ\n  https://techcrunch.com/2026/05/06/apple-to-pay-250m-to-settle-lawsuit-over-siris-delayed-ai-features/\n- Ethos、音声オンボーディングの専門家ネットワークでa16zから2275万ドルを調達\n  https://techcrunch.com/2026/05/06/ethos-raises-22-75m-from-a16z-for-its-expert-network-with-voice-onboarding/\n- TechCrunch Disrupt 2026で、M&Aに関するあらゆる疑問が解決\n  https://techcrunch.com/2026/05/06/at-techcrunch-disrupt-2026-all-your-ma-questions-will-be-answered/\n- TechCrunch Disrupt 2026の2枚目チケット50%オフ、残り3日\n  https://techcrunch.com/2026/05/06/3-days-left-to-lock-in-50-off-a-second-ticket-to-techcrunch-disrupt-2026/\n- AIブームがSamsungを1兆ドル企業へと押し上げる\n  https://techcrunch.com/2026/05/06/ai-boom-pushes-samsung-to-1t/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-05-07"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "Live blog: Code w/ Claude 2026",
+      "url": "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-entries",
+      "summary": "Anthropicは、開発者向けイベントでClaudeのAPIトラフィックが17倍に増加したことや、マルチエージェント連携や自己改善機能など、既存モデルを効率的に活用するための新機能やツールを発表した。",
+      "publishedAt": "2026-05-07",
+      "ogImage": null
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "Vibe coding and agentic engineering are getting closer than I'd like",
+      "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-entries",
+      "summary": "AIによるコード生成ツールが進化し、「Vibe coding」と「Agentic engineering」の境界が曖昧になっている現状と課題について考察。",
+      "publishedAt": "2026-05-06",
+      "ogImage": null
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "⚠ Product Hunt の取得に失敗しました",
+      "url": "https://www.producthunt.com/feed",
+      "summary": "{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+      "ogImage": null,
+      "publishedAt": "2026-05-07"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Higher usage limits for Claude and a compute deal with SpaceX",
+      "url": "https://www.anthropic.com/news/higher-limits-spacex",
+      "summary": "Claudeの利用制限を引き上げ、SpaceXとの提携で計算能力を増強。",
+      "ogImage": null,
+      "publishedAt": "2026-05-06"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "5 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Pavoot：イベントからパイプラインを生成するAIが登場\n  https://pavoot.com\n- Arden：SOXコンプライアンス監査を自動化するAIエージェント\n  https://ardentech.ai/\n- Netter：実体経済のためのデータサイエンス・オートパイロット\n  https://netter.ai\n- Scope：あらゆるAIエージェントが製品を発見・利用可能に\n  https://tryscope.app\n- Pops：AIゲームを友達と作成＆プレイ\n  https://pops.fyi",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-05-07"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Silicon Valley gets Serious about Services",
+      "url": "https://www.latent.space/p/ainews-silicon-valley-gets-serious",
+      "summary": "AnthropicとOpenAIはAIエージェントを活用した企業向けサービス提供を強化し、Gemma 4は高速化、llama.cppはMTP対応で高速推論を実現。",
+      "publishedAt": "2026-05-06",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!MR33!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0374389-0ce7-4d8c-828c-335d3846130a_889x500.jpeg"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "⚠ Claude Code Docs の取得に失敗しました",
+      "url": "https://github.com/ericbuess/claude-code-docs/commits/main.atom",
+      "summary": "{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+      "ogImage": null,
+      "publishedAt": "2026-05-07"
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "1 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- VS Code向け「GitHub Copilot」、4月リリースを発表\n  https://github.blog/changelog/2026-05-06-github-copilot-in-visual-studio-code-april-releases",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-05-07"
+    }
+  ]
+}
