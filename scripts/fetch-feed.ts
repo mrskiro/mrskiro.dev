@@ -12,25 +12,40 @@ const FEED_DIR = "contents/feed";
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
+const GEMINI_FALLBACK_MODEL = "gemini-2.5-flash-lite";
+
+const isRetriableGeminiError = (err: unknown): boolean => {
+  const msg = err instanceof Error ? err.message : String(err);
+  return /"code":\s*(429|500|502|503|504)/.test(msg);
+};
+
 const generateContentWithRetry: typeof ai.models.generateContent = async (params) => {
-  const maxAttempts = 4;
-  let lastErr: unknown;
-  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
-    try {
-      return await ai.models.generateContent(params);
-    } catch (err) {
-      lastErr = err;
-      const msg = err instanceof Error ? err.message : String(err);
-      const retriable = /"code":\s*(429|500|502|503|504)/.test(msg);
-      if (!retriable || attempt === maxAttempts) throw err;
-      const delay = 1000 * 2 ** (attempt - 1) + Math.floor(Math.random() * 500);
-      console.warn(
-        `Gemini retriable error (attempt ${attempt}/${maxAttempts}), retrying in ${delay}ms`,
-      );
-      await sleep(delay);
+  const tryModel = async (modelParams: typeof params) => {
+    const maxAttempts = 3;
+    let lastErr: unknown;
+    for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+      try {
+        return await ai.models.generateContent(modelParams);
+      } catch (err) {
+        lastErr = err;
+        if (!isRetriableGeminiError(err) || attempt === maxAttempts) throw err;
+        const delay = 1000 * 2 ** (attempt - 1) + Math.floor(Math.random() * 500);
+        console.warn(
+          `Gemini ${modelParams.model} retriable error (attempt ${attempt}/${maxAttempts}), retrying in ${delay}ms`,
+        );
+        await sleep(delay);
+      }
     }
+    throw lastErr;
+  };
+
+  try {
+    return await tryModel(params);
+  } catch (err) {
+    if (params.model === GEMINI_FALLBACK_MODEL || !isRetriableGeminiError(err)) throw err;
+    console.warn(`Gemini ${params.model} exhausted, falling back to ${GEMINI_FALLBACK_MODEL}`);
+    return tryModel({ ...params, model: GEMINI_FALLBACK_MODEL });
   }
-  throw lastErr;
 };
 
 const formatDate = new Intl.DateTimeFormat("sv-SE", {
@@ -182,14 +197,20 @@ const TRANSLATE_TITLES_PROMPT = [
 ].join("\n");
 
 const translateTitles = async (titles: string[]): Promise<string[]> => {
-  const numbered = titles.map((t, i) => `${i + 1}. ${t}`).join("\n");
-  const res = await generateContentWithRetry({
-    model: "gemini-2.5-flash",
-    config: { thinkingConfig: { thinkingBudget: 0 } },
-    contents: `${TRANSLATE_TITLES_PROMPT}\n\n${numbered}`,
-  });
-  const lines = (res.text ?? "").trim().split("\n");
-  return lines.map((line) => line.replace(/^\d+\.\s*/, ""));
+  try {
+    const numbered = titles.map((t, i) => `${i + 1}. ${t}`).join("\n");
+    const res = await generateContentWithRetry({
+      model: "gemini-2.5-flash",
+      config: { thinkingConfig: { thinkingBudget: 0 } },
+      contents: `${TRANSLATE_TITLES_PROMPT}\n\n${numbered}`,
+    });
+    const lines = (res.text ?? "").trim().split("\n");
+    return lines.map((line) => line.replace(/^\d+\.\s*/, ""));
+  } catch (err) {
+    const msg = err instanceof Error ? err.message : String(err);
+    console.warn(`translateTitles failed, returning raw titles: ${msg.slice(0, 120)}`);
+    return titles;
+  }
 };
 
 const summarizeJa = async (text: string): Promise<string> => {
@@ -280,31 +301,33 @@ const fetchHNDigest = async (source: Source): Promise<Entry> => {
     })
     .join("\n\n");
 
-  const geminiRes = await generateContentWithRetry({
-    model: "gemini-2.5-flash",
-    config: {
-      thinkingConfig: { thinkingBudget: 0 },
-      responseMimeType: "application/json",
-      responseSchema: {
-        type: Type.ARRAY,
-        items: {
-          type: Type.OBJECT,
-          properties: {
-            title: { type: Type.STRING },
-            commentSummary: { type: Type.STRING, nullable: true },
-          },
-          required: ["title", "commentSummary"],
-        },
-      },
-    },
-    contents: `${HN_PROMPT}\n\n${input}`,
-  });
-
   let parsed: { title: string; commentSummary: string | null }[];
   try {
+    const geminiRes = await generateContentWithRetry({
+      model: "gemini-2.5-flash",
+      config: {
+        thinkingConfig: { thinkingBudget: 0 },
+        responseMimeType: "application/json",
+        responseSchema: {
+          type: Type.ARRAY,
+          items: {
+            type: Type.OBJECT,
+            properties: {
+              title: { type: Type.STRING },
+              commentSummary: { type: Type.STRING, nullable: true },
+            },
+            required: ["title", "commentSummary"],
+          },
+        },
+      },
+      contents: `${HN_PROMPT}\n\n${input}`,
+    });
     parsed = JSON.parse(geminiRes.text ?? "[]");
-  } catch {
-    console.warn("HN structured output parse failed, falling back to translate-only");
+  } catch (err) {
+    const msg = err instanceof Error ? err.message : String(err);
+    console.warn(
+      `HN structured output failed, falling back to translate-only: ${msg.slice(0, 120)}`,
+    );
     const jaTitles = await translateTitles(items.map((item) => item.title));
     parsed = jaTitles.map((t) => ({ title: t, commentSummary: null }));
   }
@@ -419,31 +442,31 @@ const fetchGitHubReleaseDigest = async (source: Source, since: Date): Promise<En
     if (liItems.length === 0) continue;
 
     const numbered = liItems.map((item, i) => `${i + 1}. ${item}`).join("\n");
-    const geminiRes = await generateContentWithRetry({
-      model: "gemini-2.5-flash",
-      config: {
-        thinkingConfig: { thinkingBudget: 0 },
-        responseMimeType: "application/json",
-        responseSchema: {
-          type: Type.ARRAY,
-          items: {
-            type: Type.OBJECT,
-            properties: {
-              tag: { type: Type.STRING },
-              text: { type: Type.STRING },
-            },
-            required: ["tag", "text"],
-          },
-        },
-      },
-      contents: `${RELEASE_TRANSLATE_PROMPT}\n\n${numbered}`,
-    });
-
     let parsed: { tag: string; text: string }[];
     try {
+      const geminiRes = await generateContentWithRetry({
+        model: "gemini-2.5-flash",
+        config: {
+          thinkingConfig: { thinkingBudget: 0 },
+          responseMimeType: "application/json",
+          responseSchema: {
+            type: Type.ARRAY,
+            items: {
+              type: Type.OBJECT,
+              properties: {
+                tag: { type: Type.STRING },
+                text: { type: Type.STRING },
+              },
+              required: ["tag", "text"],
+            },
+          },
+        },
+        contents: `${RELEASE_TRANSLATE_PROMPT}\n\n${numbered}`,
+      });
       parsed = JSON.parse(geminiRes.text ?? "[]");
-    } catch {
-      console.warn(`${source.name} translation parse failed, using original`);
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : String(err);
+      console.warn(`${source.name} translation failed, using original: ${msg.slice(0, 120)}`);
       parsed = liItems.map((item) => ({ tag: "Other", text: item }));
     }
 
@@ -702,13 +725,20 @@ const fetchGitHubTrendingDigest = async (source: Source): Promise<Entry> => {
 
   const top10 = repos.slice(0, 10);
   const numbered = top10.map((r, i) => `${i + 1}. ${r.name}：${r.description}`).join("\n");
-  const geminiRes = await generateContentWithRetry({
-    model: "gemini-2.5-flash",
-    config: { thinkingConfig: { thinkingBudget: 0 } },
-    contents: `${GITHUB_TRENDING_PROMPT}\n\n${numbered}`,
-  });
-  const jaLines = (geminiRes.text ?? "").trim().split("\n");
-  const jaDescriptions = jaLines.map((line) => line.replace(/^\d+\.\s*/, ""));
+  let jaDescriptions: string[];
+  try {
+    const geminiRes = await generateContentWithRetry({
+      model: "gemini-2.5-flash",
+      config: { thinkingConfig: { thinkingBudget: 0 } },
+      contents: `${GITHUB_TRENDING_PROMPT}\n\n${numbered}`,
+    });
+    const jaLines = (geminiRes.text ?? "").trim().split("\n");
+    jaDescriptions = jaLines.map((line) => line.replace(/^\d+\.\s*/, ""));
+  } catch (err) {
+    const msg = err instanceof Error ? err.message : String(err);
+    console.warn(`GitHub Trending translation failed, using original: ${msg.slice(0, 120)}`);
+    jaDescriptions = top10.map((r) => `${r.name}：${r.description}`);
+  }
 
   const summaryLines = top10.map((r, i) => {
     const desc = jaDescriptions[i] ?? `${r.name}：${r.description}`;
@@ -804,13 +834,22 @@ const fetchGitHubCommitDigest = async (source: Source, since: Date): Promise<Ent
       .map((f) => `--- ${f.filename}\n${(f.patch ?? "").slice(0, 500)}`)
       .join("\n\n");
 
-    const geminiRes = await generateContentWithRetry({
-      model: "gemini-2.5-flash",
-      config: { thinkingConfig: { thinkingBudget: 0 } },
-      contents: `${COMMIT_SUMMARIZE_PROMPT}\n\nコミットメッセージ: ${commit.commit.message.split("\n")[0]}\n\n${patchSummary}`,
-    });
     const url = `https://github.com/${repoPath}/commit/${commit.sha}`;
-    const text = geminiRes.text?.trim() || commit.commit.message.split("\n")[0]!;
+    let text: string;
+    try {
+      const geminiRes = await generateContentWithRetry({
+        model: "gemini-2.5-flash",
+        config: { thinkingConfig: { thinkingBudget: 0 } },
+        contents: `${COMMIT_SUMMARIZE_PROMPT}\n\nコミットメッセージ: ${commit.commit.message.split("\n")[0]}\n\n${patchSummary}`,
+      });
+      text = geminiRes.text?.trim() || commit.commit.message.split("\n")[0]!;
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : String(err);
+      console.warn(
+        `commit summarize failed for ${commit.sha}, using message: ${msg.slice(0, 120)}`,
+      );
+      text = commit.commit.message.split("\n")[0]!;
+    }
     const rawLines = text
       .split("\n")
       .map((l) => l.replace(/^-\s*/, "").trim())
@@ -847,32 +886,32 @@ const buildDocsDigest = async (
       .join("\n\n");
     const commitUrl = `https://github.com/${repoPath}/commit/${commit.sha}`;
 
-    const geminiRes = await generateContentWithRetry({
-      model: "gemini-2.5-flash",
-      config: {
-        thinkingConfig: { thinkingBudget: 0 },
-        responseMimeType: "application/json",
-        responseSchema: {
-          type: Type.ARRAY,
-          items: {
-            type: Type.OBJECT,
-            properties: {
-              tag: { type: Type.STRING },
-              file: { type: Type.STRING },
-              text: { type: Type.STRING },
-            },
-            required: ["tag", "file", "text"],
-          },
-        },
-      },
-      contents: `${DOCS_COMMIT_PROMPT}\n\nコミットメッセージ: ${commit.commit.message.split("\n")[0]}\n\n${patchSummary}`,
-    });
-
     let parsed: { tag: string; file: string; text: string }[];
     try {
+      const geminiRes = await generateContentWithRetry({
+        model: "gemini-2.5-flash",
+        config: {
+          thinkingConfig: { thinkingBudget: 0 },
+          responseMimeType: "application/json",
+          responseSchema: {
+            type: Type.ARRAY,
+            items: {
+              type: Type.OBJECT,
+              properties: {
+                tag: { type: Type.STRING },
+                file: { type: Type.STRING },
+                text: { type: Type.STRING },
+              },
+              required: ["tag", "file", "text"],
+            },
+          },
+        },
+        contents: `${DOCS_COMMIT_PROMPT}\n\nコミットメッセージ: ${commit.commit.message.split("\n")[0]}\n\n${patchSummary}`,
+      });
       parsed = JSON.parse(geminiRes.text ?? "[]");
-    } catch {
-      console.warn(`Claude Code Docs: parse failed for ${commit.sha}`);
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : String(err);
+      console.warn(`Claude Code Docs: failed for ${commit.sha}: ${msg.slice(0, 120)}`);
       continue;
     }
 
