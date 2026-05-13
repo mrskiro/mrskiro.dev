@@ -1,0 +1,253 @@
+{
+  "fetchedAt": "2026-05-13T22:02:16.797Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Building a safe, effective sandbox to enable Codex on Windows",
+      "url": "https://openai.com/index/building-codex-windows-sandbox",
+      "summary": "OpenAIがWindows上で、ファイル・ネットワークアクセスを制限した安全なコーディングエージェント用サンドボックスを開発。",
+      "publishedAt": "2026-05-13",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/4YUb3Fcl0pX59NNvNBcorz/9d6800e02d977fbde37a34cbc48a49e3/SEO_images.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- [メガ・スレッド] アプリの山 - 2026年5月\n  https://www.reddit.com/r/macapps/comments/1t0rojv/megathread_the_app_pile_may_2026/\n- r/MacAppsのモデレーターはやりすぎた！変更点（フェーズ3）\n  https://www.reddit.com/r/macapps/comments/1ryaeex/rmacapps_mods_went_too_far_whats_changing_phase_3/\n- [OS] AIでmacOSアプリアイコンを生成するツール（無料、オープンソース）\n  https://www.reddit.com/r/macapps/comments/1tbyqu4/os_a_tool_for_generating_macos_app_icons_with_ai/\n- DockDoor Pro - Appleが作らなかったDock\n  https://www.reddit.com/r/macapps/comments/1tc5cnc/dockdoor_pro_the_dock_apple_wouldnt_build/\n- Shiori - メニューバー常駐型ブックマークマネージャー。デバイス間で完全クラウド同期、キーボード操作、マルチプラットフォーム対応。\n  https://www.reddit.com/r/macapps/comments/1tbylov/shiori_a_bookmark_manager_that_lives_in_your_menu/\n- 私のMacアプリがSetappで利用可能に\n  https://www.reddit.com/r/macapps/comments/1tbybtk/my_mac_apps_are_now_available_on_setapp/\n- talat - ローカルでのリアルタイム会議文字起こしと要約\n  https://www.reddit.com/r/macapps/comments/1tbxvgf/talat_local_realtime_meeting_transcription_and/\n- RAMがどこで消費されているか正確に確認できるアプリはありますか？\n  https://www.reddit.com/r/macapps/comments/1tcb5n1/is_there_an_app_to_see_exactly_where_my_ram_is/\n- Grambo v2登場 — 皆様のフィードバックを基に開発！\n  https://www.reddit.com/r/macapps/comments/1tc00d2/grambo_v2_is_here_built_with_your_feedback/\n- 1週間で77スターを獲得。Switch: アプリではなくウィンドウを切り替える⌘-Tab（無料、ソース公開）\n  https://www.reddit.com/r/macapps/comments/1tbc7me/77_stars_in_a_week_switch_tab_that_cycles_windows/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-05-14"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- Redditに新たな人間認証システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackersサブレディットの新ルール – クオリティ向上を目指して\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- SaaS料金を半額に、主要機能を無料化 – 同様の戦略をとった企業のその後は？\n  https://www.reddit.com/r/indiehackers/comments/1tbw8w4/cut_our_saas_pricing_in_half_today_and_made_our/\n- 社内ドキュメントから質問に答えるAI Slackボットを開発、ベータ版利用企業を5社募集\n  https://www.reddit.com/r/indiehackers/comments/1tbu97g/i_built_an_ai_slack_bot_that_answers_questions/\n- 104枚のイラスト入りカードで海賊ルートボックスゲームを制作 – フィードバック募集中\n  https://www.reddit.com/r/indiehackers/comments/1tc47dk/built_a_pirate_loot_box_game_with_104_illustrated/\n- Script7の顧客離反予測ツールを開発、リテンションへの考え方が変わった – あなたも使ってみませんか？\n  https://www.reddit.com/r/indiehackers/comments/1tbk21h/i_built_an_internal_tool_to_predict_churn_for/\n- AI検索エンジン向け最適化はまだ手付かず – 他社に先駆けて上位表示する方法\n  https://www.reddit.com/r/indiehackers/comments/1tbboc9/nobody_is_optimizing_for_ai_search_engines_yet/\n- もし30日間でSaaSから250ドル稼ぐとしたら、今日何を作る？\n  https://www.reddit.com/r/indiehackers/comments/1tb48ra/if_you_had_30_days_to_make_250_from_saas_what/\n- 無料トライアルに申し込むも、未来の自分に頼りすぎる人向けの無料ツールを開発\n  https://www.reddit.com/r/indiehackers/comments/1tb2u2g/i_built_a_free_tool_for_people_who_sign_up_for/\n- SEOの知識がないソロファウンダー向け – 本当に重要なこととは？\n  https://www.reddit.com/r/indiehackers/comments/1taqrji/seo_for_solo_founders_who_have_no_idea_what/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-05-14"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI、進行中のメガトレンドをリストアップ\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Claude Code、週ごとの上限を50%引き上げ、7月13日まで適用\n  https://www.reddit.com/r/ClaudeAI/comments/1tc9oa0/claude_code_weekly_limits_are_increasing_50_now/\n- Claude Code、ターミナルユーザー向けチップス（シニア開発者より）\n  https://www.reddit.com/r/ClaudeAI/comments/1tbwwel/claude_code_tips_for_terminal_users_from_a_senior/\n- Anthropic、中小企業向けにClaudeをリリース\n  https://www.reddit.com/r/ClaudeAI/comments/1tc4jwp/anthropic_releases_claude_for_small_business/\n- 競合すらも認める\n  https://www.reddit.com/r/ClaudeAI/comments/1tc5fcy/even_the_competition_approves/\n- AI導入前と後でのコーディングの違い\n  https://www.reddit.com/r/ClaudeAI/comments/1tbrs6b/the_difference_between_coding_before_ai_and_after/\n- 「Claudeスープ」は職場でのパンデミックになっているのか？ 同僚がレビューなしのAI出力を完成品として提出した場合、どう対応しますか？\n  https://www.reddit.com/r/ClaudeAI/comments/1tbznju/is_claude_soup_becoming_a_workplace_epidemic_how/\n- Claude、お疲れか？\n  https://www.reddit.com/r/ClaudeAI/comments/1tc3pzq/claude_getting_tired/\n- ご武運を！\n  https://www.reddit.com/r/ClaudeAI/comments/1tc0vdx/godspeed/\n- Anthropic、専門分野プラグインと9つの主要な法律プラットフォームへのMCPコネクタを備えたClaude For Legalを発表\n  https://www.reddit.com/r/ClaudeAI/comments/1tbvje0/anthropic_launches_claude_for_legal_with/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-05-14"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1353pt] Bambu Lab、オープンソースの社会契約を悪用している | Bambu Labのクローズドエコシステムやユーザーデータを巡るプライバシー問題、過去のLANモード対応への不信感など、同社の姿勢に批判の声が多数\n  https://news.ycombinator.com/item?id=48109224\n- [1082pt] 事後分析: TanStack NPM サプライチェーン侵害 | トークン失効時の注意喚起や、CIパイプラインのセキュリティ、postinstallスクリプトの危険性、Trusted Publishingの限界についての議論\n  https://news.ycombinator.com/item?id=48100706\n- [899pt] Googlebook | Googlebookのコンセプトやターゲット層への疑問、Androidデスクトップモードとの類似性、Google Linuxへの期待、Pixelbookへの惜しむ声など様々な意見\n  https://news.ycombinator.com/item?id=48111545\n- [830pt] デジタルスタックをヨーロッパに移行 | デジタルインフラをEUに移行する動きに対して、EUの規制や米国との協力関係、そして自己ホスティングの重要性についてのコメント\n  https://news.ycombinator.com/item?id=48120629\n- [761pt] シニア開発者が専門知識を伝えるのに失敗する理由 | シニア開発者の専門知識が属人化しがちな点、不必要な開発を避ける思考、PoCが製品化しやすい傾向、そして若手開発者のメンターへの無関心さについて議論\n  https://news.ycombinator.com/item?id=48109460\n- [693pt] 古いデスクトップOSのスクリーンショット | 古いUnix GUIの使い勝手、スクロールバーの視認性の悪さ、失われた機能、そしてGeOSやLinuxデスクトップに関する言及の不足についてのコメント\n  https://news.ycombinator.com/item?id=48104428\n- [636pt] Bambu LabプリンターのBambuNetworkサポートを完全に復元 | Bambu Labが当初の機能を削除したことへの強い批判、以前のレポジトリのクローンである可能性、LANモードに関する過去の経緯、そして他社製品との比較コメント\n  https://news.ycombinator.com/item?id=48115127\n- [624pt] Show HN: Needle: Geminiツールコーリングを26Mモデルに凝縮 | モデルの差別化能力に関する質問、コマンドラインツールへの応用可能性、Googleの反応への懸念、ライブデモの要望など、モデルの活用と課題に関するコメント\n  https://news.ycombinator.com/item?id=48111896\n- [583pt] ソフトウェアアーキテクチャの学習 | ソフトウェア設計の原則、大規模プロジェクトの維持経験の重要性、実例から学ぶ方法、そしてジュニア開発者への教育アプローチに関する意見\n  https://news.ycombinator.com/item?id=48106024\n- [560pt] 「ゼイリブ (1988)」にインスパイアされたアドブロッカー | 映画に触発されたアドブロックのアイデアに対する高い評価、過去の広告ブロック実装例、他のAR技術との関連性など、好意的なコメント\n  https://news.ycombinator.com/item?id=48102700",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-05-14"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "12 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Notion、ワークスペースをAIエージェントのハブに転換\n  https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/\n- Musk氏率いるxAI、ミシシッピ州のデータセンターで50基近くのガスタービンを無許可稼働\n  https://techcrunch.com/2026/05/13/musks-xai-is-running-nearly-50-gas-turbines-unchecked-at-its-mississippi-data-center/\n- AnthropicのCat Wu氏、AIは将来、ユーザーが意識する前にニーズを予測すると語る\n  https://techcrunch.com/2026/05/13/anthropics-cat-wu-says-that-in-the-future-ai-will-anticipate-your-needs-before-you-know-what-they-are/\n- Sam Altmanは誰に信頼されているのか？\n  https://techcrunch.com/2026/05/13/who-trusts-sam-altman/\n- Origin Labが800万ドルを調達、ゲーム会社がデータ売却で世界モデル構築支援へ\n  https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders/\n- Anthropic、中小企業オーナーという新たな顧客層を開拓\n  https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/\n- Amazon、検索バーにAlexa+搭載のAIショッピングアシスタントを導入\n  https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa/\n- Andurilが50億ドル調達、評価額は倍増し610億ドルに\n  https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/\n- Rampデータによると、Anthropicの法人顧客数がOpenAIを上回る\n  https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/\n- TechCrunch Disrupt 2026の6つのステージを発表 — 厳しさ増すスタートアップ市場に対応\n  https://techcrunch.com/2026/05/13/introducing-the-6-stages-of-techcrunch-disrupt-2026-built-for-todays-tougher-startup-market/\n- WhatsApp、Meta AIチャットにシークレットモードを追加\n  https://techcrunch.com/2026/05/13/whatsapp-adds-an-incognito-mode-in-meta-ai-chats/\n- Poppy、デジタルライフを整理するプロアクティブAIアシスタントを発表\n  https://techcrunch.com/2026/05/13/poppy-debuts-a-proactive-ai-assistant-to-help-organize-your-digital-life/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-05-14"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- BossHogg — PostHogアナリティクスと機能フラグに対応するエージェントファーストCLI\n  https://www.producthunt.com/products/bosshogg\n- CraftBot with Living UI — 成長する生きたソフトウェアを開発\n  https://www.producthunt.com/products/craftbot\n- Vibespace — マルチエージェントコラボレーションのためのワークスペース\n  https://www.producthunt.com/products/vibespace\n- Apideck MCP Server — AIエージェントが200以上のアプリでリアルタイムデータにアクセス可能に\n  https://www.producthunt.com/products/apideck\n- Blaze 2.0 — 中小企業向けAIマーケター、戦略・コンテンツ・広告まで完備\n  https://www.producthunt.com/products/blaze-5\n- Mi — バグ修正とリファクタリングのための30行ゼロコンフィグCLIエージェント\n  https://www.producthunt.com/products/mi\n- Blurto — 思考をタスク、メモ、アイデアなどに分類\n  https://www.producthunt.com/products/blurto\n- PitchDrop.ai — ピッチを商談に勝つライブブランドURLに変換\n  https://www.producthunt.com/products/pitchdrop-ai\n- Crade AI — 画面を見ることができるChatGPT\n  https://www.producthunt.com/products/crade\n- Ota — 契約ファーストのリポジトリ対応インフラ\n  https://www.producthunt.com/products/ota",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-05-14"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Introducing Claude for Small Business",
+      "url": "https://www.anthropic.com/news/claude-for-small-business",
+      "summary": "中小企業向けに、日常業務ツールにClaudeを組み込むパッケージ「Claude for Small Business」を提供開始。",
+      "ogImage": null,
+      "publishedAt": "2026-05-14"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "2 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Auxos：顧客調査に仮想オーディエンスを活用\n  https://www.useauxos.com\n- AbInitio Bio：創薬開発のインテリジェンスレイヤー\n  https://www.abinitio-bio.com",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-05-14"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] The End of Finetuning",
+      "url": "https://www.latent.space/p/ainews-the-end-of-finetuning",
+      "summary": "OpenAIがファインチューニングAPIの提供を終了する中、AIエージェントの機能向上や効率的な学習・推論技術の進化、そして小型モデルによる特定タスクでの高性能化が進んでいる。",
+      "publishedAt": "2026-05-13",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!ioj8!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6915f95-7d03-4a7d-81b1-df255b9debcb_1192x1422.png"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "23 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-05-14",
+      "docsUpdates": [
+        {
+          "tag": "Improved",
+          "file": "admin-setup.md",
+          "text": "APIプロバイダーの選択が、開発者が利用できるClaude Codeの機能にも影響を与えることが明確になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a49b0cae936175ed70e9e133396407a9d25f8554"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__modifying-system-prompts.md",
+          "text": "出力スタイルの作成について、メタデータ用のfrontmatterに関する詳細が追加され、出力スタイルの構成がより明確になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a49b0cae936175ed70e9e133396407a9d25f8554"
+        },
+        {
+          "tag": "Improved",
+          "file": "memory.md",
+          "text": "CLAUDE.mdファイルの配置場所について、ロード順序が広範なスコープから特定のスコープへと説明が改善されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a49b0cae936175ed70e9e133396407a9d25f8554"
+        },
+        {
+          "tag": "Improved",
+          "file": "output-styles.md",
+          "text": "出力スタイルはClaudeのコア機能（スクリプトの実行、ファイルの読み書き、TODOの追跡など）を維持しつつ、システムプロンプトを変更して役割、トーン、出力形式を設定する機能があることを明確にしました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a49b0cae936175ed70e9e133396407a9d25f8554"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__overview.md",
+          "text": "2026年6月15日より、Agent SDKと`claude -p`の使用は、インタラクティブな使用制限とは別に、新しい月額Agent SDKクレジットから引き落とされるようになります。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eb55c25f6aa5549160d02ea52602deef808a268c"
+        },
+        {
+          "tag": "Added",
+          "file": "authentication.md",
+          "text": "2026年6月15日より、Agent SDKと`claude -p`の使用は、インタラクティブな使用制限とは別に、新しい月額Agent SDKクレジットから引き落とされるようになります。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eb55c25f6aa5549160d02ea52602deef808a268c"
+        },
+        {
+          "tag": "Improved",
+          "file": "commands.md",
+          "text": "`/theme`コマンドの説明が改善され、カスタムテーマの作成方法も含まれるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eb55c25f6aa5549160d02ea52602deef808a268c"
+        },
+        {
+          "tag": "Changed",
+          "file": "fast-mode.md",
+          "text": "Fast modeの料金表示が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eb55c25f6aa5549160d02ea52602deef808a268c"
+        },
+        {
+          "tag": "Changed",
+          "file": "headless.md",
+          "text": "2026年6月15日より、Agent SDKと`claude -p`の使用は、インタラクティブな使用制限とは別に、新しい月額Agent SDKクレジットから引き落とされるようになります。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eb55c25f6aa5549160d02ea52602deef808a268c"
+        },
+        {
+          "tag": "Added",
+          "file": "legal-and-compliance.md",
+          "text": "2026年6月15日より、Agent SDKと`claude -p`の使用は、インタラクティブな使用制限とは別に、新しい月額Agent SDKクレジットから引き落とされるようになります。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eb55c25f6aa5549160d02ea52602deef808a268c"
+        },
+        {
+          "tag": "Changed",
+          "file": "ultrareview.md",
+          "text": "Ultrareviewの料金表から、プランごとの無料実行期間に関する情報が削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eb55c25f6aa5549160d02ea52602deef808a268c"
+        },
+        {
+          "tag": "Added",
+          "file": "claude-code-on-the-web.md",
+          "text": "Auto-fixはPRごとのトグルであり、監視を停止するにはウェブセッションのCIステータスバーでAuto-fixトグルをクリアするか、ClaudeにPRの監視を停止するように指示します。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b237cf175d93ace4cd3ba712babc1f35f25a70d6"
+        },
+        {
+          "tag": "Improved",
+          "file": "model-config.md",
+          "text": "Max、Team、EnterpriseプランではOpusが自動的に1Mコンテキストにアップグレードされるが、Sonnetの1Mコンテキストは自動アップグレードの対象外であることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b237cf175d93ace4cd3ba712babc1f35f25a70d6"
+        },
+        {
+          "tag": "Added",
+          "file": "server-managed-settings.md",
+          "text": "v2.1.139以降、`claude auth login`などの`claude auth`サブコマンドは、資格情報の期限切れが原因で設定取得が失敗した場合にユーザーが再認証できるように、このチェックの対象外となりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b237cf175d93ace4cd3ba712babc1f35f25a70d6"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__skills.md",
+          "text": "Skillsの検出に関する説明が明確化され、デフォルトのquery()オプションを使用する場合とsettingSourcesを明示的に設定する場合の両方で、ユーザーおよびプロジェクトのスキルソースがどのようにロードされるかが具体的に記述されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/72a98558169dab8209dbfd924f6b63a4217e533f"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-view.md",
+          "text": "Agent viewでのバックグラウンドセッションの挙動に関する説明が更新され、各セッションが端末に接続されていなくてもバックグラウンドで実行され続けることが強調されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/72a98558169dab8209dbfd924f6b63a4217e533f"
+        },
+        {
+          "tag": "Improved",
+          "file": "claude-code-on-the-web.md",
+          "text": "クラウドセッションがGitHubリポジトリにアクセスする方法に関する説明が更新され、GitHub Appまたは個人用アクセストークンの使用に関する詳細が提供されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/72a98558169dab8209dbfd924f6b63a4217e533f"
+        },
+        {
+          "tag": "Added",
+          "file": "discover-plugins.md",
+          "text": "管理者は、各extraKnownMarketplacesエントリに\"autoUpdate\": trueを設定することで、組織のマーケットプレイスの自動更新を有効にできる機能が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/72a98558169dab8209dbfd924f6b63a4217e533f"
+        },
+        {
+          "tag": "Added",
+          "file": "fast-mode.md",
+          "text": "Fast modeをOpus 4.6に明示的に固定するためのCLAUDE_CODE_OPUS_4_6_FAST_MODE_OVERRIDE環境変数が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/72a98558169dab8209dbfd924f6b63a4217e533f"
+        },
+        {
+          "tag": "Improved",
+          "file": "goal.md",
+          "text": "/goalコマンドが利用できない条件に関する説明が更新され、disableAllHooksが設定されている場合やallowManagedHooksOnlyが管理設定で設定されている場合も含まれるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/72a98558169dab8209dbfd924f6b63a4217e533f"
+        },
+        {
+          "tag": "Changed",
+          "file": "permissions.md",
+          "text": "--add-dirディレクトリからロードされる設定タイプに関する説明が更新され、subagents、commands、output styles、hooksなどの他の設定は現在の作業ディレクトリと親、ユーザーディレクトリ、および管理設定からのみ検出されることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/72a98558169dab8209dbfd924f6b63a4217e533f"
+        },
+        {
+          "tag": "Improved",
+          "file": "plugins-reference.md",
+          "text": "プラグインがデフォルトフォルダと対応するマニフェストキーの両方を持つ場合に、Claude Code v2.1.140以降で無視されるフォルダが`/doctor`などでフラグ付けされるようになったことが説明されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/72a98558169dab8209dbfd924f6b63a4217e533f"
+        },
+        {
+          "tag": "Improved",
+          "file": "skills.md",
+          "text": "ネストされたディレクトリからのスキル自動検出の説明が更新され、親ディレクトリもスキル検出の対象となることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/72a98558169dab8209dbfd924f6b63a4217e533f"
+        },
+        {
+          "tag": "Fixed",
+          "file": "web-quickstart.md",
+          "text": "GitHub接続後にリポジトリが表示されない問題のトラブルシューティング手順が修正され、クラウドセッションは接続されたGitHubアカウントが見ることができる任意のリポジトリを使用できることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/72a98558169dab8209dbfd924f6b63a4217e533f"
+        },
+        {
+          "tag": "Changed",
+          "file": "worktrees.md",
+          "text": "ワークツリーセッション終了時のクリーンアップ挙動が変更され、変更がない場合でもセッションに名前が付けられている場合はワークツリーを保持するか削除するかのプロンプトが表示されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/72a98558169dab8209dbfd924f6b63a4217e533f"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "1 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- Copilotのクラウドエージェントタスク、REST API経由で起動可能に\n  https://github.blog/changelog/2026-05-13-start-copilot-cloud-agent-tasks-via-the-rest-api",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-05-14"
+    }
+  ]
+}
