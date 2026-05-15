@@ -1,0 +1,203 @@
+{
+  "fetchedAt": "2026-05-15T21:44:44.021Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "A new personal finance experience in ChatGPT",
+      "url": "https://openai.com/index/personal-finance-chatgpt",
+      "summary": "ChatGPT Proユーザー向けに、財務データを連携してAIによるパーソナルな金融アドバイスを提供する新機能を先行公開。",
+      "publishedAt": "2026-05-15",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/LOx9hwb9FayMVDsvnMHBI/a50d14deb15ce97f1ae869a7e4afc964/SEO-Personal-Finance.jpg?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.142",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
+      "summary": "- [Added] ディスパッチされたバックグラウンドセッションを設定するための新しいClaude Agentsフラグ --add-dir, --settings, --mcp-config, --plugin-dir, --permission-mode, --model, --effort, および --dangerously-skip-permissions を追加。\n- [Changed] FastモードはデフォルトでOpus 4.7を使用するようになりました（以前はOpus 4.6）。FastモードをOpus 4.6に固定するには、CLAUDE_CODE_OPUS_4_6_FAST_MODE_OVERRIDE=1を設定します。\n- [Added] ルートレベルにSKILL.mdがあり、skills/サブディレクトリがないプラグインがスキルとして表示されるようになりました。\n- [Improved] /pluginの詳細ペインとClaude Pluginの詳細に、プラグインが提供するLSPサーバーが表示されるようになりました。\n- [Improved] /web-setupが既存のGitHub App接続を置き換える前に警告を表示するようになりました。\n- [Fixed] MCP_TOOL_TIMEOUTがリモートHTTPおよびSSE MCPサーバーの要求ごとのフェッチタイムアウトを延長せず、設定値に関わらずツール呼び出しが60秒に制限されていた問題を修正。\n- [Fixed] バックグラウンドセッションが既存のgit worktreeを認識せず、EnterWorktreeが重複作成を拒否している間にEditをブロックしていた問題を修正。\n- [Fixed] macOSのスリープ/復帰後にバックグラウンドセッションが消え、デーモンの再接続が失敗していた問題を修正。デーモンは経過アイドル時間としてではなく、クロックのジャンプを検出するようになりました。\n- [Fixed] バイナリのアップグレード（例: brew upgrade）後にデーモンが正常に終了せず、ディスパッチされたエージェントが削除されたパスでクラッシュループを引き起こしていた問題を修正。\n- [Fixed] Claude-in-Chrome拡張機能が共有タブなしで接続されている場合に、バックグラウンドエージェントがクラッシュループしていた問題を修正。\n- [Fixed] アタッチされたClaude Agentsセッションでリンクをクリックする問題を修正。バックグラウンドワーカーのヘッドレスブラウザshimはアタッチ中は適用されなくなりました。\n- [Fixed] Claude Agentsの「vを押してエディターで開く」が、シェルの$EDITOR/$VISUALではなくデーモンのデフォルトエディターを使用していた問題を修正。\n- [Fixed] ネットワークドライブの作業ディレクトリを使用しているWindowsでClaude Agentsがデッドロックする問題を修正。起動中にCtrl+Cが機能するようになりました。\n- [Fixed] Apple Terminalまたはその他の256色のみのターミナルからClaude Agentsセッションにアタッチする際の背景色のにじみを修正。\n- [Fixed] claude --bg --dangerously-skip-permissionsがretire/wake後も保持されなかった問題を修正。\n- [Fixed] 最初のメッセージがリンクの場合に、セッションタイトルがURLから派生していた問題を修正。\n- [Fixed] リモートクライアントからの冗長なset_modelリクエストが、重複した/modelブレッドクラムをトランスクリプトに挿入していた問題を修正。\n- [Fixed] skills: [\"./\"]を使用するプラグインが誤った「path escapes plugin directory」エラーを表示していた問題を修正。\n- [Fixed] プラグインキャッシュのクリーンアップが、インストールメタデータが存在しない場合にアクティブなプラグインバージョンのディレクトリを削除していた問題を修正。\n- [Fixed] /plugin browseペインで新しく公開されたプラグインに対して「0 installs」と表示されていた問題を修正。\n- [Fixed] プラグインのアドバイザリが、デフォルトフォルダをシャドウするすべてのplugin.jsonキーに名前を付けていなかった問題を修正。\n- [Improved] リアクティブな圧縮を改善：最初の要約試行が元のリクエストのオーバーフローサイズからシードされるようになり、無駄なほぼフルコンテキストの再試行を回避できるようになりました。\n- [Improved] フック構成エラーを改善：SessionStart/Setup/SubagentStartに対してプロンプトまたはエージェントタイプのフックを構成すると、「代わりにコマンドタイプのフックを使用してください」という明確なエラーが表示されるようになりました。\n- [Changed] 使用ポリシー拒否メッセージから、古くなった/model claude-sonnet-4-20250514の提案を削除。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-05-15"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- [メガ・スレッド] アプリの山 - 2026年5月\n  https://www.reddit.com/r/macapps/comments/1t0rojv/megathread_the_app_pile_may_2026/\n- r/MacAppsのモデレーターが行き過ぎた！変更点とは（フェーズ3）\n  https://www.reddit.com/r/macapps/comments/1ryaeex/rmacapps_mods_went_too_far_whats_changing_phase_3/\n- サイドバーカレンダー、1年と70回のアップデートを経て\n  https://www.reddit.com/r/macapps/comments/1te7q2d/sidebar_calendar_1_year_and_70_updates_later/\n- Raybeam - macOSでの画面共有をより良くする\n  https://www.reddit.com/r/macapps/comments/1te6mki/raybeam_a_better_way_to_screen_share_on_macos/\n- 画面の一部を監視し、変化があったら通知するMacメニューバーアプリ\n  https://www.reddit.com/r/macapps/comments/1tdrsjf/mac_menu_bar_app_that_watches_any_part_of_your/\n- ReTab 3.0 — SafariのタブスイッチャーをmacOSのCmd+Tabのように再構築しました\n  https://www.reddit.com/r/macapps/comments/1te363h/retab_30_i_rebuilt_my_safari_tab_switcher_to_feel/\n- [OS] Ice: 未管理のメニューバーマネージャー、競合を凌駕し続ける\n  https://www.reddit.com/r/macapps/comments/1tdlqeb/os_ice_the_unmanaged_menu_bar_manager_that_is/\n- AppleのCMのようなデモが作れるスクリーンレコーダーを作ってみた\n  https://www.reddit.com/r/macapps/comments/1tcrf24/i_made_a_screen_recorder_that_makes_your_demos/\n- Airspace: macOSの不満点を磨き上げた解決策\n  https://www.reddit.com/r/macapps/comments/1td95l0/airspace_a_polished_fix_for_a_macos_friction_point/\n- おすすめのニュース/Reddit/メディアリーダーアプリは？\n  https://www.reddit.com/r/macapps/comments/1td01q6/what_are_some_cool_news_reddit_media_reader_apps/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-05-16"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- サブレディットに新たな人間認証システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackersサブレディットの新ルール – クオリティを取り戻す\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- 花金シェアフィーバー 🕺 プロジェクトを共有しよう！\n  https://www.reddit.com/r/indiehackers/comments/1te2qi7/friday_share_fever_lets_share_your_project/\n- 10以上の言語でApp Storeのスクリーンショットを手動作成するのにうんざりして、自動化エージェントを開発しました！\n  https://www.reddit.com/r/indiehackers/comments/1tdwrfs/i_was_tired_of_manually_creating_app_store/\n- 1ヶ月間のパブリック開発記：ウェイティングリスト登録者数0から128へ。実際に効果があったこと\n  https://www.reddit.com/r/indiehackers/comments/1tdpg1s/month_1_building_in_public_0_to_128_waitlist/\n- 昨日Product Huntで5位を獲得しました。その舞台裏と結果を公開\n  https://www.reddit.com/r/indiehackers/comments/1tdt6s9/we_got_5_on_product_hunt_yesterday_heres_the_real/\n- 自己宣伝は苦手ですが、ついに本日ローンチしました😅\n  https://www.reddit.com/r/indiehackers/comments/1tcu6em/i_hate_selfpromoting_but_we_finally_launched_this/\n- 104枚のイラストカードを使った海賊のルートボックスゲームを開発しました – フィードバックを募集しています\n  https://www.reddit.com/r/indiehackers/comments/1tc47dk/built_a_pirate_loot_box_game_with_104_illustrated/\n- 本日、SaaSの価格を半額にし、メイン機能を無料にしました。同様の変更を行った方々の経験談を知りたいです\n  https://www.reddit.com/r/indiehackers/comments/1tbw8w4/cut_our_saas_pricing_in_half_today_and_made_our/\n- 社内ドキュメントから質問に答えるAI Slackボットを開発。ベータ版利用ワークスペースを5社募集\n  https://www.reddit.com/r/indiehackers/comments/1tbu97g/i_built_an_ai_slack_bot_that_answers_questions/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-05-16"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI、主要スレッドをまとめた「Megathreads」リストを公開\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Claude Codeの週間利用制限、7月13日まで50%増量\n  https://www.reddit.com/r/ClaudeAI/comments/1tc9oa0/claude_code_weekly_limits_are_increasing_50_now/\n- Claude、Dunder Mifflinでの初日\n  https://www.reddit.com/r/ClaudeAI/comments/1tdyrdv/claudes_first_day_at_dunder_mifflin/\n- Claudeがセッション中にユーザーに「寝るように」指示、Anthropic含め原因不明\n  https://www.reddit.com/r/ClaudeAI/comments/1te0mhh/claude_is_telling_users_to_go_to_sleep_midsession/\n- 利用制限がリセット！私の分は今夜のはずだったのに\n  https://www.reddit.com/r/ClaudeAI/comments/1te40i2/they_just_reset_our_usage_mine_was_supposed_to_be/\n- 「君が幸せならそれでいい」AI、平和の象徴か？\n  https://www.reddit.com/r/ClaudeAI/comments/1tdo4m6/whatever_makes_you_happy_ahh_ai/\n- 週次/セッション利用制限、リセット完了\n  https://www.reddit.com/r/ClaudeAI/comments/1te42vp/weekly_session_limits_just_reset/\n- Claude Mythos、MacOSを5日間で攻略\n  https://www.reddit.com/r/ClaudeAI/comments/1tdr1o7/claude_mythos_has_cracked_macos_it_took_5_days/\n- AIとの頻繁な対話で思考が明晰に、コミュニケーション能力も向上\n  https://www.reddit.com/r/ClaudeAI/comments/1te4w3q/talking_to_ai_all_the_time_has_unexpectedly_made/\n- 彼、もう1時間近く編集してるよ。\n  https://www.reddit.com/r/ClaudeAI/comments/1te033e/bros_been_editing_for_almost_an_hour/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-05-16"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1040pt] 2024年型RAV4ハイブリッドからモデムとGPSを取り外す | ModemやGPSを外してもBluetooth経由でデータが送信される可能性が指摘され、他の車種での対策例も共有されています。\n  https://news.ycombinator.com/item?id=48138136\n- [685pt] BunのRustによる書き換えがマージされる | 1週間での書き換えに驚きの声が上がり、Rustコードの量や安全性、パフォーマンスへの期待が語られています。\n  https://news.ycombinator.com/item?id=48132488\n- [674pt] RTX 5090とM4 MacBook Air：ゲームはできるのか？ | ゲーム性能よりもLLMの性能向上に関心が集まり、eGPUサポートを求める声が多く見られます。\n  https://news.ycombinator.com/item?id=48137145\n- [610pt] Kornbluth学長からの資金調達と人材パイプラインに関するメッセージ | 研究資金や国際学生に関する懸念、アカデミアに対する幻滅、そしてAIや中国の影響など、多岐にわたる議論が交わされています。\n  https://news.ycombinator.com/item?id=48136262\n- [604pt] arXivの新しいポリシー：虚偽の参考文献に対して1年間の利用禁止 | このポリシー変更は科学にとって良いと肯定的に受け止められていますが、BibTeX作成の簡素化を求める声もあります。\n  https://news.ycombinator.com/item?id=48140922\n- [552pt] プロジェクト・グーテンベルク – 改善が続く | サイトの改善に感謝の声が上がる一方で、一部地域でのアクセス制限や、電子書籍リーダーでの統合不足が指摘されています。\n  https://news.ycombinator.com/item?id=48150431\n- [547pt] Mullvadの出口IPは驚くほど識別可能である | Mullvadの共同設立者が一部の挙動は意図的だと説明。VPNの目的と匿名性の限界について議論されています。\n  https://news.ycombinator.com/item?id=48143880\n- [531pt] 中小企業向けClaude | ClaudeのようなAIを一般ユーザーに使いやすくするUIの必要性が強調され、請求書処理の自動化への期待が寄せられています。\n  https://news.ycombinator.com/item?id=48130950\n- [528pt] AIのせいで頭が悪くなっている | AIによるコーディングで自力でコードを書く能力が低下することへの懸念や、AIをソクラテス式に活用する提案がされています。\n  https://news.ycombinator.com/item?id=48139148\n- [480pt] 英国政府がPalantirのソフトウェアを自社開発の難民システムに置き換え | Palantirのソフトウェアが高価で、その効果に疑問を持つ声や、政府が自社開発に舵を切ったことを評価するコメントが見られます。\n  https://news.ycombinator.com/item?id=48142251",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-05-16"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "6 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- シリコンバレーの別荘地、電力不足に直面 AI需要が価格高騰を加速\n  https://techcrunch.com/2026/05/15/silicon-valleys-vacationland-needs-a-new-energy-provider-just-as-ai-is-driving-prices-up/\n- OpenAI、個人資産管理版ChatGPTを発表 銀行口座連携も可能に\n  https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/\n- Runway、映像制作支援からAI分野へ進出 Googleとの競争に挑む\n  https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/\n- Meridian Ventures、MBA入学延期中の創業者向けに3500万ドルのファンドを設立\n  https://techcrunch.com/2026/05/15/meridian-ventures-launched-35m-fund-to-back-mba-deferred-founders/\n- Osaurus、Mac向けにローカル・クラウドAIモデルを提供開始\n  https://techcrunch.com/2026/05/15/osaurus-brings-both-local-and-cloud-ai-models-to-your-mac/\n- イーロン・マスク対サム・アルトマン裁判、陪審員は何を判断するのか\n  https://techcrunch.com/2026/05/14/what-the-jury-will-actually-decide-in-the-case-of-elon-musk-vs-sam-altman/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-05-16"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Fragments: May 14",
+      "url": "https://martinfowler.com/fragments/2026-05-14.html",
+      "summary": "エージェントプログラミングの台頭で、LLMを活用したコード移植や仕様レビュー、レガシーシステム移行、多地域対応システムの開発など、ソフトウェア開発における新たな可能性と課題が議論された。",
+      "publishedAt": "2026-05-15",
+      "ogImage": "https://martinfowler.com/logo-sq.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- PHBench — Product Huntのローンチから次のシリーズAを予測\n  https://www.producthunt.com/products/vela-terminal\n- HasData — AIエージェント向けウェブスクレイピングサービス\n  https://www.producthunt.com/products/hasdata\n- Glance — .mdファイルをクイックルックで即座にプレビュー\n  https://www.producthunt.com/products/glance-native-macos-markdown-viewer\n- Gradient Bang — LLMと会話してプレイする大規模マルチプレイヤーゲーム\n  https://www.producthunt.com/products/gradient-bang\n- Cleo AI — AIネイティブチーム向けAIプロダクトオペレーター\n  https://www.producthunt.com/products/cleo-ai\n- Magic Notebook — 複雑さやAIのない、落ち着いたライティングアプリ\n  https://www.producthunt.com/products/magic-notebook\n- Relay — すべてのAIに同じことを繰り返すのをやめる\n  https://www.producthunt.com/products/relay-15\n- DramaBox by Resemble AI — AIがシーン記述を音声パフォーマンスに変換\n  https://www.producthunt.com/products/resemble-clone\n- Nimbus — Claude Code UX搭載エージェントブラウザ\n  https://www.producthunt.com/products/nimbus-10\n- Kimi WebBridge — AIエージェントとライブウェブを繋ぐ架け橋\n  https://www.producthunt.com/products/kimi-ai-assistant",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-05-16"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "4 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- GUILD、防衛サプライチェーンを再構築する「Neoprime」を発表\n  https://www.guildai.co\n- Incandor、詐欺対策と信頼性・安全性向上へ行動インテリジェンス基盤を提供\n  https://www.incandor.com\n- Hexa、製造業者と流通業者のためのOSを発表\n  https://www.hexaagents.com\n- Advanced Metal Research、米国溶接業界に機械知能を導入\n  https://advancedmetalresearch.com/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-05-16"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Everything is Conductor",
+      "url": "https://www.latent.space/p/ainews-everything-is-conductor",
+      "summary": "OpenAIがChatGPTモバイルアプリにコーディングエージェント機能「Codex」を導入し、GitHubやLangChainも開発者向けの新ツールを発表した。",
+      "publishedAt": "2026-05-15",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!-UVS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc44b00aa-b057-4698-a9c6-f8e73c7aaaf7_2289x1342.jpeg"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "AI-Native Healthcare: 100M Doctor Visits, 10–20 Hours Saved, Prior Auth in Minutes — Janie Lee & Chai Asawa, Abridge",
+      "url": "https://www.latent.space/p/abridge",
+      "summary": "Abridgeは、医療機関の電子カルテシステムと連携し、AIを活用して診療中の会話から医療記録の自動作成、臨床意思決定支援、保険事前承認などの機能を提供する臨床インテリジェンスプラットフォームを提供。",
+      "publishedAt": "2026-05-15",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!I8Ku!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F197417280%2F4d1e0745-9d32-4043-9bd5-c94b416a5b28%2Ftranscoded-1778626918.png"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "13 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-05-16",
+      "docsUpdates": [
+        {
+          "tag": "Improved",
+          "file": "amazon-bedrock.md",
+          "text": "小規模/高速モデルのAWSリージョンを上書きする設定は、BedrockとMantleの両方に適用され、ANTHROPIC_DEFAULT_HAIKU_MODELが設定されていない場合はBedrockで効果がないことが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2a55491169e08a89d22dee198ecc5020e6e87045"
+        },
+        {
+          "tag": "Changed",
+          "file": "google-vertex-ai.md",
+          "text": "Vertex AI環境におけるデフォルトの小規模/高速モデルが、以前の`claude-haiku-4-5@20251001`からプライマリモデルと同じになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2a55491169e08a89d22dee198ecc5020e6e87045"
+        },
+        {
+          "tag": "Improved",
+          "file": "google-vertex-ai.md",
+          "text": "Vertex AIでは、セッションタイトル生成などのバックグラウンドタスクにHaikuを使用するために`ANTHROPIC_DEFAULT_HAIKU_MODEL`を設定する必要があるという説明が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2a55491169e08a89d22dee198ecc5020e6e87045"
+        },
+        {
+          "tag": "Improved",
+          "file": "microsoft-foundry.md",
+          "text": "Foundryでは、セッションタイトル生成などのバックグラウンドタスクにHaikuを使用するために`ANTHROPIC_DEFAULT_HAIKU_MODEL`を設定する必要があるという説明が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2a55491169e08a89d22dee198ecc5020e6e87045"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__plugins.md",
+          "text": "プラグインの読み込み設定が、従来の辞書形式からClaudeAgentOptionsクラスを使用する形式に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/7dedc2dddc3fe2033083771a9715e8f9ed6da4ab"
+        },
+        {
+          "tag": "Fixed",
+          "file": "agent-sdk__slash-commands.md",
+          "text": "スラッシュコマンド実行結果の処理において、メッセージタイプが\"result\"でかつサブタイプが\"success\"の場合のみ処理するように修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/7dedc2dddc3fe2033083771a9715e8f9ed6da4ab"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__streaming-vs-single-mode.md",
+          "text": "ストリーミングモードでメッセージを生成する関数に、SDKUserMessageの型注釈が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/7dedc2dddc3fe2033083771a9715e8f9ed6da4ab"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__subagents.md",
+          "text": "サブエージェントが呼び出されたことをログに記録するロジックで、ToolUseBlock型を用いてブロックのタイプを判定するように変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/7dedc2dddc3fe2033083771a9715e8f9ed6da4ab"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__typescript.md",
+          "text": "SDKUserMessageタイプにおけるsession_idプロパティが必須ではなくなりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/7dedc2dddc3fe2033083771a9715e8f9ed6da4ab"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-view.md",
+          "text": "`--name`オプションを渡すことで、セッションの表示名を自動生成されたものに代わって設定できるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b897b705d5a08ff882be40b38a5b99962c07c2d3"
+        },
+        {
+          "tag": "Added",
+          "file": "goal.md",
+          "text": "`/goal`コマンドを使用するには、Claude Code v2.1.139以降が必要であるという注意書きが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b897b705d5a08ff882be40b38a5b99962c07c2d3"
+        },
+        {
+          "tag": "Added",
+          "file": "hooks.md",
+          "text": "`PostToolUse`フックにおいて、完了したAgent呼び出しの`tool_response`がサブエージェントの最終テキストと使用状況テレメトリーを保持するようになり、フックからサブエージェントごとのコストを記録できるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b897b705d5a08ff882be40b38a5b99962c07c2d3"
+        },
+        {
+          "tag": "Improved",
+          "file": "settings.md",
+          "text": "アクティブな設定を確認するために`/status`コマンドを実行する際、`Setting sources`の行に現在のセッションで読み込まれた各レイヤーが表示されるように説明が更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b897b705d5a08ff882be40b38a5b99962c07c2d3"
+        },
+        {
+          "tag": "Improved",
+          "file": "changelog.md",
+          "text": "changelog.md の表記揺れを修正し、今後の更新日に合わせた「2026-05-15」という日付で更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/c525174c2f84326cf14cb73575aea82c8e6f7fdc"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "3 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- Grok Code Fast 1、非推奨に\n  https://github.blog/changelog/2026-05-15-grok-code-fast-1-deprecated\n- Copilot Memory、Pro・Pro+ユーザー向けにユーザー設定をサポート\n  https://github.blog/changelog/2026-05-15-copilot-memory-supports-user-preferences-for-pro-pro-users\n- Team-level Copilot利用状況指標、API経由で取得可能に\n  https://github.blog/changelog/2026-05-14-team-level-copilot-usage-metrics-now-available-via-api",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-05-16"
+    }
+  ]
+}
