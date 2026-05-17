@@ -80,18 +80,18 @@ export default async function Page({
 
   return (
     <>
-      <aside className="grid content-start gap-6 border-r border-neutral-100 px-6 py-12">
+      <aside className="grid content-start gap-3 border-b border-neutral-100 px-4 py-4 md:gap-6 md:border-r md:border-b-0 md:px-6 md:py-12">
         <Link href="/" className="no-underline">
           ← Home
         </Link>
         <div className="grid gap-3">
-          <span className="text-xs font-medium text-neutral-500">Sources</span>
-          <ul className="grid gap-3">
+          <span className="hidden text-xs font-medium text-neutral-500 md:block">Sources</span>
+          <ul aria-label="Sources" className="flex gap-3 overflow-x-auto md:grid">
             {["All", ...sources.map((s) => s.name)].map((name) => (
               <li key={name}>
                 <Link
                   href={name === "All" ? "/feed" : `/feed?source=${name}`}
-                  className={`text-sm no-underline ${
+                  className={`whitespace-nowrap text-sm no-underline ${
                     (name === "All" && !source) || name === source
                       ? "font-medium"
                       : "text-neutral-400"
@@ -104,7 +104,7 @@ export default async function Page({
           </ul>
         </div>
       </aside>
-      <main className="overflow-y-auto p-12">
+      <main className="overflow-y-auto p-4 md:p-12">
         {batches.length === 0 ? (
           <p className="text-neutral-400">No feed data yet.</p>
         ) : (
@@ -128,7 +128,7 @@ export default async function Page({
                         key={entry.url}
                         className="grid gap-3 border-b border-neutral-100 py-4"
                       >
-                        <div className="flex items-center gap-2">
+                        <div className="flex flex-wrap items-center gap-2">
                           <span className="text-sm text-neutral-500">{entry.sourceName}</span>
                           <span className="text-sm text-neutral-500">{entry.publishedAt}</span>
                           <span className="text-sm text-neutral-500">{entry.title}</span>
@@ -172,19 +172,22 @@ export default async function Page({
                     ) : digestSources.has(entry.sourceName) ? (
                       <article
                         key={entry.url}
-                        className="grid grid-cols-[96px_1fr] gap-4 border-b border-neutral-100 py-4"
+                        className="grid grid-cols-[80px_1fr] gap-3 border-b border-neutral-100 py-4 md:grid-cols-[96px_1fr] md:gap-4"
                       >
                         {entry.ogImage ? (
                           <img
                             src={entry.ogImage}
                             alt=""
-                            className="h-16 w-24 rounded-sm object-cover"
+                            className="h-14 w-20 rounded-sm object-cover md:h-16 md:w-24"
                           />
                         ) : (
-                          <div className="h-16 w-24 rounded-sm bg-neutral-100" aria-hidden="true" />
+                          <div
+                            className="h-14 w-20 rounded-sm bg-neutral-100 md:h-16 md:w-24"
+                            aria-hidden="true"
+                          />
                         )}
                         <div className="grid gap-2">
-                          <div className="flex items-center gap-2">
+                          <div className="flex flex-wrap items-center gap-2">
                             <span className="text-sm text-neutral-500">{entry.sourceName}</span>
                             <span className="text-sm text-neutral-500">{entry.publishedAt}</span>
                             <span className="text-sm text-neutral-500">{entry.title}</span>
@@ -203,19 +206,22 @@ export default async function Page({
                     ) : (
                       <article
                         key={entry.url}
-                        className="grid grid-cols-[96px_1fr] gap-4 border-b border-neutral-100 py-4"
+                        className="grid grid-cols-[80px_1fr] gap-3 border-b border-neutral-100 py-4 md:grid-cols-[96px_1fr] md:gap-4"
                       >
                         {entry.ogImage ? (
                           <img
                             src={entry.ogImage}
                             alt=""
-                            className="h-16 w-24 rounded-sm object-cover"
+                            className="h-14 w-20 rounded-sm object-cover md:h-16 md:w-24"
                           />
                         ) : (
-                          <div className="h-16 w-24 rounded-sm bg-neutral-100" aria-hidden="true" />
+                          <div
+                            className="h-14 w-20 rounded-sm bg-neutral-100 md:h-16 md:w-24"
+                            aria-hidden="true"
+                          />
                         )}
                         <div className="grid gap-1">
-                          <div className="flex items-center gap-2">
+                          <div className="flex flex-wrap items-center gap-2">
                             <span className="text-sm text-neutral-500">{entry.sourceName}</span>
                             <span className="text-sm text-neutral-500">{entry.publishedAt}</span>
                           </div>
