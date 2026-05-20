@@ -1,0 +1,125 @@
+{
+  "fetchedAt": "2026-05-20T22:17:57.728Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "summary": "OpenAIのモデルが80年間未解決だった単位距離問題を解決し、数学分野におけるAIの重要性を示す。",
+      "publishedAt": "2026-05-20",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/6WJOhxvdNpC5hDvpiSAqE0/8a11ba6abdabb6a5a674de733cfa710d/SEO-Polynomial-Construction-16x9.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "How Ramp engineers accelerate code review with Codex",
+      "url": "https://openai.com/index/ramp",
+      "summary": "RampのエンジニアがGPT-5.5を活用したCodexでコードレビューを効率化し、開発を加速。",
+      "publishedAt": "2026-05-20",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/1jnbN51vZD5HdojAWKmvvG/332a50f3bf43de6bb168e92303067c4a/oai_Ramp_SEO.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "The next phase of OpenAI’s Education for Countries",
+      "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
+      "summary": "OpenAIが学校教育向けのAI導入を促進し、パートナーシップや教師研修を通じて学習成果向上を目指す。",
+      "publishedAt": "2026-05-20",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/3RMce7W9UyNLJaQEOyFQYn/49f35dabd4110cfa4589d82769f0eec2/Art_Card.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.145",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
+      "summary": "- [Added] スクリプト作成のために、claude agents --jsonコマンドでClaudeのライブセッションをJSON形式でリスト表示できるようになりました。\n- [Added] claude_code.toolのOTELスパンにagent_idとparent_agent_id属性が追加され、バックグラウンドサブエージェントのスパンがディスパッチエージェントツールスパンの下にネストされるようにトレースの親子関係が修正されました。\n- [Added] ステータスラインのJSON入力に、GitHubのリポジトリとPR情報が検出された場合にそれらが含まれるようになりました。\n- [Added] /plugin DiscoverおよびBrowse画面で、プラグインのコマンド、エージェント、スキル、フック、およびMCP/LSPサーバーがインストール前に表示されるようになりました。\n- [Improved] claude agentsターミナルタブのタイトルに、入力待ちのカウントが表示されるようになり、エージェントが注意を必要としているときにわかるようになりました。\n- [Improved] スラッシュコマンドと@-メンションの提案リストが、フルスクリーンモードでマウスホバーとクリックをサポートするようになりました。\n- [Added] StopおよびSubagentStopフックの入力に、background_tasksとsession_cronsフィールドが含まれるようになりました。\n- [Fixed] Bashコマンドで、許可リストにない環境変数への直接の変数割り当てが自動承認される権限プロンプトのバイパスが修正されました。\n- [Fixed] MCPプロンプトのスラッシュコマンドで、必須引数が省略された際に生のサーバー検証エラーが表示される問題が修正されました。エラーメッセージは、不足している引数の名前と期待される使用方法を示すようになりました。\n- [Fixed] ターミナルのサイズ変更または再フォーカス後に、スピナーと経過時間表示がキーが押されるまでフリーズする問題が修正されました。\n- [Fixed] デフォルトのWindows PowerShell 5.1でクロスプロジェクトの再開ヒントが失敗する問題が修正されました。Windowsではコマンド区切り文字として;を使用するようになりました。\n- [Fixed] エージェントビューの返信ペインで音声プッシュツートークが機能しない問題が修正されました。\n- [Fixed] 複数のタスクが一度に作成されたときに、タスクリストがランダムな順序でレンダリングされる問題が修正されました。\n- [Fixed] マーケットプレイスがすでにインストールされているにもかかわらず、古い「Failed to install Anthropic marketplace」バナーが表示される問題が修正されました。\n- [Fixed] セッション内でgh pr createやその他のPRの状態を変更するコマンドが実行された後、フッターのPRバッジがすぐに更新されない問題が修正されました。\n- [Fixed] 非ASCII名のAgent Teamsチームメイトが、無効なヘッダーエンコーディングのためにすべてのAPI呼び出しで失敗する問題が修正されました。\n- [Fixed] /reviewが、Classic Projectsを持つリポジトリでエラーとなる非推奨のprojectCards GraphQLクエリを使用していた問題が修正されました。\n- [Fixed] claude plugin validateが、ファイルではなくディレクトリを指すskills:エントリをフラグ付けしない問題が修正されました。エラーは親ディレクトリを提案するようになりました。\n- [Fixed] context: forkを使用するスキルが、実行される代わりに繰り返し自身を再呼び出しする可能性のある無限ループが修正されました。\n- [Improved] Readツールが、ファイル全体の読み取りがトークン制限を超えた場合に、ハードエラーではなく「PARTIAL view」通知とともに切り詰められた最初のページを返すようになりました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-05-20"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- 【まとめ】今月の注目アプリ - 2026年5月版\n  https://www.reddit.com/r/macapps/comments/1t0rojv/megathread_the_app_pile_may_2026/\n- r/MacAppsのモデレーターはやりすぎた？ 何が変わるのか（フェーズ3）\n  https://www.reddit.com/r/macapps/comments/1ryaeex/rmacapps_mods_went_too_far_whats_changing_phase_3/\n- Notch - 画面のどこにでも表示できる、音声追従型テレプロンプター (Mac + Windows, 8.99ドル)\n  https://www.reddit.com/r/macapps/comments/1tiue5m/notch_voicefollowing_teleprompter_that_floats/\n- App Trust Previewを作ってみた - ダウンロードした.appが開くのに適しているか説明してくれるMacアプリ\n  https://www.reddit.com/r/macapps/comments/1tj0ako/i_made_app_trust_preview_a_mac_app_that_explains/\n- LingoBar - アプリを開かず言語学習ができるメニューバーアプリ。連続記録なし、通知なし、サブスクなし。\n  https://www.reddit.com/r/macapps/comments/1tiki2b/lingobar_a_menu_bar_app_for_learning_languages/\n- Telegramの新しいMacアプリが素晴らしい！\n  https://www.reddit.com/r/macapps/comments/1tirxu9/telegram_new_mac_app_look_wonderful/\n- 【無料】dropadooをアップデート - 送信前にZIP圧縮！\n  https://www.reddit.com/r/macapps/comments/1tinoi5/free_update_to_dropadoo_zip_before_sending/\n- アイデア：Macアプリの新しいフォーマット「週刊開発バトル/フレンドリーアプリ対決」、意見募集\n  https://www.reddit.com/r/macapps/comments/1tiq8hw/idea_new_macapps_format_weekly_dev/\n- 【macOS】Chronoid - 自動時間追跡＆生産性向上アプリ - 5月のアップデート\n  https://www.reddit.com/r/macapps/comments/1tiqrsi/macos_chronoid_automatic_time_tracking/\n- Anyboxの購入を検討中 - まずここで意見を聞いてみようかと。\n  https://www.reddit.com/r/macapps/comments/1tiocte/considering_purchasing_anybox_thought_i_would_ask/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-05-21"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- 新しい人間認証システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackersサブレディットの新ルール – 品質向上を目指して\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- スマートマクロ追跡アプリ「whatthefood.io」を売却へ：オーガニックユーザー1,500人超、ARR 1,160ドル\n  https://www.reddit.com/r/indiehackers/comments/1tiylnr/selling_whatthefoodio_smart_macro_tracking_app/\n- CausoをProduct Huntで公開（5位獲得）1週間で300件超の投資家メール、VCからの返信は18件\n  https://www.reddit.com/r/indiehackers/comments/1tihgqt/we_launched_causo_on_product_hunt_5_one_week/\n- 顧客離れに悩む？ MRR減少の原因が不明な場合\n  https://www.reddit.com/r/indiehackers/comments/1tildva/losing_customers_watching_your_mrr_drop_and_not/\n- マーケティング嫌いの開発者が、自動化ツールを開発\n  https://www.reddit.com/r/indiehackers/comments/1thtviv/im_a_developer_who_genuinely_hates_marketing_so_i/\n- 「メッセージ見た？」はもう不要？ タスクが自動で届くタスクマネージャーを開発\n  https://www.reddit.com/r/indiehackers/comments/1thskey/i_built_a_task_manager_where_tasks_come_to_you_no/\n- 同じ異論が40回以上浮上。その対策とは\n  https://www.reddit.com/r/indiehackers/comments/1thk9fg/same_objection_came_up_over_40_times_heres_what/\n- プロダクトアイデア：「HotelLaunch」\n  https://www.reddit.com/r/indiehackers/comments/1theklo/product_idea_hotellaunch/\n- カンファレンス後の人脈管理を改善：課題解決ツールを開発\n  https://www.reddit.com/r/indiehackers/comments/1tgrxga/i_kept_forgetting_who_i_met_after_conferences_so/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-05-21"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI：進行中のメガスレッド一覧\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Claude Managed Agents向けセルフホスト型サンドボックスとMCPトンネルがパブリックベータに\n  https://www.reddit.com/r/ClaudeAI/comments/1thg711/selfhosted_sandboxes_and_mcp_tunnels_for_claude/\n- Claudeを問い詰めたら、古代の賢者に知恵を求めるしかなかった\n  https://www.reddit.com/r/ClaudeAI/comments/1tiiau0/i_stumped_claude_earlier_and_it_had_no_choice_but/\n- Claude、マジで優秀\n  https://www.reddit.com/r/ClaudeAI/comments/1tip9h6/claude_is_a_real_g/\n- プロレベルで「雰囲気コーディング」にどう対処すべきか？\n  https://www.reddit.com/r/ClaudeAI/comments/1tis9s6/how_to_address_vibe_coding_at_the_professional/\n- Karpathy氏がAnthropicに入社\n  https://www.reddit.com/r/ClaudeAI/comments/1thpuf1/karpathy_joins_anthropic/\n- OpenAIがGoogle検索で「claude down」の検索語に入札\n  https://www.reddit.com/r/ClaudeAI/comments/1tioq8k/openai_bidding_on_the_search_term_claude_down_on/\n- Claude Designは私のアイデアを気に入らないようだ\n  https://www.reddit.com/r/ClaudeAI/comments/1tik0lj/i_dont_think_claude_design_likes_my_idea/\n- Claude関連プロジェクトに取り組んでいると、Civをプレイしている気分になるのは私だけ？\n  https://www.reddit.com/r/ClaudeAI/comments/1tikwew/does_anybody_else_feel_like_they_are_playing_civ/\n- ClaudeのおかげでRVレンタルビジネスは儲かるけど、働きすぎて死にそう😅\n  https://www.reddit.com/r/ClaudeAI/comments/1ti9xo5/claude_is_improving_my_rv_rental_business_but/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-05-21"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1398pt] Anthropicに入社しました | KarpathyがAnthropicに参画。過去の発言と結びつけたり、Anthropicの成長を脅威と見る意見も。\n  https://news.ycombinator.com/item?id=48194352\n- [935pt] Gemini 3.5 Flash | Googleは詳細を非公開だがモデルの性能を推測。価格設定やモデルの品質に疑問の声も。\n  https://news.ycombinator.com/item?id=48196570\n- [921pt] 思いつくほぼ全てのOSを展示するバーチャル博物館を作りました | OSの展示とキュレーションに感嘆の声。一部のOSがリストにないことや、エミュレーションでの再現度に関する議論も。\n  https://news.ycombinator.com/item?id=48195009\n- [872pt] Meta、サウジアラビアとUAEで人権関連アカウントの閲覧を制限 | ソーシャルメディアの民主化への貢献、企業の原則、および表現の自由への影響について議論。\n  https://news.ycombinator.com/item?id=48206768\n- [866pt] VisaとMastercardにさようなら：1億3千万人のヨーロッパ人が独自の決済システムに移行 | WeroはEU版のiDealのようなもので、国境を越えた送金の簡素化を期待する声が多い。\n  https://news.ycombinator.com/item?id=48207004\n- [770pt] LLMの過去6ヶ月を5分で振り返る | LLMの進歩について、特にコーディングエージェントの向上や「変曲点」の真偽に関する議論。\n  https://news.ycombinator.com/item?id=48188183\n- [768pt] ミネソタ州が予測市場を初めて禁止 | 予測市場の禁止はスポーツ賭博の禁止に関連し、VPNの使用制限にも言及。法の執行と自由のバランスに懸念の声も。\n  https://news.ycombinator.com/item?id=48197980\n- [714pt] Appleが新しいアクセシビリティ機能を発表 | Appleのアクセシビリティへの取り組みに高い評価。視覚障害者向けの機能やLLMの有用な応用例に言及。\n  https://news.ycombinator.com/item?id=48192224\n- [665pt] Googleが検索ボックスを変更 | Googleが他サイトへのトラフィックを停止する「Google Zero」への懸念や、LLMからの情報源の信頼性に関する議論。\n  https://news.ycombinator.com/item?id=48197370\n- [641pt] Show HN: Forge – ガードレールにより8Bモデルがエージェントタスクで53%から99%に向上 | 小規模なローカルモデルの性能向上に注目。異なるバックエンドでの精度差やIPに関する議論も。\n  https://news.ycombinator.com/item?id=48192383",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-05-21"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "12 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Nvidia、再び過去最高決算を達成、スタートアップ株式430億ドルを保有\n  https://techcrunch.com/2026/05/20/nvidia-posts-another-record-quarter-reveals-43-billion-of-holdings-in-startups/\n- Musk氏のxAI、データセンターの発電機をめぐり提訴される中、28億ドルを追加購入\n  https://techcrunch.com/2026/05/20/musks-xai-is-being-sued-over-its-data-center-generators-now-its-buying-2-8b-more/\n- Anthropic、xAIに月額12億5000万ドルを支払いコンピューティング資源を確保へ\n  https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/\n- Sam Altman、Y Combinator全スタートアップに“究極の”オファー\n  https://techcrunch.com/2026/05/20/sam-altman-makes-mic-drop-offer-to-every-y-combinator-startup/\n- 資金調達はAIスタートアップだけのものではない。Lucraが2000万ドルを調達し証明\n  https://techcrunch.com/video/you-dont-need-to-be-an-ai-startup-to-raise-lucra-has-20m-to-prove-it/\n- OpenAI、80年来の数学問題を今回こそ本当に解決したと主張\n  https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/\n- Andrew Ng氏が出資するIrisGo、誰もが必要としていたAIデスクトップコンパニオンを目指す\n  https://techcrunch.com/2026/05/20/irisgo-a-startup-backed-by-andrew-ng-looks-to-become-the-ai-desktop-buddy-you-never-knew-you-needed/\n- OpenAI、9月にもIPOか、上場へ向け加速\n  https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/\n- AI検索スタートアップが急成長中\n  https://techcrunch.com/2026/05/20/ai-search-startups-are-blowing-up/\n- Stability AI、最長6分の楽曲制作が可能な新オーディオモデルを発表\n  https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/\n- NanoClaw開発者、2000万ドルの買収提案を拒否し、代わりに1200万ドルのシード資金を調達\n  https://techcrunch.com/2026/05/20/nanoclaw-creator-turns-down-20m-buyout-offer-raises-12m-seed-instead/\n- Startup Battlefield 200の応募締め切りまで1週間：有望スタートアップの推薦・応募は5月27日まで\n  https://techcrunch.com/2026/05/20/startup-battlefield-200-applications-close-in-1-week-window-to-nominate-and-apply-for-the-most-promising-startups-closes-may-27/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-05-21"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "Gemini 3.5 Flash: more expensive, but Google plan to use it for everything",
+      "url": "https://simonwillison.net/2026/May/19/gemini-35-flash/#atom-entries",
+      "summary": "Googleは最新モデル「Gemini 3.5 Flash」をリリースし、多くの自社製品に導入する一方、APIの利用料金は大幅に引き上げられた。",
+      "publishedAt": "2026-05-20",
+      "ogImage": "https://static.simonwillison.net/static/2026/gemini-3.5-flash.png"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Three more static code analysis sensors",
+      "url": "https://martinfowler.com/articles/sensors-for-coding-agents.html#StaticCodeAnalysisDependencyRules",
+      "summary": "静的コード解析でモジュール性のチェックと強制に焦点を当て、新しいセンサーの有効性を検証。",
+      "publishedAt": "2026-05-20",
+      "ogImage": "https://martinfowler.com/articles/sensors-for-coding-agents/card.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Shopifyが「Tophat」を発表：モバイルCIビルドをローカル構築なしでどのデバイスでもテスト可能に\n  https://www.producthunt.com/products/tophat\n- StoreClaw：販売ノウハウを持つエージェントで店舗の利益を拡大\n  https://www.producthunt.com/products/storeclaw\n- LayerProof Kraft：洞察に満ちた長文コンテンツを共同執筆\n  https://www.producthunt.com/products/layerproof-social-content-generation\n- Contextberg：作業内容をAIエージェントの記憶に変え、MCP経由で提供\n  https://www.producthunt.com/products/contextberg\n- Owlish：ドキュメントでトレーニングされたAIエージェントでサポート対応を削減\n  https://www.producthunt.com/products/owlish\n- Gemini Omni：あらゆる入力（まずは動画から）であらゆるものを生成\n  https://www.producthunt.com/products/gemini-omni-4\n- Insta360 Mic Pro：カスタマイズ可能なカラーE-Inkディスプレイ搭載のプロフェッショナルオーディオ\n  https://www.producthunt.com/products/insta-360\n- Chromtuner：macOS用クロマチックチューナー、±1セントの精度\n  https://www.producthunt.com/products/chromtuner-chromatic-tuner-for-macos\n- Re_gent：AIエージェントのアクティビティ向けバージョン管理システム\n  https://www.producthunt.com/products/re_gent\n- Tether：メッセージ内で命を吹き込む「存在」\n  https://www.producthunt.com/products/tether-10",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-05-21"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "4 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- River Markets — 予測市場向けプライムブローカレッジを提供開始\n  https://www.rivermarkets.com\n- Voquill — 病理医の診断を高速化するAIコワーカー\n  https://voquill.com/\n- Result — 新規インターネット起業家の事業構築・運営を支援するプラットフォーム\n  https://www.result.dev/\n- Limrun — Xcode、Androidなどに対応したクラウドエージェント拡張ツール\n  https://lim.run",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-05-21"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark (background agents), and Antigravity 2.0",
+      "url": "https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash",
+      "summary": "GoogleはGemini 3.5 FlashとマルチモーダルなGemini Omniを発表し、AIエージェントの実行基盤となるAntigravityを拡充、SynthIDでコンテンツの信頼性向上にも注力している。",
+      "publishedAt": "2026-05-20",
+      "ogImage": "https://substackcdn.com/image/youtube/w_728,c_limit/OMhKgQmeMhI"
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "4 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- Web版Copilotの対応モデルを更新\n  https://github.blog/changelog/2026-05-20-updates-to-available-models-in-copilot-on-web\n- VS Codeでタスクに応じたモデルを自動選択可能に\n  https://github.blog/changelog/2026-05-20-auto-model-selection-now-routes-based-on-your-task-in-vs-code\n- Copilot Chatにセマンティックな課題検索機能を追加\n  https://github.blog/changelog/2026-05-20-semantic-issue-search-in-copilot-chat\n- Copilotのコードレビューフィードバックをクラウドエージェントで簡単に適用\n  https://github.blog/changelog/2026-05-19-easily-apply-copilot-code-review-feedback-with-copilot-cloud-agent",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-05-21"
+    }
+  ]
+}
