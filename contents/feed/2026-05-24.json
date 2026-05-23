@@ -1,0 +1,213 @@
+{
+  "fetchedAt": "2026-05-23T21:41:28.589Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.150",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.150",
+      "summary": "- [Improved] 内部インフラの改善 (ユーザー向け変更なし)",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-05-23"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.149",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
+      "summary": "- [Added] /usageで、制限使用量の内訳（スキル、サブエージェント、プラグイン、MCPサーバーごとのコスト）が表示されるようになりました。\n- [Improved] /diffの詳細ビューで、キーボード（矢印、j/k、PgUp/PgDn、スペース、Home/End）でスクロールできるようになりました。\n- [Changed] Markdown出力で、GFMタスクリストのチェックボックス（- [ ] todo / - [x] done）が、プレーンな箇条書きではなくレンダリングされるようになりました。\n- [Added] Enterprise: claude.aiクラウドMCPコネクタをmanaged-mcp.jsonと共にロードするためのmanaged設定allowAllClaudeAiMcpsが追加されました。\n- [Fixed] PowerShellのアクセス許可バイパスを修正: 組み込みのcd関数(cd.., cd\\, cd~, X:)がワーキングディレクトリを検出されずに変更し、後続のコマンドがワークスペース外を読み取れる問題を修正しました。\n- [Fixed] gitワークツリーにおけるサンドボックス書き込み許可リストが、共有の.gitディレクトリ（hooks/およびconfigは拒否）のみをカバーするのではなく、メインリポジトリ全体をカバーしていた問題を修正しました。\n- [Fixed] PowerShellのプレフィックス/ワイルドカード許可ルール（例: PowerShell(dotnet.exe build *)）が、ネイティブの実行ファイルやスクリプトを事前承認しない問題を修正しました。\n- [Fixed] cd/pushd/popdをまたいでPWD/OLDPWD/DIRSTACKの古い変数追跡値をパーサーが信頼していたという、アクセス許可分析のギャップを修正しました。\n- [Fixed] Bashツールのfindが、macOSのシステムファイル/vnodeテーブルを使い果たし、大きなディレクトリツリーでホストをクラッシュさせる問題を修正しました。\n- [Fixed] 起動時に承諾した後、managed-settingsの承認ダイアログによってターミナルがフリーズしたままになる問題を修正しました。\n- [Fixed] 作業ツリーに実際の変更がない場合、/ultraplanおよびリモートセッションの作成が「未コミットの変更をキャプチャできませんでした」と表示されて失敗する問題を修正しました。\n- [Fixed] スクリプトパスにスペースが含まれている場合にotelHeadersHelperがサイレントに失敗する問題を修正しました。ヘルパーの失敗は/doctorとデバッグログで報告されるようになりました。\n- [Fixed] 思考中のスピナーが、ツール呼び出し全体および新たな思考バーストでアンバーのままになる問題を修正しました。\n- [Fixed] 折りたたまれたBash出力で、短い行が多い出力に対して誤った非表示行数が報告される問題を修正しました。\n- [Fixed] スラッシュコマンドの引数ヒントが、ヒントが入力ボックスからあふれる場合に、末尾の入力された文字をクリッピングする問題を修正しました。\n- [Fixed] 引数ヒントとプログレッシブな引数サジェストが、frontmatter name:がディレクトリのbasenameと異なるスキルをTabで補完した後に表示されない問題を修正しました。\n- [Fixed] ステータスバーが、スキル/エージェントのeffort: frontmatterによって適用される努力レベルではなく、ユーザーのベースラインの/effort設定を表示する問題を修正しました。\n- [Fixed] Ctrl+Oのトランスクリプトビューが、開かれた瞬間にフリーズし、新しいメッセージを追尾しない問題を修正しました。\n- [Fixed] 呼び出されたプロンプト履歴エントリを編集すると、矢印キーでさらに上下に移動したときに編集が失われる問題を修正しました。\n- [Fixed] /configの終了サマリーで、無関係な設定を切り替えたときに、オートコンパクションとテーマに対して仮想の変更が報告される問題を修正しました。\n- [Fixed] キャッシュされたセッションメタファイルにオプションフィールドがない場合に/insightsがクラッシュする問題を修正しました。\n- [Fixed] PowerShellおよびHistoryツールの、入力が欠落した不正な呼び出しが、トランスクリプトの折りたたみで読み取りとして誤分類される問題を修正しました。\n- [Fixed] claude.aiまたはClaudeモバイルアプリからリモートコントロールセッションの名前を変更しても、claude --resumeのローカルセッション名が更新されない問題を修正しました。\n- [Fixed] 送信されたばかりのプロンプトが上矢印履歴に2回表示される競合状態を修正しました。\n- [Fixed] 全画面モードで「一番下へジャンプ」ピルをタップしても、すぐに非表示にならない問題を修正しました。\n- [Improved] /feedbackレポートに、コンテキスト圧縮前に発生した会話が含まれるようになり、長いセッションの初期段階の問題をトリアージしやすくなりました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-05-23"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- [メガ・スレッド] 2026年5月版：注目のアプリ\n  https://www.reddit.com/r/macapps/comments/1t0rojv/megathread_the_app_pile_may_2026/\n- r/MacAppsのモデレーターはやりすぎた！何が変わるのか（フェーズ3）\n  https://www.reddit.com/r/macapps/comments/1ryaeex/rmacapps_mods_went_too_far_whats_changing_phase_3/\n- Vidi：Liquid Glassデザインを基盤としたmacOSネイティブの動画プレイヤー\n  https://www.reddit.com/r/macapps/comments/1tlil81/vidi_a_native_macos_video_player_built_around/\n- ほとんどのサードパーティ製Macアプリがメモリを大量消費、開発者の方へ\n  https://www.reddit.com/r/macapps/comments/1tkvhh9/almost_every_3rd_party_mac_app_is_a_ram_hog_now/\n- 定期支払い・サブスクリプション管理用のミニビジュアルカレンダーを開発。App Storeからのスマートインポート機能付き\n  https://www.reddit.com/r/macapps/comments/1tlrekf/i_developed_a_mini_visual_calendar_for_recurring/\n- 100万行を3秒で開くMac用CSVエディターを開発。SQLクエリ機能も内蔵\n  https://www.reddit.com/r/macapps/comments/1tkinfr/i_built_a_csv_editor_for_mac_that_opens_1m_rows/\n- DiskCatalogMakerの代替は？無料または安価なものはあるか？\n  https://www.reddit.com/r/macapps/comments/1tl30o1/diskcatalogmaker_alternative_free_or_cheaper/\n- [OS] Buffer v2 — タグ、ブックマーク、安全な自動更新、優れたフィルタリング機能を追加（無料）\n  https://www.reddit.com/r/macapps/comments/1tknedr/os_buffer_v2_added_tags_bookmarks_secure/\n- [無料] slapss - In Your Faceに代わる無料のMacネイティブアプリ。フルスクリーン会議アラート、トラッキングなし\n  https://www.reddit.com/r/macapps/comments/1tkidtc/free_slapss_a_free_native_mac_alternative_to_in/\n- ご注意ください - AltTabがPro版を導入へ\n  https://www.reddit.com/r/macapps/comments/1tkdxh5/heads_up_alttab_is_introducing_a_pro_version/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-05-24"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- サブレディット向けに新しい本人確認システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackersサブレディット新ルール発表 - 品質向上のため\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- 29日経過、自信はほぼゼロに…\n  https://www.reddit.com/r/indiehackers/comments/1tl7983/29_days_in_and_confidence_nearing_zero/\n- 粗悪なAIコンテンツはモデルの問題だと思っていたが、顧客サイト3件のテストでインジェストの問題だと判明\n  https://www.reddit.com/r/indiehackers/comments/1tl7gnt/i_thought_bad_ai_content_was_a_model_problem/\n- ワークフロースクリーン録画を監視し、ドキュメントを作成するツールを開発 - SaaSのユーザーチュートリアル作成が10分に短縮\n  https://www.reddit.com/r/indiehackers/comments/1tkpbb9/we_built_a_tool_that_watches_your_workflow_screen/\n- 金曜シェア熱！🕺あなたのプロジェクトをシェアしよう！\n  https://www.reddit.com/r/indiehackers/comments/1tkefcl/friday_share_fever_lets_share_your_project/\n- Product Hunt掲載1週間後（5位獲得）、トラフィックの実際の流入元はこちら\n  https://www.reddit.com/r/indiehackers/comments/1tkdans/a_week_after_product_hunt_5_heres_where_our/\n- 私の最大のインディーハッカー課題：いつ開発を止め、マーケティングを始めるべきか\n  https://www.reddit.com/r/indiehackers/comments/1tjhqev/my_biggest_indie_hacker_challenge_when_to_stop/\n- 開発前にアイデアを検証する方法（5つのクイックチェック）\n  https://www.reddit.com/r/indiehackers/comments/1tjdmxc/how_to_validate_your_ideas_before_building_5/\n- アドバイス求む。PMFを見つけるために、ニッチ、チャネル、メッセージングの3点を改善する必要があると思う\n  https://www.reddit.com/r/indiehackers/comments/1tjevl7/need_advice_niche_channel_messaging_these_3/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-05-24"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI、進行中のメガトレンドをリストアップ\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Claude Managed Agents向け自己ホスト型サンドボックスとMCPトンネルがパブリックベータに\n  https://www.reddit.com/r/ClaudeAI/comments/1thg711/selfhosted_sandboxes_and_mcp_tunnels_for_claude/\n- Claude、朝から不調\n  https://www.reddit.com/r/ClaudeAI/comments/1tlntio/claude_is_not_having_a_good_morning/\n- ClaudeのコードをローカルLLMで使ってみた体験と、セットアップ方法の完全ガイド\n  https://www.reddit.com/r/ClaudeAI/comments/1tlir65/my_experience_using_claude_code_with_local_llm/\n- 自分専用アプリの深掘り開発、他にもいる？\n  https://www.reddit.com/r/ClaudeAI/comments/1tlneww/anyone_else_go_way_too_deep_building_a_personal/\n- 毎回のこと\n  https://www.reddit.com/r/ClaudeAI/comments/1tl295f/every_time/\n- Chat、Cowork、Codeの統合はいつ？\n  https://www.reddit.com/r/ClaudeAI/comments/1tldsrl/when_is_chat_cowork_and_code_merging/\n- Claudeに今日、お金を助けられた話\n  https://www.reddit.com/r/ClaudeAI/comments/1tlla7m/claude_saved_my_money_today/\n- 良いワインのように熟成された\n  https://www.reddit.com/r/ClaudeAI/comments/1tkhvju/aged_like_fine_wine/\n- Runnaの代替としてランニングアプリを開発\n  https://www.reddit.com/r/ClaudeAI/comments/1tlrtlw/i_built_a_running_app_to_replace_runna/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-05-24"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [852pt] LLMの皆さん、これを読んでください | Anna's Archiveは著作権ロビーに嫌われているという意見や、AI企業に著作物を販売しているという指摘、大学での利用に感謝する声など、賛否両論。\n  https://news.ycombinator.com/item?id=48234413\n- [839pt] なぜ日本企業は多角経営をするのか | 日本企業の終身雇用や多角経営の背景について議論されており、西洋の企業との違いや、低流動性の労働市場への懸念が表明されている。\n  https://news.ycombinator.com/item?id=48237163\n- [651pt] ウガンダの難民キャンプへノートPCを送る | アフリカへの電子機器配送システムの機能不全と汚職について複数のコメントがあり、郵送を避け直接持参することを勧める声が多い。\n  https://news.ycombinator.com/item?id=48241997\n- [637pt] スティーブ・ウォズニアック、学生に「君たちにはAI（本物の知性）がある」と伝えて喝采を浴びる | ウォズニアックの言葉が学生に自信を与えたという肯定的な意見と、AI技術への過度な期待や企業文化への懸念が混在している。\n  https://news.ycombinator.com/item?id=48233563\n- [555pt] Bunのサポートが限定的になり非推奨に | BunがRustへの変換を理由にサポートを制限したことについて、企業側の決定を理解する声と、ユーザーの不満や懸念が表明されている。\n  https://news.ycombinator.com/item?id=48238789\n- [532pt] メモリ不足が消費者向けエレクトロニクスの価格再設定を引き起こしている | HBMの需要増加がDDRメモリに与える影響や、メモリ市場の仕組み、製造コストの高さについて詳しく解説されていると高評価。\n  https://news.ycombinator.com/item?id=48229319\n- [523pt] Project Glasswing: 初期更新 | Anthropicのセキュリティツールに対して、その正確性を高く評価する声と、既存の静的解析ツールとの比較や懐疑的な意見がある。\n  https://news.ycombinator.com/item?id=48240419\n- [462pt] 町の水質に関するFacebook投稿でテキサス州の女性が逮捕される | 虚偽の報告に関する逮捕の妥当性や、適格免責、政治的腐敗、報道の自由について議論されており、当局の対応に疑問を呈する声が多い。\n  https://news.ycombinator.com/item?id=48249747\n- [436pt] マイクロソフト、Claude Codeライセンスのキャンセルを開始 | MicrosoftがClaude CodeからCopilot CLIへの移行を進めていることに対し、開発者の利用実態やコスト、パフォーマンスへの懸念が表明されている。\n  https://news.ycombinator.com/item?id=48238896\n- [430pt] DeepSeekがV4 Proの値下げを恒久化 | DeepSeek V4 Proの優れたパフォーマンスと破格の価格設定に驚きと称賛の声が多く、今後の展開に期待するコメントが寄せられている。\n  https://news.ycombinator.com/item?id=48237663",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-05-24"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "5 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- SolarSquareが最大6,000万ドル調達へ交渉中、インドの屋根型太陽光市場にVCが熱視線\n  https://techcrunch.com/2026/05/23/solarsquare-in-talks-to-raise-up-to-60m-as-indias-rooftop-solar-market-draws-major-vc-interest/\n- FerrariがIBMのAI活用、F1スーパーファン育成へ\n  https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/\n- イーロン・マスク、地球上での太陽光発電を断念\n  https://techcrunch.com/2026/05/23/elon-musk-has-given-up-on-solar-power-on-earth/\n- ベルリンの新興Peec、数ヶ月で年間売上1,000万ドル超えか\n  https://techcrunch.com/2026/05/23/peec-one-of-berlins-rising-startups-more-than-doubled-annualized-revenue-in-months-to-10m-sources-say/\n- AIが故人パイロットの声を“復活”させる\n  https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-05-24"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- SignalLEMO、AI活用で営業を効率化 - フィールドサービス業者向け\n  https://www.producthunt.com/products/signallemo-ai-outreach-made-simple\n- Google Antigravity CLI - コーディングエージェントをターミナルで実行\n  https://www.producthunt.com/products/google-antigravity\n- Vibedock - メニューバーからClaude Code MCPサーバーを切り替え\n  https://www.producthunt.com/products/vibedock\n- Area Contrast Checker - ドラッグ、選択、即判明。新しいA11yコントラストチェックツール\n  https://www.producthunt.com/products/area-contrast-checker\n- Kosshi - MacとiPhone向けのシンプルで高速なアウトライナー\n  https://www.producthunt.com/products/kosshi\n- Bulkmark - Twitter/Xのブックマークを実用的な知識に変える\n  https://www.producthunt.com/products/bulkmark-2\n- Memdex - AIとの会話を再利用可能なローカルメモリに変換\n  https://www.producthunt.com/products/memdex\n- Forsy - AIエージェントのワークフローデータを取得・販売\n  https://www.producthunt.com/products/forsy\n- Spantop - あらゆるMacを本格的なセカンドモニターに\n  https://www.producthunt.com/products/spantop\n- Finderlock - Touch IDとAES-256でMacファイルをFinderからロック\n  https://www.producthunt.com/products/finderlock",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-05-24"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] All Model Labs are now Agent Labs",
+      "url": "https://www.latent.space/p/ainews-all-model-labs-are-now-agent",
+      "summary": "モデル単体ではなくエージェントや関連ツールを組み合わせた製品開発が主流になり、DeepSeekの低価格化やAIによる脆弱性発見能力の向上など、AI業界全体で大きな変化が起きている。",
+      "publishedAt": "2026-05-23",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!TLyU!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F348d0573-16b0-46d0-a852-ccaae2b6ff4f_1122x534.png"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "9 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-05-24",
+      "docsUpdates": [
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "新しい日付 '2026-05-23' のエントリが changelog.md に追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b749208cf8c641d0d358a7bb0b059d628c957d8e"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "Code Assistant にファイル選択のオプションが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b749208cf8c641d0d358a7bb0b059d628c957d8e"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "Code Assistant がファイルを作成できる機能が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b749208cf8c641d0d358a7bb0b059d628c957d8e"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "Code Assistant で選択したテキストに対して修正リクエストを送信できる機能が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b749208cf8c641d0d358a7bb0b059d628c957d8e"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "リポジトリ全体ではなく、特定のファイルに対してチャットできる機能が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b749208cf8c641d0d358a7bb0b059d628c957d8e"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "Code Assistant が複数のファイルに対して変更を適用できる機能が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b749208cf8c641d0d358a7bb0b059d628c957d8e"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "特定のファイルまたは選択したファイルのみを Code Assistant のコンテキストに含める機能が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b749208cf8c641d0d358a7bb0b059d628c957d8e"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "Code Assistant が以前のチャットスレッドを記憶する機能が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b749208cf8c641d0d358a7bb0b059d628c957d8e"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "新しい設定項目 `CLAUDEN_CODE_ASSISTANT_THREAD_MEMORY_SIZE` が追加され、Code Assistant のスレッドメモリサイズを構成できるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b749208cf8c641d0d358a7bb0b059d628c957d8e"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "Code Assistant がコードを説明できる機能が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b749208cf8c641d0d358a7bb0b059d628c957d8e"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "Code Assistant が単体テストを生成できる機能が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b749208cf8c641d0d358a7bb0b059d628c957d8e"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__mcp.md",
+          "text": "MCPツールへのアクセス許可方法が、プロンプトなしでClaudeがツールを使用できるようにする「自動承認」として説明が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/09cf68dad0848f9176c5878481ef1d768f28183e"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__overview.md",
+          "text": "サブエージェントがAgentツールを介して呼び出されるため、`Agent`を`allowedTools`に含めることで、それらの呼び出しを自動承認するように説明が明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/09cf68dad0848f9176c5878481ef1d768f28183e"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__plugins.md",
+          "text": "プラグインから利用可能なスラッシュコマンドの例が`/help`から`context`に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/09cf68dad0848f9176c5878481ef1d768f28183e"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__quickstart.md",
+          "text": "クイックスタートの例で、`allowed_tools`がツールを「自動承認」するものとして説明が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/09cf68dad0848f9176c5878481ef1d768f28183e"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__slash-commands.md",
+          "text": "利用可能なスラッシュコマンドの例に`/clear`が追加され、`/compact`や`/context`の前に表示されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/09cf68dad0848f9176c5878481ef1d768f28183e"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__subagents.md",
+          "text": "`Agent`ツールを`allowedTools`に含める理由が、権限プロンプトなしでサブエージェントの呼び出しを自動承認するためであると明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/09cf68dad0848f9176c5878481ef1d768f28183e"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "バージョン2.1.150の変更ログエントリが追加され、内部インフラストラクチャの改善が記載されています。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/09cf68dad0848f9176c5878481ef1d768f28183e"
+        },
+        {
+          "tag": "Improved",
+          "file": "sub-agents.md",
+          "text": "`memory`フィールドの説明が、クロスセッション学習を可能にする永続メモリのスコープとして具体的に記述されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/09cf68dad0848f9176c5878481ef1d768f28183e"
+        },
+        {
+          "tag": "Added",
+          "file": "worktrees.md",
+          "text": "サブエージェントのワークツリーが、`--worktree`と同じベースブランチを使用し、`worktree.baseRef`が`\"head\"`に設定されていない限り、リポジトリのデフォルトブランチから分岐することが説明されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/09cf68dad0848f9176c5878481ef1d768f28183e"
+        },
+        {
+          "tag": "Improved",
+          "file": "changelog.md",
+          "text": "changelog.mdドキュメントに最新の更新情報が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/467a32c8d8b8c3341edb5c750faad0b864c00865"
+        }
+      ]
+    }
+  ]
+}
