@@ -1,0 +1,195 @@
+{
+  "fetchedAt": "2026-05-26T22:13:41.697Z",
+  "entries": [
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- rcmd v3：瞬時のアプリ切り替え、あいまい検索、ワークスペースの保存と復元を実現\n  https://www.reddit.com/r/macapps/comments/1tn8an0/rcmd_v3_instant_app_switching_fuzzy_search/\n- 【特大スレッド】2026年5月の注目アプリ\n  https://www.reddit.com/r/macapps/comments/1t0rojv/megathread_the_app_pile_may_2026/\n- MegaCleaner 1.3：Macネイティブクリーナーがメニューバーモードに対応、カテゴリ別スキャン、空き容量回復機能を追加 (Xcode、Docker、node_modules、シミュレータランタイム、ブラウザキャッシュ、プロジェクトログなど39種類のツール)\n  https://www.reddit.com/r/macapps/comments/1to7q5z/megacleaner_13_native_mac_cleaner_with_39_pertool/\n- LaunchOS 2.0：AppKitで再構築され、クラシックなLaunchpad体験が復活\n  https://www.reddit.com/r/macapps/comments/1to4go4/launchos_20_rebuilt_with_appkit_to_bring_back_the/\n- ロック画面にぴったりのメッセージをデザインできるMacアプリ「LockLines」を作りました\n  https://www.reddit.com/r/macapps/comments/1tobmrb/i_made_locklines_a_mac_app_for_designing_lock/\n- アプリの「裏技」的な使い方（本来の目的とは異なる使い方）で一番良いものは？\n  https://www.reddit.com/r/macapps/comments/1to63o1/whats_the_best_offlabel_use_of_an_app_ie_using_it/\n- Synapse：スクリーンショット、OCR、クリップボード、スリープ防止などを2.9MBにまとめたMacアプリ (バージョン2.0.1公開中)\n  https://www.reddit.com/r/macapps/comments/1to5m4x/synapse_29mb_mac_app_that_replaces_screenshots/\n- Macアプリの録画ボタンをテスト：見た目ほどシンプルではない理由\n  https://www.reddit.com/r/macapps/comments/1todvfg/testing_recording_buttons_in_mac_apps_why_they/\n- 「雰囲気重視」のアプリを見分ける特徴は？\n  https://www.reddit.com/r/macapps/comments/1tnw0gx/what_are_the_giveaways_of_a_vibecoded_app/\n- Jott — Macのノッチでメモを取る\n  https://www.reddit.com/r/macapps/comments/1to6gv8/jott_notes_in_your_macs_notch/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-05-27"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- Redditに人間認証システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackersのsubreddit、品質向上のため新ルールを発表\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- 起業直後、マーケティングが最大の難関であると確信\n  https://www.reddit.com/r/indiehackers/comments/1to8q7o/i_genuinely_believe_that_marketing_is_the_most/\n- 起業は簡単、その後の展開が難しいと判明\n  https://www.reddit.com/r/indiehackers/comments/1to1pj2/turns_out_launching_is_the_easy_part/\n- 私は「やめるべき時」を学んだ\n  https://www.reddit.com/r/indiehackers/comments/1toimww/i_learned_when_to_stop/\n- エージェントたちを心から誇りに思う\n  https://www.reddit.com/r/indiehackers/comments/1to0u9s/i_am_so_proud_of_my_agents/\n- [Show IH] ソロ起業家のひらめきを形に。大企業のコンサルチームと個人開発のギャップを埋めるツールを開発\n  https://www.reddit.com/r/indiehackers/comments/1to3k56/show_ih_solo_founders_get_shower_thoughts_big/\n- App Storeのスクリーンショット作成に悩み、専用Webアプリを開発\n  https://www.reddit.com/r/indiehackers/comments/1tnn7gu/i_didnt_know_how_to_make_app_store_screenshots_so/\n- 多くの起業家が陥る「問題発見」から「解決策提示」への飛躍。そこには欠けているステップがある\n  https://www.reddit.com/r/indiehackers/comments/1tn9dr6/most_founders_jump_from_something_is_broken_to/\n- コミュニティでの顧客獲得で誰も語らない「あるスキル」\n  https://www.reddit.com/r/indiehackers/comments/1tnduvx/the_skill_nobody_talks_about_when_they_say_just/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-05-27"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI、進行中のメガトレンドをリストアップ\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Claude Managed Agents向け自己ホスト型サンドボックスとMCPトンネルがパブリックベータに\n  https://www.reddit.com/r/ClaudeAI/comments/1thg711/selfhosted_sandboxes_and_mcp_tunnels_for_claude/\n- 会社が全社員にClaude Code Sonnet 4.6を無制限に付与、トークン消費量ランキングを毎週発表開始。トップになるには？\n  https://www.reddit.com/r/ClaudeAI/comments/1tob45x/company_gave_us_all_unlimited_claude_code_sonnet/\n- Microsoft、Claude Codeライセンスのキャンセルを開始（The Verge報道）\n  https://www.reddit.com/r/ClaudeAI/comments/1to6kqz/microsoft_has_started_canceling_claude_code/\n- 😢😢\n  https://www.reddit.com/r/ClaudeAI/comments/1tnufv3/_/\n- 終わり。私は何をしたんだ\n  https://www.reddit.com/r/ClaudeAI/comments/1toahgv/the_end_what_have_i_done/\n- 新しいClaude Certified Architect - Foundations (CCA-F) 試験に985/1000で合格！\n  https://www.reddit.com/r/ClaudeAI/comments/1to0xfc/just_passed_the_new_claude_certified_architect/\n- Claudeが私に何かをするように言い続ける\n  https://www.reddit.com/r/ClaudeAI/comments/1toc2oo/claude_keeps_telling_me_to_do_something/\n- それは耐荷重だ。\n  https://www.reddit.com/r/ClaudeAI/comments/1tob6q5/that_is_loadbearing/\n- 会社がClaude Codeの使用状況を測定開始、エンジニアを「AIパフォーマンス」でランク付けするよう求められている。これは間違っている気がする…\n  https://www.reddit.com/r/ClaudeAI/comments/1tokje7/my_company_started_measuring_our_claude_code/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-05-27"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1579pt] Magnifica Humanitas | テクノロジーの社会貢献への活用、バチカンの見識に高い評価の声\n  https://news.ycombinator.com/item?id=48265206\n- [1124pt] AIを使ったコード作成：時間はかかるがより良いコードに？ | AIを使ったコード生成は時間がかかるとの指摘に対し、学習ツールとしての有効性を評価する声も\n  https://news.ycombinator.com/item?id=48272984\n- [1038pt] カリフォルニア州、猛反発を受け年齢確認法からLinuxを免除へ | カリフォルニア州のインターネット法案に対し、誤解や立法プロセスの不透明さへの懸念が多数\n  https://news.ycombinator.com/item?id=48269961\n- [663pt] スペイン、ギャンブルライセンス不足で予測市場PolymarketとKalshiをブロック | 予測市場が現実世界操作を助長するとの批判や、ギャンブル規制の必要性について議論\n  https://news.ycombinator.com/item?id=48279316\n- [645pt] GitHub Actionsがダウン | null\n  https://news.ycombinator.com/item?id=48278374\n- [565pt] 座るよりも歩く方が創造性を高める可能性、研究で判明（2014年） | ウォーキングが思考を整理し、問題解決や創造性向上に繋がるとの共感の声多数\n  https://news.ycombinator.com/item?id=48272670\n- [559pt] GoogleがGoogleでなくなった今、代替の検索エンジンは？ | Kagiなど、Google代替の検索エンジンの品質や価値を評価する声多数\n  https://news.ycombinator.com/item?id=48266051\n- [492pt] 子供たちが庭先から出られなくなったことで失われたもの | 現代の子育てにおける子供の行動範囲の制限と、それがコミュニティや子供の発達に与える影響について意見が交わされている\n  https://news.ycombinator.com/item?id=48267290\n- [487pt] オランダ、重要なデジタルサプライヤーの米国企業による買収を阻止 | 政府の決定を支持する声が多い一方で、政治化への懸念や自国でのソリューション開発を求める声も\n  https://news.ycombinator.com/item?id=48278406\n- [476pt] 永遠のスロプテンバー（AI品質低下問題） | AIによるコード生成のメリットとデメリットについて、両極端な意見がある中で、バランスの取れた見方が示されている\n  https://news.ycombinator.com/item?id=48263238",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-05-27"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "5 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- OpenRouter、評価額が1年で2倍超の13億ドルに\n  https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/\n- インドのギグエコノミーが世界のロボットを訓練する？ 新興企業が挑む\n  https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai/\n- Universal Music GroupとTikTok、AI生成音楽の不正利用対策で再提携\n  https://techcrunch.com/2026/05/26/universal-music-group-and-tiktok-renew-agreement-to-combat-unauthorized-ai-music/\n- TechCrunch Disrupt 2026、早割チケットの販売は5月29日まで\n  https://techcrunch.com/2026/05/26/techcrunch-disrupt-2026-early-bird-ticket-rates-end-may-29/\n- Amazonと競合する物流企業Stord、評価額30億ドルで2億5000万ドルを調達\n  https://techcrunch.com/2026/05/26/amazon-fulfillment-competitor-stord-raises-250m-at-3b-valuation/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-05-27"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "Notes on Pope Leo XIV's encyclical on AI",
+      "url": "https://simonwillison.net/2026/May/25/encyclical-on-ai/#atom-entries",
+      "summary": "ローマ教皇レオ14世がAI時代の人間性の保護に関する書簡を発表し、AI開発の不透明性、偏り、環境負荷、そして人間的な責任の必要性について言及した。",
+      "publishedAt": "2026-05-26",
+      "ogImage": null
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- AVTR-1、リアルタイムのオープンウェイトモデルを公開 — 不気味なAIアバター生成がオープンソースに\n  https://www.producthunt.com/products/avaturn-live-2\n- Brew — メールマーケティング向けClaudeデザインツール\n  https://www.producthunt.com/products/brew-5\n- crunr — AWSで任意のコンピューティングジョブを1コマンドで起動・実行\n  https://www.producthunt.com/products/crunr-run-it-ghost-it\n- marpy.io — Pythonスタックに特化したAIコーディングプラットフォーム\n  https://www.producthunt.com/products/marpy-io-python-first-ai-dev-platform\n- Willow Scribe — 言いたいことをScribeに伝えれば、残りはすべて執筆\n  https://www.producthunt.com/products/willow-voice\n- Parsewise API — エージェント型複数ドキュメント処理用API\n  https://www.producthunt.com/products/parsewise\n- DodoForm — 会話、画像、走り書きをクリーンな構造化データに変換\n  https://www.producthunt.com/products/dodoform\n- QuakPit — 思わず笑顔になる会議リマインダー\n  https://www.producthunt.com/products/quakpit\n- Rezonant — 話して、仕様を決め、出荷：製品アイデアを本番環境へ\n  https://www.producthunt.com/products/portia-ai\n- Tesserac — macOS向けCmd+Tabに代わる空間的な切り替えツール\n  https://www.producthunt.com/products/tesserac",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-05-27"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "2 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Gravy：AIエージェントが個人の財務管理をサポート\n  https://gravy.finance\n- Twolabs：介護向けヒューマノイドロボットを開発\n  https://www.twolabs.ai",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-05-27"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "17 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-05-27",
+      "docsUpdates": [
+        {
+          "tag": "Improved",
+          "file": "best-practices.md",
+          "text": "Claudeが成功を断言するのではなく、テスト出力、実行されたコマンドとその戻り値、結果のスクリーンショットなどの証拠を示すように求める記述が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/f161833a7e16892edd90b9f6a48e8bd3ff7f2be3"
+        },
+        {
+          "tag": "Changed",
+          "file": "desktop-changelog.md",
+          "text": "デスクトップ版の変更履歴に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/f161833a7e16892edd90b9f6a48e8bd3ff7f2be3"
+        },
+        {
+          "tag": "Added",
+          "file": "discover-plugins.md",
+          "text": "Claudeの変更を一般的な脆弱性についてレビューし、同じセッションで修正を指示するsecurity-guidanceプラグインに関するセクションが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/f161833a7e16892edd90b9f6a48e8bd3ff7f2be3"
+        },
+        {
+          "tag": "Improved",
+          "file": "hooks-guide.md",
+          "text": "security-guidanceプラグインがClaude Codeとどのように統合されるかを示す例への参照が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/f161833a7e16892edd90b9f6a48e8bd3ff7f2be3"
+        },
+        {
+          "tag": "Changed",
+          "file": "memory.md",
+          "text": "インポートされたファイルの再帰的なインポートの最大深度が5から4に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/f161833a7e16892edd90b9f6a48e8bd3ff7f2be3"
+        },
+        {
+          "tag": "Changed",
+          "file": "plugins-reference.md",
+          "text": "プラグインの出力例がsecurity-guidanceからdependency-guardに変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/f161833a7e16892edd90b9f6a48e8bd3ff7f2be3"
+        },
+        {
+          "tag": "Added",
+          "file": "security-guidance.md",
+          "text": "Claudeがコードを書く際にセキュリティ問題を検出し、修正する方法についての新しいドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/f161833a7e16892edd90b9f6a48e8bd3ff7f2be3"
+        },
+        {
+          "tag": "Improved",
+          "file": "security.md",
+          "text": "関連リソースにsecurity-guidanceプラグインへのリンクが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/f161833a7e16892edd90b9f6a48e8bd3ff7f2be3"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-view.md",
+          "text": "エージェントビューにアタッチしている間、`Ctrl+C`の挙動が変更され、実行中の応答やシェルコマンドをキャンセルするようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b36ced5833102944b643e588a564d2ac3757ba6d"
+        },
+        {
+          "tag": "Changed",
+          "file": "discover-plugins.md",
+          "text": "プラグインのインストールコマンドで指定する組織名が`anthropics-claude-code`から`claude-code-plugins`に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b36ced5833102944b643e588a564d2ac3757ba6d"
+        },
+        {
+          "tag": "Added",
+          "file": "github-enterprise-server.md",
+          "text": "GitHub Enterprise Serverのサポート機能にClaude Securityが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b36ced5833102944b643e588a564d2ac3757ba6d"
+        },
+        {
+          "tag": "Improved",
+          "file": "mcp.md",
+          "text": "`mcp-server-dev`プラグインのインストールができない場合に、先にマーケットプレイスを追加する手順が追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b36ced5833102944b643e588a564d2ac3757ba6d"
+        },
+        {
+          "tag": "Improved",
+          "file": "permissions.md",
+          "text": "`--add-dir`フラグまたは`/add-dir`コマンドで追加されたディレクトリにのみ、特定の構成タイプがロードされる例外が適用されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b36ced5833102944b643e588a564d2ac3757ba6d"
+        },
+        {
+          "tag": "Improved",
+          "file": "skills.md",
+          "text": "追加ディレクトリからのスキル読み込みに関する説明が明確化され、`--add-dir`フラグだけでなく`/add-dir`コマンドも含まれるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b36ced5833102944b643e588a564d2ac3757ba6d"
+        },
+        {
+          "tag": "Improved",
+          "file": "features-overview.md",
+          "text": "MCPに関する説明が更新され、外部システムとの接続と認証はサーバーによって処理される、目的別に構築されたツールをClaudeに提供する機能であることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/07905ccc66322b34ceaa3a5d5589c90a1b996e55"
+        },
+        {
+          "tag": "Improved",
+          "file": "monitoring-usage.md",
+          "text": "ツール結果イベントがツール実行完了時にログされること、またツール呼び出しが拒否された場合はログされないことが追記され、その場合はTool decision eventを参照するよう指示が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/07905ccc66322b34ceaa3a5d5589c90a1b996e55"
+        },
+        {
+          "tag": "Improved",
+          "file": "remote-control.md",
+          "text": "明示的な名前を設定していない場合、プロンプト送信後にセッションタイトルが更新されることに加え、claude.aiまたはClaudeアプリからセッション名を変更した場合もローカルタイトルが更新されることが追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/07905ccc66322b34ceaa3a5d5589c90a1b996e55"
+        },
+        {
+          "tag": "Added",
+          "file": "sub-agents.md",
+          "text": "サブエージェントが利用できない内部ツールとMCPツールが具体的にリストアップされ、それらはメイン会話のUIまたはセッション状態に依存するため、`tools`フィールドにリストされていても利用できないことが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/07905ccc66322b34ceaa3a5d5589c90a1b996e55"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "2 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- Copilot Memoryが削除、スコープ、CLIの制御機能を強化\n  https://github.blog/changelog/2026-05-26-copilot-memory-has-more-controls-for-deletion-scope-and-the-copilot-cli\n- モデルルールでCopilotモデルを組織に合わせて調整\n  https://github.blog/changelog/2026-05-26-target-copilot-models-to-organizations-with-model-rules",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-05-27"
+    }
+  ]
+}
