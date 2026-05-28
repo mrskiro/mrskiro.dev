@@ -1,0 +1,323 @@
+{
+  "fetchedAt": "2026-05-28T22:24:02.945Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "OpenAI’s Frontier Governance Framework",
+      "url": "https://openai.com/index/openai-frontier-governance-framework",
+      "summary": "OpenAIがAI安全・セキュリティ・リスク管理に関する新フレームワークを発表し、EUやカリフォルニアの規制との整合性を解説。",
+      "publishedAt": "2026-05-28",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/1I1Nqkk5i2cjTAtdxBXoiY/526a8c54d8f856b83c36d40397a9e503/Frame.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.154",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+      "summary": "- [Added] Opus 4.8がリリースされ、デフォルトで高負荷設定（/effort xhigh）が適用されるようになりました。\n- [Added] 動的ワークフローが導入されました。Claudeにワークフローの作成を依頼すると、多数のエージェント間で作業を調整し、大規模で複雑なタスクに対応できます。実行中のワークフローは/workflowsで確認できます。\n- [Added] Opus 4.8の高速モードが利用可能になり、以前のコストの数分の1で、2倍の標準レートで2.5倍の速度を実現します。\n- [Changed] Haiku、Sonnet、Opus 4.7以前のモデルを除くすべてのモデルで、leanシステムプロンプトがデフォルトになりました。\n- [Changed] Claudeは、十分なコンテキストがある場合は複数選択の質問をせず、本当に判断できない場合にのみ行うようになりました。\n- [Changed] /simplifyは、バグハンティングのフルレビューではなく、クリーンアップのみのレビュー（再利用、簡素化、効率化、高度化）を実行し、修正を適用するようになりました。\n- [Changed] /effortスライダーのラベルが「Speed」/「Intelligence」から「Faster」/「Smarter」に変更され、分かりやすくなりました。\n- [Added] Claudeエージェントで、! <command>と入力すると、バックグラウンドセッションとしてシェルコマンドを実行できるようになりました。claude --bg --exec '<command>'でも利用可能です。\n- [Fixed] claudeエージェントの/logoutが、バックグラウンドセッションに送られる代わりにサインアウトするようになりました。\n- [Fixed] ←←でエージェントビューを開く機能が、Bedrock、Vertex、Foundry、およびテレメトリー無効時でも動作するようになりました。\n- [Added] ChromeのClaudeで、/chrome →「Select browser…」またはチャット内で複数のブラウザが接続されている場合に、使用する接続済みブラウザを選択できるようになりました。\n- [Added] プラグインがplugin.jsonまたはマーケットプレイスエントリでdefaultEnabled: falseを宣言できるようになりました。/pluginまたはclaude plugin enableで有効にできます。有効なプラグインの依存関係は引き続き自動的に有効になります。\n- [Improved] /plugin Discoverタブが、現在のディレクトリの関連性シグナルと一致するプラグインを「suggested for this directory」と注釈を付けてピン留めするようになりました。\n- [Improved] ストリーミングツール実行が常に有効になり、テレメトリー無効時やBedrock/Vertex/Foundryでも利用できるようになりました（以前は機能フラグの背後にありました）。\n- [Added] Stdio MCPサーバーサブプロセスが、環境変数でCLAUDE_CODE_SESSION_IDとCLAUDECODE=1を受け取るようになりました。\n- [Changed] claude mcp list/getが、未承認の.mcp.jsonサーバーを、出力がパイプされたときに自動承認して接続する代わりに、⏸ Pending approvalとして表示するようになりました。\n- [Improved] /remote-controlのオートコンプリートが、Remote Controlが既にアクティブな場合に「Disconnect Remote Control」を表示するようになりました。\n- [Added] /claude-apiスキルにClaude Opus 4.8のサポートと4.7から4.8への移行ガイダンスが追加されました。\n- [Removed] CLAUDE_CODE_OPUS_4_6_FAST_MODE_OVERRIDEは非推奨となりました（6月1日に削除されます）。Opus 4.6で高速モードを使用するには、/model claude-opus-4-6[1m]に切り替えてから/fast onを使用してください。\n- [Improved] 自動モード分類器のデータ漏洩、特にリポジトリコンテンツの一括転送の検出が改善されました。\n- [Fixed] HOMEに末尾のスラッシュがある場合に、rm -rf $HOMEが危険なパスとしてブロックされない問題が修正されました。\n- [Fixed] 同じセッション内でサンドボックス化されたBashコマンドとサンドボックス化されていないBashコマンドで$TMPDIRが異なるディレクトリに解決される問題が修正されました。\n- [Fixed] Claude Codeテーマがターミナル背景と一致しない場合に、claudeエージェントの強調表示された行のテキストが読みにくい問題が修正されました。\n- [Fixed] 一部の1Mコンテキストモデルで、バックグラウンドエージェント完了通知が時期尚早な「out of context」動作を引き起こす問題が修正されました。\n- [Fixed] スケジュールされた/commandが起動したときに、バックグラウンドセッション分類器がユーザーの目標を失う問題が修正されました。\n- [Fixed] Claude Codeの更新後、ピン留めされたバックグラウンドセッションが毎分再起動し、アイドル時にエージェント開始通知とプロセスチャーンが繰り返される問題が修正されました。\n- [Fixed] 「blocked」、「running」、または「working」でスタックしたバックグラウンドセッションが、アイドル猶予期間後に終了しない問題が修正されました。\n- [Fixed] バックグラウンドセッションのサブエージェントがworktree分離ガードをバイパスし、共有チェックアウトに書き込む問題が修正されました。\n- [Fixed] macOSでデーモンが終了した後、孤立したclaude --bg-pty-hostプロセスが100% CPUでスピンする問題が修正されました。\n- [Fixed] オプションダイアログの区切り線の下に表示されるオプションで、数字キーのショートカットが機能しない問題が修正されました。\n- [Fixed] サブエージェントを生成したり、リンクされたworktree内からEnterWorktreeを呼び出したりしたときに、worktree.baseRef: \"head\"が現在のworktreeのHEADではなく、メインチェックアウトのHEADに解決される問題が修正されました。\n- [Fixed] 前の行がターミナル幅で正確に終了したときに、折り返された行に余分な先頭スペースが表示される問題が修正されました。\n- [Fixed] 思考スピナーが生成する異なる色の数を制限することで、VS Codeで断続的なターミナルレンダリングの破損が修正されました。\n- [Fixed] プランモードのプロンプトが貼り付けられた画像やテキストで始まる場合に、プランファイル名に[Image #N] / [Pasted text #N]プレースホルダーが含まれる問題が修正されました。\n- [Fixed] 色付きツール出力のファントムな展開/クリックのアフォーダンスが修正されました。画面に収まる短いANSI色付き行に「ctrl+o to expand」ヒントが表示されなくなりました。\n- [Fixed] 管理設定で単一の無効なallowedMcpServers/deniedMcpServersエントリがあると、すべての管理設定ポリシーが破棄される問題が修正されました。不正なエントリはclaude doctor警告と共に削除されるようになりました。\n- [Fixed] CLAUDE_CODE_ALWAYS_ENABLE_EFFORTが設定されている場合に、effortパラメーターをサポートしないモデルでAPI 400エラーが発生する問題が修正されました。\n- [Fixed] Windowsで、claude.exeが使用中のために更新が失敗した場合に、他のセッションを閉じて再試行するように指示する代わりに一般的なエラーが表示される問題が修正されました。\n- [Removed] ショートカットヘルプパネルから古くなった「& for background」ヒントが削除されました。\n- [Fixed] [VSCode]自動モードがモードピッカーに表示されるためにbypass-permissions設定を必要としなくなりました。新しいセッション画面の最初の起動時に、自動モードについて説明する閉じることのできる通知が表示されます。\n- [Fixed] プロンプトの下のタスクパネルが、ワークフローのみが実行されている場合に選択できない余分な「main」行を表示する問題が修正されました。\n- [Fixed] MCPサーバーのツール名が長い場合や複数行の場合、または説明が長い場合に、/mcp tools listおよびツール詳細のレンダリングが修正されました。\n- [Fixed] 高速モードがオンの場合に、API（従量課金制）ユーザーのデフォルトオプションで/modelピッカーが高速モードの料金を表示しない問題が修正されました。\n- [Fixed] 安全分類器が出力トークンを使い果たして推論中に、「could not evaluate this action」というメッセージで自動モードが誤ってアクションをブロックする問題が修正されました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-05-29"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.153",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+      "summary": "- [Added] github/gitプラグインのmarketplaceソースにskipLfsオプションを追加し、cloneおよびupdate時のGit LFSダウンロードをスキップできるようにしました。\n- [Added] Claude Codeでnpmグローバルインストールが自動更新できない場合、一度限りの通知が表示されるようになりました。修正は/doctorで確認できます。\n- [Added] ステータスラインコマンドがCOLUMNSおよびLINES環境変数を受け取るようになり、スクリプトが出力をターミナル幅に合わせられるようになりました。\n- [Improved] claude agents: dispatch入力のオートコンプリートで、プロジェクトスキルだけでなく、ネイティブなスラッシュコマンドとバンドルされたスキルも提案されるようになりました。\n- [Improved] claude agents: PR列に、単一のPRの場合はPR #N、複数の場合はN PRsと表示されるようになりました。\n- [Improved] claude doctorが最後に試行されたアップデートの結果を表示するようになりました。\n- [Improved] MCPサーバーとコネクタの「認証が必要です」という別々の起動通知が、単一のメッセージに統合されました。\n- [Improved] macOS: バックグラウンドエージェントが「Claude Code」として「プライバシーとセキュリティ」に表示され、アップグレード後も権限付与が維持されるようになりました。\n- [Fixed] オプションのGET SSEストリームがないステートフルなMCPサーバーがtools/listで再接続ループに陥る問題を修正しました（v2.1.147でのリグレッション）。\n- [Fixed] カスタムAPIゲートウェイがゲートウェイ自身のトークンではなくユーザーのAnthropic OAuth認証情報を受け取る可能性があったリグレッションを修正しました。\n- [Fixed] サブエージェント（Agent tool）のfrontmatter MCPサーバーが--strict-mcp-config、--bare、リモートモード、エンタープライズ管理のMCP設定、およびmanaged-settings MCPサーバーの許可/拒否ポリシーを無視する問題を修正しました。\n- [Fixed] --strict-mcp-configが明示的に渡されたエージェント定義（--agents / SDK agents）からインラインのmcpServersを削除しなくなり、ブロックされたサブエージェントMCPサーバーが目に見える警告を表示するようになりました。\n- [Fixed] Windows PowerShellインストーラーが、実際にはインストールが失敗しているのに「Installation complete!」と報告する問題を修正しました。\n- [Fixed] npmインストールの場合に、claude updateが設定されたリリースチャネルのバージョンではなく、最新バージョンをインストールする問題を修正しました。\n- [Fixed] 多数のセッションが保存されているマシンでトランスクリプトファイルパスによるセッション再開時に、過剰なメモリ使用量（数GB）が発生する問題を修正しました。\n- [Fixed] バイナリ引き継ぎサポートが開始される前に起動した古いデーモン上でclaude agentsとclaude --bgが動作し続ける問題を、アップグレード後も発生していたのを修正しました。\n- [Fixed] stream-jsonモードでstdinがEOFなしで閉じられた場合にCLIが終了せず、古いセッションマーカーが残る可能性があったハングを修正しました。\n- [Fixed] Claudeの応答中の不正なfile://リンクがターミナルでクリックできない問題を修正しました。\n- [Fixed] 92列よりも狭いターミナルでclaude --helpが折り返されない出力をレンダリングする問題を修正しました。\n- [Fixed] 折りたたまれたツールビューでMCPツールの進行状況通知がレンダリングされない問題を修正しました。\n- [Fixed] subagent_type: 'claude'を持つAgent toolが、文書化されていない一時的なワークツリーで実行され、gitignoredパスに書き込まれた出力をサイレントに破棄する可能性があった問題を修正しました。\n- [Changed] Claudeが応答中に/bgを実行すると、応答がバックグラウンドセッションで続行されるようになり、ドロップされなくなりました。\n- [Fixed] バックグラウンドセッションでタスク実行中に/btwキーボードショートカットが応答しなくなる問題を修正しました。\n- [Fixed] バックグラウンドセッションが$CLAUDE_JOB_DIRに一時ファイルを書き込むと、「機密ファイル」のアクセス許可プロンプトがトリガーされる問題を修正しました。\n- [Fixed] 作業ディレクトリが削除されたバックグラウンドエージェントの回復時に、明確なエラーメッセージではなく、切り詰められたスタックトレースが表示される問題を修正しました。\n- [Fixed] バックグラウンドセッションでEnterWorktreeがすぐに利用できない問題を修正しました（以前はToolSearchが最初に必要でした）。\n- [Fixed] iTerm2/Terminal.appでcmd+kを実行しても、アタッチされたバックグラウンドセッションが再描画されない問題を修正しました。\n- [Fixed] Windowsのアタッチされたバックグラウンドセッションで、IME候補ウィンドウが入力キャレットの横ではなく画面の下部に表示される問題を修正しました。\n- [Fixed] エージェントがファイル差分をレンダリングした後、256色のみのターミナルからバックグラウンドエージェントにアタッチした際に、背景色がにじむ問題を修正しました。\n- [Fixed] tmux内でバックグラウンドセッションにアタッチされているときに、/copyおよびコピーオンセレクトがシステムクリップボードをサイレントに更新できない問題を修正しました。\n- [Fixed] Remote Controlが有効なclaude agentsを開くと、終了後にCodeタブにゾンビセッションエントリが残る問題を修正しました。\n- [Fixed] バックグラウンドセッションでの/renameがセッションバナーをすぐに更新しない問題を修正しました。\n- [Fixed] Windowsアップデートのロールバック: Windowsアップデートが失敗した場合、Claude Codeは元の実行可能ファイルをコピーして復元し、回復方法を通知するようになりました。\n- [Fixed] [VSCode] WindowsでVS Codeを閉じてもClaude Codeプロセスが正常にシャットダウンせず、誤った「unclean exit」報告や孤立したMCPサーバーが発生する問題を修正しました。\n- [Changed] /modelが、新しいセッションのデフォルトとして選択を保存するようになりました（IDEと一致）。現在のセッションのみモデルを切り替えるには、ピッカーでsを押します。\n- [Changed] modelPicker:setAsDefaultのキーバインディングをカスタマイズしている場合は、keybindings.jsonでmodelPicker:thisSessionOnlyに名前を変更してください（dアクションがsに置き換えられました）。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-05-28"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- GitHubをさまよう：ソフトウェアの修正点を探して\n  https://www.reddit.com/r/macapps/comments/1tpfbap/just_wondering_around_github_looking_for_a/\n- 【まとめ】注目のアプリ群 - 2026年5月版\n  https://www.reddit.com/r/macapps/comments/1t0rojv/megathread_the_app_pile_may_2026/\n- 【Mac用アプリ】Mac向け「AccountyCat」を開発：フィードバックを募集中\n  https://www.reddit.com/r/macapps/comments/1tqaerj/os_i_built_an_accountability_partner_for_mac/\n- Telescopo 7：無料のネイティブMarkdownビューアがMarkdown Studioを搭載しアップグレード\n  https://www.reddit.com/r/macapps/comments/1tqchj9/telescopo_7_free_native_markdown_viewer_now_with/\n- 就職活動の応募状況を管理できるアプリのおすすめはありますか？\n  https://www.reddit.com/r/macapps/comments/1tqhgsz/does_anyone_have_any_recommendations_for_an_app_i/\n- 美しい画面録画と即時共有可能なリンクを作成するスクリーンレコーダー「Dina」を開発しました\n  https://www.reddit.com/r/macapps/comments/1tpyakn/i_built_dina_a_screen_recorder_that_creates/\n- 速度を重視したアプリスイッチャーを探しています\n  https://www.reddit.com/r/macapps/comments/1tqctg3/looking_for_an_app_switcher_that_values_being_fast/\n- 信じられない！「Space launcher」が帰ってきた\n  https://www.reddit.com/r/macapps/comments/1tpkjei/cant_believe_it_space_launcher_is_back/\n- メディア最適化をより便利に、パフォーマンスとファイルサイズに焦点を当てた「GetCompress」を開発\n  https://www.reddit.com/r/macapps/comments/1tphgg0/i_built_getcompress_to_make_media_optimization/\n- Macのサウンドボードアプリが高すぎたり、サブスクリプション限定だったりする問題を解決する「LitPads」を開発：ネイティブ対応、iCloud同期、公正な買い切り価格。プロモコード50個を無料配布中\n  https://www.reddit.com/r/macapps/comments/1tp5smq/i_built_litpads_because_mac_soundboards_are/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-05-29"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- Redditに新機能、人間認証システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackersのsubredditに新ルール―「質の向上」目指す\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- 顧客が誤って競合他社すべてにCCでメール送信\n  https://www.reddit.com/r/indiehackers/comments/1tqi3zi/customer_accidentally_ccd_every_competitor_in_the/\n- AIツールを100以上のディレクトリに手動登録してみた結果、本当に効果があったこと\n  https://www.reddit.com/r/indiehackers/comments/1tq4dus/i_submitted_my_ai_tool_to_100_directories/\n- Product Huntでのローンチを事前に準備する方法\n  https://www.reddit.com/r/indiehackers/comments/1tpvyz5/prepare_for_your_producthunt_launch_ahead_of_time/\n- 実際に機能するAI SDRは存在するのか？リアルな数値で検証\n  https://www.reddit.com/r/indiehackers/comments/1tq408d/is_there_an_ai_sdr_that_actually_works_for_you/\n- 創業者のための「ダンニング＝クルーガー効果」テストを開発、5分で診断可能に\n  https://www.reddit.com/r/indiehackers/comments/1tq1boa/show_ip_i_built_a_5min_dunningkruger_test_for/\n- 「Ship or Die」に参加、私にとって大きな一歩\n  https://www.reddit.com/r/indiehackers/comments/1tpcd42/i_joined_ship_or_die_a_big_step_for_me/\n- Indie Kitがユーザー数1,400人を突破。現場から得た5つの教訓\n  https://www.reddit.com/r/indiehackers/comments/1tpafon/indie_kit_just_hit_1400_users_here_are_5_honest/\n- 起業家は資金調達のストレスにどう対処しているのか\n  https://www.reddit.com/r/indiehackers/comments/1tozo4n/how_do_people_emotionally_survive_fundraising/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-05-29"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI、進行中のメガトレンドをリストアップ\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Claude Opus 4.8を発表\n  https://www.reddit.com/r/ClaudeAI/comments/1tq99mu/introducing_claude_opus_48/\n- Opus 4.8（最大モデル）が「洗車場へ行け」と指示、歓喜の声\n  https://www.reddit.com/r/ClaudeAI/comments/1tq9qrr/opus_48_max_told_me_to_drive_to_the_car_wash/\n- Opus 4.8が「穴居人」風に4.7との違いを語る、その面白さ\n  https://www.reddit.com/r/ClaudeAI/comments/1tqd246/opus_48_in_caveman_talking_about_the_difference/\n- 言いたいことはこれだけ\n  https://www.reddit.com/r/ClaudeAI/comments/1tq9ht9/all_i_have_to_say/\n- AIモデルにシミュレーション社会を運営させた研究：Claudeが最も安全、Grokは180の犯罪を犯し4日以内に絶滅\n  https://www.reddit.com/r/ClaudeAI/comments/1tq2yh0/researchers_let_ai_models_run_a_simulated_society/\n- Opus 4.8が本日リリースされる可能性\n  https://www.reddit.com/r/ClaudeAI/comments/1tq5js7/we_might_be_getting_opus_48_today/\n- 「Opus 4.8は使い物にならない」という投稿はいつ始まるのか？\n  https://www.reddit.com/r/ClaudeAI/comments/1tqa51v/when_will_the_opus_48_is_unusable_posts_start/\n- Claude Codeにダイナミックワークフローを導入\n  https://www.reddit.com/r/ClaudeAI/comments/1tq9ofy/introducing_dynamic_workflows_in_claude_code/\n- Opusはもはやトップではない？Mythosが一般公開へ\n  https://www.reddit.com/r/ClaudeAI/comments/1tqavzs/so_opus_isnt_the_top_anymore_mythos_is_apparently/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-05-29"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1959pt] AIとの会話にうんざり | AIとの対話に疲弊している人が多数。業務でのAI利用やAIとの口論、偽情報などに対する不満が噴出。\n  https://news.ycombinator.com/item?id=48292224\n- [1289pt] 休みを取ってもいいですか？ | AIによる生産性向上は労働者に還元されず、週休4日制のメリットや導入の難しさについて議論。\n  https://news.ycombinator.com/item?id=48302745\n- [1260pt] YouTube、AI生成動画に自動ラベル付けへ | AI生成動画による被害への懸念や、音楽ジャンルへの適用、そしてニュース動画の信頼性について言及されている。\n  https://news.ycombinator.com/item?id=48299753\n- [1067pt] AnthropicとOpenAIはプロダクトマーケットフィットを見出したと思う | AI企業のビジネスモデルや収益性、オープンソースAIとの競合について疑問や議論が提示されている。\n  https://news.ycombinator.com/item?id=48296794\n- [1051pt] Claude Opus 4.8 | Opus 4.8は前モデルからの着実な改善と評価。適応的思考のオフ機能や、次世代モデルへの期待が語られている。\n  https://news.ycombinator.com/item?id=48311647\n- [1041pt] GoogleがAIモードを好評と発表後、DuckDuckGo検索の訪問数が28%増加 | AIの過剰な導入に反発し、DuckDuckGoのようなAI非搭載検索エンジンの利用が増加している。\n  https://news.ycombinator.com/item?id=48296649\n- [786pt] Last.fmが独立 | Last.fmの独立を歓迎する声が多く、長年のユーザーからの信頼や、APIの継続利用への期待が表明されている。\n  https://news.ycombinator.com/item?id=48295892\n- [702pt] テック系CEOはAI精神病に罹っているらしい | AIが過大評価されているという意見や、CEOがプロセスを理解していないという指摘、そしてAIへの過剰な期待について議論。\n  https://news.ycombinator.com/item?id=48295679\n- [602pt] カナダ、軍用機をスウェーデンから発注、米国サプライヤーからの転換 | これは政治的ではなく、Bombardier Global 6500ベースのSaab GlobalEyeがカナダのニーズに合致しているためという見方が多い。\n  https://news.ycombinator.com/item?id=48296994\n- [532pt] プライベートエクイティがアメリカの必要不可欠なサービスを買い漁った | 年金基金がPEの存在を支えているという皮肉や、LBOの是非、そしてPEによる社会資本の収奪への懸念が表明されている。\n  https://news.ycombinator.com/item?id=48292941",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-05-29"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "14 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- インターネットが機械向けに再構築される時代へ\n  https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines/\n- Asana、ノーコードエージェントビルダーStackAIを買収\n  https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/\n- Bluesky、長文コンテンツを導入しX Articlesに対抗へ\n  https://techcrunch.com/2026/05/28/bluesky-embraces-long-form-content-to-counter-x-articles/\n- Anthropic、650億ドルを調達、IPOを控え評価額1兆ドルに迫る\n  https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/\n- AIトークン先物取引、金や石油のように間もなく可能に\n  https://techcrunch.com/2026/05/28/just-like-gold-and-oil-well-soon-be-able-to-trade-ai-token-futures/\n- H1がCVSから4000万ドルを確保、SaaSスタートアップの投資誘致力を証明\n  https://techcrunch.com/2026/05/28/h1-secures-40m-from-cvs-proving-saas-startups-can-still-attract-investment/\n- なぜパリがシリコンバレー以外で最も重要なAI都市となり得るのか\n  https://techcrunch.com/2026/05/28/why-paris-may-be-the-most-important-ai-city-outside-silicon-valley/\n- StrictlyVC、わずか3週間後にロサンゼルスで開催\n  https://techcrunch.com/2026/05/28/in-just-3-weeks-strictlyvc-is-coming-to-los-angeles/\n- 殺到する応募を受け、Startup Battlefield 200の申請締め切りを6月8日まで延長\n  https://techcrunch.com/2026/05/28/startup-battlefield-200-application-deadline-extended-to-june-8-after-overwhelming-demand/\n- Corgi、評価額26億ドルで1億600万ドルの資金調達を発表 – わずか3週間で倍増\n  https://techcrunch.com/2026/05/28/corgi-announces-106m-raise-at-2-6b-valuation-three-weeks-after-160m-series-b/\n- Anthropic、「ダイナミックワークフロー」ツールを備えたOpus 4.8をリリース\n  https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/\n- AnthropicとSpaceXのリース期間は？ 諸説飛び交う\n  https://techcrunch.com/2026/05/28/how-long-is-anthropics-lease-with-spacex-opinions-vary/\n- Oculus創業者の会話型AIスタートアップSesame、iOSアプリをリリース\n  https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/\n- 新Siriアプリの先行公開でAppleのChatGPTなどへの対抗計画が明らかに\n  https://techcrunch.com/2026/05/28/sneak-peek-at-new-siri-app-reveals-apples-plans-to-take-on-chatgpt-and-more/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-05-29"
+    },
+    {
+      "sourceName": "laiso",
+      "title": "OpenClawブームのその後とHermes Agent",
+      "url": "https://blog.lai.so/hermes-agent/",
+      "summary": "OpenClawとHermes Agentという二つのセルフホスト型AIアシスタントを比較した結果、両者とも機能面では同等だが、OpenClawは自前で多くの機能を実装する一方、Hermesは外部サービスとの連携を重視する設計思想の違いがあることが分かった。",
+      "publishedAt": "2026-05-28",
+      "ogImage": null
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Pancake — Slackで自律的な企業を構築するOpenClaw\n  https://www.producthunt.com/products/pancake-6\n- Pitch Agent — ブランドに沿ったプレゼン資料を数秒で作成\n  https://www.producthunt.com/products/pitch\n- Parastore — LLMで生成された仮想顧客で実店舗をシミュレート\n  https://www.producthunt.com/products/parastore\n- LaunchOS — macOS 26+でクラシックなLaunchpad体験を復活\n  https://www.producthunt.com/products/launchos\n- Compartment — 社内チーム向けソフトウェア用オープンソースランタイム\n  https://www.producthunt.com/products/compartment\n- SoMerch — 分散チーム向けマーチャンダイズをエンドツーエンドで提供\n  https://www.producthunt.com/products/somerch\n- Robinhood Agentic Trading — エージェントに取引を任せる\n  https://www.producthunt.com/products/robinhood\n- NeuralAgent 2.5 — 会話で指示、コンピュータが応答しタスクを実行\n  https://www.producthunt.com/products/neuralagent\n- Memori — 会話だけでなくエージェントの軌跡から永続的な記憶を生成\n  https://www.producthunt.com/products/memori-labs\n- Buffer API — あらゆるソーシャルプラットフォームへの投稿を一本のAPIで\n  https://www.producthunt.com/products/buffer-api",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-05-29"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Introducing Claude Opus 4.8",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "summary": "コーディングや業務向けタスクの処理性能と安定性を強化したAIモデルのアップグレードを発表。",
+      "ogImage": null,
+      "publishedAt": "2026-05-29"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+      "url": "https://www.anthropic.com/news/series-h",
+      "summary": "Anthropicが評価額9650億ドルで650億ドルの資金調達を実施し、Claudeの需要増に対応するため研究開発と計算能力を強化。",
+      "ogImage": null,
+      "publishedAt": "2026-05-29"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "5 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- RASPIRE — AIでノーコードのランタイムアプリセキュリティを実現\n  https://raspire.com/\n- CentralComs — リーシングとメンテナンスを自動化するAI不動産管理エージェント\n  https://centralcoms.com\n- Instinct — あなたの直感を取引に\n  https://instinct.xyz\n- Wealor — 富裕層向け資産運用担当者のためのAIネイティブプラットフォーム\n  https://wealor.ai/\n- Probe — エージェントネイティブなインシデント管理\n  https://useprobe.ai/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-05-29"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "The Age of Async Agents — Cognition's Walden Yan & OpenInspect's Cole Murray",
+      "url": "https://www.latent.space/p/cognition",
+      "summary": "Cognitionは、AIによるソフトウェア開発の自動化を進める中で、特にバックグラウンドエージェントのアーキテクチャやテスト、社内システムとの連携における課題と解決策について、OpenInspectの創設者と議論した。",
+      "publishedAt": "2026-05-29",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!d3V6!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F199607874%2F037563ff-832d-434e-8007-172d742f1057%2Ftranscoded-1779991055.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Cognition raises $1B in $26B Series D",
+      "url": "https://www.latent.space/p/ainews-cognition-raises-1b-in-26b",
+      "summary": "AIエージェントのCognitionは260億ドル評価額で10億ドル超を調達し、推論効率化、継続学習、タンパク質モデリング、コーディングエージェント製品化など、AI技術が幅広い分野で進化。",
+      "publishedAt": "2026-05-28",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!i6tW!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1563dd3-9a40-45b1-9060-7ec196bf8e77_1316x1616.png"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "24 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-05-29",
+      "docsUpdates": [
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "changelog.mdに2026年5月28日更新分のClaude Codeドキュメントの変更履歴が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5e5adf7d2e675df9586ec15e559cdc37f0e73a07"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-view.md",
+          "text": "バックグラウンドセッションのプロセスが実行を続ける条件から、「ターミナルが接続されている」状態が削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/11418d2f40b2bdcd77080a4ca4f5ed616230c76f"
+        },
+        {
+          "tag": "Changed",
+          "file": "agents.md",
+          "text": "Claude Codeが複数のタスクを並行処理する方法の比較リストに、ワークツリーの代わりに動的ワークフローが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/11418d2f40b2bdcd77080a4ca4f5ed616230c76f"
+        },
+        {
+          "tag": "Changed",
+          "file": "amazon-bedrock.md",
+          "text": "`ANTHROPIC_DEFAULT_OPUS_MODEL`が設定されていない場合のBedrockにおける`opus`エイリアスの解決先が、Opus 4.7からOpus 4.8に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/11418d2f40b2bdcd77080a4ca4f5ed616230c76f"
+        },
+        {
+          "tag": "Improved",
+          "file": "best-practices.md",
+          "text": "Claudeに自己検証方法を与えることの重要性に関するヒントが、より詳細かつ具体的になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/11418d2f40b2bdcd77080a4ca4f5ed616230c76f"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-directory.md",
+          "text": ".claudeディレクトリで読み込まれるファイルリストに`workflows`が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/11418d2f40b2bdcd77080a4ca4f5ed616230c76f"
+        },
+        {
+          "tag": "Added",
+          "file": "claude-directory.md",
+          "text": ".claudeディレクトリの構造説明に`workflows`フォルダが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/11418d2f40b2bdcd77080a4ca4f5ed616230c76f"
+        },
+        {
+          "tag": "Improved",
+          "file": "commands.md",
+          "text": "Claude Codeに含まれるコマンドのリストに関する説明が、ビルトインコマンドとスキルの違いをより明確にするように更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/11418d2f40b2bdcd77080a4ca4f5ed616230c76f"
+        },
+        {
+          "tag": "Changed",
+          "file": "desktop.md",
+          "text": "Autoモードの要件モデルが、Claude Sonnet 4.6、Opus 4.6、またはOpus 4.7からClaude Opus 4.6以降、またはSonnet 4.6に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/11418d2f40b2bdcd77080a4ca4f5ed616230c76f"
+        },
+        {
+          "tag": "Improved",
+          "file": "fast-mode.md",
+          "text": "Fastモードの速度向上が「最大2.5倍」と表現されるようになり、より正確になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/11418d2f40b2bdcd77080a4ca4f5ed616230c76f"
+        },
+        {
+          "tag": "Changed",
+          "file": "github-actions.md",
+          "text": "Claude Code GitHub Actionsのデフォルトモデルに関する情報が、Opus 4.7からOpus 4.8の利用可能性を反映するように更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/11418d2f40b2bdcd77080a4ca4f5ed616230c76f"
+        },
+        {
+          "tag": "Changed",
+          "file": "glossary.md",
+          "text": "Effort levelがサポートされるモデルが、Opus 4.7, Opus 4.6, Sonnet 4.6からOpus 4.6以降、およびSonnet 4.6に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/11418d2f40b2bdcd77080a4ca4f5ed616230c76f"
+        },
+        {
+          "tag": "Changed",
+          "file": "google-vertex-ai.md",
+          "text": "`ANTHROPIC_DEFAULT_OPUS_MODEL`が設定されていない場合のVertex AIにおける`opus`エイリアスの解決先が、Opus 4.7からOpus 4.8に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/11418d2f40b2bdcd77080a4ca4f5ed616230c76f"
+        },
+        {
+          "tag": "Fixed",
+          "file": "hooks.md",
+          "text": "フックイベントが受け取るJSONフィールドの表で、`source`フィールドの説明が削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/11418d2f40b2bdcd77080a4ca4f5ed616230c76f"
+        },
+        {
+          "tag": "Changed",
+          "file": "microsoft-foundry.md",
+          "text": "`ANTHROPIC_DEFAULT_OPUS_MODEL`が設定されていない場合のFoundryにおける`opus`エイリアスの解決先が、Opus 4.7からOpus 4.8に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/11418d2f40b2bdcd77080a4ca4f5ed616230c76f"
+        },
+        {
+          "tag": "Fixed",
+          "file": "model-config.md",
+          "text": "Anthropic APIおよびAWS上のClaude Platformで`opus`エイリアスが解決されるモデルが、Opus 4.7と明示的に記述されていた箇所から一般的な「最新のOpusモデル」を指す表現に修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/11418d2f40b2bdcd77080a4ca4f5ed616230c76f"
+        },
+        {
+          "tag": "Changed",
+          "file": "permission-modes.md",
+          "text": "Autoモードのモデル要件が、Claude Sonnet 4.6、Opus 4.6、またはOpus 4.7からClaude Opus 4.6以降、またはSonnet 4.6に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/11418d2f40b2bdcd77080a4ca4f5ed616230c76f"
+        },
+        {
+          "tag": "Fixed",
+          "file": "settings.md",
+          "text": "特定のMCPサーバーを拒否するための設定項目`disabledMcpjsonServers`のデフォルト値が、空のリストから`[\"filesystem\"]`に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/11418d2f40b2bdcd77080a4ca4f5ed616230c76f"
+        },
+        {
+          "tag": "Fixed",
+          "file": "skills.md",
+          "text": "スキル内で利用可能な文字列置換のリストから、`$N`と`$name`の重複する定義が削除され、`$name`の説明が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/11418d2f40b2bdcd77080a4ca4f5ed616230c76f"
+        },
+        {
+          "tag": "Fixed",
+          "file": "statusline.md",
+          "text": "Claude Codeがスクリプトに送信するJSONフィールドの表で、`debugPort`フィールドの説明が修正され、`envVars`と`workingDirectory`フィールドが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/11418d2f40b2bdcd77080a4ca4f5ed616230c76f"
+        },
+        {
+          "tag": "Fixed",
+          "file": "sub-agents.md",
+          "text": "サブエージェントのYAMLフロントマターで利用可能なフィールドのリストから、`commands`フィールドが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/11418d2f40b2bdcd77080a4ca4f5ed616230c76f"
+        },
+        {
+          "tag": "Added",
+          "file": "workflows.md",
+          "text": "動的ワークフローに関する新しいドキュメントセクションが追加され、スクリプトからサブエージェントを大規模にオーケストレーションする方法が説明されています。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/11418d2f40b2bdcd77080a4ca4f5ed616230c76f"
+        },
+        {
+          "tag": "Fixed",
+          "file": "setup.md",
+          "text": "インストールコマンドのtheme属性が重複して指定されていた箇所を修正しました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68c9b5fcb0870d10b7d70a6ce15fafe420a83050"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-view.md",
+          "text": "エージェントビューのレビュー準備完了セクションで、PRリンクのアイコン表示が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a6dbd76ababec4104fc3c4e70e7b34169a503ec4"
+        },
+        {
+          "tag": "Changed",
+          "file": "model-config.md",
+          "text": "v2.1.153以降、`/model`コマンドは現在のセッションだけでなく、新しいセッションのデフォルトモデルとして選択したモデルをユーザー設定に保存するようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a6dbd76ababec4104fc3c4e70e7b34169a503ec4"
+        },
+        {
+          "tag": "Added",
+          "file": "monitoring-usage.md",
+          "text": "会話の圧縮が完了した際にログされるイベントに、手動圧縮時に自動圧縮が準備した要約を再利用したかどうかを示す`precompute_reuse`属性が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a6dbd76ababec4104fc3c4e70e7b34169a503ec4"
+        },
+        {
+          "tag": "Added",
+          "file": "settings.md",
+          "text": "`github`および`git`ソースのmarketplace設定に、Git LFSのダウンロードをスキップする`skipLfs`オプションが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a6dbd76ababec4104fc3c4e70e7b34169a503ec4"
+        },
+        {
+          "tag": "Improved",
+          "file": "statusline.md",
+          "text": "ステータスラインのスクリプト出力に関する記述に、`tput cols`などの幅検出がターミナルに直接接続されないため機能しないことについての注意が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a6dbd76ababec4104fc3c4e70e7b34169a503ec4"
+        },
+        {
+          "tag": "Changed",
+          "file": "sub-agents.md",
+          "text": "v2.1.153以降、サブエージェントのフロントマターで宣言されたMCPサーバーにも、メインセッションに適用されるMCPの制限（`--strict-mcp-config`、`--bare`、Enterprise管理MCP設定、`allowedMcpServers`および`deniedMcpServers`ポリシー）が適用されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a6dbd76ababec4104fc3c4e70e7b34169a503ec4"
+        },
+        {
+          "tag": "Changed",
+          "file": "env-vars.md",
+          "text": "環境変数DISABLE_TELEMETRYを1に設定すると、テレメトリーをオプトアウトすると共に、機能フラグの取得も無効になり、一部のフラグ付き機能が利用できなくなります。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/d4c175bc8d7121009a02af63c3fdd61ea52e6192"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "1 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- GitHub Copilot、Claude Opus 4.8が一般提供開始\n  https://github.blog/changelog/2026-05-28-claude-opus-4-8-is-generally-available-for-github-copilot",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-05-29"
+    }
+  ]
+}
