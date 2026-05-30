@@ -1,0 +1,237 @@
+{
+  "fetchedAt": "2026-05-30T21:46:46.719Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.158",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.158",
+      "summary": "- [Added] Opus 4.7およびOpus 4.8で、Bedrock、Vertex、FoundryにてAuto modeが利用可能になりました。オプトインするにはCLAUDE_CODE_ENABLE_AUTO_MODE=1を設定してください。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-05-30"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- GitHubを探索：ソフトウェアの修正点を探す旅\n  https://www.reddit.com/r/macapps/comments/1tpfbap/just_wondering_around_github_looking_for_a/\n- 【まとめ】今月の注目アプリ：2026年5月版\n  https://www.reddit.com/r/macapps/comments/1t0rojv/megathread_the_app_pile_may_2026/\n- ショートカットが苦手な人のためのアプリスイッチャー「Dory」が1周年！【プロモコードプレゼント】\n  https://www.reddit.com/r/macapps/comments/1ts7sxr/dory_an_app_switcher_for_people_who_cant_remember/\n- AI/Botによる大量の返信について\n  https://www.reddit.com/r/macapps/comments/1trxpyt/large_amount_of_ai_bot_replies_here/\n- macOS向けネイティブRDPサーバーを開発 — あらゆるRDPクライアントから接続可能\n  https://www.reddit.com/r/macapps/comments/1ts1idh/i_built_a_native_rdp_server_for_macos_connect/\n- 無料のネイティブメニューバーアプリを開発（ネットワーク、ディスク、ポモドーロ、クリップボード） — リリースに向けたフィードバック募集中\n  https://www.reddit.com/r/macapps/comments/1trxh8c/i_built_a_free_native_menu_bar_app_network_disk/\n- マインスイーパで地雷除去支援：公開6ヶ月、プレイヤーが少ない現状をどう打破するか？\n  https://www.reddit.com/r/macapps/comments/1ts02x8/ive_made_a_mine_sweeper_on_mac_that_give_money/\n- Cotypist ベータ版をご利用の方へ：旧バージョンの削除をお願いします\n  https://www.reddit.com/r/macapps/comments/1trbzfp/if_youre_using_a_beta_version_of_cotypist_make/\n- Codex, Claude, Geminiのトークン利用状況を監視するmacOSメニューバーアプリ\n  https://www.reddit.com/r/macapps/comments/1ts0fok/macos_menubar_app_to_monitor_token_availability/\n- 【OS】システムワイドなコントローラーマッピングアプリ「ControllerKeys」が$9.99で登場\n  https://www.reddit.com/r/macapps/comments/1trbw5l/os_controllerkeys_systemwide_controller_mapping/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-05-31"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- 当サブレディットに新たな人間認証システムを導入\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackersサブレディットの新ルール – クオリティを取り戻すために\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- アニメーション付きランディングページを50個構築\n  https://www.reddit.com/r/indiehackers/comments/1trtpek/building_50_animated_landing_pages/\n- 【販売】数ヶ月で約14,000ドルを稼いだターンキー暗号ソリューション\n  https://www.reddit.com/r/indiehackers/comments/1ts0c2v/selling_my_turnkey_crypto_solution_that_has_made/\n- 【Indie Hackers公開】2ヶ月目、過去30日間で本格的なマーケティングを実施し、3件の顧客を獲得。詳細はこちら\n  https://www.reddit.com/r/indiehackers/comments/1trowed/show_ih_we_are_in_month_2_we_do_full_marketing/\n- 金曜のシェア熱！あなたのプロジェクトを共有しよう！\n  https://www.reddit.com/r/indiehackers/comments/1tqvi92/friday_share_fever_lets_share_your_project/\n- マーケティングが大嫌いな開発者が、その問題を解決するツールを開発し、初の売上を獲得\n  https://www.reddit.com/r/indiehackers/comments/1tr3e2e/im_a_dev_who_genuinely_hates_marketing_so_i_built/\n- 2週間経過：10代がSaaSを月間経常収益1万ドル規模へ拡大\n  https://www.reddit.com/r/indiehackers/comments/1trdf7g/2_week_update_scaling_my_saas_to_10k_mrr_as_a/\n- 顧客が誤って競合他社すべてを同じメールでCCに入れてしまった件\n  https://www.reddit.com/r/indiehackers/comments/1tqi3zi/customer_accidentally_ccd_every_competitor_in_the/\n- AIツールを100以上のディレクトリに手作業で登録。何が効果的だったか正直な内訳を公開\n  https://www.reddit.com/r/indiehackers/comments/1tq4dus/i_submitted_my_ai_tool_to_100_directories/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-05-31"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI、進行中のメガトレンドをリストアップ\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Claude Opus 4.8を発表\n  https://www.reddit.com/r/ClaudeAI/comments/1tq99mu/introducing_claude_opus_48/\n- Touch Barは早すぎた、消えるには惜しい存在だった\n  https://www.reddit.com/r/ClaudeAI/comments/1trwhsw/the_touchbar_was_too_early_and_didnt_deserve_to/\n- もうすぐだ、みんな。AGIは近い\n  https://www.reddit.com/r/ClaudeAI/comments/1ts5gai/were_almost_there_guys_agi_soon/\n- 「JavaScriptでGTA7を開発せよ、間違いは許されない」Claudeの実装\n  https://www.reddit.com/r/ClaudeAI/comments/1ts8dnw/claudes_implementation_of_build_gta7_using/\n- 退屈しのぎにClaudeのコードをウルトラコードモードに入れ、好きなものを作らせてみた\n  https://www.reddit.com/r/ClaudeAI/comments/1troe8z/out_of_boredom_i_put_claude_code_into_ultracode/\n- 5億ドルが消えた\n  https://www.reddit.com/r/ClaudeAI/comments/1trob4h/half_a_billion_gone/\n- 怒り：もしClaudeの「修正が多すぎる」せいで他の場所に移りたいと思うなら、問題はClaudeではなくあなただ\n  https://www.reddit.com/r/ClaudeAI/comments/1trvm2y/rant_if_claude_correcting_you_too_much_makes_you/\n- 「Claudeのコードに渡す」... 解凍に失敗 = 1000万トークンが無駄に\n  https://www.reddit.com/r/ClaudeAI/comments/1ts5ram/hand_of_to_claude_code_failed_to_unzip_10m_tokens/\n- Opus 4.8が正直すぎて嫌だ\n  https://www.reddit.com/r/ClaudeAI/comments/1trd1cj/i_hate_that_opus_48_is_honest/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-05-31"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1244pt] 死んだ経済理論 | AIによる経済の変革について、既存の経済理論では見落とされている点が多いという意見が散見されます。\n  https://news.ycombinator.com/item?id=48324712\n- [821pt] テクノロジー業界を引退し、オフライン生活へ | テクノロジー業界の厳しい環境に疲れ、引退を決意する人が多いようです。筆者の投稿の意図を訝る声も。\n  https://news.ycombinator.com/item?id=48323683\n- [758pt] AIを使ってください | AIが創造性や人間性を奪うことへの懸念、またそれを受け入れることへの問いかけがコメントの主流です。\n  https://news.ycombinator.com/item?id=48323101\n- [721pt] GTA 6の開発者が労働組合を結成 | ゲーム業界における労働組合の結成は、給与の透明性、柔軟な働き方、クランチ文化の撲滅など、労働条件改善への期待を集めています。\n  https://news.ycombinator.com/item?id=48324499\n- [666pt] SQLiteは永続的なワークフローに必要な全て | SQLiteの汎用性と有用性を高く評価する声が多い一方、大規模な本番環境での並行処理能力に疑問を呈する意見も少数あります。\n  https://news.ycombinator.com/item?id=48326802\n- [550pt] GitHubがWindowsのゼロデイエクスプロイトを公開したセキュリティ研究者をBAN | ゼロデイ脆弱性の報告者が正当に評価されず、BANされることへのMicrosoftへの批判や、セキュリティ研究のあり方への疑問の声が多いです。\n  https://news.ycombinator.com/item?id=48315968\n- [495pt] 車は驚くほどの個人データを収集している | 自動車によるデータ収集とプライバシー侵害への懸念が強く、企業利益優先の現状に対する批判と法規制を求める声が多数です。\n  https://news.ycombinator.com/item?id=48318481\n- [491pt] Blue OriginのNew Glenn、静的燃焼試験中に爆発 | 爆発によるロケットと発射施設の損傷はBlue Originにとって大きな痛手であり、今後の宇宙開発計画への影響を懸念する声が多く見られます。\n  https://news.ycombinator.com/item?id=48317774\n- [480pt] Dickoverとは何か？ | この単語を気に入って、ウェブサイトの煩わしい要素を指す言葉として採用したいという声や、ユーモラスに受け止めるコメントが多いです。\n  https://news.ycombinator.com/item?id=48330882\n- [450pt] Mistral AI Nowサミットからのメモ | Mistral AIの今後の発展に期待する声がある一方、AI分野での技術的遅れを懸念する意見も寄せられています。\n  https://news.ycombinator.com/item?id=48325340",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-05-31"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "7 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- SoftBank、フランスで最大750億ユーロを投じデータセンター建設へ\n  https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/\n- Snap元社員らが新ファンド「Ghost Angels」を立ち上げ\n  https://techcrunch.com/2026/05/30/snap-alums-unveil-ghost-angels-fund/\n- 「冗談だろ」：GitHub Copilotの新料金プラン、開発者から不満噴出\n  https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/\n- Meta、AI搭載ペンダントを開発中か\n  https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/\n- Googleの24時間AIアシスタント「Gemini Spark」を試用、予想以上に便利だった\n  https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/\n- ブラウザ戦争激化の2026年、ChromeとSafariに代わる注目ブラウザは？\n  https://techcrunch.com/2026/05/30/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/\n- AIなしでは働かないプログラマーたち、その選択が裏目に出る可能性も\n  https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-05-31"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Wingbits AI — AIエージェントがリアルタイムで航空機を監視・通知\n  https://www.producthunt.com/products/wingbits-ai\n- Wandesk — 自分だけのAIデスクトップを構築\n  https://www.producthunt.com/products/wandesk-ai\n- Openstatus MCP Health Checker — MCPサーバーをAIクライアントのようにテスト。単なるPingではないヘルスチェック\n  https://www.producthunt.com/products/openstatus-2\n- Step 3.7 Flash — 視覚と行動が可能な超高速エージェントモデル\n  https://www.producthunt.com/products/step-3-5-flash\n- Exstats — ブラウザ拡張機能と競合の状況を一元管理\n  https://www.producthunt.com/products/exstats\n- Hyper: Self-driving Company Brain — AIエージェントを新人からベテランへと育成\n  https://www.producthunt.com/products/hyper-11\n- GPS — LLM向けメモリレイヤー：リポジトリルールと過去の学習を保存\n  https://www.producthunt.com/products/gps-2\n- PromptLayer — AIリクエスト、ワークフロー、コストをタイムラインで一元追跡\n  https://www.producthunt.com/products/promptlayer-2\n- Drafted — AIで理想の家を即座にデザイン\n  https://www.producthunt.com/products/drafted-4\n- RabbitTravel — スマートな旅行計画を簡単に\n  https://www.producthunt.com/products/rabbittravel",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-05-31"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "2 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Miso Labs、音声に特化した感情表現豊かな基盤モデルを発表\n  https://misolabs.ai\n- Plena Health、専門医療機関向けAIオペレーティングシステム「Plena」を発表\n  https://www.plena.health/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-05-31"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Founders and Forward Deployed Engineers",
+      "url": "https://www.latent.space/p/ainews-founders-and-forward-deployed",
+      "summary": "AnthropicがOpus 4.8をリリースし、AIエージェントのインフラやオープンモデルの進化、GoogleとOpenAIのエージェント機能拡張が進展。",
+      "publishedAt": "2026-05-30",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!SpLP!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb92541e3-151a-4f10-8226-b86cb12eaca0_2332x1344.png"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "23 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-05-31",
+      "docsUpdates": [
+        {
+          "tag": "Added",
+          "file": "whats-new.md",
+          "text": "最新情報ページに2026年第22週の更新情報が追加され、Claude Opus 4.8がMax, Team Premium, Enterprise pay-as-you-go, Anthropic APIアカウントのデフォルトモデルになったこと、ダイナミックワークフロー、セキュリティガイダンスプラグイン、Opus 4.8でのファストモードについて記述されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b3da0604e809578157537bdc57042fe9e683a6fc"
+        },
+        {
+          "tag": "Added",
+          "file": "whats-new__2026-w21.md",
+          "text": "2026年第21週の更新情報として、ProプランでのAutoモードに関する詳細が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b3da0604e809578157537bdc57042fe9e683a6fc"
+        },
+        {
+          "tag": "Added",
+          "file": "whats-new__2026-w22.md",
+          "text": "2026年第22週の更新情報として、Claude Opus 4.8モデル、ダイナミックワークフロー、セキュリティガイダンスプラグイン、Opus 4.8でのファストモードに関する詳細が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b3da0604e809578157537bdc57042fe9e683a6fc"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "Bedrock、Vertex、FoundryでOpus 4.7およびOpus 4.8向けにAuto modeが利用可能になり、`CLAUDE_CODE_ENABLE_AUTO_MODE=1`を設定することでオプトインできます。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b3c35f1a3e4301c8a4c308584b15307e55cfec1a"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "新しいアップデートのリリース日と内容がchangelog.mdに追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/8f2657812b719e090403426cd6dcd60bf0280863"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "Claude Codeのドキュメントリポジトリの変更履歴が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/d63124462d0874a0fa45545d2982781db72b4835"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__hosting.md",
+          "text": "Claude Agent SDKのホスティングに関する説明が、サブプロセスアーキテクチャ、セッション永続性、スケーリング、可観測性、Docker、Kubernetes、サンドボックスプロバイダー向けのマルチテナント分離を網羅するように改善されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eecb78174e6971b76989edc2689479082577e337"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__subagents.md",
+          "text": "サブエージェントが連携する動的ワークフローに関する新しいセクションが追加され、Workflowツールを使用したスケーリング方法が説明されています。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eecb78174e6971b76989edc2689479082577e337"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__typescript.md",
+          "text": "`applyFlagSettings()`のドキュメントが、セッション中に設定を変更する方法を明確にするように更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eecb78174e6971b76989edc2689479082577e337"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__user-input.md",
+          "text": "ユーザー入力の`questions`フィールドと`answers`フィールドの説明が更新され、Tool Processingの要件が明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eecb78174e6971b76989edc2689479082577e337"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-view.md",
+          "text": "エージェントビューからセッションをディスパッチする際のデフォルト設定に、`--agent`フラグが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eecb78174e6971b76989edc2689479082577e337"
+        },
+        {
+          "tag": "Improved",
+          "file": "desktop.md",
+          "text": "デスクトップ版のタスクペインの説明に、動的ワークフローの表示に関する情報が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eecb78174e6971b76989edc2689479082577e337"
+        },
+        {
+          "tag": "Fixed",
+          "file": "errors.md",
+          "text": "`tool_use`と`tool_result`が一致しないエラーメッセージについて、Opus 4.7または4.8を使用している場合は`claude update`を実行する推奨事項が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eecb78174e6971b76989edc2689479082577e337"
+        },
+        {
+          "tag": "Added",
+          "file": "mcp.md",
+          "text": "MCPサーバーが`headers.Authorization`を拒否した場合の接続失敗に関する説明が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eecb78174e6971b76989edc2689479082577e337"
+        },
+        {
+          "tag": "Improved",
+          "file": "memory.md",
+          "text": "自動メモリの保存場所を設定する`autoMemoryDirectory`が、ユーザー設定だけでなく、あらゆる設定スコープから読み取られることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eecb78174e6971b76989edc2689479082577e337"
+        },
+        {
+          "tag": "Improved",
+          "file": "monitoring-usage.md",
+          "text": "スパン階層の説明が更新され、Taskツールがサブエージェントを生成する際の動作が明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eecb78174e6971b76989edc2689479082577e337"
+        },
+        {
+          "tag": "Added",
+          "file": "permission-modes.md",
+          "text": "`.cargo`が保護されたディレクトリのリストに追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eecb78174e6971b76989edc2689479082577e337"
+        },
+        {
+          "tag": "Improved",
+          "file": "permissions.md",
+          "text": "`bypassPermissions`モードのリスクに関する警告が更新され、より簡潔になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eecb78174e6971b76989edc2689479082577e337"
+        },
+        {
+          "tag": "Added",
+          "file": "plugins-reference.md",
+          "text": "スキルディレクトリプラグインに関する新しいセクションが追加され、`.claude-plugin/plugin.json`マニフェストを含むフォルダがプラグインとして読み込まれることが説明されています。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eecb78174e6971b76989edc2689479082577e337"
+        },
+        {
+          "tag": "Added",
+          "file": "plugins.md",
+          "text": "スキルディレクトリでプラグインを開発する方法に関する新しいセクションが追加され、`claude plugin init`コマンドが紹介されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eecb78174e6971b76989edc2689479082577e337"
+        },
+        {
+          "tag": "Added",
+          "file": "skills.md",
+          "text": "スキルフォルダに`.claude-plugin/plugin.json`を追加すると、プラグインとしてロードされ、エージェント、フック、MCPサーバーをバンドルできるという注意書きが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eecb78174e6971b76989edc2689479082577e337"
+        },
+        {
+          "tag": "Improved",
+          "file": "sub-agents.md",
+          "text": "`bypassPermissions`モードに関する警告が更新され、より簡潔になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eecb78174e6971b76989edc2689479082577e337"
+        },
+        {
+          "tag": "Improved",
+          "file": "terminal-config.md",
+          "text": "Shift+Enterとその他のキーバインディングがVS Code、Cursor、Windsurf、Alacritty、Zedのターミナル設定ファイルに書き込まれること、またVS Code、Cursor、Windsurfでは`terminal.integrated.mouseWheelScrollSensitivity`も設定されることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eecb78174e6971b76989edc2689479082577e337"
+        },
+        {
+          "tag": "Changed",
+          "file": "workflows.md",
+          "text": "Claude Codeが単語をハイライトした際にワークフローをトリガーしないようにする新しい方法（バックスペースを押す、または`/config`でキーワードトリガーをオフにする）が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eecb78174e6971b76989edc2689479082577e337"
+        },
+        {
+          "tag": "Improved",
+          "file": "worktrees.md",
+          "text": "ワークツリー内でClaudeが`EnterWorktree`ツールを使用して別のワークツリーに直接切り替えられることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eecb78174e6971b76989edc2689479082577e337"
+        }
+      ]
+    }
+  ]
+}
