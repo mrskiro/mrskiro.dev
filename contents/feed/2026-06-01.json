@@ -1,0 +1,85 @@
+{
+  "fetchedAt": "2026-05-31T21:44:44.266Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.159",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.159",
+      "summary": "- [Improved] 内部インフラストラクチャを改善しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-06-01"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- GitHubを探索：ソフトウェアの修正点を探す\n  https://www.reddit.com/r/macapps/comments/1tpfbap/just_wondering_around_github_looking_for_a/\n- 【大規模スレッド】今月の注目アプリ - 2026年5月版\n  https://www.reddit.com/r/macapps/comments/1t0rojv/megathread_the_app_pile_may_2026/\n- ショートカットを忘れてしまう人のためのアプリスイッチャー「Dory」が1周年！【プロモコード配布中】\n  https://www.reddit.com/r/macapps/comments/1ts7sxr/dory_an_app_switcher_for_people_who_cant_remember/\n- Gloss：ネイティブテキスト展開ツール\n  https://www.reddit.com/r/macapps/comments/1tsvl7x/gloss_native_text_expansion/\n- 大量のAI/Botによる返信について\n  https://www.reddit.com/r/macapps/comments/1trxpyt/large_amount_of_ai_bot_replies_here/\n- macOS向けネイティブRDPサーバーを開発 - あらゆるRDPクライアントから接続可能\n  https://www.reddit.com/r/macapps/comments/1ts1idh/i_built_a_native_rdp_server_for_macos_connect/\n- 無料のネイティブメニューバーアプリ（ネットワーク、ディスク、ポモドーロ、クリップボード機能搭載）を開発 - リリース前にフィードバック募集中\n  https://www.reddit.com/r/macapps/comments/1trxh8c/i_built_a_free_native_menu_bar_app_network_disk/\n- リアルな地雷除去を支援するMac用地雷除去ゲームを開発したが、半年でプレイヤーが少ない。次の一手についてアドバイス求む\n  https://www.reddit.com/r/macapps/comments/1ts02x8/ive_made_a_mine_sweeper_on_mac_that_give_money/\n- Cotypistのベータ版をご利用の場合、ゴミ箱に移動してください\n  https://www.reddit.com/r/macapps/comments/1trbzfp/if_youre_using_a_beta_version_of_cotypist_make/\n- 【OSアプリ】ControllerKeys - macOS向けシステムワイドコントローラーマッピングツール、9.99ドル\n  https://www.reddit.com/r/macapps/comments/1trbw5l/os_controllerkeys_systemwide_controller_mapping/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-01"
+    },
+    {
+      "sourceName": "r/indiehackers",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/indiehackers/hot/",
+      "summary": "- サブレディットに新認証システムを導入！\n  https://www.reddit.com/r/indiehackers/comments/1pk2rzb/new_human_verification_system_for_our_subreddit/\n- IndieHackersサブレディット新ルール―品質向上を目指して\n  https://www.reddit.com/r/indiehackers/comments/1pj44es/new_rules_for_the_indiehackers_subreddit_getting/\n- 8ヶ月のマーケティングでユーザーはわずか16人――私が学んだこと\n  https://www.reddit.com/r/indiehackers/comments/1tst9cy/i_marketed_my_app_for_8_months_and_got_16_users/\n- 地域ビジネス向けサービスのリード獲得、どう自動化する？\n  https://www.reddit.com/r/indiehackers/comments/1tt76jg/how_would_you_automate_finding_leads_for_a/\n- 「ユーザーにカスタムドメイン接続を許可」の難易度を過小評価していた私が学んだこと\n  https://www.reddit.com/r/indiehackers/comments/1tsu4f7/i_underestimated_what_let_users_connect_a_custom/\n- アニメーションLPを50個制作\n  https://www.reddit.com/r/indiehackers/comments/1trtpek/building_50_animated_landing_pages/\n- 【IH公開】2ヶ月目、過去30日で本格マーケティング実施、顧客3人を獲得。内訳を公開\n  https://www.reddit.com/r/indiehackers/comments/1trowed/show_ih_we_are_in_month_2_we_do_full_marketing/\n- 【販売】過去数ヶ月で1万4000ドルを稼いだターンキー型暗号ソリューション\n  https://www.reddit.com/r/indiehackers/comments/1ts0c2v/selling_my_turnkey_crypto_solution_that_has_made/\n- マーケティング嫌いの開発者が、問題を解決するツールを開発し初受注を獲得\n  https://www.reddit.com/r/indiehackers/comments/1tr3e2e/im_a_dev_who_genuinely_hates_marketing_so_i_built/\n- 花金シェアフィーバー！あなたのプロジェクトをシェアしよう！\n  https://www.reddit.com/r/indiehackers/comments/1tqvi92/friday_share_fever_lets_share_your_project/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-01"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI、主要なスレッド一覧を公開\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Claude Opus 4.8を発表\n  https://www.reddit.com/r/ClaudeAI/comments/1tq99mu/introducing_claude_opus_48/\n- MineBenchにおけるOpus 4.7とOpus 4.8の違い\n  https://www.reddit.com/r/ClaudeAI/comments/1tt3a8h/differences_between_opus_47_and_opus_48_on/\n- プロジェクトを起動可能なDockアプリにするプラグインを作成した\n  https://www.reddit.com/r/ClaudeAI/comments/1tsx85s/i_made_a_plugin_that_turns_your_projects_into/\n- おいおい、ChatGPTだったらもっと褒めてくれたぞ\n  https://www.reddit.com/r/ClaudeAI/comments/1tse5x4/alright_bro_chatgpt_wouldve_been_glazing_me/\n- Claudeに「ディープサーチ」のコードをultracodeモードで尋ねたら、自動で70個のエージェントを立ち上げ、4段階のパイプラインを構築した\n  https://www.reddit.com/r/ClaudeAI/comments/1tsqezk/asked_claude_code_for_a_deep_search_in_ultracode/\n- Claudificus Maximus IV:VI ― Caesar Refectorum、Dominus Contextus、失われたトークンの父\n  https://www.reddit.com/r/ClaudeAI/comments/1tsvxt8/claudificus_maximus_ivvi_caesar_refectorum/\n- Opus 4.6愛好家に朗報、再び利用可能に！\n  https://www.reddit.com/r/ClaudeAI/comments/1tszp9o/good_news_for_opus_46_lovers_it_is_back_available/\n- 「monkeys in a barrel」とは何か？\n  https://www.reddit.com/r/ClaudeAI/comments/1tszbhd/whats_monkeys_in_a_barrel/\n- Opus 4.8で最も顕著な変更点\n  https://www.reddit.com/r/ClaudeAI/comments/1tsx3hg/most_noticeable_change_in_opus_48/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-01"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [974pt] Microsoft Office 2019/2021 for Macが閲覧専用に変換される問題 | 購入したソフトウェアが利用できなくなる変更に、多くのユーザーが法的・倫理的な問題点や不満を表明。\n  https://news.ycombinator.com/item?id=48341578\n- [803pt] ドメイン知識こそが常に真の参入障壁 | AI時代において、システム出力の検証能力と専門知識を兼ね備えた人材の重要性が議論されている。\n  https://news.ycombinator.com/item?id=48340411\n- [539pt] 「ディックオーバー」とは何か？ | Cookie同意バナーなど、ユーザー体験を損なうウェブ要素を指す新しい用語が提案され、支持の声が上がっている。\n  https://news.ycombinator.com/item?id=48330882\n- [463pt] デンマークの年金基金、ガバナンスと評価を理由にSpaceXを除外 | SpaceXの株式は宇宙飛行の債券のようなものだという意見や、政治的な動機ではないかという憶測も。\n  https://news.ycombinator.com/item?id=48333820\n- [460pt] Openrsync: OpenBSDチームによるrsyncの実装 | 既存のrsyncコードベースの品質低下を受け、OpenBSD版の実装への期待と進捗について言及されている。\n  https://news.ycombinator.com/item?id=48334854\n- [448pt] OpenRouterがシリーズBで1億1300万ドルを調達 | OpenRouterのLLMプロキシとしての価値や、なぜ資金調達が必要だったのかについて活発な議論が交わされている。\n  https://news.ycombinator.com/item?id=48338660\n- [434pt] Pandocのテンプレート | Pandocの多機能性とテンプレートの活用例に感銘を受けるユーザーが多く、PDF生成の課題も一部で指摘されている。\n  https://news.ycombinator.com/item?id=48334515\n- [432pt] このソフトウェアを「雰囲気で台無しにしないでください」 | rsyncへのAI導入によるバグ発生に対し、既存の安定したソフトウェアを安易に変更することへの批判と困惑の声が上がっている。\n  https://news.ycombinator.com/item?id=48342705\n- [415pt] Cloudflare Turnstileがフィンガープリンティング可能なWebGLを要求 | Cloudflareの指紋採取技術と、非Chromeブラウザやプライバシー設定への影響について懸念が表明されている。\n  https://news.ycombinator.com/item?id=48345840\n- [414pt] AnthropicがOpenAIを抜き、最も価値のあるAIスタートアップに | Anthropicの躍進とOpenAIのSam Altmanへの不満が議論の中心。OpenAIの市場戦略への疑問も提示されている。\n  https://news.ycombinator.com/item?id=48336233",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-06-01"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "5 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Erin Brockovichがデータセンターの機密主義を批判\n  https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/\n- 「This is fine」作者のKC Green、AIスタートアップArtisanと合意\n  https://techcrunch.com/2026/05/31/this-is-fine-artist-kc-green-reaches-agreement-with-ai-startup-artisan/\n- AIの精神病を巡る議論を読み解く\n  https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/\n- 黒人創業者の資金調達額、2022年以来最高を記録するも課題も\n  https://techcrunch.com/2026/05/31/black-founders-raise-highest-amount-of-quarterly-funding-since-2022-but-theres-a-catch/\n- SoftBank、フランスのデータセンター建設に最大750億ユーロを投資へ\n  https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-06-01"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- TabTasker — サーバー不要、プライバシーを重視した多機能ツールボックス\n  https://www.producthunt.com/products/tabtasker\n- AI向けセカンドブレイン — Claude、ChatGPT、Cursorに永続的な記憶を。無料。\n  https://www.producthunt.com/products/second-brain-cloudflare\n- Marqly 5.0 — AI搭載ブックマークマネージャー\n  https://www.producthunt.com/products/marqly\n- Clipto — テラバイト級のメディアをローカルで自然言語検索\n  https://www.producthunt.com/products/clipto-ai\n- Oura Ring 5 — 世界最小のスマートリングがさらに進化\n  https://www.producthunt.com/products/oura\n- NotebookLM向けWeb Clipper — NotebookLMの究極のChrome拡張機能\n  https://www.producthunt.com/products/web-clipper-for-notebooklm\n- Openstatus MCP Health Checker — 本物のAIクライアントのようにMCPサーバーをテスト\n  https://www.producthunt.com/products/openstatus-2\n- Wingbits AI — リアルタイム航空機監視とアラートのためのAIエージェント\n  https://www.producthunt.com/products/wingbits-ai\n- Exstats — ブラウザ拡張機能と競合を一元管理\n  https://www.producthunt.com/products/exstats\n- Wandesk — 自分だけのAIデスクトップを構築\n  https://www.producthunt.com/products/wandesk-ai",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-06-01"
+    },
+    {
+      "sourceName": "GitHub Trending",
+      "title": "Weekly Trending",
+      "url": "https://github.com/trending?since=weekly",
+      "summary": "- harry0703/MoneyPrinterTurbo：AI LLMを利用して、ワンクリックで高精細なショートビデオを生成します。 ⭐13,948/week\n  https://github.com/harry0703/MoneyPrinterTurbo\n- Lum1104/Understand-Anything：印象的なグラフよりも教えるグラフ。あらゆるコードを、探索、検索、質問ができるインタラクティブな知識グラフに変えます。Claude Code、Codex、Cursor、Copilot、Gemini CLIなどで動作します。 ⭐25,612/week\n  https://github.com/Lum1104/Understand-Anything\n- anthropics/knowledge-work-plugins：主に知識労働者がClaude Coworkで使用することを目的としたプラグインのオープンソースリポジトリ。 ⭐5,538/week\n  https://github.com/anthropics/knowledge-work-plugins\n- rohitg00/ai-engineering-from-scratch：それを学び、構築し、他の人のために出荷する。 ⭐12,082/week\n  https://github.com/rohitg00/ai-engineering-from-scratch\n- hardikpandya/stop-slop：散文からAIの兆候を取り除くためのスキルファイル。 ⭐3,543/week\n  https://github.com/hardikpandya/stop-slop\n- microsoft/markitdown：ファイルやOffice文書をMarkdownに変換するためのPythonツール。 ⭐6,652/week\n  https://github.com/microsoft/markitdown\n- Leonxlnx/taste-skill：Taste-Skill - AIに良いセンスを与え、退屈で汎用的なスロップの生成を停止させます。 ⭐10,202/week\n  https://github.com/Leonxlnx/taste-skill\n- colbymchenry/codegraph：Claude Code、Codex、Gemini、Cursor、OpenCode、AntiGravity、Kiro、Hermes Agent向けの事前インデックス付きコード知識グラフ — 少ないトークン、少ないツール呼び出し、100%ローカル。 ⭐15,909/week\n  https://github.com/colbymchenry/codegraph\n- mukul975/Anthropic-Cybersecurity-Skills：AIエージェントのための754の構造化されたサイバーセキュリティスキル。5つのフレームワークにマッピング：MITRE ATT&CK、NIST CSF 2.0、MITRE ATLAS、D3FEND、NIST AI RMF。agentskills.io標準。Claude Code、GitHub Copilot、Codex CLI、Cursor、Gemini CLI、20以上のプラットフォームで動作。26のセキュリティドメイン。Apache 2.0。 ⭐5,417/week\n  https://github.com/mukul975/Anthropic-Cybersecurity-Skills\n- affaan-m/ECC：エージェントハーネスパフォーマンス最適化システム。Claude Code、Codex、Opencode、Cursorなどで、スキル、本能、メモリ、セキュリティ、研究を最優先した開発を行います。 ⭐10,802/week\n  https://github.com/affaan-m/ECC",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-06-01"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "1 file updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-06-01",
+      "docsUpdates": [
+        {
+          "tag": "Improved",
+          "file": "changelog.md",
+          "text": "changelog.mdファイルが更新され、Claude Codeの2026年5月31日のドキュメント変更内容が反映されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/75e4c087965d9716de8b6e946a3d9baf505bbb3f"
+        }
+      ]
+    }
+  ]
+}
