@@ -1,0 +1,231 @@
+{
+  "fetchedAt": "2026-06-01T22:54:09.800Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Building the infrastructure for the Intelligence Age in Michigan",
+      "url": "https://openai.com/index/stargate-michigan-data-center",
+      "summary": "OpenAIが大規模なデータセンターをミシガン州に建設開始、AIインフラ強化と地域貢献を目指す。",
+      "publishedAt": "2026-06-01",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/31ZX9grNOOF2NspFEFK6t2/a35c75365f4573555cab5a1a1054649b/infrastructure-michigan-16x9.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "summary": "AWS上でOpenAIの最新モデルとCodexが利用可能になり、企業は既存のAWS環境でOpenAIサービスをより簡単に活用できるように。",
+      "publishedAt": "2026-06-01",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/2Tbsus4QAtPDAlsIM3vYO2/87f4c6894832d7937e54ecb3c245fdbe/OAI_AWS_Partnership_16x9_Art_Card.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- [メガ・スレッド] 2026年6月版：今月の注目アプリ\n  https://www.reddit.com/r/macapps/comments/1ttp8mu/megathread_the_app_pile_june_2026/\n- GitHubをさまよいながら、求めるソフトウェアを探す\n  https://www.reddit.com/r/macapps/comments/1tpfbap/just_wondering_around_github_looking_for_a/\n- Parall.app：Microsoft TeamsやWhatsAppなどを複数起動、データはアプリごとに分離\n  https://www.reddit.com/r/macapps/comments/1ttt3ci/parallapp_run_multiple_instances_of_microsoft/\n- Presentifyの新機能（無料配布あり）\n  https://www.reddit.com/r/macapps/comments/1ttp5kn/new_in_presentify_free_giveaway/\n- インディーアプリ開発者向け：サポート終了後のオープンソース化ポリシーについて、何かご存知ですか？\n  https://www.reddit.com/r/macapps/comments/1tu0x3s/indie_applications_and_developers_what_do_you/\n- [OS] SoftVM：macOSベータ版テスト用、Apple Silicon向け軽量無料VM\n  https://www.reddit.com/r/macapps/comments/1ttlw4z/os_softvm_free_lightweight_apple_silicon_vm_for/\n- URL/ドメインやアプリごとにデフォルトブラウザを設定できるMacアプリはありますか？\n  https://www.reddit.com/r/macapps/comments/1ttkoub/is_there_a_mac_app_that_lets_you_set_different/\n- [買い切り] SignalHunt：あなたを求める会話を見つけ出すアプリ\n  https://www.reddit.com/r/macapps/comments/1ttxhjy/lifetime_no_subscr_signalhunt_find_conversations/\n- Cache Out：プライバシー重視の無料ツール、複数ブラウザに対応\n  https://www.reddit.com/r/macapps/comments/1tu5u89/cache_out_a_privacy_focused_free_tool_for/\n- 数百ある音声認識アプリの中で、無料かつローカルで動作し、文脈を理解するものはどれ？\n  https://www.reddit.com/r/macapps/comments/1tu5hma/which_of_the_hundred_of_speech_to_text_apps_is/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-02"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI、進行中のメガスレッドリストを公開\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Claude Opus 4.8を発表\n  https://www.reddit.com/r/ClaudeAI/comments/1tq99mu/introducing_claude_opus_48/\n- ちょっと体調が優れません\n  https://www.reddit.com/r/ClaudeAI/comments/1tty482/i_dont_feel_so_good_guys/\n- 実用AIの実装は地味な作業だ\n  https://www.reddit.com/r/ClaudeAI/comments/1ttpv1v/productionready_ai_implementation_is_not_sexy_work/\n- Anthropic、ついにIPOで株式公開へ\n  https://www.reddit.com/r/ClaudeAI/comments/1ttx9ae/anthropic_finally_going_public_with_ipo/\n- Anthropicへ、詳細設定が必要です\n  https://www.reddit.com/r/ClaudeAI/comments/1tu15us/hey_anthropic_we_need_a_verbosity_setting/\n- 1度もメッセージを送っていないのに、なぜ7時間で1億2600万トークンも消費されたのか？\n  https://www.reddit.com/r/ClaudeAI/comments/1ttn80u/why_have_126000000_tokens_been_used_in_7_hours/\n- Claudeの個性、なぜか過度に穏便でありながら無礼でもある\n  https://www.reddit.com/r/ClaudeAI/comments/1tty8ra/claudes_personality_is_somehow_overly_placating/\n- Opus「それは反論させてください」4.8\n  https://www.reddit.com/r/ClaudeAI/comments/1tu25wy/opus_let_me_push_back_on_that_48/\n- リミットが再びリセット\n  https://www.reddit.com/r/ClaudeAI/comments/1ttznix/limits_reset_again/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-02"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1129pt] 最新のInstagramの「エクスプロイト」は今までで一番間抜けだ | サポート体制の脆弱性を指摘する声が多く、AIによるアカウント侵害への懸念が広がっている。\n  https://news.ycombinator.com/item?id=48359102\n- [1001pt] Microsoft Office 2019および2021 for Macが閲覧専用に変換 | 既存購入者に対するMicrosoftの対応に不満の声が多く、LibreOfficeへの乗り換えを推奨する意見も。\n  https://news.ycombinator.com/item?id=48341578\n- [769pt] Cloudflare Turnstileがフィンガープリント可能なWebGLを要求 | プライバシー侵害への懸念が多数寄せられており、ブラウザの識別とブロックに対する不満が目立つ。\n  https://news.ycombinator.com/item?id=48345840\n- [705pt] Red Hat Cloud Servicesで悪意のあるnpmパッケージを検出 | サプライチェーン攻撃への対策として、npmパッケージのインストール遅延を推奨する意見が複数ある。\n  https://news.ycombinator.com/item?id=48356625\n- [658pt] 10年前のXeonが全てを満たす | 古いXeonプロセッサでAIモデルをローカル実行できることに驚きと共感の声が多い。\n  https://news.ycombinator.com/item?id=48353348\n- [633pt] Codexが私のPCでsudoなしの「回避策」を発見 | Dockerの既知の「機能」であり、Codexのセキュリティ脆弱性発見能力に驚きと懸念の声が上がっている。\n  https://news.ycombinator.com/item?id=48348578\n- [543pt] ウェブサイト仕様書 | ウェブサイトの標準化やベストプラクティスに関する議論がされており、AI生成コンテンツへの疑問も。\n  https://news.ycombinator.com/item?id=48343683\n- [536pt] Dav2d | AV2デコードの複雑さについて言及があり、AV1対応デバイスが時代遅れになることへの懸念が見られる。\n  https://news.ycombinator.com/item?id=48344961\n- [524pt] クレアチンは脳のエネルギーレベルを高め、認知機能の低下を遅らせる：研究 | 記事の信頼性、特に30%改善という数値について疑問の声が多く、研究のAI生成を指摘する意見も。\n  https://news.ycombinator.com/item?id=48346947\n- [511pt] このソフトウェアの雰囲気を台無しにしないでください | rsyncにAIが導入されたことに対する反発が多く、AIによるバグ発生を指摘する声もある。\n  https://news.ycombinator.com/item?id=48342705",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-06-02"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "11 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- 防衛テックの寵児 Mach Industries、評価額18億ドルに到達、1年で4倍に\n  https://techcrunch.com/2026/06/01/defense-tech-darling-mach-industries-hits-1-8b-valuation-a-4x-jump-in-a-year/\n- Nvidia、Microsoft、Dell、HPのAIエージェントPCで2000億ドル規模のCPU市場を追撃\n  https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/\n- ステージから未来へ：Startup Battlefieldの卒業生たちは今？\n  https://techcrunch.com/2026/06/01/from-the-stage-to-the-future-where-are-startup-battlefields-alumni-now/\n- フロリダ州、OpenAIとSam Altmanを提訴、暴力事件を巡る初の訴訟\n  https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/\n- ハッカーがInstagramアカウントを乗っ取り、Meta AIサポートチャットボットを騙してアクセス権を取得\n  https://techcrunch.com/2026/06/01/hackers-hijacked-instagram-accounts-by-tricking-meta-ai-support-chatbot-into-granting-access/\n- 水へのアクセスがSpaceXのIPOにおけるリスク要因に\n  https://techcrunch.com/2026/06/01/water-access-is-now-a-risk-factor-in-spacexs-ipo/\n- Anthropicが株式公開を申請\n  https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/\n- このAI気象スタートアップ、政府機関を凌ぐ予報精度\n  https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/\n- DuckDuckGo、「AIなし」検索エンジンへのアクセスを容易に、トラフィック急増で\n  https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/\n- Revolut、インドでの本格展開に先駆け数千人のユーザーにサービス提供開始\n  https://techcrunch.com/2026/06/01/revolut-rolls-out-services-to-thousands-of-users-in-india-ahead-of-broader-launch/\n- 韓国のロケットスタートアップ Unastella、自宅から打ち上げ成功、2400万ドルを調達\n  https://techcrunch.com/2026/06/01/unastella-a-south-korean-rocket-startup-that-launched-from-home-raises-24m/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-06-02"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Mina Meeting Assistant — 通話中に応答・実行するAIチームメイト\n  https://www.producthunt.com/products/mina-meeting-assistant\n- Emily by Co-Desk — コワーキング・コリビング運営者向け音声AI副操縦士\n  https://www.producthunt.com/products/co-desk\n- Joanium — PCで構築・作業できるローカルAIワークスペース\n  https://www.producthunt.com/products/joanium-2\n- Stella — 全ファイル横断のローカル自然言語検索\n  https://www.producthunt.com/products/stella-4\n- Typeahead — Macの全アプリ対応AIオートコンプリート\n  https://www.producthunt.com/products/typeahead\n- folk — テキストでタスクをこなすAI\n  https://www.producthunt.com/products/folk-3\n- Dune Keypad — Claudeとコミュニティ拡張機能を備えたコンテキスト認識Macキーパッド\n  https://www.producthunt.com/products/dune-4\n- Skylive — 地球上のどこにいても天体イベントを見逃さない\n  https://www.producthunt.com/products/skylive\n- Open Caffeine — Macをスリープさせない\n  https://www.producthunt.com/products/open-caffeine\n- Trippple Club — Meta広告で共同出稿し、費用を1/3に\n  https://www.producthunt.com/products/trippple-club",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-06-02"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Anthropic confidentially submits draft S-1 to the SEC",
+      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "summary": "Anthropicが米証券取引委員会にS-1登録届出書案を非公開で提出。",
+      "ogImage": null,
+      "publishedAt": "2026-06-02"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "3 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- shotwell.ai：ロボットデータ向けAIを自動で規模拡張\n  http://shotwell.ai/\n- Context.dev：AIエージェントにリアルタイムのWebコンテキストを提供\n  https://context.dev\n- tday.com：製品をブランドに沿ったマーケティングコンテンツに変えるAI\n  https://tday.com",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-06-02"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Why Video Agent models are next — Ethan He, xAI Grok Imagine",
+      "url": "https://www.latent.space/p/video-agents",
+      "summary": "動画生成モデルの進化は、言語モデルの進歩と動画エージェントの活用によって、リアルタイムでインタラクティブな長尺動画の生成、さらには自動的なUI生成へと発展する見込み。",
+      "publishedAt": "2026-06-02",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!VqZ9!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F200078058%2F18b60925-5d6b-45ed-8314-dbe0dd70fc79%2Ftranscoded-1780294263.png"
+    },
+    {
+      "sourceName": "Agentic Engineering",
+      "title": "2 Updates",
+      "url": "https://github.com/software-mansion/agentic-engineering",
+      "summary": "- ドキュメントの最終改訂日が「April 2026」から「June 2026」に修正\n  https://github.com/software-mansion/agentic-engineering/commit/e591b7fdeee8fe7199df42ea66b3ca829f652e32\n- `autoresearch.mdx`の著者から`karolbinkowski3`を削除し、`GrzywN`を追加しました。\n  https://github.com/software-mansion/agentic-engineering/commit/2cc33112eaa5760da69f4dbc7866509304798479\n- `model-pricing.mdx`の著者から`karolbinkowski3`を削除し、`GrzywN`を追加しました。\n  https://github.com/software-mansion/agentic-engineering/commit/2cc33112eaa5760da69f4dbc7866509304798479\n- `vulnerability-research.mdx`ファイルが新規追加されました。\n  https://github.com/software-mansion/agentic-engineering/commit/2cc33112eaa5760da69f4dbc7866509304798479\n- `vulnerability-research.mdx`に`Vulnerability Research`というタイトルと、AIをセキュリティ監査に利用することに関する説明が追加されました。\n  https://github.com/software-mansion/agentic-engineering/commit/2cc33112eaa5760da69f4dbc7866509304798479\n- `vulnerability-research.mdx`の著者に`GrzywN`が追加されました。\n  https://github.com/software-mansion/agentic-engineering/commit/2cc33112eaa5760da69f4dbc7866509304798479\n- `vulnerability-research.mdx`に`ExternalLink`コンポーネントがインポートされました。\n  https://github.com/software-mansion/agentic-engineering/commit/2cc33112eaa5760da69f4dbc7866509304798479\n- `vulnerability-research.mdx`にVulnerability Researchに関する内容が追加されました。\n  https://github.com/software-mansion/agentic-engineering/commit/2cc33112eaa5760da69f4dbc7866509304798479",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-06-02"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "20 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-06-02",
+      "docsUpdates": [
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__claude-code-features.md",
+          "text": "SDKがプロジェクトレベルの入力を見る場所を決定するcwdオプションについて、その挙動と無効化方法に関する記述が改善されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/c661d211426451c3e5506d73fa771b3c37d029f8"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__python.md",
+          "text": "`ClaudeAgentOptions`の`system_prompt`設定において、Claude Codeのシステムプロンプト設定に`{\"type\": \"preset\", \"preset\": \"claude_code\"}`を使用する例が追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/c661d211426451c3e5506d73fa771b3c37d029f8"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__typescript.md",
+          "text": "`query()`関数の設定オブジェクトにおいて、`skills`オプションが、すべての検出されたスキルを有効にするか、スキル名のリストを渡すかの詳細な説明を含むように更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/c661d211426451c3e5506d73fa771b3c37d029f8"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-view.md",
+          "text": "セッションのサマリー更新に関するHaikuクラスのモデルリクエストのデータ使用条件について、サードパーティプロバイダーに関する記述が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/c661d211426451c3e5506d73fa771b3c37d029f8"
+        },
+        {
+          "tag": "Added",
+          "file": "cli-reference.md",
+          "text": "`claude auto-mode defaults`コマンドが追加され、組み込みの自動モードのデフォルト設定を表示できるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/c661d211426451c3e5506d73fa771b3c37d029f8"
+        },
+        {
+          "tag": "Improved",
+          "file": "desktop.md",
+          "text": "Claude DesktopチャットアプリのMCPサーバーに関する注意書きが、Claude CodeでのMCPサーバー設定方法について明確にするために改善されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/c661d211426451c3e5506d73fa771b3c37d029f8"
+        },
+        {
+          "tag": "Added",
+          "file": "discover-plugins.md",
+          "text": "プラグインのリロード時にトークンコストが発生する理由と、MCPサーバーを提供するプラグインがキャッシュを無効にする際の追加コストについての説明が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/c661d211426451c3e5506d73fa771b3c37d029f8"
+        },
+        {
+          "tag": "Changed",
+          "file": "features-overview.md",
+          "text": "Hooksのタイトルが「Automate workflows with hooks」から「Automate actions with hooks」に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/c661d211426451c3e5506d73fa771b3c37d029f8"
+        },
+        {
+          "tag": "Improved",
+          "file": "glossary.md",
+          "text": "CLAUDE.mdファイルがコンパクション後もディスクから新たに読み込まれる点について、「プロジェクトルートのCLAUDE.md」であることが明確にされました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/c661d211426451c3e5506d73fa771b3c37d029f8"
+        },
+        {
+          "tag": "Changed",
+          "file": "goal.md",
+          "text": "ゴールのドキュメントにおける「他の自律型ワークフローとの比較」のセクションタイトルが「セッションを実行し続ける方法の比較」に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/c661d211426451c3e5506d73fa771b3c37d029f8"
+        },
+        {
+          "tag": "Changed",
+          "file": "hooks-guide.md",
+          "text": "Hooksのガイドのタイトルが「Automate workflows with hooks」から「Automate actions with hooks」に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/c661d211426451c3e5506d73fa771b3c37d029f8"
+        },
+        {
+          "tag": "Changed",
+          "file": "hooks.md",
+          "text": "Hooksのリファレンスページで、クイックスタートガイドへのリンクテキストが「Automate workflows with hooks」から「Automate actions with hooks」に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/c661d211426451c3e5506d73fa771b3c37d029f8"
+        },
+        {
+          "tag": "Changed",
+          "file": "large-codebases.md",
+          "text": "大規模コードベースに関するドキュメントで、`SessionStart`フックの例におけるリンクテキストが「Automate workflows with hooks」から「Automate actions with hooks」に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/c661d211426451c3e5506d73fa771b3c37d029f8"
+        },
+        {
+          "tag": "Changed",
+          "file": "model-config.md",
+          "text": "`[1m]`サフィックスが`opusplan`の計画モードOpusフェーズには適用されないことが明確化され、`opus`と`sonnet`エイリアスの使用に限定されることが説明されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/c661d211426451c3e5506d73fa771b3c37d029f8"
+        },
+        {
+          "tag": "Improved",
+          "file": "prompt-caching.md",
+          "text": "プロンプトキャッシングのレイヤー説明において、「プロジェクトコンテキスト」レイヤーがセッション開始時または`/clear`または`/compact`後に変更されることを明記しました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/c661d211426451c3e5506d73fa771b3c37d029f8"
+        },
+        {
+          "tag": "Improved",
+          "file": "scheduled-tasks.md",
+          "text": "`/loop`コマンドが、プロンプトとして他のコマンドを渡す場合に、保存されたスキルやコマンドを再実行できることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/c661d211426451c3e5506d73fa771b3c37d029f8"
+        },
+        {
+          "tag": "Changed",
+          "file": "security-guidance.md",
+          "text": "セキュリティガイダンスのドキュメントで、Hooksのリンクテキストが「Automate workflows with hooks」から「Automate actions with hooks」に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/c661d211426451c3e5506d73fa771b3c37d029f8"
+        },
+        {
+          "tag": "Added",
+          "file": "voice-dictation.md",
+          "text": "音声ディクテーションがエージェントビューでも動作し、バックグラウンドセッションにディクテーションできる機能が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/c661d211426451c3e5506d73fa771b3c37d029f8"
+        },
+        {
+          "tag": "Added",
+          "file": "workflows.md",
+          "text": "ワークフローの用途に関するセクションに、サブエージェント、スキルに加えてエージェントチームの概念が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/c661d211426451c3e5506d73fa771b3c37d029f8"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "新しい日付のchangelogエントリが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/99de3119473cbfa74b7d2678d675a67e8a7a40f7"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "2 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- 個別プラン向け自動車保険の評価モデル\n  https://github.blog/changelog/2026-06-01-evaluation-models-in-auto-for-individual-plans\n- GitHub Copilotの料金プランがアップデート\n  https://github.blog/changelog/2026-06-01-updates-to-github-copilot-billing-and-plans",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-06-02"
+    }
+  ]
+}
