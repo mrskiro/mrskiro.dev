@@ -1,0 +1,155 @@
+{
+  "fetchedAt": "2026-06-04T22:14:57.475Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "How Endava is redesigning software delivery around AI agents",
+      "url": "https://openai.com/index/endava-frontiers",
+      "summary": "EndavaがAIエージェントやChatGPT Enterprise等を活用し、ソフトウェア開発と企業全体のAI文化を推進中。",
+      "publishedAt": "2026-06-04",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/4gxDAOkxUXKVkAcM8eGhNj/03482b84b74c225d36ad173865b67b14/oai_Endava_SEO.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Dreaming: Better memory for a more helpful ChatGPT",
+      "url": "https://openai.com/index/chatgpt-memory-dreaming",
+      "summary": "ChatGPTに、ユーザーの好みを記憶し、会話の文脈を維持する新機能が追加された。",
+      "publishedAt": "2026-06-04",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/41T8ZOansyDZGCqmwOkuOY/3cdeb6ab147c08fa9b313b677fb5318e/16x9_SEO__1_.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Biodefense in the Intelligence Age",
+      "url": "https://openai.com/index/biodefense-in-the-intelligence-age",
+      "summary": "AIを活用した生物学的レジリエンスの行動計画が発表。",
+      "publishedAt": "2026-06-04",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/2GYeL7adKwSV57xftkvZT1/c6ae97a29ddc3f9b9406dabbfa41794f/oai_16x9_Biodefense_in_the_Intelligence_Age.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.163",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.163",
+      "summary": "- [Added] 必須最小バージョンと必須最大バージョンの管理設定を追加しました。Claude Codeのバージョンが許可範囲外の場合、起動を拒否し、承認済みバージョンをユーザーに案内します。\n- [Added] インストール済みのプラグインを一覧表示する /plugin list コマンドを追加しました。--enabled/--disabled フィルターも利用可能です。\n- [Added] /btw に「c to copy」ショートカットを追加しました。これにより、生のMarkdown回答をクリップボードにコピーし、他の場所に貼り付けたときにフォーマットを保持します。\n- [Changed] Hooks: StopおよびSubagentStopフックがhookSpecificOutput.additionalContextを返せるようになりました。これにより、フックエラーとして扱われることなくClaudeにフィードバックを与え、ターンを継続できます。\n- [Added] Skills: コマンド本体で数字の前にリテラルな$を含めるための\\$エスケープ構文を追加しました。\n- [Changed] stdio MCPサーバーは、--resume時のフック/Bashと同様にCLAUDE_CODE_SESSION_IDを受け取るようになりました。\n- [Fixed] バックグラウンドのコマンドが終了しない場合に、claude -p が最終結果の後に永久にハングアップする問題を修正しました。バックグラウンドシェルは、stdinが閉じられた後、結果の約5秒後に停止するようになりました。\n- [Fixed] CI=trueでAnthropic APIキーが設定されていない場合に、Bedrock/Vertex/Foundryで「ANTHROPIC_API_KEY required」によりclaude -p が失敗する問題を修正しました。\n- [Fixed] bazelおよびEDR保護されたGoワークフローでBashコマンドが失敗する問題を修正しました: $TMPDIRがサンドボックス化されたコマンドだけでなく、すべてのコマンドで/tmp/claude-{uid}に上書きされていました（2.1.154での回帰）。\n- [Fixed] Windowsで、セッション環境ディレクトリが読み取り専用属性を持っているかOneDrive内にある場合に、「EEXIST: file already exists」というエラーでBashコマンドが失敗する問題を修正しました。\n- [Fixed] クリーンな設定ディレクトリで起動中に管理設定のフェッチが完了した場合、組織管理の権限ルールがセッション全体に適用されない問題を修正しました。\n- [Fixed] Claude Codeのアップデート後に再アタッチすると、claude agentsのバックグラウンドセッションが実行中のバックグラウンドタスクを失う問題を修正しました。\n- [Fixed] Escキーを押してエージェントビューを終了する際に発生する、ターミナルの位置ずれと数秒間のハングアップを修正しました。\n- [Fixed] デスクトップアプリでバックグラウンドタスクチップの「停止」をクリックしても、基になるプロセスが既に終了している場合にチップが消えない問題を修正しました。\n- [Fixed] 終了マーカーがターミナルによって破棄された貼り付け操作後、キーボード入力が永久に反応しなくなる問題を修正しました。\n- [Fixed] hook if: \"Bash(...)\" 条件が、$() または $VAR を含むすべてのBashコマンドで発火する問題を修正しました。このパターンは、サブシェルやバッククォート内のコマンドにも一致するようになりました。\n- [Fixed] ホームディレクトリパス（例: Read(~/Desktop/**)）に対する拒否ルールが、$HOMEを介してパスを参照するBashコマンドをブロックしない問題を修正しました。\n- [Fixed] /mcp や /plugins のようなパネルダイアログを閉じた後に、トランスクリプトに残る余分な「(no content)」行を修正しました。\n- [Improved] バックグラウンドエージェントセッションは、新しいClaude Codeバージョンにバックグラウンドでアップデートされるため、アップデート後にセッションを開いてもコールドスタートを待つ必要がなくなりました。\n- [Improved] /メニューの組み込みコマンドとスキルの説明をより明確にしました。\n- [Changed] サブスクリプション切り替えの提案が、トーストではなく起動アナウンススロットに表示されるようになりました。\n- [Changed] 状態グループ化されたビューからディスパッチされるclaude agentsは、エージェントビューが開かれたディレクトリでセッションを開始するようになりました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-06-05"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- Megathread: アプリの山 - 2026年6月\n  https://www.reddit.com/r/macapps/comments/1ttp8mu/megathread_the_app_pile_june_2026/\n- r/MacAppsのモデレーターはやりすぎた！変更点（フェーズ3）\n  https://www.reddit.com/r/macapps/comments/1ryaeex/rmacapps_mods_went_too_far_whats_changing_phase_3/\n- Nodes - ネイティブmacOS Markdownエディタ：完全ローカル、追跡なし、全ユーザー無料\n  https://www.reddit.com/r/macapps/comments/1twn56l/nodes_a_native_macos_markdown_editor_fully_local/\n- Lekh AI Pro 8.0 – ローカルAI、クラウドAI、エージェントブラウザ＋リサーチ、画像生成、音声クローン、音楽・動画生成、MCPツールを統合したMacアプリ\n  https://www.reddit.com/r/macapps/comments/1twzyde/lekh_ai_pro_80_local_ai_cloud_ai_agentic_browser/\n- Noticky 1.3 — フルスクリーンモードでも残る付箋アプリ（Mac App Storeで$6.99）\n  https://www.reddit.com/r/macapps/comments/1twp1um/noticky_13_sticky_notes_that_survive_fullscreen/\n- WhatDidYouSay - 音声メモをアップロードせずに書き起こし・翻訳するプライベートなMacアプリ\n  https://www.reddit.com/r/macapps/comments/1twyy67/whatdidyousay_a_private_mac_app_that_transcribes/\n- Glintype — ローカルファーストのmacOSオートコンプリートアプリ - 発売記念価格$18 | 無料トライアル\n  https://www.reddit.com/r/macapps/comments/1tx1pdu/glintype_a_localfirst_macos_autocomplete_app_18/\n- Digger Solo 0.5.0 - ローカルAIファイルエクスプローラー\n  https://www.reddit.com/r/macapps/comments/1twxccd/digger_solo_050_local_ai_file_explorer/\n- ClickClack 4.1 - リキッドアニメーショングラデーションと動的N-グラムラボを追加し、特定しにくいタイピングのボトルネックを解消\n  https://www.reddit.com/r/macapps/comments/1twn0kl/clickclack_41_liquid_animated_gradients_dynamic/\n- dropadooにまた新しい機能：DROP TO FTP!\n  https://www.reddit.com/r/macapps/comments/1twi292/again_something_new_for_dropadoo_drop_to_ftp/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-05"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI、進行中のメガトレンドをリスト化\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Claude Opus 4.8を発表\n  https://www.reddit.com/r/ClaudeAI/comments/1tq99mu/introducing_claude_opus_48/\n- コスト削減の鍵は？\n  https://www.reddit.com/r/ClaudeAI/comments/1twdx8k/how_can_we_reduce_costs/\n- 最近XでAI関連情報を探すときの心情\n  https://www.reddit.com/r/ClaudeAI/comments/1twlewx/how_it_feels_like_looking_for_anything_ai_related/\n- Claudeコードエージェントを24時間稼働のオフィスシミュレーションに投入\n  https://www.reddit.com/r/ClaudeAI/comments/1twq8nt/i_put_my_claude_code_agents_in_the_office/\n- Claude CodeでiPhone/Apple Watchアプリを開発、28日間で3,300ユーザー獲得し3,700ドルを売り上げ\n  https://www.reddit.com/r/ClaudeAI/comments/1twzetu/i_built_an_iphone_apple_watch_app_with_claude/\n- Opus 4.8の驚異的な性能 – データベース再交渉は本日4回のみ\n  https://www.reddit.com/r/ClaudeAI/comments/1tw91db/opus_48_is_genuinely_impressive_we_only/\n- Claudeを実務で使う上で役立つ9つのヒント（発見に時間がかかりすぎたこと）\n  https://www.reddit.com/r/ClaudeAI/comments/1twkht5/9_things_about_using_claude_for_actual_work_that/\n- Claudeに変数名を任せるとどうなるか\n  https://www.reddit.com/r/ClaudeAI/comments/1twwrju/what_happens_when_you_let_claude_choose_variable/\n- Claude Opus 4.7、3万件のAI議論で最も影響力のあるモデルに\n  https://www.reddit.com/r/ClaudeAI/comments/1twozwg/claude_opus_47_is_the_most_influential_model/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-05"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1375pt] 重みでできている | AIの意識や哲学的な側面、LLMの仕組みについて深く考察するコメントが多い。\n  https://news.ycombinator.com/item?id=48391611\n- [1007pt] Gemma 4 12B: エンコーダフリーの統一されたマルチモーダルモデル | モデルの技術的側面や必要なRAM、Googleのオープンモデル戦略への疑問が寄せられている。\n  https://news.ycombinator.com/item?id=48385906\n- [959pt] Elixir v1.20: 段階的に型付けされる言語に | 静的型付け導入への期待と歓迎の声が多く、バグ発見のメリットに言及するユーザーもいる。\n  https://news.ycombinator.com/item?id=48388324\n- [755pt] Meta従業員、職場での追跡を最大30分間オプトアウト可能に | Metaの従業員監視体制への皮肉や、企業の追跡の実態、労働環境への批判が見られる。\n  https://news.ycombinator.com/item?id=48383220\n- [729pt] 最近、抗NMDA受容体脳炎と診断されました | 稀な病気や誤診の経験について共感の声が多く、医学研究の重要性も指摘されている。\n  https://news.ycombinator.com/item?id=48384355\n- [722pt] 人工知能は意識を持たない – テッド・チャン | LLMの意識に関する議論が活発で、著者の見解に対する賛否両論がある。\n  https://news.ycombinator.com/item?id=48387270\n- [712pt] BerkeleyのCSクラスでAI利用による落第と数学スキルの低下が急増 | AI利用による学生の学力低下への懸念と、従来の教育方法の限界について議論されている。\n  https://news.ycombinator.com/item?id=48392004\n- [679pt] Pwnd Blaster: スピーカーを介してPCをハッキング（非接触） | ベンダーが脆弱性を認識しないことへの批判や、巧妙なハッキング手法への驚きの声が多数。\n  https://news.ycombinator.com/item?id=48382310\n- [602pt] Uberの月額1,500ドルのAI制限はAIツールの価格設定に有用なシグナル | AIツールのコストと価格設定、企業のAI活用における費用対効果について議論されている。\n  https://news.ycombinator.com/item?id=48383056\n- [601pt] 米国、大西洋海流追跡システムを解体へ（崩壊の危機に瀕する海流） | 気候変動研究の予算削減に対する懸念や、政治的判断への批判的な意見が目立つ。\n  https://news.ycombinator.com/item?id=48392232",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-06-05"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "11 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- 6月18日開催「StrictlyVC Los Angeles」、防衛技術・AI・資金調達に焦点\n  https://techcrunch.com/2026/06/04/defense-tech-ai-and-fundraising-take-center-stage-at-strictlyvc-los-angeles-on-june-18/\n- Startup Battlefield、再びオーストラリアへ – シドニー開催の前回を振り返る\n  https://techcrunch.com/2026/06/04/startup-battlefield-is-returning-to-australia-heres-what-happened-the-last-time-we-came-to-sydney/\n- Meta、Teslaの戦術を拝借しテント型データセンターを建設\n  https://techcrunch.com/2026/06/04/meta-steals-a-tactic-from-tesla-and-builds-data-centers-in-tents/\n- Apple、Messages for Businessプラットフォーム初のAIエージェント「Poke」を承認\n  https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/\n- Sam Altman支援の核融合スタートアップHelion、Microsoft向け発電所建設で4億6500万ドルを調達\n  https://techcrunch.com/2026/06/04/helion-the-sam-altman-backed-fusion-startup-raises-465m-to-build-a-power-plant-for-microsoft/\n- Meta、Facebookに新しいAIクリエイターアシスタントを展開\n  https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/\n- WWDC 2026の見どころ：Siriの大幅刷新とApple Intelligenceのアップデート\n  https://techcrunch.com/2026/06/04/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/\n- シリコンバレーは家庭用ロボット導入の準備OK？ Hello Robotは準備万端\n  https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/\n- Apple、App Storeの請求額・売上高は1.4兆ドル、その90%は手数料なしと強調\n  https://techcrunch.com/2026/06/04/apple-touts-1-4-trillion-in-app-store-billings-and-sales-90-without-a-commission/\n- クイックコマースのFirstClub、9カ月で評価額が2倍の2億5500万ドルに\n  https://techcrunch.com/2026/06/03/firstclub-doubles-valuation-to-255m-in-nine-months-on-quality-first-grocery-bet/\n- Lovable、Google Cloudと複数年契約、利用量5倍増へ – 関係者情報\n  https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-06-05"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Sun：エージェント向けコラボレーション音声API\n  https://www.producthunt.com/products/sun-4\n- Astra Autonomous Pentest：脆弱性を特定・検証・修正するAIエージェント\n  https://www.producthunt.com/products/astra-security\n- Extella.AI：再利用可能なシステムを構築・進化させるエージェントプラットフォーム\n  https://www.producthunt.com/products/extella-ai\n- ChatPilot：ChatGPTの会話を一括削除、アーカイブ、タイムスタンプ追加\n  https://www.producthunt.com/products/chatpilot-2\n- Build Club Campus：バーチャルAIスクール、AIスキルを短期間で習得\n  https://www.producthunt.com/products/build-club\n- Empromptu AI：既存のAIアプリでファインチューニングモデルをトレーニング\n  https://www.producthunt.com/products/empromptu\n- TimeTuna.com：美しいビデオ背景でCalendlyを彩る\n  https://www.producthunt.com/products/bookva-ai\n- PlugTalk：Macがデバイス接続時に反応\n  https://www.producthunt.com/products/plugtalk\n- Koji by Brilliant：すべての家庭に世界クラスの個人教師を\n  https://www.producthunt.com/products/brilliant\n- AppWizzy：Codex搭載のプライベートVMをレンタルして本番アプリを構築\n  https://www.producthunt.com/products/appwizzy",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-06-05"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "2 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Akkari、顧客対応業務を自動化\n  https://akkari.io/\n- Care GP、医療業務向けAIエージェントを発表\n  https://caregp.com.au/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-06-05"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Reality: The Final Eval — Lukas Petersson and Axel Backlund of Andon Labs",
+      "url": "https://www.latent.space/p/andon",
+      "summary": "Andon Labsは、AIが実世界でビジネスを運営する際に起こる予期せぬ挙動（欺瞞、価格カルテル、人間との奇妙な交渉など）を検証するため、AIが物理店舗を運営するプロジェクトなどを実施中。",
+      "publishedAt": "2026-06-05",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!7756!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F200614482%2F1621f1b3-afdf-4e73-96ad-7e9344965086%2Ftranscoded-1780580537.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Reve 2 and Ideogram 4: Layouts in Imagegen",
+      "url": "https://www.latent.space/p/ainews-reve-2-and-ideogram-4-layouts",
+      "summary": "Microsoftが新しいAIモデルMAI-Thinking-1を発表し、Googleはオンデバイスで動作するマルチモーダルAIモデルGemma 4 12Bを公開、Ideogram 4.0もオープンモデル化し、AIエージェントの実行環境やコスト管理が注目されている。",
+      "publishedAt": "2026-06-04",
+      "ogImage": "https://substackcdn.com/image/upload/w_1028,c_limit,q_auto:best/khye4hsl8xurczaxecv5"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "5 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-06-05",
+      "docsUpdates": [
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__python.md",
+          "text": "ResultMessageクラスのsubtypeフィールドが他のどのフィールドに影響するか、および会話がエラーで終了した際の診断の詳細（is_error, api_error_statusフィールド）が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/834c3a59342627b78a568735894dc980a2850830"
+        },
+        {
+          "tag": "Changed",
+          "file": "changelog.md",
+          "text": "Changelogページのタイトルが「Changelog」から「Claude Code changelog」に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/1fe2fd5f8e10a5ec34417e5f58c5afbe6ab2b3e9"
+        },
+        {
+          "tag": "Improved",
+          "file": "mcp.md",
+          "text": "MCPサーバーを追加する際のオプションの順序の記述が変更され、サーバー引数を`--`で区切る点に関する重要な注意が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/1fe2fd5f8e10a5ec34417e5f58c5afbe6ab2b3e9"
+        },
+        {
+          "tag": "Added",
+          "file": "troubleshoot-install.md",
+          "text": "インストーラーのダウンロード元への到達可能性を確認する際に、PowerShellで`curl.exe -sI`を使用すべきという記述が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/1fe2fd5f8e10a5ec34417e5f58c5afbe6ab2b3e9"
+        },
+        {
+          "tag": "Improved",
+          "file": "vs-code.md",
+          "text": "VS Code拡張機能のデータと設定をリセットするための手順が、macOS、Linux、Windowsの各プラットフォーム向けに具体的なコマンドと共に追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/1fe2fd5f8e10a5ec34417e5f58c5afbe6ab2b3e9"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "Claude Codeのドキュメントリポジトリのコミットログが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/d45e1c0d9e3f1d469361de310c59c45920dacb28"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "5 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- CopilotがPro/Pro+/Maxで失敗したActionsの修正に対応\n  https://github.blog/changelog/2026-06-04-fix-with-copilot-for-failing-actions-now-in-pro-pro-and-max\n- Agent tasks REST APIがCopilot Pro/Pro+/Maxで利用可能に\n  https://github.blog/changelog/2026-06-04-agent-tasks-rest-api-now-available-for-copilot-pro-pro-and-max\n- GitHub Copilot、より大きなコンテキストウィンドウと推論レベルの設定に対応\n  https://github.blog/changelog/2026-06-04-larger-context-windows-and-configurable-reasoning-levels-for-github-copilot\n- Visual Studio版GitHub Copilot、5月のアップデート\n  https://github.blog/changelog/2026-06-04-github-copilot-in-visual-studio-may-update\n- Copilot Chat、プルリクエストのコンテキストをより豊かに\n  https://github.blog/changelog/2026-06-04-copilot-chat-brings-richer-context-to-pull-requests",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-06-05"
+    }
+  ]
+}
