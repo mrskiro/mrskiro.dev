@@ -1,0 +1,133 @@
+{
+  "fetchedAt": "2026-06-08T22:17:20.366Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Confidential submission of draft S-1 to the SEC",
+      "url": "https://openai.com/index/openai-submits-confidential-s-1",
+      "summary": "OpenAIがSECに秘密裏にS-1を提出したが、今後の詳細は未定。",
+      "publishedAt": "2026-06-08",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/1kKjVqt4LdJo6DAWO4rklb/93d7ae2d6a5cb70b17fd5ff440552291/confidential-submission-of-draft-s-1-to-the-sec-16x9.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Built to benefit everyone: our plan",
+      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+      "summary": "OpenAIは、AGIが人類に利益をもたらすよう、アクセス、安全性、共有の繁栄を重視したAIの未来像を提唱。",
+      "publishedAt": "2026-06-08",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/VbCQBEe5vEJDMV5yTqtj6/e4b96c472e5d8cc0aea5a24c46070675/Art_Card_1920x1080_Sam__1___1_.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Introducing the OpenAI Economic Research Exchange",
+      "url": "https://openai.com/index/economic-research-exchange",
+      "summary": "OpenAIがAIの経済影響を研究するプログラムを開始、研究プロジェクトを公募。",
+      "publishedAt": "2026-06-08",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/51xw2pFq7Z8Cur501DVgKi/4c1c938e8553611ca250e45531796660/seo_image.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.169",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
+      "summary": "- [Added] --safe-modeフラグ（およびCLAUDE_CODE_SAFE_MODE）を追加し、トラブルシューティングのためにすべてのカスタマイズ（CLAUDE.md、プラグイン、スキル、フック、MCPサーバー）を無効にしてClaude Codeを開始できるようにしました。\n- [Added] /cdコマンドを追加し、セッションを新しい作業ディレクトリに移動しても、セッション途中でプロンプトキャッシュが壊れないようにしました。\n- [Added] disableBundledSkills設定とCLAUDE_CODE_DISABLE_BUNDLED_SKILLS環境変数を追加し、バンドルされたスキル、ワークフロー、組み込みスラッシュコマンドをモデルから非表示にできるようにしました。\n- [Fixed] 上下矢印キーが、長い入力行の折り返された行を越えてコマンド履歴にジャンプする問題を修正しました。各視覚行を最初に移動し、履歴の呼び出しは近い端から入力されるようになりました。\n- [Fixed] エンタープライズ管理のMCPポリシー（allowedMcpServers/deniedMcpServers）が、再接続時、IDEで入力された設定、インストール後の最初のセッション中の--mcp-configサーバー、またはリモート設定がロードされる前に適用されない問題を修正しました。また、リモート設定がない組織での遅いコールドスタートも修正しました。\n- [Fixed] claude.aiの認証情報でログインしているmacOSユーザーの場合、各ターンの開始時に約30-50msのUI停止が発生する問題を修正しました。\n- [Fixed] Windowsでスラッシュコマンド/スキル検索を待機中にclaude -pが遅い、またはハングしているように見える問題を修正しました（2.1.161でのリグレッション）。\n- [Fixed] OAuthトークンの更新が同時に発生した場合、セッション再開後にRemote Controlが「再接続中」でスタックする問題を修正しました。\n- [Fixed] キャッシュされた認証情報なしでバックグラウンドGitコマンドが実行されたときに、WindowsでGit Credential Managerの「Connect to GitHub」ポップアップが起動時に表示される問題を修正しました。\n- [Fixed] カスタムステータスラインを使用しているユーザーにフッターヒント（例：「escで中断」）が表示されない問題を修正しました。\n- [Fixed] ワーカーが待機中に死亡したリモートセッションに再接続するたびに、古い権限とダイアログプロンプトが再表示される問題を修正しました。\n- [Fixed] claude agents --jsonがブロックされたセッションと、ディスパッチされたばかりのバックグラウンドセッションを省略する問題を修正しました。完了したセッションを含めるための--allと、新しいidおよびstateフィールドを追加しました。\n- [Fixed] Windows TerminalのWSLでエージェントから戻った後、エージェントビューに古い/文字化けしたフレームが残る問題を修正しました。\n- [Fixed] バックグラウンドエージェントが、事前にウォームアップされたワーカーにディスパッチされたときに、プロジェクトレベルの設定env値（例：ANTHROPIC_MODEL）を無視する問題を修正しました。\n- [Fixed] WindowsでMCPBプラグインキャッシュが不必要に無効化され、不要な再抽出が発生する問題を修正しました。\n- [Fixed] プラグインの.in_use PIDロックファイルが無制限に蓄積される問題を修正しました。クラッシュしたセッションの古いマーカーは1日に1回削除されるようになりました。\n- [Fixed] 信頼されていないプロジェクト設定が、信頼の確認なしにOTELクライアント証明書パスを設定できる問題を修正しました。\n- [Improved] /workflowsが、ターンが進行中でもすぐに開くようになりました。\n- [Improved] TaskCreateの信頼性を向上させました。不正な形式の入力は自動的に修復され、アンロードされたツールの検証エラーにはスキーマが含まれるようになりました。\n- [Improved] 組織がAPIキー認証を無効にしている場合に表示されるエラーメッセージを改善し、アクティブなAPIキーがどこから来ているかに基づいたガイダンスを追加しました。\n- [Improved] レスポンスのストリーミング中およびスピナーアニメーション中のCPU使用率を削減しました。\n- [Changed] Vertex/Foundryでのデフォルトの5分間のアイドルタイムアウトを復元しました。これにより、停止したストリームが無限にハングするのではなく、中断されるようになりました。オプトアウトするにはAPI_FORCE_IDLE_TIMEOUT=0を設定してください。\n- [Improved] 無効なエントリを含むリモート管理設定が、ペイロード全体をサイレントに削除する代わりに、残りの有効なポリシーを適用し、検証エラーを表示するようになりました。\n- [Improved] バックグラウンドセッションが、--ide、--chrome、--bare、--remote-control、その他のフラグを退役→起動間で保持するようになり、再起動状態の検証が強化されました。\n- [Improved] バックグラウンドセッションに、EnterWorktreeの前に無駄な拒否された編集を回避するために、ワークツリーに入るまで共有チェックアウトの編集がブロックされていることを通知するようになりました。\n- [Improved] 「CLAUDE.mdが長すぎます」の警告しきい値が、モデルのコンテキストウィンドウに合わせてスケールするようになりました。\n- [Improved] Windowsの自動アップデーターが、claude.exeが別のプロセスによって保持されている場合、セッション内の再試行を停止するようになりました。\n- [Improved] スラッシュコマンドメニューのスキルタグのカラーコントラストを改善しました。\n- [Improved] 支払い方法を持たないApple/Google請求のサブスクライバー向けのプロモーションクレジット請求が、支払い方法を追加する場所を説明するようになりました。\n- [Added] 複数の同時セッションを実行している場合にclaude agentsを提案するヒントを追加しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-06-09"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- r/MacAppsコミュニティ：品質と現状をチェック\n  https://www.reddit.com/r/macapps/comments/1tztc04/rmacapps_community_quality_status_check/\n- 【まとめ】The App Pile - 2026年6月版\n  https://www.reddit.com/r/macapps/comments/1ttp8mu/megathread_the_app_pile_june_2026/\n- Apollo：ノッチを活かしたMacアプリ\n  https://www.reddit.com/r/macapps/comments/1u0l5q0/apollo_your_island_that_sits_in_your_notch/\n- メニューバーアプリ開発者に悲報：macOSの更新で動作不能に\n  https://www.reddit.com/r/macapps/comments/1u0mkbu/poor_menu_bar_app_makers_new_macos_breaks_them_all/\n- QuickWheel：ゲームのUIをMacで再現、ショートカットとスニペット入力を快適に（14日間無料体験、15ユーロ）\n  https://www.reddit.com/r/macapps/comments/1u030eh/quickwheel_i_love_the_radial_wheel_ui_from_video/\n- 【無料】休憩を促すポモドーロタイマー「RestLock Timer」を開発しました\n  https://www.reddit.com/r/macapps/comments/1tzxdrd/free_i_made_restlock_timer_a_pomodoro_timer_that/\n- 【OS】高速・ネイティブ・プライバシー重視のエディター「Neon Vision Editor 0.7.6」がmacOS、iPhone、iPad向けにメジャーアップデート\n  https://www.reddit.com/r/macapps/comments/1tzs22a/os_neon_vision_editor_076_a_fast_native/\n- 【OS】⌥Spaceで起動するミニマルなmacOSスクラッチパッド「Wisp」\n  https://www.reddit.com/r/macapps/comments/1tz94pp/os_wisp_a_tiny_macos_scratchpad_that_opens_with/\n- Permanent Eraserの代替アプリ\n  https://www.reddit.com/r/macapps/comments/1u02fza/alternativa_a_permanent_eraser/\n- F-captions：iPhone/iPad/Mac対応、買い切り型字幕ジェネレーター\n  https://www.reddit.com/r/macapps/comments/1tzg1pv/fcaptions_no_bs_lifetime_subtitle_generator_for/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-09"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI：進行中のメガ・スレッド一覧\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Claude Coworkの利用制限が来月まで2倍に\n  https://www.reddit.com/r/ClaudeAI/comments/1txyx3j/your_claude_cowork_usage_limits_just_doubled_for/\n- Claude Code エンドゲーム\n  https://www.reddit.com/r/ClaudeAI/comments/1u0e2pp/claude_code_endgame/\n- アクティブな攻撃によりClaude Codeにバックドアが仕込まれています。npmをご利用の場合、認証情報がすでに漏洩している可能性があります。\n  https://www.reddit.com/r/ClaudeAI/comments/1u05t5e/an_active_attack_is_planting_backdoors_inside/\n- Anthropicがプライバシーポリシーを本日変更、Claudeユーザーが知るべき特定の条項とは\n  https://www.reddit.com/r/ClaudeAI/comments/1u0kq84/anthropic_changed_their_privacy_policy_today_and/\n- Claudeの新しい利用制限は常軌を逸している\n  https://www.reddit.com/r/ClaudeAI/comments/1tzwrxs/claudes_new_usage_limits_are_insane/\n- 月額20ドルの上限に達した方々、どうしていますか？\n  https://www.reddit.com/r/ClaudeAI/comments/1u0dp9o/people_on_the_max_20_plan_who_hit_their_limits/\n- Claudeのおかげで、コーディングがボトルネックではなかったと気づいた\n  https://www.reddit.com/r/ClaudeAI/comments/1tzx6uq/claude_made_me_realize_that_coding_was_never_the/\n- Claude AIで構築された自動ハト駆除用放水銃\n  https://www.reddit.com/r/ClaudeAI/comments/1u03rja/automated_pigeon_deterrent_water_turret_built/\n- Detroit: Become Humanから学んだClaude Codeの素敵なパターン\n  https://www.reddit.com/r/ClaudeAI/comments/1u0c94u/the_nice_claude_code_pattern_i_learned_from/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-09"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1102pt] LLMが私のソフトウェアエンジニアとしてのキャリアを侵食しているが、どうすればいいかわからない | LLMの限界や影響について、多様な意見が交わされている。楽観論と悲観論が混在している。\n  https://news.ycombinator.com/item?id=48434312\n- [873pt] 依存症、刑務所、重罪を乗り越え、ゼロから再出発 | 困難な過去を乗り越えた著者の成功を祝福し、感動と共感の声が多い。非機械生成の文章に賞賛。\n  https://news.ycombinator.com/item?id=48437406\n- [742pt] ドーパミン採掘 | 「ドーパミン採掘」という言葉が的確だと評価され、ソーシャルメディアの悪影響に懸念の声が多い。\n  https://news.ycombinator.com/item?id=48440792\n- [676pt] Show HN: Performative-UI – デザインの常套句を集めたReactコンポーネントライブラリ | 面白さと完成度の高さに賞賛の声。真面目なサイトにも使いたいという意見も。\n  https://news.ycombinator.com/item?id=48445554\n- [533pt] Apple Musicアプリの自動起動を停止する方法 | Appleの強制的なアプリ起動への不満が多く、同様の問題を抱えていたユーザーから感謝の声。\n  https://news.ycombinator.com/item?id=48447935\n- [521pt] Anthropicよ、公式のClaudeデスクトップアプリをLinux向けにリリースしてください | 非公式ビルドの紹介や、Linuxデスクトップアプリ開発の難しさについて議論されている。\n  https://news.ycombinator.com/item?id=48434436\n- [493pt] 反ソーシャル：ソーシャルメディアのフィードは今や友達ではなく流行が支配している | ソーシャルメディアの現状に対する深い共感と懸念の声が多く、ケーブルテレビとの比較も。\n  https://news.ycombinator.com/item?id=48444228\n- [474pt] Linearはいかにして高速なのか？技術的な分析 | Linearの高速さに感銘を受けつつも、検索の遅さやUIの不満など、実際に使ったユーザーからの批判的な意見も。\n  https://news.ycombinator.com/item?id=48437609\n- [443pt] MiMo-v2.5-Pro-UltraSpeed: 1兆パラメータモデル、1秒あたり1000トークン | 高速AIの進化に驚きと期待の声がある一方、生産性向上への懐疑的な意見や価格競争への言及も。\n  https://news.ycombinator.com/item?id=48446639\n- [418pt] 第29回国際難読化Cコードコンテスト (IOCCC) 2025年受賞者 | IOCCCの受賞作品の巧妙さや技術力の高さに感嘆の声が多く、GameBoyエミュレータに特に注目が集まっている。\n  https://news.ycombinator.com/item?id=48432199",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-06-09"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "12 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Anthropicに続き、OpenAIもIPOを非公開申請\n  https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/\n- Apple、WWDCで巻き返しを図る\n  https://techcrunch.com/2026/06/08/apple-plays-catch-up-at-wwdc/\n- Apple、低価格AIで中小開発者を取り込みか\n  https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/\n- WWDC 2026：Siri AI、iOS 27、Apple Intelligenceなど発表内容まとめ\n  https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/\n- Apple、iPhoneに文章・写真・ワークフローの自動補完機能を搭載\n  https://techcrunch.com/2026/06/08/apple-just-taught-your-iphone-to-finish-your-sentences-your-photos-and-your-workflows/\n- Apple、新しいショートカットアプリでAIを使ったワークフロー構築を可能に\n  https://techcrunch.com/2026/06/08/apple-will-let-you-build-workflows-using-ai-in-its-new-shortcuts-app/\n- AppleのImage Playgroundが遂に使えるレベルに\n  https://techcrunch.com/2026/06/08/apples-image-playground-doesnt-suck-anymore/\n- Appleの「写真」アプリ、新しいAI編集機能を搭載へ\n  https://techcrunch.com/2026/06/08/apples-photos-app-is-getting-new-ai-editing-features/\n- Apple、Siri専用アプリを提供\n  https://techcrunch.com/2026/06/08/apple-gives-siri-its-own-dedicated-app/\n- Apple、Siri in Cameraの新機能で割り勘の悩みを解消\n  https://techcrunch.com/2026/06/08/apple-is-fixing-the-headache-of-splitting-the-bill-with-its-new-siri-in-camera-feature/\n- Apple待望のAI Siri刷新がついに実現\n  https://techcrunch.com/2026/06/08/apples-long-awaited-ai-siri-overhaul-is-finally-here/\n- Startup Battlefield 2026の応募方法と、6月8日の締め切りまでに必要なもの\n  https://techcrunch.com/2026/06/08/how-to-apply-to-startup-battlefield-2026-what-you-need-ahead-of-todays-june-8-deadline/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-06-09"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Claude Artifact Player — Claude AI成果物をネイティブ実行、ブラウザもクラウドも不要\n  https://www.producthunt.com/products/claude-artifact-player\n- Vaani — クリエイター、ブランド、スタジオ向けAIリップシンク吹き替え\n  https://www.producthunt.com/products/vaani-2\n- Tamadoggo — AI分析付き、ペットとの暮らしの記録ジャーナル\n  https://www.producthunt.com/products/tamadoggo\n- NTSC-RS — アナログテレビやVHSのノイズを再現するオープンソース動画エミュレーター\n  https://www.producthunt.com/products/ntsc-rs\n- The Virtual OS Museum — デスクトップで往年のOSを体験\n  https://www.producthunt.com/products/the-virtual-os-museum\n- Browse.sh — エージェントにWeb自動化の「筋肉の記憶」を与える\n  https://www.producthunt.com/products/browserbase\n- Sigma File Manager — 無料・オープンソース・クロスプラットフォームのモダンなファイルマネージャーアプリ\n  https://www.producthunt.com/products/sigma-file-manager\n- Supaste — macOS用クリップボードマネージャー\n  https://www.producthunt.com/products/supaste\n- Honen — あらゆる企業向けの自動教育・学習インフラ\n  https://www.producthunt.com/products/honen\n- CabinLink — 機内Wi-Fiでフライトマップを表示\n  https://www.producthunt.com/products/cabinlink",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-06-09"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "2 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Prescience、潤沢な知能の時代におけるヘルスケアを展望\n  https://www.getprescience.com/\n- Cerenovus、企業知識を集約・推論するソリューションを提供\n  https://www.cerenovus.ai/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-06-09"
+    },
+    {
+      "sourceName": "Agentic Engineering",
+      "title": "1 Updates",
+      "url": "https://github.com/software-mansion/agentic-engineering",
+      "summary": "- ドキュメント「harness-engineering.mdx」において、表のヘッダーが正しく表示されるよう修正\n  https://github.com/software-mansion/agentic-engineering/commit/a019ed719d1a31bc35592b1592414c8005612746\n- ドキュメント「model-pricing.mdx」において、表のヘッダーが正しく表示されるよう修正\n  https://github.com/software-mansion/agentic-engineering/commit/a019ed719d1a31bc35592b1592414c8005612746",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-06-09"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "4 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-06-09",
+      "docsUpdates": [
+        {
+          "tag": "Improved",
+          "file": "admin-setup.md",
+          "text": "Anthropicがモデル学習にコードやプロンプトを使用しない対象に、TeamおよびEnterpriseプランに加え、Claude APIおよびクラウドプロバイダープランが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/dee638f50c820dd549f4b7740bfeeffae03512cc"
+        },
+        {
+          "tag": "Changed",
+          "file": "data-usage.md",
+          "text": "Zero Data Retention (ZDR) の利用資格と有効化プロセスに関する記述が変更され、標準のEnterpriseプランには含まれないこと、および適格なアカウントのみが利用でき、アカウントチームによる確認後に有効化されることが明記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/dee638f50c820dd549f4b7740bfeeffae03512cc"
+        },
+        {
+          "tag": "Improved",
+          "file": "zero-data-retention.md",
+          "text": "Zero Data Retention (ZDR) が適格なアカウントのみに提供されることが説明に追加され、より詳細な情報が提供されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/dee638f50c820dd549f4b7740bfeeffae03512cc"
+        },
+        {
+          "tag": "Improved",
+          "file": "skills.md",
+          "text": "スキルのフロントマターに`disallowed-tools`を追加することで、スキルがアクティブな間にClaudeが利用できるツールから特定のツールを削除できるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/7544a29020bf55212823ac73dcdc9fa98a9aeb2d"
+        },
+        {
+          "tag": "Improved",
+          "file": "skills.md",
+          "text": "すべてのスキルとプロンプトでツールをブロックするには、権限設定に拒否ルールを追加するという説明が明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/7544a29020bf55212823ac73dcdc9fa98a9aeb2d"
+        }
+      ]
+    }
+  ]
+}
