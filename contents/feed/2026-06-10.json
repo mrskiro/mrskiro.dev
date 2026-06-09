@@ -1,0 +1,709 @@
+{
+  "fetchedAt": "2026-06-09T22:16:19.733Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "How engineers at Nextdoor use Codex to build without limits",
+      "url": "https://openai.com/index/nextdoor",
+      "summary": "NextdoorのエンジニアがGPT-5.5を活用し、再現困難な問題解決や複数プラットフォームでの開発、プロダクト成果に注力した事例。",
+      "publishedAt": "2026-06-09",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/2VQiKydNUVAutnHRuCIV4S/3262cc8deff3fe49c6b512f854e14dcf/oai_Nextdoor_1x1.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.170",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.170",
+      "summary": "- [Added] Claude Fable 5を発表。Mythosクラスのモデルで、一般利用向けに安全性が確保されています。Fableの機能は、これまで一般公開されたどのモデルよりも優れています。アクセスするにはバージョン2.1.170にアップデートしてください。\n- [Fixed] VS Code統合ターミナルまたはClaude Code環境変数を継承したシェルから起動された場合、セッションがトランスクリプトを保存せず（--resumeに表示されず）問題が修正されました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- r/MacAppsコミュニティの品質と現状をチェック\n  https://www.reddit.com/r/macapps/comments/1tztc04/rmacapps_community_quality_status_check/\n- 【総まとめ】アプリの山 – 2026年6月\n  https://www.reddit.com/r/macapps/comments/1ttp8mu/megathread_the_app_pile_june_2026/\n- アンインストールしないアプリ、第8弾\n  https://www.reddit.com/r/macapps/comments/1u1b1rl/apps_that_i_am_not_uninstalling_part_8/\n- Macが非現実的な見た目に：30種類以上のライブ壁紙（CRT、ゲームボーイ、VHS、油絵など）をワンキーで。永久ライセンスを10名にプレゼント（詳細は記事で）\n  https://www.reddit.com/r/macapps/comments/1u14cah/make_your_mac_look_unreal_30_live_whole_screen/\n- Alt-Tabの代替アプリ？\n  https://www.reddit.com/r/macapps/comments/1u1e6x8/alttab_alternatives_app/\n- Kanbanero：軽量でローカル優先のmacOS向けカンバンアプリ\n  https://www.reddit.com/r/macapps/comments/1u14caj/kanbanero_a_lightweight_localfirst_kanban_app_for/\n- macOS 27でSiri AIが登場\n  https://www.reddit.com/r/macapps/comments/1u0z5jy/siri_ai_on_macos_27/\n- rubarb.bar：コンテンツ認識型自動輝度調整で、ダークモードでの白ページの眩しさを解消\n  https://www.reddit.com/r/macapps/comments/1u1a9m3/rubarbbar_is_contentaware_autobrightness_that/\n- Quick Drive – メニューバーからドラッグ＆ドロップでファイル共有！（期間限定ローンチ割引）\n  https://www.reddit.com/r/macapps/comments/1u19aks/quick_drive_drag_drop_file_sharing_from_your_menu/\n- AI（Ollama経由）を含むすべてがローカルで動作する時間追跡＆請求書作成Macアプリを開発しました\n  https://www.reddit.com/r/macapps/comments/1u1ccrh/i_built_a_timetracking_invoicing_mac_app_that/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI、進行中のメガトレンドをリストアップ\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Claude Fable 5を発表\n  https://www.reddit.com/r/ClaudeAI/comments/1u1b22l/introducing_claude_fable_5/\n- 準備万端\n  https://www.reddit.com/r/ClaudeAI/comments/1u18cey/im_ready/\n- Claude Fable 5はモデル発表というより、AI格差のプレビューのように感じる\n  https://www.reddit.com/r/ClaudeAI/comments/1u1fsdi/claude_fable_5_feels_less_like_a_model_launch_and/\n- AGIはここに。Fable 5が洗車を提案\n  https://www.reddit.com/r/ClaudeAI/comments/1u1bmim/agi_is_here_fable_5_suggest_me_to_drive_to_the/\n- Fable 5が稼働\n  https://www.reddit.com/r/ClaudeAI/comments/1u1as0p/fable_5_is_up/\n- Sonnetをアップデートしてください\n  https://www.reddit.com/r/ClaudeAI/comments/1u0zqpx/please_update_sonnet/\n- Fableは成熟していて落ち着いた、地に足の着いたプログラマーのよう。非常に印象的\n  https://www.reddit.com/r/ClaudeAI/comments/1u1d6c0/fable_feels_like_a_mature_calm_and_down_to_earth/\n- セキュリティが確保されていてよかった\n  https://www.reddit.com/r/ClaudeAI/comments/1u1ccfu/thank_god_were_being_secure/\n- 噂：Anthropic、Claude Mythosのパブリック版を明日リリース予定（ガードレール付き）\n  https://www.reddit.com/r/ClaudeAI/comments/1u13ljr/rumor_anthropic_planning_to_release_public/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1502pt] Claude Fable 5 | 「Fable 5」は非常に強力で使いやすいと高評価。費用や利用期間に関するコメントも。\n  https://news.ycombinator.com/item?id=48463808\n- [1125pt] Show HN: Performative-UI – デザインの常套句を集めたReactコンポーネントライブラリ | 見た目の面白さと実用性の両面で高評価。特にASCIIアートが人気。\n  https://news.ycombinator.com/item?id=48445554\n- [805pt] ドーパミン採掘（Dopamine Fracking） | YouTubeなどのプラットフォームがユーザーの注意を引きつけるための「ドーパミン採掘」という表現に共感の声。\n  https://news.ycombinator.com/item?id=48440792\n- [707pt] 1993年のようなグラフィックス制作 | DoomやWolfenstein 3Dのような90年代のグラフィック制作技術に関する記事。特に内部ツールの活用が高評価。\n  https://news.ycombinator.com/item?id=48459294\n- [705pt] Apple、Google Geminiモデルを基盤とした新しいAIアーキテクチャを発表 | プライバシーとオンデバイス処理へのアプローチは評価されるが、Geminiモデルの採用や実際の性能について疑問の声も。\n  https://news.ycombinator.com/item?id=48450142\n- [676pt] 監視は安全ではない：英国の最新のプライバシー侵害に対する声明 [pdf] | 英国政府の監視強化法案に対し、プライバシー侵害への懸念やSignalなど暗号化ツールの重要性が指摘されている。\n  https://news.ycombinator.com/item?id=48450646\n- [670pt] xAIは最先端の研究室というよりデータセンターREITに見える | xAIのデータセンター建設速度は評価されるが、そのコストや環境への影響について懸念も。\n  https://news.ycombinator.com/item?id=48446428\n- [667pt] 反ソーシャル：ソーシャルメディアのフィードを支配するのは友人ではなく流行 | 従来のソーシャルメディアが友人との交流の場からコンテンツ消費の場へ変化した現状に、否定的な意見が多数。\n  https://news.ycombinator.com/item?id=48444228\n- [659pt] Siri AI | Siri AIのデモは期待外れとの意見が多く、機能の制限や欧州での提供状況への不満も。\n  https://news.ycombinator.com/item?id=48449084\n- [654pt] Apple Musicアプリの自動起動を停止する | Apple Musicアプリの自動起動とライブラリへの自動追加に対する不満が多く、iTunesの廃止を惜しむ声も。\n  https://news.ycombinator.com/item?id=48447935",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "12 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Siriよ、私がAIに本当に求めているのはこれだ\n  https://techcrunch.com/2026/06/09/hey-siri-heres-what-i-actually-want-from-ai/\n- AnthropicのFable 5は、クリック一つで奇妙に楽しいビデオゲームを作成可能に\n  https://techcrunch.com/2026/06/09/anthropics-fable-5-can-make-weirdly-fun-video-games-with-the-click-of-a-button/\n- テック企業はより安価なAIモデルを愛せるようになるのか？\n  https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/\n- WWDC 2026：Siri AI、iOS 27、Apple Intelligenceなど、発表されたすべてのこと\n  https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/\n- AnthropicのClaude Fable 5、一般公開されたMythos版が本日より利用可能\n  https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/\n- もはやFAANGではない。これからはMANGOSだ。\n  https://techcrunch.com/2026/06/09/its-not-faang-anymore-its-mangos/\n- Sandstone、社内法務チーム向けAI開発で3000万ドルを調達\n  https://techcrunch.com/2026/06/09/sandstone-raises-30m-to-bring-ai-to-in-house-legal-teams/\n- Lovable、年間売上高5億ドルを達成、週100万件の新規プロジェクトを獲得\n  https://techcrunch.com/2026/06/09/lovable-says-it-has-hit-500m-in-annualized-revenue-with-1-million-new-projects-a-week/\n- 電動スクーター創業者が宇宙データセンター建設のために500万ドルを調達した方法\n  https://techcrunch.com/2026/06/09/how-an-e-scooter-founder-raised-5-million-to-build-space-data-centers/\n- Evotrex、充電ステーション不要のRV開発で3000万ドルを調達\n  https://techcrunch.com/2026/06/09/anker-backed-evotrex-raises-30m-to-build-its-off-grid-rv/\n- ZeptoのIPO申請で明らかになった急成長と赤字拡大、そして未解決の評価額問題\n  https://techcrunch.com/2026/06/08/zeptos-ipo-filing-reveals-fast-growth-bigger-losses-and-a-valuation-question-nobodys-answered-yet/\n- Appleの「着実なAI戦略」が賢明に見え始めた理由\n  https://techcrunch.com/2026/06/08/why-apples-slow-and-steady-ai-bet-is-starting-to-look-pretty-smart/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Krisp Voice Translation API：リアルタイムの音声間翻訳APIが登場\n  https://www.producthunt.com/products/krisp\n- TravelMind：レビューではなく好みに基づくAI搭載の都市発見ツール\n  https://www.producthunt.com/products/travelmind-city-discovery-reimagined\n- Uiverse Design：AI生成ウェブサイトの品質を向上\n  https://www.producthunt.com/products/uiverse-io\n- hora Calendar：Mac向けに再構築されたGoogleカレンダー\n  https://www.producthunt.com/products/hora-calendar\n- Kimi Work：ナレッジワークのためのAIデスクトップ\n  https://www.producthunt.com/products/kimi-ai-assistant\n- agmsg：AIコーディングエージェント間のコピペ作業をなくす\n  https://www.producthunt.com/products/agmsg\n- prostir zvuku：Mac向け空間自然音ミキサー\n  https://www.producthunt.com/products/prostir-zvuku\n- ZeroGPU：AI推論のためのコンピューティング効率の高いレイヤー\n  https://www.producthunt.com/products/zerogpu\n- VC Boom：デッキを評価し、適切な投資家と出会い、資金調達を成功させる\n  https://www.producthunt.com/products/vcboom\n- Reve 2.0：レイアウトベースのコントロールで4K画像を生成・編集\n  https://www.producthunt.com/products/reve-2-0",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Claude Fable 5 and Claude Mythos 5",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "summary": "難易度の高い知識作業やコーディング問題を解決する次世代AIを発表。",
+      "ogImage": "https://cdn.sanity.io/images/4zrzovbb/website/b7055119423427c40a0e4d84054aed17682b50a2-2880x1620.png",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "3 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Hop Aero、ロケットによる貨物配送で紛争地域にも対応\n  https://hop-aero.com\n- machine0、CLIから利用できる永続的でパワフルなクラウドVMを提供\n  https://machine0.io\n- Ploy、Webサイトを企業の成長エンジンに変革\n  https://ploy.ai",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] FrontierCode: Benchmarking for Code Quality over Slop",
+      "url": "https://www.latent.space/p/ainews-frontiercode-benchmarking",
+      "summary": "Cognitionが、コードが実際にマージ可能かどうかを評価する新しいベンチマーク「FrontierCode」を発表した。",
+      "publishedAt": "2026-06-09",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!3zh0!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHKT9bbsagAAipOJ.jpg"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "70 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-06-10",
+      "docsUpdates": [
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__cost-tracking.md",
+          "text": "Bedrockで1時間のプロンプトキャッシュを有効にするPython SDKのコード例が更新され、完全な非同期実行可能なサンプルコードになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/76294c427e02c40960eb956d2a627c8de091e6a8"
+        },
+        {
+          "tag": "Fixed",
+          "file": "agent-sdk__migration-guide.md",
+          "text": "Python SDKの移行ガイドに、破壊的変更を確認する手順が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/76294c427e02c40960eb956d2a627c8de091e6a8"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__session-storage.md",
+          "text": "インメモリセッションストアのコード例に、2回目のクエリが最初のクエリのファイル要約を基にしていることが明記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/76294c427e02c40960eb956d2a627c8de091e6a8"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__sessions.md",
+          "text": "TypeScript SDKのセッション再開例に、出力が以前の分析に基づいていることを確認する説明が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/76294c427e02c40960eb956d2a627c8de091e6a8"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__streaming-output.md",
+          "text": "ストリーミング出力のメッセージ開始イベントに、最初のトークンまでの時間（ttft_ms）が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/76294c427e02c40960eb956d2a627c8de091e6a8"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__streaming-vs-single-mode.md",
+          "text": "TypeScript SDKとPython SDKで、メッセージジェネレータが例外をスローした場合のストリームの挙動に関する注記が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/76294c427e02c40960eb956d2a627c8de091e6a8"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-teams.md",
+          "text": "チームメイトセッションを終了する際に、名前で参照する例が追加され、チームリーダーがクリーンアップする際の挙動が明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/76294c427e02c40960eb956d2a627c8de091e6a8"
+        },
+        {
+          "tag": "Changed",
+          "file": "auto-mode-config.md",
+          "text": "プロジェクトごとの設定ファイル`.claude/settings.local.json`の用途が「パープロジェクトの信頼済みバケットまたはサービス、gitignored」から「パープロジェクトの信頼済みバケットまたはサービス」に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/76294c427e02c40960eb956d2a627c8de091e6a8"
+        },
+        {
+          "tag": "Improved",
+          "file": "channels-reference.md",
+          "text": "新しいMCPサーバーを使用する際に、Claude Codeが同意を求めるプロンプトを表示し、チャンネルが登録されたことを確認する通知が表示されることが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/76294c427e02c40960eb956d2a627c8de091e6a8"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-platform-on-aws.md",
+          "text": "Claude Platform on AWSのモデルバージョンに関する説明で、デフォルトのエイリアスに`fable`が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/76294c427e02c40960eb956d2a627c8de091e6a8"
+        },
+        {
+          "tag": "Fixed",
+          "file": "errors.md",
+          "text": "エラーメッセージの一覧に「Usage credits required for 1M cont」という新しいエントリが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/76294c427e02c40960eb956d2a627c8de091e6a8"
+        },
+        {
+          "tag": "Improved",
+          "file": "large-codebases.md",
+          "text": "大規模コードベースで除外設定を`settings.local.json`に配置する際の説明が、「自分専用」という文脈でより明確になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/76294c427e02c40960eb956d2a627c8de091e6a8"
+        },
+        {
+          "tag": "Changed",
+          "file": "model-config.md",
+          "text": "サードパーティデプロイメントでのモデルピン留めに関する説明で、利用可能なモデルエイリアスに`fable`が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/76294c427e02c40960eb956d2a627c8de091e6a8"
+        },
+        {
+          "tag": "Improved",
+          "file": "monitoring-usage.md",
+          "text": "すべてのメトリクスが`user.account_uuid`など標準属性でセグメント化できること、`model`属性は`claude_code.token.usage`と`claude_code.cost.usage`のみで利用可能であることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/76294c427e02c40960eb956d2a627c8de091e6a8"
+        },
+        {
+          "tag": "Improved",
+          "file": "permission-modes.md",
+          "text": "保護されたパスへの書き込みに関する`permissions.allow`ルールの挙動と、セッション内で再度プロンプトを表示せずに承認するための選択肢が説明されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/76294c427e02c40960eb956d2a627c8de091e6a8"
+        },
+        {
+          "tag": "Changed",
+          "file": "permissions.md",
+          "text": "権限ルールの評価順序が「deny -> ask -> allow」から「deny、ask、allowの順で評価され、最初に一致したルールが適用される」と明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/76294c427e02c40960eb956d2a627c8de091e6a8"
+        },
+        {
+          "tag": "Added",
+          "file": "prompt-caching.md",
+          "text": "プロンプトキャッシュをFableモデルに対してのみ無効にする`DISABLE_PROMPT_CACHING_FABLE`環境変数が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/76294c427e02c40960eb956d2a627c8de091e6a8"
+        },
+        {
+          "tag": "Added",
+          "file": "remote-control.md",
+          "text": "Remote Controlが接続されている間、入力ボックスの下のフッターにアクティブインジケーターが表示され、セッションURLへのリンクとQRコードを含むステータスパネルを開ける機能が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/76294c427e02c40960eb956d2a627c8de091e6a8"
+        },
+        {
+          "tag": "Improved",
+          "file": "sandboxing.md",
+          "text": "サンドボックス内のコマンドがデフォルトで書き込み可能な場所として、作業ディレクトリに加えてセッション一時ディレクトリが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/76294c427e02c40960eb956d2a627c8de091e6a8"
+        },
+        {
+          "tag": "Improved",
+          "file": "troubleshoot-install.md",
+          "text": "インストールトラブルシューティングで、`ls`コマンドが`No such file or directory`と出力されてもエラーではないという注記が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/76294c427e02c40960eb956d2a627c8de091e6a8"
+        },
+        {
+          "tag": "Improved",
+          "file": "worktrees.md",
+          "text": "エージェントが実行中にワークツリーに`git worktree lock`をかけることで、クリーンアップによる削除を防ぐ仕組みが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/76294c427e02c40960eb956d2a627c8de091e6a8"
+        },
+        {
+          "tag": "Improved",
+          "file": "admin-setup.md",
+          "text": "Claude Codeが設定を探す際の優先順位と動作が明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__permissions.md",
+          "text": "`plan`モードの挙動が変更され、ファイル編集およびシェル書き込みツールが`canUseTool`コールバックにルーティングされるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__python.md",
+          "text": "`PermissionMode`の`plan`が「read-only tools only」から「explore without editing」に説明が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__tool-search.md",
+          "text": "ツール検索のモデルサポートが、Haikuを除くすべてのClaudeモデルで利用可能になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__typescript.md",
+          "text": "`PermissionMode`の`plan`が「read-only tools only」から「explore without editing」に説明が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__typescript.md",
+          "text": "サブエージェントのモデルオプションに`fable`が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Added",
+          "file": "claude-code-on-the-web.md",
+          "text": "Web上のClaude Codeのプロキシとファイアウォール要件に、リクエストされたホスト名のDNSレベル監査証跡が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Added",
+          "file": "communications-kit.md",
+          "text": "最難関かつ長時間のタスク向けに、最も高性能なモデルとしてFable 5が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Changed",
+          "file": "context-window.md",
+          "text": "拡張コンテキストウィンドウのサポートモデルにFable 5が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Changed",
+          "file": "costs.md",
+          "text": "拡張思考に関する記述が、新しいモデルや設定オプションに合わせて更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Improved",
+          "file": "desktop-quickstart.md",
+          "text": "モデル選択に関する説明が、利用可能なすべてのモデルを比較するように変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Changed",
+          "file": "desktop.md",
+          "text": "拡張思考に関する記述が削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Added",
+          "file": "env-vars.md",
+          "text": "`ANTHROPIC_CUSTOM_MODEL_OPTION_DESCRIPTION`環境変数が追加され、カスタムモデルの表示説明を設定できるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Improved",
+          "file": "errors.md",
+          "text": "モデルのパフォーマンス低下に関する説明が改善され、サイレントなモデル変更がないことと、特定の状況でのフォールバックモデルへの切り替えが明記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Changed",
+          "file": "github-actions.md",
+          "text": "Claude Opus 4.8に関する古いお知らせが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Changed",
+          "file": "glossary.md",
+          "text": "Effort levelのサポートモデルにFable 5が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Changed",
+          "file": "headless.md",
+          "text": "ヘッドレスモードでユーザーが呼び出すスキルとカスタムコマンドが動作するよう変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Improved",
+          "file": "hooks-guide.md",
+          "text": "`PreToolUse`のパーミッション決定におけるフックの出力の結合ルールが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Added",
+          "file": "hooks.md",
+          "text": "セッション開始時にフックが`initialUserMessage`、`watchPaths`、`sessionTitle`、`reloadSkills`を受け入れられるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Changed",
+          "file": "how-claude-code-works.md",
+          "text": "`Plan mode`の説明が「Claude uses read-only tools only, creating a plan you can approve before execution」から「Claude explores and proposes a plan without editing your source files; permission prompts still apply as in default mode」に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Changed",
+          "file": "interactive-mode.md",
+          "text": "対話モードでのパーミッションモードのサイクリングの説明が更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Changed",
+          "file": "mcp.md",
+          "text": "ツール検索のモデル要件が簡素化され、Haikuモデルではサポートされていないことが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Added",
+          "file": "model-config.md",
+          "text": "モデル設定のエイリアスに`best`が追加され、最も高性能な利用可能なモデル（現在`opus`に相当）を使用するようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Changed",
+          "file": "monitoring-usage.md",
+          "text": "監視と利用状況のメトリクスとイベントの属性リストが更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Changed",
+          "file": "plugins.md",
+          "text": "プラグインの同名エージェントに対する上書きルールが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Added",
+          "file": "prompt-caching.md",
+          "text": "Fable 5での自動モデルフォールバックがモデル切り替えとして扱われ、新しいキャッシュが開始されることが説明されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Improved",
+          "file": "security.md",
+          "text": "Claude Codeがシステムを変更できるBashコマンドに対して承認を要求する仕組みが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Changed",
+          "file": "settings.md",
+          "text": "`allowManagedHooksOnly`設定の定義が更新され、マネージド設定で強制的に有効化されたフックも含まれるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Added",
+          "file": "sub-agents.md",
+          "text": "組み込みサブエージェントの登録方法と、特定のサブエージェントをブロックするオプションが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Fixed",
+          "file": "troubleshoot-install.md",
+          "text": "Gitのパスが正しいにもかかわらずClaude CodeがGitを見つけられない場合のトラブルシューティング手順が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Changed",
+          "file": "zero-data-retention.md",
+          "text": "ZDRの適用範囲が更新され、データ保持を必要とする一部のモデルがZDR下では利用できないことが明記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/908ae5e4bb9c17609e929cb79a2aa487aafe1617"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__mcp.md",
+          "text": "MCPサーバーへのHTTPトランスポートリンクが修正され、より正確なアンカーが使用されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__permissions.md",
+          "text": "`ask` ルールが権限チェックフローに追加され、`settings.json` の設定に基づいてツール使用の承認コールバックをトリガーするようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Fixed",
+          "file": "agent-sdk__python.md",
+          "text": "`CLAUDE_ENABLE_STREAM_WATCHDOG` の説明が不完全だった点が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Fixed",
+          "file": "agent-sdk__typescript.md",
+          "text": "`CLAUDE_ENABLE_STREAM_WATCHDOG` の説明が不完全だった点が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-teams.md",
+          "text": "`teammateMode` のデフォルト設定である `\"auto\"` の挙動が変更され、iTerm2ターミナルで実行されている場合にも分割ペインモードが使用されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-view.md",
+          "text": "エージェントビューのフィルターに「その他のURL」が追加され、最初のプロンプトにそのURLが含まれるセッションを検索できるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Changed",
+          "file": "authentication.md",
+          "text": "`apiKeyHelper`、`ANTHROPIC_API_KEY`、`ANTHROPIC_AUTH_TOKEN` がターミナルCLIセッションのみに適用され、Claude DesktopおよびリモートセッションではOAuthのみを使用するようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Improved",
+          "file": "auto-mode-config.md",
+          "text": "オートモードの説明が更新され、ルーティン的な権限プロンプトなしでClaude Codeを実行できる点が強調されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Improved",
+          "file": "channels.md",
+          "text": "チャネルサーバーがpermission relay capabilityを宣言することで、離席中に発生した権限プロンプトをリモートで転送できるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-code-on-the-web.md",
+          "text": "リモートコントロールが利用できない場合のメッセージが「cloud sessions」という用語に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Changed",
+          "file": "costs.md",
+          "text": "拡張思考機能がデフォルトで有効になっている理由と、パフォーマンス向上への貢献について説明が明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Improved",
+          "file": "debug-your-config.md",
+          "text": "クリーンな設定でテストを開始するために、`claude --safe-mode` コマンドを使用する方法が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Changed",
+          "file": "desktop-quickstart.md",
+          "text": "デスクトップ版のクイックスタートガイドで「Remote」という用語が「Cloud」に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Changed",
+          "file": "desktop.md",
+          "text": "デスクトップ環境設定のプロジェクトフォルダの説明で「remote sessions」という用語が「cloud sessions」に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Improved",
+          "file": "discover-plugins.md",
+          "text": "Discoverタブでの関連プラグインの表示に関する説明が更新され、管理者が `pluginSuggestionMarketplaces` 設定を介してマーケットプレイスを許可リストに登録した場合に機能するようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Added",
+          "file": "errors.md",
+          "text": "エラーメッセージのリストに `Your organization has disabled API` が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Changed",
+          "file": "github-enterprise-server.md",
+          "text": "GitHub Enterprise Serverに関するドキュメントで「remote session」という用語が「cloud session」に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Fixed",
+          "file": "gitlab-ci-cd.md",
+          "text": "GitLab CI/CDのドキュメントで、Amazon BedrockおよびGoogle Vertex AIに関するセクションへのリンクが修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Changed",
+          "file": "glossary.md",
+          "text": "オートモードの定義が更新され、ほとんどの操作が承認プロンプトなしで実行されるようになったが、明示的なaskルールは引き続きプロンプトを表示する点が明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Improved",
+          "file": "headless.md",
+          "text": "ヘッドレスモードでのバックグラウンドBashタスクの終了挙動が、Claudeが最終結果を返した後にタスクが終了するよう変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Improved",
+          "file": "hooks.md",
+          "text": "Bashフックパターンとコマンドのマッチングにおいて、先頭の `VAR=value` 割り当てがマッチング前に削除されることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Changed",
+          "file": "keybindings.md",
+          "text": "タスクをバックグラウンドに送るためのキーバインディング `task:background` に `Ctrl+X Ctrl+B` コードが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Fixed",
+          "file": "memory.md",
+          "text": "`/memory` コマンドでメモリファイルを表示・編集するためのアンカーリンクが修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Changed",
+          "file": "model-config.md",
+          "text": "`availableModels` 設定が適用される際に、リスト外のフォールバックモデルチェーンの要素が削除されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Added",
+          "file": "monitoring-usage.md",
+          "text": "Plugin inventory eventに `safe_mode` フィールドが追加され、セッションが `--safe-mode` で開始されたかどうかが報告されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Changed",
+          "file": "permission-modes.md",
+          "text": "`bypassPermissions` モードの挙動が変更され、このモードでも拒否ルールと明示的なaskルールが適用されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Changed",
+          "file": "permissions.md",
+          "text": "`bypassPermissions` モードの説明が更新され、このモードでもルートおよびホームディレクトリの削除に対する回路ブレーカープロンプトが引き続き表示される点が削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Changed",
+          "file": "plugin-hints.md",
+          "text": "プラグイン推奨プロンプトのヘッダーが「Plugin Recommendation」から「Plugin recommendation」に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Fixed",
+          "file": "plugin-marketplaces.md",
+          "text": "マーケットプレイスの予約名に関する注記が不完全だった点が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Added",
+          "file": "plugins-reference.md",
+          "text": "プラグインのルートに `SKILL.md` ファイルを直接配置することで、単一スキルとしてロードできるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Added",
+          "file": "plugins.md",
+          "text": "単一のスキルを持つプラグインは、`SKILL.md` をプラグインのルートに直接配置することで読み込まれるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Fixed",
+          "file": "prompt-caching.md",
+          "text": "プラグインの変更適用に関する説明が修正され、`/plugin install`、`/plugin enable`、`/plugin disable` を実行した時ではなく、リロード後の最初のターンでコストが発生する点が明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Changed",
+          "file": "remote-control.md",
+          "text": "UltraplanがRemote Controlを切断する挙動の説明から、「一部のコマンドはローカルのみ」という記述が削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Changed",
+          "file": "sandbox-environments.md",
+          "text": "`--dangerously-skip-permissions` が明示的なaskルールを除くパーアクションレビューを削除する点が明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Changed",
+          "file": "sandboxing.md",
+          "text": "サンドボックス化されたコマンドに対して、コンテキストスコープのaskルール `Bash(git push *)` が引き続きプロンプトを強制するよう変更され、裸の `Bash` askルールまたは `Bash(*)` 形式はスキップされるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Changed",
+          "file": "security.md",
+          "text": "`--worktree` を組み合わせた `-p` フラグでの非対話型実行時でも信頼確認が必要であるという注意書きが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Added",
+          "file": "server-managed-settings.md",
+          "text": "サーバー管理設定における無効なエントリの処理に関するセクションが追加され、スキーマ検証に失敗したエントリは削除されることなどが説明されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Improved",
+          "file": "sessions.md",
+          "text": "セッションピッカーの挙動が更新され、v2.1.169以降では `/cd` でセッションを移動すると、新しいディレクトリのプロジェクトディレクトリにセッションが再配置されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Changed",
+          "file": "skills.md",
+          "text": "バンドルされたスキルが、`disableBundledSkills` 設定で無効にできるようになった点が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Changed",
+          "file": "sub-agents.md",
+          "text": "サブエージェントの `bypassPermissions` モードの説明が変更され、ルートおよびホームディレクトリの削除に対する回路ブレーカープロンプトが引き続き表示される点が削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Added",
+          "file": "troubleshooting.md",
+          "text": "トラブルシューティングのヒントに、プラグイン、MCPサーバー、またはフックが問題の原因であるかどうかを確認するために `claude --safe-mode` で再起動する手順が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Changed",
+          "file": "ultraplan.md",
+          "text": "Ultraplanのドキュメントで「cloud session」という用語が統一的に使用されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Fixed",
+          "file": "ultrareview.md",
+          "text": "Ultrareviewの無料試用版に関する説明が修正され、実行はリモートセッションが開始された時点でカウントされる点が明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Changed",
+          "file": "vs-code.md",
+          "text": "VS Code統合のドキュメントで「Remote sessions」という用語が「Cloud sessions」に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Changed",
+          "file": "worktrees.md",
+          "text": "`--worktree` を対話的に使用する際のワークスペース信頼ダイアログの挙動が、一度 `claude` を実行して信頼を受け入れる必要があると変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Changed",
+          "file": "zero-data-retention.md",
+          "text": "Zero Data Retentionが有効な場合の機能制限リストから、デスクトップからの「Remote sessions」が削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e53ba7d03d81364a3e2611854120472f748fe87f"
+        },
+        {
+          "tag": "Improved",
+          "file": "agents.md",
+          "text": "エージェントの種類（Subagents、agent view、agent teams、dynamic workflows）がそれぞれ異なる方法で作業を並列化すると説明が明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e5ce6a769adadede5b13cdae17680a8e91f84f3e"
+        },
+        {
+          "tag": "Changed",
+          "file": "workflows.md",
+          "text": "Dynamic workflowsの記述から「research preview」の文言が削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e5ce6a769adadede5b13cdae17680a8e91f84f3e"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "Claude Codeのドキュメントリポジトリのコミットdiffを読み、読者が「何が変わったか」を素早く把握できる構造化リストがchangelog.mdファイルに追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/77c1298489dcb7c1a7469400ed03ed443c56c7d5"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "2 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- GitHub Copilot向け「Claude Fable 5」が一般提供開始\n  https://github.blog/changelog/2026-06-09-claude-fable-5-is-generally-available-for-github-copilot\n- サードパーティ製コーディングエージェントのセキュリティ検証とは\n  https://github.blog/changelog/2026-06-09-security-validation-for-third-party-coding-agents",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-06-10"
+    }
+  ]
+}
