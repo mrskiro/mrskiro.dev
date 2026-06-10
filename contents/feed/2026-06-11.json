@@ -1,0 +1,199 @@
+{
+  "fetchedAt": "2026-06-10T22:44:41.329Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "How an astrophysicist uses Codex to help simulate black holes",
+      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "summary": "Codexを使ってブラックホールシミュレーションを構築し、アインシュタインの一般相対性理論を検証する研究が進行中。",
+      "publishedAt": "2026-06-11",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/2werzLSxuGbJH8PlE7OUjI/e2b93554902c5d96ef2550b4fd3579d6/Frame__5_.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
+      "url": "https://openai.com/index/openai-on-oracle-cloud",
+      "summary": "Oracle CloudからOpenAIモデルとCodexが利用可能になり、既存契約でエンタープライズ向けAI開発・デプロイが可能に。",
+      "publishedAt": "2026-06-11",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/5YxRwes6xIOtUirJPj9Tqq/2897a1a8061bf93e016c0c12385b3f55/OAI_Oracle_Partnership_16x9_Art_Card.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "PRC-linked influence operations are targeting AI debates in the US",
+      "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+      "summary": "OpenAIが、中国のAIを活用した偽情報活動が米国のテクノロジー関連議論を標的としていることを報告。",
+      "publishedAt": "2026-06-10",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/2QCspAgfjkdGeWDut7k5MN/030874503264f486120aaa1b1e623b3e/Threat-Intelligence-Repart-SEO.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "From data to decisions: how LSEG is scaling trusted AI",
+      "url": "https://openai.com/index/lseg",
+      "summary": "LSEGがOpenAIを活用し、AIで業務効率化・加速、4000人の従業員を強化。",
+      "publishedAt": "2026-06-10",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/2uwYKnB7Eqqm2quyXgRaVR/032ee88f3f3c95b5502cbf42e1d2c600/oai_LSEG_SEO.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.172",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+      "summary": "- [Added] サブエージェントが独自のサブエージェントを生成できるようになりました（最大5レベルまで）。\n- [Improved] Amazon Bedrockは、AWS_REGIONが設定されていない場合、AWS SDKの優先順位に合わせて~/.aws configファイルからAWSリージョンを読み取るようになりました。/statusでリージョンのソースが表示されます。\n- [Added] /pluginでマーケットプレイスのプラグインを閲覧する際に検索バーを追加しました。\n- [Added] claude_code.lines_of_code.count OTELメトリックにモデル属性を追加しました。\n- [Fixed] 使用クレジットなしで1Mコンテキストを使用しているセッションが永続的にスタックする問題を修正しました。セッションは標準コンテキスト制限内に自動的に圧縮されるようになりました。\n- [Fixed] 会話に複数の画像が含まれている場合に「会話内の画像を処理できず削除されました」というエラーが繰り返される問題を修正しました。\n- [Fixed] エージェントビューで、ワーカーが応答した後も「作業中」のスピナーが最大30秒間表示され続ける問題を修正しました。\n- [Fixed] バックグラウンドエージェントが、事前ウォームアップされたワーカーにディスパッチされた際に、別のディレクトリのプロジェクト設定（.mcp.jsonの承認、信頼）を読み取る可能性があった問題を修正しました。\n- [Fixed] デーモンが自動更新された後、以前のバージョンで開始されたセッションに対するbackground-session attachがEAUTHで失敗する問題を修正しました。\n- [Fixed] ネストされたエージェントが停止した後、バックグラウンドのサブエージェントがエージェントパネルで「アクティブ」のままスタックする問題を修正しました。\n- [Fixed] claude agentsディスパッチ入力の/modelサジェストが誤解を招くスラッシュプレフィックスでレンダリングされ、組織で無効になっているモデルが表示される問題を修正しました。\n- [Fixed] availableModelsの制限が、サブエージェントのモデルオーバーライド、エージェントディスパッチモデルピッカー、およびアドバイザーモデルに適用されない問題を修正しました。\n- [Fixed] availableModelsの許可リストが、エントリがclaude-opus-4-8のようなバージョン固有のIDを使用している場合に、/modelピッカーのOpusおよびSonnet 1M行を非表示にする問題を修正しました。\n- [Fixed] Bedrock上の/modelピッカーが、プロバイダーが提供しないモデルを提供し、いずれかを選択するとサイレントにセッションモデルが切り替わり、複数の行で選択マーカーが点灯する問題を修正しました。\n- [Fixed] ANTHROPIC_DEFAULT_OPUS_MODELに既に1Mコンテキストサフィックスが含まれている場合、モデルIDに二重の1Mコンテキストサフィックス（例: [1M][1m]）が付与される問題を修正しました。\n- [Fixed] opusplanモデル設定が、権限を持つユーザーに対してプランモードで1Mコンテキストを同梱しない問題を修正しました。opusplan[1m]の回避策もプランモードでOpusに正しく切り替わるようになりました。\n- [Fixed] WebFetch(domain:*.example.com)のワイルドカードドメインルールが、許可、拒否、および質問の位置でサブドメインに一致しない問題、およびパターン中間ワイルドカード（例: Read(secrets-*/config.json)）を持つファイル権限ルールが起動時に拒否される問題を修正しました。\n- [Fixed] サブエージェントのチャットタブが開いている間、上矢印のプロンプト履歴にメインエージェントのプロンプトが表示される問題を修正しました。\n- [Fixed] リモートセッションでマウントされたチームメモリストア（CLAUDE_MEMORY_STORES）がメモリリコールで見つからない問題を修正しました。\n- [Fixed] プロンプト文字列やコメントがDate.now()/Math.random()に言及しているだけのスクリプトをワークフロー検証が拒否する問題を修正しました。\n- [Changed] 完全にサポートされていないWindowsコンソールでのマウス追跡を無効にしました。\n- [Fixed] /pluginマーケットプレイスリストが長いプラグインリストから戻った後にカーソルを失う問題、およびプラグインブラウザからEscキーで誤ったタブに戻る問題を修正しました。\n- [Improved] 冗長なメッセージ正規化を削除し、ツール使用ステータスのストリーミングが変更されていない場合に完全なメッセージ履歴変換を回避することで、長い会話のパフォーマンスを向上させました。\n- [Improved] アイドル時のCPU使用率を削減しました。/goal statusチップがアイドル時に5Hzでターミナルを再レンダリングしなくなり、サブエージェントが並行して実行されている間のUI再レンダリングが減少しました。\n- [Improved] ChromeツールにおけるClaudeのロードを改善しました。ブラウザツールがツールごとに1回ではなく、単一のバッチ呼び出しでロードされるようになりました。\n- [Improved] 非対話型利用ポリシー拒否メッセージを改善し、新しいセッションを開始するかモデルを変更することを提案するようになりました。\n- [Improved] claude.aiにサインインしていない場合でも、/code-reviewがultraオプションを表示し続けるようにし、クラウドレビューにはclaude.aiアカウントが必要であるという説明を追加しました。\n- [Changed] リモートコントロールのフッターインジケーターを「/rc active」に短縮し、狭いターミナルでは非表示にしました。\n- [Changed] 保留中のループがコンテナを稼働させないリモートセッションで/loopのプロモーションを停止しました。\n- [Fixed] [VSCode] PowerShellツール呼び出しが適切なコマンド表示とパーミッションダイアログではなく生のJSONとしてレンダリングされる問題、および表示されるシェル出力からANSIエスケープコードを削除しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-06-11"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- Macアプリコミュニティの品質と現状をチェック\n  https://www.reddit.com/r/macapps/comments/1tztc04/rmacapps_community_quality_status_check/\n- 【大規模議論】アプリの山 - 2026年6月\n  https://www.reddit.com/r/macapps/comments/1ttp8mu/megathread_the_app_pile_june_2026/\n- macOS 27 Golden Gate、Macアプリの黄金時代を終わらせるか\n  https://www.reddit.com/r/macapps/comments/1u1suna/macos_27_golden_gate_may_become_the_end_of_the/\n- 言語学習中、同じ単語を何度も調べてしまう人いますか？\n  https://www.reddit.com/r/macapps/comments/1u2c8ol/does_anyone_else_keep_looking_up_the_same_words/\n- 【完全無料ベータ版】オートコンプリート＋音声入力のオフライン処理\n  https://www.reddit.com/r/macapps/comments/1u2erg2/free_forever_beta_version_autocomplete_voice_to/\n- MaskPaste – 機密情報をAIに貼り付ける前にマスク、ワンクリックで元に戻す\n  https://www.reddit.com/r/macapps/comments/1u21q9l/maskpaste_mask_sensitive_text_before_pasting_into/\n- AskMeety - 会議コンパニオンV1.2アップデート：カレンダー同期、コレクション、メニューバーアプリ、引き続き100%ローカルで動作\n  https://www.reddit.com/r/macapps/comments/1u2ba1m/askmeety_meeting_companionv12_update_calendar/\n- macOS Golden Gate対応の財務ソフトウェア\n  https://www.reddit.com/r/macapps/comments/1u28clj/financial_software_for_macos_golden_gate/\n- アプリを購入したが、ライセンス認証が届かない\n  https://www.reddit.com/r/macapps/comments/1u2ckpq/acquistata_app_ma_non_ricevuto_licenza_di/\n- 「App Storeに毎時1,000件以上の提出」\n  https://www.reddit.com/r/macapps/comments/1u1pez6/well_over_1000_submissions_to_the_app_store_every/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-11"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI、進行中のメガスレッド一覧を公開\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Apple開発者向け新機能：ClaudeがFoundation Modelをサポート\n  https://www.reddit.com/r/ClaudeAI/comments/1u29efu/new_for_apple_developers_foundation_models/\n- Microsoft、従業員のClaude Fable 5利用を制限\n  https://www.reddit.com/r/ClaudeAI/comments/1u2ak40/microsoft_is_restricting_employees_from_using/\n- 明らかなことを指摘します\n  https://www.reddit.com/r/ClaudeAI/comments/1u24yhn/just_pointing_out_the_obvious/\n- Claude Codeのアクティブ攻撃は止まらない。6,943台から294,842件の機密情報が盗まれた。攻撃は進化し、Python経由でも拡散、Claude Code自体を悪用して機密情報を盗む。あなたの認証情報へのリスクはさらに増大した。\n  https://www.reddit.com/r/ClaudeAI/comments/1u1zv25/the_claude_code_active_attack_didnt_stop_294842/\n- Fableを使って半年で妻をゲットする（なんでも聞いて）\n  https://www.reddit.com/r/ClaudeAI/comments/1u1us8y/using_fable_to_get_me_a_wife_in_6_months_ama/\n- Claude Fableのせいで、私のサブスクリプションが存続の危機に瀕している\n  https://www.reddit.com/r/ClaudeAI/comments/1u2azei/with_claude_fable_my_subscription_is_now_fighting/\n- ClaudeをProject Hail Maryのロッキーのように話させる。ずっと。もう宇宙の友人と話せる。\n  https://www.reddit.com/r/ClaudeAI/comments/1u2bogf/i_make_claude_talk_like_rocky_from_project_hail/\n- つまり、これは冗談ですか？\n  https://www.reddit.com/r/ClaudeAI/comments/1u1zc62/i_mean_is_it_a_joke/\n- 不満を言っている人たちは皆、馬鹿げていて理不尽だと思う\n  https://www.reddit.com/r/ClaudeAI/comments/1u2fxzv/i_think_all_you_complainers_are_being_ridiculous/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-11"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [2542pt] Claude Fable 5の登場：驚異的な性能を持つ新モデル | Fable 5の性能とフロントエンドデザインが高く評価される一方、利用料金と開発制限に関する懸念の声も。\n  https://news.ycombinator.com/item?id=48463808\n- [1181pt] macOSコンテナマシン：軽量なLinux環境と永続性をサポート | macOSでのLinux環境やBSDの利用を好む開発者に注目されており、OrbStackとの比較も。\n  https://news.ycombinator.com/item?id=48469658\n- [995pt] Claude Fableがこっそりあなたの作業を妨げていても、あなたは気づかない | AnthropicがAI研究者を妨害し、密かにアカウントを弱体化させていると批判的な意見が多数。\n  https://news.ycombinator.com/item?id=48467896\n- [955pt] ドイツの判決：AI概要の誤った回答についてGoogleに責任を認める | GoogleがAI概要の誤情報に対して責任を負うべきだという判決に対し、賛成と議論の声が上がっている。\n  https://news.ycombinator.com/item?id=48470248\n- [938pt] HTMLファーストサイトの構築でユーザー数が一夜にして倍増 | HTMX+Go+SQLite構成での開発効率と成功事例が紹介され、技術選択の重要性が議論されている。\n  https://news.ycombinator.com/item?id=48475483\n- [916pt] 1993年のようなグラフィック制作：レトロな魅力を再現 | DoomやWolfenstein 3Dにインスパイアされた、90年代のグラフィック制作手法が興味を引いている。\n  https://news.ycombinator.com/item?id=48459294\n- [808pt] AIが従業員を代替すると考えるCEOは、ただのダメなCEOである | AIによる従業員代替への懐疑的な意見が多く、AIを新しいアウトソーシングと捉える見方も。\n  https://news.ycombinator.com/item?id=48465675\n- [568pt] FCCが匿名電話の廃止を計画：顧客の身元確認を義務化へ | 匿名電話の廃止案に対し、プライバシー侵害や既存のID管理への不信感から懸念の声が多数。\n  https://news.ycombinator.com/item?id=48462308\n- [551pt] Microsoftのオープンソースツールがハッキングされ、AI開発者のパスワードが盗まれる | オープンソースの脆弱性とMicrosoftのセキュリティ体制に対し、批判や懸念が表明されている。\n  https://news.ycombinator.com/item?id=48457830\n- [491pt] メルセデス・ベンツ、電動アキシャル・フラックス・モーターの本格生産を開始 | アキシャル・フラックス・モーターの技術革新と実用化への期待が高まる一方、その説明不足への不満も。\n  https://news.ycombinator.com/item?id=48472877",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-06-11"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "12 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- xAI、Grokの安全性懸念を指摘したエンジニアを解雇か：新たな訴訟が示唆\n  https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/\n- アンドリュー・ヤン氏がワシントンを待たずに事業を立ち上げる理由\n  https://techcrunch.com/video/why-andrew-yang-is-building-instead-of-waiting-for-washington/\n- 債券発行直後のAmazon、AI投資継続のため銀行から175億ドルを借入\n  https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/\n- 「AI漬け」企業、従業員1人あたり月7500ドルをAIに投資\n  https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/\n- 記憶ツールがAIモデルを劣化させる仕組み\n  https://techcrunch.com/2026/06/10/how-memory-tools-can-make-ai-models-worse/\n- Zest、実際の食体験に基づくレストラン検索アプリをリリース\n  https://techcrunch.com/2026/06/10/zest-launches-a-restaurant-discovery-app-powered-by-where-people-actually-eat/\n- サイバーセキュリティ研究者、Anthropic「Fable」のガードレールに不満\n  https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/\n- VivaTech 2026でエンタープライズAIが主要テーマとなる理由\n  https://techcrunch.com/2026/06/10/why-enterprise-ai-will-be-a-major-focus-at-vivatech-2026/\n- DatadogのベテランがAIコーディングスタートアップNiteshiftを設立、Big AIの囲い込みに対抗\n  https://techcrunch.com/2026/06/10/datadog-veterans-launch-ai-coding-startup-niteshift-on-a-bet-against-big-ai-lock-in/\n- SpaceXの驚異的なIPOを後押しする3つのハードテック・ムーンショット\n  https://techcrunch.com/2026/06/10/the-three-hard-tech-moonshots-fueling-spacexs-unbelievable-ipo/\n- Warner Music、AI帰属特定スタートアップSureel AIを買収\n  https://techcrunch.com/2026/06/10/warner-music-acquires-ai-attribution-startup-sureel-ai/\n- Jedifyが2400万ドルを調達、AIエージェントに企業コンテキストを付与へ\n  https://techcrunch.com/2026/06/10/jedify-raises-24m-to-help-companies-arm-ai-agents-with-context-on-their-business/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-06-11"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "Initial impressions of Claude Fable 5",
+      "url": "https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-entries",
+      "summary": "Anthropicがリリースした新しいLLM「Claude Fable 5」は、安全対策を強化しつつもClaude Mythos 5と同等の性能を持つとされ、特に知識量やコード生成能力が大幅に向上している。",
+      "publishedAt": "2026-06-10",
+      "ogImage": "https://static.simonwillison.net/static/2026/fable-max.jpg"
+    },
+    {
+      "sourceName": "mtx2s",
+      "title": "AIの成果物品質をAI任せにも人間頼みにもしない。自動化>AI>人間の優先順で責務分割する",
+      "url": "https://mtx2s.hatenablog.com/entry/2026/06/10/211644",
+      "summary": "AIによるソフトウェア開発が加速する中、人間は成果物レビューの負担増と生産性低下に直面しており、本稿ではAIと自動化を組み合わせた効率的なレビューの仕組みを提案する。",
+      "publishedAt": "2026-06-10",
+      "ogImage": "https://cdn.image.st-hatena.com/image/scale/6dbd48fea3d4dccf91b4743d6b1528a97e8760ea/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fm%2Fmtx2s%2F20260609%2F20260609202009.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- FluidDocs Deck Builder — プロンプトから本格的なHTMLデッキを作成\n  https://www.producthunt.com/products/fluiddocs-html-deck-builder\n- Zingle — AIで文脈から単語を学習\n  https://www.producthunt.com/products/zingle-2\n- veridive — チャットで動画の重要な30秒を発見\n  https://www.producthunt.com/products/veridive-discover-the-spoken-web\n- BlenderHunt — Blenderアーティストとクリエイターのためのインディーズマーケットプレイス\n  https://www.producthunt.com/products/blenderhunt\n- Gemini 3.5 Live Translate — ライブスピーチ翻訳向け最新オーディオモデル\n  https://www.producthunt.com/products/gemini-3-5-live-translate\n- AGNT.Hub — サーバー管理不要で常時稼働のAIエージェントを構築\n  https://www.producthunt.com/products/agnt-hub\n- Napkin Math — パーソナライズAI食事ジャーナル＋栄養コーチ\n  https://www.producthunt.com/products/napkin-math\n- Hero Studio Photos — 1枚の写真からあらゆる角度の出品準備完了ショットを作成\n  https://www.producthunt.com/products/hero-9\n- iArt.ai — アイデアやデザインを魅力的な動画・アニメーションに変換\n  https://www.producthunt.com/products/iart-ai\n- TypingMind — 従量課金、サブスク不要、18のモデルプロバイダーに対応\n  https://www.producthunt.com/products/typing-mind",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-06-11"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Anthropic Claude Fable 5 — Mythos but Safe, with Controversial Terms",
+      "url": "https://www.latent.space/p/ainews-anthropic-claude-fable-5-mythos",
+      "summary": "Anthropicが、最新の大規模言語モデル「Claude Fable 5」を一般公開したが、一部の機密性の高いタスクでは性能が制限され、オープンソースコミュニティから批判を浴びている。",
+      "publishedAt": "2026-06-10",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!TXW4!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7af8f73c-7a20-4f7e-ac83-a05cbc892d8b_2318x1684.png"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "10 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-06-11",
+      "docsUpdates": [
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "Claude Codeのドキュメントが更新され、changelog.mdファイルに2026年6月10日付の変更履歴が追加されました。}]```",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/4b80f29cd2de085cdec8c6977f78fd3dc3a76324"
+        },
+        {
+          "tag": "Changed",
+          "file": "plugins.md",
+          "text": "claude.aiのプラグイン申請フォームのURLが変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/11541bdedb7761018cdc2a05e5b58fcf46ad6c68"
+        },
+        {
+          "tag": "Added",
+          "file": "plugins.md",
+          "text": "claude.aiフォームではTeamまたはEnterprise組織とディレクトリ管理アクセスが必要になり、個人ユーザーは代わりにConsoleフォームを使用できる旨が追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/11541bdedb7761018cdc2a05e5b58fcf46ad6c68"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "Claude Codeのドキュメントに2026年6月10日のアップデートが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/12a69a7f166dc49a8a6a306bae0943976b525ba4"
+        },
+        {
+          "tag": "Added",
+          "file": "advisor.md",
+          "text": "アドバイザーツールが追加され、Claudeがタスク中に主要な局面で2番目のモデルと連携して、困難な決定をエスカレートできるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/8e3a5b053eb49a421631ae9df71dddedb5ca2f30"
+        },
+        {
+          "tag": "Improved",
+          "file": "desktop.md",
+          "text": "クラウドセッションが「Accept edits」モード、 「Plan」モード、および「Auto」モードをサポートするようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/8e3a5b053eb49a421631ae9df71dddedb5ca2f30"
+        },
+        {
+          "tag": "Improved",
+          "file": "llm-gateway.md",
+          "text": "LLMゲートウェイの設定に関する情報が更新され、CLI、Enterprise Desktop、およびClaude DesktopアプリでのCowork on 3P研究プレビューでの設定方法が詳細化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/8e3a5b053eb49a421631ae9df71dddedb5ca2f30"
+        },
+        {
+          "tag": "Improved",
+          "file": "mcp.md",
+          "text": "MCPツール検索に関する説明が更新され、Claude Codeがサーバごとの固定ツール上限を課さず、コンテキストウィンドウの予算が実用的な上限であることを明確にしました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/8e3a5b053eb49a421631ae9df71dddedb5ca2f30"
+        },
+        {
+          "tag": "Improved",
+          "file": "model-config.md",
+          "text": "プランモードのOpusフェーズが標準の200Kコンテキストウィンドウで実行されること、およびアドバイザーツールに関する参照が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/8e3a5b053eb49a421631ae9df71dddedb5ca2f30"
+        },
+        {
+          "tag": "Improved",
+          "file": "permission-modes.md",
+          "text": "ウェブおよびモバイルでのパーミッションモードに関する記述が更新され、クラウドセッションが「Accept edits」モード、「Plan」モード、および「Auto」モードをサポートすることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/8e3a5b053eb49a421631ae9df71dddedb5ca2f30"
+        },
+        {
+          "tag": "Improved",
+          "file": "prompt-caching.md",
+          "text": "プロンプトキャッシュの無効化に関する記述が更新され、アドバイザーツールの切り替えがキャッシュされたプレフィックスを維持する例外であることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/8e3a5b053eb49a421631ae9df71dddedb5ca2f30"
+        },
+        {
+          "tag": "Improved",
+          "file": "tools-reference.md",
+          "text": "アドバイザーツールはAPIが実行するサーバーツールであり、パーミッションルールやフックマッチングで参照できる名前がないことが追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/8e3a5b053eb49a421631ae9df71dddedb5ca2f30"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "2 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- Copilot Chat、エージェントセッションの表示に対応\n  https://github.blog/changelog/2026-06-10-copilot-chat-now-sees-your-agent-sessions\n- Copilot CLI、セキュリティレビュー専用コマンドをリリース\n  https://github.blog/changelog/2026-06-10-dedicated-security-review-command-now-available-in-copilot-cli",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-06-11"
+    }
+  ]
+}
