@@ -1,0 +1,229 @@
+{
+  "fetchedAt": "2026-06-11T22:44:12.422Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "OpenAI to acquire Ona",
+      "url": "https://openai.com/index/openai-to-acquire-ona",
+      "summary": "OpenAIがOnaを買収し、企業向けワークフローでAIエージェントを長期実行可能なクラウド環境をCodexに統合予定。",
+      "publishedAt": "2026-06-11",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/3vpY0M1x6mrbhiFVcfTF4Y/99dae42f0ed1030d045f56249385ac3a/OAI-Ona-SEO.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem ",
+      "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "summary": "OpenAIは、AI生成コンテンツの透明性向上を目指し、EUのAI行動規範を支持し、出所表示の標準化・ツール開発を進める。",
+      "publishedAt": "2026-06-11",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/2nHP3xnASZcBNZlIiE1QsM/c7de0b335c1c6a7c5c6bad6813fcf355/Frame.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "How an astrophysicist uses Codex to help simulate black holes",
+      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "summary": "天体物理学者がCodexを使ってブラックホールシミュレーションを構築し、極限物理学や一般相対性理論の検証に活用している。",
+      "publishedAt": "2026-06-11",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/2werzLSxuGbJH8PlE7OUjI/e2b93554902c5d96ef2550b4fd3579d6/Frame__5_.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "BBVA puts AI at the core of banking with OpenAI",
+      "url": "https://openai.com/index/bbva",
+      "summary": "BBVAがChatGPT Enterpriseを全従業員に展開し、AIによる銀行変革を推進。",
+      "publishedAt": "2026-06-11",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/6aZ6IYFFucrCH6XAzgfWch/598c66ed8e8c99885ea6cf34c27f2258/oai_BBVA_SEO.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.173",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.173",
+      "summary": "- [Fixed] Fable 5モデル名に付加される\"[1m]\"サフィックスが正規化されない問題を修正しました。Fable 5では1Mコンテキストがデフォルトで含まれるため、このサフィックスは自動的に削除されます。\n- [Fixed] Windowsでサンドボックスが設定で有効になっている場合に発生していた、誤った「サンドボックスの依存関係が見つかりません」という起動時の警告を修正しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-06-11"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-12"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-12"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1247pt] macOS向けコンテナマシンが登場 | OCIコンテナだけでなく、永続性やファイルシステムマウントに対応し、軽量なLinux環境として期待されている。OrbStackとの比較に関心も。\n  https://news.ycombinator.com/item?id=48469658\n- [1229pt] HTMLファーストサイトの構築でユーザー数が倍増 | HTMX+Go+SQLiteの構成が多くのプロジェクトで十分との声。シンプルなサイトの有効性を評価する一方、SPAとの比較に関する議論も。\n  https://news.ycombinator.com/item?id=48475483\n- [1001pt] ドイツの判決：GoogleはAI概要の誤った回答について責任を負う | Googleの責任を認める判決に好意的な意見が多い。AI生成情報の責任問題や、欧州の規制が先行する傾向について議論されている。\n  https://news.ycombinator.com/item?id=48470248\n- [932pt] πFS（パイFS）の紹介 | バベルの図書館やNSA Filesystemなど、関連するアイデアや過去の議論を思い出すコメントが多い。データ長が増すと効率が低下する点も指摘されている。\n  https://news.ycombinator.com/item?id=48480978\n- [856pt] Homebrew 6.0.0 リリース | 長年のメンテナーへの感謝や、mise.jdx.devやNixからの乗り換えに関するコメントがある。Homebrewがボランティアによって運営されていることへの言及も。\n  https://news.ycombinator.com/item?id=48490024\n- [768pt] エリック・リース氏（「リーン・スタートアップ」著者）のAMA | 著書への感謝や、企業の腐敗に対する懸念、コスコのような企業構造に関するコメントが寄せられている。新著「Incorruptible」への関心も高い。\n  https://news.ycombinator.com/item?id=48477135\n- [674pt] ポケモンGOのスキャンデータが軍事ドローンのナビゲーション技術を訓練 | ヘッドラインが大げさだという指摘や、ストリートマッピング改善への提案がある。デジタル社会におけるデータ利用の倫理を問う声も。\n  https://news.ycombinator.com/item?id=48487029\n- [579pt] AnthropicのFableにおけるガードレール設定にサイバーセキュリティ研究者が不満 | LLMスキャナーを停止させる目的でマルウェアにプロンプトを追加する可能性が指摘されている。意図的に劣悪なモデルを使用する仕組みへの批判も多い。\n  https://news.ycombinator.com/item?id=48478969\n- [537pt] メルセデス・ベンツ、電動アキシャルフラックスモーターの量産を開始 | メルセデスが買収したYasa社の技術であることや、アキシャルフラックスモーターの仕組みや利点について解説を求める声が多い。\n  https://news.ycombinator.com/item?id=48472877\n- [536pt] AIエージェントがFedoraなどで暴走 | タイトルが不適切との指摘があり、Xz攻撃のように信頼を得てから不正を行う実験の可能性が議論されている。LLM生成の正当化でメンテナーが圧倒された事例に懸念も。\n  https://news.ycombinator.com/item?id=48484584",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-06-12"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "10 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- SpaceX、史上最大のIPOで株価を135ドルに設定\n  https://techcrunch.com/2026/06/11/spacex-officially-prices-shares-at-135-in-the-largest-ipo-ever/\n- SpaceX SPV投資家、IPO後のロックアップ解除まで実際の保有株式数は不明\n  https://techcrunch.com/2026/06/11/spacex-spv-investors-wont-know-their-true-holdings-until-post-ipo-lock-ups-lift/\n- Blueskyがグループチャット機能をローンチ、コミュニティ機能に注力へ\n  https://techcrunch.com/2026/06/11/bluesky-launches-group-chats-as-company-shifts-focus-to-community-features/\n- Quantum Spaceの軍事SPAC、SpaceXのIPOに続くか\n  https://techcrunch.com/2026/06/11/quantum-spaces-military-spac-is-trying-to-catch-spacexs-ipo-wave/\n- Deezer、SpotifyやApple MusicなどのAI生成楽曲を識別する新ツールを発表\n  https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/\n- Poolの新アプリ、スクリーンショットを便利な情報に変換\n  https://techcrunch.com/2026/06/11/pools-new-app-turns-your-screenshots-into-a-searchable-memory-bank/\n- る\n  https://techcrunch.com/2026/06/11/microsoft-taps-alt-carbon-in-sign-of-indias-growing-rile-in-carbon-removal/\n- MicrosoftがAlt Carbonと提携、インドの炭素除去における役割拡大を示す\n  https://techcrunch.com/2026/06/11/doordashs-new-ai-chatbot-lets-you-order-with-prompts-and-photos/\n- DoorDash、プロンプトと写真で注文できる新AIチャットボットを導入\n  https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/\n- Opendoorのインド撤退、AIとアウトソーシングに関する議論を加速\n  https://techcrunch.com/2026/06/10/anthropics-dario-amodei-has-just-one-direct-report/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-06-12"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Terminal Mode by Even Realities — コード生成AIの状況を常に可視化\n  https://www.producthunt.com/products/terminal-mode-by-even-realities\n- SlimSnap — AIがユーザーの意図を汲み取れない問題を解決\n  https://www.producthunt.com/products/slimsnap\n- Asmi AI — 実世界の個人的な雑務をこなすAIアシスタント\n  https://www.producthunt.com/products/asmi-ai\n- Bond — タスクを自動で完了させるAI搭載ToDoリスト\n  https://www.producthunt.com/products/bond-12\n- Easybilling — 従量課金制AI製品向けのAIネイティブな請求・決済サービス\n  https://www.producthunt.com/products/easybilling\n- Airbrush Studio — 手動編集不要でプロ並みの仕上がりを実現するAI写真編集ツール\n  https://www.producthunt.com/products/airbrush-studio\n- PixelForge — 写真をゲームアセットに変換\n  https://www.producthunt.com/products/pixelforge-put-anyone-into-your-game\n- Bugpilot — エラー、DOM、スクリーンショットをAI対応のMarkdownに変換\n  https://www.producthunt.com/products/bugpilot-browser-bugs-to-ai-markdown\n- Onpilot — ビジネスに特化したAI人材を提供\n  https://www.producthunt.com/products/onpilot-ai\n- CrustRecruiter — Claudeを貴社に合った採用担当者へとカスタマイズ\n  https://www.producthunt.com/products/crustdata-2",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-06-12"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Introducing Claude Corps",
+      "url": "https://www.anthropic.com/news/claude-corps",
+      "summary": "AIの恩恵を全米に広げることを目指す、初期キャリア向けのフェローシッププログラム「Claude Corps」が開始。",
+      "ogImage": "https://cdn.sanity.io/images/4zrzovbb/website/eb5d94573805e24cb381cd0676527cfada75c177-3840x2160.jpg",
+      "publishedAt": "2026-06-11"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
+      "url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
+      "summary": "大手ITサービス企業DXC Technologyと複数年にわたるグローバル提携を発表。",
+      "ogImage": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Megaphone&backgroundColor=coral",
+      "publishedAt": "2026-06-12"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Open Models, Model Labs vs Agent Labs, and What's Untrainable — Sarah Guo",
+      "url": "https://www.latent.space/p/ainews-open-models-model-labs-vs",
+      "summary": "AnthropicのAIモデルFable 5は高性能だが、企業データ保持ポリシーや透明性に関する批判がある一方、Googleは新しい拡散型LLM「DiffusionGemma」をリリースし、研究者から注目を集めている。",
+      "publishedAt": "2026-06-11",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!76lN!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F709bf7b6-3173-4a7f-9099-fcabd2ebd438_1954x2078.png"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "11 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-06-12",
+      "docsUpdates": [
+        {
+          "tag": "Added",
+          "file": "amazon-bedrock.md",
+          "text": "Amazon Bedrockの設定ドキュメントに「ContactSalesCard」というコンポーネントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/af95fc881a6eadb9d8ba9a1abd26939391754949"
+        },
+        {
+          "tag": "Added",
+          "file": "claude-directory.md",
+          "text": "Claude Codeがファイルを読み込む.claudeディレクトリに関する説明に、「ClaudeExplorer」という新しいインタラクティブコンポーネントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/af95fc881a6eadb9d8ba9a1abd26939391754949"
+        },
+        {
+          "tag": "Added",
+          "file": "claude-platform-on-aws.md",
+          "text": "AWSでのClaude Codeプラットフォームの設定ドキュメントに「ContactSalesCard」というコンポーネントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/af95fc881a6eadb9d8ba9a1abd26939391754949"
+        },
+        {
+          "tag": "Added",
+          "file": "context-window.md",
+          "text": "Claude Codeのコンテキストウィンドウの動作に関する説明に、「ContextWindow」という新しいインタラクティブシミュレーションが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/af95fc881a6eadb9d8ba9a1abd26939391754949"
+        },
+        {
+          "tag": "Added",
+          "file": "google-vertex-ai.md",
+          "text": "Google Vertex AIの設定ドキュメントに「ContactSalesCard」というコンポーネントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/af95fc881a6eadb9d8ba9a1abd26939391754949"
+        },
+        {
+          "tag": "Added",
+          "file": "microsoft-foundry.md",
+          "text": "Microsoft Foundryの設定ドキュメントに「ContactSalesCard」というコンポーネントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/af95fc881a6eadb9d8ba9a1abd26939391754949"
+        },
+        {
+          "tag": "Added",
+          "file": "prompt-library.md",
+          "text": "プロンプトライブラリに「PromptLibrary」という新しいインタラクティブコンポーネントが追加され、タスクと役割別に分類されたプロンプトが提供されます。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/af95fc881a6eadb9d8ba9a1abd26939391754949"
+        },
+        {
+          "tag": "Added",
+          "file": "third-party-integrations.md",
+          "text": "サードパーティ統合に関するドキュメントに「ContactSalesCard」というコンポーネントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/af95fc881a6eadb9d8ba9a1abd26939391754949"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "2026年6月11日の更新に関する情報がchangelog.mdに追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/3114e45765ac6674b50d881a601427308756a31d"
+        },
+        {
+          "tag": "Improved",
+          "file": "changelog.md",
+          "text": "Claude Codeのドキュメントに2026年6月11日付けの変更履歴が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/53e6912e0faff4bcde9d48755de0c1edb002a797"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "サブエージェントが最大5レベルまでのサブエージェントを生成できるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/3e74ec01f0f8933cfe37e1bd0dded0af8e034147"
+        },
+        {
+          "tag": "Improved",
+          "file": "changelog.md",
+          "text": "Amazon Bedrockは、AWS SDKの優先順位に合わせて、AWS_REGIONが設定されていない場合に`~/.aws`設定ファイルからAWSリージョンを読み取るようになり、`/status`でリージョンの取得元が表示されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/3e74ec01f0f8933cfe37e1bd0dded0af8e034147"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "`/plugin`でマーケットプレイスのプラグインを閲覧する際に検索バーが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/3e74ec01f0f8933cfe37e1bd0dded0af8e034147"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "`claude_code.lines_of_code.count` OTELメトリックに`model`属性が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/3e74ec01f0f8933cfe37e1bd0dded0af8e034147"
+        },
+        {
+          "tag": "Fixed",
+          "file": "changelog.md",
+          "text": "利用クレジットなしで1Mコンテキストを使用するセッションが永久にスタックする問題が修正され、セッションが自動的に標準コンテキスト制限内に圧縮されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/3e74ec01f0f8933cfe37e1bd0dded0af8e034147"
+        },
+        {
+          "tag": "Improved",
+          "file": "model-config.md",
+          "text": "Claude Fable 5のドキュメントリンクがClaude Mythos 5も含むように更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/9a604563a998a15069442cefc48493157423b3e0"
+        },
+        {
+          "tag": "Changed",
+          "file": "plugins.md",
+          "text": "`claude-plugins-official`マーケットプレイスが、インタラクティブな初回起動時に自動登録されるように挙動が変更され、非インタラクティブなスクリプトでは明示的な追加が必要になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/9a604563a998a15069442cefc48493157423b3e0"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "3 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- Copilot CLI、/settingsで全ての設定を一元管理\n  https://github.blog/changelog/2026-06-11-copilot-cli-configure-everything-from-one-place-with-settings\n- GitHub Agentic Workflows、パブリックプレビューを開始\n  https://github.blog/changelog/2026-06-11-github-agentic-workflows-is-now-in-public-preview\n- Agentic workflows、PATなしで利用可能に\n  https://github.blog/changelog/2026-06-11-agentic-workflows-no-longer-need-a-personal-access-token",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-06-12"
+    }
+  ]
+}
