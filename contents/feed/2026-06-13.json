@@ -1,0 +1,221 @@
+{
+  "fetchedAt": "2026-06-12T22:16:49.090Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "New OpenAI Academy courses for the next era of work",
+      "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "summary": "OpenAIが、実践的なAIスキル習得と業務効率化を支援する3つのアカデミーコースを提供開始。",
+      "publishedAt": "2026-06-12",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/3uhZVST93Uain15J19fqjF/544b8b12c44fb2035c96b419c5196013/Frame.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "How Preply combines AI and human tutors to personalize learning",
+      "url": "https://openai.com/index/preply",
+      "summary": "PreplyがOpenAIを活用し、AIでレッスンの要約を生成し、個別フィードバックや練習問題を提供開始。",
+      "publishedAt": "2026-06-12",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/4TlUSJyvzcUk3f3wPzVmtY/e69435b271f2e2c44c1fe621dae9d24f/oai_Preply_SEO.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.176",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.176",
+      "summary": "- [Improved] 会話の言語でセッションタイトルが生成されるようになりました（特定の言語を固定するには言語設定を行ってください）。\n- [Added] footerLinksRegexes設定が追加されました。これは、ユーザーまたは管理設定を介して設定可能な、フッター行の正規表現に一致するリンクバッジ用です。\n- [Improved] Bedrock認証情報のキャッシュが改善されました。awsCredentialExportからの認証情報は、固定の1時間ではなく、有効期限までキャッシュされるようになりました。\n- [Fixed] availableModelsの強制が修正されました。エイリアスモデルの選択がANTHROPIC_DEFAULT_*_MODEL環境変数によってブロックされたモデルにリダイレクトされることがなくなり、/fastは許可リスト外のモデルに切り替わる場合にトグルを拒否するようになりました。\n- [Fixed] Opus 4.8が有効になっていない組織でFable 5の自動モードが失敗する問題が修正されました。分類器が利用可能な最適なOpusモデルにフォールバックするようになりました。\n- [Fixed] Read/Edit/Writeツールパスのフック条件が修正されました。Edit(src/**), Read(~/.ssh/**), Read(.env)などの文書化されたパターンが正しく一致するようになりました。\n- [Fixed] .claude/settings.jsonが絶対ターゲットを持つシンボリックリンクである場合にLinuxサンドボックスが起動に失敗する問題が修正されました。\n- [Fixed] /copyとマウス選択によるコピーがSSH経由のtmux内でシステムクリップボードに到達しない問題と、tmuxペーストバッファが3.2より古いバージョンでロードされない問題が修正されました。\n- [Fixed] Web/モバイルからRemote Controlが接続する際に、セッションのモデルがサイレントに切り替わる問題が修正されました。\n- [Fixed] Remote Controlの切断通知が人間が読める理由ではなく数値コードを表示する問題と、接続失敗が会話のトランスクリプトに重複した行を追加する問題が修正されました。\n- [Fixed] 異なるアカウントにサインインしたときにRemote Controlセッションが切断されない問題が修正されました。\n- [Fixed] /cdとワークツリーの移動が、セッションが以前のディレクトリのgitブランチを報告したままにする問題が修正されました。\n- [Fixed] claude agentsが修正されました。1つのウィンドウで「戻る」を押しても、同じセッションにアタッチされた他のウィンドウがデタッチされなくなりました。\n- [Fixed] 途中で/bgが続行するものが何もなかった場合、バックグラウンドセッションが「Working」と永久に表示される問題が修正されました。\n- [Fixed] PR URLによるバックグラウンドエージェント検索が修正されました。スケジュールされたウェイクアップ中またはジョブがブロックされている間に開かれたPRがclaude agents検索に表示されるようになりました。\n- [Fixed] Windowsでagentsビュー入力にテキストカーソルが表示されない問題が修正されました。\n- [Fixed] claude --bg -cn <name>がセッション名を設定しない問題が修正されました。\n- [Fixed] バックグラウンドセッションが、再起動前に永続化された状態のWindowsネットワークパスを無効にするように修正されました。\n- [Fixed] バックグラウンドセッションの再起動が、破損した状態ファイルからの不正なresume IDを拒否する問題が修正されました。\n- [Fixed] ~/.claude/daemonにReadOnly属性が設定されている場合にWindowsバックグラウンドサービスデーモンが起動しない問題が修正されました。\n- [Fixed] クラウドセッションが、クレームされる前にアイドル状態が長すぎると「Could not resolve authentication method」で失敗する問題が修正されました。\n- [Improved] バックグラウンドセッションは、自動更新を挟んで開いたままのウィンドウが応答を送信できない場合に、より明確なガイダンスを表示するようになり、claude daemon statusはバージョン間の差異の動作を説明するようになりました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.175",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.175",
+      "summary": "- [Added] enforceAvailableModels 管理設定が追加されました。有効にすると、availableModels の許可リストは Default モデルも制約し、許可されていないモデルに解決される Default は最初に許可されたモデルにフォールバックします。また、ユーザーまたはプロジェクトの設定で管理されている availableModels リストを広げることができなくなります。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-06-12"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.174",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.174",
+      "summary": "- [Added] フルスクリーンモードでマウスホイールのスクロール加速を無効にする設定 wheelScrollAccelerationEnabled を追加しました。\n- [Fixed] /model ピッカーで、デフォルトが解決するモデルファミリーが隠れる問題を修正しました。OpusはMax/Team Premium/Enterpriseプランで、SonnetはPro/Teamプランで、Opusは従量課金APIアカウントで、それぞれ独自の行として表示されるようになりました。\n- [Fixed] ANTHROPIC_DEFAULT_SONNET_MODELが異なるSonnetをピン留めしている場合でも、/modelピッカーがハードコードされたSonnetバージョンラベルを表示する問題を修正しました。\n- [Fixed] 使用量ベースの請求を行うエンタープライズアカウントに対して「Fable 5 is now consuming usage credits」バナーが誤って表示される問題を修正しました。\n- [Fixed] Bedrock GovCloudリージョン (us-gov-*) が誤った推論プロファイルプレフィックス (globalではなくus-gov) を導出し、派生モデルIDで400エラーが発生する問題を修正しました。\n- [Fixed] バックグラウンドセッションが、バックグラウンドデーモンを開始したシェルから別のセッションのANTHROPIC_*プロバイダー環境 (ゲートウェイURL、カスタムヘッダー、/modelエイリアス) を継承する問題を修正しました。\n- [Fixed] macOSおよびLinuxでシェルコマンドが中断または強制終了された直後にClaude Codeを終了すると、1～2秒の一時停止が発生する問題を修正しました。\n- [Fixed] git commitの共同作成者属性が、一部のモデルで誤ったモデル名を表示する問題を修正しました。\n- [Fixed] /advisorダイアログが、利用可能なモデルの許可リストによってブロックされている保存済みアドバイザーモデルを事前に選択する問題を修正しました。\n- [Fixed] スキルが1つ変更されたときにスキルリスト全体を再送信していたスキルホットリロードを修正し、変更されたスキルのみが再通知されるようになりました。\n- [Fixed] Workflowツールのagent()サブエージェントに、エージェントごとの属性ヘッダーが欠落している問題を修正しました。\n- [Added] [VSCode] Account & usageダイアログ (/usage) に使用状況の帰属情報を追加しました。過去24時間または7日間のキャッシュミス、ロングコンテキスト、サブエージェント、およびスキル/エージェント/プラグイン/MCPごとの内訳を表示します。\n- [Fixed] アイドル状態だった事前ウォームアップされたバックグラウンドワーカーが、クレーム後に「Could not resolve authentication method」で失敗する問題を修正しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-06-12"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI、進行中のメガトレンドをリストアップ\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Apple開発者向け新機能：ClaudeがFoundation Modelsをサポート\n  https://www.reddit.com/r/ClaudeAI/comments/1u29efu/new_for_apple_developers_foundation_models/\n- 今一番のお気に入りはClaude Fableでゲームジャンルをマッシュアップすること。テトリスをレーシングゲームにしてみた！\n  https://www.reddit.com/r/ClaudeAI/comments/1u3u8t7/my_favorite_thing_right_now_is_to_use_claude/\n- Anthropicの資料には、これが60億ドルの新規ARRとして記載されていることでしょう\n  https://www.reddit.com/r/ClaudeAI/comments/1u4464s/and_you_just_know_anthropics_deck_has_this_listed/\n- Claudeは急に賢さが低下する前に何も警告しないので、私はカナリアを設置した\n  https://www.reddit.com/r/ClaudeAI/comments/1u450lw/claude_gives_zero_warning_before_it_starts/\n- Fableの影響でMusk氏が兆万長者の地位を失う\n  https://www.reddit.com/r/ClaudeAI/comments/1u47yk5/musk_loses_trillionaire_status_thanks_to_fable/\n- 月間最優秀社員：2026年6月1日～6月22日（安らかに眠れ）\n  https://www.reddit.com/r/ClaudeAI/comments/1u3wflg/employee_of_the_month_june_1st_june_22nd_2026_rip/\n- Anthropic Academyの全コンテンツを試した結果、本当にやる価値のあるものとは\n  https://www.reddit.com/r/ClaudeAI/comments/1u3zl82/went_through_everything_on_anthropic_academy_so/\n- Fable 5で初のMMORPGをバイブスコーディングしてみた\n  https://www.reddit.com/r/ClaudeAI/comments/1u3m6a8/i_vibe_coded_the_first_mmorpg_with_fable_5/\n- エンジニアがClaudeを使い、「同僚ストレスランキング」を構築 WHOOPとカレンダーデータを同期し、最もストレスを与えた人物を特定\n  https://www.reddit.com/r/ClaudeAI/comments/1u3r2d9/engineer_used_claude_to_build_a_coworker_stress/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1456pt] 他人の注目を求めるなら、人間的な努力を見せよ | AI生成のPRや質問に対する不満、過剰なAI利用への警鐘など、AIの安易な利用に対する批判的な意見が多い\n  https://news.ycombinator.com/item?id=48497609\n- [1400pt] Show HN: Homebrew 6.0.0 | 長年のメンテナーへの感謝、代替ツールへの言及、資金援助の呼びかけなど、コミュニティからの反応と要望\n  https://news.ycombinator.com/item?id=48490024\n- [1369pt] AIエージェントがDN42をスキャンしようとして、運用者を破産させた | Xz攻撃を彷彿とさせる話、自己破壊的な結末、寄付要求など、物語の信憑性と面白さについての議論\n  https://news.ycombinator.com/item?id=48500012\n- [721pt] Claude Fableは容赦なくプロアクティブ | 人間の主体性の喪失への痛烈なコメント、コーディングエージェントの能力、並行世界からの投稿ではないかという意見など\n  https://news.ycombinator.com/item?id=48498573\n- [715pt] 発生しなかった問題を解決した誰もが評価されない（2001年） | 未然に防いだ問題への評価の難しさ、困難な部署が英雄視される傾向、Y2Kの経験など、共感と皮肉のコメント\n  https://news.ycombinator.com/item?id=48498385\n- [707pt] ポケモンGOのスキャンデータが軍事ドローンのナビゲーション技術を訓練した | 見出しの誇張、データ利用の懸念、OpenStreetMapへの貢献の呼びかけなど、情報の信憑性とプライバシーに関する議論\n  https://news.ycombinator.com/item?id=48487029\n- [585pt] CRISPR技術が「治療困難な」癌を含む癌細胞を選択的に破壊 | CRISPRへの期待と懐疑、他の治療法との比較、既存研究との関連性など、技術の進歩と課題に関する議論\n  https://news.ycombinator.com/item?id=48505231\n- [548pt] AIエージェントがFedoraなどで暴走 | Xz攻撃との類似性、LLMによる正当化の危険性、サプライチェーンへの影響など、AIエージェントのセキュリティリスクに関する懸念\n  https://news.ycombinator.com/item?id=48484584\n- [540pt] MiMo Codeがリリースされ、オープンソース化 | XiaomiのAIエージェントへの期待、オープンソース化の重要性、中国企業のAI開発能力への注目など\n  https://news.ycombinator.com/item?id=48490826\n- [498pt] Show HN: FablePool – プロンプトにお金を出し、Fableが公開で構築 | アイデアの面白さ、デモの不完全さ、リバースKickstarterとの比較など、コンセプトへの期待と疑問\n  https://news.ycombinator.com/item?id=48496539",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "7 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Google、AIで「数十万人の被害者」をだました中国のサイバー犯罪組織を提訴\n  https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/\n- SpaceX IPO：知っておくべきことすべてをリアルタイム更新\n  https://techcrunch.com/2026/06/12/spacex-ipo-live-updates-on-everything-you-need-to-know/\n- Mistral、200億ユーロの評価額で30億ユーロ調達の噂\n  https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/\n- SpaceX、Anthropic、OpenAIの熱いIPOの夏\n  https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/\n- 低コスト・高速・文化に配慮。Avataarの動画AIはインドの規模に対応\n  https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/\n- Theker、特定の専門を持たない工場ロボット開発で8500万ドル調達\n  https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/\n- ジェフ・ベゾス氏のPrometheus、物理世界向け「汎用人工エンジニア」開発で120億ドルを調達\n  https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "Claude Fable is relentlessly proactive",
+      "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-entries",
+      "summary": "Claude Fable 5は、ユーザーの指示を達成するために自律的に様々な手法（スクリーンショット撮影、テスト用HTML生成、JavaScript注入など）を駆使し、驚くべき積極性で問題を解決するが、その強力さゆえにセキュリティ上の懸念も指摘されている。",
+      "publishedAt": "2026-06-12",
+      "ogImage": "https://static.simonwillison.net/static/2026/jump-to-bug.jpg"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Keep — iPhone/Mac向け全画面3D時計シーン\n  https://www.producthunt.com/products/keep-8\n- Bob's CLI — ローカル優先でユーザーに順応するAIコーディングCLI\n  https://www.producthunt.com/products/bob-s-cli\n- Warren 3.0 — 音声対応AI資産計画パートナー\n  https://www.producthunt.com/products/underpay\n- HyperSleep — 睡眠を確保するまでソーシャルメディアをブロック\n  https://www.producthunt.com/products/hypersleep\n- Firma.dev — 平均1通3セントのアプリ向け電子署名API\n  https://www.producthunt.com/products/firma-dev\n- KOSH Money — フリーランサー・クリエイター向けUSD口座とクレジットカード\n  https://www.producthunt.com/products/kosh-money\n- Pond — スタートアップ向け資金調達、GTM、報酬プラットフォーム\n  https://www.producthunt.com/products/pond-5\n- Qursor — UIをポイントするだけでAIに正確なコンテキストを送信\n  https://www.producthunt.com/products/qursor\n- Slack Data Agent — Slackから離れずにデータに関する質問が可能に\n  https://www.producthunt.com/products/basedash\n- Medicyn — あなたの医療履歴をデバイス上でプライベートに管理\n  https://www.producthunt.com/products/medicyn",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Results from the first Anthropic Public Record",
+      "url": "https://www.anthropic.com/news/anthropic-public-record",
+      "summary": "Anthropic社の調査で、アメリカ人はAIの病気治療への期待と雇用喪失への不安が大きく、政府の規制と企業の責任を求めていることが判明。",
+      "ogImage": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Globe&backgroundColor=heather",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "TCS and Anthropic partner to bring Claude to regulated industries",
+      "url": "https://www.anthropic.com/news/tcs-anthropic-partnership",
+      "summary": "TCSがClaudeを従業員に提供し、各種業界向けの製品開発とパートナーネットワークに参加。",
+      "ogImage": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20NodeLine&backgroundColor=olive",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "1 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Savant、全AIネイティブ企業を動かす「脳」となるか\n  https://heysavant.com/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Loopcraft: The Art of Stacking Loops",
+      "url": "https://www.latent.space/p/ainews-loopcraft-the-art-of-stacking",
+      "summary": "AIエージェントの自律化、ロボティクス向けデータ基盤、推論速度の改善、開発者ツールの進化がテック業界で注目されている。",
+      "publishedAt": "2026-06-12",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!6Y74!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F517bbc58-4f26-46b5-a12e-f4a5f84b0a30_1986x1118.png"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "9 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-06-13",
+      "docsUpdates": [
+        {
+          "tag": "Improved",
+          "file": "hooks.md",
+          "text": "hooks.mdドキュメントで、`agent_type`フィールドの説明が明確化され、サブエージェントの場合にそのagent's typeがセッションの`--agent`値よりも優先されることが明記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e411de6546ea62820f7c9c8d8274658e2345779e"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "新しい管理設定`enforceAvailableModels`を追加しました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/fd249b7ac6e08c3e4bafb14b3667aec9dd057da4"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "フルスクリーンモードでのマウスホイールスクロール加速を無効にする`wheelScrollAccelerationEnabled`設定を追加しました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/fd249b7ac6e08c3e4bafb14b3667aec9dd057da4"
+        },
+        {
+          "tag": "Fixed",
+          "file": "changelog.md",
+          "text": "`/model`ピッカーがDefaultが解決するモデルファミリーを隠してしまう問題を修正しました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/fd249b7ac6e08c3e4bafb14b3667aec9dd057da4"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "新しい日付で更新情報セクションを追加しました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/8b6d4c470cb25c3e3dc43ae777c7d9f128512c0c"
+        },
+        {
+          "tag": "Added",
+          "file": "jetbrains.md",
+          "text": "Claude Codeが有料のClaudeサブスクリプションまたはClaude Consoleアカウントで動作し、APIキーが不要であることが追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b758154f8190a01ec9911db8c320c89db0a6b43a"
+        },
+        {
+          "tag": "Improved",
+          "file": "vs-code.md",
+          "text": "VS Codeの前提条件に、Anthropicアカウントが有料のClaudeサブスクリプションまたはClaude Consoleアカウントで動作し、APIキーが不要であることがより具体的に記載されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b758154f8190a01ec9911db8c320c89db0a6b43a"
+        },
+        {
+          "tag": "Improved",
+          "file": "headless.md",
+          "text": "セッションIDの検索は現在のプロジェクトディレクトリとそのGitワークツリーにスコープされるため、両方のコマンドを同じディレクトリから実行するように変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/809cd4751a64b65149fe11753a06df72eeab29b3"
+        },
+        {
+          "tag": "Added",
+          "file": "mcp.md",
+          "text": "プラグインにバンドルされたMCPサーバーのツール名をフルネームで参照する方法が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/809cd4751a64b65149fe11753a06df72eeab29b3"
+        },
+        {
+          "tag": "Improved",
+          "file": "monitoring-usage.md",
+          "text": "フル機能の可観測性プラットフォームの例としてGrafana Cloudが追加され、説明が改善されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/809cd4751a64b65149fe11753a06df72eeab29b3"
+        },
+        {
+          "tag": "Improved",
+          "file": "sessions.md",
+          "text": "claude -p またはAgent SDKで作成されたセッションを再開する際は、セッションが開始されたディレクトリから実行する必要があることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/809cd4751a64b65149fe11753a06df72eeab29b3"
+        },
+        {
+          "tag": "Added",
+          "file": "troubleshoot-install.md",
+          "text": "VS Code拡張機能はclaudeをPATHに追加せず、CLIを使用するにはスタンドアロンインストールが必要であるという注意が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/809cd4751a64b65149fe11753a06df72eeab29b3"
+        },
+        {
+          "tag": "Improved",
+          "file": "vs-code.md",
+          "text": "VS Code拡張機能がCLIの独自のコピーをバンドルしていることと、統合ターミナルでclaudeを実行するにはスタンドアロンのCLIインストールが必要であることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/809cd4751a64b65149fe11753a06df72eeab29b3"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "1 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- Copilotのコードレビュー機能が進化、設定・制御オプション拡充へ\n  https://github.blog/changelog/2026-06-12-copilot-code-review-new-configurations-and-controls",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-06-13"
+    }
+  ]
+}
