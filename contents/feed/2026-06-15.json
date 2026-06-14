@@ -1,0 +1,69 @@
+{
+  "fetchedAt": "2026-06-14T22:00:42.006Z",
+  "entries": [
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- r/MacApps、コミュニティの品質と現状をチェック\n  https://www.reddit.com/r/macapps/comments/1tztc04/rmacapps_community_quality_status_check/\n- 【総まとめ】The App Pile - 2026年6月版\n  https://www.reddit.com/r/macapps/comments/1ttp8mu/megathread_the_app_pile_june_2026/\n- 小説家向けMac用ライティングアプリ「Writers Studio」をリリースしました\n  https://www.reddit.com/r/macapps/comments/1u5uc2v/i_launched_writers_studio_a_native_mac_writing/\n- ネイティブのカウントダウンアプリ「Wait Menu」\n  https://www.reddit.com/r/macapps/comments/1u5icqb/wait_menu_native_countdowns_app/\n- 「Tacque」：macOSに心地よいタイピングサウンドを再び\n  https://www.reddit.com/r/macapps/comments/1u592t0/tacque_adding_satisfying_typing_sounds_back_to/\n- AIツールに視覚的なコンテキストを与えるMacアプリを開発、長文プロンプト不要に\n  https://www.reddit.com/r/macapps/comments/1u4psxf/i_built_a_mac_app_to_give_ai_tools_visual_context/\n- 自動墨消し、タブビューア、検索＆置換など大幅機能強化した「RevPDF 4.5.0」をリリース\n  https://www.reddit.com/r/macapps/comments/1u4npp5/i_just_released_revpdf_450_with_auto_redaction/\n- Boring Notch、半年以上更新なし。乗り換え時か？\n  https://www.reddit.com/r/macapps/comments/1u50f9e/boring_notch_not_updated_in_over_half_a_year_time/\n- ネイティブでOS統合されたmacOS AIアシスタント「Prism」登場（ローンチプロモ＆生涯ライセンス）\n  https://www.reddit.com/r/macapps/comments/1u5tlfh/prism_a_native_osintegrated_macos_ai_assistant/\n- タブの散乱を解消し、RAMを節約、リサーチを効率化するApp Store版タブ整理＆セッションマネージャー「TabLinker」\n  https://www.reddit.com/r/macapps/comments/1u4rtr0/tablinker_a_native_app_store_tab_organizer/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [3113pt] 米国政府によるFable 5とMythos 5へのアクセス停止指示に関する声明 | 政府の介入は愚策で効果がないとの指摘が多数。中国製モデルへの移行加速を懸念する声も\n  https://news.ycombinator.com/item?id=48511072\n- [1563pt] オープンソースAIは勝つべき | 分散型モデル学習・推論の必要性が議論される一方、資金調達と学習コストの高さが課題として挙げられる\n  https://news.ycombinator.com/item?id=48511908\n- [870pt] 米国国勢調査局、統計製品からのノイズ注入を禁止 | プライバシー保護とデータ精度のバランスに関する議論。データ信頼性への影響を懸念する声が多い\n  https://news.ycombinator.com/item?id=48517377\n- [816pt] すべてのフレームが完璧に | UIアニメーションの不完全さへの指摘。ただし、主張の根拠や代替案が弱いという批判も\n  https://news.ycombinator.com/item?id=48516251\n- [776pt] Amazon CEOと米国当局者の会談がAnthropicモデルへの取り締まりを誘発 | AmazonのAnthropicへの投資や、他社モデルとの公平性を疑問視する声が多数\n  https://news.ycombinator.com/item?id=48519092\n- [724pt] GLM 5.2がリリース | 米国政府によるモデル規制の中、中国製モデルのオープンなリリースを歓迎する声が多数\n  https://news.ycombinator.com/item?id=48518684\n- [715pt] イスラエルのBlackCore社がニューヨークとスコットランドの選挙介入疑惑 | 選挙介入疑惑に衝撃と不信感を表明するコメントが多数\n  https://news.ycombinator.com/item?id=48514560\n- [698pt] 希土類を使用しない電気モーター | 稀土類なしモーターの歴史的背景と、既存技術との比較に関するコメント。ウェブサイトの情報不足を指摘する声も\n  https://news.ycombinator.com/item?id=48510010\n- [496pt] Mozillaを去る | Mozillaの過去の方向性や経営判断への批判と、Servoプロジェクトの軽視への後悔の声\n  https://news.ycombinator.com/item?id=48513806\n- [484pt] このFableの件には暗い影が差している | 米国政府の介入は不公平で、政治的意図があると疑う声が多数。OpenAIの過去の戦略との比較も\n  https://news.ycombinator.com/item?id=48513536",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "3 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- AI企業の上場競争、その恩恵を受けるのは誰か\n  https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/\n- Anthropicが新モデルへのアクセスを一時停止、インドでAIの未来に関する議論が活発化\n  https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/\n- Meta、中国政府の要求で20億ドルのManus買収契約を解消か\n  https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "Publishing WASM wheels to PyPI for use with Pyodide",
+      "url": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-entries",
+      "summary": "PyodideがPythonパッケージをPyPIに直接公開・インストールできるようになり、WASMバイナリを含むパッケージ配布が容易になった。",
+      "publishedAt": "2026-06-14",
+      "ogImage": "https://static.simonwillison.net/static/2026/luau-wasm.jpg"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Memoriq — ChatGPT、Claude、Gemini、Grok向けプライベートAI記憶\n  https://www.producthunt.com/products/memoriq\n- Cloudback for Linear — Linearワークスペースの自動バックアップと復元\n  https://www.producthunt.com/products/cloudback\n- Taste Lab — あらゆるウェブサイトのデザインDNAを抽出\n  https://www.producthunt.com/products/taste-lab\n- Allergo — どこでもアレルギーを翻訳\n  https://www.producthunt.com/products/allergo-allergy-translation-cards\n- Reverie.fm — 完全プライベート＆オフラインの位置情報ベース音楽ジャーナルアプリ\n  https://www.producthunt.com/products/reverie-fm\n- Permute 4.0 — macOS向け究極のメディア変換ツール\n  https://www.producthunt.com/products/permute\n- Momentra — 美しい構図で思い出を残す居心地の良いカメラアプリ\n  https://www.producthunt.com/products/momentra-aesthetic-camera\n- Slashy — あなたのメールを代行するAIアシスタント\n  https://www.producthunt.com/products/slashy-3\n- Pool — スクリーンショットであらゆるものを保存\n  https://www.producthunt.com/products/pool-4\n- Tinfoil Pigeons — レトロなレーダースコープで頭上を飛ぶ航空機をチェック\n  https://www.producthunt.com/products/tinfoil-pigeons",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "1 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Mireye、現実世界AIエージェントのインフラを構築\n  https://www.mireye.com/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "sourceName": "GitHub Trending",
+      "title": "Weekly Trending",
+      "url": "https://github.com/trending?since=weekly",
+      "summary": "- mvanhorn/last30days-skill：Reddit、X、YouTube、HN、Polymarket、およびWeb上のあらゆるトピックを調査し、根拠のある要約を合成するAIエージェントスキル ⭐12,602/week\n  https://github.com/mvanhorn/last30days-skill\n- apple/container：Mac上で軽量仮想マシンを使用してLinuxコンテナを作成および実行するためのツール。Swiftで書かれており、Appleシリコンに最適化されている。 ⭐9,173/week\n  https://github.com/apple/container\n- phuryn/pm-skills：PMスキルマーケットプレイス：発見から戦略、実行、ローンチ、成長まで、100以上のエージェントスキル、コマンド、プラグイン。 ⭐5,408/week\n  https://github.com/phuryn/pm-skills\n- chopratejas/headroom：LLMに到達する前に、ツール出力、ログ、ファイル、RAGチャンクを圧縮する。トークンは60-95%削減され、同じ回答が得られる。ライブラリ、プロキシ、MCPサーバー。 ⭐10,406/week\n  https://github.com/chopratejas/headroom\n- NVIDIA/SkillSpector：AIエージェントスキルのセキュリティスキャナー。脆弱性、悪意のあるパターン、セキュリティリスクを検出する。 ⭐2,799/week\n  https://github.com/NVIDIA/SkillSpector\n- addyosmani/agent-skills：AIコーディングエージェント向けのプロダクショングレードのエンジニアリングスキル。 ⭐9,348/week\n  https://github.com/addyosmani/agent-skills\n- Panniantong/Agent-Reach：AIエージェントにインターネット全体を見る目を与える。Twitter、Reddit、YouTube、GitHub、Bilibili、XiaoHongShuを読み、検索する — 1つのCLI、API料金ゼロ。 ⭐5,183/week\n  https://github.com/Panniantong/Agent-Reach\n- refactoringhq/tolaria：マークダウン知識ベースを管理するデスクトップアプリ ⭐3,708/week\n  https://github.com/refactoringhq/tolaria\n- openai/plugins：OpenAIプラグイン ⭐1,298/week\n  https://github.com/openai/plugins\n- Leonxlnx/taste-skill：Taste-Skill - AIに良い趣味を与える。AIが退屈で一般的なスロップを生成するのを止める。 ⭐8,097/week\n  https://github.com/Leonxlnx/taste-skill",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-06-15"
+    }
+  ]
+}
