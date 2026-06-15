@@ -1,0 +1,113 @@
+{
+  "fetchedAt": "2026-06-15T22:52:34.121Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.178",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.178",
+      "summary": "- [Added] パーミッションルールにTool(param:value)構文を追加し、ツールの入力パラメータ（ワイルドカード*を含む）と一致するようにしました。例：Agent(model:opus)でOpusサブエージェントをブロックします。\n- [Added] ネストされた.claude/skillsディレクトリ内のスキルは、そのディレクトリで作業しているときにロードされるようになりました。名前の衝突が発生した場合、ネストされたスキルは<dir>:<name>として表示され、両方利用可能です。\n- [Changed] ネストされた.claude/ディレクトリにおいて、エージェント、ワークフロー、および出力スタイルは、名前が衝突した場合、作業ディレクトリに最も近いものが優先されるようになりました。プロジェクトスコープのワークフロー保存は、最も近い既存の.claude/workflows/をターゲットとします。\n- [Improved] オートモードが改善され、サブエージェントの生成が起動前に分類器によって評価されるようになりました。これにより、サブエージェントがレビューなしにブロックされたアクションを要求する可能性がなくなります。\n- [Improved] /doctorが改善され、すべてのセクションで一貫したフラットツリーレイアウトになり、セクションのステータスアイコンがより明確になり、コマンド名が強調表示されるようになりました。\n- [Improved] スキルリストの切り捨て警告が改善され、影響を受けるスキル説明の数が表示されるようになりました。\n- [Changed] ワークフローのプロンプトキーワードが紫のシマーハイライトを使用し、「run a workflow」や「workflow:」のような明示的なフレーズでのみトリガーされるようになり、単語の言及だけではトリガーされなくなりました。\n- [Improved] リモートコントロールのエラーメッセージが改善され、接続失敗時にはフッターに永続的な赤い「/rc failed」インジケーターが表示されるようになりました。また、「not yet enabled」エラーは、それがゲート、チェック失敗、期限切れのエンタイトルメント、または組織ポリシーによるものかを説明するようになりました。\n- [Changed] /bugは提出前に説明を必須とするようになり、GitHubのissueタイトルとしてモデル拒否テキストを使用しなくなりました。\n- [Fixed] CLIが親プロセスから古いwebsocket/OAuthファイルディスクリプタ環境変数を継承した際のクラッシュ（メモリ不足）を修正しました。\n- [Fixed] Claude in Chromeが、OAuthトークンがClaude Codeログインとは異なるアカウントに属している場合にサイレントに接続に失敗する問題を修正しました。\n- [Fixed] ネストされた.claude/skillsのスキルが、非インタラクティブ実行時にパーミッションプロンプトによってブロックされる問題を修正しました。\n- [Fixed] いくつかのサブエージェントの問題を修正しました。サブエージェントのトランスクリプト表示でツール結果とライブ進行状況が表示されるようになり、サブエージェントがターンを終了する間に送信されたメッセージがドロップされなくなり、実行中のサブエージェントをバックグラウンド化（Ctrl+B）しても最初から再起動されなくなりました。\n- [Fixed] daemonがANTHROPIC_BASE_URLおよびANTHROPIC_AUTH_TOKENを介してカスタムAPIゲートウェイを持つシェルから起動された場合に、claude agents workersが401 Invalid bearer tokenで失敗する問題を修正しました。\n- [Fixed] 圧縮が--fallback-modelを尊重しない問題を修正しました。圧縮は、過負荷またはモデル利用不可エラー時に設定されたフォールバックモデルチェーンにフォールバックするようになりました。\n- [Fixed] セッション外で認証情報が更新された後も、古いキャッシュされたリクエスト構成が原因でモデルリクエストが認証エラーで失敗し続ける問題を修正しました。\n- [Fixed] ターン終了後に/bgまたは←←で作成されたバックグラウンドセッションが、エージェントリストで「Working」と永久に表示される問題を修正しました。\n- [Fixed] CLAUDE_CODE_PLUGIN_KEEP_MARKETPLACE_ON_FAILURE=1が新規のマーケットプレイスインストールをクローンできないようにする問題を修正しました。\n- [Fixed] サブエージェントのdisallowedToolsにおけるMCPサーバーレベルの仕様（mcp__server、mcp__server__*、mcp__*）がサイレントに無視される問題を修正しました。\n- [Fixed] vimモードのundoを修正しました。uが、NORMAL/VISUALモードのコマンドを一度に1ステップずつ実行するようになり、連続したコマンドを1つのundoステップにマージしなくなりました。\n- [Fixed] claude agentsでstatuslineリンク（例：vscode://）がクリックされても開かない問題を修正しました。\n- [Fixed] [VSCode] Escキーを押してCJK IME候補ウィンドウを閉じる際に、実行中のClaudeタスクがキャンセルされる問題を修正しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-06-16"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-16"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- 米政府のFable・Mythos利用停止問題、大規模議論が勃発\n  https://www.reddit.com/r/ClaudeAI/comments/1u4dij4/megathread_for_us_government_suspension_of_fable/\n- r/ClaudeAI、進行中の大規模議論をリスト化\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Anthropic、利用制限で顧客を誤解させたとして提訴される\n  https://www.reddit.com/r/ClaudeAI/comments/1u6kzsr/anthropic_has_been_sued_for_allegedly_misleading/\n- 石器時代に逆戻り？AI予算削減で手動コーディングに逆戻りした企業の実情\n  https://www.reddit.com/r/ClaudeAI/comments/1u6hyki/back_to_the_stone_age_our_company_slashed_our_ai/\n- 研究者語る：Fable 5が「このコードを修正して」という単純な指示で連邦政府を驚かせたのは、ジェイルブレイクではない\n  https://www.reddit.com/r/ClaudeAI/comments/1u6tm7g/feds_freaked_over_fable_5_after_simple_fix_this/\n- ここの投稿、全部AIが書いたものばかりだと気づいた人いる？\n  https://www.reddit.com/r/ClaudeAI/comments/1u6rs7l/is_anyone_else_noticing_that_every_post_here_is/\n- AIブーム サカラカ\n  https://www.reddit.com/r/ClaudeAI/comments/1u6lcdz/ai_boom_sakalaka/\n- Anthropic、月額200ドルのAIプラン利用制限を巡り訴訟に直面\n  https://www.reddit.com/r/ClaudeAI/comments/1u6j6v2/anthropic_sued_over_limits_on_its_200amonth_ai/\n- 「スキル」を巡るマーケティングが面白い\n  https://www.reddit.com/r/ClaudeAI/comments/1u6uqd6/the_marketing_around_skills_is_so_funny/\n- Agent SDK、延期のお知らせ 🎉\n  https://www.reddit.com/r/ClaudeAI/comments/1u6qura/agent_sdk_postponed/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-16"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [868pt] あなたのePubは問題ない | Adobeへの不満や、ePub規格の複雑さ、Koboデバイスのレンダリングエンジンの話題が中心。\n  https://news.ycombinator.com/item?id=48533848\n- [843pt] Iroh 1.0 | Irohの用途、他の技術との比較、将来の分散型ネットワークへの期待が議論されている。\n  https://news.ycombinator.com/item?id=48542480\n- [728pt] Curlは2026年7月中に脆弱性報告を受け付けない | Curlの休暇制度に対する肯定的な意見や、他のライブラリの追随、セキュリティへの影響に関する見解が示されている。\n  https://news.ycombinator.com/item?id=48537165\n- [700pt] 億万長者になる方法 | ポール・グレアムの意見に対する否定的、批判的なコメントが多く見られる。\n  https://news.ycombinator.com/item?id=48526360\n- [693pt] オタクはどうなった？ | オタク文化の変化や、テック業界の現状に対する懸念、社会集団としての成熟度が議論されている。\n  https://news.ycombinator.com/item?id=48538229\n- [681pt] Show HN: Kage – あらゆるウェブサイトを単一バイナリにシャドウしてオフライン表示 | デモの作成方法、会社のwikiでの活用、SingleFileとの比較などがコメントされている。\n  https://news.ycombinator.com/item?id=48529990\n- [545pt] Ask HN: Claude/GPTをローカルモデルに置き換えて日常のコーディングに利用している人はいますか？ | ローカルLLMへの切り替え報告が多く、データプライバシー、QwenやGemmaの使用例が挙げられている。\n  https://news.ycombinator.com/item?id=48542100\n- [538pt] CrankGPT | ウェブデザインへの不満、AIとエネルギー消費の関係、風刺か現実かの議論が見られる。\n  https://news.ycombinator.com/item?id=48540854\n- [530pt] Windows 11ユーザーはMSアカウントの要求がすべてに侵食していることにうんざりしている | Windows 10への支持、MSアカウント必須化への不満、BitLockerに関する議論が多い。\n  https://news.ycombinator.com/item?id=48533101\n- [520pt] TinyWind: リアルな風物理を備えたピクセル海賊帆船ゲーム (38万km以上航海) | 風向き表示の改善提案、リアルな航海メカニクスへの期待、ゲームの難易度に関する意見が寄せられている。\n  https://news.ycombinator.com/item?id=48543475",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-06-16"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "10 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- 米政府のAnthropicモデル禁止はAIジェイルブレイクが目的ではなかった\n  https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/\n- MetaのFacebook新機能「AIモード」、プラットフォーム全体の公開情報を活用\n  https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/\n- SpaceXが上場：IPO後のあらゆる情報まとめ\n  https://techcrunch.com/2026/06/15/spacex-is-public-everything-you-need-to-know-post-ipo/\n- サイバーセキュリティ専門家、米政府によるAnthropicの高性能モデル禁止に「危険」と抗議\n  https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/\n- Salesforce、AI顧客サービスプラットフォームFinを36億ドルで買収\n  https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/\n- Sarvam、HCLTech主導の2億3,400万ドル資金調達でインド最新のAIユニコーンに\n  https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/\n- AIエージェントが従業員化する中、NewCoreが6,600万ドル調達し、AIにIDを付与へ\n  https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/\n- 衛星が自力で物体を発見する方法を習得、その意味とは\n  https://techcrunch.com/2026/06/15/a-satellite-just-learned-to-find-things-on-its-own-heres-what-that-means/\n- AIレイオフの波が火薬庫と化しつつある\n  https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg/\n- Orbio、現場作業員の採用とオンボーディング自動化に向け2,100万ドルを調達\n  https://techcrunch.com/2026/06/14/orbio-raises-21-million-to-automate-hiring-and-onboarding-for-frontline-workers/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-06-16"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Verol — AIの幻覚をストップさせる\n  https://www.producthunt.com/products/verol\n- Relay — サイトを貼り付けるだけで、通話から学習するAI受付係を導入\n  https://www.producthunt.com/products/relay-20\n- EmailFlow.AI — メールニュースレター向けClaude Designのようなツール\n  https://www.producthunt.com/products/emailflow-ai-b2b-lead-generation\n- Fonda — 意思決定を記憶し、計画を立てるAI共同創業者\n  https://www.producthunt.com/products/fonda\n- AEVS — AIエージェント向け実行証明ツール\n  https://www.producthunt.com/products/aevs-by-fetch-ai\n- MockPilot — ライブサイトを編集可能なモックアップに変換\n  https://www.producthunt.com/products/mockpilot\n- AutoEdit — Premiere Pro向けClaude AI動画エディター\n  https://www.producthunt.com/products/autoedit\n- IdleDev — AIエージェントが思考中に報酬を得る\n  https://www.producthunt.com/products/idledev\n- Wobo 2.0 — 仕事版Tinder：右にスワイプするだけでAIが応募\n  https://www.producthunt.com/products/wobo-ai\n- AgentBrush — コーディングエージェントに不足していたツール：画像生成\n  https://www.producthunt.com/products/agentbrush",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-06-16"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "7 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-06-16",
+      "docsUpdates": [
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__cost-tracking.md",
+          "text": "費用追跡のメッセージ利用フローを示す図の画像ソースが更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/54686f50215ff4006a4a4bf96c0db6d4d41a7362"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__hosting.md",
+          "text": "ホスティングのサブプロセスフローを示す図の画像ソースが更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/54686f50215ff4006a4a4bf96c0db6d4d41a7362"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__overview.md",
+          "text": "2026年6月15日からAgent SDKの使用が新しい月次クレジットから引き落とされることに関する注意書きが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/54686f50215ff4006a4a4bf96c0db6d4d41a7362"
+        },
+        {
+          "tag": "Changed",
+          "file": "authentication.md",
+          "text": "2026年6月15日からAgent SDKの使用が新しい月次クレジットから引き落とされることに関する注意書きが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/54686f50215ff4006a4a4bf96c0db6d4d41a7362"
+        },
+        {
+          "tag": "Changed",
+          "file": "features-overview.md",
+          "text": "機能ごとのコンテキスト読み込みを示す図の画像ソースが更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/54686f50215ff4006a4a4bf96c0db6d4d41a7362"
+        },
+        {
+          "tag": "Changed",
+          "file": "headless.md",
+          "text": "2026年6月15日からAgent SDKの使用が新しい月次クレジットから引き落とされることに関する注意書きが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/54686f50215ff4006a4a4bf96c0db6d4d41a7362"
+        },
+        {
+          "tag": "Changed",
+          "file": "legal-and-compliance.md",
+          "text": "2026年6月15日からAgent SDKの使用が新しい月次クレジットから引き落とされることに関する注意書きが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/54686f50215ff4006a4a4bf96c0db6d4d41a7362"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "1 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- Copilotの利用状況がよりアクティブなユーザーを網羅するように拡張\n  https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-06-16"
+    }
+  ]
+}
