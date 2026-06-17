@@ -1,0 +1,143 @@
+{
+  "fetchedAt": "2026-06-17T22:27:29.810Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+      "url": "https://openai.com/index/ai-chemist-improves-reaction",
+      "summary": "OpenAIとMolecule.oneが、AI化学者が主要な薬剤製造反応を改善する研究成果を発表。",
+      "publishedAt": "2026-06-17",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/4NBFdbusKgYSDZQu73MAR9/2f84206eba72f43384d4bb005b97f8c3/molecule-one-SEO-Card.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Introducing LifeSciBench",
+      "url": "https://openai.com/index/introducing-life-sci-bench",
+      "summary": "AIのライフサイエンス研究タスク処理能力を評価する新しいベンチマーク「LifeSciBench」が登場。",
+      "publishedAt": "2026-06-17",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/1trh6KslZ4XaGmEYHQVoDP/e4a6d9910ef9025bfbe5bed00cf0ae42/LifeSciBench_16x9.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.181",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.181",
+      "summary": "- [Added] /config key=value構文を追加し、プロンプトから任意の設定（例: /config thinking=false）ができるようになりました。これはinteractive、-p、Remote Controlで動作します。\n- [Added] sandbox.allowAppleEvents設定が追加され、サンドボックス化されたコマンドがmacOSでApple Eventsを送信できるようになりました。\n- [Added] CLAUDE_CLIENT_PRESENCE_FILE環境変数が追加されました。マーカーファイルを指定することで、PCを使用中にモバイルプッシュ通知を抑制できます。\n- [Improved] バンドルされているBunランタイムが1.4にアップグレードされました。\n- [Improved] 長い段落のストリーミングが改善され、最初の改行を待つことなくテキストが1行ずつ表示されるようになりました。\n- [Improved] 自動リトライが改善され、思考中のAPI接続切断時に「Connection closed while thinking」と表示されず、自動的にリトライするようになりました。\n- [Improved] サブエージェントパネルが改善され、アイドル状態のサブエージェントは30秒後に自動的に非表示になり、リストはスクロールヒント付きで5行に制限され、キーボードヒントがフッターに表示されるようになりました。\n- [Improved] MCP OAuthブラウザページがClaude Codeのビジュアルスタイルに合わせ、成功時に自動的に閉じるように改善されました。\n- [Changed] フルスクリーンモードでのURL開きがCmd+クリック (macOS) / Ctrl+クリックを必要とするように変更され、ネイティブターミナルの動作と一致するようになりました。\n- [Changed] Improved N memoriesの行が、verboseモード以外では個別のファイルをリスト表示しなくなりました。\n- [Fixed] カスタムANTHROPIC_BASE_URLおよびFoundryでのプロンプトキャッシュが、リクエストごとの認証トークンの変更により読み取られない問題を修正しました。\n- [Fixed] Write/Editがネットワークドライブやクラウド同期フォルダで0バイトまたは切り詰められたファイルを生成する問題を修正しました。\n- [Fixed] macOSでopen、osascript、およびブラウザベースの認証フローがApple Eventsエンタイトルメントの追加によりエラー-600で失敗する問題を修正しました。\n- [Fixed] スタートアップの回帰（2.1.169で導入された、クリーンな環境での起動あたり約120ms）を修正しました。MCPサーバーが設定されていない場合、最初のプロンプトが管理設定のフェッチを待たなくなりました。\n- [Fixed] 劣化したネットワークでアカウント設定のフェッチが遅い場合に、最大15秒間、空白のターミナルで起動がブロックされる問題を修正しました。\n- [Fixed] .claude.jsonに破損したnullのプロジェクトエントリが含まれている場合の起動クラッシュ（TypeError: Cannot read properties of null）を修正しました。\n- [Fixed] Spotlightが再インデックス中にmacOS TUIがセッション開始時にフリーズする（Ctrl+Cが応答しない）問題を修正しました。\n- [Fixed] 他のClaude Codeプロセスが30日間のトランスクリプトクリーンアップを実行した際に、長時間アイドル状態のセッションが履歴を失う問題を修正しました。\n- [Fixed] フォアグラウンドサブエージェントが無限にネストされたチェーンを生成する問題を修正しました。これらはバックグラウンドサブエージェントと同じ5レベルの深さ制限を尊重するようになりました。\n- [Fixed] /recapおよび会話のフォークが、モデル切り替え直後に以前のモデルを使用する問題を修正しました。\n- [Fixed] サブエージェントの「Thinking」の持続時間が、サブエージェント自身の経過時間ではなく、親エージェントの経過時間を表示する問題を修正しました。\n- [Fixed] ネストされたエージェントでブロックされているサブエージェントが、エージェントパネルで「waiting」ではなく経過時間を表示する問題を修正しました。\n- [Fixed] APIリトライインジケーター（「Retrying in 0s · attempt N/10」）がリトライ成功後も画面に残り続ける問題を修正しました。\n- [Fixed] AWS awsCredentialExportクレデンシャルが短い有効期限のために毎分クレデンシャルを更新する問題を修正し、aws configure export-credentialsからのJSON形式を受け入れるようになりました。\n- [Fixed] claude mcp get/listがtools/listの失敗時に「✓ Connected」と表示する問題を修正しました。エラー詳細とともに「! Connected · tools fetch failed」と表示されるようになりました。\n- [Fixed] /remote-controlが古い「connecting…」行を残す問題を修正しました。接続された際にトランスクリプトで確認するようになりました。\n- [Fixed] Windowsでベアgitが解決できない場合に、ExitWorktreeが「Could not verify worktree state」というメッセージでクリーンなワークツリーの削除を拒否する問題を修正しました。\n- [Fixed] ~/.claude/settings.jsonがシンボリックリンクされた~/.claude内の相対シンボリックリンクである場合に、設定変更（例: /effortや/model）がENOENTで失敗する問題を修正しました。\n- [Fixed] コンテキストリマインダーでのIDE選択行番号が1つずれる問題を修正しました（IntelliJおよびVS Code）。\n- [Fixed] ネイティブターミナル選択（修飾子+ドラッグ）後にフルスクリーンでCtrl+Cが、クリップボードをアプリの以前の選択で上書きする問題を修正しました。\n- [Fixed] クリップボードにテキストが含まれている場合、Ctrl+Vが貼り付けずに「No image found in clipboard」と表示される問題を修正しました。\n- [Fixed] エージェントディレクトリが既に存在する場合（Windows/OneDrive）、エージェント作成が「EEXIST: file already exists」で失敗する問題を修正しました。\n- [Fixed] AskUserQuestionプレビューコンテンツが、ワードラップされずにダイアログの端で切り取られる問題を修正しました。\n- [Fixed] AskUserQuestionの複数選択質問で、提出時に入力された「Other」の自由形式回答がサイレントに破棄される問題を修正しました。\n- [Fixed] /statsの「Most active day」と日次トークンチャートの日付が、UTC-負のタイムゾーンで1日早く表示される問題を修正しました。\n- [Fixed] Claude Code起動後にインストールされたクリップボードユーティリティを、Linuxの/copyおよびコピーオンセレクトが検出しない問題を修正しました。\n- [Fixed] タブインデントされたコードが、Write（ファイル作成）プレビューで誤ったインデントでレンダリングされる問題を修正しました。\n- [Fixed] ターン中にキューイングされたユーザープロンプトが、トランスクリプトで全幅の背景ハイライトを表示しない問題を修正しました。\n- [Fixed] アクティビティスピナーのパルスがGhosttyで誤ったグリフサイズに留まる問題を修正しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-06-18"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- r/MacAppsコミュニティの品質と現状をチェック\n  https://www.reddit.com/r/macapps/comments/1tztc04/rmacapps_community_quality_status_check/\n- 【まとめ】6月版「アプリの山」\n  https://www.reddit.com/r/macapps/comments/1ttp8mu/megathread_the_app_pile_june_2026/\n- Noject：常に接続されたドライブの誤排出を防ぐMacネイティブアプリ\n  https://www.reddit.com/r/macapps/comments/1u87j2o/noject_a_native_mac_app_that_stops_accidental/\n- Radix：macOSネイティブのディスク容量アナライザー（DaisyDiskの無料代替）\n  https://www.reddit.com/r/macapps/comments/1u7xm5p/os_radix_native_macos_disk_space_analyzer_free/\n- OS Engine 1.7：Metal対応の雨/雪エフェクト、ネイティブLock Screen＆Screensaverをサポート\n  https://www.reddit.com/r/macapps/comments/1u8ieza/os_engine_17_metal_rainsnow_effects_native_lock/\n- TimeGauge：大切なことへの進捗を確認できるメニューバーアプリ「Little Time Perspective」がApp Storeで配信中（買い切り2.99ドル）\n  https://www.reddit.com/r/macapps/comments/1u8mh40/timegauge_little_time_perspective_is_a_menu_bar/\n- Scap v1.3リリース！ドローツール、ぼかし/モザイク、透かし機能を備えたスクリーンショット注釈＆黒板プレゼンツール\n  https://www.reddit.com/r/macapps/comments/1u8gl8b/scap_v13_is_out_screenshot_annotation_and/\n- あまり知られていないが、他にはない強力なアプリはありますか？\n  https://www.reddit.com/r/macapps/comments/1u7ulwk/what_are_some_not_well_known_but_powerful_apps/\n- Cove：Macのワークスペースを丸ごと保存し、ワンクリックでプロジェクトを切り替え（買い切り9.99ドルでリリース）\n  https://www.reddit.com/r/macapps/comments/1u8c6vt/cove_save_your_full_mac_workspace_and_switch/\n- Wallperが1周年、過去最大級のアップデートを配信（Mac用ライブ壁紙）\n  https://www.reddit.com/r/macapps/comments/1u863f4/wallper_turned_1_and_just_shipped_its_biggest/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-18"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-18"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1501pt] ローカルモデルの実行が今や当たり前に | 「まだ快適とは言えない」という声が多く、性能と速度のバランスに不満が見られる。ローカルモデルの進化がクラウドサービスにとって脅威になるとの意見も。\n  https://news.ycombinator.com/item?id=48555993\n- [1107pt] SpaceXがCursorを600億ドルで買収へ | 「SpaceXがIDEを買収する意味が分からない」という意見が多く、「Cursorは使いにくい」という批判も。巨額の買収額とAI市場の可能性について議論されている。\n  https://news.ycombinator.com/item?id=48553224\n- [971pt] GrapheneOSがAndroid 17に移植 | GrapheneOSの安定性とセキュリティを高く評価する声が多く、Pixel以外のデバイスへの対応を望む意見も見られる。「VolkswagenがGrapheneOSユーザーをブロックしている」という関連情報も共有されている。\n  https://news.ycombinator.com/item?id=48561654\n- [970pt] 米国消費者の6割がブランドメッセージの「AI」に嫌悪感 | AIが顧客サービスを悪化させていると感じる消費者が多く、「品質よりもコスト削減が目的」という見方が支配的。企業がAIを使う動機と消費者の期待の乖離が指摘されている。\n  https://news.ycombinator.com/item?id=48569278\n- [914pt] Fabrice Bellardに感嘆、彼はほぼ間違いなく最高のプログラマーだ | 彼の「優れたプロジェクト選択眼」と「仕様をC言語に落とし込む能力」を称賛する声が多い。FFmpegへの貢献期間についての訂正や、彼のウェブサイトを紹介するコメントも見られる。\n  https://news.ycombinator.com/item?id=48550779\n- [861pt] Appleの乗り物酔い対策ドットが車酔いを治した | 「この機能を知らなかった、試してみたい」という期待の声が多い一方で、「効果がなかった」という報告や、Android版アプリの紹介もある。乗り物酔いのメカニズムに関する考察も。\n  https://news.ycombinator.com/item?id=48557530\n- [849pt] Lore – スケーラビリティを追求したオープンソースのバージョン管理システム | ゲーム開発、特にUnreal EngineコミュニティにとってPerforceの強力な代替となることに期待が集まっている。GitのUIに対する不満や、このシステムが以前から存在していたことへの言及も。\n  https://news.ycombinator.com/item?id=48571081\n- [727pt] GLM-5.2がArtificial Analysisで新たな主要オープンウェイトモデルに | 「GPT-5.5 Opus 4.7に近い品質でありながら安価」と高く評価する声が多いが、推論効率の改善を求める意見も。Visionモデルではない点に驚きの声が見られる。\n  https://news.ycombinator.com/item?id=48567759\n- [726pt] 機械式時計 (2022) | 著者の「複雑なトピックを分かりやすく説明する能力」と「手書きコードの品質」を称賛する声が多い。記事に触発されて、自身も機械式時計の分解図を作ったというコメントも見られる。\n  https://news.ycombinator.com/item?id=48553550\n- [632pt] Metaはエンジニアリング組織を破壊しているのか？ | Metaの買収した組織（WhatsApp, Instagramなど）はうまく運営されているという意見がある一方で、AIへの強制的な人材再配置への不満や、Zuckerberg氏の経営方針に対する批判が多く見られる。AIが業界の新たな常態になることへの懸念も。\n  https://news.ycombinator.com/item?id=48558045",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-06-18"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "13 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Roelof Botha、SpaceXの取締役に就任\n  https://techcrunch.com/2026/06/17/roelof-botha-joins-spacexs-board-of-directors/\n- 超高価なARグラス発表後、Snap株が急落\n  https://techcrunch.com/2026/06/17/after-unveiling-ridiculously-expensive-ar-glasses-snaps-stock-takes-a-dive/\n- NEAのTiffany Luck氏、企業は依然としてAIのROIを模索中と語る\n  https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/\n- 世界のリーダーはアメリカのAIを求めるが、アメリカによる停止は望まない\n  https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/\n- Anthropic、AIスタートアップとして初めてFrontierカーボン除去連合に参加\n  https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/\n- ソーシャルメディアの次なる進化：ユーザー主導のアルゴリズム\n  https://techcrunch.com/2026/06/17/social-medias-next-evolution-user-controlled-algorithms/\n- 世界モデル構築のOdyssey、Amazonなどが出資し14.5億ドルの評価額を獲得\n  https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/\n- 新調査で判明：AIが社会に好影響を与えると考えるアメリカ人はわずか16%\n  https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/\n- Google、スマートホームスピーカーの再発明にGeminiを投入\n  https://techcrunch.com/2026/06/17/google-bets-on-gemini-to-reinvent-the-smart-home-speaker/\n- スローテック革命が到来、スマホ依存を解消し集中力を取り戻す\n  https://techcrunch.com/2026/06/17/the-slowtech-revolution-is-here-to-kill-your-phone-addiction-and-rescue-your-attention-span/\n- ロボット訓練データの収集は地味で骨の折れる作業。一部のAIラボは既にXDOFに依頼。\n  https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/\n- Pramaana Labs、Khosla Venturesから2700万ドルのシード資金を調達しAIの形式検証を推進\n  https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/\n- カナダの年金基金、インドのAIデータセンターブームへの資金提供競争に参画\n  https://techcrunch.com/2026/06/17/canadian-pension-giant-joins-race-to-fund-indias-ai-fueled-data-center-boom/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-06-18"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Infinite：GA4、PostHog、StripeをローカルDBに統合するOSランタイム\n  https://www.producthunt.com/products/infinite-the-growth-engineering-agent\n- StickerWords：身の回りの世界から新しい単語を学ぶ\n  https://www.producthunt.com/products/stickerwords\n- Spanly：MCPサーバー内でAIエージェントが何をするかを確認\n  https://www.producthunt.com/products/spanly\n- Vitrine：どんな写真も美しい壁紙に変える\n  https://www.producthunt.com/products/vitrine\n- Android 17：Androidがインテリジェンスシステムに進化\n  https://www.producthunt.com/products/android\n- Framer 3.0：Agents、Branching、Communityを搭載し、デザインも一新\n  https://www.producthunt.com/products/framer\n- Dopami：ADHDの人のための、精神的負担の少ない家事管理\n  https://www.producthunt.com/products/dopami\n- Locus Founder：AIエージェントにテキストを送るだけでビジネスを構築・運営\n  https://www.producthunt.com/products/locus-founder\n- Mirlo：本当のつながりのためのソーシャルメディア。いいねもアルゴリズムもなし\n  https://www.producthunt.com/products/mirlo\n- Typerino：映画、テレビ、舞台向けの脚本作成ツール\n  https://www.producthunt.com/products/typerino",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-06-18"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
+      "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+      "summary": "Anthropicが韓国ソウルにオフィスを開設し、NAVERやLGなど韓国企業や研究機関との提携を強化。",
+      "ogImage": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20Globe&backgroundColor=heather",
+      "publishedAt": "2026-06-18"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "1 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Tolmo、クラウドのあらゆる層を保護するAIセキュリティプラットフォームを発表\n  https://www.tolmo.com",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-06-18"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "🔬 The Self-Driving Lab — Joseph Krause, Radical AI ",
+      "url": "https://www.latent.space/p/radical-ai",
+      "summary": "Radical AIが「AI科学者」と自動ロボットを組み合わせた「セルフドライビングラボ」を構築し、材料発見プロセスを大幅に加速させている。",
+      "publishedAt": "2026-06-18",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!Oe-m!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F202058620%2Ffb833e64-2770-4c25-a683-a4d97267a2f7%2Ftranscoded-1781717199.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] GLM-5.2: the top Frontend Coding model in the world, IndexShare for Speculative Decoding ",
+      "url": "https://www.latent.space/p/ainews-glm-52-the-top-frontend-coding",
+      "summary": "Z.aiが、コーディングや長期間のAIエージェント作業に特化したMITライセンスのオープンモデル「GLM-5.2」をリリースし、高い評価を得ている。",
+      "publishedAt": "2026-06-17",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!tOcj!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2c75ad4c-83e2-4317-8cf0-276d3cab6e59_1226x1830.png"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "3 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-06-18",
+      "docsUpdates": [
+        {
+          "tag": "Fixed",
+          "file": "skills.md",
+          "text": "スキルのコマンド名のソースに関する表の記述が修正され、より正確な情報が提供されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2f6b3e8335ba33024ac928e7855e1a4eb6e4043b"
+        },
+        {
+          "tag": "Improved",
+          "file": "sub-agents.md",
+          "text": "`disallowedTools`と`tools`フィールドにおけるMCPサーバーレベルのパターンに関する説明に、`github` MCPサーバーのツールを削除する具体的な例が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2f6b3e8335ba33024ac928e7855e1a4eb6e4043b"
+        },
+        {
+          "tag": "Fixed",
+          "file": "changelog.md",
+          "text": "Linux sandboxが`.claude/skills`または`.claude/hooks`がシンボリックリンクである場合に起動に失敗する問題を修正しました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/9f4a5e59c56aa8796e9a24e0fd18f19a1065dfa9"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "Claude Codeのドキュメントのchangelogが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ad4c198d9f329ae5fe7216bd8f5f1a6ada39c620"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "5 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- エンタープライズ管理設定、バイパス権限コントロールをサポート\n  https://github.blog/changelog/2026-06-17-enterprise-managed-settings-now-support-bypass-permission-controls\n- Copilot Chatの自動モード、全ユーザーに提供開始\n  https://github.blog/changelog/2026-06-17-auto-mode-in-copilot-chat-available-for-all-users\n- GitHub Copilot向けエージェントファインダーが利用可能に\n  https://github.blog/changelog/2026-06-17-agent-finder-for-github-copilot-now-available\n- Copilot個人プランの登録が再開\n  https://github.blog/changelog/2026-06-17-copilot-individual-plan-sign-ups-are-reopening\n- GitHub Copilotアプリが一般提供開始\n  https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-06-18"
+    }
+  ]
+}
