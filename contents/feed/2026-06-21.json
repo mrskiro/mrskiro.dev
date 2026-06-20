@@ -1,0 +1,143 @@
+{
+  "fetchedAt": "2026-06-20T21:57:20.414Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.185",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.185",
+      "summary": "- [Changed] ストリーム停止のヒントが「No response from API · Retrying in …」から「Waiting for API response · will retry in …」に変更され、表示されるまでの時間が10秒から20秒になりました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [923pt] 現代自動車がBoston Dynamicsを買収 | 「なぜ人型ロボットなのか」と懐疑的な意見がある一方で、買収そのものには肯定的なコメントが多い。\n  https://news.ycombinator.com/item?id=48600312\n- [776pt] ノルウェー、小学校でのAI利用をほぼ禁止 | AIが生徒の学習効果を阻害するとの指摘が多く、規制に理解を示す声が多数。\n  https://news.ycombinator.com/item?id=48600093\n- [644pt] Project Valhallaを解説：10年の歳月を経てJDK 28に搭載へ | 長年の開発への労をねぎらう声がある一方で、複雑さやこれまでのJava/JVMに対する不満も見られる。\n  https://news.ycombinator.com/item?id=48595511\n- [521pt] Google WorkspaceがFirefoxからのアクセスをブロックすると脅迫 | 企業IT部門のセキュリティ設定の問題である可能性が高いとの意見が多数。\n  https://news.ycombinator.com/item?id=48600345\n- [516pt] ATProtoにはインスタンスが存在しない | ATProtoの仕組みについて解説する記事に対し、説明が分かりにくいという批判的なコメントが複数見られる。\n  https://news.ycombinator.com/item?id=48599515\n- [483pt] GPT-5.5、MITライセンスのGLM-5.2よりも幻覚が3倍多い | 幻覚率の解釈の難しさや、モデルの知能の停滞に関する議論が展開されている。\n  https://news.ycombinator.com/item?id=48600167\n- [478pt] 裁判記録は無料であるべき | PACERの記録アクセス料金に対する不満が多数。代替サービスへの言及も。\n  https://news.ycombinator.com/item?id=48600946\n- [472pt] 17万の英単語のうち、いくつ知っていますか？ | 単語テストのUIや仕組みへの改善要求が多く、テストの正確性にも疑問の声。\n  https://news.ycombinator.com/item?id=48598586\n- [449pt] Doom、Wolfenstein 3D、Duke Nukem 3Dの作曲家Bobby Princeが死去 | 氏の作曲したゲーム音楽への感謝と、その影響力の大きさを語るコメントが多数。\n  https://news.ycombinator.com/item?id=48602352\n- [440pt] AirPods効果 | イヤホンによる遮音効果のメリットを語る声が多く、見知らぬ人との交流減少を「不自然」とする記事内容に反論も。\n  https://news.ycombinator.com/item?id=48592832",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "6 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- SignalのMeredith Whittaker氏、AIチャットボットは「友達ではない」と警告\n  https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/\n- 新AI検索「In the Weights」が登場、あなたもAIの主役に\n  https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/\n- Founders Fund、人道的に処理された魚に異例の投資\n  https://techcrunch.com/2026/06/20/founders-funds-outlier-bet-on-humanely-killed-fish/\n- ノーベル賞受賞者John Jumper氏、DeepMindを退社しライバルAnthropicへ移籍\n  https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/\n- 無料動画プレーヤーをスムーズにした男が、今度はロボットに挑む\n  https://techcrunch.com/2026/06/19/he-made-your-free-video-player-run-smoothly-now-hes-doing-that-for-robots/\n- PGPからMythosまで：誰も止められなかった輸出規制の歴史\n  https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- WorkClaw — Slackで共同作業するAI同僚\n  https://www.producthunt.com/products/workclaw\n- Pixlie — AI動画スタジオ：テキストや画像から動画を生成、詳細な制御も可能\n  https://www.producthunt.com/products/pixlie\n- Slackbot’s MCP Client — Slackで20以上のアプリを横断し、複数人での共同作業を実現\n  https://www.producthunt.com/products/slack\n- pumaDB — AIエージェント向け軽量ホスト型メモリレイヤー\n  https://www.producthunt.com/products/pumadb\n- Mellum by JetBrains — 低遅延・高性能ワークフローのための高速LLM\n  https://www.producthunt.com/products/jetbrains\n- ReleaseDock — AIサポートエージェント、ヘルプセンター、変更履歴をまとめて管理\n  https://www.producthunt.com/products/releasedock\n- Reframe — 1999年を再現するネットサーフィン体験\n  https://www.producthunt.com/products/reframe-7\n- Basedash Access Controls — 企業データへのアクセスを厳密に制御\n  https://www.producthunt.com/products/basedash\n- Foyer — ノッチに収まる、アンビエントサウンドの部屋を構築\n  https://www.producthunt.com/products/foyer-4\n- Are you in the Weights? — あなたはLLMの脳内で永遠に生き続けるのか？\n  https://www.producthunt.com/products/are-you-in-the-weights",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-e7b",
+      "summary": "GLM 5.2が引き続き話題の中、AIE WF 2026のチケットが週明けには完売する見込み。",
+      "publishedAt": "2026-06-20",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!XmzS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F53ab5745-2cb8-4b37-b574-e6af9fa01f69_1854x1166.png"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "12 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-06-21",
+      "docsUpdates": [
+        {
+          "tag": "Improved",
+          "file": "changelog.md",
+          "text": "changelog.mdドキュメントの内容が更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/8cff0e3ecc16dd758cbc528b9d5cbe045fdf70cd"
+        },
+        {
+          "tag": "Improved",
+          "file": "chrome.md",
+          "text": "Claude CodeがChrome拡張機能を検出できない場合のトラブルシューティング手順が明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/bad5d618bf11911bb2561096882255b92ac19bf7"
+        },
+        {
+          "tag": "Improved",
+          "file": "claude-code-on-the-web.md",
+          "text": "ウェブセッションでClaudeが作成するコミットやPRにおけるセッションURLの帰属に関する情報が、最小バージョン2.1.182以降の設定について言及されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/bad5d618bf11911bb2561096882255b92ac19bf7"
+        },
+        {
+          "tag": "Improved",
+          "file": "headless.md",
+          "text": "ヘッドレスモードでのバックグラウンドBashタスク終了時の動作に関する説明が、より正確な「シェル」という用語を使用するように更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/bad5d618bf11911bb2561096882255b92ac19bf7"
+        },
+        {
+          "tag": "Changed",
+          "file": "managed-mcp.md",
+          "text": "`serverName`エントリがセキュリティ制御ではないという警告に、`claude.ai`コネクタの場合の追加情報が加わりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/bad5d618bf11911bb2561096882255b92ac19bf7"
+        },
+        {
+          "tag": "Changed",
+          "file": "mcp.md",
+          "text": "claude.aiコネクタを無効にする方法が、環境変数`ENABLE_CLAUDEAI_MCP_SERVERS`から設定項目`disableClaudeAiConnectors`を参照するように変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/bad5d618bf11911bb2561096882255b92ac19bf7"
+        },
+        {
+          "tag": "Added",
+          "file": "model-config.md",
+          "text": "要求されたモデルに終了予定日がある場合や、新しいバージョンに自動的に再マッピングされる場合に、警告が表示されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/bad5d618bf11911bb2561096882255b92ac19bf7"
+        },
+        {
+          "tag": "Added",
+          "file": "permission-modes.md",
+          "text": "信頼されていない操作のリストに、gitの破壊的なコマンド（`git reset --hard`など）や、Terraformなどのインフラ破壊コマンドが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/bad5d618bf11911bb2561096882255b92ac19bf7"
+        },
+        {
+          "tag": "Fixed",
+          "file": "commands.md",
+          "text": "/code-reviewコマンドの説明文中に、余計な空白が含まれていた箇所が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/bad5d618bf11911bb2561096882255b92ac19bf7"
+        },
+        {
+          "tag": "Fixed",
+          "file": "env-vars.md",
+          "text": "環境変数`CLAUDE_CODE_CLIENT_CERT`の説明文中に、余計な空白が含まれていた箇所が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/bad5d618bf11911bb2561096882255b92ac19bf7"
+        },
+        {
+          "tag": "Fixed",
+          "file": "keybindings.md",
+          "text": "Settingsコンテキストで利用可能なアクションのテーブルが削除され、`select:accept`および`confirm:no`アクションが再利用されるという説明に更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/bad5d618bf11911bb2561096882255b92ac19bf7"
+        },
+        {
+          "tag": "Fixed",
+          "file": "settings.md",
+          "text": "設定項目`disableArtifact`の説明文中に、余計な空白が含まれていた箇所が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/bad5d618bf11911bb2561096882255b92ac19bf7"
+        }
+      ]
+    }
+  ]
+}
