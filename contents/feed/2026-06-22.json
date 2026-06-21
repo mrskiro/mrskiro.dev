@@ -1,0 +1,85 @@
+{
+  "fetchedAt": "2026-06-21T22:06:24.794Z",
+  "entries": [
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- r/MacAppsコミュニティの品質・ステータスチェックを実施\n  https://www.reddit.com/r/macapps/comments/1tztc04/rmacapps_community_quality_status_check/\n- 【大規模スレッド】The App Pile - 2026年6月\n  https://www.reddit.com/r/macapps/comments/1ttp8mu/megathread_the_app_pile_june_2026/\n- Day Oneの代替アプリ\n  https://www.reddit.com/r/macapps/comments/1uc08qv/alternatives_to_day_one/\n- DerivedData、シミュレーターデータ、Dockerイメージの削除前にレビュー段階を構築\n  https://www.reddit.com/r/macapps/comments/1ubshxb/deriveddata_simulator_data_docker_images_i_built/\n- macOSアプリを真にネイティブで洗練されたものにする要素とは\n  https://www.reddit.com/r/macapps/comments/1ubneer/what_makes_a_macos_app_feel_truly_native_and/\n- MultiTime - 複数の時計をメニューバーに表示\n  https://www.reddit.com/r/macapps/comments/1uc2ml8/multitime_put_multiple_clocks_on_your_menu_bar/\n- Notchkin - MacBookのノッチに表示されるメモ\n  https://www.reddit.com/r/macapps/comments/1ub9jr6/notchkin_notes_that_live_in_your_macbooks_notch/\n- CCCCorners – macOSのホットコーナーをより便利に（プリセットと自動化機能を追加）\n  https://www.reddit.com/r/macapps/comments/1uazqkp/ccccorners_make_macos_hot_corners_useful_now_with/\n- 線形代数ビジュアライザー2.0\n  https://www.reddit.com/r/macapps/comments/1ub6ss6/linear_algebra_visualizer_20/\n- Apple Photosをソート・自動整理する5つの新しい方法\n  https://www.reddit.com/r/macapps/comments/1ubfkz4/five_new_ways_to_sort_and_autoorganize_apple/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [527pt] CSSQuake：CSSで実装されたQuake | M1 Mac Proでも90年代のPCより動作が重いとの声があるが、多くの人が快挙と評価。\n  https://news.ycombinator.com/item?id=48608223\n- [501pt] Loupe – ネイティブアプリが収集するデータについて意識を高めるiOSアプリ | アプリによる個人情報収集への懸念や、プライバシー保護の改善を求める声が多数。\n  https://news.ycombinator.com/item?id=48608645\n- [471pt] 画面では表示できない色を見つける方法 | 記事の内容に感銘を受けた人や、絵画やレーザー光線での色の経験談が寄せられている。\n  https://news.ycombinator.com/item?id=48606140\n- [452pt] Claudeでの本人確認について | 厳格な本人確認への不満や、AIの公平性、プライバシー侵害への懸念が指摘されている。\n  https://news.ycombinator.com/item?id=48618455\n- [396pt] Beyond All Reason (Total Annihilationにインスパイアされた無料RTS) | ゲーム自体は素晴らしいが、コミュニティが非常に排他的で初心者には厳しいとの意見が目立つ。\n  https://news.ycombinator.com/item?id=48617990\n- [395pt] 盗作「Obscure Sorrows」について | 自身の著作物もAIによる盗作被害にあったという報告や、DMCAテイクダウンの有効性を問う声。\n  https://news.ycombinator.com/item?id=48611411\n- [381pt] 間違った抽象化よりも重複を優先する (2016) | DRY原則の盲信に疑問を呈し、過剰な抽象化よりもコード重複の方がマシという意見が多い。\n  https://news.ycombinator.com/item?id=48620090\n- [373pt] GoogleがIPv6普及率50%を達成 | AWSのIPv4料金や、ISPのIPv6対応の遅れに対する不満が多く見られる。\n  https://news.ycombinator.com/item?id=48616800\n- [368pt] 遅い呼吸が脳機能とリスク行動に与える影響 | 呼吸法が心の状態に与える影響や、リスク行動との関連性について関心が集まっている。\n  https://news.ycombinator.com/item?id=48613555\n- [360pt] 脳はこれほどの悪いニュースに対応するようには設計されていない | ネガティブなニュースへの過剰な露出や、SNSの弊害について多くの意見が交わされている。\n  https://news.ycombinator.com/item?id=48615569",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "2 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- トランプ政権がAnthropicを規制強化、その恩恵を受けるのは誰か\n  https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/\n- Siriの先へ：iOS 27でiPhoneに搭載される実用的なAI機能とは\n  https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Agent 37 Cloud — 全ての顧客に専用のHermesまたはOpenClawエージェントを\n  https://www.producthunt.com/products/agent-37-38\n- Plansera AI — AIが作成するE-2ビザ事業計画\n  https://www.producthunt.com/products/plansera-ai\n- Cloudback MCP Server — Claude、Cursor、VS Codeからバックアップを管理\n  https://www.producthunt.com/products/cloudback\n- Laguna by Poolside — エージェントコーディングと長期的作業のための基盤モデル\n  https://www.producthunt.com/products/poolside\n- Backgrind — あらゆるアプリ、ゲームでもAIエージェントを実行\n  https://www.producthunt.com/products/backgrind\n- Grok by SpaceXAI for Word — Word内でドラフト作成、再構成、表現の洗練を\n  https://www.producthunt.com/products/grok-by-spacexai-for-word\n- oioi — macOS、Windows、Linux向けの高速で洗練されたクリップボードマネージャー\n  https://www.producthunt.com/products/oioi\n- Notchkin — MacBookのノッチに収まるノートアプリ\n  https://www.producthunt.com/products/notchkin\n- Atomic Mail Agentic — エージェントがメールを自律的に読み、送信、対応\n  https://www.producthunt.com/products/atomic-mail-agentic\n- Reframe — 1999年のようにネットサーフィン\n  https://www.producthunt.com/products/reframe-7",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "2 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Levocred AI、信用業務チーム向けのAIツールをローンチ\n  https://levocred.com/\n- Osmaura、法律事務所向けに新たな案件機会を発見\n  https://osmaura.com",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[Exclusive] $250 off AI Engineer tix til Monday",
+      "url": "https://www.latent.space/p/exclusive-250-off-ai-engineer-tix",
+      "summary": "有料会員向けにAINewsでの特典提供を告知したが、約30%が未登録のため再告知。",
+      "publishedAt": "2026-06-22",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!MovB!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb2eafb12-892b-44cc-b2d0-6ed07ef991cc_1494x870.png"
+    },
+    {
+      "sourceName": "GitHub Trending",
+      "title": "Weekly Trending",
+      "url": "https://github.com/trending?since=weekly",
+      "summary": "- DeusData/codebase-memory-mcp：高性能なコードインテリジェンスMCPサーバー。コードベースを永続的なナレッジグラフにインデックス化し、平均的なリポジトリをミリ秒で処理。158言語、サブミリ秒のクエリ、99%少ないトークン。単一の静的バイナリ、依存関係なし。 ⭐5,419/week\n  https://github.com/DeusData/codebase-memory-mcp\n- chopratejas/headroom：ツール出力、ログ、ファイル、RAGチャンクがLLMに到達する前に圧縮。60-95%少ないトークンで同じ回答。ライブラリ、プロキシ、MCPサーバー。 ⭐14,982/week\n  https://github.com/chopratejas/headroom\n- Panniantong/Agent-Reach：AIエージェントにインターネット全体を見る目を与える。Twitter、Reddit、YouTube、GitHub、Bilibili、XiaoHongShuを読み込み・検索 — 1つのCLI、API料金ゼロ。 ⭐8,483/week\n  https://github.com/Panniantong/Agent-Reach\n- iptv-org/iptv：世界中の公開されているIPTVチャンネルのコレクション。 ⭐7,856/week\n  https://github.com/iptv-org/iptv\n- n0-computer/iroh：IPアドレスは壊れる、代わりにダイヤルキーを使う。Rustで書かれたモジュール型ネットワーキングスタック。 ⭐1,621/week\n  https://github.com/n0-computer/iroh\n- google-research/timesfm：TimesFM (Time Series Foundation Model) は、Google Researchが時系列予測のために開発した、事前学習済み時系列基盤モデル。 ⭐3,655/week\n  https://github.com/google-research/timesfm\n- NVIDIA/SkillSpector：AIエージェントスキル用のセキュリティスキャナー。脆弱性、悪意のあるパターン、セキュリティリスクを検出。 ⭐4,631/week\n  https://github.com/NVIDIA/SkillSpector\n- asgeirtj/system_prompts_leaks：Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexityなどから抽出されたシステムプロンプト。定期的に更新。 ⭐1,866/week\n  https://github.com/asgeirtj/system_prompts_leaks\n- calesthio/OpenMontage：世界初のオープンソースのエージェント型ビデオ制作システム。12パイプライン、52ツール、500以上のエージェントスキル。AIコーディングアシスタントを完全なビデオ制作スタジオに変える。 ⭐2,253/week\n  https://github.com/calesthio/OpenMontage\n- withastro/flue：サンドボックスエージェントフレームワーク。 ⭐1,012/week\n  https://github.com/withastro/flue",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "1 file updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-06-22",
+      "docsUpdates": [
+        {
+          "tag": "Improved",
+          "file": "changelog.md",
+          "text": "Claude Codeのドキュメントのchangelogが更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/49e8b5c6a5ae13e55afb93d43c9e411cb7b91443"
+        }
+      ]
+    }
+  ]
+}
