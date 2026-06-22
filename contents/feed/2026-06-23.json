@@ -1,0 +1,141 @@
+{
+  "fetchedAt": "2026-06-22T22:28:41.834Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "summary": "OpenAIがCodex SecurityやGPT-5.5-Cyberなどの新ツールを導入し、組織の脆弱性対応を支援。",
+      "publishedAt": "2026-06-22",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/6cfZttLA6PlFuCVypDeSh/5a3deeb70010cdf58dd7b78547850092/SEO_Card__4_.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "url": "https://openai.com/index/patch-the-planet",
+      "summary": "OpenAIが、オープンソースの脆弱性発見・修正をAIと専門家が支援する「Patch the Planet」を発表。",
+      "publishedAt": "2026-06-22",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/28CORR4fvsUacNtm39ZFFM/f57721baa5b429689844d619a4f1e5dd/SEO_Card__1_.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Codex-maxxing for long-running work",
+      "url": "https://openai.com/index/codex-maxxing-long-running-work",
+      "summary": "Codexを活用して、複雑なプロジェクト管理や、複数のプロンプトを超えた作業継続の方法を紹介。",
+      "publishedAt": "2026-06-22",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/5wPjFVJwFZxBbh88EPcZIm/cd0e0689bc0c9120db4775b6c4a40ea9/Codex_Maxxing_16x9.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "summary": "Samsung ElectronicsがChatGPT EnterpriseとCodexを全従業員に展開し、大規模な企業AI導入を推進。",
+      "publishedAt": "2026-06-22",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/18IGXqgYieQfH2AcUiYbua/4975e902fc7b1eb55f0863da06f82c92/samsung-electronics-16_9.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.186",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.186",
+      "summary": "- [Added] MCPサーバー認証にclaude mcp login <name>とclaude mcp logout <name>を追加。CLIから認証でき、--no-browserでSSH経由の認証も可能。\n- [Added] /workflowsエージェント詳細ビューにステータスフィルタリング（fキー）を追加。\n- [Added] /pluginの「Installed」タブに「Skills」セクションを追加。\n- [Added] teammateMode: \"iterm2\"設定を追加。autoモードでit2 CLIが見つからない場合に警告を表示。\n- [Added] awsAuthRefreshが設定されている場合、/loginに「Claude Platform on AWS - refresh credentials」オプションを追加。\n- [Changed] ! bashコマンドが自動的にClaudeからの応答をトリガーするようになりました。以前のコンテキストのみの動作に戻すには、settings.jsonで\"respondToBashCommands\": falseを設定してください。\n- [Fixed] スリープ復帰後、「Content block not found」やJSONパースエラーでストリーミングリクエストが失敗する問題を修正。\n- [Fixed] サブエージェントのトランスクリプトスクロール位置がメインのトランスクリプトに漏れる問題を修正。\n- [Fixed] バックグラウンドタスクのプレビューで、エージェントのプランがロードされる前に生のツール名が点滅する問題を修正。\n- [Fixed] 並行CLIセッションで、製品内パーミッションゲートがオフの場合にChromeタブグループ分離が適用されない問題を修正。\n- [Fixed] バックグラウンドセッションの要約が重複する問題を修正。エージェント自身のターン終了要約が要約行として表示されるようになりました。\n- [Fixed] claude agentsからバックグラウンドセッションを開くと、前の画面が背景に残る問題を修正。\n- [Fixed] Agent(type)拒否ルールおよびAgent(x,y)許可タイプ制限が、名前付きサブエージェントのスポーンで適用されない問題を修正。\n- [Fixed] メインターン終了後もバックグラウンドエージェントが実行中の場合、EscおよびCtrl+Cが応答しない問題を修正。\n- [Fixed] オプションテキストがオーバーフローした場合に、権限プロンプトのオプション番号がずれる問題を修正。\n- [Fixed] エージェントパネルで完了したサブエージェントのxを押しても閉じない問題を修正。\n- [Fixed] 古いセッションを再開した際に、意図的に廃止されたツールに対して「MCP server disconnected」という誤解を招く通知が表示される問題を修正。\n- [Fixed] /plugin Installedで、すでに一番上までスクロールしているのに「more above」インジケータが表示される問題を修正。\n- [Fixed] ~~strikethrough~~が、取り消し線としてレンダリングされる代わりに、アシスタントメッセージでリテラルなチルダを表示する問題を修正。\n- [Fixed] --toolsが、最初のコールドスタート時にフラグがロードされる前に機能ゲートされたツールをすり抜けることを許可していた問題を修正。\n- [Fixed] claude agentsのバックグラウンドジョブステータスが、応答後も古い「needs input」メッセージを表示する問題を修正。\n- [Fixed] ライトターミナルでclaude agentsからバックグラウンドセッションを開くと、ダークテーマが一瞬表示される問題を修正。\n- [Fixed] claude agentsでマウスで選択したテキストが、削除後もハイライトされたままになる問題を修正。\n- [Fixed] 使用量ベースのEnterpriseおよびTeamサブスクライバーのセッションコストが表示されない問題を修正。\n- [Fixed] エージェントチーム：tmux/paneバックエンド経由でスポーンされたチームメイトが、リーダーの--effortレベルを継承するようになりました。\n- [Fixed] Workflow agent({schema})サブエージェントが、スキーマ検証の失敗を繰り返すと5回の試行後に中止する代わりに無限ループする問題を修正。\n- [Improved] claude mcp getとclaude mcp removeを改善。タイプミス時に最も近い設定済みサーバー名を提案し、長いサーバーリストを短縮表示するようになりました。\n- [Improved] メモリを改善。エージェントがサイズ制限に近づくと、MEMORY.mdインデックスを圧縮するよう通知されるようになりました。\n- [Improved] スキルフロントマターを改善。display-name、default-enabled、fallback、およびmetadata.*キーがケバブケース、スネークケース、キャメルケースを受け入れるようになりました。\n- [Improved] 不正なSKILL.md YAMLフロントマターの処理を改善。サイレントに失敗する代わりに、空のメタデータでスキル本文をロードするようになりました。\n- [Changed] CLAUDE_CODE_MAX_RETRIESを15に制限しました。無人セッションの場合は、代わりにCLAUDE_CODE_RETRY_WATCHDOGを使用してください。\n- [Changed] バックグラウンドサブエージェントが、自動拒否する代わりにメインセッションで権限プロンプトを表示するようになりました。ダイアログはどのエージェントが要求しているかを示し、Escキーはそのツールのみを拒否します。\n- [Changed] /review <pr>が、/code-review mediumと同じレビューエンジンを使用するようになりました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- 注意喚起：「pearcleaner.com」はmacOS向けマルウェアを配布する偽サイト\n  https://www.reddit.com/r/macapps/comments/1ucstzy/psa_pearcleanercom_is_a_fake_site_pushing_macos/\n- r/MacAppsコミュニティの品質・ステータスチェック\n  https://www.reddit.com/r/macapps/comments/1tztc04/rmacapps_community_quality_status_check/\n- Mimoto - 完全ローカルなiMessage履歴アナライザー\n  https://www.reddit.com/r/macapps/comments/1ucmz43/mimoto_imessage_history_analyzer_fully_local/\n- [OS] FluidVoiceが劇的に進化！ 無料のローカルAI音声入力、デバイス内強化モデル搭載。音声テキスト変換にお金を払う必要はもうありません。\n  https://www.reddit.com/r/macapps/comments/1ucezv2/os_fluidvoice_is_back_with_a_bang_free_local_ai/\n- LinguaX: macOS向け軽量マウスエンハンサー (スムーズスクロール + アプリごとのボタンマッピング、約10MB)\n  https://www.reddit.com/r/macapps/comments/1uckhc6/linguax_a_native_lightweight_mouse_enhancer_for/\n- Filesideが進化 - クロスプラットフォーム対応マルチペインファイルマネージャーのバージョン2.0が登場\n  https://www.reddit.com/r/macapps/comments/1ucl4uj/fileside_has_grown_up_version_20_of_the/\n- HyperSwitcherを開発しました。Hyperキーを使ったアプリ・ウィンドウショートカットを固定するMacネイティブアプリです。\n  https://www.reddit.com/r/macapps/comments/1ucepbj/i_built_hyperswitcher_a_native_mac_app_for_fixed/\n- DeskNekoはあなたのMacデスクトップに住むピクセル猫です\n  https://www.reddit.com/r/macapps/comments/1ucs6k1/deskneko_is_a_pixel_cat_that_lives_on_your_mac/\n- My Styles for Safari: どんなウェブサイトもカスタマイズ\n  https://www.reddit.com/r/macapps/comments/1ucufgz/my_styles_for_safari_customize_any_website/\n- Foyer: 物理空間に音を配置するアンビエントサウンドアプリ (macOSネイティブ、App Storeで配信中)\n  https://www.reddit.com/r/macapps/comments/1uckp88/foyer_ambient_sound_app_where_you_arrange_sounds/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [991pt] Deno Desktopを発表 | Denoの許可システムとCEF統合への関心が高く、Node.jsからの乗り換え組もDenoを高く評価。\n  https://news.ycombinator.com/item?id=48626137\n- [963pt] Steam Machine、本日発売 | ハードウェアの自由度やLinuxサポートを評価する声がある一方、ランダムな予約順序や価格設定に関する疑問も。\n  https://news.ycombinator.com/item?id=48632884\n- [843pt] Claudeにおける本人確認 | 本人確認の厳格さや再試行不可の問題点、AIの利用における個人情報保護と中立性への懸念が指摘されている。\n  https://news.ycombinator.com/item?id=48618455\n- [790pt] 以前の仕事は詐欺のために存在したのか？ | 政府によるインキュベーター資金の不正利用や、ITコストの不透明性など、業界における不正行為や非効率性への言及が複数見られる。\n  https://news.ycombinator.com/item?id=48622867\n- [684pt] あなたの顔を彼らに渡してはいけない | LLM抜きでの表現の難しさ、SNS利用の圧力とプラットフォームへの依存、TORの重要性について議論されている。\n  https://news.ycombinator.com/item?id=48630066\n- [683pt] Zigソフトウェア財団に40万ドルを追加寄付 | インターネットの多様性やLLM活用への姿勢についてコメントがある他、Zigの魅力やGhosttyのコードベースが評価されている。\n  https://news.ycombinator.com/item?id=48630020\n- [523pt] 誤った抽象化よりも重複を優先する（2016年） | 重複と抽象化のバランスについて様々な意見が交わされており、過度な抽象化よりも重複の方が扱いやすいという意見が多い。\n  https://news.ycombinator.com/item?id=48620090\n- [517pt] Apertus – 主権AIのためのオープン基盤モデル | オープンLLMの現状や技術主権への関心が高い。多言語対応の不十分さやLlama3.1ベースのモデルからの進展を求める声もある。\n  https://news.ycombinator.com/item?id=48622778\n- [492pt] Beyond All Reason（無料のTotal Annihilation着想RTS） | ゲームの技術的な完成度は評価されるが、コミュニティの人間関係が荒れている点や、TAシリーズのファンからの言及が多い。\n  https://news.ycombinator.com/item?id=48617990\n- [467pt] GLM 5.2 vs. Opus | ワンショットプロンプトによるベンチマークの妥当性や、モデルの性能に対するコストパフォーマンスについて議論されている。\n  https://news.ycombinator.com/item?id=48626866",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "9 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- AI業界に「ループ」が出現\n  https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/\n- AIチップメーカー Groq、Nvidiaの200億ドル買収不成立後、6億5000万ドルの資金調達を確定し人員再配置へ\n  https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/\n- Nvidia、データセンターの節水を推進 — AIの水問題解決とは別の話か\n  https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/\n- Google DeepMind、A24との提携でHollywoodにおけるAIの未来に7500万ドルを投資\n  https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/\n- Amazon、Alexa+のヒンディー語対応をインドでテスト中\n  https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support/\n- SpaceX、オープンソースAIラボ Reflection AI と計算資源提供で契約\n  https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/\n- WhatsApp、新責任者にインドの CRED 創業者 Kunal Shah を起用 — Metaはスタートアップに9億ドルを投資\n  https://techcrunch.com/2026/06/22/whatsapp-gets-new-chief-as-meta-taps-indias-cred-founder-kunal-shah-and-invests-900m-in-startup/\n- 成長のための創業者会議：TechCrunch Founder Summit、6月26日にパス購入者増加\n  https://techcrunch.com/2026/06/22/the-founder-conference-built-for-growth-techcrunch-founder-summit-pass-rates-increase-june-26/\n- Ethan Thornton、全てを一度に実現しようと試みる\n  https://techcrunch.com/2026/06/21/ethan-thornton-is-trying-to-do-everything-all-at-once/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "sqlite-utils 4.0rc1 adds migrations and nested transactions",
+      "url": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-entries",
+      "summary": "SQLiteデータベースを操作するPythonライブラリ「sqlite-utils v4.0rc1」がリリースされ、データベース移行とatomicトランザクション機能が追加された。",
+      "publishedAt": "2026-06-22",
+      "ogImage": null
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Cloudflare Temporary Accounts — 登録前にエージェントをデプロイ可能に\n  https://www.producthunt.com/products/cloudflare\n- HAQQ Legal AI on Mobile — 法的知識をあらゆるスマホユーザーに\n  https://www.producthunt.com/products/haqq-mobile-app\n- AlgoFly AI — Vision AI構築・デプロイをこれ一つで\n  https://www.producthunt.com/products/algofly-ai\n- Selector Forge — AI生成による堅牢なセレクター用ブラウザ拡張機能\n  https://www.producthunt.com/products/selector-forge\n- readywhen — コミットメントとフォローアップをサポートする24時間AI参謀\n  https://www.producthunt.com/products/readywhen\n- OnBrand by SlideSpeak — AIエージェント向けデザインコンテキストツール\n  https://www.producthunt.com/products/onbrand-2\n- AgentX — AIエージェントを評価し、課題を特定、ワンクリックで修正\n  https://www.producthunt.com/products/agentx\n- Clawd — 完全ローカル・オフラインAI搭載の状況認識型ブラウザマスコット\n  https://www.producthunt.com/products/clawd-the-context-aware-browser-pet\n- Photoroom API — 1つの画像編集APIで商品画像を大規模に変換\n  https://www.producthunt.com/products/bg-app\n- uwait — AIが考えている間に報酬を得る\n  https://www.producthunt.com/products/uwait",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "1 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Cova、AI活用の在宅ケアサービスを開始\n  https://michiganhomehelp.com/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Red-Teaming after Mythos — Zico Kolter & Matt Fredrikson, Gray Swan",
+      "url": "https://www.latent.space/p/gray-swan",
+      "summary": "AIシステム特有の脆弱性であるプロンプトインジェクション等に対応するため、Gray Swan社は防御モデルCygnalと攻撃モデルShadeを開発し、AIエージェントの安全性を評価・向上させている。",
+      "publishedAt": "2026-06-23",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!--5t!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F202758604%2F70bf6c99-ba2d-44bb-bd81-a7517368a8f0%2Ftranscoded-1781895509.png"
+    },
+    {
+      "sourceName": "Agentic Engineering",
+      "title": "1 Updates",
+      "url": "https://github.com/software-mansion/agentic-engineering",
+      "summary": "- 不明なメカニズムを選択する際の経験則を示す表について、破損していたテーブルを修正する\n  https://github.com/software-mansion/agentic-engineering/commit/fa0e5a6ae2d1412ef44de8b8e3a488e6b81028f0",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "1 file updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-06-23",
+      "docsUpdates": [
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "Claude Codeのドキュメントリポジトリのコミットログが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/205c503952600a81174656e859c8c25855a0328d"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "1 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- JetBrains IDEsに新機能とClaudeエージェントプロバイダーのプレビューが登場\n  https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-06-23"
+    }
+  ]
+}
