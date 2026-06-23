@@ -28,6 +28,7 @@ export const sources = [
   { name: "Hacker News", url: "https://hacker-news.firebaseio.com/v0/beststories.json" },
   { name: "TechCrunch", url: "https://techcrunch.com/feed/" },
   { name: "Simon Willison", url: "https://simonwillison.net/atom/entries/" },
+  { name: "Addy Osmani", url: "https://addyosmani.com/feed.xml" },
   { name: "Martin Fowler", url: "https://martinfowler.com/feed.atom" },
   { name: "laiso", url: "https://blog.lai.so/rss/" },
   { name: "mtx2s", url: "https://mtx2s.hatenablog.com/rss" },
