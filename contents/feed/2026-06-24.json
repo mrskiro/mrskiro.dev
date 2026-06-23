@@ -1,0 +1,125 @@
+{
+  "fetchedAt": "2026-06-23T22:05:52.866Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Helping build shared standards for advanced AI",
+      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "summary": "OpenAIがAppia Foundationを通じて、高度なAIの評価や安全対策、国際協力のための共通基準づくりを支援。",
+      "publishedAt": "2026-06-23",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/5QquFbmHjfSUovww9EUMcm/07e61e7f25fa04044767e9a0c11237e1/helping-build-shared-standards-for-advanced-ai-16_9.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "url": "https://openai.com/index/gpt-5-immunology-mystery",
+      "summary": "GPT-5 Proが免疫学の長年の謎を解明し、がんや自己免疫疾患研究への貢献に期待。",
+      "publishedAt": "2026-06-24",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/2qNRrOyIX7qjpdePUIObdS/9307a1d928c8b0167cd85e22b39c5132/derya_16x9.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "How Omio is building the future of conversational travel",
+      "url": "https://openai.com/index/omio",
+      "summary": "OmioがOpenAIを活用し、対話型旅行体験の提供、開発加速、AIネイティブ企業への変革を進めている。",
+      "publishedAt": "2026-06-23",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/6wFIgOcT1xK5IvZQIDJ2xQ/edf82561f00cdb27cf3ffcfcad7cd215/oai_Omio_SEO.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.187",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.187",
+      "summary": "- [Added] サンドボックス化されたコマンドが認証情報ファイルや秘密の環境変数を読み取ることをブロックするsandbox.credentials設定を追加しました。\n- [Added] 組織で構成されたモデル制限をモデルピッカー、--model、/model、およびANTHROPIC_MODELに追加しました。制限されたモデルが選択された場合、「組織の設定によって制限されています」というメッセージが表示されます。\n- [Added] フルスクリーンモードでの選択メニュー（権限プロンプト、/model、/configなど）にマウスクリックサポートを追加しました。\n- [Fixed] 元の-p実行でモデルターンが生成されなかった場合に、「No conversation found」というエラーで--resumeが失敗する問題を修正しました。\n- [Fixed] --json-schemaおよびworkflow agent({schema})の構造化出力について、モデルが成功した呼び出し後にStructuredOutputを無期限に再呼び出しできなくなり、フォローアップターンが確実に構造化出力を返すようになりました。\n- [Fixed] 応答がなく5分間ハングするリモートMCPツール呼び出しを修正しました。無期限にブロックする代わりにエラーで中止されるようになりました（CLAUDE_CODE_MCP_TOOL_IDLE_TIMEOUTで上書き可能）。\n- [Fixed] エージェントプロキシCAシステム信頼インストールが追加された後、Claude Code Remoteセッションの開始に約2.7秒余分にかかる問題を修正しました。\n- [Fixed] ペーストされた韓国語/CJKテキストが、バイト単位の拡張キーイベントとしてペーストを配信するターミナルで文字化けする問題を修正しました。\n- [Fixed] Remote Control経由での/updateが、起動時の信頼ダイアログが表示される場合にハングする問題を修正しました。\n- [Fixed] エージェントが構造化出力を生成せずにターンを終了した場合に、エージェントビューのバックグラウンドジョブが「working」のまま無期限にスタックする問題を修正しました。\n- [Fixed] エージェントビューに移動してから戻った後、および/bg、/tui、または/updateの後でチャネル接続が切断される問題を修正しました。\n- [Fixed] エージェント停止通知がエージェントを停止したユーザーを正しく帰属させない問題を修正し、文言を改善しました（「came to rest」ではなく「finished」/「stopped」）。\n- [Fixed] サブエージェントの深度追跡を修正しました。再開されたサブエージェントは元の生成深度を復元し、フォークされたサブエージェントは深度上限にカウントされるようになりました。\n- [Fixed] リークされたエージェントの作業ツリー登録を修正しました。強制終了されたエージェントのロックされた.git/worktrees/エントリが自動的にクリーンアップされるようになりました。\n- [Fixed] macOSのGhosttyで、フルスクリーンモードでCmd+クリックしてもURLが開かない問題を修正しました。\n- [Fixed] claude --helpが--bg/--backgroundフラグをリストしない問題を修正しました。\n- [Fixed] /shareのアップロード中にEsc、Ctrl-C、Ctrl-Dが機能しない問題を修正しました。\n- [Improved] /install-github-appを改善しました。GitHub Actionsワークフローの設定がオプションになり、GitHub Appのみをインストールし、ワークフロー/シークレットのステップをスキップできるようになりました。\n- [Improved] /btwを改善し、←/→矢印キーで以前の回答をステップ実行できるようになりました。\n- [Improved] /pluginを改善し、最近使用していないプラグインを表示してクリーンアップできるようにしました。\n- [Fixed] [VSCode] 大規模なセッションを再開すると拡張機能が応答しなくなる問題を修正しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-06-24"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-24"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-24"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1867pt] Steam Machineが本日発売 | 予約システムや価格、スペックに関する議論が活発。ハードウェアの自由度を評価する声も。\n  https://news.ycombinator.com/item?id=48632884\n- [1095pt] Deno Desktop | Denoの権限システムとの統合や、共有CEFランタイムへの期待が高い。Node.jsからの乗り換え報告も。\n  https://news.ycombinator.com/item?id=48626137\n- [829pt] 私の以前の仕事は詐欺のために存在していたのか？ | 詐欺的な請求や予算消化、政府プロジェクトにおける不正に関する体験談や疑問が多数。\n  https://news.ycombinator.com/item?id=48622867\n- [798pt] Zigソフトウェア財団にさらに40万ドルを寄付 | LLMによる貢献への姿勢、Rust財団との比較、そしてZigの学習を推奨する声が上がっている。\n  https://news.ycombinator.com/item?id=48630020\n- [728pt] 私たちが「年齢認証」と呼ぶものは、実際には大規模な監視である | 年齢認証が大規模な監視につながるとの懸念が多く、政府による悪用や透明性への不信感が表明されている。\n  https://news.ycombinator.com/item?id=48645173\n- [728pt] 決して顔を渡してはならない | 顔認識技術やプライバシー侵害への警戒を促す内容。プラットフォームへの依存度やTorの活用についても言及。\n  https://news.ycombinator.com/item?id=48630066\n- [603pt] フロック・パワードの警察署長が女性をストーキング、令状が必要な理由を示す | 警察の監視システムの悪用、弁護士同伴の重要性、そしてセキュリティ産業への批判が寄せられている。\n  https://news.ycombinator.com/item?id=48634694\n- [576pt] GLM-5.2 – ローカルでの実行方法 | GLM-5.2のローカル実行に必要なリソースやパフォーマンスに関する具体的な情報交換がされている。\n  https://news.ycombinator.com/item?id=48636377\n- [576pt] カナダ、2040年までに最大10基の原子炉を建設し「原子力ルネサンス」を計画 | カナダの豊富なウラン資源とCANDUの安全性、そして原子力建設の実績を評価する声が多い。\n  https://news.ycombinator.com/item?id=48634585\n- [560pt] F3 | F3の利点やParquetとの比較について疑問や批判的な意見が多い。WASMによる言語非依存性を評価する声も。\n  https://news.ycombinator.com/item?id=48647799",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-06-24"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "7 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Superhuman、AI検出スタートアップGPTZeroを買収\n  https://techcrunch.com/2026/06/23/superhuman-acquires-ai-detection-startup-gptzero/\n- AnthropicのClaude Tagがあなたの会社を学習中、Slackメッセージから情報を吸収\n  https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/\n- HaloBraid、ヘアサロンの長時間予約を解消へ700万ドル調達（Seven Seven Sixから）\n  https://techcrunch.com/2026/06/23/halobraid-raises-7m-from-seven-seven-six-to-end-the-six-hour-hair-salon-appointment/\n- TechCrunch Founder Summit 2026、最大190ドル割引は残り4日\n  https://techcrunch.com/2026/06/23/4-days-left-to-save-up-to-190-on-techcrunch-founder-summit-2026/\n- Fika Jobs、AIエージェントが面接する動画中心の採用プラットフォーム構築へ400万ドル調達\n  https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/\n- 【速報】2026年テック業界の主要なレイオフ（AIを理由とした企業リスト）\n  https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/\n- OpenAI、オープンソースのバグ発見・修正支援の新イニシアチブを開始\n  https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-06-24"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code",
+      "url": "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-entries",
+      "summary": "AIアシスタントを活用し、軽量な画像修正モデルMoebiusをブラウザで実行できるようWebGPUとONNXに移植し、デモを公開した。",
+      "publishedAt": "2026-06-23",
+      "ogImage": "https://static.simonwillison.net/static/2026/inpainter.jpg"
+    },
+    {
+      "sourceName": "laiso",
+      "title": "ts-bench v2: 数十万行規模のTypeScript製アプリの修正タスクでコーディングエージェントの性能を測る",
+      "url": "https://blog.lai.so/ts-bench-v2/",
+      "summary": "AIコーディングエージェントのベンチマークツール「ts-bench」が、より実務に近いTypeScriptの大規模アプリ課題を対象としたv2に刷新されました。",
+      "publishedAt": "2026-06-23",
+      "ogImage": null
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Blazly SEO — AIコンテンツOSでSEOを制覇\n  https://www.producthunt.com/products/tregno\n- NeuralAgent 3.0 — 約285ミリ秒でUI操作を実行するAI\n  https://www.producthunt.com/products/neuralagent\n- Sakana Fugu — あらゆる命令に対応する1つのモデル\n  https://www.producthunt.com/products/sakana-fugu\n- Bluerails Discovery — あなたを見つけて報酬を支払うAIエージェントのレール\n  https://www.producthunt.com/products/bluerails-discovery\n- OpenArt Director — チャットでシネマティックビデオを指示\n  https://www.producthunt.com/products/openart\n- BestDefense.io — AIでデプロイごとにペンテストとパッチを適用\n  https://www.producthunt.com/products/bestdefense-io\n- Rosply — コンピュータを自律的に制御するAIエージェント\n  https://www.producthunt.com/products/rosply\n- Jotform AI App Builder — アイデアを数秒でパワフルなアプリに変える\n  https://www.producthunt.com/products/jotform\n- prepros — ブランド撮影を最初から最後まで実行\n  https://www.producthunt.com/products/prepros-7\n- jebi — ローカルAI内蔵、Mac向け超強化ターミナル\n  https://www.producthunt.com/products/jebi-the-terminal-that-thinks-with-you",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-06-24"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Introducing Claude Tag",
+      "url": "https://www.anthropic.com/news/introducing-claude-tag",
+      "summary": "Claude Tagは、チームでClaudeを活用するための新機能。",
+      "ogImage": "https://cdn.sanity.io/images/4zrzovbb/website/b9ba85fd4d8beaf4efe04a4cf6cec14761e52c78-2400x1260.jpg",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "6 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Atlas Discovery：仮想細胞で疾患生物学の全体像を解明\n  https://atlasdiscovery.bio\n- Talentpluto：個人のキャリアを代弁する音声エージェント\n  https://talentpluto.com\n- Blueprints：金融市場向けAIエージェントフレームワーク\n  https://useblueprints.ai\n- LATO：投資家向けエージェントネイティブな調査・シミュレーションプラットフォーム\n  https://www.latolabs.io/\n- Shepherd：テキスト一つで企業の記憶にアクセス\n  https://askshepherd.ai\n- Bloomy：K-12教育向けAI搭載型マスタリー学習\n  https://bloomylearning.com/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-06-24"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] SpaceX is already a $28B/yr Neocloud",
+      "url": "https://www.latent.space/p/ainews-spacex-is-already-a-28byr",
+      "summary": "SpaceXがReflection AIとGPUレンタル契約を結ぶなどAIインフラ市場が活況を呈する中、OpenAIがサイバーセキュリティ対策を強化し、Sakana AIが新しいオーケストレーションシステムを発表したが、ベンチマークの透明性に批判が集まり、GLM-5.2がオープンウェイトモデルとして注目されている。",
+      "publishedAt": "2026-06-23",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!0sP8!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHLbX8TUaoAA9OTl.jpg"
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "2 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- Copilot CLI、ターミナルインターフェースとして一般提供開始\n  https://github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available\n- GitHub Copilot、BYOK（Bring Your Own Key）をサポート\n  https://github.blog/changelog/2026-06-23-github-copilot-app-support-for-byok",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-06-24"
+    }
+  ]
+}
