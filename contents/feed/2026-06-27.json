@@ -1,0 +1,313 @@
+{
+  "fetchedAt": "2026-06-26T21:58:38.487Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "summary": "OpenAIが、コード・科学・セキュリティ分野で能力を向上させ、安全性も強化した次世代モデルGPT-5.6 Solをプレビュー公開。",
+      "publishedAt": "2026-06-26",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/48XpR5dxhE6jJQ03HTUnWZ/ac68fbfb7761fa72ac7442c6744dba56/_.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.195",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.195",
+      "summary": "- [Added] フルスクリーンモード時にマウスのクリック、ドラッグ、ホバーを無効にしつつ、ホイールスクロールは有効にするCLAUDE_CODE_DISABLE_MOUSE_CLICKSを追加しました。\n- [Fixed] ハイフン付きの識別子（例: code-reviewer, mcp__brave-search）を持つhook matcherが誤って部分文字列マッチしていた問題を修正し、正確なマッチングを行うようになりました。ハイフン付きのMCPサーバーのすべてのツールをマッチさせるには mcp__brave-search__.* を使用してください。\n- [Fixed] macOSで、デフォルトの入力デバイスが変更された後、長時間のセッションで音声ディクテーションが沈黙をキャプチャしていた問題を修正しました。\n- [Fixed] スペースを使用しない言語（日本語、中国語、タイ語）で、音声ディクテーションの自動送信が機能しなかった問題を修正しました。\n- [Fixed] プロジェクトの.claude/settings.jsonでのみ有効になっている外部プラグインが、すべてのローダーパスで明示的なインストール同意を必要としなかった問題を修正しました。\n- [Fixed] プラグインのplugin.json名がマーケットプレイスのエントリ名と異なる場合に、/plugin Enable/Disableが機能しなかった問題を修正しました。\n- [Fixed] 新しいClaude Codeバージョンによって書き込まれた際、バックグラウンドジョブがclaude agentsから消えたり、データを失ったりする問題を修正しました。\n- [Fixed] クラッシュしたバックグラウンドタスクを再開する際に、再起動ではなく最大5秒間空白画面が表示される問題を修正しました。\n- [Fixed] コントロールソケットの起動に失敗し、再起動がブロックされると、バックグラウンドエージェントデーモンが到達不能な状態で実行される問題を修正しました。\n- [Improved] Linuxでの音声モードを改善しました。SoXが存在してもオーディオキャプチャデバイスがない場合に「no microphone」と「SoX not installed」を区別できるようになりました。\n- [Improved] claude agentsの完了済みリストが利用可能な垂直空間を埋めるように改善しました。短いターミナルではヘッダーがコンパクトになり、ライブセッションが見えるようになります。\n- [Improved] コンテナの起動中にプロビジョニングチェックリストを表示することで、リモートセッションの起動を改善しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-06-27"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-27"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-27"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1616pt] ヘルクラネウムの巻物が初めて完全に解読される | 「Vesuvius Challenge」チームメンバーが解説。20%しか発掘されていないため、さらなる巻物の発見に期待する声も。\n  https://news.ycombinator.com/item?id=48675179\n- [1279pt] Om Malik氏が死去 | 多くの人がOm氏の親切さ、指導、そしてテック業界における誠実な人柄を称賛し、早すぎる死を悼む声多数。\n  https://news.ycombinator.com/item?id=48678852\n- [1081pt] インターネットの「身分証提示」時代がプライバシーを破壊する | 匿名認証などの技術的解決策を提案する声や、デジタル世界から距離を置く選択肢を検討する意見も。\n  https://news.ycombinator.com/item?id=48679608\n- [816pt] AppleがMacBook、iPadの価格を引き上げ | 価格上昇に驚きの声多数。一部ではAIやコロナ禍の自動車市場との類似性を指摘するコメントも。\n  https://news.ycombinator.com/item?id=48672732\n- [758pt] Show HN: 18年分のコメントをインデックス化してHacker News版Google Trendsを開発 | Hacker Newsの公開データベースを共有する提案や、正規化機能の要望など、さらなる改善への期待が見られる。\n  https://news.ycombinator.com/item?id=48673671\n- [672pt] ブラウザで『Half-Life 2』をプレイ | WASMとWebGLの成熟により、ブラウザで動作するゲームが増えることに期待する声多数。macOSでプレイできないユーザーからの喜びの声も。\n  https://news.ycombinator.com/item?id=48669534\n- [662pt] 次世代モデル「GPT-5.6 Sol」のプレビュー | GPTがコードを書く能力の高さに注目が集まっており、新バージョンでの性能向上に期待する声が見られる。\n  https://news.ycombinator.com/item?id=48689028\n- [595pt] FordのAI不具合により「ベテラン検査官」を再雇用 | AIによる従業員解雇は短絡的だという批判や、LLMが過大評価されているという意見が多数。\n  https://news.ycombinator.com/item?id=48674446\n- [587pt] Hey Nico、君はデータルームのコードをPapermarkから盗んだのではないか | AIがPapermarkのコードをコピーした可能性が指摘されており、著作権侵害の議論が巻き起こる。\n  https://news.ycombinator.com/item?id=48672328\n- [575pt] 米国政府がGPT-5.6の利用者を決定 | 政府によるAIのイノベーション阻害や、規制が市場の独占を招く可能性について懸念の声が多数。\n  https://news.ycombinator.com/item?id=48690101",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-06-27"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "7 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- OpenAI、GPT-5.6の展開を政府要請で制限も「規制は常態化すべきでない」\n  https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/\n- OpenAI、Uber Indiaのトップを抜擢し米国以外最大市場を統括へ\n  https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/\n- なぜOpenAIからSpaceXまで、こぞって独自チップを開発するのか（そしてNvidiaへの競争を激化させるのか）\n  https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/\n- Anthropic vs. OpenAIの時代はもう終わり\n  https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/\n- ロボタクシーが清掃・充電のためだけに長距離走行、新スタートアップがその課題解決へ\n  https://techcrunch.com/2026/06/26/this-silicon-valley-startup-has-raised-10m-to-build-pitstops-to-clean-and-charge-robotaxis/\n- TechCrunch Founder Summit、早期割引は今夜終了\n  https://techcrunch.com/2026/06/26/early-bird-pricing-ends-tonight-for-techcrunch-founder-summit/\n- ホワイトハウス、OpenAIに新モデルの公開延期を要請──安全性懸念で\n  https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-06-27"
+    },
+    {
+      "sourceName": "laiso",
+      "title": "AI開発者ニュース #3 Codex Droplet、Notion Agents、AI SDK 7",
+      "url": "https://blog.lai.so/2026-06-26/",
+      "summary": "AI開発・コーディングエージェント・devtools関連の話題として、DigitalOceanとのCodex連携、Notionの開発基盤強化、VercelのAI SDK 7、エージェント向けデザイン標準、コーディングベンチマークの問題点などが発表されました。",
+      "publishedAt": "2026-06-26",
+      "ogImage": null
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- CubeOneがAIスライドエディターを発表 - PowerPointが本来備えるべき機能を実現\n  https://www.producthunt.com/products/cubeone\n- SquidHub - 人間とAIのためのマルチプレイヤーモード\n  https://www.producthunt.com/products/squidhub\n- Aurora Notch - すべてのMacにプライベートなノッチワークスペースを\n  https://www.producthunt.com/products/aurora-21\n- Gemini Spark - 24時間365日あなたをサポートするパーソナルAIエージェント\n  https://www.producthunt.com/products/gemini-spark\n- Agent CommunityのDMV - AIエージェントのためのコミュニティ主導型ネームスペース\n  https://www.producthunt.com/products/dmv-department-of-machine-verification\n- ModuleX - あらゆるものと連携済みのAIワークスペース\n  https://www.producthunt.com/products/modulex\n- Basedash for Excel - どんなExcelファイルもライブダッシュボードに変換\n  https://www.producthunt.com/products/basedash\n- Sleek Analytics - サイト訪問者をリアルタイムで把握\n  https://www.producthunt.com/products/sleek-analytics\n- beehiivのGroup Subscriptions - チーム、企業、組織向けにサブスクリプションを販売\n  https://www.producthunt.com/products/beehiiv\n- Cewsco - AIアシスタントがチャット、画像、音声、市場データをオールインワンで提供\n  https://www.producthunt.com/products/cewsco",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-06-27"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "2 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Perceptron ML：現実世界の信号を行動に変えるイベント駆動型AIエンジン\n  https://perceptronml.com\n- 6thSense：フィジカルAIのための神経システム\n  https://6thsense.dev",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-06-27"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] OpenAI reports median internal Codex output tokens grew 56x in Research, 32x in Customer Support, 27x in Engineering, and 13x in Legal since November 2025.",
+      "url": "https://www.latent.space/p/ainews-openai-reports-median-internal",
+      "summary": "AIの内部利用が拡大し、オープンモデルの性能向上やエージェントのプロダクト化が進む中、ベンチマークの信頼性やデータ生成・活用手法も進化している。",
+      "publishedAt": "2026-06-26",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!roAd!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3a48b472-a807-4211-b981-983f7a401c3a_2156x1576.png"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "32 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-06-27",
+      "docsUpdates": [
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__slash-commands.md",
+          "text": "Claude Agent SDKで利用可能なスラッシュコマンドの出力例に、バンドルされたスキルが含まれるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/f208dbd0d620ecaf3dc0c21afce042719f2aaac4"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__tool-search.md",
+          "text": "ツール検索に関する記述が簡潔になり、機能の仕組み、設定方法、ツール発見の最適化に関する詳細へのリンクが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/f208dbd0d620ecaf3dc0c21afce042719f2aaac4"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-teams.md",
+          "text": "Agent Teamに関するページから、トピックを列挙するセクションが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/f208dbd0d620ecaf3dc0c21afce042719f2aaac4"
+        },
+        {
+          "tag": "Improved",
+          "file": "artifacts.md",
+          "text": "Artifactに関するページから、トピックを列挙するセクションが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/f208dbd0d620ecaf3dc0c21afce042719f2aaac4"
+        },
+        {
+          "tag": "Improved",
+          "file": "channels.md",
+          "text": "チャンネルに関するページから、サポートされているチャンネル、インストール方法、セキュリティ、エンタープライズコントロール、比較方法を列挙するセクションが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/f208dbd0d620ecaf3dc0c21afce042719f2aaac4"
+        },
+        {
+          "tag": "Improved",
+          "file": "devcontainer.md",
+          "text": "Dev Containerに関するページから、トピックを列挙するセクションが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/f208dbd0d620ecaf3dc0c21afce042719f2aaac4"
+        },
+        {
+          "tag": "Improved",
+          "file": "fast-mode.md",
+          "text": "Fast modeがClaude Opus 4.8でもサポートされるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/f208dbd0d620ecaf3dc0c21afce042719f2aaac4"
+        },
+        {
+          "tag": "Changed",
+          "file": "fullscreen.md",
+          "text": "フルスクリーン表示を終了し、クラシックレンダラーに戻すための`/tui default`コマンドが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/f208dbd0d620ecaf3dc0c21afce042719f2aaac4"
+        },
+        {
+          "tag": "Improved",
+          "file": "goal.md",
+          "text": "Goalに関するページから、トピックを列挙するセクションが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/f208dbd0d620ecaf3dc0c21afce042719f2aaac4"
+        },
+        {
+          "tag": "Changed",
+          "file": "llm-gateway-protocol.md",
+          "text": "LLM Gateway ProtocolのモデルIDの例が`claude-opus-4-7`から`claude-opus-4-8`に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/f208dbd0d620ecaf3dc0c21afce042719f2aaac4"
+        },
+        {
+          "tag": "Improved",
+          "file": "llm-gateway.md",
+          "text": "LLM Gatewayに関するページから、ゲートウェイの提供内容、仕組み、展開手順、Claude.aiサブスクリプションとの連携、個別設定に関するトピックを列挙するセクションが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/f208dbd0d620ecaf3dc0c21afce042719f2aaac4"
+        },
+        {
+          "tag": "Changed",
+          "file": "model-config.md",
+          "text": "カスタムモデルオプションの設定例で、`ANTHROPIC_CUSTOM_MODEL_OPTION`が`my-gateway/claude-opus-4-7`から`my-gateway/claude-opus-4-8`に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/f208dbd0d620ecaf3dc0c21afce042719f2aaac4"
+        },
+        {
+          "tag": "Improved",
+          "file": "sandbox-environments.md",
+          "text": "サンドボックス環境に関するページから、トピックを列挙するセクションが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/f208dbd0d620ecaf3dc0c21afce042719f2aaac4"
+        },
+        {
+          "tag": "Improved",
+          "file": "sandboxing.md",
+          "text": "Sandboxingに関するページから、トピックを列挙するセクションが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/f208dbd0d620ecaf3dc0c21afce042719f2aaac4"
+        },
+        {
+          "tag": "Improved",
+          "file": "sessions.md",
+          "text": "セッション管理の概要に、トランスクリプトのエクスポートに関する記述が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/f208dbd0d620ecaf3dc0c21afce042719f2aaac4"
+        },
+        {
+          "tag": "Improved",
+          "file": "sub-agents.md",
+          "text": "Subagentに関するページから、トピックを列挙するセクションが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/f208dbd0d620ecaf3dc0c21afce042719f2aaac4"
+        },
+        {
+          "tag": "Improved",
+          "file": "workflows.md",
+          "text": "ワークフローに関するページから、トピックを列挙するセクションが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/f208dbd0d620ecaf3dc0c21afce042719f2aaac4"
+        },
+        {
+          "tag": "Improved",
+          "file": "troubleshoot-install.md",
+          "text": "PowerShellインストーラーが完了しても`claude`が見つからない、または動作しない問題の説明を改善しました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/41d4c5d300fcc18ddd9c0844cf799841024eb52c"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "Claude Codeのドキュメントにchangelog.mdファイルが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/28cfc5d8e14d878bc906e9e06258c97e17157531"
+        },
+        {
+          "tag": "Improved",
+          "file": "artifacts.md",
+          "text": "EnterpriseプランでのArtifacts管理について、管理者が設定を有効にする必要があることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/238c488cbb06479748ef9123741328552380eee4"
+        },
+        {
+          "tag": "Improved",
+          "file": "auto-mode-config.md",
+          "text": "Auto modeがAnthropic APIの全ユーザーに利用可能であり、Amazon Bedrock、Google Cloud Vertex AI、Microsoft Foundryでは`CLAUDE_CODE_ENABLE_AUTO_MODE`を設定する必要があることが明記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/238c488cbb06479748ef9123741328552380eee4"
+        },
+        {
+          "tag": "Changed",
+          "file": "channels.md",
+          "text": "claude.ai TeamおよびEnterpriseプランにおけるチャンネルの利用には、管理者の代わりに「Owner」が有効にする必要があります。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/238c488cbb06479748ef9123741328552380eee4"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-code-on-the-web.md",
+          "text": "TeamおよびEnterpriseプランにおける`/web-setup`の無効化は、管理者の代わりに「Owner」が行えるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/238c488cbb06479748ef9123741328552380eee4"
+        },
+        {
+          "tag": "Changed",
+          "file": "code-review.md",
+          "text": "組織のコードレビュー機能の有効化は、管理者の代わりに「Owner」が行うようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/238c488cbb06479748ef9123741328552380eee4"
+        },
+        {
+          "tag": "Changed",
+          "file": "errors.md",
+          "text": "組織のポリシーによってRoutinesが無効化されている場合、管理者の代わりに「Owner」によって無効化されていることが示されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/238c488cbb06479748ef9123741328552380eee4"
+        },
+        {
+          "tag": "Changed",
+          "file": "fast-mode.md",
+          "text": "TeamおよびEnterprise組織におけるFast modeの有効化は、管理者の代わりに「Owner」が行うようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/238c488cbb06479748ef9123741328552380eee4"
+        },
+        {
+          "tag": "Changed",
+          "file": "github-enterprise-server.md",
+          "text": "GitHub Enterprise Serverのサポートは、管理者の代わりに「Owner」がGHESインスタンスを接続することで利用可能になります。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/238c488cbb06479748ef9123741328552380eee4"
+        },
+        {
+          "tag": "Improved",
+          "file": "monitoring-usage.md",
+          "text": "メトリクスをセグメント化する際に、`model`属性が`claude_code.token.usage`、`claude_code.cost.usage`、およびバージョン2.1.172以降で`claude_code.lines_of_code.count`で利用可能であることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/238c488cbb06479748ef9123741328552380eee4"
+        },
+        {
+          "tag": "Changed",
+          "file": "permission-modes.md",
+          "text": "TeamおよびEnterpriseプランでAuto modeを有効にするには、管理者の代わりに「Owner」が設定を行う必要があります。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/238c488cbb06479748ef9123741328552380eee4"
+        },
+        {
+          "tag": "Changed",
+          "file": "permissions.md",
+          "text": "TeamおよびEnterpriseプランでRemote Controlとウェブセッションを組織全体で有効または無効にするのは、管理者の代わりに「Owner」が行うようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/238c488cbb06479748ef9123741328552380eee4"
+        },
+        {
+          "tag": "Changed",
+          "file": "remote-control.md",
+          "text": "TeamおよびEnterpriseプランでRemote Controlを有効にするには、管理者の代わりに「Owner」がトグルを有効にする必要があります。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/238c488cbb06479748ef9123741328552380eee4"
+        },
+        {
+          "tag": "Changed",
+          "file": "routines.md",
+          "text": "TeamおよびEnterpriseプランでRoutinesを無効にするには、管理者の代わりに「Owner」がトグルを操作する必要があります。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/238c488cbb06479748ef9123741328552380eee4"
+        },
+        {
+          "tag": "Changed",
+          "file": "server-managed-settings.md",
+          "text": "サーバーマネージド設定は、組織の「Owner」がclaude.aiコンソールの「Admin Settings > Claude Code > Managed settings」から一元的に設定するようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/238c488cbb06479748ef9123741328552380eee4"
+        },
+        {
+          "tag": "Changed",
+          "file": "ultrareview.md",
+          "text": "PRモードでは、管理者がClaude Codeに接続したGitHub Enterprise Serverインスタンス上のリポジトリもサポートされるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/238c488cbb06479748ef9123741328552380eee4"
+        },
+        {
+          "tag": "Changed",
+          "file": "web-quickstart.md",
+          "text": "Enterprise組織でClaude Code on the webを有効にする必要がある場合、管理者の代わりに「Owner」が有効にすることが求められるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/238c488cbb06479748ef9123741328552380eee4"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "2 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- エンタープライズ向けレポートで組織の採用フェーズごとのマージ数を追跡\n  https://github.blog/changelog/2026-06-26-track-total-merges-by-adoption-phase-in-enterprise-and-organization-reports\n- Copilot BusinessおよびCopilot Enterprise向けMAI-Code-1-Flash\n  https://github.blog/changelog/2026-06-26-mai-code-1-flash-for-copilot-business-and-copilot-enterprise",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-06-27"
+    }
+  ]
+}
