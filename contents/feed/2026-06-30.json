@@ -1,0 +1,245 @@
+{
+  "fetchedAt": "2026-06-29T22:01:17.579Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Mapping Europe’s AI Workforce Opportunity",
+      "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "summary": "AIがEU圏の仕事にどう影響するか、OpenAIがレポートを発表。",
+      "publishedAt": "2026-06-29",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/2p06ZCpbXiQhTAbOY9J6OH/2f69f47125b18f9ced9c6000a0bcee0b/mapping-europes-ai-workforce-opportunity-seo-card.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- 「pearcleaner.com」は偽サイト、macOS向け情報窃取マルウェアに注意喚起\n  https://www.reddit.com/r/macapps/comments/1ucstzy/psa_pearcleanercom_is_a_fake_site_pushing_macos/\n- 【まとめ】今月の注目アプリ - 2026年6月\n  https://www.reddit.com/r/macapps/comments/1ttp8mu/megathread_the_app_pile_june_2026/\n- 【OS】FaceGateを開発、デバイス上での顔認証を搭載した世界初のmacOSアプリロッカー\n  https://www.reddit.com/r/macapps/comments/1uj1d8b/os_i_built_facegate_worlds_first_macos_app_locker/\n- ADHDの妻と私はスクリーンショットで情報を保存するも、カメラロールの散らかりに悩んでいた。そこで自作アプリを開発。今では1日20回活用している\n  https://www.reddit.com/r/macapps/comments/1uivj0z/my_wife_i_have_adhd_we_saved_everything_with/\n- 【プレゼント】OpenVox 2.0リリース - MacでローカルAI音声生成。Supertonic 3、クローン機能強化、M4Bオーディオブック、ローカルAPIに対応\n  https://www.reddit.com/r/macapps/comments/1uim7hx/giveaway_openvox_20_is_out_local_ai_voice/\n- Things 3風のシンプルなタスクマネージャー、リアルタイム共同編集と画像添付機能付き\n  https://www.reddit.com/r/macapps/comments/1uimfyy/a_simple_things_3style_task_manager_with_realtime/\n- 見落としていることは？FOMO（取り残されることへの恐れ）を感じています\n  https://www.reddit.com/r/macapps/comments/1uilom0/what_am_i_missing_i_have_fomo/\n- 2ヶ月前にKofe Flowをリリース、Redditのフィードバックが新バージョンを形作った☕\n  https://www.reddit.com/r/macapps/comments/1uiqxs7/i_launched_kofe_flow_here_2_months_ago_reddit/\n- マグネットのようにウィンドウを吸着させ、サイズ調整できるアプリを探しています\n  https://www.reddit.com/r/macapps/comments/1uivcz7/search_for_an_application_to_adjust_the_size_of/\n- 未使用タブを一時停止しメモリを解放するSafari機能拡張\n  https://www.reddit.com/r/macapps/comments/1uiu1wn/safari_extension_to_suspend_idle_tabs_and_release/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-30"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-06-30"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1056pt] GLM 5.2がベンチマークでClaudeを凌駕 | GLM 5.2の性能を評価する声や、実行に必要なハードウェアに関する疑問が多い。\n  https://news.ycombinator.com/item?id=48709670\n- [937pt] HackerRankがATSをオープンソース化。私の履歴書は90/100点…いや74点、いや88点？ | AIの採点基準の不安定さや、差別を助長する可能性への懸念が指摘されている。\n  https://news.ycombinator.com/item?id=48713832\n- [930pt] 年齢確認は自動的な発言帰属の前触れに過ぎない | インターネットの年齢確認が政府による管理強化や言論統制につながるとの懸念が多く表明されている。\n  https://news.ycombinator.com/item?id=48714529\n- [839pt] Pollenが記事削除を試み、Googleがそれに加担 | 不正なDMCA申請や風評管理の実態、それにGoogleが加担することへの批判が目立つ。\n  https://news.ycombinator.com/item?id=48716902\n- [711pt] EU、チャット管理法案を密室で審議へ | チャット管理法案が再び議論されていることへの懸念と、反対国の情報が共有されている。\n  https://news.ycombinator.com/item?id=48707719\n- [622pt] KIDS Actはオンラインでの年齢確認を義務付ける可能性 | 西側諸国で子供の保護を名目にしたインターネット規制が進むことへの疑問や、法案の内容についての議論がある。\n  https://news.ycombinator.com/item?id=48706560\n- [544pt] Claude Codeを使ってMRIのセカンドオピニオンを得た | AIによる診断の信頼性や、医療分野でのAI活用への期待と懸念が混在している。\n  https://news.ycombinator.com/item?id=48708941\n- [521pt] 教授がブラウン大学でのAIによる試験不正を非難 | AI時代の試験対策や大学側の対応への不満、不正の深刻さを指摘する声が目立つ。\n  https://news.ycombinator.com/item?id=48708991\n- [486pt] MullvadのCEOがスウェーデンのÖrebro党の主要な資金提供者である | Mullvadのオーナーが特定の政党に資金提供していることへの批判や、情報の明確化を求める声がある。\n  https://news.ycombinator.com/item?id=48717469\n- [474pt] Librepods: 解放されたAirPods | AirPodsを他デバイスでより自由に使うためのハックであり、今後のAppleの対策を懸念する声が多い。\n  https://news.ycombinator.com/item?id=48710232",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-06-30"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "9 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Chamath Palihapitiya氏、AIコーディングスタートアップで1億3500万ドルのシリーズA調達、CEOに就任\n  https://techcrunch.com/2026/06/29/chamath-palihapitiya-raises-135m-series-a-for-his-ai-coding-startup-takes-ceo-role/\n- GeminiのパーソナライズされたAI画像生成機能、米国ユーザーに無料で提供開始\n  https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/\n- Anthropicとニューサム知事、カリフォルニア州政府によるClaude半額利用で合意\n  https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/\n- 韓国テック大手、5500億ドル超を投じ「RAMageddon」対策へ\n  https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon/\n- AIリーダーボード「Arena」、1億ドル規模のビジネスに成長\n  https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/\n- Cursor、外出先でコーディングエージェントを操作できるモバイルアプリをリリース\n  https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/\n- TIDAL、AI音楽の収益化を停止し取り締まり強化へ\n  https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization/\n- ロボットハンド企業、Teslaとの営業秘密訴訟で和解、1100万ドル調達を発表\n  https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/\n- Omen AI、データセンター最適化に水冷方式で挑む\n  https://techcrunch.com/2026/06/29/omen-ais-plan-to-optimize-data-centers-is-all-wet/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-06-30"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "⚠ Martin Fowler の取得に失敗しました",
+      "url": "https://martinfowler.com/feed.atom",
+      "summary": "データ取得に失敗。",
+      "ogImage": null,
+      "publishedAt": "2026-06-30"
+    },
+    {
+      "sourceName": "laiso",
+      "title": "AI開発者ニュース #4 Codex Reset、DeepSeek DSpark、OpenCode v2",
+      "url": "https://blog.lai.so/2026-06-29/",
+      "summary": "AI開発、コーディングエージェント、DevTools関連の最新情報をまとめた有料購読者向けボーナストラックコンテンツが公開された。",
+      "publishedAt": "2026-06-29",
+      "ogImage": null
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- ClinePass — Clineで最高のオープンウェイトモデルを実行\n  https://www.producthunt.com/products/cline-4\n- Spira for Product Hunt Makers — 勢いを加速させるソーシャルメディア成長エージェント\n  https://www.producthunt.com/products/spira-ai\n- Agent Mode by Receiptor AI — レシート処理をエンドツーエンドで実行する経理アシスタント\n  https://www.producthunt.com/products/receiptor-ai\n- Outpaint - Ad Reframe — 縦長UGCをワイドスクリーン広告に変換するAI\n  https://www.producthunt.com/products/outpaint-com-ad-reframe\n- VisibAI — AIの回答に表示されていますか？数分で確認・修正\n  https://www.producthunt.com/products/visibai-ai-visibility-audit-tool\n- Intelli — AI会話でリードを顧客に変換\n  https://www.producthunt.com/products/intelli\n- ReadHere — ブラウザで使える軽量PDF＆EPUBリーダー\n  https://www.producthunt.com/products/readhere-2\n- Sami — Google、LinkedIn、Meta広告全体の予算を自動化\n  https://www.producthunt.com/products/sami-automate-pace-scale-your-ads\n- Upstream FTP — macOS向けの高速・美麗なネイティブFTP/SFTPクライアント\n  https://www.producthunt.com/products/upstream-ftp\n- PMB — AIコーディングエージェントへのプロジェクト説明はもう不要\n  https://www.producthunt.com/products/pmb-local-first-memory-for-ai",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-06-30"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "3 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Molagri：人にもミツバチにも安全なバイオ農薬を開発\n  https://molagri.com\n- Greypoint Industries：自律型スウォーム戦争の未来を製造\n  https://greypointindustries.ca/\n- Instance：合成動画の新たなベンチマークを公開\n  https://tryinstance.app/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-06-30"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "25 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-06-30",
+      "docsUpdates": [
+        {
+          "tag": "Improved",
+          "file": "admin-setup.md",
+          "text": "管理設定の優先順位において、一部のクロスソースロックキーは、管理者が制御するどのソースが設定しても尊重されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/aa8df41f724cfeb94bfc93defef96b79aa506025"
+        },
+        {
+          "tag": "Added",
+          "file": "authentication.md",
+          "text": "セルフホスト型Claude apps gatewayを介したSSO認証が利用可能になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/aa8df41f724cfeb94bfc93defef96b79aa506025"
+        },
+        {
+          "tag": "Improved",
+          "file": "auto-mode-config.md",
+          "text": "Auto modeがAnthropic APIの全ユーザーに利用可能になり、Amazon Bedrock, Google Cloud Vertex AI, Microsoft Foundryでは`CLAUDE_CODE_ENABLE_AUTO_MODE`の設定が必須となりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/aa8df41f724cfeb94bfc93defef96b79aa506025"
+        },
+        {
+          "tag": "Added",
+          "file": "claude-apps-gateway-config.md",
+          "text": "Claude apps gatewayの`gateway.yaml`ファイルで利用可能なすべての設定オプションに関する参照ドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/aa8df41f724cfeb94bfc93defef96b79aa506025"
+        },
+        {
+          "tag": "Added",
+          "file": "claude-apps-gateway-deploy.md",
+          "text": "Claude apps gatewayのデプロイと運用（IdPへの登録、コンテナのビルド、KubernetesまたはCloud Runへのデプロイ、運用タスク）に関するガイドが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/aa8df41f724cfeb94bfc93defef96b79aa506025"
+        },
+        {
+          "tag": "Added",
+          "file": "claude-apps-gateway-on-gcp.md",
+          "text": "Google CloudでClaude apps gatewayを実行するための詳細な設定例が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/aa8df41f724cfeb94bfc93defef96b79aa506025"
+        },
+        {
+          "tag": "Added",
+          "file": "claude-apps-gateway-spend-limits.md",
+          "text": "Claude apps gatewayを介した各開発者の利用額に日次、週次、月次の制限を設定する機能が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/aa8df41f724cfeb94bfc93defef96b79aa506025"
+        },
+        {
+          "tag": "Added",
+          "file": "claude-apps-gateway.md",
+          "text": "Amazon Bedrock, Google Cloud, Microsoft Foundry向けに、SSOサインイン、グループごとのモデルアクセス、OTLPテレメトリを備えたセルフホスト型Claude apps gatewayに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/aa8df41f724cfeb94bfc93defef96b79aa506025"
+        },
+        {
+          "tag": "Improved",
+          "file": "cli-reference.md",
+          "text": "`claude -c -p \"query\"`コマンドの例がSDK経由での継続を示すように更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/aa8df41f724cfeb94bfc93defef96b79aa506025"
+        },
+        {
+          "tag": "Changed",
+          "file": "costs.md",
+          "text": "Bedrock, Vertex, Foundry上ではClaude Codeがクラウドからメトリクスを送信しないことが明記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/aa8df41f724cfeb94bfc93defef96b79aa506025"
+        },
+        {
+          "tag": "Improved",
+          "file": "data-usage.md",
+          "text": "セッション履歴のアップロード時に、既知のAPIキーとトークンパターンがアップロード前に匿名化されることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/aa8df41f724cfeb94bfc93defef96b79aa506025"
+        },
+        {
+          "tag": "Improved",
+          "file": "env-vars.md",
+          "text": "`CLAUDE_CODE_ATTRIBUTION_HEADER`を`0`に設定することで、LLMゲートウェイ経由の場合にプロンプトキャッシュヒット率が向上することが追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/aa8df41f724cfeb94bfc93defef96b79aa506025"
+        },
+        {
+          "tag": "Added",
+          "file": "gateways.md",
+          "text": "Claude Codeをゲートウェイ経由で実行するための包括的なドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/aa8df41f724cfeb94bfc93defef96b79aa506025"
+        },
+        {
+          "tag": "Improved",
+          "file": "llm-gateway-connect.md",
+          "text": "ベアラートークンゲートウェイの場合、`anthropic_api_key`入力と`ANTHROPIC_AUTH_TOKEN`環境変数の両方に同じシークレットを渡す必要があることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/aa8df41f724cfeb94bfc93defef96b79aa506025"
+        },
+        {
+          "tag": "Improved",
+          "file": "llm-gateway-protocol.md",
+          "text": "実行中のClaude apps gatewayが、SSOサインイン、管理設定の配信、テレメトリ用のエンドポイントを含む機械可読なプロトコルを`GET /protocol`で提供することが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/aa8df41f724cfeb94bfc93defef96b79aa506025"
+        },
+        {
+          "tag": "Improved",
+          "file": "llm-gateway-rollout.md",
+          "text": "クラウドプロバイダーの前提条件リンクが簡素化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/aa8df41f724cfeb94bfc93defef96b79aa506025"
+        },
+        {
+          "tag": "Changed",
+          "file": "llm-gateway.md",
+          "text": "LLM gatewaysのセクション名が「Other LLM gateways」に変更され、コンテンツがClaude apps gateway以外のゲートウェイに焦点を当てるように更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/aa8df41f724cfeb94bfc93defef96b79aa506025"
+        },
+        {
+          "tag": "Improved",
+          "file": "monitoring-usage.md",
+          "text": "Claude CodeがClaude apps gatewayにサインインしている場合に、追加の属性`gateway.url`と`gateway.session.id`が共有されることが追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/aa8df41f724cfeb94bfc93defef96b79aa506025"
+        },
+        {
+          "tag": "Improved",
+          "file": "network-config.md",
+          "text": "CA証明書ストアの信頼に関する記述で、OSストアの読み取りにはNode 22.15以降が必要であること、古いNodeバージョンではバンドルされたCAと`NODE_EXTRA_CA_CERTS`のみが適用されることが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/aa8df41f724cfeb94bfc93defef96b79aa506025"
+        },
+        {
+          "tag": "Fixed",
+          "file": "permission-modes.md",
+          "text": "Auto modeがAnthropic APIのすべてのプランでClaude Opus 4.6またはSonnet 4.6以降、Amazon Bedrock, Google Cloud Vertex AI, Microsoft FoundryではClaude Opus 4.7およびOpus 4.8のみで利用可能であることが修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/aa8df41f724cfeb94bfc93defef96b79aa506025"
+        },
+        {
+          "tag": "Improved",
+          "file": "permissions.md",
+          "text": "管理設定の導入とオーバーライドに関する説明が簡潔になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/aa8df41f724cfeb94bfc93defef96b79aa506025"
+        },
+        {
+          "tag": "Added",
+          "file": "quickstart.md",
+          "text": "セルフホスト型Claude apps gatewayを介したサインインオプションがクイックスタートガイドに追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/aa8df41f724cfeb94bfc93defef96b79aa506025"
+        },
+        {
+          "tag": "Improved",
+          "file": "server-managed-settings.md",
+          "text": "管理階層内での設定の優先順位に関して、`policyHelper`が設定されている場合の挙動が明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/aa8df41f724cfeb94bfc93defef96b79aa506025"
+        },
+        {
+          "tag": "Improved",
+          "file": "settings.md",
+          "text": "サーバー管理設定がサインイン時にリモートで配信されることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/aa8df41f724cfeb94bfc93defef96b79aa506025"
+        },
+        {
+          "tag": "Added",
+          "file": "third-party-integrations.md",
+          "text": "サードパーティ統合のオプションとして、Claude apps gatewayが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/aa8df41f724cfeb94bfc93defef96b79aa506025"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "1 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- GitHub Copilot、Claude Opus 4.8（高速モード）のプレビュー版を公開\n  https://github.blog/changelog/2026-06-29-claude-opus-4-8-fast-mode-is-now-in-preview-for-github-copilot",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-06-30"
+    }
+  ]
+}
