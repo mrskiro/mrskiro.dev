@@ -1,0 +1,245 @@
+{
+  "fetchedAt": "2026-07-01T22:10:06.089Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.198",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198",
+      "summary": "- [Added] Claude in Chromeが一般提供を開始しました。\n- [Added] claude agentsでバックグラウンドエージェントの通知機能を追加しました。入力が必要なセッションや完了したセッションは、Notificationフック（agent_needs_input / agent_completed）を呼び出すようになりました。\n- [Added] チャートやダッシュボードデザインのガイダンスを提供する/datavizスキルを追加し、実行可能なカラーパレット検証機能を備えています。\n- [Added] Gatewayに、AWS上のClaude Platform（anthropicAws）をアップストリームプロバイダーとして追加しました。model-not-foundの応答は、フェイルオーバーチェーンを進めるようになりました。\n- [Changed] claude agentsから起動されたバックグラウンドエージェントがworktreeでコード作業を完了した際、停止して尋ねる代わりに、コミット、プッシュ、ドラフトPRの作成を行うようになりました。\n- [Changed] 組み込みのExploreエージェントが、haikuではなくメインセッションのモデル（opusに上限あり）を継承するようになりました。\n- [Improved] サブエージェントとコンテキストの圧縮が、セッションの拡張思考設定を継承するようになり、委任されたタスクの出力品質が向上しました。\n- [Fixed] 応答中の短時間のネットワーク切断でターンが中断される問題を修正しました。ECONNRESETのような一時的なエラーは、失敗する代わりにバックオフで再試行するようになりました。\n- [Fixed] サンドボックス化されたプロセスが同じネットワークホストに繰り返しアクセスする際の過剰なバックグラウンド分類器リクエストを修正しました。\n- [Fixed] Web、デスクトップ、VS Codeのタスクパネルで、完了後またはセッション再開後にバックグラウンドタスクが「Running」のままになる問題を修正しました。\n- [Fixed] エージェントチームにおいて、APIエラーで停止したチームメイトがリーダーに「failed」と報告するようになり、スタックしたチームメイトにメッセージを送信すると、すぐに再試行するために起動するようになりました。\n- [Fixed] セッション外でブランチを切り替えたりコミットしたりした際に、/diffパネルが更新されない問題を修正しました。\n- [Fixed] フルスクリーンモードで表示される際に、Markdownテーブルがオーバーフローし、右端からはみ出す問題を修正しました。\n- [Fixed] STSトークンの有効期限が切れた際に、AWS上のClaude PlatformとMantleセッションが「Please run /login」でデッドエンドになる問題を修正しました。awsAuthRefreshが自動的に実行されるようになりました。\n- [Fixed] macOSのバックグラウンドエージェントセッションで、Local Networkエンタイトルメントを宣言することにより、ローカルネットワークホストに対する「no route to host」エラーを修正しました。\n- [Fixed] worktreeに出入りした後、/desktopが「Cannot determine working directory」で失敗する問題を修正しました。\n- [Fixed] macOSでエージェントビューが開いている間、バックグラウンドエージェントが約52秒ごとに「Reconnecting…」を繰り返し表示する問題を修正しました。\n- [Fixed] claude attach <id>内で←を押すと、エージェントビューを開かずにシェルを終了する問題を修正しました。\n- [Fixed] claude --bgが--print/-pと組み合わせて使用された際に、アタッチ不可能なセッションをサイレントに作成する問題を修正しました。これらの競合するフラグは、事前にはじかれるようになりました。\n- [Fixed] SDKおよびデスクトップアプリセッションで、ワークフロー進捗ビューがリストから最も古いエージェントを削除する一方で、フェーズカウンターは正しく表示される問題を修正しました。\n- [Fixed] ターゲットファイルがシンボリックリンクされたパス経由で到達された場合に、.claude/rules/の条件付きルールがロードされない問題を修正しました。\n- [Fixed] macOSのWarpで、フルスクリーンモードでCmd+クリックがURLを開かない問題を修正しました。\n- [Fixed] フルスクリーンモードでのダブルクリックによる単語選択で、スキームを含むURL全体が選択されるように修正しました。\n- [Fixed] プランモードでセッションが開始された際に、読み取り専用のツール呼び出しが自動的に許可されない問題を修正しました。\n- [Fixed] /branchが、最初の実際のプロンプトではなく圧縮サマリーからデフォルトのフォーク名を導き出す問題を修正しました。\n- [Improved] フォーカスモードが改善されました。ターン内で起動されたサブエージェントがその活動概要に表示され、完了したバックグラウンド通知が単一のカウントにまとめられるようになりました。\n- [Improved] highlight.js 11へのアップグレードにより、コードブロック、diff、ファイルプレビューのシンタックスハイライト精度が向上しました。\n- [Improved] MacからSSH経由で接続している場合、キーボードショートカットのヒントがalt/superではなくopt/cmdを表示するようになりました。\n- [Improved] APIリトライのUXが改善されました。2回目の試行後にエラー理由が表示されるようになり、APIが過負荷の場合にスピナーチップがステータスページリンクに置き換わるようになりました。\n- [Changed] /loginが、利用不可と表示する代わりに、claude agentsビューからサインインダイアログを開くようになりました。\n- [Changed] サブエージェントが、それらを起動したエージェントからのメッセージを通常のタスク指示として扱うようになりました。エージェントのメッセージがユーザーの承認として扱われることはありません。\n- [Removed] /agentsウィザードを削除しました。サブエージェントの作成または管理はClaudeに依頼するか、直接.claude/agents/を編集してください。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-07-02"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- 【メガトレンド】アプリの山 - 2026年7月\n  https://www.reddit.com/r/macapps/comments/1uknpm8/megathread_the_app_pile_july_2026/\n- 注意喚起：「pearcleaner.com」はmacOS情報窃取マルウェアを配布する偽サイト\n  https://www.reddit.com/r/macapps/comments/1ucstzy/psa_pearcleanercom_is_a_fake_site_pushing_macos/\n- 【OS】AIをあなただけのものに。Osaurusがオフライン完全対応、オープンソース、ネイティブSwiftで登場。アカウントもサブスクも不要。\n  https://www.reddit.com/r/macapps/comments/1ukwiip/os_own_your_ai_our_biggest_update_yet_osaurus_is/\n- AppHub：Launchpadの代替となるLaunchOSのより安価な代替品\n  https://www.reddit.com/r/macapps/comments/1uktleu/apphub_a_cheaper_launchos_alternative_for_a/\n- Buw：Macのメニューバーで使えるミニマルな集中タイマー＆ポモドーロ。【ローンチウィーク特別プロモーション - 永久割引】\n  https://www.reddit.com/r/macapps/comments/1ukpolj/buw_a_minimalist_mac_menubar_focus_timer_pomodoro/\n- Scroll Elevator：カーソル位置からMacアプリの最上部または最下部に瞬時に移動（買い切り、$4.99で発売）\n  https://www.reddit.com/r/macapps/comments/1ukyy8q/scroll_elevator_jump_to_the_top_or_bottom_of_any/\n- Lucis：今日最も大切なことを追跡\n  https://www.reddit.com/r/macapps/comments/1uketpo/lucis_track_what_matters_the_most_to_you_today/\n- Side Calendar — 5ヶ月で9回のリリースを経て\n  https://www.reddit.com/r/macapps/comments/1ukesro/side_calendar_five_months_and_nine_releases_later/\n- Arcブラウザの不具合…\n  https://www.reddit.com/r/macapps/comments/1ukxj1b/arc_browser_issues/\n- TranscribeX v8.5 — ローカルLLM、アプリ動画録画、カスタムアプリ自動検出、デバイス内ディクテーションがついに登場。完全ローカル動作。\n  https://www.reddit.com/r/macapps/comments/1ukg3mg/transcribex_v85_local_llm_app_video_recording/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-02"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-02"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [2353pt] Claude Codeがリクエストを隠し持っていることを示唆する報告 | 透明性の欠如、監視、信頼性に懸念の声が多数。\n  https://news.ycombinator.com/item?id=48734373\n- [1232pt] Claude Sonnet 5の評価 | 性能とコストのバランスに疑問の声。競合と比べ劣るとの意見も。\n  https://news.ycombinator.com/item?id=48736605\n- [912pt] 米商務省、Claude Fable 5とMythos 5の輸出規制を解除 | 予測不可能性と米国企業への影響について懸念が示されている。\n  https://news.ycombinator.com/item?id=48740771\n- [703pt] 欧州のデジタルIDウォレット、GoogleとAppleの安全サービスに依存 | EUのデジタル主権に対する矛盾を指摘する声が多数。\n  https://news.ycombinator.com/item?id=48730729\n- [686pt] 米国大使がベルギー警察に報道を止めさせた | 大使の行動への批判や、報道の自由に関する懸念。\n  https://news.ycombinator.com/item?id=48730608\n- [636pt] 多くの議論はアイデアではなくエゴに関するもの | 自己反省と他者の意見の受容の重要性について共感する声。\n  https://news.ycombinator.com/item?id=48746445\n- [631pt] 初めて、ゼロから作られた細胞が増殖・分裂に成功 | 画期的な成果に興奮と期待の声。研究の独自性への言及も。\n  https://news.ycombinator.com/item?id=48747304\n- [552pt] Claude Scienceの発表 | 既存の科学者や開発者から高い評価と驚きの声。\n  https://news.ycombinator.com/item?id=48735770\n- [520pt] GodotがAI生成コードの貢献を受け付けない方針を発表 | AIコードのレビュー負担と品質への懸念から、この方針を支持する声が多数。\n  https://news.ycombinator.com/item?id=48743472\n- [512pt] Asahi Linux 7.1 進捗レポート | M3サポートの進捗や、Asahi Linuxチームの技術力への賞賛。\n  https://news.ycombinator.com/item?id=48744518",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-07-02"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "12 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- SpaceXがAIデバイスのプロトタイプを開発、まるで電話のような機能か\n  https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/\n- アシュトン・カッチャーがSound Venturesを退社、Morgan Bellerと新VCファンドを設立へ\n  https://techcrunch.com/2026/07/01/ashton-kutcher-leaving-sound-ventures-to-launch-new-vc-firm-with-morgan-beller/\n- Cloudflareの新方針、AI企業にパブリッシャーのコンテンツへの支払いを要求\n  https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/\n- 自動運転の期待再燃、Humble Roboticsが貨物輸送に参入\n  https://techcrunch.com/video/autonomous-vehicle-hype-is-back-and-humble-robotics-is-bringing-it-to-freights/\n- プライバシー重視のAIプラットフォームが好調なVenice AI、シリーズAで6,500万ドル調達しユニコーン企業に\n  https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/\n- Googleのエージェント型アシスタント「Gemini Spark」、Macで利用可能に\n  https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/\n- Builders Stageの議題発表：TechCrunch Disrupt 2026でスタートアップを成長させる実践戦略\n  https://techcrunch.com/2026/07/01/builders-stage-agenda-revealed-practical-strategies-for-scaling-startups-at-techcrunch-disrupt-2026/\n- MetaもSpaceXのように、余剰AIコンピューティング能力を収益化へ\n  https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/\n- 「インターネットの父」が遂に引退\n  https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/\n- トランプ氏、AnthropicのMythosとFableモデルへの規制を撤廃\n  https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/\n- Wayveが85億ドル評価額で8,500万ドルの従業員向け株式公開買い付けを実施\n  https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/\n- Startup Battlefield Australiaの応募締め切り間近：7月6日までに申請を\n  https://techcrunch.com/2026/06/30/last-chance-to-apply-startup-battlefield-australia-applications-close-july-6/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-07-02"
+    },
+    {
+      "sourceName": "laiso",
+      "title": "AI開発者ニュース #6: Claude Sonnet 5、Fable 5、Gemini Omni Flash",
+      "url": "https://blog.lai.so/2026-07-01/",
+      "summary": "Anthropicが新モデル「Claude Sonnet 5」を公開し、Googleは画像モデル「Nano Banana 2 Lite」と動画モデル「Gemini Omni Flash」を発表、NotebookLMはAIが60秒の要約動画を生成する機能を追加した。",
+      "publishedAt": "2026-07-01",
+      "ogImage": null
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Mark by Airtop — ソロマーケター向け「Vibe」自動化ツール\n  https://www.producthunt.com/products/airtop\n- Stigg 2.0 — AI製品向け利用状況ランタイム\n  https://www.producthunt.com/products/stigg\n- Humalike — AIエージェントに不足するソーシャルインテリジェンスを付与\n  https://www.producthunt.com/products/humalike-2\n- Acti — モバイルコマンドと検索に対応したエージェント型キーボード\n  https://www.producthunt.com/products/acti-2\n- Dump Memory — あなたの記憶を修復します\n  https://www.producthunt.com/products/dump-4\n- Gemini Omni Flash — 高品質ビデオ生成と会話型編集を実現\n  https://www.producthunt.com/products/gemini-omni-flash\n- Claude Sonnet 5 — 計画、実行、仕事をこなすAI\n  https://www.producthunt.com/products/claude\n- LightTwist — リアルなバーチャルスタジオで番組を録画・配信\n  https://www.producthunt.com/products/lighttwist\n- Aruki — 日本のウォーキングメソッドをiPhoneでコーチング\n  https://www.producthunt.com/products/aruki-japanese-walking\n- Adam CAD Copilot — OnshapeとFusionにAI CADを搭載\n  https://www.producthunt.com/products/adam-cad-copilot",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-07-02"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "1 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Inkbox、AIエージェント向けにメール・電話・iMessage・インターネットアドレスを提供\n  https://inkbox.ai",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-07-02"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "How Cursor deploys AI inside the enterprise",
+      "url": "https://www.latent.space/p/cursor-forward-deployed-engineers",
+      "summary": "Cursor社は、AIを活用したソフトウェア開発ライフサイクル全体の自動化を目指す「AIソフトウェアファクトリー」の構築を推進しており、その実現のために顧客と密接に連携する専門エンジニアチームを拡大している。",
+      "publishedAt": "2026-07-02",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!e2BU!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a8c541c-264c-476f-b47c-029cd970acf9_1280x720.jpeg"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "🔬 The Coolest Diffusion Research Isn't in LLMs — Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+      "url": "https://www.latent.space/p/the-coolest-diffusion-research-isnt",
+      "summary": "創薬AIのGenesis Molecular AIが、革新的な3D構造予測モデルPEARLで従来のベンチマークを上回る成果を出し、薬剤候補探索の効率化に貢献。",
+      "publishedAt": "2026-07-01",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!znMs!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F204393300%2F0e177857-4b98-4424-a927-633fee2eb3d6%2Ftranscoded-1782886762.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Warp CEO Zach Lloyd on why software factories are the next phase of coding",
+      "url": "https://www.latent.space/p/software-factories",
+      "summary": "WarpはCLIツールから、AIエージェントがソフトウェア開発サイクルを自動化する「ソフトウェアファクトリー」プラットフォーム「Oz」へと事業を転換し、開発のインタラクティブ性から自動化への移行を目指す。",
+      "publishedAt": "2026-07-01",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!kQB7!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa4140e59-9bc8-4685-8af0-0cf86b6f998f_1280x720.jpeg"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "AIEWF Daily Dispatch: Loops, Software Factories & Forward Deployed Engineers",
+      "url": "https://www.latent.space/p/aiewf-daily-dispatch-loops",
+      "summary": "AIエンジニアのイベントで、AIエージェントによる自動化されたソフトウェア開発「ソフトウェアファクトリー」と、それを支える「ループ」の概念、およびオープンソースAIの進化が主要テーマとなった。",
+      "publishedAt": "2026-07-01",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!i4cw!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee341b9f-8fd3-47e5-87db-9b3d0fc72de5_1280x720.jpeg"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Sonnet 5 today, and Fable 5 tomorrow",
+      "url": "https://www.latent.space/p/ainews-sonnet-5-today-and-fable-5",
+      "summary": "Anthropicがエージェント機能、コーディング、ツール使用に重点を置いた中堅モデル「Claude Sonnet 5」をリリースし、他の主要企業もAIエージェント、ハードウェア最適化、オープンソースモデル、新しいベンチマークなどで進展を見せた。",
+      "publishedAt": "2026-07-01",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!V4wu!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHMF3K5vakAAfUEM.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Forward Deployed Engineers and the future of software engineering",
+      "url": "https://www.latent.space/p/forward-deployed-engineers-aiewf",
+      "summary": "会話型AIエージェントの開発は、顧客の課題を解決するためシステム統合や顧客理解が必要で、プロダクト開発と顧客対応エンジニアの役割が収束しつつある。",
+      "publishedAt": "2026-07-01",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!FQL_!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf8be96e-5c79-4412-baaa-e987da5ef53a_1280x960.jpeg"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Ahmad Osman on why local AI is catching up",
+      "url": "https://www.latent.space/p/ahmad-osman-local-ai",
+      "summary": "AI Engineer World&#8217;s Fairで、ローカルAIの重要性と進化、オープンソースモデルと専用ハードウェアを活用した運用の現状と将来が議論された。",
+      "publishedAt": "2026-07-01",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!9BC6!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9842112b-570d-48b7-92f3-7cbb05681776_1280x720.jpeg"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "16 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-07-02",
+      "docsUpdates": [
+        {
+          "tag": "Improved",
+          "file": "env-vars.md",
+          "text": "`CLAUDE_CODE_GLOB_TIMEOUT_SECONDS`環境変数のデフォルト値について、WSLでのタイムアウト時間が追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/1009d45b093a956fd950866d399b8b2af60332f7"
+        },
+        {
+          "tag": "Improved",
+          "file": "vs-code.md",
+          "text": "VS Code統合ターミナルで`claude`を実行すると拡張機能が自動再インストールされる挙動について、自動インストールを停止する方法が追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/1009d45b093a956fd950866d399b8b2af60332f7"
+        },
+        {
+          "tag": "Changed",
+          "file": "advisor.md",
+          "text": "アドバイザーとして使用できるモデルのリストが更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2044b535468f10d2f4ff97ec1063b5129c7778c0"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__agent-loop.md",
+          "text": "エージェントの思考量を制御する`effort`オプションのレベル定義が更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2044b535468f10d2f4ff97ec1063b5129c7778c0"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__typescript.md",
+          "text": "ModelInfo型に`resolvedModel`と`supportsAutoMode`フィールドが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2044b535468f10d2f4ff97ec1063b5129c7778c0"
+        },
+        {
+          "tag": "Fixed",
+          "file": "llm-gateway-protocol.md",
+          "text": "LLMゲートウェイプロトコルにおける、検出されたIDのスキップ条件に関する説明が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2044b535468f10d2f4ff97ec1063b5129c7778c0"
+        },
+        {
+          "tag": "Changed",
+          "file": "monitoring-usage.md",
+          "text": "モデル識別子の例が`claude-sonnet-4-6`から`claude-sonnet-5`に更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2044b535468f10d2f4ff97ec1063b5129c7778c0"
+        },
+        {
+          "tag": "Improved",
+          "file": "tools-reference.md",
+          "text": "WebSearchツールがGoogle Cloud Vertex AIで利用可能なモデルの範囲が、「Claude 4モデル」から「Claude 4以降のモデル」に拡張されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2044b535468f10d2f4ff97ec1063b5129c7778c0"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-teams.md",
+          "text": "エージェントチームにおいて、エージェントが別のエージェントにメッセージを送信する際の動作に関する説明が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/1a0a7f3467925da90d3bb445763b6acc2e816ef9"
+        },
+        {
+          "tag": "Fixed",
+          "file": "agent-view.md",
+          "text": "`@<repo>` でリポジトリを参照する際の記述形式に関する情報が削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/1a0a7f3467925da90d3bb445763b6acc2e816ef9"
+        },
+        {
+          "tag": "Fixed",
+          "file": "env-vars.md",
+          "text": "環境変数 `CLAUDE_CODE_SCROLL_SPEED` の説明から不要な改行が削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/1a0a7f3467925da90d3bb445763b6acc2e816ef9"
+        },
+        {
+          "tag": "Added",
+          "file": "skills.md",
+          "text": "スキルがシンボリックリンクである場合の動作、特にClaude Codeがシンボリックリンクを辿ってSKILL.mdを読み込む方法が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/1a0a7f3467925da90d3bb445763b6acc2e816ef9"
+        },
+        {
+          "tag": "Added",
+          "file": "troubleshoot-install.md",
+          "text": "`A parameter cannot be found that matches parameter name 'fsSL'` エラーメッセージに対するトラブルシューティング情報が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/1a0a7f3467925da90d3bb445763b6acc2e816ef9"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__python.md",
+          "text": "ClaudeAgentOptionsのオプション設定例において、can_use_toolとallowed_toolsを同時に指定する場合、can_use_toolが実行される前にallowed_toolsによる承認が行われるため、重複するツールはallowed_toolsに含めないように変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/66ce616dad8223017852fccd1f08af0b4be5e61d"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__user-input.md",
+          "text": "canUseToolコールバックがトリガーされる条件として、「ツールが承認を必要とする場合」の説明が、許可ルールまたはパーミッションモードによって自動承認されないツールの場合に発生することがより明確にされました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/66ce616dad8223017852fccd1f08af0b4be5e61d"
+        },
+        {
+          "tag": "Added",
+          "file": "hooks.md",
+          "text": "PreToolUseフックはClaudeがツールを呼び出すときにのみ実行され、プロンプト内で`@`参照されるファイルはツールの呼び出しなしに挿入されるため、それらに対してPreToolUseフックは発火しないという警告が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/66ce616dad8223017852fccd1f08af0b4be5e61d"
+        },
+        {
+          "tag": "Fixed",
+          "file": "server-managed-settings.md",
+          "text": "サーバー管理設定はクライアント側の制御として機能し、セキュリティ境界ではないため、管理されていないデバイスではユーザーが管理者権限なしでもバイパスできるという説明が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/66ce616dad8223017852fccd1f08af0b4be5e61d"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "6 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- Copilot CLI、C++言語サーバー設定機能を強化\n  https://github.blog/changelog/2026-07-01-new-c-language-server-config-skill-for-copilot-cli\n- GitHub Copilot、Kimi K2.7 Codeが一般提供を開始\n  https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot\n- Copilot visionが一般提供開始\n  https://github.blog/changelog/2026-07-01-copilot-vision-is-generally-available\n- Copilot CLIとSDKでAIクレジットセッション制限を設定可能に\n  https://github.blog/changelog/2026-07-01-set-ai-credit-session-limits-in-copilot-cli-and-sdk\n- VS Code向けGitHub Copilotのブラウザツールが一般提供開始\n  https://github.blog/changelog/2026-07-01-browser-tools-for-github-copilot-in-vs-code-are-generally-available\n- Copilot CLI、タスクベースのAIモデル自動選択機能を実装\n  https://github.blog/changelog/2026-07-01-copilot-cli-auto-model-selection-routes-based-on-task",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-07-02"
+    }
+  ]
+}
