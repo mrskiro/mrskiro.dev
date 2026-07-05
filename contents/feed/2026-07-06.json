@@ -1,0 +1,61 @@
+{
+  "fetchedAt": "2026-07-05T21:45:58.964Z",
+  "entries": [
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- 【大喜利】アプリの山 - 2026年7月\n  https://www.reddit.com/r/macapps/comments/1uknpm8/megathread_the_app_pile_july_2026/\n- 注意喚起：「pearcleaner.com」はmacOS向け情報窃取マルウェアを配布する偽サイト\n  https://www.reddit.com/r/macapps/comments/1ucstzy/psa_pearcleanercom_is_a_fake_site_pushing_macos/\n- 【OS】EnviousWispr：Wispr Flowを無料で。Macネイティブのオープンソース音声入力、超高速ローカルトランスクリプションとAI校正を搭載。チューニング済みローカルAI校正モデルとApple Intelligenceに対応\n  https://www.reddit.com/r/macapps/comments/1uobt7v/os_enviouswispr_wispr_flow_but_free_opensource/\n- 開発者スポットライト - WidgetWorx\n  https://www.reddit.com/r/macapps/comments/1uobxz0/developer_spotlight_widgetworx/\n- AnalogTV - 完全シミュレーション（フィルターではない）。最新バージョンをリリース。\n  https://www.reddit.com/r/macapps/comments/1unzkj9/analogtv_full_simulation_not_a_filter_latest/\n- 【OS】Purge：自分で作った、Mac向けの小さな無料オープンソースキャッシュクリーナー\n  https://www.reddit.com/r/macapps/comments/1unih9f/os_purge_a_small_free_opensource_mac_cache/\n- 約1年を経て、Droppyはもはや「ノッチアプリ」ではない。macOSが搭載しなかったオールインワンユーティリティへ。\n  https://www.reddit.com/r/macapps/comments/1un7biy/after_almost_a_year_droppy_isnt_really_a_notch/\n- 【アップデート】3ヶ月前にBetterStageを公開しました。45回のアップデートを経て、現在の姿をご覧ください。\n  https://www.reddit.com/r/macapps/comments/1umq68y/update_i_posted_betterstage_here_3_months_ago/\n- Audioer v2.3リリース：ローカルオフラインバッチ音声形式変換ツール\n  https://www.reddit.com/r/macapps/comments/1unaxwe/audioer_v23_released_local_offline_batch_audio/\n- Spokenly vs. Superwhisper\n  https://www.reddit.com/r/macapps/comments/1unb08h/spokenly_vs_superwhisper/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-06"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-06"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [805pt] 部屋の空気こそがボトルネックかもしれない | CO2濃度の認知機能への影響について意見が分かれており、懐疑的な声もある\n  https://news.ycombinator.com/item?id=48783117\n- [686pt] Organic Maps | CoMapsというフォーク版の存在や、Organic MapsのOSSとしての純粋性を疑問視する声がある\n  https://news.ycombinator.com/item?id=48794446\n- [661pt] YouTubeクリエイターの非公開動画が漏洩 | 攻撃の手法に関する詳細な説明と、この問題に対するYouTubeの対応への推測が寄せられている\n  https://news.ycombinator.com/item?id=48786781\n- [653pt] Fableを使ってCommand and Conquer GeneralsをmacOS, iPhone, iPadにネイティブ移植 | LLMによるゲームのリバースエンジニアリングへの期待と、AIによる説明文の違和感が議論されている\n  https://news.ycombinator.com/item?id=48788283\n- [518pt] ボタンなら、やるべきことは一つ | クリックの誤認識やデバウンス処理、ボタンが持つ多様な役割について議論されている\n  https://news.ycombinator.com/item?id=48790689\n- [511pt] Googleブックス（または同様のサービス）の全書籍スキャン — 20万ドルの報奨金（2025年） | 書籍の入手困難な国での需要や、ライセンス問題による障壁に関するコメントが複数寄せられている\n  https://news.ycombinator.com/item?id=48786838\n- [492pt] Linuxのhtop/topで見えるものすべてを解説（2019年） | btopのような代替ツールやhtopの便利な設定、仮想メモリの信頼性についてコメントがある\n  https://news.ycombinator.com/item?id=48784777\n- [454pt] もしかしたら、何かを学ぶべきかもしれない | 学ぶことの重要性、時間の捻出方法、そして「学ぶこと」と「学ぶことについて消費すること」の違いについて議論されている\n  https://news.ycombinator.com/item?id=48782435\n- [369pt] Leanstral 1.5: 誰もが享受できる証明の豊かさ | Mistralのモデル性能に関する批判と、バグ発見の具体例についてコメントが寄せられている\n  https://news.ycombinator.com/item?id=48780801\n- [365pt] EU理事会、チャット監視をファストトラックで強制 | チャット監視の背景説明と、政治家の決定への批判、そしてイタリアの動向に関する情報が寄せられている\n  https://news.ycombinator.com/item?id=48793393",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-07-06"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "3 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Uberの欧州展開計画に暗雲\n  https://techcrunch.com/2026/07/05/ubers-european-expansion-plans-may-have-hit-a-speed-bump/\n- AmazonがMechanical Turkの新規顧客受付を停止へ\n  https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/\n- 今年誕生したユニコーン企業は90社近くに到達 - 全リスト公開\n  https://techcrunch.com/2026/07/05/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-07-06"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
+      "url": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-entries",
+      "summary": "AIエージェントのClaude Fableを活用し、sqlite-utils 4.0rc2をリリース。",
+      "publishedAt": "2026-07-05",
+      "ogImage": "https://static.simonwillison.net/static/2026/fable-plan-usage.webp"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- WorkBuddy — AIエキスパートチームが成果を迅速に向上\n  https://www.producthunt.com/products/workbuddy-2\n- CircleChat — AIエージェントにSlack、タスクボード、上司を\n  https://www.producthunt.com/products/circlechat\n- Toku Reader — 日本語・中国語を原文で読み聞き、単語をタップ\n  https://www.producthunt.com/products/toku-reader\n- Pennen — 毎日1ページ、静かに手書き。フィードもAIもなし\n  https://www.producthunt.com/products/pennen\n- Endl — 法定通貨、ステーブルコイン、カードに対応するグローバル決済口座\n  https://www.producthunt.com/products/endl\n- DocsAlot — 人間にもAIシステムにも役立つドキュメント作成\n  https://www.producthunt.com/products/docsalot-2\n- TryCase — AIコーディングエージェント向け使い捨てテスト環境\n  https://www.producthunt.com/products/trycase\n- MentionDrop MCP — AIエージェントにリアルタイム市場シグナルを送信\n  https://www.producthunt.com/products/mentiondrop\n- Vida — 自分をクローン。AIが指示前に作業を実行\n  https://www.producthunt.com/products/vida-5\n- CentryAI — サブスクリプション忘れがちな人のためのトラッカー\n  https://www.producthunt.com/products/centryai",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-07-06"
+    },
+    {
+      "sourceName": "GitHub Trending",
+      "title": "Weekly Trending",
+      "url": "https://github.com/trending?since=weekly",
+      "summary": "- usestrix/strix：アプリの脆弱性を見つけて修正するオープンソースのAI侵入テストツール。 ⭐9,362/week\n  https://github.com/usestrix/strix\n- xbtlin/ai-berkshire：AI時代のバークシャー：Claude Code / Codexに基づいた価値投資研究フレームワーク。4人の巨匠の方法論 + マルチエージェント並列研究。 ⭐5,984/week\n  https://github.com/xbtlin/ai-berkshire\n- diegosouzapw/OmniRoute：コーディングを止めない。無料のAIゲートウェイ：1つのエンドポイント、231以上のプロバイダー（50以上が無料）、Claude Code、Codex、Cursor、Cline、Copilotを無料のClaude/GPT/Geminiに接続。 ⭐4,133/week\n  https://github.com/diegosouzapw/OmniRoute\n- simplex-chat/simplex-chat：SimpleX - ユーザー識別子を一切使用しない初のメッセージングネットワーク - 設計上100%プライベート！ ⭐4,630/week\n  https://github.com/simplex-chat/simplex-chat\n- Robbyant/lingbot-map：ストリーミングデータからシーンを再構築するためのフィードフォワード3Dファウンデーションモデル。 ⭐2,065/week\n  https://github.com/Robbyant/lingbot-map\n- ogulcancelik/herdr：ターミナルで動作するエージェントマルチプレクサ。 ⭐3,506/week\n  https://github.com/ogulcancelik/herdr\n- logto-io/logto：マルチテナンシー、SSO、RBACを備えたOIDCとOAuth 2.1上に構築されたSaaSおよびAIアプリ向けの認証・認可インフラストラクチャ。 ⭐1,488/week\n  https://github.com/logto-io/logto\n- Zackriya-Solutions/meetily：プライバシーを最優先したAI会議アシスタント。Parakeet/Whisperによる4倍速いライブ文字起こし、話者分離、Rustで構築されたOllamaによる要約機能を備え、100%ローカル処理でクラウド不要。 ⭐1,886/week\n  https://github.com/Zackriya-Solutions/meetily\n- browser-use/video-use：コーディングエージェントでビデオを編集。 ⭐4,174/week\n  https://github.com/browser-use/video-use\n- alibaba/page-agent：JavaScriptインページGUIエージェント。自然言語でウェブインターフェースを制御。 ⭐2,484/week\n  https://github.com/alibaba/page-agent",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-07-06"
+    }
+  ]
+}
