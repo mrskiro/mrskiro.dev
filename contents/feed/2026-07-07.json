@@ -1,0 +1,113 @@
+{
+  "fetchedAt": "2026-07-06T22:04:07.128Z",
+  "entries": [
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-07"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-07"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1125pt] Organic Mapsについて | Organic Mapsのガバナンスへの懸念からCoMapsへの乗り換えを推奨する声が多く、CoMapsはFOSSとして評価されている。Organic Mapsの悪意ある行動（広告の追加など）への批判も。\n  https://news.ycombinator.com/item?id=48794446\n- [1102pt] OpenPrinter: オープンソースのプリンタープロジェクト | 既存モジュールのパッケージ化であり複雑性への異論もある。商用利用でのライセンス違反の懸念や、クラウドファンディングキャンペーンであることへの注意喚起がある。\n  https://news.ycombinator.com/item?id=48797916\n- [647pt] 物理ゲーム vs. デジタルゲームではなく、「所有権」の問題 | ゲームの購入はライセンスであり所有権ではないという意見や、ゲームの「購入」という表現の規制を求める声がある。消費者の権利を保護する規制を支持する意見も。\n  https://news.ycombinator.com/item?id=48794750\n- [580pt] ボタンの役割：ユーザーインターフェースデザインの課題 | ボタンのデバウンス（連打時の誤動作防止）の重要性が指摘され、アニメーションは補助的な役割であるべきという意見がある。\n  https://news.ycombinator.com/item?id=48790689\n- [463pt] EU理事会がチャット監視（Chat Control）を迅速承認 | 「Chat Control 1.0」として、メッセージプロバイダーがチャットをスキャンすることを許可する。政治家の腐敗や愚かさへの批判、イタリアも賛成したことへの言及あり。\n  https://news.ycombinator.com/item?id=48793393\n- [443pt] あまり見られていない作品の魅力 | 「あまり見られていないもの」に魅力を感じるという共感の声。Spotifyの誰も聴いていない曲を再生するサービス「Forgotify」への言及も。\n  https://news.ycombinator.com/item?id=48799155\n- [401pt] GPT-5.6 Sol UltraがCodexに搭載 | Ultraモードはサブエージェントを活用し複雑な作業を加速させる機能と説明されている。inferenceコスト半減のニュースと関連付けられ、Anthropicへの競争を期待する声も。\n  https://news.ycombinator.com/item?id=48799614\n- [399pt] Xboxの再編について | Xboxは収益は大きいが利益率が低いという現状が語られている。ゲーム業界が「インタラクティブなハリウッド」を目指したことへの批判的な意見も。\n  https://news.ycombinator.com/item?id=48804993\n- [384pt] Flipper Zero開発の未来 | コミュニティがファームウェアアップデートを期待する一方で、ハードウェアは一度しか売れないという課題が指摘されている。多くのユーザーがサードパーティ製ファームウェアを使用しているという意見も。\n  https://news.ycombinator.com/item?id=48796552\n- [367pt] GPT-5.5 Codexのパフォーマンス低下、推論トークンクラスターが原因か | Codexの品質が日ごとに低下しているという声が多く、特にPROプランで推論トークンに問題が発生していると指摘されている。\n  https://news.ycombinator.com/item?id=48789428",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-07-07"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "8 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Vercel CEO Guillermo Rauch氏、モデルとエージェントの分離をめぐる議論に言及\n  https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/\n- iOS 27ベータ版でSiriの音声速度と表現をカスタマイズ可能に\n  https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/\n- 2026年、AIを理由とした主要テック企業の人員削減をすべてリストアップ\n  https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/\n- Googleの利用がAI学習に貢献？ オプトアウトの方法を解説\n  https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/\n- MicrosoftがXbox、法人営業部門などで約5,000人を解雇\n  https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/\n- Reddit、LLMが招いた問題をLLMで解決へ\n  https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/\n- Station F、欧州の有望AIスタートアップの育成拠点として存在感を高める\n  https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/\n- スマートグラスのEven Realities、MeituanとTencent主導の資金調達で評価額10億ドルを突破\n  https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-07-07"
+    },
+    {
+      "sourceName": "Addy Osmani",
+      "title": "The Agent-Era Career",
+      "url": "https://addyosmani.com/blog/career-advice-age-of-agents/",
+      "summary": "AI gets good at anything with an answer key. Your career is everything that doesn't have one.",
+      "publishedAt": "2026-07-06",
+      "ogImage": null
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Fragments: July  6",
+      "url": "https://martinfowler.com/fragments/2026-07-06.html",
+      "summary": "Thoughtworksのソフトウェア開発イベントで、AIを活用したエージェント開発が実践フェーズに入り、コストや設計、倫理問題などが議論された。",
+      "publishedAt": "2026-07-06",
+      "ogImage": "https://martinfowler.com/logo-sq.png"
+    },
+    {
+      "sourceName": "laiso",
+      "title": "AI開発者ニュース #8: Fable 5、Vinext",
+      "url": "https://blog.lai.so/2026-07-06/",
+      "summary": "AI開発でFable 5の利用料が高騰しているため、Fable 5を計画・レビュー役、Codexなどを実装役とする分業体制が推奨されている。",
+      "publishedAt": "2026-07-06",
+      "ogImage": null
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Cadence — 記録は1回、自信を持って送信\n  https://www.producthunt.com/products/cadence-13\n- Mozaik — 自己組織化AIエージェント向けTypeScriptランタイム\n  https://www.producthunt.com/products/mozaik-4\n- AirKaren — カスタマーサービスとAIが交渉\n  https://www.producthunt.com/products/airkaren\n- Stanley Studio — 人間のように編集するAIビデオエディター\n  https://www.producthunt.com/products/stanley-studio\n- CodeMote — Claude Code、Codex、あらゆるCLIエージェントをiPhoneから操作\n  https://www.producthunt.com/products/codemote-remote-control-for-any-ai\n- Octolens — エージェント時代に対応するソーシャルリスニング\n  https://www.producthunt.com/products/octolens-ai\n- AnySearch — エージェントや開発者が信頼するリアルタイム構造化検索\n  https://www.producthunt.com/products/anysearch\n- Astryx — カスタマイズ可能でエージェント対応のオープンソースデザインシステム\n  https://www.producthunt.com/products/meta\n- Sunrise — Google Tasks向け本格プランナー\n  https://www.producthunt.com/products/sunrise-5\n- Typeahead 2.0 — Macの全アプリで使えるプライベートAIオートコンプリート\n  https://www.producthunt.com/products/typeahead",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-07-07"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems",
+      "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
+      "summary": "アルバータ州政府が2025年よりClaude Codeを使ってシステム監査・脆弱性修正を開始。",
+      "ogImage": "https://www.anthropic.com/api/opengraph-illustration?name=Object-LaptopSecure&backgroundColor=sky",
+      "publishedAt": "2026-07-07"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "2 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- LemonLime、ノーコードAIでビジネスを学習し自動化を自己生成\n  https://www.lemonlime.ai/\n- Justinianが初のAIネイティブな政府渉外企業を設立\n  https://justinianai.com",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-07-07"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "2 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-07-07",
+      "docsUpdates": [
+        {
+          "tag": "Improved",
+          "file": "desktop-linux.md",
+          "text": "新しいDebianまたはUbuntu環境で`curl`コマンドが見つからない場合に備えて、`curl`をインストールする手順が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/0dd2cb8afaff3d2873c7861f7c07a01a16179750"
+        },
+        {
+          "tag": "Improved",
+          "file": "desktop-linux.md",
+          "text": "`claude.com/download`からのダウンロードインストールオプションの記述が改善されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/0dd2cb8afaff3d2873c7861f7c07a01a16179750"
+        },
+        {
+          "tag": "Changed",
+          "file": "github-enterprise-server.md",
+          "text": "GitHub Enterprise Serverのサポートは、内部マーケットプレイスからのプラグインのインストールをサポートしなくなりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/16021cee0814d19173165ead7c1c2aa5239cd290"
+        }
+      ]
+    }
+  ]
+}
