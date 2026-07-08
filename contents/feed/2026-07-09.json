@@ -1,0 +1,275 @@
+{
+  "fetchedAt": "2026-07-08T21:55:06.380Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Our approach to government and national security partnerships",
+      "url": "https://openai.com/index/government-national-security-partnerships",
+      "summary": "OpenAIが政府・国家安全保障との連携におけるAIの責任ある利用、民主的説明責任、公共の安全に関する原則を発表。",
+      "publishedAt": "2026-07-08",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/2h3zDXkAt00qFTGsCqrLuV/f4b2ed4ee96f72220d4f6ddc9924a01a/Frame-1.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Separating signal from noise in coding evaluations",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "summary": "OpenAIの分析により、人気のコーディングAI評価ベンチマーク「SWE-Bench Pro」に信頼性と精度に関する問題が指摘された。",
+      "publishedAt": "2026-07-08",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/5f0Xf4wOuXVsX7TZUM4tjl/4672bf7bf93bad67ade28dce57f62638/Seperating-signal-from-noise-SEO.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Helping K–12 educators build practical AI skills",
+      "url": "https://openai.com/index/k-12-educators-practical-skills",
+      "summary": "OpenAIとウォルトン・ファミリー財団が、K-12教育者向けに実践的なAIスキルを学ぶワークショップを開催。",
+      "publishedAt": "2026-07-08",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/5zmUIk02ah3xYC8TQ6RR59/fa597b63e8bff26e7e6011cae4542f7b/Frame-1.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Introducing GPT-Live",
+      "url": "https://openai.com/index/introducing-gpt-live",
+      "summary": "ChatGPT Voice向けに、人間とAIの自然な対話を実現する新世代の音声モデルが登場。",
+      "publishedAt": "2026-07-08",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/54glGpDpS58mKdx6Y3GobW/6ea5121851a36b8cf0505a96be2de994/bidi-art-card_16_9__1_.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.205",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.205",
+      "summary": "- [Added] セッショントランスクリプトファイルの改ざんをブロックする自動モードルールが追加されました。\n- [Fixed] --json-schema がスキーマが無効な場合に構造化されていない出力をサイレントに生成する問題、および format キーワードを使用するスキーマが拒否される問題が修正されました。\n- [Fixed] Claude の作業中に送信されたメッセージが --max-turns 制限でターンが終了したときにサイレントに失われる問題が修正されました。\n- [Fixed] Windows のワークツリー削除で、NTFS ジャンクションまたはディレクトリシンボリックリンクがワークツリー内に存在する場合に、ワークツリー外のファイルが削除される問題が修正されました。\n- [Fixed] バックグラウンドエージェントが SendMessage で再開された後もエージェントリストに「失敗」または「完了」と表示され続ける問題が修正されました。\n- [Fixed] バックグラウンドジョブが、エージェントのターンに読み取り可能なテキストが含まれていない場合に、エージェントリストで「入力待ち」から「作業中」に切り替わる問題が修正されました。\n- [Fixed] claude attach が、バックグラウンドエージェントがアップグレード再起動中である場合に、復帰を待たずにエラーになる問題が修正されました。\n- [Fixed] セッションから PR へのリンクが、出力が 30K のインライン制限を超えた Bash 呼び出しで作成された PR を見逃す問題が修正されました。\n- [Fixed] claude mcp add-from-claude-desktop が、サーバー名にサポートされていない文字が含まれている場合にスタックする問題が修正されました。無効な名前は報告され、残りのサーバーは引き続きインポートされます。\n- [Fixed] 初期化に失敗するプラグイン LSP サーバーが、同じファイル拡張子を処理する別のプラグインからの有効な LSP サーバーを妨げる問題が修正されました。\n- [Fixed] コマンドの実行中に Claude が起動されたディレクトリが削除、ロック、またはアンマウントされたときの Windows クラッシュが修正されました。\n- [Fixed] ディレクトリのスキャンが進行中にファイルウォッチャーが閉じられたときのクラッシュが修正されました。\n- [Fixed] プロジェクトの検証スキルが、ドキュメント化されたコマンドが変更された場合にのみ書き換えられ、毎回のセッションでは書き換えられないように修正されました。\n- [Fixed] エージェントビューが、ジョブリストが画面をわずかにオーバーフローしたときに、1行高くレンダリングされ、ヘッダーがクリッピングされる問題が修正されました。\n- [Fixed] Web およびモバイルのリモートコントロールパネルのバックグラウンドタスクが、メンバーシップが変更されるたびに完全なタスク状態を転送することで、古い「実行中」ステータスを表示する問題が修正されました。\n- [Improved] 自動モードが、コンテキストから解決できない変数に対して rm -rf を実行する前に確認するように改善されました。\n- [Improved] 自動更新バイナリのダウンロードが、メモリにバッファリングする代わりにディスクにストリームされるようになり、アップデーターのピークメモリ使用量が約 400 MB 削減されました。\n- [Improved] バックグラウンドタスク通知が、人間の入力が発生していないことを明示的に示すようになり、トランスクリプト内で捏造された承認が実行されるのを防ぎます。\n- [Improved] エージェントビューが改善され、既存の PR を編集、マージ、コメント、またはプッシュするセッションが claude agents にリンクされるようになりました。\n- [Improved] エージェントビューが改善され、行に色付きのステータスワードと分類子によって書かれた見出しが表示されるようになり、ピークはブロックされたセッションの正確な要求を含む完全なステータスで開きます。\n- [Added] /doctor は、問題を診断および修正できる完全なセットアップチェックアップになりました。/checkup はそのエイリアスです。\n- [Changed] 「Claude Browser」MCP サーバー名（「Claude Preview」と共に）は、Claude Desktop ペインの名前変更に先立って予約されました。ユーザーが構成した MCP サーバーは、これらの名前では登録できなくなりました。\n- [Fixed] Cowork VM モードのローカルエージェントセッションが、CLI 2.1.203 以降で「ログインしていません · /login を実行してください」というメッセージで開始に失敗する問題が修正されました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-07-09"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.204",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.204",
+      "summary": "- [Fixed] ヘッドレスセッションでSessionStartフック中にフックイベントがストリーミングされない不具合を修正。これにより、リモートワーカーがフックの途中でアイドル状態と判断され停止される可能性がありました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-07-08"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-09"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- Redditで最も活発なAIサブレディット「r/ClaudeAI」のモデレーターを募集\n  https://www.reddit.com/r/ClaudeAI/comments/1ulx31a/apply_to_be_a_moderator_of_rclaudeai_reddits_most/\n- r/ClaudeAI 進行中のメガレッド一覧\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- ヨーロッパパークのジェットコースター待ち行列でLLMが窮地を救ってくれた話\n  https://www.reddit.com/r/ClaudeAI/comments/1uqt53j/an_llm_saved_my_ass_while_standing_in_the_queue/\n- Anthropicが「Fable 5が指揮し、安価なモデルが実行」をベンチマーク：性能96%をコスト46%で実現。このパターンはClaude Codeで今日から実行可能\n  https://www.reddit.com/r/ClaudeAI/comments/1ur2ml9/anthropic_just_benchmarked_fable_5_orchestrates/\n- Claudeの新しい認定資格を本日導入\n  https://www.reddit.com/r/ClaudeAI/comments/1uqvxxm/new_claude_certifications_introduced_today/\n- Claude Fable 5でポートフォリオを全て構築。宇宙をスクロールし、太陽に衝突\n  https://www.reddit.com/r/ClaudeAI/comments/1uqoaqv/built_my_entire_portfolio_with_claude_fable_5_you/\n- 年間7,500ドルの構造生物学スイートの機能をClaude Codeで再構築し、無料で公開\n  https://www.reddit.com/r/ClaudeAI/comments/1uqyp1m/rebuilt_functionality_from_a_7500year/\n- 最近、Claudeに最も一般的なAIの挨拶で話しかけてみましたか？\n  https://www.reddit.com/r/ClaudeAI/comments/1uqw18z/have_you_tried_greeting_your_claude_with_the_most/\n- 2028年のAnthropicはこうなる…\n  https://www.reddit.com/r/ClaudeAI/comments/1uqp70p/anthropic_in_2028_be_like/\n- 性行為後、どのくらい経てばClaude Codeを開いて良いのか？\n  https://www.reddit.com/r/ClaudeAI/comments/1uqr3vi/how_long_after_sex_is_it_appropriate_to_open/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-09"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1214pt] ユニクロのTシャツに隠された難読化Bashスクリプトを解読 | 一部のデザインの不完全さやフォントの誤りについて指摘がある一方、デザイナーの意図的な難読化への称賛の声も\n  https://news.ycombinator.com/item?id=48829312\n- [879pt] チャットコントロール1.0と2.0について解説 | 児童性的虐待対策への必要性を認めつつも、その監視範囲の広さや、暗号化通信への影響を懸念する声が多い\n  https://news.ycombinator.com/item?id=48818311\n- [803pt] StreetComplete: OpenStreetMapを少しずつ修正するアプリ | OpenStreetMapへの貢献のしやすさやUIの良さを評価する声が多いが、競合アプリとの比較やライセンスへの懸念も\n  https://news.ycombinator.com/item?id=48816883\n- [756pt] EUで販売される新車すべてにドライバー監視カメラの搭載が義務付け | 新しい車のUXの悪さや、監視システムがテストされているのか疑問視する声、またアラームの多さへの不満が目立つ\n  https://news.ycombinator.com/item?id=48823557\n- [648pt] MicrosoftがId softwareのidTechチームを解雇 | ゲームエンジンを自社で持つことの重要性を指摘し、Microsoftの企業戦略に対する批判や懸念の声が多数\n  https://news.ycombinator.com/item?id=48819244\n- [626pt] EU議会でチャットコントロールが最初の採決を通過 | 不人気な法案が繰り返し提出されることへの批判や、EU域外への影響を懸念する声が多い\n  https://news.ycombinator.com/item?id=48819008\n- [626pt] FableがreMarkableをハリー・ポッターのトム・リドルの日記に変える | このアイデアを面白いと評価する声がある一方、ネガティブな比較対象を用いることへの批判も\n  https://news.ycombinator.com/item?id=48811591\n- [612pt] 30papers.com – イリヤが選ぶ初心者向け機械学習論文30選 | 初心者にとって有益と評価されているが、論文の推奨読順の改善や、他の学習リソースとの比較を求める声も\n  https://news.ycombinator.com/item?id=48819608\n- [577pt] Chattoがオープンソース化 | 自己ホストのしやすさや開発者の才能を評価する声がある一方で、モバイル対応や法人向け機能に関するフィードバックも\n  https://news.ycombinator.com/item?id=48833116\n- [525pt] ジム用ショートパンツ（またはあらゆるドローストリング）のより良い結び方[動画] | 実践した結果の意見や、他の結び方と比較する声、またシンプルな結び方を好む意見がある\n  https://news.ycombinator.com/item?id=48816956",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-07-09"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "10 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Google、ディープフェイク検出システムでマコネル氏のフェイク画像を特定\n  https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/\n- QuantumDiamonds、EUの支援を得てチップ製造の高速化目指す\n  https://techcrunch.com/2026/07/08/with-eu-backing-quantumdiamonds-aims-to-speed-up-chip-manufacturing/\n- SpaceXAI、Grok 4.5をリリース – Elonは「Opus級モデル」と評す\n  https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/\n- ロボット工学、ChatGPT級の転換期を迎える – あるスタートアップが提唱\n  https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/\n- Google Photos、AI搭載の「Video Remix」ツールを追加\n  https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/\n- なぜCEOは「ビデオゲームはインターネットよりも優れた訓練データになる」と考えるのか\n  https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/\n- Meta、AIグラスの“不気味さ”解消を目指すも、AI戦略は逆行か\n  https://techcrunch.com/2026/07/08/meta-wants-its-ai-glasses-to-seem-less-creepy-its-ai-strategy-says-otherwise/\n- OpenAI、より自然なライブ会話を実現する新音声モデルを発表\n  https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/\n- Prime Intellect、シリーズAで1億3000万ドルを調達 – 企業のAIエージェント構築を支援\n  https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/\n- これらのAIスタートアップ、収益が加速的に成長中\n  https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-07-09"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Experiences with local models for coding",
+      "url": "https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-experiences.html",
+      "summary": "コーディングにローカルLLMを試した経験談で、いくつかのモデルを比較し実用性を検証した。",
+      "publishedAt": "2026-07-08",
+      "ogImage": "https://martinfowler.com/articles/exploring-gen-ai/donkey-card.png"
+    },
+    {
+      "sourceName": "laiso",
+      "title": "#10: GPT-5.6 Sol、Grok 4.5、Fable 5",
+      "url": "https://blog.lai.so/2026-07-08/",
+      "summary": "OpenAIがGPT-5.6 Solシリーズを一般公開、Grok 4.5もリリースされ、性能比較が話題に。",
+      "publishedAt": "2026-07-08",
+      "ogImage": null
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- PopTask for Apple — ToDoを予定に組み込むアプリ\n  https://www.producthunt.com/products/poptask\n- Orbit for Mac — すべてのGoogleアカウントを1つのウィンドウで\n  https://www.producthunt.com/products/orbit-for-mac\n- Knowledge Atlas by Fini — 自己学習型ナレッジベース\n  https://www.producthunt.com/products/fini-2\n- On-Device Field Extraction by Veryfi — オフラインでもセキュアなオンデバイス抽出\n  https://www.producthunt.com/products/veryfi\n- Jamboree — マルチプレイヤーシンセサイザー\n  https://www.producthunt.com/products/jamboree\n- Bono AI — 一度の会話でどこにでも公開\n  https://www.producthunt.com/products/bono-ai\n- Eodly — チームが今日何を出荷したか把握\n  https://www.producthunt.com/products/eodly\n- Universal-3.5 Pro — AssemblyAIによる最も正確なSTTモデル\n  https://www.producthunt.com/products/assemblyai\n- IFTTTの新しい中小企業向けツール — HubSpot、Figmaなどでビジネスを運営\n  https://www.producthunt.com/products/ifttt\n- Orus — 無期限契約投資のためのClaude\n  https://www.producthunt.com/products/farao",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-07-09"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "2 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Conifer：ローカルファーストのLCRシステムでトークン消費を削減\n  https://www.conifer.build\n- Rise Reforming：廃棄ガスから高価値で安定供給可能な化学物質を生産\n  https://rise-reforming.com/home",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-07-09"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
+      "url": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
+      "summary": "Metaは画像・動画生成AI「Muse Image/Video」を発表し、Meta Superintelligenceが開発したこのモデルは、計画から自己改善までエージェント的に動作する。",
+      "publishedAt": "2026-07-08",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!L_Ci!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F603a46c6-cedc-4b38-a660-2fa1d4b3f4ba_1626x1146.png"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "16 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-07-09",
+      "docsUpdates": [
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__typescript.md",
+          "text": "Agent SDKの`effortLevel`が`\"ultracode\"`も受け入れるようになり、`xhigh`の努力レベルとUltracodeが有効になります。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cbf6a52de36757f2268e10e23b5ea89b506c058e"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-view.md",
+          "text": "サブエージェントが実行中の場合、ツールが終了するまでの10秒の制限は適用されず、Claude Codeは完了するまで待機するようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cbf6a52de36757f2268e10e23b5ea89b506c058e"
+        },
+        {
+          "tag": "Added",
+          "file": "authentication.md",
+          "text": "`/login`で作成したログインの有効期限が5日以内になると、Claude Codeが起動時に警告を表示する機能が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cbf6a52de36757f2268e10e23b5ea89b506c058e"
+        },
+        {
+          "tag": "Changed",
+          "file": "auto-mode-config.md",
+          "text": "`claude auto-mode defaults`が出力する環境設定のカテゴリに「Trust slots」が含まれるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cbf6a52de36757f2268e10e23b5ea89b506c058e"
+        },
+        {
+          "tag": "Added",
+          "file": "errors.md",
+          "text": "新しいエラーメッセージ「<model> has safety measures that f」が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cbf6a52de36757f2268e10e23b5ea89b506c058e"
+        },
+        {
+          "tag": "Improved",
+          "file": "mcp.md",
+          "text": "`CLAUDE_PROJECT_DIR`は安定したプロジェクトルートであり、セッション中に作業ディレクトリを追加または削除しても変更されないことが明記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cbf6a52de36757f2268e10e23b5ea89b506c058e"
+        },
+        {
+          "tag": "Changed",
+          "file": "microsoft-foundry.md",
+          "text": "Microsoft Foundryの認証方法が2つから3つに増えました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cbf6a52de36757f2268e10e23b5ea89b506c058e"
+        },
+        {
+          "tag": "Changed",
+          "file": "model-config.md",
+          "text": "Ultracodeの設定方法として、`/effort`コマンドに加えて`--settings`またはAgent SDKの制御リクエストで`\"ultracode\": true`を渡す方法が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cbf6a52de36757f2268e10e23b5ea89b506c058e"
+        },
+        {
+          "tag": "Improved",
+          "file": "permission-modes.md",
+          "text": "CLIでのセッション中の権限モード切り替えで、手動モード時に「⏸ manual mode on」バッジが表示されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cbf6a52de36757f2268e10e23b5ea89b506c058e"
+        },
+        {
+          "tag": "Improved",
+          "file": "plugins-reference.md",
+          "text": "プラグイン内のMCPサーバーは、MCPの`roots/list`リクエストを呼び出してClaude Codeが起動されたディレクトリを取得できることが追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cbf6a52de36757f2268e10e23b5ea89b506c058e"
+        },
+        {
+          "tag": "Improved",
+          "file": "plugins.md",
+          "text": "プラグインルートは個々のプラグイン自身のディレクトリであり、`~/.claude/`ではないことが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cbf6a52de36757f2268e10e23b5ea89b506c058e"
+        },
+        {
+          "tag": "Improved",
+          "file": "security-guidance.md",
+          "text": "プロジェクトの`.claude/settings.json`で有効化されたプラグインを`/plugin`から無効化する際に、共有ファイルではなくユーザー個人の設定ファイルにオーバーライドを書き込む挙動がより詳細に説明されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cbf6a52de36757f2268e10e23b5ea89b506c058e"
+        },
+        {
+          "tag": "Improved",
+          "file": "skills.md",
+          "text": "修飾されていないスキル名が呼び出された場合、プロジェクトルートのスキルがロードされ、Claudeが作業しているディレクトリに対応する修飾されたバリアントのリストがスキルコンテンツに追加されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cbf6a52de36757f2268e10e23b5ea89b506c058e"
+        },
+        {
+          "tag": "Improved",
+          "file": "sub-agents.md",
+          "text": "`isolation: worktree`を持つサブエージェントが、そのワークツリー内でBashおよびPowerShellコマンドを実行するようになり、ワークツリーが削除された場合にエラーが発生するようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cbf6a52de36757f2268e10e23b5ea89b506c058e"
+        },
+        {
+          "tag": "Added",
+          "file": "workflows.md",
+          "text": "Ultracodeを有効にした状態でセッションを開始するために、`claude --effort ultracode`で起動できる機能が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cbf6a52de36757f2268e10e23b5ea89b506c058e"
+        },
+        {
+          "tag": "Fixed",
+          "file": "changelog.md",
+          "text": "ヘッドレスセッションでのSessionStartフック中にフックイベントがストリーミングされない問題を修正しました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b5989d4ca1658d1b9555f61f8d6b420b1f26b55e"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "ログインの有効期限が近づいている場合に警告を追加し、バックグラウンドセッションが中断される前に再認証できるようにしました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b5989d4ca1658d1b9555f61f8d6b420b1f26b55e"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "手動パーミッションモード時にフッターに灰色の⏸バッジを追加し、アクティブなモードを常に可視化しました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b5989d4ca1658d1b9555f61f8d6b420b1f26b55e"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "セッションの追加作業ディレクトリをMCP `roots/list`に追加し、セットが変更されたときに`notifications/roots/list_changed`が送信されるようにしました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b5989d4ca1658d1b9555f61f8d6b420b1f26b55e"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "新しい日付のアップデートとして、changelog.mdファイルにコンテンツが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b08ff8a160f417c27f449913be26f70372d311e7"
+        },
+        {
+          "tag": "Fixed",
+          "file": "changelog.md",
+          "text": "ヘッドレスセッションでのSessionStartフック中にフックイベントがストリーミングされない問題が修正され、リモートワーカーがフックの途中でアイドル状態になり再利用されることがなくなりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e3f52d8dfea9b15c562a0dc220bc49bb201e7a51"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "新しい日付 '2026-07-07' の変更履歴セクションが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/53faabf92ba84fd309a428d37b1c5330a82bfa27"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "5 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- VS CodeとCLI向けに企業管理型OpenTelemetryエクスポートを提供開始\n  https://github.blog/changelog/2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli\n- Visual Studio Code版GitHub Copilot、2026年6月リリース\n  https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases\n- 利用状況APIにレビューサイクルと導入期間を追加\n  https://github.blog/changelog/2026-07-07-add-review-cycles-and-time-to-adoption-phases-in-the-usage-api\n- JetBrains IDEにエージェントプロバイダーとしてのCodexとエージェント機能強化を実装\n  https://github.blog/changelog/2026-07-07-codex-as-agent-provider-and-agentic-enhancements-in-jetbrains-ides\n- Copilot BusinessおよびEnterprise向けにKimi K2.7が利用可能に\n  https://github.blog/changelog/2026-07-07-kimi-k2-7-now-available-for-copilot-business-and-enterprise",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-07-09"
+    }
+  ]
+}
