@@ -1,0 +1,377 @@
+{
+  "fetchedAt": "2026-07-09T22:10:12.490Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "summary": "GPT-5.6がMicrosoft 365 Copilotに搭載され、WordやExcelなどの機能を強化し、作業効率と品質を向上。",
+      "publishedAt": "2026-07-09",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/7Bf5twKHcGsjM0T5u43cg6/35ba64ea71cbb3590f551f7727c6cf71/Frame-1.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "ChatGPT is now a partner for your most ambitious work",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "summary": "ChatGPT Workは、複数のアプリやファイルを横断して、ユーザーの目標達成を自動で支援するエージェント機能。",
+      "publishedAt": "2026-07-09",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/6wfXqEBNT0QiATjSpde6f4/fabc58fe0784ec397ec34b9e570e1700/OAI_ChatGPTWork_ProductBlog_OpenGraph_16x9_1200x630.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "url": "https://openai.com/index/bio-bug-bounty",
+      "summary": "OpenAIがバイオセキュリティの脆弱性に関する報奨金プログラムを開始。",
+      "publishedAt": "2026-07-09",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/3dibW4TSEOQpjByxBjnpr2/6ba1a2ed9346620e8788b3e013594469/bug_bounty_16_9.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "url": "https://openai.com/index/gpt-5-6",
+      "summary": "トークンあたりの情報量向上、コストパフォーマンス改善、そして高負荷作業での機能強化を実現。",
+      "publishedAt": "2026-07-09",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/3T0kxQLJk1VcXVxMwXF97J/4345df401f2b08ed6a1eef88c9588d2e/OAI_ChatGPTWork_ModelBlog_OpenGraph_16x9_1200x630.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1446pt] ユニクロTシャツの難読化されたbashスクリプトを解読 | デザイナーによる制作過程の動画や、OCRの困難さに関するコメントが目立つ。\n  https://news.ycombinator.com/item?id=48829312\n- [1281pt] John Deere、FTCとの和解により修理する権利を所有者に付与 | Right to repair運動への支持が高く、他の製品への適用を望む声が多い。\n  https://news.ycombinator.com/item?id=48838876\n- [1061pt] Chattoがオープンソース化 | 自己ホストの容易さや開発者の才能を評価する声、ポルトガル語での「退屈」という言葉との類似性に触れるコメントも。\n  https://news.ycombinator.com/item?id=48833116\n- [865pt] GPT-5.6 | ARC-AGI-3でSOTAを達成したことや、他のモデルとの比較に関するコメントが見られる。\n  https://news.ycombinator.com/item?id=48849066\n- [850pt] EU議会がChat Control 1.0を承認 | 民主主義への懸念、プライバシー侵害への批判、EU議会の手続きへの不信感が多数。\n  https://news.ycombinator.com/item?id=48843923\n- [753pt] Grok 4.5 | Opusとの比較で高い推論効率と価格競争力、高速性を評価する声が多い。\n  https://news.ycombinator.com/item?id=48835111\n- [742pt] BunをRustで書き換え | AIを活用した書き換えの効率性とコスト削減を評価する一方、Zigからの移行で問題が解決されたことへの指摘も。\n  https://news.ycombinator.com/item?id=48837877\n- [740pt] Show HN: 18 Words | タイマーの有無やシャッフル機能の追加、ヒントなどの改善提案が多数。\n  https://news.ycombinator.com/item?id=48845049\n- [737pt] GPT-Live | 音声モードでの利便性を評価する声がある一方で、人間関係の代替やツール連携機能の不足を指摘する意見も。\n  https://news.ycombinator.com/item?id=48834405\n- [697pt] TypeScript 7 | 処理速度の向上を評価する声が多く、TypeScriptの普及と型システムの重要性を再認識するコメントが見られる。\n  https://news.ycombinator.com/item?id=48833715",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "17 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- AIエージェントスタートアップ、資金調達1億ドルをAIエージェントに任せる\n  https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/\n- OpenAI、Atlasを閉鎖もAIブラウザへの野心は拡大中\n  https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/\n- Elon MuskがMythos/Fableを称賛、Anthropicとの関係維持を約束\n  https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/\n- AIは3兆ドルの問いに答えられるか？\n  https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/\n- Meta、AIコーディング市場にMuse Spark 1.1で参入\n  https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/\n- 500社以上のスタートアップに投資したCharles Hudsonが語る、よくある失敗談\n  https://techcrunch.com/2026/07/09/charles-hudson-shares-the-common-mistakes-hes-seen-after-investing-in-500-startups/\n- New York Times、ChatGPT著作権訴訟でOpenAIが証拠隠蔽と主張\n  https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/\n- Mercor、評価額200億ドルでの交渉が進行中\n  https://techcrunch.com/2026/07/09/mercor-is-in-talks-for-a-20b-valuation/\n- Google、AIで作成された広告の開示を開始\n  https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/\n- パリのAI音声スタートアップGradium、Nvidia支援でシードラウンド1億ドル調達\n  https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/\n- 政府はどのようにしてOpenAIの最先端モデルのリリースを安全と判断したのか？\n  https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release/\n- Instagramユーザー必見：MetaのAIに写真を使用させない方法\n  https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/\n- Metaの新型AIチップ、9月生産開始へ\n  https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/\n- Nvidia、自らが作り出した計算市場の犠牲に\n  https://techcrunch.com/2026/07/09/nvidia-is-a-victim-of-the-compute-marketplace-it-created/\n- AnthropicのClaude新機能、ひそかにAIの導入を促す\n  https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/\n- Anthropic、OpenAI、SpaceXは過去25年間のテック系イグジットを凌駕する規模\n  https://techcrunch.com/2026/07/09/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits/\n- 人気のオープンソースAI開発ツールOllama、6,500万ドル調達しユーザー数900万人に迫る\n  https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "The new GPT-5.6 family: Luna, Terra, Sol",
+      "url": "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-entries",
+      "summary": "OpenAIが新しい主力モデル「GPT-5.6」を発表し、エージェント性能と新API機能（プログラムツール呼び出し、マルチエージェントなど）を強化。",
+      "publishedAt": "2026-07-10",
+      "ogImage": "https://static.simonwillison.net/static/2026/gpt-5.6-pelicans.webp"
+    },
+    {
+      "sourceName": "laiso",
+      "title": "#11: Grok 4.5、GPT-Live、SWE-1.7",
+      "url": "https://blog.lai.so/2026-07-09/",
+      "summary": "SpaceXAIがGrok 4.5を公開し、同時にOpenAIもGPT-LiveをリリースしてAIエージェント機能と音声対話を進化させた。",
+      "publishedAt": "2026-07-09",
+      "ogImage": null
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Constellation Gate AI：ベンチマーク1位のプロンプトインジェクション＆トークン節約術\n  https://www.producthunt.com/products/gate-ai-2\n- Opper AI：欧州向けAIエージェントゲートウェイ\n  https://www.producthunt.com/products/opper-ai\n- Tasks.txt：macOS用プレーンテキストタスクマネージャー\n  https://www.producthunt.com/products/tasks-txt\n- Timbal AI：AIエージェント、ワークフロー、アプリをワンスタックで構築\n  https://www.producthunt.com/products/timbal-ai\n- Auriko：LLMコール向けトレーディングデスク\n  https://www.producthunt.com/products/auriko\n- Lispr：キーを押しながら話すだけでどこでも入力\n  https://www.producthunt.com/products/lispr\n- Aura: Agents + Git + Intent Open Source：AIコーディングエージェント制御用OSS IDE、組み込みループ搭載\n  https://www.producthunt.com/products/aura-28\n- Coasty：人間のようにレガシーソフトウェアを動かすコンピュータ使用エージェント\n  https://www.producthunt.com/products/coasty\n- Glimpse：競合インテリジェンスエージェント\n  https://www.producthunt.com/products/glimpse-17\n- Toyo：iMessageに常駐し、電話をかけるエグゼクティブアシスタント\n  https://www.producthunt.com/products/toyo",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Inviting hard questions",
+      "url": "https://www.anthropic.com/news/hard-questions",
+      "summary": "AIに関する難問を一般から募集し、その回答プロセスを公開する。",
+      "ogImage": "https://cdn.sanity.io/images/4zrzovbb/website/b3ddb82292e92030f4677d004bf0d7d795be7bd1-1200x630.jpg",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust ",
+      "url": "https://www.anthropic.com/news/ben-bernanke",
+      "summary": "Anthropicは、AIの責任ある開発を監督する独立機関に、元FRB議長のベン・バーナンキ氏を新たなメンバーとして迎えた。",
+      "ogImage": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Introducing a way to reflect on how you use Claude",
+      "url": "https://www.anthropic.com/news/reflect-with-claude",
+      "summary": "Claudeの利用状況を可視化し、振り返って改善する新機能を提供開始。",
+      "ogImage": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Quill&backgroundColor=cactus",
+      "publishedAt": "2026-07-09"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "6 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- ProvenMetal：アメリカ製PCBを短納期で提供\n  https://provenmetal.com\n- Earendil Robotics：小規模部隊向けドローン群防衛システム\n  https://earendil.io\n- OpenTrade：誰もがアクセスできる投資プラットフォーム\n  https://opentrade.live/\n- Zomma：金融バックオフィス向けコンピューター利用エージェント\n  https://zommalabs.com\n- OpenRelay：分散型ハードウェア非依存AI推論\n  https://www.openrelay.inc\n- Torus：物理エンジニアリング企業向けLegora\n  https://www.usetorus.com",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] SpaceXAI launches Grok 4.5, first Opus-class model post Cursor acquisition",
+      "url": "https://www.latent.space/p/ainews-spacexai-launches-grok-45",
+      "summary": "xAIがコーディング・エージェントに特化した新モデル「Grok 4.5」を発表、高速かつ高効率でコストパフォーマンスに優れる。",
+      "publishedAt": "2026-07-09",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!8D6O!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHMuQw2BXUAAJaQd.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO",
+      "url": "https://www.latent.space/p/modal2026",
+      "summary": "AIアプリケーション向けクラウドプラットフォームのModalが、エージェント体験に特化したインフラを提供し、3億5,500万ドルのシリーズC資金調達を実施した。",
+      "publishedAt": "2026-07-09",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!_zJU!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F205716015%2Ffb38c4a8-f16f-4233-b4bc-1e1b17562d8f%2Ftranscoded-1783399000.png"
+    },
+    {
+      "sourceName": "Agentic Engineering",
+      "title": "2 Updates",
+      "url": "https://github.com/software-mansion/agentic-engineering",
+      "summary": "- 「Designing Loops」という新しいドキュメントを追加\n  https://github.com/software-mansion/agentic-engineering/commit/5d0fd5594d647dbb48b7867462162d39d0a802e1\n- このドキュメントでは、エージェントへの手動プロンプトから、作業をトリガーし、結果を検証し、安全に停止する境界ループの設計方法について説明\n  https://github.com/software-mansion/agentic-engineering/commit/5d0fd5594d647dbb48b7867462162d39d0a802e1\n- `ExternalLink` コンポーネントのインポートを追加\n  https://github.com/software-mansion/agentic-engineering/commit/5d0fd5594d647dbb48b7867462162d39d0a802e1\n- 並行エージェントが手動調整を多く残すことについて言及し、CIチェック、ブランチのリベース、フィードバック収集など、繰り返されるハンドオフをループに移行できることを説明\n  https://github.com/software-mansion/agentic-engineering/commit/5d0fd5594d647dbb48b7867462162d39d0a802e1\n- 「Automated code reviews」セクションに、並行して差分を生成するエージェントが増えた際のボトルネックがレビューであり、自動レビュアーが人間が作業を見る前に明らかなバグや文脈の不足、リスクのある仮定をフィルタリングするのに役立つという説明を追加\n  https://github.com/software-mansion/agentic-engineering/commit/2d9afd0fbcb3a48b364355533b20db1d0d79bf4f\n- 「Context quality」というサブセクションを追加\n  https://github.com/software-mansion/agentic-engineering/commit/2d9afd0fbcb3a48b364355533b20db1d0d79bf4f\n- 「first-steps-in-mature-projects.mdx」ファイルの「This often catches hidden coupling assumptions. If needed, revise the plan before writing any feature code.」の後に、「This pattern is called _adversarial review_.」という説明を追加\n  https://github.com/software-mansion/agentic-engineering/commit/2d9afd0fbcb3a48b364355533b20db1d0d79bf4f",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "35 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-07-10",
+      "docsUpdates": [
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__agent-loop.md",
+          "text": "ストリーミング入力の場合、ターンがまだ実行中に送信されたメッセージは、最大ターン数制限でターンが終了してもキューに入ったままで、独自の最大ターン数制限で新しいターンを開始するようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__structured-outputs.md",
+          "text": "無効なJSON Schemaは起動時にエラーとなり、問題が報告されるようになり、`format`キーワードはSDKの検証器では強制されないアノテーションとして扱われるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__typescript.md",
+          "text": "`Query`インターフェースの`interrupt()`メソッドは、`SDKControlInterruptResponse`または`undefined`を返すようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-view.md",
+          "text": "エージェントビューのプロジェクトステータスの説明がより具体的になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Improved",
+          "file": "auto-mode-config.md",
+          "text": "リポジトリの可視性に関する説明が更新され、以前の会話の分類器によって公開であると示された場合にパブリックと見なされるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-code-on-the-web.md",
+          "text": "クラウドセッションで利用可能な組み込みコマンドが更新され、ターミナルインターフェースでのみ実行されるコマンドは利用できなくなり、一部のコマンドは引数として値を受け取るようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Fixed",
+          "file": "desktop-quickstart.md",
+          "text": "Desktopクイックスタートのデフォルトのパーミッションモードの名称が「Ask permissions mode」から「Manual mode」に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Changed",
+          "file": "desktop.md",
+          "text": "デスクトップアプリのパーミッションモードの名称が「Ask permissions」から「Manual」、「Auto accept edits」から「Accept edits」、「Plan mode」から「Plan」に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Added",
+          "file": "errors.md",
+          "text": "新しいエラーメッセージ「Download timed out: exceeded the」がエラーリストに追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Changed",
+          "file": "fast-mode.md",
+          "text": "インタラクティブセッションでオンにした高速モードはセッション間で保持されますが、非インタラクティブモード（`-p`フラグ付き）では、高速モードは現在のセッションにのみ適用され、デフォルトとして保存されないようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Changed",
+          "file": "headless.md",
+          "text": "`--json-schema`の値が無効なJSON Schemaの場合、Claude Codeはエラーメッセージを出力して終了するようになり、`format`キーワードをアノテーションとして扱うようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Improved",
+          "file": "hooks.md",
+          "text": "`ExitPlanMode`フックの`tool_input`に関する説明が更新され、モデルからのリテラルな`tool_input`は通常空であると明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Changed",
+          "file": "how-claude-code-works.md",
+          "text": "パーミッションモードの名称が「Default」から「Manual」、「Auto-accept edits」から「Accept edits」、「Plan mode」から「Plan」、「Auto mode」から「Auto」に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Changed",
+          "file": "keybindings.md",
+          "text": "v2.1.205より前の`/doctor`診断画面に関連する`Doctor`コンテキストと`doctor:fix`アクションが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Changed",
+          "file": "llm-gateway-connect.md",
+          "text": "Remote Controlまたは音声ディクテーションを復元するために、ゲートウェイ変数を設定解除する方法に関する説明が更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Changed",
+          "file": "mcp.md",
+          "text": "`workspace`を含む特定のサーバー名がClaude Codeの内部使用のために予約され、これらの名前を使用するとロード時に警告が表示されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Changed",
+          "file": "model-config.md",
+          "text": "非インタラクティブモード（`-p`フラグ付き）で`/model`を使用して設定されたモデルは、現在のセッションにのみ適用され、デフォルトとして保存されないようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Changed",
+          "file": "monitoring-usage.md",
+          "text": "APIキーヘルパーの失敗時にエラーが報告される場所が`/doctor`出力から`/status`出力に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Changed",
+          "file": "permission-modes.md",
+          "text": "パーミッションモードの名称が「Plan mode」から「Plan」、「Auto mode」から「Auto」に変更され、以前のバージョンとの違いが明記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Changed",
+          "file": "permissions.md",
+          "text": "`default`パーミッションモードの名称がCLIおよびVS Code/JetBrains拡張機能で`Manual`と表示されるようになり、`manual`がエイリアスとして受け入れられるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Improved",
+          "file": "plugin-dependencies.md",
+          "text": "自動更新が制約された依存関係を処理する方法に関する説明が更新され、複数のプラグインが同じ依存関係を制約する場合の動作がより明確になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Added",
+          "file": "plugin-marketplaces.md",
+          "text": "Anthropicの公式使用のために予約されているマーケットプレイス名が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Added",
+          "file": "plugins-reference.md",
+          "text": "LSP統合の設定に、タイムアウト後にサーバープロセスを終了する`shutdownTimeout`設定が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Changed",
+          "file": "remote-control.md",
+          "text": "UltraplanセッションがアクティブなRemote Controlセッションを切断する理由の説明が、両機能が`claude.ai/code`インターフェースを占有するため、どちらか一方しか接続できないためと明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Improved",
+          "file": "sandboxing.md",
+          "text": "サンドボックス内の資格情報マスキングの説明が更新され、サンドボックスプロキシがHTTPSを終了する必要がある理由が明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Improved",
+          "file": "settings.md",
+          "text": "`disableAllHooks`設定に関する説明が更新され、カスタムのステータスラインも無効にすることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Improved",
+          "file": "skills.md",
+          "text": "バンドルされたスキルに関する説明が更新され、`disableBundledSkills`設定で無効にできることが明記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Improved",
+          "file": "statusline.md",
+          "text": "`subagentStatusLine`設定のコマンド入力の詳細が更新され、利用可能な行幅を持つ`columns`フィールドと、各タスクの追加プロパティを持つ`tasks`配列が含まれることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Improved",
+          "file": "sub-agents.md",
+          "text": "同じスコープ内で重複するエージェント名の処理に関する説明が更新され、`.claude/agents/`ディレクトリ内の重複が報告されることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Improved",
+          "file": "troubleshoot-install.md",
+          "text": "npmパッケージのインストールに関するトラブルシューティング情報が更新され、サポートされていないプラットフォームに関する考慮事項が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Improved",
+          "file": "troubleshooting.md",
+          "text": "トラブルシューティングの概要が更新され、`/doctor`の代わりに`claude doctor`を直接実行する方法が明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Changed",
+          "file": "vs-code.md",
+          "text": "VS Codeのパーミッションモードの名称が「Plan mode」から「Plan」に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Fixed",
+          "file": "web-quickstart.md",
+          "text": "ウェブクイックスタートのテーブルで、Webセッションの挙動に関する説明の列見出しが修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Added",
+          "file": "worktrees.md",
+          "text": "Claude Codeがスタートアップ時にワークツリーディレクトリに入れない場合に、エラーメッセージを出力して終了するようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b6c02d7d6827a6fd30623997955edf359c2dfc98"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "新しいアップデート「Update Claude Code docs - 2026-07-09」がchangelogに追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5773a236e13595916bfe35e7e2d990e3692d88ca"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "2 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- GitHub CopilotにOpenAIのGPT-5.6「Sol」「Terra」「Luna」が搭載\n  https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot\n- Copilotにリポジトリの概要を尋ねる\n  https://github.blog/changelog/2026-07-09-ask-copilot-for-a-repository-overview",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-07-10"
+    }
+  ]
+}
