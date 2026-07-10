@@ -1,0 +1,2787 @@
+{
+  "fetchedAt": "2026-07-10T21:47:18.086Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "url": "https://openai.com/index/deutsche-telekom",
+      "summary": "Deutsche TelekomがOpenAIを活用し、AIネイティブな通信事業者として顧客サービスや社内業務を変革中。",
+      "publishedAt": "2026-07-10",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/2e4pj37nFOyJzOAIMC10VM/2d7a76659ae8bb37e21d3d7e838a8bd8/oai_Deutsche_Telekom_SEO.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.206",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.206",
+      "summary": "- [Added] /cd にディレクトリパスの候補が追加され、/add-dir の動作と一致するようになりました。\n- [Added] /doctor に CLAUDE.md ファイルを、Claudeがコードベースから派生できるコンテンツを削除することでトリミングすることを提案するチェックが追加されました。\n- [Added] /commit-push-pr は、origin に加えて、リポジトリの構成済み push remote (remote.pushDefault、または1つしか構成されていない場合は唯一のremote) への git push を自動的に許可するようになりました。\n- [Added] Gateway: /login が Anthropic 運営のパブリック Gateway エンドポイントをサポートするようになりました。\n- [Added] EnterWorktree は、プロジェクトの .claude/worktrees/ ディレクトリ外の git worktree に入る前に確認を求めるようになりました。\n- [Improved] バックグラウンドエージェントが、Claude Code のアップデート後すぐにバックグラウンドで新しいバージョンにアップグレードするようになり、接続時にセッションのアップグレードによる遅延がなくなりました。\n- [Fixed] 期限切れのログインが、/login の実行を促す代わりに「選択されたモデルに問題があります」という誤解を招くエラーでモデルの失敗を引き起こしていた問題を修正しました。\n- [Fixed] claude --resume および --continue が起動時にキーボード入力に応答しない問題を修正しました。\n- [Fixed] --mcp-config または .mcp.json 経由で設定された MCP サーバーが、サーバーごとの request_timeout_ms を無視し、新規セッションで長時間の MCP ツール呼び出しがデフォルトの60秒でタイムアウトしていた問題を修正しました。\n- [Fixed] CLAUDE_CODE_EXTRA_BODY が claude agents / --bg バックグラウンドワーカーによってサイレントに無視されていた問題を修正しました。シェルエクスポートされたオーバーライドがディスパッチセッションに従うようになりました。\n- [Fixed] OAuth MCP サーバーが、トークン更新の1回の失敗後に手動での再認証を要求していた問題を修正しました。\n- [Fixed] --permission-prompt-tool が MCP サーバーを指している場合に、サーバーが接続を完了する前にコールドスタートで「MCP tool not found」によりクラッシュする問題を修正しました。\n- [Fixed] /model ピッカーの行が、行名とは異なるモデルの価格を表示し、請求されないプロバイダーのファーストパーティの定価の引用を停止した問題を修正しました。\n- [Fixed] エンタイトルメントまたは許可リストの制限により配置対象の行が削除された場合、サーバー提供のモデル行が /model ピッカーで誤った位置に表示される問題を修正しました。\n- [Fixed] スラッシュコマンドがターン中に送信された後、デスクトップセッションが「実行中」と表示されたままになる問題を修正しました。\n- [Fixed] Windowsで、bare claude --resume の前にセットアッププロンプトが表示された場合、エージェントビューでキーボード入力が無視される問題を修正しました。\n- [Fixed] claude rm が削除されたジョブをデーモンロースターに残し、その行が claude agents に再表示される原因となっていた問題を修正しました。\n- [Fixed] /remote-control がログアウト時に「Unknown command」と表示されていた問題を修正しました。現在はサインイン方法を説明するようになりました。\n- [Fixed] ワークフロー詳細ビューで、左矢印がフェーズまたはエージェントから戻らない問題を修正しました。\n- [Fixed] /status が同じ破損インストール警告を2回表示していた問題を修正しました。\n- [Fixed] LSP プラグインに関する誤った「disused plugin」ヒントと、偏った非使用テレメトリを修正しました。\n- [Fixed] /doctor のアップデートチェックが、Homebrew インストールを設定チャネルではなく、その cask のチャネルと比較するように修正されました。\n- [Fixed] macOSで Ctrl+End を示唆していたフルスクリーンジャンプトゥボトムピルが、リバウンドされたコードを表示せず、トランスクリプト上を折り返していた問題を修正しました。\n- [Fixed] Bedrock: ネットワークの egress が制限されている環境で awsCredentialExport ヘルパーを使用した場合に、数分間起動がハングする問題を修正しました。\n- [Improved] すべての労力レベルで claude-opus-4-8 における /code-review の検出品質が向上しました。\n- [Improved] エージェントビューが改善されました。ステータス列が64文字で切り捨てられるのではなく、ターミナルの全幅を使用するようになりました。\n- [Changed] エージェントビューが変更されました。Ctrl+X で完了したセッションが永続的に削除されるようになり、セッションが二度レンダリングされなくなりました。削除されたバックグラウンドジョブは削除されたままになります。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-11"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-11"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1579pt] EU議会、「チャット管理1.0」を承認 | EUの議事進行や民主主義のあり方に対する批判的なコメントが多数。\n  https://news.ycombinator.com/item?id=48843923\n- [1513pt] GPT-5.6 | 新たなモデルの性能について言及、一部のベンチマークでSOTAを達成。\n  https://news.ycombinator.com/item?id=48849066\n- [1362pt] John Deere製品所有者に修理権が認められる、FTC和解で | 修理する権利の重要性、他の製品への波及効果に期待する声が多い。\n  https://news.ycombinator.com/item?id=48838876\n- [1082pt] Show HN: 18 Words | タイマー機能やヒント機能に関する改善要望、他の類似ゲームとの比較も。\n  https://news.ycombinator.com/item?id=48845049\n- [826pt] Show HN: 低速PCでGLM 5.2を動作させる | 低スペックPCでのLLM実行の可能性に期待、速度やメモリ使用量に関する懸念も。\n  https://news.ycombinator.com/item?id=48842459\n- [784pt] Rustで書き直されたPostgres、回帰テストを100%パス | LLMを用いたリライトの可能性に言及、大規模プロジェクトのリライトに関する議論も。\n  https://news.ycombinator.com/item?id=48841676\n- [764pt] RustでBunを書き直す | AIによるコードリライトの効率性とコスト削減効果に注目、言語変更への影響も議論。\n  https://news.ycombinator.com/item?id=48837877\n- [758pt] BunのRustリライトに関する私の考察 | ZigコミュニティとBun開発者の間で感情的な対立があり、Zigへの失望の声も。\n  https://news.ycombinator.com/item?id=48843352\n- [542pt] Hy3 | OpenRouterでの無料利用期間について、他のモデルとの比較に関心がある。\n  https://news.ycombinator.com/item?id=48847552\n- [450pt] ガラスの背骨：次の戦争で陸軍のロジスティクスが破綻する理由 | 軍のロジスティクスの脆弱性について深く洞察された記事と評価、歴史的視点からのコメントも。\n  https://news.ycombinator.com/item?id=48845442",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-07-11"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "10 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Apple、OpenAIを企業秘密窃盗で提訴\n  https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/\n- SK Hynix、米国史上最大の海外IPOで265億ドル調達、米国内の新工場建設を要請される\n  https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/\n- Oratomic、2万量子ビットで実現可能な量子コンピュータ構築のため3億ドルを調達\n  https://techcrunch.com/2026/07/10/oratomic-raises-300m-to-build-a-viable-quantum-computer-that-needs-only-20k-qubits/\n- Hugging Face CEO、企業がAIレンタルをやめる理由を語る\n  https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/\n- OpenAI、Microsoft Copilot 365の「推奨モデル」はGPT 5.6と発表、提携解消の憶測飛び交う中\n  https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/\n- Fidji Simo、OpenAIナンバー2の職を辞任\n  https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/\n- OpenAI、GPT-5.6を搭載した新モデル群を発表\n  https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/\n- AIエージェント系スタートアップ、エージェントに1億ドルの資金調達を任せる\n  https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/\n- OpenAI、Atlasを閉鎖するも、AIブラウザへの野心は拡大中\n  https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/\n- Elon Musk、Mythos/Fableを称賛し、Anthropicを「切り捨てない」と約束\n  https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-07-11"
+    },
+    {
+      "sourceName": "laiso",
+      "title": "#12: GPT-5.6、ChatGPT Work、Cloud Run sandboxes",
+      "url": "https://blog.lai.so/2026-07-10/",
+      "summary": "OpenAIが新モデル「GPT-5.6 Sol / Terra / Luna」を公開し、API価格や性能評価も発表した。",
+      "publishedAt": "2026-07-10",
+      "ogImage": null
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- ChatCut — ChatGPT、デスクトップ、ウェブで使えるAI動画エディター\n  https://www.producthunt.com/products/chatcut-ai-video-editor\n- GPT-5.6 — 知能と効率性の新基準\n  https://www.producthunt.com/products/openai\n- StoryChief Connect — ClaudeからウェブサイトやSNSにコンテンツを公開\n  https://www.producthunt.com/products/storychief-io\n- Juicy — Macのバッテリー残量を美しく表示、健康状態の分析と充電制限\n  https://www.producthunt.com/products/juicy-battery-app\n- PlugThis — AIとのチャットで独自のChrome拡張機能を開発\n  https://www.producthunt.com/products/plugthis-chrome-extension-generator\n- ConnectMachine 2.0 — 会った人を記憶するAIデジタル名刺\n  https://www.producthunt.com/products/connectmachine-2\n- Mispher — 音声入力、書き換え、翻訳、エージェント機能を一台で\n  https://www.producthunt.com/products/mispher-agentic-transcription-for-mac\n- Yasmine Works — Slack常駐型のAI同僚で仕事を効率化\n  https://www.producthunt.com/products/yasmine-works\n- Native SDK — ネイティブデスクトップアプリ構築用ツールキット\n  https://www.producthunt.com/products/vercel\n- RepStandard — コンピュータービジョンでレップ数をリアルタイムにカウント\n  https://www.producthunt.com/products/repstandard",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-07-11"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "UST is bringing Claude to physical AI",
+      "url": "https://www.anthropic.com/news/ust-claude",
+      "summary": "USTは、半導体や自動車などの製造プロセス、ヘルスケア、通信、金融システムにAnthropicのAI「Claude」を統合し、検証の高速化や業務効率の向上を目指す。",
+      "ogImage": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Build&backgroundColor=coral",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "2 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Alkera AI、信頼性と安全性を両立するデータエンジニアリング・サイエンスエージェントを投入へ\n  https://alkera.ai\n- Skymerse、航空運航の自動操縦システムを発表\n  https://skymerse.com",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-07-11"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] OpenAI launches GPT 5.6 Sol/Terra/Luna, Codex becomes ChatGPT superapp",
+      "url": "https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna",
+      "summary": "OpenAIは、新しいGPT-5.6モデルファミリーと、それらを活用したデスクトップアプリ「ChatGPT Work」をリリースし、AIによる作業自動化と効率向上をアピール。",
+      "publishedAt": "2026-07-10",
+      "ogImage": "https://substackcdn.com/image/youtube/w_728,c_limit/-MPGU2a67Ls"
+    },
+    {
+      "sourceName": "Agentic Engineering",
+      "title": "2 Updates",
+      "url": "https://github.com/software-mansion/agentic-engineering",
+      "summary": "- ドキュメントの最終改訂日が「June 2026」から「July 2026」に修正\n  https://github.com/software-mansion/agentic-engineering/commit/4e461a7ee9a6e42cb0a2cce7da5d14805808d27d\n- 2026-07-09 の変更履歴を追加\n  https://github.com/software-mansion/agentic-engineering/commit/ba7e24861cca751fafb37676fbb493b5d956d0eb\n- Designing Loops の新しいチャプターを追加\n  https://github.com/software-mansion/agentic-engineering/commit/ba7e24861cca751fafb37676fbb493b5d956d0eb\n- Automated Code Reviews に adversarial review pattern と context quality and ownership のサブセクションを追加\n  https://github.com/software-mansion/agentic-engineering/commit/ba7e24861cca751fafb37676fbb493b5d956d0eb",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-07-11"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "275 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-07-11",
+      "docsUpdates": [
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__python.md",
+          "text": "ClaudeAgentOptionsのsystem_promptパラメータがSystemPromptFileタイプも受け入れるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/bd1fc7a5c71c1251bc6ba7409d604fd83b0a994f"
+        },
+        {
+          "tag": "Improved",
+          "file": "desktop-linux.md",
+          "text": "Linuxデスクトップ版のインストール手順に、aptリポジトリからのインストールについてターミナルコマンドを実行する旨の指示が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/bd1fc7a5c71c1251bc6ba7409d604fd83b0a994f"
+        },
+        {
+          "tag": "Added",
+          "file": "desktop-linux.md",
+          "text": "Linuxデスクトップ版のトラブルシューティングセクションに、「Unable to locate package claude-desktop」エラーに関する項目が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/bd1fc7a5c71c1251bc6ba7409d604fd83b0a994f"
+        },
+        {
+          "tag": "Improved",
+          "file": "overview.md",
+          "text": "Claude Codeの概要ページで、利用可能な環境としてターミナル、IDE拡張機能、デスクトップアプリ、Webがタブ形式で提示されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/bd1fc7a5c71c1251bc6ba7409d604fd83b0a994f"
+        },
+        {
+          "tag": "Added",
+          "file": "admin-setup.md",
+          "text": "組織でClaude Codeをデプロイするための管理者向け決定マップが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "advisor.md",
+          "text": "Claudeがタスク中の重要な瞬間に相談する、より強力なアドバイザーモデルを設定するツールが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__agent-loop.md",
+          "text": "Agent SDKエージェントを動かすメッセージライフサイクル、ツール実行、コンテキストウィンドウ、アーキテクチャについて理解するためのドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__claude-code-features.md",
+          "text": "プロジェクト指示、スキル、フックなどのClaude Code機能をSDKエージェントにロードする方法に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__cost-tracking.md",
+          "text": "Claude Agent SDKでのトークン使用量の追跡、コスト見積もり、プロンプトキャッシュの設定方法に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__custom-tools.md",
+          "text": "Claude Agent SDKのインプロセスMCPサーバーを使用してカスタムツールを定義し、Claudeが関数を呼び出したりAPIを操作したりできるようにする方法に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__file-checkpointing.md",
+          "text": "エージェントセッション中のファイル変更を追跡し、ファイルを以前の状態に復元するためのファイルチェックポイント機能に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__hooks.md",
+          "text": "フックを使用して、ツール呼び出しやセッション開始などの主要な実行ポイントでエージェントの動作をインターセプトし、カスタマイズする方法に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__hosting.md",
+          "text": "Docker、Kubernetes、およびサンドボックスプロバイダー向けのサブプロセスアーキテクチャ、セッション永続性、スケーリング、可観測性、マルチテナント分離を含むAgent SDKのホスティングに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__mcp.md",
+          "text": "MCPサーバーを設定して、トランスポートタイプ、大規模ツールセットのツール検索、認証、エラー処理をカバーし、外部ツールでエージェントを拡張する方法に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__migration-guide.md",
+          "text": "Claude Code SDKからClaude Agent SDKへの移行ガイドが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__modifying-system-prompts.md",
+          "text": "claude_codeプリセットまたはカスタムシステムプロンプトの選択、CLAUDE.md、出力スタイル、追加、または完全にカスタムなプロンプトによる動作のカスタマイズに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__observability.md",
+          "text": "OpenTelemetryを使用してAgent SDKから観測バックエンドにトレース、メトリクス、イベントをエクスポートする方法に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__overview.md",
+          "text": "Claude Codeをライブラリとして使用して、本番AIエージェントを構築するためのAgent SDKの概要が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__permissions.md",
+          "text": "パーミッションモード、フック、および宣言的な許可/拒否ルールを使用して、エージェントがツールを使用する方法を制御するためのドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__plugins.md",
+          "text": "Agent SDKを通じてカスタムプラグインをロードし、スキル、エージェント、フック、MCPサーバーでClaude Codeを拡張する方法に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__python.md",
+          "text": "Claude Agent SDKのPython版に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__quickstart.md",
+          "text": "PythonまたはTypeScript Agent SDKを使用して、自律的に動作するAIエージェントを構築するためのクイックスタートガイドが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__secure-deployment.md",
+          "text": "分離、資格情報管理、およびネットワーク制御を使用してClaude CodeおよびAgent SDKデプロイメントを安全に展開するためのガイドが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__session-storage.md",
+          "text": "S3、Redis、または独自のバックエンドにセッショントランスクリプトをミラーリングし、任意のホストがセッションを再開できるようにするためのドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__sessions.md",
+          "text": "セッションがエージェントの会話履歴をどのように永続化し、以前の実行に戻るためにcontinue、resume、forkをいつ使用するかに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__skills.md",
+          "text": "Claude Agent SDKでエージェントスキルを使用してClaudeを専門的な機能で拡張する方法に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__slash-commands.md",
+          "text": "SDKを通じてスラッシュコマンドを使用してClaude Codeセッションを制御する方法に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__streaming-output.md",
+          "text": "Agent SDKからテキストやツール呼び出しがリアルタイムでストリーミングされるように応答を取得する方法に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__streaming-vs-single-mode.md",
+          "text": "Claude Agent SDKの2つの入力モード（ストリーミング入力モードとシングルメッセージ入力）とその使い分けに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__structured-outputs.md",
+          "text": "JSON Schema、Zod、またはPydanticを使用してエージェントワークフローから検証済みのJSONを返すことで、構造化された出力を取得する方法に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__subagents.md",
+          "text": "サブエージェントを定義して呼び出すことで、コンテキストを分離し、タスクを並行して実行し、Claude Agent SDKアプリケーションで特殊な指示を適用する方法に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__todo-tracking.md",
+          "text": "Claude Agent SDKを使用してTodoを追跡し、表示することで、タスク管理を整理する方法に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__tool-search.md",
+          "text": "動的にツールを発見し、オンデマンドでロードすることで、エージェントを数百または数千のツールに拡張するためのツール検索機能に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__typescript-v2-preview.md",
+          "text": "削除されたV2 TypeScript Agent SDKセッションAPIの参照ドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__typescript.md",
+          "text": "Claude Agent SDKのTypeScript版に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-sdk__user-input.md",
+          "text": "Claudeの承認リクエストと明確化の質問をユーザーに表示し、その決定をSDKに返す方法に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-teams.md",
+          "text": "共有タスク、エージェント間メッセージング、一元管理により、チームとして連携する複数のClaude Codeインスタンスを調整するためのドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agent-view.md",
+          "text": "複数のエージェントを1つの画面で管理するためのエージェントビューに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "agents.md",
+          "text": "Agentに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "amazon-bedrock.md",
+          "text": "Amazon Bedrockに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "analytics.md",
+          "text": "Analyticsに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "artifacts.md",
+          "text": "Artifactsに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "authentication.md",
+          "text": "Authenticationに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "auto-mode-config.md",
+          "text": "Auto Mode Configに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "best-practices.md",
+          "text": "Best Practicesに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "champion-kit.md",
+          "text": "Champion Kitに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "channels-reference.md",
+          "text": "Channels Referenceに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "channels.md",
+          "text": "Channelsに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "checkpointing.md",
+          "text": "Checkpointingに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "chrome.md",
+          "text": "Chromeに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-apps-gateway-config.md",
+          "text": "Claude Apps Gateway Configに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-apps-gateway-deploy.md",
+          "text": "Claude Apps Gateway Deployに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-apps-gateway-on-gcp.md",
+          "text": "Claude Apps Gateway on GCPに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-apps-gateway-spend-limits.md",
+          "text": "Claude Apps Gateway Spend Limitsに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-apps-gateway.md",
+          "text": "Claude Apps Gatewayに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-code-on-the-web.md",
+          "text": "Claude Code on the Webに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-directory.md",
+          "text": "Claude Directoryに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-platform-on-aws.md",
+          "text": "Claude Platform on AWSに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "cli-reference.md",
+          "text": "CLI Referenceに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "code-review.md",
+          "text": "Code Reviewに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "commands.md",
+          "text": "Commandsに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "common-workflows.md",
+          "text": "Common Workflowsに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "communications-kit.md",
+          "text": "Communications Kitに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "computer-use.md",
+          "text": "Computer Useに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "context-window.md",
+          "text": "Context Windowに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "costs.md",
+          "text": "Costsに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "data-usage.md",
+          "text": "Data Usageに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "debug-your-config.md",
+          "text": "Debug Your Configに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "deep-links.md",
+          "text": "Deep Linksに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "desktop-linux.md",
+          "text": "Desktop Linuxに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "desktop-quickstart.md",
+          "text": "Desktop Quickstartに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "desktop-scheduled-tasks.md",
+          "text": "Desktop Scheduled Tasksに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "desktop.md",
+          "text": "Desktopに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "devcontainer.md",
+          "text": "Devcontainerに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "discover-plugins.md",
+          "text": "Discover Pluginsに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "env-vars.md",
+          "text": "Env Varsに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "errors.md",
+          "text": "Errorsに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "fast-mode.md",
+          "text": "Fast Modeに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "feature-availability.md",
+          "text": "Feature Availabilityに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "features-overview.md",
+          "text": "Features Overviewに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "fullscreen.md",
+          "text": "Fullscreenに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "gateways.md",
+          "text": "Gatewaysに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "github-actions.md",
+          "text": "GitHub Actionsに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "github-enterprise-server.md",
+          "text": "GitHub Enterprise Serverに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "gitlab-ci-cd.md",
+          "text": "GitLab CI CDに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "glossary.md",
+          "text": "Glossaryに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "goal.md",
+          "text": "Goalに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "google-vertex-ai.md",
+          "text": "Google Vertex AIに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "headless.md",
+          "text": "Headlessに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "hooks-guide.md",
+          "text": "Hooks Guideに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "hooks.md",
+          "text": "Hooksに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "how-claude-code-works.md",
+          "text": "How Claude Code Worksに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "interactive-mode.md",
+          "text": "Interactive Modeに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "jetbrains.md",
+          "text": "JetBrainsに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "keybindings.md",
+          "text": "Keybindingsに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "large-codebases.md",
+          "text": "Large Codebasesに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "legal-and-compliance.md",
+          "text": "Legal and Complianceに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "llm-gateway-connect.md",
+          "text": "LLM Gateway Connectに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "llm-gateway-protocol.md",
+          "text": "LLM Gateway Protocolに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "llm-gateway-rollout.md",
+          "text": "LLM Gateway Rolloutに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "llm-gateway.md",
+          "text": "LLM Gatewayに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "managed-mcp.md",
+          "text": "Managed MCPに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "mcp-quickstart.md",
+          "text": "MCP Quickstartに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "mcp.md",
+          "text": "MCPに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "memory.md",
+          "text": "Memoryに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "microsoft-foundry.md",
+          "text": "Microsoft Foundryに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "model-config.md",
+          "text": "Model Configに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "monitoring-usage.md",
+          "text": "Monitoring Usageに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "network-config.md",
+          "text": "Network Configに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "output-styles.md",
+          "text": "Output Stylesに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "overview.md",
+          "text": "Overviewに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "permission-modes.md",
+          "text": "Permission Modesに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "permissions.md",
+          "text": "Permissionsに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "platforms.md",
+          "text": "Platformsに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "plugin-dependencies.md",
+          "text": "Plugin Dependenciesに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "plugin-hints.md",
+          "text": "Plugin Hintsに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "plugin-marketplaces.md",
+          "text": "Plugin Marketplacesに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "plugin-relevance.md",
+          "text": "Plugin Relevanceに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "plugins-reference.md",
+          "text": "Plugins Referenceに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "plugins.md",
+          "text": "Pluginsに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "prompt-caching.md",
+          "text": "Prompt Cachingに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "prompt-library.md",
+          "text": "Prompt Libraryに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "quickstart.md",
+          "text": "Quickstartに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "remote-control.md",
+          "text": "Remote Controlに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "routines.md",
+          "text": "Routinesに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "sandbox-environments.md",
+          "text": "Sandbox Environmentsに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "sandboxing.md",
+          "text": "Sandboxingに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "scheduled-tasks.md",
+          "text": "Scheduled Tasksに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "security-guidance.md",
+          "text": "Security Guidanceに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "security.md",
+          "text": "Securityに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "server-managed-settings.md",
+          "text": "Server Managed Settingsに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "sessions.md",
+          "text": "Sessionsに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "settings.md",
+          "text": "Settingsに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "setup.md",
+          "text": "Setupに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "skills.md",
+          "text": "Skillsに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "slack.md",
+          "text": "Slackに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "statusline.md",
+          "text": "Statuslineに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "sub-agents.md",
+          "text": "Sub-Agentsに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "terminal-config.md",
+          "text": "Terminal Configに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "third-party-integrations.md",
+          "text": "Third-Party Integrationsに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "tools-reference.md",
+          "text": "Tools Referenceに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "troubleshoot-install.md",
+          "text": "Troubleshoot Installに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "troubleshooting.md",
+          "text": "Troubleshootingに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "ultraplan.md",
+          "text": "Ultraplanに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "ultrareview.md",
+          "text": "Ultrareviewに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "voice-dictation.md",
+          "text": "Voice Dictationに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "vs-code.md",
+          "text": "VS Codeに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "web-quickstart.md",
+          "text": "Web Quickstartに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new.md",
+          "text": "What's Newに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w13.md",
+          "text": "What's New 2026-W13に関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w14.md",
+          "text": "What's New 2026-W14に関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w15.md",
+          "text": "What's New 2026-W15に関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w16.md",
+          "text": "What's New 2026-W16に関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w17.md",
+          "text": "What's New 2026-W17に関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w18.md",
+          "text": "What's New 2026-W18に関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w19.md",
+          "text": "What's New 2026-W19に関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w20.md",
+          "text": "What's New 2026-W20に関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w21.md",
+          "text": "What's New 2026-W21に関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w22.md",
+          "text": "What's New 2026-W22に関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w23.md",
+          "text": "What's New 2026-W23に関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w24.md",
+          "text": "What's New 2026-W24に関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w25.md",
+          "text": "What's New 2026-W25に関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w26.md",
+          "text": "What's New 2026-W26に関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "workflows.md",
+          "text": "Workflowsに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "worktrees.md",
+          "text": "Worktreesに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Changed",
+          "file": "zero-data-retention.md",
+          "text": "Zero Data Retentionに関するドキュメントの構成が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/68003a343f73692ca211595a682b44b964d03d71"
+        },
+        {
+          "tag": "Added",
+          "file": "agents-and-tools__agent-skills__best-practices.md",
+          "text": "ClaudeがSkillを効果的に発見し使用できるようにするための、簡潔で構造化され、テストされたSkillの作成方法に関するベストプラクティスが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "agents-and-tools__agent-skills__enterprise.md",
+          "text": "エンタープライズ規模でAgent Skillを管理するためのガバナンス、セキュリティレビュー、評価、組織的ガイダンスに関する情報が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "agents-and-tools__agent-skills__overview.md",
+          "text": "Claudeの機能を拡張するモジュール化された機能であるAgent Skillの概要が追加され、命令、メタデータ、オプションのリソースがパッケージ化されています。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "agents-and-tools__agent-skills__quickstart.md",
+          "text": "Claude APIを使用してAgent Skillでドキュメントを作成する方法を学ぶためのクイックスタートガイドが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "agents-and-tools__mcp-connector.md",
+          "text": "MCPクライアントなしでMessages APIから直接リモートMCPサーバーに接続し、個別のツールを許可/拒否/設定できるMCPコネクタのドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "agents-and-tools__mcp-tunnels__concepts.md",
+          "text": "MCPトンネルデプロイメントのアーキテクチャとコンポーネント、2つの認証情報プロビジョニングモード、接続モデルに関する概念が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "agents-and-tools__mcp-tunnels__console.md",
+          "text": "Claude Consoleでトンネルを作成し、CA証明書を登録し、トンネルトークンを取得し、トンネル化されたMCPサーバーをエージェントに接続する方法が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "agents-and-tools__mcp-tunnels__deploy-compose.md",
+          "text": "Docker Composeを使用してMCPトンネルスタックをVMにインストールする手順が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "agents-and-tools__mcp-tunnels__deploy-helm.md",
+          "text": "Anthropic Helmチャートを使用してKubernetesクラスターにMCPトンネルスタックをインストールする手順が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "agents-and-tools__mcp-tunnels__overview.md",
+          "text": "Claudeをプライベートネットワーク内のMCPサーバーに安全に接続できるMCPトンネルの概要が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "agents-and-tools__mcp-tunnels__quickstart.md",
+          "text": "Docker Composeデプロイメントを使用してClaudeをプライベートMCPサーバーに接続するためのMCPトンネルのクイックスタートが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "agents-and-tools__mcp-tunnels__reference.md",
+          "text": "MCPトンネルの参照ドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "agents-and-tools__mcp-tunnels__security.md",
+          "text": "MCPトンネルのセキュリティに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "agents-and-tools__mcp-tunnels__troubleshooting.md",
+          "text": "MCPトンネルのトラブルシューティングに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "agents-and-tools__remote-mcp-servers.md",
+          "text": "リモートMCPサーバーに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__adaptive-thinking.md",
+          "text": "Claudeの適応的思考に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__batch-processing.md",
+          "text": "Claudeでのバッチ処理に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__cache-diagnostics.md",
+          "text": "Claudeのキャッシュ診断に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__citations.md",
+          "text": "Claudeの引用機能に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__claude-in-amazon-bedrock.md",
+          "text": "Amazon BedrockでのClaudeに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__claude-in-microsoft-foundry.md",
+          "text": "Microsoft FoundryでのClaudeに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__claude-on-amazon-bedrock-legacy.md",
+          "text": "Amazon Bedrock（レガシー）でのClaudeに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__claude-on-vertex-ai.md",
+          "text": "Vertex AIでのClaudeに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__claude-platform-on-aws.md",
+          "text": "AWS上でのClaudeプラットフォームに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__compaction.md",
+          "text": "Claudeのコンパクション機能に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__context-editing.md",
+          "text": "Claudeのコンテキスト編集機能に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__context-windows.md",
+          "text": "Claudeのコンテキストウィンドウに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__effort.md",
+          "text": "Claudeのエフォートに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__embeddings.md",
+          "text": "Claudeの埋め込みに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__extended-thinking.md",
+          "text": "Claudeの拡張思考に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__fallback-credit.md",
+          "text": "Claudeのフォールバッククレジットに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__fast-mode.md",
+          "text": "Claudeの高速モードに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__files.md",
+          "text": "Claudeのファイル操作に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__handling-stop-reasons.md",
+          "text": "Claudeの停止理由の処理に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__mid-conversation-effort-example.md",
+          "text": "会話途中でのエフォート設定例に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__mid-conversation-system-messages.md",
+          "text": "会話途中でのシステムメッセージに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__multilingual-support.md",
+          "text": "Claudeの多言語サポートに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__overview.md",
+          "text": "Claudeで構築するための概要ドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__pdf-support.md",
+          "text": "ClaudeのPDFサポートに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__prompt-caching.md",
+          "text": "Claudeのプロンプトキャッシュに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__refusals-and-fallback.md",
+          "text": "Claudeの拒否とフォールバックに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__search-results.md",
+          "text": "Claudeの検索結果に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__skills-guide.md",
+          "text": "Claudeのスキルガイドに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__streaming.md",
+          "text": "Claudeのストリーミングに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__structured-outputs.md",
+          "text": "Claudeの構造化出力に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__task-budgets.md",
+          "text": "Claudeのタスク予算に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__token-counting.md",
+          "text": "Claudeのトークンカウントに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__vision-coordinates.md",
+          "text": "Claudeのビジョン座標に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__vision.md",
+          "text": "Claudeのビジョン機能に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "build-with-claude__working-with-messages.md",
+          "text": "Claudeのメッセージ操作に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "get-started.md",
+          "text": "利用開始に関する新しいドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "intro.md",
+          "text": "導入に関する新しいドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__access-transparency.md",
+          "text": "Claudeのアクセスの透明性に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__admin-api-keys.md",
+          "text": "Claudeの管理者APIキーに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__admin-api.md",
+          "text": "Claudeの管理者APIに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__analytics-api.md",
+          "text": "Claudeの分析APIに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__api-and-data-retention.md",
+          "text": "ClaudeのAPIとデータ保持に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__authentication.md",
+          "text": "Claudeの認証に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__claude-code-analytics-api.md",
+          "text": "Claude Codeの分析APIに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__cmek-aws-kms.md",
+          "text": "AWS KMSでのCMEK（顧客管理型暗号化キー）に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__cmek-azure-key-vault.md",
+          "text": "Azure Key VaultでのCMEKに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__cmek-google-cloud-kms.md",
+          "text": "Google Cloud KMSでのCMEKに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__cmek.md",
+          "text": "CMEKに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__compliance-activity-feed.md",
+          "text": "Claudeのコンプライアンス活動フィードに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__compliance-api-access.md",
+          "text": "ClaudeのコンプライアンスAPIアクセスに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__compliance-api.md",
+          "text": "ClaudeのコンプライアンスAPIに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__compliance-content-data.md",
+          "text": "Claudeのコンプライアンスコンテンツデータに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__compliance-errors.md",
+          "text": "Claudeのコンプライアンスエラーに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__compliance-faq.md",
+          "text": "ClaudeのコンプライアンスFAQに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__compliance-integration-patterns.md",
+          "text": "Claudeのコンプライアンス統合パターンに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__compliance-org-data.md",
+          "text": "Claudeのコンプライアンス組織データに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__data-residency.md",
+          "text": "Claudeのデータレジデンシーに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__rate-limits-api.md",
+          "text": "Claudeのレート制限APIに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__spend-limits-api.md",
+          "text": "Claudeの支出制限APIに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__usage-cost-api.md",
+          "text": "Claudeの使用量とコストAPIに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__wif-admin-api.md",
+          "text": "Workload Identity Federation (WIF) の管理者APIに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__wif-providers__aws.md",
+          "text": "AWS WIFプロバイダーに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__wif-providers__azure.md",
+          "text": "Azure WIFプロバイダーに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__wif-providers__gcp.md",
+          "text": "GCP WIFプロバイダーに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__wif-providers__github-actions.md",
+          "text": "GitHub Actions WIFプロバイダーに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__wif-providers__kubernetes.md",
+          "text": "Kubernetes WIFプロバイダーに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__wif-providers__okta.md",
+          "text": "Okta WIFプロバイダーに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__wif-providers__spiffe.md",
+          "text": "SPIFFE WIFプロバイダーに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__wif-reference.md",
+          "text": "WIFのリファレンスドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__workload-identity-federation.md",
+          "text": "Workload Identity Federationに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "manage-claude__workspaces.md",
+          "text": "Claudeのワークスペースに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-agents__agent-setup.md",
+          "text": "マネージドエージェントのエージェントセットアップに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-agents__cloud-sandboxes-reference.md",
+          "text": "マネージドエージェントのクラウドサンドボックスリファレンスに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-agents__define-outcomes.md",
+          "text": "マネージドエージェントの成果定義に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-agents__dreams.md",
+          "text": "マネージドエージェントのDream機能に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-agents__environments.md",
+          "text": "マネージドエージェントの環境に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-agents__events-and-streaming.md",
+          "text": "マネージドエージェントのイベントとストリーミングに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-agents__files.md",
+          "text": "マネージドエージェントのファイル操作に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-agents__github.md",
+          "text": "マネージドエージェントのGitHub連携に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-agents__mcp-connector.md",
+          "text": "マネージドエージェントのMCPコネクタに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-agents__memory.md",
+          "text": "マネージドエージェントのメモリに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-agents__multi-agent.md",
+          "text": "マネージドエージェントのマルチエージェントに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-agents__onboarding.md",
+          "text": "マネージドエージェントのオンボーディングに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-agents__overview.md",
+          "text": "マネージドエージェントの概要ドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-agents__permission-policies.md",
+          "text": "マネージドエージェントの権限ポリシーに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-agents__quickstart.md",
+          "text": "マネージドエージェントのクイックスタートに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-agents__reference.md",
+          "text": "マネージドエージェントのリファレンスドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-agents__scheduled-deployments.md",
+          "text": "マネージドエージェントのスケジュールされたデプロイに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-agents__self-hosted-sandboxes-security.md",
+          "text": "マネージドエージェントのセルフホスト型サンドボックスのセキュリティに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-agents__self-hosted-sandboxes.md",
+          "text": "マネージドエージェントのセルフホスト型サンドボックスに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-agents__session-operations.md",
+          "text": "マネージドエージェントのセッション操作に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-agents__sessions.md",
+          "text": "マネージドエージェントのセッションに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-agents__skills.md",
+          "text": "マネージドエージェントのスキルに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-agents__tools.md",
+          "text": "マネージドエージェントのツールに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-agents__vaults.md",
+          "text": "マネージドエージェントのVaultsに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-agents__webhooks.md",
+          "text": "マネージドエージェントのWebhooksに関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "test-and-evaluate__strengthen-guardrails__handle-streaming-refusals.md",
+          "text": "ストリーミング拒否を処理することでガードレールを強化する方法に関するドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__typescript-v2-preview.md",
+          "text": "V2 TypeScript Agent SDKのセッションAPIはサポートされなくなり、関連するAPIとタイプが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__todo-tracking.md",
+          "text": "TypeScript Agent SDK 0.3.142以降、セッションは`TodoWrite`の代わりに構造化されたTaskツール`TaskCreate`、`TaskUpdate`、`TaskGet`、`TaskList`を使用するように変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__migration-guide.md",
+          "text": "Claude Code SDKがClaude Agent SDKに名称変更され、ドキュメントが再編成されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "admin-setup.md",
+          "text": "組織向けClaude Codeのセットアップに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "advisor.md",
+          "text": "アドバイザーツールに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__agent-loop.md",
+          "text": "エージェントループの仕組みに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__claude-code-features.md",
+          "text": "SDKでClaude Codeの機能を使用する方法に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__cost-tracking.md",
+          "text": "コストと使用状況の追跡に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__custom-tools.md",
+          "text": "Claudeにカスタムツールを提供する方法に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__file-checkpointing.md",
+          "text": "ファイルチェックポイント機能に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__hooks.md",
+          "text": "フックによるエージェントの動作制御に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__hosting.md",
+          "text": "Agent SDKのホスティングに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__mcp.md",
+          "text": "MCPで外部ツールに接続する方法に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__modifying-system-prompts.md",
+          "text": "システムプロンプトの変更に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__observability.md",
+          "text": "OpenTelemetryによるオブザーバビリティに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__overview.md",
+          "text": "Agent SDKの概要に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__permissions.md",
+          "text": "権限の設定に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__plugins.md",
+          "text": "SDKでのプラグインの使用に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__python.md",
+          "text": "Python SDKに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__quickstart.md",
+          "text": "Agent SDKのクイックスタートに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__secure-deployment.md",
+          "text": "AIエージェントの安全なデプロイに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__session-storage.md",
+          "text": "セッションを外部ストレージに永続化する方法に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__sessions.md",
+          "text": "セッションの操作に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__skills.md",
+          "text": "SDKでのAgent Skillの使用に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__slash-commands.md",
+          "text": "SDKでのスラッシュコマンドの使用に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__streaming-output.md",
+          "text": "リアルタイムでの応答ストリーミングに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__streaming-vs-single-mode.md",
+          "text": "ストリーミング入力に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__structured-outputs.md",
+          "text": "エージェントからの構造化出力を取得する方法に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__subagents.md",
+          "text": "SDKでのサブエージェントの使用に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__tool-search.md",
+          "text": "ツール検索による多数のツールへのスケーリングに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__typescript.md",
+          "text": "TypeScript SDKに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__user-input.md",
+          "text": "承認とユーザー入力を処理する方法に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-teams.md",
+          "text": "Claude Codeセッションのチームを編成する方法に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-view.md",
+          "text": "エージェントビューで複数のエージェントを管理する方法に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "agents.md",
+          "text": "エージェントに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "amazon-bedrock.md",
+          "text": "Amazon Bedrockに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "analytics.md",
+          "text": "分析に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "artifacts.md",
+          "text": "アーティファクトに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "authentication.md",
+          "text": "認証に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "auto-mode-config.md",
+          "text": "自動モード設定に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "best-practices.md",
+          "text": "ベストプラクティスに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "champion-kit.md",
+          "text": "チャンピオンキットに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "channels-reference.md",
+          "text": "チャネルリファレンスに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "channels.md",
+          "text": "チャネルに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "checkpointing.md",
+          "text": "チェックポイント機能に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "chrome.md",
+          "text": "Chromeに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-apps-gateway-config.md",
+          "text": "Claude Apps Gatewayの設定に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-apps-gateway-deploy.md",
+          "text": "Claude Apps Gatewayのデプロイに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-apps-gateway-on-gcp.md",
+          "text": "GCPでのClaude Apps Gatewayに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-apps-gateway-spend-limits.md",
+          "text": "Claude Apps Gatewayの支出制限に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-apps-gateway.md",
+          "text": "Claude Apps Gatewayに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-code-on-the-web.md",
+          "text": "Web上のClaude Codeに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-directory.md",
+          "text": "Claudeディレクトリに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-platform-on-aws.md",
+          "text": "AWS上のClaudeプラットフォームに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "cli-reference.md",
+          "text": "CLIリファレンスに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "code-review.md",
+          "text": "コードレビューに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "commands.md",
+          "text": "コマンドに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "common-workflows.md",
+          "text": "一般的なワークフローに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "communications-kit.md",
+          "text": "コミュニケーションキットに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "computer-use.md",
+          "text": "コンピュータの使用に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "context-window.md",
+          "text": "コンテキストウィンドウに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "costs.md",
+          "text": "コストに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "data-usage.md",
+          "text": "データ使用に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "debug-your-config.md",
+          "text": "設定のデバッグに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "deep-links.md",
+          "text": "ディープリンクに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "desktop-linux.md",
+          "text": "デスクトップLinuxに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "desktop-quickstart.md",
+          "text": "デスクトップクイックスタートに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "desktop-scheduled-tasks.md",
+          "text": "デスクトップのスケジュールされたタスクに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "desktop.md",
+          "text": "デスクトップに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "devcontainer.md",
+          "text": "Devcontainerに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "discover-plugins.md",
+          "text": "プラグインの発見に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "env-vars.md",
+          "text": "環境変数に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "errors.md",
+          "text": "エラーに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "fast-mode.md",
+          "text": "高速モードに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "feature-availability.md",
+          "text": "機能の可用性に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "features-overview.md",
+          "text": "機能の概要に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "fullscreen.md",
+          "text": "フルスクリーンに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "gateways.md",
+          "text": "ゲートウェイに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "github-actions.md",
+          "text": "GitHub Actionsに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "github-enterprise-server.md",
+          "text": "GitHub Enterprise Serverに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "gitlab-ci-cd.md",
+          "text": "GitLab CI/CDに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "glossary.md",
+          "text": "用語集に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "goal.md",
+          "text": "目標に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "google-vertex-ai.md",
+          "text": "Google Vertex AIに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "headless.md",
+          "text": "ヘッドレスモードに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "hooks-guide.md",
+          "text": "フックガイドに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "hooks.md",
+          "text": "フックに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "how-claude-code-works.md",
+          "text": "Claude Codeの動作原理に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "interactive-mode.md",
+          "text": "インタラクティブモードに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "jetbrains.md",
+          "text": "JetBrainsに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "keybindings.md",
+          "text": "キーバインディングに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "large-codebases.md",
+          "text": "大規模なコードベースに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "legal-and-compliance.md",
+          "text": "法務とコンプライアンスに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "llm-gateway-connect.md",
+          "text": "LLM Gatewayへの接続に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "llm-gateway-protocol.md",
+          "text": "LLM Gatewayプロトコルに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "llm-gateway-rollout.md",
+          "text": "LLM Gatewayの展開に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "llm-gateway.md",
+          "text": "LLM Gatewayに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "managed-mcp.md",
+          "text": "マネージドMCPに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "mcp-quickstart.md",
+          "text": "MCPクイックスタートに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "mcp.md",
+          "text": "MCPに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "memory.md",
+          "text": "メモリに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "microsoft-foundry.md",
+          "text": "Microsoft Foundryに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "model-config.md",
+          "text": "モデル設定に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "monitoring-usage.md",
+          "text": "使用状況の監視に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "network-config.md",
+          "text": "ネットワーク設定に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "output-styles.md",
+          "text": "出力スタイルに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "overview.md",
+          "text": "概要に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "permission-modes.md",
+          "text": "権限モードに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "permissions.md",
+          "text": "権限に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "platforms.md",
+          "text": "プラットフォームに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "plugin-dependencies.md",
+          "text": "プラグインの依存関係に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "plugin-hints.md",
+          "text": "プラグインのヒントに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "plugin-marketplaces.md",
+          "text": "プラグインマーケットプレイスに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "plugin-relevance.md",
+          "text": "プラグインの関連性に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "plugins-reference.md",
+          "text": "プラグインのリファレンスに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "plugins.md",
+          "text": "プラグインに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "prompt-caching.md",
+          "text": "プロンプトキャッシュに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "prompt-library.md",
+          "text": "プロンプトライブラリに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "quickstart.md",
+          "text": "クイックスタートに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "remote-control.md",
+          "text": "リモートコントロールに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "routines.md",
+          "text": "ルーティンに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "sandbox-environments.md",
+          "text": "サンドボックス環境に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "sandboxing.md",
+          "text": "サンドボックスに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "scheduled-tasks.md",
+          "text": "スケジュールされたタスクに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "security-guidance.md",
+          "text": "セキュリティガイダンスに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "security.md",
+          "text": "セキュリティに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "server-managed-settings.md",
+          "text": "サーバー管理設定に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "sessions.md",
+          "text": "セッションに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "settings.md",
+          "text": "設定に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "setup.md",
+          "text": "セットアップに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "skills.md",
+          "text": "スキルに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "slack.md",
+          "text": "Slackに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "statusline.md",
+          "text": "ステータスラインに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "sub-agents.md",
+          "text": "サブエージェントに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "terminal-config.md",
+          "text": "ターミナル設定に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "third-party-integrations.md",
+          "text": "サードパーティ統合に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "tools-reference.md",
+          "text": "ツールリファレンスに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "troubleshoot-install.md",
+          "text": "インストールトラブルシューティングに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "troubleshooting.md",
+          "text": "トラブルシューティングに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "ultraplan.md",
+          "text": "Ultraplanに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "ultrareview.md",
+          "text": "Ultrareviewに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "voice-dictation.md",
+          "text": "音声ディクテーションに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "vs-code.md",
+          "text": "VS Codeに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "web-quickstart.md",
+          "text": "Webクイックスタートに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new.md",
+          "text": "新機能に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w13.md",
+          "text": "2026年第13週の新機能に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w14.md",
+          "text": "2026年第14週の新機能に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w15.md",
+          "text": "2026年第15週の新機能に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w16.md",
+          "text": "2026年第16週の新機能に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w17.md",
+          "text": "2026年第17週の新機能に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w18.md",
+          "text": "2026年第18週の新機能に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w19.md",
+          "text": "2026年第19週の新機能に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w20.md",
+          "text": "2026年第20週の新機能に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w21.md",
+          "text": "2026年第21週の新機能に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w22.md",
+          "text": "2026年第22週の新機能に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w23.md",
+          "text": "2026年第23週の新機能に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w24.md",
+          "text": "2026年第24週の新機能に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w25.md",
+          "text": "2026年第25週の新機能に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "whats-new__2026-w26.md",
+          "text": "2026年第26週の新機能に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "workflows.md",
+          "text": "ワークフローに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "worktrees.md",
+          "text": "ワークツリーに関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Changed",
+          "file": "zero-data-retention.md",
+          "text": "ゼロデータ保持に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/80baa5912bcbae04563f01e0c23db9924022696b"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "新しいchangelog.mdファイルが追加され、これまでのClaude Codeドキュメントの更新履歴が記録されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/eac85fa99e6e6d85f1499221cf769adb1a0a2d2f"
+        },
+        {
+          "tag": "Fixed",
+          "file": "feature-availability.md",
+          "text": "EnterpriseデプロイのDesktopが、Google CloudのAgent Platformまたはゲートウェイプロバイダーにルーティングされる際の参照ドキュメントが更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/bf4ee541991ed215b2169d69e0433450f31e9364"
+        },
+        {
+          "tag": "Fixed",
+          "file": "llm-gateway-connect.md",
+          "text": "Desktopアプリがゲートウェイルーティングを読み取る際の管理者配布設定のリンクが更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/bf4ee541991ed215b2169d69e0433450f31e9364"
+        },
+        {
+          "tag": "Fixed",
+          "file": "llm-gateway-rollout.md",
+          "text": "Desktopアプリのサードパーティ設定ドキュメントとゲートウェイドキュメントへのリンクが更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/bf4ee541991ed215b2169d69e0433450f31e9364"
+        },
+        {
+          "tag": "Changed",
+          "file": "desktop-quickstart.md",
+          "text": "ワークスペースのペインに、従来のプレビューペインに代わりブラウザペインが含まれるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2bc65c0ea226faccbae4db64c61031ba860cc78a"
+        },
+        {
+          "tag": "Changed",
+          "file": "desktop.md",
+          "text": "アプリのプレビュー機能の説明において、プレビューペインがブラウザペインに名称変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2bc65c0ea226faccbae4db64c61031ba860cc78a"
+        }
+      ]
+    }
+  ]
+}
