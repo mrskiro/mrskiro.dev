@@ -1,0 +1,199 @@
+{
+  "fetchedAt": "2026-07-11T21:36:37.998Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.207",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207",
+      "summary": "- [Added] Bedrock, Vertex AI, FoundryでCLAUDE_CODE_ENABLE_AUTO_MODEによるオプトインなしでAutoモードが利用可能になりました。設定でdisableAutoModeにより無効化できます。\n- [Fixed] 非常に長いリスト、テーブル、段落、またはコードブロックを含む応答をストリーミング中に、ターミナルがフリーズしたり、キーストロークが遅延したりする問題を修正しました。\n- [Fixed] 非対話型実行 (claude -p, SDK) からのリモートマネージド設定が、セキュリティ同意ダイアログを表示せずに同意済みとして永続的に記録される問題を修正しました。\n- [Fixed] 無害なシステム生成の会話更新によってトリガーされる、誤ったプロンプトインジェクション警告を修正しました。\n- [Fixed] 自動アップデーターがリリースごとに~/.local/bin/claudeにあるカスタムランチャースクリプトまたはシンボリックリンクを上書きする問題を修正しました。/doctorが外部管理ランチャーを報告するようになりました。\n- [Fixed] cdを含む複合コマンドで、唯一の出力リダイレクトが/dev/nullであった場合に許可を求める問題を修正しました。\n- [Fixed] 応答のストリーミングが完了したときに、トランスクリプトが回答の開始位置よりも上にジャンプする問題を修正しました。\n- [Fixed] 最後のworktree.sparsePathsワークツリーが削除された後、extensions.worktreeConfigがリポジトリの.git/configに残る（teaのようなgo-gitツールを壊す）問題を修正しました。\n- [Fixed] ルールグロブ、スキルパス、.ignore、.worktreeinclude内の不正なブラケットパターンが、ファイル読み取り、ファイルの提案、ワークツリー作成を壊す問題を修正しました。\n- [Fixed] エージェントチームで、不正なチームメイトメールボックスメッセージが原因で、メールボックスファイルが手動で削除されるまで毎秒エラーが繰り返されるクラッシュループを修正しました。\n- [Fixed] 計画を受け入れることによって自動的に命名されたバックグラウンドセッションが、エージェントビューの行にその名前を表示しない問題を修正しました。\n- [Fixed] gitワークツリーに入ったバックグラウンドセッションが、エージェントリストからのコールドリオープン後に空白で再開される問題を修正しました。\n- [Fixed] ネットワーク中断または資格情報更新から接続が回復したときに、Remote Controlタスクステータス更新が失われる問題を修正しました。\n- [Fixed] デスクトップアプリによってホストされるRemote Controlセッションが、モバイルおよびウェブでバックグラウンドエージェントとワークフローの進行状況を表示しない問題を修正しました。\n- [Fixed] Deep researchの実行で、すべてのFetchフェーズのエージェントが「unknown」と表示される問題を修正しました。チップがソースホスト名を表示するようになりました。\n- [Fixed] BedrockがAPIリクエストごとにIAM Identity Centerから新しいAWS SSO認証情報を繰り返し要求する問題を修正しました。\n- [Improved] エージェントビューの改善: 同じテキストを再度貼り付けると、折りたたまれた[Pasted text #N]プレースホルダーが展開され、2つ目が追加されなくなりました。\n- [Improved] エージェントビューの改善: ブロックされたセッションピークが質問から始まり、同じタイムスタンプが2回表示される代わりに、ワード化された陳腐化クロック（waiting 3m）が表示されるようになりました。\n- [Changed] Bedrock、Vertex、AWS上のClaude PlatformがデフォルトでClaude Opus 4.8になりました。\n- [Changed] Autoモードが.claude/settings.local.json (リポジトリ常駐) からautoModeを読み取らなくなりました。代わりに~/.claude/settings.jsonを使用してください。\n- [Fixed] WindowsでAWS認証情報の解決が停止した（例：スタックしたcredential_process）場合の無限ハングを修正しました。60秒の停止ガードが永遠に待つのではなく、代わりに起動するようになりました。\n- [Fixed] プラグインフック/モニター/MCP headersHelper: シェル形式コマンド内の${user_config.*}は拒否されるようになりました（シェルインジェクションの修正）。フック: exec形式（args配列）または$CLAUDE_PLUGIN_OPTION_<KEY>を使用してください。モニターとheadersHelper: スクリプト内で値を読み取ってください（設定ファイルまたはサーバーの環境ブロック）。\n- [Changed] プラグインオプション値 (pluginConfigs) は、プロジェクトレベルの.claude/settings.jsonから読み取られなくなりました。ユーザー、--settings、およびマネージド設定のみが尊重されます。\n- [Fixed] /usage-creditsの金額入力が、不正な値（例：貼り付けられたタイムスタンプ）をサイレントに数字に変換する問題を修正しました。不正な金額はエラーで拒否され、1,000ドルを超える金額にはタイプ入力による確認が必要です。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-07-11"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-12"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-12"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1532pt] AppleがOpenAIを提訴、元従業員による企業秘密窃盗を主張 | OpenAIが企業秘密窃盗を指南した疑いについて非難の声が多数。Appleの勝訴を予想する意見も。\n  https://news.ycombinator.com/item?id=48865019\n- [719pt] QuadRFでドローンを検知し、壁越しにWi-Fiを視認 | QuadRFの作成者が登場し、多くの質問に回答。将来的な応用例にも期待の声。\n  https://news.ycombinator.com/item?id=48861717\n- [614pt] ニューヨーク市、欺瞞的な定期購入行為を禁止へ | 高額な不要手数料や解約しにくい定期購入への不満が多く、規制強化に期待。\n  https://news.ycombinator.com/item?id=48863464\n- [529pt] 良いツールは目に見えない | ツールの「見えなさ」と生産性の関係について議論。キーボード操作の利点を指摘する声も。\n  https://news.ycombinator.com/item?id=48858121\n- [506pt] GPT-5.6 Sol Ultraがサイクル二重被覆予想の証明を生成 | AIによる数学的証明に驚きの声。プロンプト公開への関心も高い。\n  https://news.ycombinator.com/item?id=48863490\n- [414pt] 後期青銅器時代の崩壊 | 現代社会との類似性を指摘するコメントが多い。歴史家エリック・H・クラインの著書に言及も。\n  https://news.ycombinator.com/item?id=48858737\n- [374pt] アインシュタインの相対性理論が重元素の化学結合を支配することを新研究が示す | 相対性理論が化学結合に影響を与えることへの認識と、新たな発見への驚きの声。\n  https://news.ycombinator.com/item?id=48866134\n- [341pt] 人間が保守するようにコードを書く | AI時代におけるコードの書き方について議論。AIに過度な抽象化をさせない意見も。\n  https://news.ycombinator.com/item?id=48859701\n- [329pt] アメリカの救急車料金はなぜこれほど高いのか | 救急車料金の高さに多くの不満と、その背景にある医療請求システムへの疑問。\n  https://news.ycombinator.com/item?id=48853091\n- [320pt] 住宅用プロキシとスクレイパーの状況に関する最新情報 | スクレイパー対策と、正規ユーザーへの影響を最小限に抑えることの難しさについて議論。\n  https://news.ycombinator.com/item?id=48864252",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-07-12"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "3 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- OpenAI、家族向けChatGPTで家庭への浸透を狙う\n  https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/\n- Phia、アフィリエイト報酬を不正取得か「クッキースタッフィング」の疑い\n  https://techcrunch.com/2026/07/10/phia-accused-of-cookie-stuffing-taking-affiliate-credit-on-purchases-it-didnt-earn/\n- Meta、物議を醸したInstagramのAI機能を削除、ユーザーからの批判受け\n  https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-07-12"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- 陣痛を乗り切るための呼吸法アプリ「Breathing In Labour」\n  https://www.producthunt.com/products/breathing-in-labour\n- Basedash SCIM：組織変更に合わせたアクセス管理\n  https://www.producthunt.com/products/basedash\n- Mac用ミキシングボード「SoundPipe」\n  https://www.producthunt.com/products/soundpipe\n- AIビデオ・オーディオエフェクトSDK「Effects SDK」リアルタイムアプリ向け\n  https://www.producthunt.com/products/effects-sdk\n- スタートアップ経営シミュレーションゲーム「San Fran Sim」\n  https://www.producthunt.com/products/san-fran-sim\n- ChatGPT Work：あなたの最も野心的な仕事のパートナー\n  https://www.producthunt.com/products/chatgpt-work\n- Cloudflare Drop：ブラウザからフォルダをドロップ、Cloudflareに即デプロイ\n  https://www.producthunt.com/products/cloudflare\n- Kickbacks CLI：Kickbacks.aiのターミナル＆Macメニューバーコンパニオン\n  https://www.producthunt.com/products/kickbacks-cli\n- AIエージェントとワークフローのためのオープンソースワークスペース「Sim」\n  https://www.producthunt.com/products/sim-studio\n- ChatGPTやデスクトップ、ウェブで使えるAI動画エディター「ChatCut」\n  https://www.producthunt.com/products/chatcut-ai-video-editor",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-07-12"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "3 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Understudy Labs、オープンウェイトモデルへの移行を簡素化\n  https://understudylabs.com/\n- Osseus、R&D加速のためのセキュアな研究ブレイン\n  https://osseus.ai/\n- Palette、AI動画生成・編集を可能にするインタラクティブプラットフォーム\n  https://palettetechnology.com/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-07-12"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-f5c",
+      "summary": "OpenAIのGPT-5.6はエージェント機能強化とモデルの細分化でUXに混乱を生じさせつつも、一部タスクで高性能を発揮し、MetaのMuse Spark 1.1も低コストで実用的な性能を示した。",
+      "publishedAt": "2026-07-11",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!7odD!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa462b771-b4e5-4d7a-b815-ac4ca35903f4_1328x982.png"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "18 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-07-12",
+      "docsUpdates": [
+        {
+          "tag": "Added",
+          "file": "agent-sdk__mcp.md",
+          "text": "MCP出力制限と警告に関する新しいガイドが、`MAX_MCP_OUTPUT_TOKENS`を超えるツール結果の処理方法、ディスクへの永続化フォールバック、および`anthropic/maxResultSizeChars`アノテーションを含めて追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/78c0257a5f7a0c42ff0f69a0faa291c2b0c8ecf3"
+        },
+        {
+          "tag": "Changed",
+          "file": "desktop-linux.md",
+          "text": "aptリポジトリを使用できない場合のLinuxデスクトップアプリのインストール手順が、リポジトリのパッケージプールから直接`.deb`パッケージをダウンロードする新しいコマンドライン方法に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/78c0257a5f7a0c42ff0f69a0faa291c2b0c8ecf3"
+        },
+        {
+          "tag": "Improved",
+          "file": "communications-kit.md",
+          "text": "`Manual`モードの振る舞いが明確になり、ファイル編集とほとんどのシェルコマンドで確認を求めるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/85e04be86c6eca93b39cb567096f2f6a679978bd"
+        },
+        {
+          "tag": "Improved",
+          "file": "permissions.md",
+          "text": "権限システムの表の列名が変更され、承認が必要な項目がより詳細に記載されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/85e04be86c6eca93b39cb567096f2f6a679978bd"
+        },
+        {
+          "tag": "Improved",
+          "file": "security.md",
+          "text": "Bashコマンドの承認に関する説明が、読み取り専用コマンドへのリンクを含むように更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/85e04be86c6eca93b39cb567096f2f6a679978bd"
+        },
+        {
+          "tag": "Improved",
+          "file": "tools-reference.md",
+          "text": "ツールの権限に関する新しい説明が追加され、作業ディレクトリ内外のパスに対するツールの挙動が明確になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/85e04be86c6eca93b39cb567096f2f6a679978bd"
+        },
+        {
+          "tag": "Improved",
+          "file": "vs-code.md",
+          "text": "VS Codeの`Manual`モードの説明が、ファイル編集とほとんどのシェルコマンドで確認を求めるように更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/85e04be86c6eca93b39cb567096f2f6a679978bd"
+        },
+        {
+          "tag": "Added",
+          "file": "whats-new.md",
+          "text": "Claude Codeのデスクトップ版にアプリ内ブラウザが追加され、Claudeがローカル開発サーバーのプレビューと同じように、ドキュメントやデザインなどの任意のサイトを表示し、ページと対話できるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/efc54c33352080d52529b2756c1d2cfd62021b02"
+        },
+        {
+          "tag": "Added",
+          "file": "whats-new.md",
+          "text": "新しいコマンド `/doctor` は、セットアップの問題を診断し修正できる完全なセットアップチェックアップ機能を提供し、`/checkup` はそのエイリアスです。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/efc54c33352080d52529b2756c1d2cfd62021b02"
+        },
+        {
+          "tag": "Added",
+          "file": "whats-new.md",
+          "text": "auto modeでは、トランスクリプトの改ざんをブロックし、未解決の変数に対して `rm -rf` を実行する前に確認を求めます。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/efc54c33352080d52529b2756c1d2cfd62021b02"
+        },
+        {
+          "tag": "Added",
+          "file": "whats-new__2026-w27.md",
+          "text": "Claude Sonnet 5がデフォルトモデルになり、Claude in Chromeが一般公開され、サブエージェントがデフォルトでバックグラウンドで実行され、Claude DesktopのLinuxベータ版がリリースされ、`/radio` でClaude FMにアクセスできるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/efc54c33352080d52529b2756c1d2cfd62021b02"
+        },
+        {
+          "tag": "Added",
+          "file": "whats-new__2026-w28.md",
+          "text": "デスクトップアプリの組み込みブラウザから外部サイトを閲覧できるようになり、`/doctor` で完全なセットアップチェックアップを実行し、自動モードのトランスクリプト保護とエージェントビューのアップグレードが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/efc54c33352080d52529b2756c1d2cfd62021b02"
+        },
+        {
+          "tag": "Changed",
+          "file": "amazon-bedrock.md",
+          "text": "`ANTHROPIC_DEFAULT_OPUS_MODEL`などの環境変数を設定しない場合、Amazon Bedrock上の`opus`エイリアスはOpus 4.8に、`sonnet`エイリアスはSonnet 4.5に解決されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ec51ac36b1c310f4acb2c34d4011bf9cba2f46d1"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-platform-on-aws.md",
+          "text": "AWS上のClaude Platformで`ANTHROPIC_DEFAULT_OPUS_MODEL`を設定しない場合、`opus`エイリアスはOpus 4.8に解決されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ec51ac36b1c310f4acb2c34d4011bf9cba2f46d1"
+        },
+        {
+          "tag": "Changed",
+          "file": "desktop.md",
+          "text": "Autoモードが「研究プレビュー」から通常の機能となり、Google CloudのAgent PlatformでDesktopをルーティングするエンタープライズ展開では、`CLAUDE_CODE_ENABLE_AUTO_MODE`を設定するまでオフになります。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ec51ac36b1c310f4acb2c34d4011bf9cba2f46d1"
+        },
+        {
+          "tag": "Changed",
+          "file": "glossary.md",
+          "text": "Autoモードが「研究プレビュー」ではなくなりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ec51ac36b1c310f4acb2c34d4011bf9cba2f46d1"
+        },
+        {
+          "tag": "Changed",
+          "file": "google-vertex-ai.md",
+          "text": "`ANTHROPIC_DEFAULT_OPUS_MODEL`などの環境変数を設定しない場合、Google Cloud's Agent Platform上の`opus`エイリアスはOpus 4.8に、`sonnet`エイリアスはSonnet 4.5に解決されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ec51ac36b1c310f4acb2c34d4011bf9cba2f46d1"
+        },
+        {
+          "tag": "Changed",
+          "file": "how-claude-code-works.md",
+          "text": "Autoモードが「研究プレビュー」ではなくなりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ec51ac36b1c310f4acb2c34d4011bf9cba2f46d1"
+        },
+        {
+          "tag": "Improved",
+          "file": "model-config.md",
+          "text": "Anthropic APIにおける`opus`エイリアスがOpus 4.8に解決されることが明示されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ec51ac36b1c310f4acb2c34d4011bf9cba2f46d1"
+        },
+        {
+          "tag": "Changed",
+          "file": "permission-modes.md",
+          "text": "Autoモードが「研究プレビュー」ではなくなりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ec51ac36b1c310f4acb2c34d4011bf9cba2f46d1"
+        }
+      ]
+    }
+  ]
+}
