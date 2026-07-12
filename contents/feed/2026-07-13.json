@@ -1,0 +1,61 @@
+{
+  "fetchedAt": "2026-07-12T21:36:31.908Z",
+  "entries": [
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-13"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI、進行中のメガトレンドをリストアップ\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- 登録者数100万人突破と2名の新モデレーター発表！\n  https://www.reddit.com/r/ClaudeAI/comments/1ur87u0/announcing_1_million_subscribers_and_two_new/\n- アクセス期間を延長しました！\n  https://www.reddit.com/r/ClaudeAI/comments/1uul693/access_has_been_extended/\n- 疑惑の利用状況\n  https://www.reddit.com/r/ClaudeAI/comments/1uulu1c/sussy_usage/\n- 月200ドル支払っているのに、明日からサブスクでAnthropicの最高モデルにアクセスできない？\n  https://www.reddit.com/r/ClaudeAI/comments/1uudibj/im_paying_200month_and_after_tomorrow_i_cant/\n- 公正な反論\n  https://www.reddit.com/r/ClaudeAI/comments/1uuovs4/fair_pushback/\n- 今夜Fab 5をサブスクから外すAnthropicは自滅行為では？\n  https://www.reddit.com/r/ClaudeAI/comments/1uu9egf/is_anthropic_shooting_themselves_in_the_foot_by/\n- 高校教師だが、Claudeのおかげで、私が持っていなかった唯一のもの、つまり実際に教えるための時間を取り戻せた\n  https://www.reddit.com/r/ClaudeAI/comments/1uud8y0/im_a_high_school_teacher_and_claude_quietly_gave/\n- Claudeを使ってGTA 6を開発する43日目\n  https://www.reddit.com/r/ClaudeAI/comments/1uub12j/day_43_of_building_gta_6_using_claude/\n- Claudeが幼い頃のPS2の思い出を無料ブラウザゲームに変える手助けをしてくれた：HTMLファイル1つ、アセットファイルゼロ\n  https://www.reddit.com/r/ClaudeAI/comments/1uue0vm/claude_helped_me_turn_a_childhood_ps2_memory_into/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-13"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1626pt] Apple、元従業員による企業秘密盗用でOpenAIを提訴 | OpenAIの企業体質に対する批判や、訴訟の影響の大きさを指摘する声が多い\n  https://news.ycombinator.com/item?id=48865019\n- [402pt] アインシュタインの相対性理論が重元素の化学結合を支配することが新たな研究で判明 | 相対性理論が重元素の化学結合に影響を与えることは既知であるとの意見や、実験的検証を評価する声が上がっている\n  https://news.ycombinator.com/item?id=48866134\n- [384pt] xAIのGrok build CLIがxAIに送信するデータ：ワイヤーレベル分析 | リポジトリ全体をアップロードすることに驚きと懸念の声、プライバシーリスクへの警告が多数\n  https://news.ycombinator.com/item?id=48877371\n- [381pt] 最新のコーディングエージェントを介した古いアプリと新しいアプリ | LLMによるソフトウェア開発の可能性や効率性について肯定的な意見、有名な数学者がコーディングエージェントを使うことへの面白さが語られている\n  https://news.ycombinator.com/item?id=48880170\n- [357pt] Nvidia、CoreWeave、Nebius：GPUブームの循環融資の内幕 | Nvidiaの投資額とCoreWeaveのCapExの比率に疑問の声や、循環融資自体の問題点を指摘するコメントがある\n  https://news.ycombinator.com/item?id=48873836\n- [334pt] SQLiteでは厳格なテーブルを推奨 | STRICTモードをデフォルトにするべきだという意見が多いが、柔軟性を損なうという反論もある\n  https://news.ycombinator.com/item?id=48873940\n- [328pt] Mesh LLM: iroh上の分散型AIコンピューティング | VRAM貢献の容易さに驚きの声がある一方で、パフォーマンス情報が不足しているとの指摘や、P2Pメッシュへの言及もある\n  https://news.ycombinator.com/item?id=48876505\n- [313pt] Show HN: Ant – JavaScriptランタイムとエコシステム | Antという名前の重複に関する指摘が多い。開発の経緯やパフォーマンスに関する疑問も挙がっている\n  https://news.ycombinator.com/item?id=48875377\n- [311pt] アメリカ人女性ボート選手、カリフォルニアからハワイへの歴史的な単独航海を達成 | 偉業への賞賛が多く、男性の記録を破ったことや、航海の過酷さに関するコメントが目立つ\n  https://news.ycombinator.com/item?id=48873692\n- [301pt] Claude Codeはプロンプトを読む前に33kトークンを送信。OpenCodeは7k | トークン消費量の多さに対する疑問や、キャッシュ性能、サブエージェントによるトークン消費に関する議論が見られる\n  https://news.ycombinator.com/item?id=48883275",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-07-13"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "⚠ Martin Fowler の取得に失敗しました",
+      "url": "https://martinfowler.com/feed.atom",
+      "summary": "フェッチに失敗しました。",
+      "ogImage": null,
+      "publishedAt": "2026-07-13"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- JustVibe — あなた向けアプリで「行動」を検索するエンジン\n  https://www.producthunt.com/products/justvibe\n- ServiceBeard — メールボックスと課題トラッカーを同期\n  https://www.producthunt.com/products/servicebeard\n- FetchSandbox — 障害を記憶するAPI連携テスト\n  https://www.producthunt.com/products/fetchsandbox\n- Second Brain for AI v2 — あらゆるツールをつなぐAIの記憶機能\n  https://www.producthunt.com/products/second-brain-cloudflare\n- Miora — エージェントメモリ搭載の編集可能なキャンバスでクリエイティビティを拡大\n  https://www.producthunt.com/products/miora-2\n- Effects SDK — リアルタイムアプリ向けAI動画・音声エフェクトSDK\n  https://www.producthunt.com/products/effects-sdk\n- San Fran Sim — スタートアップ経営シミュレーションゲーム\n  https://www.producthunt.com/products/san-fran-sim\n- Basedash SCIM — 組織変更に合わせてアクセス管理を自動化\n  https://www.producthunt.com/products/basedash\n- Breathing In Labour — 集中できる陣痛準備呼吸アプリ\n  https://www.producthunt.com/products/breathing-in-labour\n- Kickbacks CLI — Kickbacks.ai用ターミナル＆Macメニューバーコンパニオン\n  https://www.producthunt.com/products/kickbacks-cli",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-07-13"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "1 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- OneCLI、AIエージェントのIDゲートウェイに\n  https://onecli.sh",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-07-13"
+    },
+    {
+      "sourceName": "GitHub Trending",
+      "title": "Weekly Trending",
+      "url": "https://github.com/trending?since=weekly",
+      "summary": "- Zackriya-Solutions/meetily：プライバシー第一のAI会議アシスタントで、4倍速いParakeet/Whisperのライブトランスクリプション、話者分離、Ollamaによる要約がRustで構築されており、100%ローカル処理でクラウド不要です。 ⭐8,579/week\n  https://github.com/Zackriya-Solutions/meetily\n- wonderwhy-er/DesktopCommanderMCP：Claudeにターミナル制御、ファイルシステム検索、差分ファイル編集機能を提供するMCPサーバーです。 ⭐1,451/week\n  https://github.com/wonderwhy-er/DesktopCommanderMCP\n- openai/codex-plugin-cc：Claude CodeからCodexを使用してコードをレビューしたり、タスクを委任したりできます。 ⭐4,030/week\n  https://github.com/openai/codex-plugin-cc\n- TencentCloud/CubeSandbox：AIエージェントのための、即座に、並行して、安全で軽量なサンドボックス。 ⭐2,416/week\n  https://github.com/TencentCloud/CubeSandbox\n- abseil/abseil-cpp：Abseil共通ライブラリ（C++） ⭐229/week\n  https://github.com/abseil/abseil-cpp\n- ogulcancelik/herdr：ターミナルで動作するエージェントマルチプレクサ。 ⭐4,349/week\n  https://github.com/ogulcancelik/herdr\n- asgeirtj/system_prompts_leaks：Anthropic、OpenAI、Google、xAIなどから抽出されたシステムプロンプト。 ⭐7,731/week\n  https://github.com/asgeirtj/system_prompts_leaks\n- diegosouzapw/OmniRoute：コーディングを止めないための無料AIゲートウェイで、一つのエンドポイントで231以上のプロバイダー（50以上が無料）に接続できます。 ⭐4,375/week\n  https://github.com/diegosouzapw/OmniRoute\n- stablyai/orca：Orcaは並列エージェントのフリートを扱うためのADEで、自分のサブスクリプションで任意のコーディングエージェントを実行できます。 ⭐4,368/week\n  https://github.com/stablyai/orca\n- bradautomates/claude-video：Claudeにあらゆるビデオを視聴する機能を与えます。 ⭐4,399/week\n  https://github.com/bradautomates/claude-video",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-07-13"
+    }
+  ]
+}
