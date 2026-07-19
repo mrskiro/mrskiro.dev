@@ -1,0 +1,91 @@
+{
+  "fetchedAt": "2026-07-19T21:38:13.693Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.215",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.215",
+      "summary": "- [Changed] Claudeが自動的に/verifyおよび/code-reviewスキルを実行しなくなりました。これらのスキルを使用したい場合は、/verifyまたは/code-reviewで呼び出してください。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-07-19"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-20"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-20"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1179pt] LGモニターがユーザーの同意なしにWindows Update経由でソフトウェアをサイレントインストール | Windowsが3rdパーティのソフトを勝手にインストールする問題への批判や、対処法に関するコメントが多数。\n  https://news.ycombinator.com/item?id=48956688\n- [863pt] Show HN: 12万ドルのボウリングセンターシステムを1,600ドルのESP32で置き換え | 古いシステムを安価な最新技術で置き換えるアイデアに共感と称賛の声。拡張性への期待も。\n  https://news.ycombinator.com/item?id=48968606\n- [706pt] Transcribe.cpp | 未知の言語のIPA転写機能への要望、Pythonバインディングへの言及、STTシステムへの期待の声。\n  https://news.ycombinator.com/item?id=48963879\n- [700pt] 段階的に表示されるJPEG（Regressive JPEGs） | 実用性はないが面白いという評価。「リックロール」やステガノグラフィへの応用可能性に関するコメントも。\n  https://news.ycombinator.com/item?id=48954851\n- [692pt] Qwen 3.8 | 他社のLLM発表に触発された可能性が指摘され、Qwen 3.6の性能評価や、新バージョンの小規模モデルへの期待が寄せられている。\n  https://news.ycombinator.com/item?id=48966120\n- [581pt] GPT-5.6がプロンプトを用いて凸最適化の30年間の未解決問題を解決 | 数学・TCS分野におけるLLMの貢献の可能性や、研究者の役割の変化についての議論が見られる。\n  https://news.ycombinator.com/item?id=48957779\n- [578pt] Kimi K3の登場 | LLM開発競争の激化、オープンウェイトモデルの規制リスクへの懸念、Kimi K3の実用性への様々な評価が交錯。\n  https://news.ycombinator.com/item?id=48960218\n- [558pt] ニューヨーク市、AI利用の物件広告に開示を義務化する可能性 | AIによる欺瞞的な広告への懸念から、今回の規制を支持する声が多い。AIの悪用防止策の必要性も指摘。\n  https://news.ycombinator.com/item?id=48962983\n- [557pt] Kaiserの看護師、AIと監視が仕事と患者ケアを悪化させていると訴え | AIによる「共感」の評価や、コールセンターの指標、監視システムへの不満の声が集中。一部ではAIの恩恵を語る医師の意見も。\n  https://news.ycombinator.com/item?id=48952880\n- [444pt] もしあなたがそれを作れば、人々は来るだろう | コミュニティへの消費者的な態度を批判し、自ら社会的な場を作る重要性を訴えるコメントが多い。\n  https://news.ycombinator.com/item?id=48959090",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-07-20"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "4 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Jensen Huang氏来日後に注目すべきは何か\n  https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/\n- Appleの訴訟はOpenAIのハードウェア計画を頓挫させるか？\n  https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/\n- 映画「2001年宇宙の旅」に影響を与えたChristopher Nolan監督、AIを「トロイの木馬」と指摘\n  https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/\n- 非営利団体Current AI、誰でも無料で使えるAI版World Wide Webの構築を急ぐ\n  https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-07-20"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Rewisp — 一度見たら、もう手放せない。\n  https://www.producthunt.com/products/rewisp-an-ambient-memory-for-your-mac\n- OpenSEO — オープンソースのAhrefs代替ツール\n  https://www.producthunt.com/products/openseo\n- BaseRT — llama.cppより6.4倍、MLXより3.9倍高速\n  https://www.producthunt.com/products/basert\n- Kobbe — トラフィックと収益を追跡するプライバシー配慮型ウェブ分析ツール\n  https://www.producthunt.com/products/kobbe\n- Spycost — また割引に釣られてしまった？\n  https://www.producthunt.com/products/spycost\n- Detourmap — 寄り道する価値のある場所を網羅したインタラクティブマップ\n  https://www.producthunt.com/products/detourmap\n- Mirage — SaaSを90秒でクリック可能なデモに変換\n  https://www.producthunt.com/products/mirage-15\n- DocuSmart AI — 断片的な知識をシンプルなシステムに統合\n  https://www.producthunt.com/products/docusmart-ai\n- Clark — クラウドコンピューターを持つAI同僚\n  https://www.producthunt.com/products/clark-agent\n- Acebuilder — Aceternity UIでランディングページを構築\n  https://www.producthunt.com/products/acebuilder",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-07-20"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "3 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Vendo：ユーザーが製品上で独自の機能を構築できるプラットフォーム\n  https://vendo.run/\n- rekursiv.ai：AI研究者のブレークスルーが新たなイ発展を加速させる\n  https://rekursiv.ai\n- HERA：メカニカルデザインレビューを自動化し、数千ドル規模の損失を防止\n  https://www.manufacturingintelligence.org",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-07-20"
+    },
+    {
+      "sourceName": "GitHub Trending",
+      "title": "Weekly Trending",
+      "url": "https://github.com/trending?since=weekly",
+      "summary": "",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-07-20"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "1 file updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-07-20",
+      "docsUpdates": [
+        {
+          "tag": "Changed",
+          "file": "changelog.md",
+          "text": "ドキュメントの更新履歴が2026-07-19版に更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/253a314c1226d3f8a65800a8accbc6f7429ef4ae"
+        },
+        {
+          "tag": "Changed",
+          "file": "changelog.md",
+          "text": "ドキュメントの更新日が2026年7月19日に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e65345a70bfbbc0e36e142ac1d60ba3664f002e8"
+        }
+      ]
+    }
+  ]
+}
