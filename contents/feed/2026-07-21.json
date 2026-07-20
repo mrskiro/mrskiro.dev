@@ -1,0 +1,113 @@
+{
+  "fetchedAt": "2026-07-20T21:53:16.123Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Safety and alignment in an era of long-horizon models",
+      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "summary": "OpenAIが長期間稼働するAIモデルから得た安全性リスク、失敗、対策に関する知見を共有。",
+      "publishedAt": "2026-07-20",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/1Xa7VsDMfKDQaCRhafmq4r/58954b4318f57a81a96ad23470ed2497/SEO_image.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-21"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI：進行中のメガ・スレッド一覧\n  https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\n- Fable vs Opus vs GPT 5.6 Sol vs Gemini 3.5 vs… 大規模比較スレッド\n  https://www.reddit.com/r/ClaudeAI/comments/1uutku5/fable_vs_opus_vs_gpt_56_sol_vs_gemini_35_vs/\n- Claudeの利用を報酬として提供\n  https://www.reddit.com/r/ClaudeAI/comments/1v1s4tz/claude_usage_as_reward/\n- Claude Sonnet 5、9月1日より値上げへ\n  https://www.reddit.com/r/ClaudeAI/comments/1v1qak5/claude_sonnet_5_price_will_be_increased_starting/\n- Claude Codeが私のノートPCのBIOSをアンロックした！\n  https://www.reddit.com/r/ClaudeAI/comments/1v1vwg7/claude_code_unlocked_my_laptops_bios/\n- Claude Codeに今朝ログインし、昨日のセッション（16時間前）を圧縮したら、5時間の上限を100%使い切ったのはなぜ？（Proプラン）\n  https://www.reddit.com/r/ClaudeAI/comments/1v1lr3g/how_is_it_that_i_just_logged_in_to_claude_code/\n- Kindleに新たな使い道を見出した\n  https://www.reddit.com/r/ClaudeAI/comments/1v1m875/gave_a_new_use_for_my_kindle/\n- Anthropicを支持する\n  https://www.reddit.com/r/ClaudeAI/comments/1v1mj0h/in_support_of_anthropic/\n- Claude CodeがGPT-5.6、DeepSeek、GLM、ローカルQwenにタスクを委任できるようMCPサーバーを構築し、Claude本体と比較ベンチマークを実施（198回の実行、隠しテスト）\n  https://www.reddit.com/r/ClaudeAI/comments/1v1tnmn/i_built_an_mcp_server_so_claude_code_can_delegate/\n- Claudeが「正直に言うと…」「正直なところ、注意点：」と言うと心臓がドキドキする\n  https://www.reddit.com/r/ClaudeAI/comments/1v1vmbc/my_heart_begins_to_beat_faster_when_claude_says_i/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-21"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [2804pt] Show HN: ESP32で12万ドルのボウリング場システムを1,600ドルで置き換え | 古いシステムを最新の低コスト組み込み技術で改良する機会が多いという意見に共感が集まっています。\n  https://news.ycombinator.com/item?id=48968606\n- [941pt] Qwen 3.8 | 中国製モデルに関するコメント欄が技術的な議論から逸れているとの指摘や、Qwen 3.7 Proの使いにくさについての不満の声が見られます。\n  https://news.ycombinator.com/item?id=48966120\n- [788pt] 中国のオープンウェイトAI戦略が優位に立っている | 無料または低価格のものが最終的に市場を制するという見方がある一方、中国製モデルの普及率に関する疑問の声も上がっています。\n  https://news.ycombinator.com/item?id=48979269\n- [759pt] Transcribe.cpp | MacやiPhoneでのSTT機能としての評価が高く、多様な言語バインディングへの期待や、個人によるプロジェクトの規模に驚きの声が上がっています。\n  https://news.ycombinator.com/item?id=48963879\n- [643pt] Claude Fableがヤコビ予想に対する反例を生成 | LLMがこのような画期的な情報に触れると「精神錯乱」を起こすというユニークな表現や、LLMによるコード・証明生成の是非に関する議論が見られます。\n  https://news.ycombinator.com/item?id=48973869\n- [605pt] 空港シミュレーター | Flight Controlのような現代的なゲームを求める声や、初めてプレイするユーザー向けのチュートリアル追加、操作性の改善に関する提案が見られます。\n  https://news.ycombinator.com/item?id=48976846\n- [594pt] Claude CodeがBunをRustで書き換え | BunがAnthropicに買収され、AIによる書き換えが行われたことに対する否定的な意見や、ZigからRustへの変更理由、JSランタイムの必要性への疑問が議論されています。\n  https://news.ycombinator.com/item?id=48966569\n- [589pt] NYC、不動産物件のAI利用開示を義務化か | AIで加工された物件写真が氾濫していることへの不満の声が多く、ギャンブルや出会い系などAIの使用を禁止すべき他の分野に関する議論も見られます。\n  https://news.ycombinator.com/item?id=48962983\n- [544pt] MIDIレコーダー2,500台販売から学んだこと：ハードウェアはそれほど難しくない | ハードウェアの難しさに関する議論や、作者が販売したJamCorderの品質への高い評価、模倣品対策への関心が示されています。\n  https://news.ycombinator.com/item?id=48966713\n- [516pt] ハッカーがルーマニアの土地登記データベースを消去 | バックアップの復元状況や、汚職が原因である可能性、ハッカーの身元特定に関する情報がコメント欄で議論されています。\n  https://news.ycombinator.com/item?id=48978605",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-07-21"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "10 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Google、Geminiの効率化を目指し新型AIチップを開発中\n  https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/\n- AIの最重要プロトコルがより使いやすく進化\n  https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use/\n- X、1年間の開発期間を経てAndroidアプリを再リリース\n  https://techcrunch.com/2026/07/20/x-relaunches-a-rebuilt-android-app-after-year-long-effort/\n- OpenAIが警戒するオープンウェイトモデル、米国も懸念すべきか？\n  https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/\n- Naturalが3,000万ドル調達、AIエージェント向け決済を再構築しStripeに対抗へ\n  https://techcrunch.com/2026/07/20/natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe/\n- AdobeカメラアプリにAI搭載の新機能、写真の添削が可能に\n  https://techcrunch.com/2026/07/20/adobe-camera-apps-new-feature-will-critique-your-photos-using-ai/\n- YouTube、AI生成の粗悪・不快な動画に関するポリシーを明確化\n  https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/\n- 推論スタートアップInfinity、Touring CapitalやOpenAI・Anthropicの研究者から1,500万ドルを調達\n  https://techcrunch.com/2026/07/20/inference-startup-infinity-raises-15m-from-touring-capital-openai-and-athropic-researchers/\n- Flock Safety CEOギャレット・ラングレーがTechCrunch Disrupt 2026で語る監視技術の未来\n  https://techcrunch.com/2026/07/20/watch-flock-safety-ceo-garrett-langley-discuss-the-future-of-surveillance-at-techcrunch-disrupt-2026/\n- StrictlyVC、NYのスタートアップコミュニティの躍進を祝し9月10日にニューヨーク市へ凱旋\n  https://techcrunch.com/2026/07/20/strictlyvc-returns-to-new-york-city-september-10-to-celebrate-a-huge-year-for-the-citys-startup-community/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-07-21"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Kogvio — ページを離れずにオンラインコンテンツを理解\n  https://www.producthunt.com/products/kogvio\n- Backdrop — プロジェクトと業務を遂行するAI同僚\n  https://www.producthunt.com/products/backdrop\n- NeuroVidz — あなたのクリップに脳がどう反応するかを見る\n  https://www.producthunt.com/products/neurovidz\n- Skippr AI — 製品内に組み込まれたライブAI従業員が全てのユーザーに対応\n  https://www.producthunt.com/products/skippr-3\n- Fuzzy AI — 営業担当者がアプローチする前に見込み客を温める\n  https://www.producthunt.com/products/fuzzy-ai-2\n- Inkling — ファインチューニング向けに構築されたオープンウェイト975Bマルチモーダルモデル\n  https://www.producthunt.com/products/tinker-2\n- Nautis — 創業者向けAIネイティブOS\n  https://www.producthunt.com/products/nautis\n- Replay QA — ユーザーより先に、どこが壊れているかをReplay QAが教える\n  https://www.producthunt.com/products/replayio\n- Creed — あらゆるエージェントのためのパーソナルコンテキストファイル\n  https://www.producthunt.com/products/creed-2\n- Lunen.ai — チーム全体が実行・制御できるAIエージェントを構築\n  https://www.producthunt.com/products/lunen-ai",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-07-21"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Apply for Anthropic’s AI for Science rare disease research grants",
+      "url": "https://www.anthropic.com/news/rare-disease-research-grants",
+      "summary": "Anthropicが希少遺伝性疾患に特化したAI研究助成プログラムを発表し、Claudeクレジットを提供。",
+      "ogImage": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20NodeShield&backgroundColor=heather",
+      "publishedAt": "2026-07-21"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "3 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Olam Labs、シミュレーションゲームでモデルの行動と性能を評価\n  https://olamlabs.ai\n- Last Accounting Company、エージェントネイティブな会計事務所を設立\n  https://lastaccountingcompany.com/\n- Manifold、倉庫向け低コスト・即時導入可能なロボット労働力提供\n  https://www.manifoldindustries.ai/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-07-21"
+    },
+    {
+      "sourceName": "Agentic Engineering",
+      "title": "1 Updates",
+      "url": "https://github.com/software-mansion/agentic-engineering",
+      "summary": "- `CLAUDE.md`が`AGENTS.md`と別に存在し、Claude Codeが引き続きこのファイルを期待していることを示す文言を修正\n  https://github.com/software-mansion/agentic-engineering/commit/3bd8e5733e41e9f6c33418787a920d847d786476\n- `AGENTS.md`から`CLAUDE.md`へのシンボリックリンク作成に関する記述を削除\n  https://github.com/software-mansion/agentic-engineering/commit/3bd8e5733e41e9f6c33418787a920d847d786476",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-07-21"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "2 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-07-21",
+      "docsUpdates": [
+        {
+          "tag": "Changed",
+          "file": "errors.md",
+          "text": "PDFエラーメッセージにおいて、PDFの最大ファイルサイズが32MBから20MBに変更され、対処法に関するテキストが更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/22af095539efe86299247b86cf0ffa25b70ad00f"
+        },
+        {
+          "tag": "Improved",
+          "file": "errors.md",
+          "text": "PDFエラーメッセージに、インタラクティブセッションではエラーがエスケープキーを押して再試行するように促すことが追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/22af095539efe86299247b86cf0ffa25b70ad00f"
+        },
+        {
+          "tag": "Changed",
+          "file": "security-guidance.md",
+          "text": "Pythonの要件が3.8以降から3.7以降に変更され、特定の機能（agentic commit review、サードパーティプロバイダーを使用するモデルベースのレビュー）にはPython 3.10以降が必要であること、およびプラグインが優先するPythonインタープリターの検索順序が追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/22af095539efe86299247b86cf0ffa25b70ad00f"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "2 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- コストセンター向けAIクレジットプール、請求UIに登場\n  https://github.blog/changelog/2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui\n- Copilotユーザー、AIクレジット利用状況を請求サイクルごとに確認可能に\n  https://github.blog/changelog/2026-07-20-copilot-users-can-now-see-ai-credits-used-per-billing-cycle",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-07-21"
+    }
+  ]
+}
