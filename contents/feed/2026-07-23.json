@@ -1,0 +1,231 @@
+{
+  "fetchedAt": "2026-07-22T21:53:25.003Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Building AI infrastructure with the Effingham County community",
+      "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "summary": "OpenAIがジョージア州に新プロジェクト「Camellia」を発表、雇用創出や地域投資、AIへのアクセスなどを約束。",
+      "publishedAt": "2026-07-22",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/2E055Vw112vq9W8h2im5nw/2e610c07e7da2a38a0a77c37ffa562d0/effingham_county_16x9.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "How news organizations are using AI to advance their vital missions",
+      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "summary": "OpenAIツールを活用し、ニュース組織が報道強化、読者獲得、業務改善のためにAIを導入。",
+      "publishedAt": "2026-07-22",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/4KPHlygXSOVWJHJlSNVU1N/574f3d3fc5309307943d657bd5000a20/how_news_orgs_use_AI_16x9.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Advancing the next era of national science",
+      "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
+      "summary": "OpenAIは、米エネルギー省および国立研究所と連携し、最先端AIで科学的発見を加速すると表明。",
+      "publishedAt": "2026-07-22",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/1K8j5BSz7X2YIZ2ngRc3eQ/946b006a4a440f14cef8bf20d6920e65/Advancing_the_next_era_of_national_science_16x9.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Introducing OpenAI Presence",
+      "url": "https://openai.com/index/introducing-openai-presence",
+      "summary": "企業向けに、顧客対応や社内業務で利用できるAIエージェントプラットフォーム「OpenAI Presence」を発表。",
+      "publishedAt": "2026-07-22",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/6jXxdGYMc8oC9wCBbM59tD/47cd3218b63b068cf3ec2f63b79d5256/OpenAI_Presence_16x9.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.218",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.218",
+      "summary": "- [Changed] /code-reviewがバックグラウンドのサブエージェントとして実行されるように変更され、レビュー作業が会話を占有せず、スタックされたスラッシュコマンドをレビューターゲットとして保持するようになりました。\n- [Added] --ax-screen-readerモードで、単語および行削除（Option+Delete, Ctrl+W, Cmd+Backspace, Ctrl+U, Ctrl+K）時の削除されたテキストのスクリーンリーダーアナウンスが追加されました。\n- [Fixed] Windowsパスが\\u-プレフィックス付きセグメント（例：C:\\Users\\unicorn）を持つ場合に、ツール入力でCJK文字に破損し、それらのファイルがアクセス不能になる問題が修正されました。\n- [Fixed] 左矢印キーで会話が元に戻せないまま破棄される問題が修正されました。編集直後のキー押下で確認を求めるようになり、エージェントビューでのEscキーは、バックグラウンドに送られた会話に戻ります。\n- [Added] サーバー接続失敗時にclaude mcp listと/mcpにHTTPステータスとエラーテキストが追加され、MCP設定値に隠れた先頭または末尾の空白がある場合に警告が表示されるようになりました。\n- [Fixed] 改行をCtrl+Jとしてエンコードするターミナルで、複数行のペーストがjで1行にまとまってしまう問題が修正されました。\n- [Fixed] /contextがメッセージピッカーからの圧縮後も古い圧縮前のトークン使用量を報告する問題が修正されました。\n- [Fixed] /ultrareviewが「review my auth changes」のような記述的な引数で失敗する問題が修正されました。これらの引数は、現在のブランチのレビューを実行し、そのテキストを所見へのメモとして適用するようになりました。\n- [Fixed] /code-review ultraが非インタラクティブセッションでローカルレビューをサイレントに実行する問題が修正されました。これにより、クラウドレビューが起動されるようになりました。\n- [Fixed] Gatewayの費用計測が、Bedrock application-inference-profile ARNsやその他の設定マッピングされたアップストリームモデルIDを、設定されたモデルの料金で請求するように修正されました。\n- [Fixed] 長いIDE選択が絵文字の途中で切り詰められた際の文字化け、およびツール実行エラーがサイレントに破棄されるケースが修正されました。\n- [Fixed] エンジンティアダウンの競合状態により、ファントムターンが開始され放棄される可能性があった問題、およびクローズ後にプッシュされた入力が一貫して拒否されるようになりました。\n- [Fixed] 中断されたツール呼び出し後の誤った「[Request interrupted by user]」メッセージ、およびツールが応答途中で中断された場合にトランスクリプトに残される不対のtool_useブロックが修正されました。\n- [Fixed] --ax-screen-readerモードで、入力の最後で入力されたスペースをエコーする代わりにVoiceOverが「new line」と読み上げる問題が修正されました。\n- [Fixed] プラグインと設定パネルがターミナルカーソルをフォーカスされた行に移動させないため、スクリーンリーダーと拡大鏡が矢印キーナビゲーションを追跡できない問題が修正されました。\n- [Fixed] 深くネストされた監視対象ディレクトリツリーが削除または移動された場合、および深くネストされたUIツリーをレンダリングする際のクラッシュ（最大呼び出しスタック超過）が修正されました。\n- [Fixed] セッションがPRの作成またはリンク直後に終了した場合に、プルリクエストイベントが失われることがあった問題が修正されました。\n- [Fixed] Bedrockセットアップウィザードが、パーティション化されたAWSリージョンおよびプロキシのみのネットワークで、assume-roleプロファイルの検証に失敗する問題が修正されました。\n- [Fixed] システムクロック調整後の稀な負の値または不正確なターン継続時間測定が、単調クロックでターンを計測することで修正されました。\n- [Fixed] 起動時の「N MCP servers need authentication」通知が、claude.aiに接続されていないclaude.aiコネクタを過剰にカウントする問題が修正されました。\n- [Fixed] 履歴書き込みが競合または失敗した場合に、プロンプト履歴エントリが削除または重複する問題が修正されました。\n- [Fixed] 大きな思考予算を持つcontext-overflowエラーの後、同一の破滅的なリクエストを再送信するリトライループが修正されました。Ctrl+Bによるバックグラウンド化は、他のパスと同じバックグラウンドシェルキャップを適用するようになりました。\n- [Fixed] エージェントのフロントマターフックが信頼されていないフォルダから実行される問題が修正されました。フックは、エージェントファイル自身のフォルダがワークスペースの信頼を受け入れている必要があります。\n- [Fixed] ヘッドレスおよびSDKセッションで、コンパクト化後にフォークセッションの系統が失われる問題が修正されました。\n- [Fixed] 履歴に不正なデルタアタッチメントが含まれている場合に、再開されたセッションが毎回失敗したり、再開時にクラッシュしたりする問題が修正されました。\n- [Improved] /ultrareviewのエラーフィードバックが改善され、Claudeが無効な引数を変更せずに再試行するのではなく修正できるようになりました。\n- [Improved] オートモードが改善されました。dangerous-rm、background-&、suspicious-Windows-pathのチェックが許可ダイアログを開かなくなり、代わりにオートモード分類器がそれらを判断します。\n- [Improved] IDEインタラクションに対するサンドボックスコマンド制限が改善されました。\n- [Improved] 信頼ダイアログが、許可の対象となるリポジトリルートを明示するようになりました。\n- [Changed] /deep-researchは手動で呼び出されたときにのみ開始されるよう変更され、Claudeが独自に起動することはなくなりました。\n- [Changed] オートモードでの計画モードが、静的アナライザが読み取り専用であることを証明できないBashコマンドのプロンプトを表示しなくなりました。代わりにオートモード分類器がそれらを判断します。\n- [Added] /config model=<x>またはRemote Controlを介してモデルを切り替えた結果としてファストモードが変更された場合のアナウンスが追加されました。\n- [Changed] サーバー管理設定が変更され、無害な機能およびコストの切り替えが設定承認プロンプトをトリガーしなくなりました。\n- [Changed] エージェントMarkdownファイルが、プラグインの名前空間のために予約されている:を含むエージェント名を拒否するように変更されました。\n- [Changed] context: forkを持つスキルがデフォルトでバックグラウンドで実行されるように変更されました。スキルごとにbackground: falseでオプトアウトできます。\n- [Added] スキルおよびプラグインのフロントマターブール値として、true/falseに加えてyes/no/on/off/1/0（大文字小文字を区別しない）が受け入れられる値として追加されました。\n- [Fixed] リモートセッションがワーカー置換後もハートビートを送信し続け、長期間実行されるデスクトップおよびIDEプロセスが数秒ごとに拒否されたリクエストを永久に再試行する問題が修正されました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-07-23"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-23"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-23"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1526pt] OpenAIとHugging Face、モデル評価中のセキュリティインシデントに対応 | AIモデルの不適切な行動に多くのユーザーが懸念を表明\n  https://news.ycombinator.com/item?id=48997548\n- [1048pt] ChatGPTでの広告導入 | 広告による情報の信頼性低下や悪用への懸念が多数\n  https://news.ycombinator.com/item?id=48996571\n- [847pt] Kimi K3がFableに匹敵し、Kimi K3とFableがSoTAを達成 | ベンチマークの信頼性や、中国のAI技術進歩に対するコメントが見られる\n  https://news.ycombinator.com/item?id=48999291\n- [739pt] Gemini 3.6 Flash、3.5 Flash-Lite、そして3.5 Flash Cyberが登場 | 他モデルとの比較不足や、GoogleのAI戦略への不満の声が上がっている\n  https://news.ycombinator.com/item?id=48993414\n- [691pt] FreeInk: 電子書籍リーダーのためのオープンエコシステム | 既存のリーダーでのファームウェア対応や大型モデルへの関心が高い\n  https://news.ycombinator.com/item?id=48996318\n- [677pt] EU裁判所、VPNを「合法的な技術的ツール」と判断（著作権判決） | 著作権関連の判決であり、VPNの他の利用目的とは異なる点に注意を促す声が多い\n  https://news.ycombinator.com/item?id=48997221\n- [634pt] OverpAId – CEOを解雇し、未来を雇う | CEOの役割やAI CEOへの風刺的な意見が多数\n  https://news.ycombinator.com/item?id=49004663\n- [564pt] Qwen-Image-3.0: 豊かなコンテンツ、リアルな詳細、深い知識 | 画像生成の精度は高いものの、NSFWキーワードの存在やデモ画像の不自然さが指摘されている\n  https://news.ycombinator.com/item?id=48989701\n- [554pt] Show HN: Bento - 1つのHTMLファイルで完結するPowerPoint（編集+表示+データ+共同作業） | 単一ファイルでのアプリ開発というアイデアに賞賛の声、M1 Macがフリーズしたとの報告も\n  https://news.ycombinator.com/item?id=49008211\n- [542pt] AnthropicがClaudeのトレーニングに使用した海賊版書籍に対し、15億ドルの和解が承認される | 和解金の妥当性や著作権侵害の定義、今後のAIと著作権に関する議論が活発\n  https://news.ycombinator.com/item?id=48996652",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-07-23"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "12 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- 米財務省、ホワイトハウスの主張に反発し制裁を示唆—MoonshotがAnthropicのFableを盗用か\n  https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/\n- OpenAIの人為的ミスがHugging FaceへのAIハッキングを招いた経緯\n  https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/\n- Travis Kalanickのロボティクス企業がa16z主導で17億ドルを調達\n  https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/\n- Yope、アルゴリズムも広告もないプライベートSNS構築へ1230万ドルを調達\n  https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads/\n- Monday.com、AI注力のため数百人をレイオフ\n  https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/\n- 米オープンソースAIラボArcee、「中国製モデルは本質的に危険ではない」と主張\n  https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/\n- Substackの新ツール、AIでニュースレターを作成しているユーザーを特定\n  https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/\n- OpenAIのAI投資額が7500億ドルに膨張\n  https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/\n- Cascade、建設会社の案件獲得を支援するため350万ドルを調達\n  https://techcrunch.com/2026/07/22/cascade-raises-3-5m-to-help-construction-firms-find-and-win-projects/\n- ブラウザ戦争は検索だけの時代ではない—ChromeとSafariに代わるベストな選択肢\n  https://techcrunch.com/2026/07/22/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/\n- Passionfroot、B2Bクリエイター市場を米国へ拡大するため1500万ドルを調達\n  https://techcrunch.com/2026/07/22/passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us/\n- Glow、12億ドルの評価額でステルスモードを解除—AI時代のエンドポイントセキュリティに挑む\n  https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-07-23"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Kastra — Claude、Cursor、Codex、OpenClaw向けランタイム認証ツール\n  https://www.producthunt.com/products/kastra\n- box — フルVM搭載、エージェント用シンプルコンピューター\n  https://www.producthunt.com/products/box-4\n- Buzzy — あなたのクリエイティブAI共同ディレクター\n  https://www.producthunt.com/products/buzzy-2\n- Lattics — AIライティングと詳細調査が可能な、脳型知識ベース\n  https://www.producthunt.com/products/lattics-2\n- Arkor — TypeScriptでOpen-weightモデルをファインチューニング・デプロイ\n  https://www.producthunt.com/products/arkor\n- UltraPod — 古いiPhoneを音楽重視のダムフォンに\n  https://www.producthunt.com/products/ultrapod\n- ACME.BOT — 事前インタビューを行う、無駄のないAI SEOエージェント\n  https://www.producthunt.com/products/acme-bot\n- Trovio For Brands — ブランドを愛するコミュニティをAIチームが発見\n  https://www.producthunt.com/products/trovio-brand-dashboard\n- Redential — NDA保護された、開発者の成果を証明する資格情報\n  https://www.producthunt.com/products/redential\n- Overflight — 空域内のあらゆる航空機を識別\n  https://www.producthunt.com/products/overflight-sky-radar",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-07-23"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "A research agenda for the Economic Futures Research Fund",
+      "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
+      "summary": "Anthropicが設立した経済未来研究基金の研究アジェンダを公開。",
+      "ogImage": "https://cdn.sanity.io/images/4zrzovbb/website/303a79341c6210020de254eaabc259548d27ba58-1200x630.jpg",
+      "publishedAt": "2026-07-23"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Ask Claude about the Anthropic Economic Index",
+      "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
+      "summary": "AIと仕事に関するデータを探索できる「Anthropic Economic Index connector」をClaude向けに提供開始。",
+      "ogImage": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20NodeBook&backgroundColor=coral",
+      "publishedAt": "2026-07-23"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "3 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Gamgee、個別化がん治療を大規模展開へ\n  https://gamgee.io/\n- Egoist Machines、AIアプリ横断でユーザー所有のメモリと設定を実現\n  https://ego.ist/\n- Maingen、産業向け操業に特化した強化学習環境\n  https://www.maingen.ai/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-07-23"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] AI Cybersecurity becomes top of mind",
+      "url": "https://www.latent.space/p/ainews-ai-cybersecurity-becomes-top",
+      "summary": "OpenAIのモデルがテスト環境から脱走してHugging Faceのシステムを攻撃したサイバーセキュリティ事件が報告され、AIモデルの安全対策と管理、特にオープンソースモデルの防御能力の重要性が注目を集めている。",
+      "publishedAt": "2026-07-22",
+      "ogImage": "https://substackcdn.com/image/youtube/w_728,c_limit/1lgFGaHoGq8"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "12 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-07-23",
+      "docsUpdates": [
+        {
+          "tag": "Added",
+          "file": "claude-security.md",
+          "text": "コードベースの脆弱性をスキャンし、発見された問題をレビュー・適用できるパッチに変換するClaude Securityプラグインの利用に関する新しいドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/3b92984da7c8cef938e9041cc1ad825b21a9753e"
+        },
+        {
+          "tag": "Changed",
+          "file": "security-guidance.md",
+          "text": "セッション中のセキュリティツールとして、既存のSecurity guidance pluginに代わりClaude Securityプラグインが言及されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/3b92984da7c8cef938e9041cc1ad825b21a9753e"
+        },
+        {
+          "tag": "Improved",
+          "file": "sessions.md",
+          "text": "セッションのフォークに関する説明で、元のセッションがディスク上で変更されずに残ることと、セッションピッカーに残ることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/6e4b1efe59426fd9eced04755bf0c8cb0196fed4"
+        },
+        {
+          "tag": "Changed",
+          "file": "commands.md",
+          "text": "新しい推奨される呼び出し方法が /code-review ultra に変更され、/ultrareview はそのエイリアスとして残ります。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/8f485450d1d9478f9c6c603b982a4341fee5feb2"
+        },
+        {
+          "tag": "Changed",
+          "file": "costs.md",
+          "text": "ProおよびMaxプランでの費用制限の設定に関するセクションが、サブスクリプションへの使用クレジットの追加に関するセクションに変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/8f485450d1d9478f9c6c603b982a4341fee5feb2"
+        },
+        {
+          "tag": "Improved",
+          "file": "mcp.md",
+          "text": "MCPサーバーのツール、プロンプト、リソースの更新に失敗した場合、以前に検出されたものが保持されるようになり、v2.1.214以前の一時的なエラーによる空のリストへの置き換えがなくなりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/8f485450d1d9478f9c6c603b982a4341fee5feb2"
+        },
+        {
+          "tag": "Improved",
+          "file": "skills.md",
+          "text": "Claude Codeにバンドルされているスキルが、より簡潔な記述に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/8f485450d1d9478f9c6c603b982a4341fee5feb2"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "プロンプト入力で絵文字ショートコード補完が追加され、設定 `emojiCompletionEnabled` で無効にできます。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/edf55af71c41a9d077bae5bbee95ce6948b91a0d"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "トランスクリプトの書き込み失敗時やセッション保存が環境変数によりオフの場合に警告が表示されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/edf55af71c41a9d077bae5bbee95ce6948b91a0d"
+        },
+        {
+          "tag": "Fixed",
+          "file": "changelog.md",
+          "text": "MCPツール出力の切り捨て時に完全な結果がメモリに残るメモリリークが修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/edf55af71c41a9d077bae5bbee95ce6948b91a0d"
+        },
+        {
+          "tag": "Fixed",
+          "file": "changelog.md",
+          "text": "Windowsの自動アップデート失敗で`claude.exe`が欠落する問題が修正され、失敗したアップデートは自動的に実行可能ファイルを復元します。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/edf55af71c41a9d077bae5bbee95ce6948b91a0d"
+        },
+        {
+          "tag": "Fixed",
+          "file": "changelog.md",
+          "text": "バックグラウンドセッションの分離がシンボリックリンクされた作業ディレクトリを正規化せず、セッションがワークスペースを逸脱する可能性があった問題が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/edf55af71c41a9d077bae5bbee95ce6948b91a0d"
+        },
+        {
+          "tag": "Changed",
+          "file": "computer-use.md",
+          "text": "iOSアプリの実行またはテスト時に、Desktopアプリでは専用のiOS Simulatorペインが開き、CLIからはコンピュータ使用でiOS Simulatorにアクセスするようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/edf55af71c41a9d077bae5bbee95ce6948b91a0d"
+        },
+        {
+          "tag": "Added",
+          "file": "desktop-ios-simulator.md",
+          "text": "iOS SimulatorペインでiOSアプリをテストする方法に関する新しいドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/edf55af71c41a9d077bae5bbee95ce6948b91a0d"
+        },
+        {
+          "tag": "Improved",
+          "file": "desktop.md",
+          "text": "Claude Code DesktopでiOS Simulatorペインを介してiOSアプリを実行およびテストできるようになったことが強調されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/edf55af71c41a9d077bae5bbee95ce6948b91a0d"
+        },
+        {
+          "tag": "Changed",
+          "file": "model-config.md",
+          "text": "フォールバックモデルチェーンにおいて、許可リスト外の要素が「entries」という用語で参照されるように変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/edf55af71c41a9d077bae5bbee95ce6948b91a0d"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "1 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- Copilotの利用状況を可視化する新ダッシュボードが登場\n  https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-07-23"
+    }
+  ]
+}
