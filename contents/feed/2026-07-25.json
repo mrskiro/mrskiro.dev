@@ -1,0 +1,245 @@
+{
+  "fetchedAt": "2026-07-24T21:51:16.650Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.219",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219",
+      "summary": "- [Added] Claude Opus 5 (claude-opus-5) を追加しました。これはデフォルトの Opus モデルで、1M のコンテキスト、高速モードで1Mトークンあたり10ドル/50ドルです。\n- [Added] sandbox.network.strictAllowlist 設定を追加し、サンドボックス化されたコマンドでプロンプトなしに許可リストにないホストを拒否するようにしました。\n- [Added] DirectoryAdded フックを追加しました。これは、/add-dir または SDK の register_repo_root 制御リクエストがセッション中に新しい作業ディレクトリを登録した後に発生します。\n- [Added] mcp_server_errors を headless stream-json init イベントに追加しました。これには設定検証によってスキップされた --mcp-config エントリがリストされます。ターミナル実行では起動時に警告が表示されます。\n- [Added] workflowSizeGuideline 設定キーを追加しました。これにより、アドバイザリの Dynamic workflow size guideline を任意の設定ファイルから設定できます。これにより、/config の行は非表示になります。\n- [Added] stream-json にネストされたサブエージェント転送を追加しました。深度2以上でスポーンされたサブエージェントは、--forward-subagent-text が設定されている場合に、スポーン元の Agent tool_use ID をキーとして表示されるようになりました。\n- [Fixed] claude -p text の出力で、APIエラーによりターンが途中で終了した場合にすでに生成された回答が失われる問題を修正しました。\n- [Added] サーバーへの接続に失敗した場合、claude mcp list と /mcp に HTTP ステータスとエラーテキストを追加し、MCP 設定値に隠れた先頭または末尾の空白がある場合に警告を追加しました。\n- [Fixed] セルフホスト型ランナーが再起動中に承認したパーミッションが、セッション再開時に失われる問題を修正し、承認されたアクションが実行されるようになりました。\n- [Fixed] Fable モデルの行で、プランに含まれているにもかかわらず、古いキャッシュによって「Requires usage credits」と表示される問題を修正しました。\n- [Fixed] セルフホスト型ランナーの起動中に SIGTERM が到着した場合に、リースが期限切れになるまで古いアクティブな行が残る問題を修正しました。これにより、クリーンに登録解除されるようになりました。\n- [Added] セルフホスト型ランナーの生成およびセッションの失敗に構造化された失敗カテゴリを追加し、フックエラー、ランナーのクラッシュ、設定エラーを区別できるようにしました。\n- [Fixed] /model ピッカーで統合された Opus の行が「Opus (1M context)」ではなく、単に「Opus」と表示される問題を修正しました。\n- [Fixed] GNU screen 内でのコピーオンセレクトが、選択内容をコピーする代わりに base64 をターミナルに出力する問題を修正しました。\n- [Fixed] Remote Control クライアントが、モデルの切り替え、再接続、または組織チェックの失敗後に古い高速モードステータスを保持する問題を修正しました。\n- [Fixed] Windows で CLAUDE_CODE_GIT_BASH_PATH が bash/sh バイナリでないパスの場合に終了したり、bash として使用されたりする問題を修正しました。警告とともに無視されるようになりました。\n- [Fixed] Vim モードで、空のプロンプトで ← を押すと、INSERT モードだけでなく NORMAL モードからもエージェントビューに戻るようになりました。\n- [Fixed] スクリーンリーダーモードが、入力された文字のみをエコーする代わりに、キーストロークごとに全体の入力行を書き換える問題を修正しました。\n- [Improved] 「Remote Control is only available via api.anthropic.com」というエラーメッセージを改善し、原因となる特定の設定を明示するようにしました。\n- [Improved] claude --teleport を改善し、現在のチェックアウトがセッションのリポジトリと一致しない場合に、どのリポジトリを指しているかを表示するようにしました。\n- [Changed] ダイナミックワークフローのデフォルトを中規模のサイズガイドラインに変更しました（エージェント数は15未満を目指す）。別のサイズまたは無制限を選択するには、/config の Dynamic workflow size を使用します。\n- [Changed] 管理対象 MCP の許可リスト/拒否リストの ${VAR} エントリが、設定ファイル環境ではなく、起動環境と管理設定環境から解決されるように変更しました。\n- [Changed] /model ピッカーが最新モデルの名前のみを強調表示するように変更しました。これにより、ハイライトがリストの任意のサブセットではなく、新しいリリースを示すようになりました。\n- [Added] 実行中のワークフローのステータス行に現在のデフォルトワークフローサイズを追加し、変更するための /config へのポインタを表示するようにしました。\n- [Changed] Opus 4.7 を高速モードから削除しました。/fast は現在 Opus 5 と Opus 4.8 に適用されます。\n- [Changed] claude-api スキルを Claude Opus 5 にデフォルト設定し、Opus 4.8 からの移行パスを提供しました。\n- [Changed] サブエージェントは、デフォルトで最大深度3までネストされたサブエージェントを生成できるようになりました（以前は1）。ネストを無効にするには、CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH=1 を設定します。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- 【まとめ】The App Pile - 2026年7月版\n  https://www.reddit.com/r/macapps/comments/1uknpm8/megathread_the_app_pile_july_2026/\n- 注意喚起：「pearcleaner.com」はmacOS向け情報窃取マルウェアを配布する偽サイト\n  https://www.reddit.com/r/macapps/comments/1ucstzy/psa_pearcleanercom_is_a_fake_site_pushing_macos/\n- PopClip 2026.7をリリース\n  https://www.reddit.com/r/macapps/comments/1v54yeb/popclip_20267_released/\n- 【OS】機密性の高い会話を保護するAIノートテイカー・メモ帳「Steno」を開発しました。GitHubで1200以上のスター、数千ダウンロードを突破\n  https://www.reddit.com/r/macapps/comments/1v5mohb/os_i_built_steno_to_protect_your_most_sensitive/\n- ReCue：開いているウィンドウとタブをプロジェクトにまとめ、⌥Spaceで瞬時に呼び出し（$10買い切り、2MB）\n  https://www.reddit.com/r/macapps/comments/1v5jurd/recue_group_your_open_windows_and_tabs_into/\n- FocusCursor v3.0リリース！プレゼンや画面録画中のカーソル操作を格段に分かりやすく\n  https://www.reddit.com/r/macapps/comments/1v58krs/focuscursor_v30_released_this_tool_makes_cursor/\n- Findit：画面上のあらゆるもの（画像・テキスト）を瞬時に検索\n  https://www.reddit.com/r/macapps/comments/1v5lp7v/findit_search_anything_on_your_screen_image_or/\n- 【OS】Batch Clipboard v2.3 - 大規模なクリップボードマネージャー不要でMacに簡単にペーストキューを追加、$0\n  https://www.reddit.com/r/macapps/comments/1v5d8jo/os_batch_clipboard_v23_easy_paste_queue_to_your/\n- Imagin Raw：RAWファイル選別向け、4.3MBの無料オープンソースBridge代替ソフト\n  https://www.reddit.com/r/macapps/comments/1v5b2mk/imagin_raw_a_43mb_free_opensource_bridge/\n- 個人開発者向け：1つ星レビューが妙に気になる、ほとんどがバグじゃないのに。これって普通？\n  https://www.reddit.com/r/macapps/comments/1v54kxy/solo_devs_the_1star_reviews_get_to_me_way_more/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1427pt] 手書きは脳に良い影響を与える | iPad用スクリーンプロテクターやApple Pencilを使った手書き体験の向上、学習や記憶への効果、本の余白への書き込みの重要性について言及。\n  https://news.ycombinator.com/item?id=49022152\n- [1076pt] Claude Opus 5 | 競合モデルとの比較や、Fableにはないデータ保持要件の欠如、画像からHTMLへの変換性能への言及。\n  https://news.ycombinator.com/item?id=49038433\n- [1037pt] スタートアップの創業者が米政府に中国製オープンウェイトAIの遮断をしないよう要請 | 中国モデル禁止の根拠、IPの扱いや、米国政府が中国モデルの使用を阻止できるかについての疑問の声。\n  https://news.ycombinator.com/item?id=49023016\n- [679pt] 毎日集中するのが難しくなっている | ADHDのような現代特有の集中力低下（VAST）や情報過多、スマートフォンの使用中止による改善の報告。\n  https://news.ycombinator.com/item?id=49032660\n- [676pt] AI企業は莫大な負債を隠そうとしている | 負債が生命保険や年金基金に及ぼす影響、オフバランスシート債務の規模、ハイパースケーラーの会計処理への疑問。\n  https://news.ycombinator.com/item?id=49020999\n- [566pt] OpenAIのHugging Faceに対する偶発的な攻撃はSFが現実になったようなもの | サイバーセキュリティにおけるAIの脅威、AIモデルがサンドボックスを越えて攻撃を実行する可能性への警告。\n  https://news.ycombinator.com/item?id=49015639\n- [543pt] Flux 3 | 将来的なオープンウェイト版への期待、動画の表現に関する批判、モデルの能力に対する肯定的な意見が混在。\n  https://news.ycombinator.com/item?id=49031796\n- [535pt] 98.css | 開発者の個人的なプロジェクトとしての思い入れ、フラットデザインへの批判、Windows 98フォントの再現性への言及。\n  https://news.ycombinator.com/item?id=49028927\n- [497pt] Codebergへの移行を後悔 | Codebergのコミュニティ運営方針やLLMモデル禁止ポリシーへの批判、フリーソフトウェアの理念との整合性への疑問。\n  https://news.ycombinator.com/item?id=49021856\n- [467pt] HNに伝える：Namecheapが私のアカウントを未確認の第三者に渡した | Namecheapのプライベートエクイティによる買収後のサービス低下、ドメイン自動更新のトラブル、他レジストラへの移行報告。\n  https://news.ycombinator.com/item?id=49028037",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "9 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- CognitionがPokeを買収した理由：AIパーソナリティが競争優位性をもたらす\n  https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/\n- 公開開発、公開失敗：20歳未満の起業家が今直面する現実\n  https://techcrunch.com/2026/07/24/build-in-public-fail-in-public-what-its-like-to-be-a-founder-under-20-right-now/\n- Anthropicが「Opus 5」を発表\n  https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/\n- 米国が中国AIへの対応を検討する中、業界は広範なオープンウェイト制限に反対を表明\n  https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/\n- BlueskyのAIアシスタント「Attie」、オープンなソーシャル研究ツールとして機能拡大\n  https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/\n- Midjourneyが占星術アプリ「Co-Star」を買収\n  https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/\n- OpenAIの新音声モード、ChatGPTデスクトップアプリにも登場\n  https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/\n- AIガードレールがサイバーセキュリティ攻撃研究者の妨げになる実態\n  https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/\n- オーストラリアの次なるブレイクアウト・スタートアップを選出する審査員たち\n  https://techcrunch.com/2026/07/23/meet-the-judges-who-will-crown-australias-next-breakout-startup/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Firecrawlが検索APIを刷新、AIエージェント向けに高精度化\n  https://www.producthunt.com/products/extract-by-firecrawl\n- HarnessRouter、AIエージェント機能を単一APIでアプリに統合\n  https://www.producthunt.com/products/epsilla\n- MinkNote、MarkdownベースのプライベートmacOSノートアプリ\n  https://www.producthunt.com/products/minknote\n- Liso、ウェブページのテキストをハイライトして音声化\n  https://www.producthunt.com/products/liso-listen-to-highlights\n- Prosed、AIによる書籍サービスがその機能性を公開\n  https://www.producthunt.com/products/prosed-turn-your-content-into-a-book\n- Fedica 2.0、ソーシャルアプリでのプロフィール公開と成長を支援\n  https://www.producthunt.com/products/fedica\n- Pushary、ロック画面からAIリクエストを承認\n  https://www.producthunt.com/products/pushary\n- Hotspot Meter、Macメニューバーでデータ使用量をプライベートに表示\n  https://www.producthunt.com/products/hotspot-meter-track-wi-fi-and-hotspots\n- YC has it、課題を解決するY Combinatorスタートアップを検索\n  https://www.producthunt.com/products/yc-has-it\n- Buzz、人材、AIエージェント、プロジェクトを統合管理\n  https://www.producthunt.com/products/buzz-3",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Introducing Claude Opus 5",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "summary": "Opus 5は、大規模エージェントの処理能力と、コーディング・専門業務の性能を大幅に向上。",
+      "ogImage": "https://cdn.sanity.io/images/4zrzovbb/website/54b7ab1d2c2521f83ae5d2da5f9d99321c370d24-2880x1620.png",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "3 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Agency Tool Company、実世界ロボット構築・展開・管理のインフラを提供\n  https://agencytool.company\n- Waddle Labs、ロボット制御AIエージェントを発表\n  https://www.waddlelabs.ai/\n- Avoca Systems、放射線ネットワーク向けAI駆動OSを開発\n  https://avocasystems.com",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Black Forest Labs FLUX 3 - Multimodal Flow Models that beat Seedance 2.0, Gemini Omni and Grok Imagine, and FLUX-mimic video-action robotics model",
+      "url": "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal",
+      "summary": "Black Forest Labsが画像・動画・音声・アクション予測を統合したマルチモーダルモデル「FLUX 3」を発表し、ロボット制御への応用も示唆した。",
+      "publishedAt": "2026-07-24",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!3n0x!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2080308957898481664.jpg"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "23 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-07-25",
+      "docsUpdates": [
+        {
+          "tag": "Improved",
+          "file": "advisor.md",
+          "text": "AdvisorモデルとしてFable 5が利用可能になった場合、その利用に関する言及が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5dba7c9ed018011b09b2be03e8dd84fc0e191336"
+        },
+        {
+          "tag": "Changed",
+          "file": "amazon-bedrock.md",
+          "text": "Amazon Bedrockで`ANTHROPIC_DEFAULT_OPUS_MODEL`が設定されていない場合の`opus`エイリアスのデフォルト解決モデルがOpus 4.8からOpus 5に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5dba7c9ed018011b09b2be03e8dd84fc0e191336"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-platform-on-aws.md",
+          "text": "Claude Platform on AWSで`ANTHROPIC_DEFAULT_OPUS_MODEL`が設定されていない場合の`opus`エイリアスのデフォルト解決モデルがOpus 4.8からOpus 5に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5dba7c9ed018011b09b2be03e8dd84fc0e191336"
+        },
+        {
+          "tag": "Improved",
+          "file": "communications-kit.md",
+          "text": "Fable 5におけるサイバーセキュリティや生物学関連コンテンツのフォールバック挙動について、Opus 5が独自のチェックを実行し、フラグが立てられたコンテンツがモデルを切り替えるか拒否される旨が追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5dba7c9ed018011b09b2be03e8dd84fc0e191336"
+        },
+        {
+          "tag": "Changed",
+          "file": "desktop.md",
+          "text": "Google Cloud's Agent PlatformにおけるDesktop版の自動モードでサポートされるClaudeモデルにOpus 5が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5dba7c9ed018011b09b2be03e8dd84fc0e191336"
+        },
+        {
+          "tag": "Added",
+          "file": "env-vars.md",
+          "text": "Google Cloud's Agent Platformを使用する際のClaude Opus 5のリージョンをオーバーライドする`VERTEX_REGION_CLAUDE_5_OPUS`環境変数が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5dba7c9ed018011b09b2be03e8dd84fc0e191336"
+        },
+        {
+          "tag": "Improved",
+          "file": "errors.md",
+          "text": "モデルが存在しない、または権限がない場合に発生するエラーに関するヒントとして、エイリアスを使用することで常に最新のデフォルトモデルが利用されるため、古いIDが設定されないようにできることが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5dba7c9ed018011b09b2be03e8dd84fc0e191336"
+        },
+        {
+          "tag": "Changed",
+          "file": "fast-mode.md",
+          "text": "Fast modeがサポートするOpusモデルのリストからOpus 4.7が削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5dba7c9ed018011b09b2be03e8dd84fc0e191336"
+        },
+        {
+          "tag": "Changed",
+          "file": "feature-availability.md",
+          "text": "Google Cloud's Agent Platformで自動モードがサポートするモデルにOpus 5が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5dba7c9ed018011b09b2be03e8dd84fc0e191336"
+        },
+        {
+          "tag": "Changed",
+          "file": "google-vertex-ai.md",
+          "text": "Google Cloud's Agent Platformで`ANTHROPIC_DEFAULT_OPUS_MODEL`が設定されていない場合の`opus`エイリアスのデフォルト解決モデルがOpus 4.8からOpus 5に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5dba7c9ed018011b09b2be03e8dd84fc0e191336"
+        },
+        {
+          "tag": "Improved",
+          "file": "microsoft-foundry.md",
+          "text": "Microsoft Foundryで`ANTHROPIC_DEFAULT_OPUS_MODEL`が設定されていない場合の`opus`エイリアスのデフォルト設定例について、Opus 4.8だけでなく新しいOpusモデルのIDを設定できる旨が追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5dba7c9ed018011b09b2be03e8dd84fc0e191336"
+        },
+        {
+          "tag": "Changed",
+          "file": "model-config.md",
+          "text": "Anthropic API、Claude Platform on AWS、Amazon Bedrock、Google Cloud's Agent Platformにおける`opus`エイリアスのデフォルト解決モデルがOpus 4.8からOpus 5に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5dba7c9ed018011b09b2be03e8dd84fc0e191336"
+        },
+        {
+          "tag": "Changed",
+          "file": "permission-modes.md",
+          "text": "Anthropic APIおよびClaude Platform on AWSで自動モードを有効にするために必要なClaudeモデルの要件にOpus 5が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5dba7c9ed018011b09b2be03e8dd84fc0e191336"
+        },
+        {
+          "tag": "Changed",
+          "file": "prompt-caching.md",
+          "text": "自動モデルフォールバックにおけるモデル切り替えの対象にOpus 5が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5dba7c9ed018011b09b2be03e8dd84fc0e191336"
+        },
+        {
+          "tag": "Changed",
+          "file": "statusline.md",
+          "text": "statuslineからスクリプトに渡されるJSONフィールドの`model.id`の例が`claude-opus-4-8`から`claude-opus-5`に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5dba7c9ed018011b09b2be03e8dd84fc0e191336"
+        },
+        {
+          "tag": "Changed",
+          "file": "sub-agents.md",
+          "text": "サブエージェントの設定で`tools`フィールドが省略された場合の挙動に関する説明が更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5dba7c9ed018011b09b2be03e8dd84fc0e191336"
+        },
+        {
+          "tag": "Improved",
+          "file": "code-review.md",
+          "text": "ローカルでの差分レビューに`/code-review`コマンドが利用可能になり、GitHub Appをインストールせずにターミナルで実行できること、そして、指摘事項をインラインPRコメントとして投稿したり、作業ツリーに適用したりするオプションが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b3311795cac9c830c82dcf8e48d21dccccb57551"
+        },
+        {
+          "tag": "Improved",
+          "file": "errors.md",
+          "text": "ラッパーおよびIDEエラー以外のランタイムエラーとリカバリコマンドは、CLI、デスクトップアプリ、Web版のClaude Code全体に適用されることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b3311795cac9c830c82dcf8e48d21dccccb57551"
+        },
+        {
+          "tag": "Improved",
+          "file": "fast-mode.md",
+          "text": "高速モードがサポートされていないモデルに切り替えた場合でも、保存された高速モードのプリファレンスがオンであれば、再びサポート対象のOpusモデルに切り替えることで高速モードが自動的にオンになるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b3311795cac9c830c82dcf8e48d21dccccb57551"
+        },
+        {
+          "tag": "Improved",
+          "file": "network-config.md",
+          "text": "Claude Desktopセッションにおいて、アプリがプロバイダー接続を管理する場合、Claude Codeが標準のプロキシ環境変数を読み込む場所が、管理設定と`~/.claude/settings.json`に限定されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b3311795cac9c830c82dcf8e48d21dccccb57551"
+        },
+        {
+          "tag": "Improved",
+          "file": "plugins-reference.md",
+          "text": "プラグインのスキルとコマンドにおいて、`disable-model-invocation`のようなブーリアンのフロントマターフィールドが、`true`と`false`に加えて`yes`, `no`, `on`, `off`, `1`, `0`も認識するようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b3311795cac9c830c82dcf8e48d21dccccb57551"
+        },
+        {
+          "tag": "Improved",
+          "file": "sessions.md",
+          "text": "再開されたセッションでモデルが復元されない条件に、プロバイダー固有のデプロイメントIDを使用するAmazon Bedrock、Google Cloud's Agent Platform、Microsoft Foundryなどのプロバイダーが含まれることが明記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b3311795cac9c830c82dcf8e48d21dccccb57551"
+        },
+        {
+          "tag": "Improved",
+          "file": "troubleshoot-install.md",
+          "text": "インストールエラーとログイン問題のトラブルシューティングに関する情報が、より明確な表形式で提示されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b3311795cac9c830c82dcf8e48d21dccccb57551"
+        },
+        {
+          "tag": "Improved",
+          "file": "troubleshooting.md",
+          "text": "トラブルシューティングページに、一般的なAPIエラー、モデルが見つからないエラー、VS Code拡張機能の接続問題に対する解決策へのリンクが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b3311795cac9c830c82dcf8e48d21dccccb57551"
+        },
+        {
+          "tag": "Improved",
+          "file": "ultrareview.md",
+          "text": "UltrareviewのCLI実行において、引数なしで現在のブランチとデフォルトブランチの差分をレビューすることに加え、異なるベースブランチを指定してレビューを開始できることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b3311795cac9c830c82dcf8e48d21dccccb57551"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "2 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- GitHub Copilot、Claude Opus 5に対応\n  https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot\n- CopilotのLinear向けクラウドエージェントが一般提供開始\n  https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-07-25"
+    }
+  ]
+}
