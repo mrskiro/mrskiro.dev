@@ -1,0 +1,181 @@
+{
+  "fetchedAt": "2026-07-25T21:40:54.903Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.220",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
+      "summary": "- [Fixed] バグ修正と信頼性の向上",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- [メガ・スレッド] アプリの山 - 2026年7月\n  https://www.reddit.com/r/macapps/comments/1uknpm8/megathread_the_app_pile_july_2026/\n- 注意喚起：「pearcleaner.com」はmacOS向け情報窃取マルウェアを配布する偽サイト\n  https://www.reddit.com/r/macapps/comments/1ucstzy/psa_pearcleanercom_is_a_fake_site_pushing_macos/\n- 強制的なマジックリンクログインにはもううんざり...\n  https://www.reddit.com/r/macapps/comments/1v67h5l/so_tired_of_forced_magic_links_logins/\n- Protego for Reddit v3登場！2年前にRedditアプリを削除し、代わりに欲しかったSafari拡張機能を開発しました。Redditのフィードをコントロールしましょう！\n  https://www.reddit.com/r/macapps/comments/1v6csvh/protego_for_reddit_v3_is_live_i_deleted_the/\n- ブックマーク整理が必要\n  https://www.reddit.com/r/macapps/comments/1v6barx/need_to_solve_my_bookmarks/\n- Gloss | インテリジェントなテキスト展開\n  https://www.reddit.com/r/macapps/comments/1v66v5s/gloss_intelligent_text_expansion/\n- BarbeeのCPU使用率が高すぎる？\n  https://www.reddit.com/r/macapps/comments/1v656n6/barbee_consumes_too_much_cpu/\n- MacPAR DeluxeのApple Siliconネイティブ代替「ModernPAR」を見つけたが、解凍できない...\n  https://www.reddit.com/r/macapps/comments/1v63csj/i_found_modernpar_an_apple_silicon_native/\n- Daily (Mac時間追跡アプリ) がWeb API、Zapier、MCPサーバーを追加 — 自動追跡アプリが溢れる中で、監視なしのプロンプトベースオプションを提供\n  https://www.reddit.com/r/macapps/comments/1v6857g/daily_mac_time_tracker_just_added_a_web_api/\n- [OS] 機密性の高い会話を保護するためにStenoを開発しました。AIメモ作成＆ノートパッド。GitHubで1200以上のスター、数千ダウンロードを達成\n  https://www.reddit.com/r/macapps/comments/1v5mohb/os_i_built_steno_to_protect_your_most_sensitive/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-26"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-26"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1729pt] Claude Opus 5が登場 | モデルの性能よりも、データ保持要件のないFableモデルにアクセスできる点が重要視されており、既存のモデルと比較する声も\n  https://news.ycombinator.com/item?id=49038433\n- [832pt] プログラミングが解決されたのに、なぜソフトウェアは悪化し続けるのか？ | OSやアプリの更新が「期待」ではなく「恐怖」の源になっているという意見が多く、現代のソフトウェア品質の低下に不満の声多数\n  https://news.ycombinator.com/item?id=49033004\n- [826pt] Android、デバイス上でのADBを間もなく制限か | セキュリティ向上のためとはいえ、ユーザーからは誤解や過剰反応ではないか、制限されることへの不満や懸念の声が上がっている\n  https://news.ycombinator.com/item?id=49045159\n- [756pt] 毎日集中するのが難しくなっている | 情報過多やスマートフォンの影響により集中力が低下しているという意見が多く、ADHDだけでなく文化的な要因も指摘されている\n  https://news.ycombinator.com/item?id=49032660\n- [646pt] Nvidia、Microsoft、Metaがオープンウェイトモデルの過剰規制に警鐘を鳴らす | 大手企業による共同書簡の背景には、オープンソースとクローズドソースのAIモデルを巡る規制に関する様々な思惑がコメントされている\n  https://news.ycombinator.com/item?id=49035303\n- [635pt] 私の監視カメラがGitHubの管理者トークンをログインページに同梱していた | 多くのベンダーがセキュリティを軽視している現状に驚きはなく、VLAN分離など自己防衛の必要性が指摘されている\n  https://news.ycombinator.com/item?id=49034292\n- [568pt] Flux 3が登場 | コメントは懐疑的でネガティブな意見が多いものの、モデルの能力自体は印象的だという声も。オープンウェイト版に期待する声も\n  https://news.ycombinator.com/item?id=49031796\n- [550pt] ハンナ・フライが2026年リーラヴァティ賞を受賞（数学普及の功績で） | 数学や科学の優れた伝達者として高く評価されており、彼女の功績を称賛する声や、過去の活動を振り返るコメント多数\n  https://news.ycombinator.com/item?id=49043724\n- [547pt] 98.css | 作者が燃え尽き症候群からの回復プロジェクトとして作成。フラットデザインへの不満や、類似のCSSテーマを推奨するコメントも\n  https://news.ycombinator.com/item?id=49028927\n- [519pt] OpenAIの「暴走ハッカーAI」のストーリーには懐疑的であるべき | 今回の事件はOpenAIのPR戦略ではないかという意見が多く、AIのモデルの強さを誇張する動機があることが指摘されている\n  https://news.ycombinator.com/item?id=49038060",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-07-26"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "5 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- AIにうんざりした人向け、「AI回避」ワークショップが図書館で開催、テック大手への反発広がる\n  https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/\n- AIデータセンターが抱える問題、一本の送電線で露呈。解決策は？\n  https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/\n- OpenAIの新型AIキーパッドを試用――一部のプログラマーには魅力的だが、それ以外の人には謎めいた存在\n  https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/\n- Reid HoffmanとMark Pincusが共同設立した新AIラボPrentis、1億ドル調達に向け交渉中か\n  https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/\n- TechCrunch Disrupt 2026の新たなSmart Money Stage、フィンテック、決済、AIなどを探求\n  https://techcrunch.com/2026/07/24/techcrunch-disrupt-2026s-new-smart-money-stage-explores-fintech-payments-ai-and-everything-between/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-07-26"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Wisprkey — Macのあらゆるアプリと対話\n  https://www.producthunt.com/products/wisprkey-mac-ai-assistant\n- Heard — Claude CodeとCodexに声を与える\n  https://www.producthunt.com/products/heard-2\n- Second Brain for Mac and Windows — どこでも使えるAI記憶ツール\n  https://www.producthunt.com/products/second-brain-cloudflare\n- Capsomnia — Macの蓋を閉じてもCaps Lockでスリープを防止\n  https://www.producthunt.com/products/capsomnia\n- FluentDB — Mac向けAIデータベースクライアント\n  https://www.producthunt.com/products/fluentdb-2\n- ADE — あらゆるコーディングエージェントをどこでも同期、ずっと無料\n  https://www.producthunt.com/products/ade-agentic-development-environment\n- Seller by Facebook — Facebook Marketplaceで簡単販売\n  https://www.producthunt.com/products/seller-by-facebook\n- ShellMate — 快適に使えるSSHワークスペース\n  https://www.producthunt.com/products/shellmate-2\n- Speechius — 音声認識対応のテレプロンプター\n  https://www.producthunt.com/products/speechius\n- Velane — AIエージェントのツールと機能向けクラウド\n  https://www.producthunt.com/products/velane",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-07-26"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "1 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Lumeria、肌のためのOura Ringが登場\n  https://lumeria.skin",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-07-26"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)",
+      "url": "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
+      "summary": "Anthropicが新モデル「Claude Opus 5」を発表、ベンチマークと実用評価で先行モデルを上回る結果。",
+      "publishedAt": "2026-07-25",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!FqD_!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHOBjK6cbIAA2Yph.jpg"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "16 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-07-26",
+      "docsUpdates": [
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "Claude Codeのドキュメントリポジトリの変更ログに2026年7月25日の更新が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ac7611e91e57a5f17d8352e344f4f0d9b605fe0e"
+        },
+        {
+          "tag": "Improved",
+          "file": "permission-modes.md",
+          "text": "`default`モードの説明から不要なリンクと改行を削除し、より簡潔にしました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/fcfa378ea64fa63831549a74f88453a8412b41b3"
+        },
+        {
+          "tag": "Improved",
+          "file": "permissions.md",
+          "text": "`default`モードの別名が利用可能になるバージョン表記を修正しました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/fcfa378ea64fa63831549a74f88453a8412b41b3"
+        },
+        {
+          "tag": "Improved",
+          "file": "sandboxing.md",
+          "text": "自動許可モードにおける`rm`または`rmdir`コマンドの挙動について、自動モードでの分類器チェックに関する説明と必要バージョンを追加しました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/fcfa378ea64fa63831549a74f88453a8412b41b3"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-view.md",
+          "text": "Agent viewが設定フラグを適用し、それらのフラグをディスパッチするすべてのセッションに渡す方法について説明を明確にしました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2679fb24c00afa0b468cdc1754dd52c1ea48fa78"
+        },
+        {
+          "tag": "Improved",
+          "file": "auto-mode-config.md",
+          "text": "Auto modeがツール呼び出しを拒否した際に、拒否が`/permissions`の「Recently denied」タブに記録されることについて説明を明確にしました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2679fb24c00afa0b468cdc1754dd52c1ea48fa78"
+        },
+        {
+          "tag": "Changed",
+          "file": "hooks.md",
+          "text": "PermissionDeniedフックの`reason`フィールドに、「Auto mode denied: command targets a path outside the project」の代わりに「Blocked by classifier」という理由が表示されるように変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2679fb24c00afa0b468cdc1754dd52c1ea48fa78"
+        },
+        {
+          "tag": "Added",
+          "file": "mcp.md",
+          "text": "MCPサーバーを削除せずに無効化できる新機能を追加しました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2679fb24c00afa0b468cdc1754dd52c1ea48fa78"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__agent-loop.md",
+          "text": "エージェントループの予算上限にサブエージェントの費用が含まれるようになり、上限に達するとサブエージェントの生成が失敗し、バックグラウンドのサブエージェントが停止するようになりました。（Claude Code v2.1.2以降が必要）",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2652a695c496d3aa6c7223c3f3c430ab8acef987"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-code-on-the-web.md",
+          "text": "自己ホスト型ランナープログラムの組織によるランナープールの管理に関する記述が削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2652a695c496d3aa6c7223c3f3c430ab8acef987"
+        },
+        {
+          "tag": "Improved",
+          "file": "code-review.md",
+          "text": "コードレビューがフォアグラウンドで実行されるケースの表現がより一般的になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2652a695c496d3aa6c7223c3f3c430ab8acef987"
+        },
+        {
+          "tag": "Improved",
+          "file": "costs.md",
+          "text": "`usage`コマンドのセッションブロックに関する説明が更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2652a695c496d3aa6c7223c3f3c430ab8acef987"
+        },
+        {
+          "tag": "Fixed",
+          "file": "desktop-scheduled-tasks.md",
+          "text": "スケジュールされたタスクのパーミッションモードに関する説明で、Manual modeへのリンクが修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2652a695c496d3aa6c7223c3f3c430ab8acef987"
+        },
+        {
+          "tag": "Improved",
+          "file": "hooks.md",
+          "text": "`PreToolUse`フックのtool_inputオブジェクトに`description`、`timeout`、`run_in_background`フィールドが追加され、`tool_use_id`フィールドもイベント固有のフィールドとして明記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2652a695c496d3aa6c7223c3f3c430ab8acef987"
+        },
+        {
+          "tag": "Added",
+          "file": "plugins-reference.md",
+          "text": "プラグインの構成オプションに`agents`フィールドが追加され、カスタムエージェントファイルを指定できるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2652a695c496d3aa6c7223c3f3c430ab8acef987"
+        },
+        {
+          "tag": "Improved",
+          "file": "skills.md",
+          "text": "フォークされたスキルが結果を待つケースの表現がより一般的になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2652a695c496d3aa6c7223c3f3c430ab8acef987"
+        },
+        {
+          "tag": "Fixed",
+          "file": "workflows.md",
+          "text": "ワークフローの保存時にシンボリックリンクのチェックが追加され、誤った場所への書き込みを防ぐようになりました。（Claude Code v2.1.216以降が必要）",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/2652a695c496d3aa6c7223c3f3c430ab8acef987"
+        }
+      ]
+    }
+  ]
+}
