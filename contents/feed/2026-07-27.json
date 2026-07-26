@@ -1,0 +1,131 @@
+{
+  "fetchedAt": "2026-07-26T21:44:39.192Z",
+  "entries": [
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-27"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-27"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [968pt] Android、デバイス上のADBに間もなく制限を導入か | セキュリティ向上には賛成だがメリットが少ないという意見や、ADB制限は必然の流れだという声がある。Googleへの不満や懸念の声も多い。\n  https://news.ycombinator.com/item?id=49045159\n- [698pt] クッキーバナーを廃止せよ | 「情報に基づいた同意」の定義や、ブラウザでのプライバシー設定一元化など、EUによる解決策に期待する声が多い。クッキーバナー廃止はWebブラウジングの体験向上に繋がると評価されている。\n  https://news.ycombinator.com/item?id=49057175\n- [588pt] ハンナ・フライが数学の普及活動で2026年リーラヴァティ賞を受賞 | Numberphile登場初期からの彼女の活躍を喜ぶ声や、数学や科学の優れた伝達者であると高く評価するコメントが多い。ケンブリッジ大学の数学プログラムに入れなかったにもかかわらず、同大学の数学教授になったことへの称賛も。\n  https://news.ycombinator.com/item?id=49043724\n- [456pt] 採用候補者への連絡を途絶えたことはありますか？ | Google、Meta、Appleなど大手企業でのゴースティング経験談が多数寄せられている。候補者への不誠実な対応に対する不満や失望の声が多い。\n  https://news.ycombinator.com/item?id=49051120\n- [434pt] Claude 5世代モデル向けコンテキストエンジニアリングの新しいルール | AIの動作原理への疑問や、専用言語の必要性を提案するコメントがある。Anthropicのツールへのロックインを高める動きと懸念する声も。\n  https://news.ycombinator.com/item?id=49051361\n- [396pt] オープンウェイトAIがKubernetesのような状況を迎えている | 中国製モデルの禁止は技術的に不可能という意見や、「トークノミクス」の不透明さを指摘する声がある。Kubernetesのように、公開トレーニングデータを持つAIモデルの必要性を説くコメントも。\n  https://news.ycombinator.com/item?id=49048034\n- [370pt] シェルでのコロンは何もせずとも使うべき | シェルスクリプトの構文への不満を述べつつも、コロンの様々な有用な使い方に感心する声がある。一部の使い方は実践的ではないという意見も。\n  https://news.ycombinator.com/item?id=49047453\n- [341pt] GrapheneOS、ロックされたデバイスからのデータ抽出に対する保護 | GrapheneOSが強調するデータ抽出への強力な保護について、関連ニュースへの対応であると評価する声がある。バックアップ・復元ソリューションの必要性や、セキュリティとプライバシーへの高い要求は「犯罪者」と見なされがちという皮肉なコメントも。\n  https://news.ycombinator.com/item?id=49055169\n- [329pt] Ruff v0.16.0 – 重要な新アップデート – デフォルトルールが59から413に増加 | Ruffの積極的な開発状況を喜ぶ声や、デフォルトルールの増加によってコード品質が向上したという好意的な意見が多い。Go言語にもRuffのようなツールが欲しいという声も。\n  https://news.ycombinator.com/item?id=49056112\n- [327pt] テイラーファームズ、シクロスポラのリコールを遅らせるためホワイトハウスに連絡 | 企業がリコールを遅らせようとしたことへの非難の声が多い。米国政府における腐敗や、権威への信頼の危機を指摘するコメントも見られる。\n  https://news.ycombinator.com/item?id=49044074",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-07-27"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "3 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- 中国AIへの懸念高まる中、本質はどこに\n  https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/\n- OpenAIハッキングを受け、Hugging Face CEOが「徹底的な透明性」を要求\n  https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/\n- Monday.comもAIを理由に人員削減、他20社も同様の動き\n  https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-07-27"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Pulse Island — Macのノッチに生命を吹き込む「生きた島」\n  https://www.producthunt.com/products/pulse-island\n- Aymo AI — チーム向けオールインワンAIプラットフォーム\n  https://www.producthunt.com/products/aymo-ai\n- Athena by Shoplazza — コマーススタック全体をオーケストレーションするエージェント\n  https://www.producthunt.com/products/athena-by-shoplazza\n- >=PlayingFild — コンテキストを理解する生産性ツール＆タブマネージャー\n  https://www.producthunt.com/products/playingfild\n- KeyOpera 2.0 — Macのキーストロークを唯一無二の音に変える\n  https://www.producthunt.com/products/keyopera\n- BrainFeed — スクロールを促すパーソナライズされた学習フィード\n  https://www.producthunt.com/products/brainfeed-scroll-better\n- Openbase — 音声でAIエージェントチームをどこからでも管理\n  https://www.producthunt.com/products/openbase-2\n- PureBox.ai — 実際のGmail受信トレイをレビュー重視でAIクリーンアップ\n  https://www.producthunt.com/products/purebox-ai\n- TouchGrass — 煩わしい許可なしにコンテキストに応じた休憩リマインダー\n  https://www.producthunt.com/products/touchgrass-2\n- Forgeon — インタラクティブな物語を作成、公開、体験\n  https://www.producthunt.com/products/forgeon-2",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-07-27"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "1 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- PokerClubHub、ポーカークラブ開催で収益化を実現\n  https://www.pokerclubhub.com",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-07-27"
+    },
+    {
+      "sourceName": "GitHub Trending",
+      "title": "Weekly Trending",
+      "url": "https://github.com/trending?since=weekly",
+      "summary": "- bojieli/ai-agent-book：李博杰著「AI Agentの深い理解：設計原理とエンジニアリング実践」のオープンソース主リポジトリ：書籍本文、コンパイル済みPDF、章ごとの付随コード ⭐16,579/week\n  https://github.com/bojieli/ai-agent-book\n- koala73/worldmonitor：リアルタイムグローバルインテリジェンスダッシュボード。AIを活用したニュース集約、地政学監視、インフラ追跡を統合した状況認識インターフェース。 ⭐12,085/week\n  https://github.com/koala73/worldmonitor\n- tirth8205/code-review-graph：MCPおよびCLI向けのローカルファーストコードインテリジェンスグラフ。コードベースの永続的なマップを構築し、AIコーディングツールが重要なものだけを読み込むようにし、レビューおよび大規模リポジトリワークフローにおける文脈削減がベンチマークされています。 ⭐6,423/week\n  https://github.com/tirth8205/code-review-graph\n- 1jehuang/jcode：コードのための最もインテリジェントなエージェントハーネス。 ⭐2,914/week\n  https://github.com/1jehuang/jcode\n- diegosouzapw/OmniRoute：コーディングを止めない。無料のMIT AIゲートウェイ：1つのエンドポイントで290以上のプロバイダー（90以上は無料）、500以上のモデルに対応 - Kimi、Claude、GPT、OpenAI、Gemini、GLM、DeepSeek、MiniMax。Claude Code、Codex、Cursor、OpenCode、Cline & Copilotで動作。クォータを意識した自動フォールバック、RTK+Caveman圧縮で15-95%のトークンを節約、MCP/A2A、デスクトップ/PWA。500人以上の貢献者によって構築されました。 ⭐11,147/week\n  https://github.com/diegosouzapw/OmniRoute\n- agegr/pi-web：piコーディングエージェントのためのWeb UI。 ⭐1,450/week\n  https://github.com/agegr/pi-web\n- earendil-works/pi：AIエージェントツールキット：統合されたLLM API、エージェントループ、TUI、コーディングエージェントCLI。 ⭐5,167/week\n  https://github.com/earendil-works/pi\n- mattpocock/skills：本物のエンジニアのためのスキル。私の.agentsディレクトリから直接。 ⭐11,790/week\n  https://github.com/mattpocock/skills\n- ruvnet/RuView：π RuViewは、市販のWiFi信号をリアルタイムの空間インテリジェンス、バイタルサインモニタリング、プレゼンス検出に変え、一切のビデオを使用しません。 ⭐5,313/week\n  https://github.com/ruvnet/RuView\n- rohitg00/ai-engineering-from-scratch：それを学び、構築し、他人のために出荷する。 ⭐4,518/week\n  https://github.com/rohitg00/ai-engineering-from-scratch",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-07-27"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "9 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-07-27",
+      "docsUpdates": [
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__subagents.md",
+          "text": "サブエージェントがデフォルトで独自のサブエージェントを生成できるようになり、最大生成深度が5層に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5873c52915a71cc21ba3db561d41a16396648c64"
+        },
+        {
+          "tag": "Improved",
+          "file": "env-vars.md",
+          "text": "CLAUDE_CODE_MAX_OUTPUT_TOKENS設定に関する説明が、auto-compactionトリガー前の実質的なコンテキストウィンドウの減少について言及するように改善されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5873c52915a71cc21ba3db561d41a16396648c64"
+        },
+        {
+          "tag": "Improved",
+          "file": "errors.md",
+          "text": "エラーメッセージとその対応セクションのマッピングが調整され、可読性が向上しました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5873c52915a71cc21ba3db561d41a16396648c64"
+        },
+        {
+          "tag": "Changed",
+          "file": "settings.md",
+          "text": "voiceEnabledがvoice.enabledのレガシーエイリアスとして指定され、voiceオブジェクトの使用が推奨されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5873c52915a71cc21ba3db561d41a16396648c64"
+        },
+        {
+          "tag": "Changed",
+          "file": "sub-agents.md",
+          "text": "サブエージェントのAgentツールへのアクセスに関する挙動が変更され、ネストされたスポーンを許可するまでデフォルトでAgentツールが削除されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5873c52915a71cc21ba3db561d41a16396648c64"
+        },
+        {
+          "tag": "Improved",
+          "file": "workflows.md",
+          "text": "ワークフローのトークン消費に関する説明が改善され、費用の見積もりや実行中の停止、エージェントキャップについてより詳しく言及されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5873c52915a71cc21ba3db561d41a16396648c64"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-view.md",
+          "text": "Agent viewが、設定、プラグイン、MCPサーバー、追加ディレクトリの読み込みに関して、どの設定フラグを自身に適用し、どのフラグをディスパッチされるセッションに渡すかを明確にしました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b2da57bf10ebd4a5ad3a8fcdf28a0a50039da4b5"
+        },
+        {
+          "tag": "Fixed",
+          "file": "env-vars.md",
+          "text": "環境変数`CLAUDE_CODE_FORCE_SYNC_OUTPUT`の説明が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b2da57bf10ebd4a5ad3a8fcdf28a0a50039da4b5"
+        },
+        {
+          "tag": "Fixed",
+          "file": "troubleshoot-install.md",
+          "text": "Claude CodeがGitパスを見つけられない問題のトラブルシューティングにおいて、v2.1.116より前のバージョンで`cmd.exe`を介したパス検証がエンドポイントセキュリティソフトウェアによってブロックされる可能性について修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b2da57bf10ebd4a5ad3a8fcdf28a0a50039da4b5"
+        },
+        {
+          "tag": "Improved",
+          "file": "interactive-mode.md",
+          "text": "インタラクティブモードでのCtrl+X Ctrl+Kショートカットの説明が、サブエージェントの停止に関するより明確な表現に改善されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cf16436f5327780d5d7db6f9d03dfb8fcca9e28e"
+        }
+      ]
+    }
+  ]
+}
