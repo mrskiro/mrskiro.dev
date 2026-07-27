@@ -1,0 +1,137 @@
+{
+  "fetchedAt": "2026-07-27T21:54:07.051Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "How AI is expanding what people do at work",
+      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "summary": "新しいOpenAIの研究で、AIが労働者の業務内容を広げ、職務の境界を再構築していることが示された。",
+      "publishedAt": "2026-07-27",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/51KOQJ7hZMnLcRbLNaOE0f/114791b3b8b669c3a504f3159e8e30de/SEO_Card__6_.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-28"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-28"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1269pt] HuggingFaceに「Kimi-K3」が登場 | 価格やカスタマイズ性、ライセンス、LLM実行ハードウェアへの意見が活発に交わされています。\n  https://news.ycombinator.com/item?id=49065752\n- [1243pt] 米市民、空港でのGrapheneOS携帯データ消去で起訴 | 国境でのデータ消去に関する法的問題や技術的対策について議論が集中しています。\n  https://news.ycombinator.com/item?id=49063022\n- [1116pt] クッキーバナーをなくす方法 | 同意のあり方やブラウザ設定、追跡停止など、クッキーバナー廃止への賛成意見が多いです。\n  https://news.ycombinator.com/item?id=49057175\n- [875pt] PGSimCity - PostgreSQLの仕組みを視覚化 | データベースの動作を視覚的に理解できる点が高く評価されています。改善点に関するフィードバックも寄せられています。\n  https://news.ycombinator.com/item?id=49063754\n- [714pt] AI企業による希少本の破壊行為 | 出版社への批判や著作権問題、過去の訴訟がAIのデータ収集に与える影響について議論されています。\n  https://news.ycombinator.com/item?id=49068738\n- [495pt] Htmx 4.0、Game Boy専用の初のJavaScriptライブラリとしてリリース | Htmxのシンプルさ、有用性、そしてGame Boyでのリリースというユニークなアプローチに賞賛の声が上がっています。\n  https://news.ycombinator.com/item?id=49057241\n- [440pt] フランスの消防士、史上初の「火災積乱雲」に直面 | 火災積乱雲の発生場所や過去の事例、森林火災の深刻さについて議論されています。\n  https://news.ycombinator.com/item?id=49060495\n- [433pt] GrapheneOSのロックされたデバイスからのデータ抽出に対する保護 | GrapheneOSのセキュリティ機能、データ抽出耐性、およびバックアップソリューションの必要性についてコメントが寄せられています。\n  https://news.ycombinator.com/item?id=49055169\n- [420pt] RustでのBunのリライト状況は？ | Rustへの書き換えの進捗状況や、大規模なリファクタリングの影響、LLMを活用した開発手法について意見が交わされています。\n  https://news.ycombinator.com/item?id=49067854\n- [372pt] Decker、HyperCardとクラシックmacOSの遺産を受け継ぐプラットフォーム | HyperCardの魅力や、このようなインターフェースの現代における必要性、Deckerの教育ツールとしての可能性について議論されています。\n  https://news.ycombinator.com/item?id=49060856",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-07-28"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "13 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Satya Nadella氏「全てを1つのAIに頼る企業は生き残れない」\n  https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/\n- 注意：Claudeのチャット履歴やArtifactsがGoogleに共有されていた可能性\n  https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/\n- Microsoftが初のサイバーセキュリティモデルと新たな自律型セキュリティシステムを発表\n  https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/\n- Antares、米軍向け原子炉開発で4億7000万ドルを調達\n  https://techcrunch.com/2026/07/27/antares-raises-470m-to-build-nuclear-reactors-for-the-u-s-military/\n- OpenAIのHugging Face侵害、アラインメントと制御に関する議論を再燃させる\n  https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/\n- Threadsユーザー、DMでMeta AIとチャット可能に\n  https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/\n- 新データが示すGoogleのAI検索が急速にデフォルト化\n  https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/\n- AIインフラを強化！TechCrunch Disrupt 2026 Smart Systems Stageの議題を先行公開\n  https://techcrunch.com/2026/07/27/power-up-your-ai-infrastructure-a-first-look-at-the-smart-systems-stage-agenda-at-techcrunch-disrupt-2026/\n- わずか9ドルのキーで中毒性の高いアプリを物理的にロック\n  https://techcrunch.com/2026/07/27/this-9-key-physically-locks-your-most-addictive-apps/\n- Ilya SutskeverのSafe Superintelligence、Nvidiaと提携しAI研究を拡大\n  https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/\n- Enigma、7100万ドルを調達 ロボット制御を音量調整のように簡単に\n  https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/\n- ヨーロッパでTBPNスタイルのライブ番組がスタート、誰もがゲスト出演を狙う\n  https://techcrunch.com/2026/07/27/europe-got-its-own-tbpn-style-live-show-and-its-already-a-hot-spot-on-a-press-tour/\n- 脳波が物理AIの次なるブレイクスルーとなるか？\n  https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-07-28"
+    },
+    {
+      "sourceName": "mtx2s",
+      "title": "周囲から頼られ、「優秀だ」と評されるソフトウェアエンジニアの6つのタイプ",
+      "url": "https://mtx2s.hatenablog.com/entry/2026/07/27/194549",
+      "summary": "「頼られる」タイプの優れたエンジニアを6つに分類し、AI時代に求められるコンピテンシーの変化を考察。",
+      "publishedAt": "2026-07-27",
+      "ogImage": "https://cdn.image.st-hatena.com/image/scale/13a767ec141f2646199d0a64b033d9477be0a721/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fm%2Fmtx2s%2F20260726%2F20260726121410.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Robynn AI：自己学習で進化・改善するWebサイト\n  https://www.producthunt.com/products/robynn-ai-self-improving-websites\n- Estera：24時間365日対応のAI受付、電話・WhatsAppに応答\n  https://www.producthunt.com/products/estera\n- Rivault：AIエージェントのデータアクセスをFace IDで承認\n  https://www.producthunt.com/products/rivault\n- Comms：iMessageエージェントを数秒で起動\n  https://www.producthunt.com/products/comms-ai-agents-inside-imessage\n- Illume Labs：テキストでやり取りできる、24時間365日のパーソナルヘルスコンパニオン\n  https://www.producthunt.com/products/illume-labs\n- iMessage Hermes on a Raspberry Pi：自宅に常駐する常時稼働AIエージェント\n  https://www.producthunt.com/products/imessage-hermes-on-a-raspberry-pi\n- Audos Summer Camp：Fable/Solの無制限クレジットでビジネスアイデアを構築\n  https://www.producthunt.com/products/socap\n- Notate：人間とエージェントのためにあらゆるものに注釈を\n  https://www.producthunt.com/products/notate-2\n- Webhound：エージェントのためのリサーチエンジン\n  https://www.producthunt.com/products/webhound\n- Tackly：AIで思考をリアルタイムにマッピング\n  https://www.producthunt.com/products/tackly",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-07-28"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients",
+      "url": "https://www.anthropic.com/news/cognizant-anthropic",
+      "summary": "Anthropicは、Claudeを企業向けに展開するため、ITサービス大手Cognizantとの提携を拡大した。",
+      "ogImage": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "publishedAt": "2026-07-28"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "3 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Wondering、あらゆる学習をサポートするDuolingo\n  https://wondering.app\n- Synapse Semiconductor、エッジAIビジョンハードウェアスタックを1枚のウェハーに集約\n  https://synapsesemi.org\n- Graphify Labs、企業向けオンデバイス知識グラフエンジン\n  https://www.graphify.com/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-07-28"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "6 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-07-28",
+      "docsUpdates": [
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__python.md",
+          "text": "Python SDKのResultMessageクラスにおけるmodel_usageフィールドの型が、単一の辞書からModelUsageオブジェクトの辞書に変更され、terminal_reasonフィールドが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/d52446ed125f54380ce7834c854899dc2096d5a0"
+        },
+        {
+          "tag": "Improved",
+          "file": "fullscreen.md",
+          "text": "GNU screen環境でも、Claude Codeが長い選択をクリップボードにコピーできるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/d52446ed125f54380ce7834c854899dc2096d5a0"
+        },
+        {
+          "tag": "Improved",
+          "file": "hooks.md",
+          "text": "サブエージェントがツールを呼び出す際に、メインの会話と同様にツールイベントフックが発火し、入力にはサブエージェントを識別するagent_idとagent_typeが含まれるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/d52446ed125f54380ce7834c854899dc2096d5a0"
+        },
+        {
+          "tag": "Added",
+          "file": "hooks.md",
+          "text": "エンタープライズ管理者は、allowManagedHooksOnly設定を使用してユーザー、プロジェクト、およびプラグインのフックをブロックできますが、管理設定で強制的に有効化されたプラグインのフックは対象外です。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/d52446ed125f54380ce7834c854899dc2096d5a0"
+        },
+        {
+          "tag": "Fixed",
+          "file": "remote-control.md",
+          "text": "ANTHROPIC_BASE_URLがapi.anthropic.com以外のホストを指している場合でも、Remote Controlが機能しないという問題の説明が更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/d52446ed125f54380ce7834c854899dc2096d5a0"
+        },
+        {
+          "tag": "Added",
+          "file": "sandboxing.md",
+          "text": "厳格な許可リスト（strictAllowlist）が設定されている場合、サンドボックス化されたネットワークアクセスを制御する新しいオプションが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/d52446ed125f54380ce7834c854899dc2096d5a0"
+        },
+        {
+          "tag": "Improved",
+          "file": "sub-agents.md",
+          "text": "設定ファイル、管理ポリシー設定、およびプラグインからのフックは、サブエージェント内でも実行されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/d52446ed125f54380ce7834c854899dc2096d5a0"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "2 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- GitHub Copilotアプリへのアクセス、専用ポリシーで管理可能に\n  https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy\n- GitHub Copilotアプリとクラウドエージェントにエンタープライズ管理設定が導入\n  https://github.blog/changelog/2026-07-27-enterprise-managed-settings-now-apply-to-the-github-copilot-app",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-07-28"
+    }
+  ]
+}
