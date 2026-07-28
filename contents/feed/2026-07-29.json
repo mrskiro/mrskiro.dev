@@ -1,0 +1,387 @@
+{
+  "fetchedAt": "2026-07-28T21:52:32.169Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Scientific computing in the age of agentic AI",
+      "url": "https://openai.com/index/scientific-computing-agentic-ai",
+      "summary": "AIコーディングエージェントがゲノム解析などの科学計算でソフトウェア開発を加速させ、発見を促進しているという報告。",
+      "publishedAt": "2026-07-29",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/3m7mGKTN6V4kdfRQAyHV7A/08ebe953fb4e83fd9a843eb2ce06b111/16x9.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-29"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-29"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1366pt] HuggingFaceで公開されたKimi-K3モデル | 価格設定、個人向けハードウェアへの適応、カスタマイズ性、競合による価格下落など、多角的な視点から議論されている。\n  https://news.ycombinator.com/item?id=49065752\n- [1309pt] 空港での所持品検査中にGrapheneOS搭載携帯電話がワイプされ、米国市民が起訴 | 国境での検索に関する技術的・法的側面、デュレスPIN使用の法的結果、代替技術などが議論されている。\n  https://news.ycombinator.com/item?id=49063022\n- [1142pt] オープンウェイトモデルに関する当社の立場 | 企業の方針転換、オープンソースとプロプライエタリの境界線、そしてその矛盾に対する批判的な意見が多い。\n  https://news.ycombinator.com/item?id=49076057\n- [914pt] PGSimCity - PostgreSQLの動作原理を視覚化 | PostgreSQLの内部動作を理解するための新しい視覚化ツールについて、その可能性と改善点について議論されている。\n  https://news.ycombinator.com/item?id=49063754\n- [778pt] AI企業が希少本を裁断している問題 | 著作権、出版社とAI企業の関係、希少本の保護の必要性、アーカイブの重要性について議論されている。\n  https://news.ycombinator.com/item?id=49068738\n- [758pt] 日本でマグニチュード7.1の地震が発生 | 地震による被害状況や人的影響について、詳細な情報や個人の体験が報告されている。\n  https://news.ycombinator.com/item?id=49080664\n- [492pt] 新しいHIVワクチン、前臨床試験で前例のない成功 | ワクチンのメカニズム、HIV治療の現状、前臨床段階から人間への応用までの道のりについてコメントされている。\n  https://news.ycombinator.com/item?id=49083314\n- [485pt] RustによるBunのリライトはどうか？ | BunのRustによるリライトの進捗、LLMによるコード変換の可能性、コミュニティの反応について様々な意見が交わされている。\n  https://news.ycombinator.com/item?id=49067854\n- [427pt] インターネットを破壊するな：デジタルIDと年齢認証の廃止を | デジタルIDや年齢認証がもたらすプライバシー侵害や表現の自由への影響について懸念が表明されている。\n  https://news.ycombinator.com/item?id=49084938\n- [416pt] Netflix社員、合宿の信頼構築演習で個人情報を共有し解雇される | 職場での個人情報の共有リスク、オフサイト合宿の有効性、企業文化と個人の境界線について議論されている。\n  https://news.ycombinator.com/item?id=49076923",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-07-29"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "8 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- ボット検知スタートアップのSpur、Insightから2億ドルを調達\n  https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/\n- MCPスタートアップのRunlayer、Ripplingを製品アイデア盗用で提訴\n  https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea/\n- Sam Altman、減速の準備\n  https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/\n- OzloのSleepbuds 2、Boseの睡眠用イヤホンの遺産を受け継ぐ\n  https://techcrunch.com/2026/07/28/ozlos-sleepbuds-2-build-on-boses-sleep-earbud-legacy/\n- 米国最大規模の電力網、データセンターに一時的な電力制限で停電回避へ\n  https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid/\n- Fish Audio、クリエイターと企業向けAI音声モデル構築でシードラウンド5,200万ドル調達\n  https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/\n- Recursive Superintelligence、Amazonと4億1,000万ドルの計算資源契約を締結\n  https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/\n- Cursor、SpaceX買収を前にインド市場へ本格参入、現地価格設定で攻勢\n  https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-07-29"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "The Orchestrator's Tax",
+      "url": "https://martinfowler.com/articles/orchestrator-tax.html",
+      "summary": "サブエージェントは、AIオーケストレーターの作業記憶を保護し、不要な推論を委譲することでその価値を発揮する。",
+      "publishedAt": "2026-07-28",
+      "ogImage": "https://martinfowler.com/logo-sq.png"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Why I’m Writing Rachel’s Ramblings",
+      "url": "https://martinfowler.com/rachels-ramblings/intro.html",
+      "summary": "多忙なCTOが、自身の持つアイデアや考察をブログ「Rachel’s Ramblings」で公開していくことを宣言。",
+      "publishedAt": "2026-07-28",
+      "ogImage": "https://martinfowler.com/rachels-ramblings/card.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Superunit — AIエージェントが電話、メール、FAXで雇用情報を検証\n  https://www.producthunt.com/products/superunit\n- Firstpass — 起動を成功させるための実用的なインプットを提供\n  https://www.producthunt.com/products/glaze-4\n- Ycode AI Agents — AIでウェブサイトを構築\n  https://www.producthunt.com/products/ycode\n- Leaping AI — 複数日キャンペーンで電話やテキストメッセージを送信するAIエージェント\n  https://www.producthunt.com/products/leaping-ai\n- Liminal — あなた、エージェント、チームのためのワークスペース＆セカンドブレイン\n  https://www.producthunt.com/products/liminal-4\n- Cekura — 音声エージェントのための自己改善ループ\n  https://www.producthunt.com/products/vocera\n- Conduit — ホスピタリティに特化したAIエージェント\n  https://www.producthunt.com/products/conduit-ai\n- Lamoom — Claude内でエージェントアプリを実行、または独自のアプリを販売\n  https://www.producthunt.com/products/lamoom\n- qsa.sh — ターミナルで自分のIPを外部からセキュリティスキャン\n  https://www.producthunt.com/products/qsa-sh-quick-security-audit\n- FlowTask 2.0 — AIエージェントのための企業ブレイン\n  https://www.producthunt.com/products/flowtask",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-07-29"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "5 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Decawork — ITチーム向けエージェント制御プレーン\n  https://decawork.ai/\n- Grip — 廃棄物管理を支援するフィジカルAI\n  https://www.griprobotics.ai\n- Buildbox — AIエージェントのユーザー体験を可視化\n  https://heybuildbox.com\n- Applied Electrodynamics, Inc. — 壁の向こう側も透視できる新型カメラ\n  https://www.ae-dyn.com/\n- Gutgutgoose — カスタムプロバイオティクスによるAIトレーニングインフラ\n  https://gutgutgoose.com/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-07-29"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI",
+      "url": "https://www.latent.space/p/chatgpt-work",
+      "summary": "OpenAIは、非開発者層でもCodexの活用が進んでいることを受け、コード記述だけでなく幅広い知識労働に対応するAIエージェント「ChatGPT Work」をリリースし、個人から企業まで生産性向上を目指す。",
+      "publishedAt": "2026-07-29",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!kSXu!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F208716574%2Fcdcd1b85-4123-4d1a-9085-9537dc80f3cc%2Ftranscoded-1785177022.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Much ado about Open Weights",
+      "url": "https://www.latent.space/p/ainews-much-ado-about-open-weights",
+      "summary": "Moonshot AIが「Kimi K3」という高効率なオープンウェイトモデルをリリースし、他の最先端モデルを上回る性能を見せている。",
+      "publishedAt": "2026-07-28",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!90od!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHOR8_rBbEAAhTr6.jpg"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "41 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-07-29",
+      "docsUpdates": [
+        {
+          "tag": "Changed",
+          "file": "advisor.md",
+          "text": "アドバイザーモデルのエイリアス（opus、sonnet、fable）は、Claude Codeの組み込みのデフォルトバージョンに解決されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__modifying-system-prompts.md",
+          "text": "システムプロンプトの読み込み例のPythonコードに`asyncio`のインポートと`main`関数の定義が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__plugins.md",
+          "text": "プラグインの読み込み方法に関する説明で、マーケットプレイスまたはリモートリポジトリからプラグインを使用する際に、まずダウンロードしてローカルパスを提供する必要があるという記述が移動しました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__session-storage.md",
+          "text": "Python SDKで適合性スイートを実行する方法が具体的に説明されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__skills.md",
+          "text": "Skillsの利用例のPythonコードに`asyncio`のインポートと`main`関数の定義が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__typescript.md",
+          "text": "`ThinkingConfig`における`display`フィールドに関する説明に、Amazon BedrockやGoogle CloudのAgent Platformでは`thinking`ブロックが空になる場合があるという注意書きが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-teams.md",
+          "text": "チーム設定の`members`配列におけるチームメイトの`agent type`が、リードがスポーン時に指定したエージェントタイプを保持するようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Changed",
+          "file": "checkpointing.md",
+          "text": "Checkpointing機能に関するドキュメントが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Changed",
+          "file": "commands.md",
+          "text": "コマンドの可用性に関する注意書きで、`/desktop`コマンドが表示されるWindowsの要件がx64に具体化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Improved",
+          "file": "costs.md",
+          "text": "長時間のセッションにおけるトークン消費量の多い理由に関する説明がより明確になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Changed",
+          "file": "desktop.md",
+          "text": "セッション分離に必要なGitの有無を確認するコマンドが簡略化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Changed",
+          "file": "discover-plugins.md",
+          "text": "公式Anthropicマーケットプレイスが自動的に追加されるが、ダウンロードがブロックされる場合は手動で追加する方法が追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Improved",
+          "file": "env-vars.md",
+          "text": "環境変数と設定フィールドで同じ挙動が定義されている場合の優先順位に関する説明が明確になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Changed",
+          "file": "github-enterprise-server.md",
+          "text": "マネージド設定でGHESマーケットプレイスを許可リストに登録する際の`managed-settings.json`のファイル場所への参照が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Changed",
+          "file": "llm-gateway-protocol.md",
+          "text": "Claude Code v2.1.181以降、カスタムベースURL経由のリクエストの場合、会話のライフタイムを通じてブロックが安定するため、ゲートウェイ側のプロンプトキャッシュが機能するという説明が更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Changed",
+          "file": "mcp.md",
+          "text": "`claude mcp`コマンドの例が`github`から`notion`に変更され、コマンド成功時のメッセージとヘルスステータスの表示に関する説明が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Changed",
+          "file": "plugin-marketplaces.md",
+          "text": "マーケットプレイスのJSON構文検証に関するコマンドのパスが`.`を含む形に修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Changed",
+          "file": "plugin-relevance.md",
+          "text": "`relevance`および`relevance.signals`以下の不明なフィールドに関する警告を表面化するための`claude plugin validate`コマンドの使用例が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Changed",
+          "file": "plugins-reference.md",
+          "text": "プラグインの読み込みに関する一般的な問題の解決策において、`claude plugin validate`または`/plugin validate`コマンドのパスが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Changed",
+          "file": "plugins.md",
+          "text": "カスタムスキルを確認する際に`/help`コマンドの「Custom commands」タブを開くよう案内が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Improved",
+          "file": "prompt-caching.md",
+          "text": "プロンプトキャッシングがキャッシュされたトークンレートで課金されるという詳細が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Added",
+          "file": "remote-control.md",
+          "text": "リモートコントロールサーバ起動時に、現在のディレクトリにセッションを事前に作成するかどうかを制御する`--[no-]create-session-in-dir`オプションが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Added",
+          "file": "sessions.md",
+          "text": "ProまたはMaxプランで、100,000トークンを超える非アクティブなセッションをサマリーから再開できる機能が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Fixed",
+          "file": "settings.md",
+          "text": "`processWrapper`設定が、`--settings`ファイルとユーザー設定でのみ尊重されるよう修正され、環境変数`CLAUDE_CODE_PROCESS_WRAPPER`が優先されることが明記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Changed",
+          "file": "troubleshoot-install.md",
+          "text": "低メモリLinuxサーバーでのインストール失敗時の`Killed`メッセージに関する説明に、行番号とプロセスIDはリリースや実行によって異なるという補足が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Changed",
+          "file": "worktrees.md",
+          "text": "既存ブランチからworktreeを作成する際のコマンド例が、実際のブランチ名を示すように修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/33061e76640eaccc97e46c459cf69e6fdc91b632"
+        },
+        {
+          "tag": "Improved",
+          "file": "claude-code-on-the-web.md",
+          "text": "Claude Code on the webの概要が更新され、セッション管理、共有、プルリクエストの自動修正機能が強調されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cf8bd5707c7b425cb427e1a1e76a078a2e703fc6"
+        },
+        {
+          "tag": "Improved",
+          "file": "claude-security.md",
+          "text": "プラグインのインストール失敗時のトラブルシューティング手順が、より具体的なエラーメッセージに応じて改善されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cf8bd5707c7b425cb427e1a1e76a078a2e703fc6"
+        },
+        {
+          "tag": "Added",
+          "file": "cloud-environments.md",
+          "text": "クラウドセッションのネットワークアクセスレベル、環境変数、セットアップスクリプト、環境キャッシングの設定に関する新しいドキュメントが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cf8bd5707c7b425cb427e1a1e76a078a2e703fc6"
+        },
+        {
+          "tag": "Changed",
+          "file": "commands.md",
+          "text": "`/reload-plugins` コマンドが、MCPツールがロードされプロンプトキャッシュが無効になるような変更を適用する場合に警告し、`--force` オプションがない限りスキップするようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cf8bd5707c7b425cb427e1a1e76a078a2e703fc6"
+        },
+        {
+          "tag": "Fixed",
+          "file": "desktop.md",
+          "text": "デスクトップ版ドキュメントの誤字が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cf8bd5707c7b425cb427e1a1e76a078a2e703fc6"
+        },
+        {
+          "tag": "Changed",
+          "file": "env-vars.md",
+          "text": "`CLAUDE_CODE_DISABLE_LEGACY_MODEL_REMAP` 環境変数の説明が、Amazon Bedrock、Google Cloud's Agent Platform、Microsoft Foundryではモデルのリマップが実行されないことが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cf8bd5707c7b425cb427e1a1e76a078a2e703fc6"
+        },
+        {
+          "tag": "Improved",
+          "file": "errors.md",
+          "text": "TLS証明書の不一致に関するエラーの説明が、クラウドセッションに特化した表現に明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cf8bd5707c7b425cb427e1a1e76a078a2e703fc6"
+        },
+        {
+          "tag": "Fixed",
+          "file": "glossary.md",
+          "text": "「Surface」の定義におけるクラウドセッションへのリンクが修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cf8bd5707c7b425cb427e1a1e76a078a2e703fc6"
+        },
+        {
+          "tag": "Improved",
+          "file": "mobile.md",
+          "text": "Claude Code on the webでプルリクエストを監視し、CIの失敗やレビューコメントを自動修正する機能が明示されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cf8bd5707c7b425cb427e1a1e76a078a2e703fc6"
+        },
+        {
+          "tag": "Improved",
+          "file": "permission-modes.md",
+          "text": "Webおよびモバイルにおけるパーミッションモードの説明が、クラウドセッションでのデフォルト動作について明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cf8bd5707c7b425cb427e1a1e76a078a2e703fc6"
+        },
+        {
+          "tag": "Improved",
+          "file": "remote-control.md",
+          "text": "リモートコントロールセッションをリモートマシンで継続させるための条件について説明が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cf8bd5707c7b425cb427e1a1e76a078a2e703fc6"
+        },
+        {
+          "tag": "Improved",
+          "file": "routines.md",
+          "text": "ルーティンが自律的に実行されることの説明が、設定できるスコープと環境について明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cf8bd5707c7b425cb427e1a1e76a078a2e703fc6"
+        },
+        {
+          "tag": "Improved",
+          "file": "security.md",
+          "text": "Claude Code on the webにおけるセキュリティ機能の説明が、「クラウド環境」から「クラウドセッション」という用語に更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cf8bd5707c7b425cb427e1a1e76a078a2e703fc6"
+        },
+        {
+          "tag": "Added",
+          "file": "settings.md",
+          "text": "`prefersReducedMotion` 設定項目が追加され、アクセシビリティのためにUIアニメーションを削減または無効にする機能が提供されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cf8bd5707c7b425cb427e1a1e76a078a2e703fc6"
+        },
+        {
+          "tag": "Changed",
+          "file": "skills.md",
+          "text": "Coworkおよびクラウドセッションにおけるスキルに関する説明が、新しいcloud-environments.mdドキュメントへのリンクを含むように更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cf8bd5707c7b425cb427e1a1e76a078a2e703fc6"
+        },
+        {
+          "tag": "Changed",
+          "file": "ultraplan.md",
+          "text": "Ultraplanが使用するクラウド環境の説明が、新しいcloud-environments.mdドキュメントへのリンクを含むように更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cf8bd5707c7b425cb427e1a1e76a078a2e703fc6"
+        },
+        {
+          "tag": "Changed",
+          "file": "web-quickstart.md",
+          "text": "GitHub接続に関するセクションへのリンクが「connect-github-and-create-an-environment」から「connect-github」に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/cf8bd5707c7b425cb427e1a1e76a078a2e703fc6"
+        },
+        {
+          "tag": "Added",
+          "file": "claude-apps-gateway-config.md",
+          "text": "Claude Desktopのユーザーが同じゲートウェイを使用するための設定と要件が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/d5df8df48b58d972457da3b68596d04684e8081f"
+        },
+        {
+          "tag": "Improved",
+          "file": "claude-apps-gateway-deploy.md",
+          "text": "開発者のマシンにゲートウェイURLをプッシュする手順の説明が、より簡潔になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/d5df8df48b58d972457da3b68596d04684e8081f"
+        },
+        {
+          "tag": "Added",
+          "file": "claude-apps-gateway.md",
+          "text": "Claude Desktopを既存のゲートウェイに接続するための手順が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/d5df8df48b58d972457da3b68596d04684e8081f"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "2 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- Grok 4.5、GitHub Copilotで利用可能に\n  https://github.blog/changelog/2026-07-28-grok-4-5-is-now-available-in-github-copilot\n- JetBrains向けGitHub Copilot、OpenTelemetry設定とモデル管理を改善\n  https://github.blog/changelog/2026-07-27-github-copilot-for-jetbrains-adds-improvved-opentelemetry-configuration-and-model-management",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-07-29"
+    }
+  ]
+}
