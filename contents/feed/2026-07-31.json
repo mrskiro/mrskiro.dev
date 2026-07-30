@@ -1,0 +1,93 @@
+{
+  "fetchedAt": "2026-07-30T21:54:42.023Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Advancing the price-performance frontier with GPT-5.6",
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "summary": "OpenAIはより効率的なモデルにより、LunaとTerraのGPT-5.6の価格を下げ、企業がAIワークフローを大規模に展開できるように支援。",
+      "publishedAt": "2026-07-30",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/3YlohIkWAmTKqtreNc2Qwt/1ba93da6a8cb574aa0b299277874dbac/Frame__3_.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-31"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-07-31"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [877pt] Show HN: 2GB RAMのMシリーズMacでGemma 4 26Bを動かすオープンソースエンジン | MシリーズMacでのGemma 4動作に期待の声。一部ユーザーは古いmacOSでのコンパイル方法を共有。\n  https://news.ycombinator.com/item?id=49098510\n- [802pt] Vision Proの最もクールな活用法 | 建築設計での3D活用に高評価。過去のVR技術との比較や、将来的な配線トレースへの応用も期待される。\n  https://news.ycombinator.com/item?id=49102774\n- [757pt] Superlogical | Ghosttyの非営利団体への移管と、それを基盤とした新会社設立のモデルに注目が集まる。\n  https://news.ycombinator.com/item?id=49098965\n- [734pt] KOReader | UIの不満はあるものの、KindleやKoboでの読書体験向上を評価する声多数。Jailbreakでの利用を推奨。\n  https://news.ycombinator.com/item?id=49095865\n- [589pt] AIのトップスタートアップは研究論文をほとんど公開していない | AI研究論文の公開状況に関する議論。一部のスタートアップは論文公開を重視しているとの意見も。\n  https://news.ycombinator.com/item?id=49103285\n- [520pt] UEFAとその国内協会、FIFA主催大会への不参加を表明 | FIFAの腐敗体質に対する批判が多数。UEFAの決定を支持し、今後の動向に注目する声が多い。\n  https://news.ycombinator.com/item?id=49113929\n- [483pt] Kimi K3-256k | 256kコンテキストまでの大幅な値下げに驚きの声。GLMの改善に触れるコメントも。\n  https://news.ycombinator.com/item?id=49101852\n- [432pt] Keychron、ゲーミングマウス初のオープンソースファームウェアを発表 | QMKサポートの欠如を指摘する声や、発表とリリース時期のずれに懐疑的な意見が見られる。\n  https://news.ycombinator.com/item?id=49099715\n- [427pt] デモシーンのユーザーインターフェース | FastTracker IIなどのトラッカーUIの直感的さに懐かしさと賞賛の声が集まっている。\n  https://news.ycombinator.com/item?id=49093434\n- [424pt] 「VPNは合法的な技術ツールである」EU裁判所が著作権判決で表明 | VPNの合法性を支持する判決を評価。ただし、適用範囲が限定的であるとの懸念も。\n  https://news.ycombinator.com/item?id=49109440",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-07-31"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "13 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- 裁判官、Anthropicへの「サプライチェーンリスク」指定についてトランプ政権の証拠不足を指摘\n  https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/\n- 孤独なAIウェアラブル「Friend」、新たな音声と大幅な値上げで復活\n  https://techcrunch.com/2026/07/30/friend-the-lonely-ai-wearable-returns-with-a-new-voice-and-a-much-bigger-price-tag/\n- Google、AIのおかげで6月のChromeバグ修正数が過去2年間を上回ったと発表\n  https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/\n- LinkedIn、AI生成の「品質の低いコンテンツ」を報告するボタンを追加\n  https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/\n- 合成ユーザー系スタートアップSimile、シリーズAから5ヶ月で2億ドルの資金調達、評価額は20億ドルに\n  https://techcrunch.com/2026/07/30/synthetic-user-startup-simile-raises-200m-at-2b-valuation-5-months-after-100m-series-a/\n- Okta、AIセキュリティスタートアップPermisoを買収 – 関係者によると約2億ドル\n  https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/\n- 核融合スタートアップCommonwealth Fusion Systemsはいつ上場するのか？\n  https://techcrunch.com/2026/07/30/when-will-fusion-power-startup-commonwealth-fusion-systems-go-public/\n- Meta、AIが新アプリ開発を容易にしていると発表 – 今後も登場予定\n  https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/\n- Nscale、AIコンピューティングスタックのより多くの部分を所有するためAnyscaleを買収\n  https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack/\n- 核融合の寵児Commonwealth Fusion Systems、さらに10億ドルを調達\n  https://techcrunch.com/2026/07/30/fusion-power-darling-commonwealth-fusion-systems-raises-another-1b/\n- 最先端に配備されるエンジニア、AI業界が最も注目する最新の人材\n  https://techcrunch.com/2026/07/30/forward-deployed-engineers-are-the-ai-industrys-latest-talent-obsession/\n- Hugging Faceのデータ漏洩事件、OpenAIのハッカーは騒がしく素早かったが、止められないわけではなかった\n  https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable/\n- TechCrunch Disrupt 2026のメインステージにAmazon、Replit、Tetherのリーダーたちが登場、今後さらに多くの登壇者も\n  https://techcrunch.com/2026/07/30/techcrunch-disrupt-2026s-biggest-stage-features-leaders-from-amazon-replit-tether-with-much-more-to-come/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-07-31"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "The Economic Benefit of Refactoring",
+      "url": "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html",
+      "summary": "大規模関数の分解がトークンコスト削減に繋がるか実験し、リファクタリングの経済的利益測定の可能性を示唆。",
+      "publishedAt": "2026-07-30",
+      "ogImage": "https://martinfowler.com/articles/exploring-gen-ai/donkey-card.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Virre — キャリアとネットワークを管理するプライベート関係システム\n  https://www.producthunt.com/products/virre\n- AI Search Console — AI検索向けのプロンプト分析と引用マッピング\n  https://www.producthunt.com/products/ai-search-console\n- SKI — Claude Code、Codexなどに対応する無料の音声コーディングツール\n  https://www.producthunt.com/products/ski\n- Memmy Agent — すべてのAIがあなたを同じように記憶する\n  https://www.producthunt.com/products/memmy\n- Sorinai — 会議用インタラクティブAIメモ帳\n  https://www.producthunt.com/products/sorinai\n- Focus Room — YouTubeを個人の学習プラットフォームに変える\n  https://www.producthunt.com/products/focus-room\n- Cursor Crane — キーボードでMacを自在に操作\n  https://www.producthunt.com/products/cursor-crane\n- Laxis — 会議の議事録作成を効率化、4倍速で入力、リアルタイム翻訳も\n  https://www.producthunt.com/products/laxis-2\n- Premation — After EffectsのオープンソースAI代替ツール\n  https://www.producthunt.com/products/premation\n- Caimera — ファッションチーム向けAIビジュアル制作プラットフォーム\n  https://www.producthunt.com/products/caimera-2",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-07-31"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "4 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Lambda Robotics、AIインフラ向けロボティクスを発表\n  https://lambdarobotics.ai\n- OpenVector、あらゆるカメラをリアルタイム視覚でアクティブオペレーターに変えるAIを発表\n  https://openvector.com\n- Stoa、AIハードウェアの市場を構築\n  https://www.stoaexchange.com\n- Luca IQ、CPA向けAPIファースト税金計算ツールを提供開始\n  https://lucaiq.com/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-07-31"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web",
+      "url": "https://www.latent.space/p/ontologies-agentic-systems",
+      "summary": "LLMの確率的推論を制御するため、セマンティックウェブ技術であるオントロジーがAIエージェントのガードレールとして再評価されている。",
+      "publishedAt": "2026-07-30",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!180z!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F33011df5-c14f-4770-9b91-efa55618b6eb_1672x941.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] AI is eating Finance; AIE NYC now open ",
+      "url": "https://www.latent.space/p/ainews-ai-is-eating-finance-aie-nyc",
+      "summary": "金融分野でのAI活用が急速に進展し、OpenAIが研究者向けにフロンティアモデルへの無料アクセスを提供開始、一方でKimi K3が効率的な推論性能とローカル環境での実行可能性を示した。",
+      "publishedAt": "2026-07-30",
+      "ogImage": "https://substackcdn.com/image/youtube/w_728,c_limit/L1hB6Nz16Fw"
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "3 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- Visual Studio向け「GitHub Copilot」が7月アップデート\n  https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update\n- リモート制御、管理対象デバイスに限定可能に\n  https://github.blog/changelog/2026-07-30-limit-remote-control-to-managed-devices\n- Visual Studio Code向け「GitHub Copilot」2026年7月リリース\n  https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-code-july-2026-releases",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-07-31"
+    }
+  ]
+}
