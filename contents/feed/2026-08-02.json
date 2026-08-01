@@ -1,0 +1,115 @@
+{
+  "fetchedAt": "2026-08-01T21:41:03.130Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "url": "https://openai.com/index/ten-advances-in-mathematics",
+      "summary": "OpenAIが、数学と理論計算機科学の未解決問題における新たな進展を発表。",
+      "publishedAt": "2026-08-01",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/5RUlCTeEvzWYd2DDpdcNgh/f38e144bf6f5911074b1939c1528ed2b/Frame__4_.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- 【メガトレンド】アプリの山 - 2026年7月\n  https://www.reddit.com/r/macapps/comments/1uknpm8/megathread_the_app_pile_july_2026/\n- r/MacAppsのモデレーターはやりすぎた！変更点について（フェーズ3）\n  https://www.reddit.com/r/macapps/comments/1ryaeex/rmacapps_mods_went_too_far_whats_changing_phase_3/\n- RAD Weatherは、予報の食い違いをバグではなく機能として扱うMacアプリ（無料）。天気アプリでは珍しい、追加機能の生涯オプションも\n  https://www.reddit.com/r/macapps/comments/1vcteyf/rad_weather_is_a_real_mac_app_free_that_treats/\n- PilotCut: CapCutとFinalCut Proに不満を感じて、独自のMacビデオエディタを開発。AIエージェントによるカットを可能に。ChatGPT Codex / Claude Codeでビデオ編集するためのツール\n  https://www.reddit.com/r/macapps/comments/1vct27z/pilotcut_i_got_massfrustrated_with_capcut_and/\n- よく使うPopclip拡張機能は何ですか？\n  https://www.reddit.com/r/macapps/comments/1vcko2h/which_popclip_extensions_do_you_use_most/\n- DedupX 1.6.0 - Macで完全一致および類似する重複ファイルを検出（写真ライブラリも含む）\n  https://www.reddit.com/r/macapps/comments/1vcx5ky/dedupx_160_find_exact_and_similar_duplicates_on/\n- Foyer: メニューバーから周囲に配置するアンビエントサウンド\n  https://www.reddit.com/r/macapps/comments/1vchjt0/foyer_ambient_sound_you_place_around_yourself/\n- ショートカットアプリの通知をカスタマイズする方法はありますか？\n  https://www.reddit.com/r/macapps/comments/1vcuber/is_there_a_way_to_customize_the_shortcuts_apps/\n- Flyout - 画面の端から飛び出すノートパネル。リアルなコードブロックと行レベルのリマインダー付き\n  https://www.reddit.com/r/macapps/comments/1vcyczu/flyout_a_notes_panel_that_flies_out_from_your/\n- Celebrity Dev Software: TMOG — あなたのマシン全体をひと目で把握。\n  https://www.reddit.com/r/macapps/comments/1vc7a0n/celebrity_dev_software_tmog_your_whole_machine_at/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-08-02"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-08-02"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1562pt] エレベーター | エレベーターの待ち時間や混雑に対する不満が多く、効率的なアルゴリズムや「エレベーターサガ」というゲームが話題になっている。\n  https://news.ycombinator.com/item?id=49124218\n- [758pt] 持ち運べないセッション | AIモデル間の依存性や移植性の低さについて懸念が示されており、オープンソースのPiのような代替案に期待が寄せられている。\n  https://news.ycombinator.com/item?id=49118781\n- [723pt] DeepSeek-V4-Flashのアップデート | DeepSeek-V4-Flashのコストパフォーマンスと能力向上を評価する声が多く、日々のタスクやエージェント利用での実例が挙げられている。\n  https://news.ycombinator.com/item?id=49119559\n- [645pt] qm – 作業のためのマルチプレイヤーエージェントハーネス | 「マルチプレイヤー」という表現への疑問や、具体的な使用例を示す動画への要望が見られ、エージェント間の協調作業における課題が議論されている。\n  https://news.ycombinator.com/item?id=49126604\n- [589pt] TailscaleはHugging Faceへの侵入を止められなかった | Tailscaleが自社のセキュリティツールとしての責任を強調しつつ、Hugging Faceの侵入に関する透明性の高い対応に称賛の声が集まっている。\n  https://news.ycombinator.com/item?id=49127306\n- [576pt] DeepSeek V4 Flash 0731の性能、価格分析 | DeepSeek V4 Flash 0731が既存モデルやGPTを凌駕する性能を持ち、低コストで提供されることに驚きと期待の声が寄せられている。\n  https://news.ycombinator.com/item?id=49120299\n- [551pt] Google、AIのおかげで過去2年間のChromeのバグを6月に多く修正 | AIによるバグ修正の信頼性や、C++開発の根本的な問題に対する疑問が提起されており、AIが新たなバグを生み出す可能性も懸念されている。\n  https://news.ycombinator.com/item?id=49120097\n- [426pt] 時代の終わり | AIによる執筆の進歩について、印刷機との類似性が指摘されており、読者がAI生成作品をどう受け入れるかについて議論が展開されている。\n  https://news.ycombinator.com/item?id=49121980\n- [390pt] 数学と理論計算機科学における10の進歩 | AIが高度な数学の問題を解決できるようになったことへの驚きと称賛の声が多く、GitHubでLeanの形式化が公開されたことが注目されている。\n  https://news.ycombinator.com/item?id=49132058\n- [373pt] AIの美学 | AIが生み出すデザインの画一性や特定の美的傾向への意見があり、AIがデザインへの興味を促す一方で、デザイナー間の模倣も指摘されている。\n  https://news.ycombinator.com/item?id=49117099",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-08-02"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "6 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- 判事がxAIの申し立てを棄却、Minnesota州の「nudify」アプリ禁止が継続へ\n  https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/\n- YouTuberのHank Green氏、AIの使用は「健全ではない」と語る\n  https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/\n- Sam Altman氏、ChatGPTによる育児の可能性を改めて主張\n  https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/\n- 9ドルの物理キーで、中毒性のあるアプリをロック\n  https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps/\n- OpenAI、エージェントの暴走を示すさらなる証拠を発見か\n  https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/\n- シリコンバレーが若手創業者を愛する理由と、その変化\n  https://techcrunch.com/2026/07/31/build-in-public-fail-in-public-what-its-like-to-be-a-founder-under-20-right-now/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-08-02"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)",
+      "url": "https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-entries",
+      "summary": "LLMにツールを連携させるプロトコルMCPの新しい「ステートレス」版が公開され、実装が簡素化され、より安全にエージェント開発ができるようになった。",
+      "publishedAt": "2026-08-01",
+      "ogImage": "https://raw.githubusercontent.com/simonw/til/refs/heads/main/llms/claude-add-custom-connector-dialog.webp"
+    },
+    {
+      "sourceName": "laiso",
+      "title": "2026年7月のニュースレター運用ふりかえり",
+      "url": "https://blog.lai.so/2026-07/",
+      "summary": "有料会員向けにAI開発者向けニュースレターを配信し、AIエージェントやモデル、開発ツールに関する情報を一次情報へのリンク付きで提供している。",
+      "publishedAt": "2026-08-01",
+      "ogImage": null
+    },
+    {
+      "sourceName": "laiso",
+      "title": "AI開発者ニュース #16: Luna値下げ、YC QM",
+      "url": "https://blog.lai.so/2026-08-01/",
+      "summary": "OpenAIがGPT-5.6 LunaとTerraの価格を大幅に引き下げ、競合他社の軽量モデルよりも安価な価格帯で提供を開始し、同時にFast modeも導入した。",
+      "publishedAt": "2026-08-01",
+      "ogImage": null
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- AgentMicro — macOSのメニューバーでCodexのタスク状況をライブ表示\n  https://www.producthunt.com/products/agentmicro\n- NudgeForMe — 逃したメールの機会をAIがフォローアップ\n  https://www.producthunt.com/products/nudgeforme\n- DeepSeek-V4-Flash-0731 — 最先端のAIをFlash価格で提供\n  https://www.producthunt.com/products/deepseek\n- Port22 — Claude Code、Codexなどをスマホで\n  https://www.producthunt.com/products/port22\n- Terminal Candy — スキンやテーマをカスタマイズできるネイティブmacOSターミナル\n  https://www.producthunt.com/products/terminal-candy\n- EssayKraft — MacとiPad向けネイティブエッセイ作成アプリ\n  https://www.producthunt.com/products/essaykraft\n- Kopai — あなたの専門知識を共有し、AIエージェントに収益化を任せよう\n  https://www.producthunt.com/products/kopai-the-marketplace-for-ai-agents\n- Tandem — AIネイティブなオフィスリース仲介サービス\n  https://www.producthunt.com/products/tandem-11\n- Yamanote 3D — 東京の山手線を3Dで体験\n  https://www.producthunt.com/products/yamanote-3d\n- Basedash Audit Logs — BIツールでのあらゆる操作を記録\n  https://www.producthunt.com/products/basedash",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-08-02"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "1 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Amorphic Labs、AIエージェントでセールス向けにパーソナライズされた製品デモ動画を生成\n  https://www.amorphiclabs.com",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-08-02"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-038",
+      "summary": "DeepSeekがV4-FlashのAPIとオープンウェイトを公開し、性能向上と低コストでGPT-5.6に迫る競争力を見せた。",
+      "publishedAt": "2026-08-01",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!1adH!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHOiugSLbQAAck-3.jpg"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "2 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-08-02",
+      "docsUpdates": [
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__agent-loop.md",
+          "text": "エージェントがツールを使用する前に承認を求めるかどうかを制御する許可モードのオプションが変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/8135520c1025ba88d04cb33eb3c5620d815a993d"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__quickstart.md",
+          "text": "人間の監視レベルを制御するパーミッションモードに関するセクションが削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/8135520c1025ba88d04cb33eb3c5620d815a993d"
+        }
+      ]
+    }
+  ]
+}
