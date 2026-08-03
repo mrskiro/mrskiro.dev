@@ -1,0 +1,77 @@
+{
+  "fetchedAt": "2026-08-03T21:55:07.246Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "summary": "AIと連続した音声対話ができる、低遅延で自然な会話を実現する新機能が登場。",
+      "publishedAt": "2026-08-03",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/yTlvMCvVXsIfkU2OOi99f/157c83857ebe75544195add9e1f75039/gpt-live-responsive-seo-card.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-08-04"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-08-04"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1650pt] AI時代の「肉の代理人」になるな | AIが生成した長文を人間が要約する仕事に疲弊しているという声が多く、AI利用による人間の退化を懸念する意見も。\n  https://news.ycombinator.com/item?id=49151933\n- [1030pt] Qwen3.8-Max: コーディングと共同作業における新たな基準 | AIのコーディング能力の進化に圧倒される開発者や、今後のAIモデルが単一言語に特化することへの期待が見られる。\n  https://news.ycombinator.com/item?id=49150470\n- [685pt] SQLiteの重大なCVEsか、それともLLMの誤報か？ | LLMによる誤った脆弱性報告がシステムを混乱させ、信頼性を損なうことを懸念する意見が多数。\n  https://news.ycombinator.com/item?id=49154332\n- [604pt] Karpathy氏のPelican | AIによる3Dモデル生成の品質が低いという指摘と、それがAIの理解度を測る新たなベンチマークになるという見解が混在。\n  https://news.ycombinator.com/item?id=49140998\n- [435pt] 開発ツールはオープンソースであるべき | 開発ツールのオープンソース化に賛同する意見が多いが、現実的な課題や理想論に過ぎないという懐疑的な声も。\n  https://news.ycombinator.com/item?id=49156111\n- [361pt] 多くのドイツ人以上にドイツ的 | ドイツでの良い経験や、移住者としての生活に満足しているという共感の声が多く、ドイツの極右勢力の台頭への懸念も。\n  https://news.ycombinator.com/item?id=49151734\n- [360pt] Go 1.27 インタラクティブツアー | Go言語の新たな機能に対する認知的な複雑さへの懸念と、標準ライブラリの安定性や改善を評価する声が上がっている。\n  https://news.ycombinator.com/item?id=49140218\n- [348pt] ウィキメディア財団、組合承認を拒否し、組合潰し弁護士を雇う | ウィキメディア財団の行動に対する批判や、寄付金の使途への疑問、そして慈善団体における組織問題への懸念が表明されている。\n  https://news.ycombinator.com/item?id=49143414\n- [347pt] AIの金融アドバイスは驚くほど優れている、特に適切な質問をすれば | AIによる金融アドバイスの有効性に肯定的な意見が多いが、その将来的な持続性や広告化への懸念も指摘されている。\n  https://news.ycombinator.com/item?id=49139102\n- [344pt] 数学と理論計算機科学における10の進歩 | AIの進歩が数学や科学に与える影響の大きさに驚きと期待が寄せられ、その実用的な応用への関心も高い。\n  https://news.ycombinator.com/item?id=49157930",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-08-04"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "10 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- AWS、バイブコーディングのスタートアップSuperblocksを支援、その影響は大きい\n  https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/\n- デザインツール「Design Arena」開発元、AIモデルに「センス」をもたらすため790万ドルを調達\n  https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/\n- インフルエンサーがOpenAI初の豪華旅行に参加し批判殺到\n  https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/\n- Apple、ついにSiriを改善。なぜか盛り上がりに欠ける理由とは\n  https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/\n- Outernet、保存した投稿を現実世界での冒険に変える\n  https://techcrunch.com/2026/08/03/outernet-turns-your-saved-posts-into-real-world-adventures/\n- SequoiaのShaun Maguire氏、原子核スタートアップValar Atomicsの10億ドル調達ラウンドを主導\n  https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/\n- Base Power、家庭用蓄電池で電力網を救うためさらに10億ドルを調達\n  https://techcrunch.com/2026/08/03/base-power-raises-another-1b-to-save-the-grid-using-backyard-batteries/\n- 議会のお気に入りAIツールはChatGPT\n  https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/\n- AIの脅威が拡大する中、Horizon3がシリーズEで2億5000万ドルを調達、評価額は20億ドルに\n  https://techcrunch.com/2026/08/03/horizon3-hits-2-billion-valuation-with-250m-series-e-as-ai-threats-escalate/\n- Marc Benioff氏が出資するスタートアップ、AIがAIの導入問題を解決できると考える\n  https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-08-04"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Inventory — あらゆるAIエージェントとIDEの会話を検索\n  https://www.producthunt.com/products/inventory\n- Open Minis — スマホで動くオンデバイスAIエージェント、オープンでセキュア\n  https://www.producthunt.com/products/open-minis\n- The Garden of Mind — 潜在意識を育てる3D庭園、毎日水やり\n  https://www.producthunt.com/products/the-garden-of-mind\n- CoachAI — iPhoneカメラがフォームをチェック、レップごとに指導\n  https://www.producthunt.com/products/coachai-fitness-coach\n- AgentSky — どんなハーネスでも、どんなLLMでも対応、クラウドホスト型エージェントをオンデマンドで\n  https://www.producthunt.com/products/agentsky\n- yapyap — あなたの声を取り戻す。ローカル優先の音声・会議レコーダー\n  https://www.producthunt.com/products/yapyap-3\n- claudemon — Claudeのコードを待っている間に野生のポケモンが出現\n  https://www.producthunt.com/products/claudemon\n- Ctruh Studio — コーディング不要でインタラクティブな3D・XR体験を制作\n  https://www.producthunt.com/products/ctruh-studio\n- Appllama — 高収益iOSアプリの25,000以上の画面を研究\n  https://www.producthunt.com/products/appllama\n- PassiveShorts — TikTokとYouTube向けAI顔出しなし動画ジェネレーター\n  https://www.producthunt.com/products/passiveshorts",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-08-04"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "3 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Omanta — 個人のための研究ラボ\n  https://omanta.com/\n- Rasyn — 化学分野における汎用AIへの挑戦\n  https://www.rasyn.ai/\n- Caution — ハッキングされたくないソフトウェアのためのホスティングプラットフォーム\n  https://caution.co",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-08-04"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+      "url": "https://www.latent.space/p/inference-eng",
+      "summary": "Basetenのエンジニアが、新しい大規模言語モデルの高速化と安定化に関する推論最適化の課題と最先端技術について語った。",
+      "publishedAt": "2026-08-04",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!IohL!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F209198968%2F6b756e14-9a18-4975-8d64-399d863f7af2%2Ftranscoded-1785525129.png"
+    },
+    {
+      "sourceName": "Agentic Engineering",
+      "title": "2 Updates",
+      "url": "https://github.com/software-mansion/agentic-engineering",
+      "summary": "- 文書の最終改訂日を「July 2026」から「August 2026」に修正\n  https://github.com/software-mansion/agentic-engineering/commit/2f7b14bb0230dceff8c6dccb42c209e838acca2d\n- `ampcode.com`の退役したAmpウォークスルーへのリンクを削除\n  https://github.com/software-mansion/agentic-engineering/commit/ea38e7282cb1599a3ae117fdd48df67f5c0bc492",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-08-04"
+    }
+  ]
+}
