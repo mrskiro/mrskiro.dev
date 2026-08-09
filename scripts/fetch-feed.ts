@@ -960,6 +960,7 @@ const jinaNames = new Set([
   "laiso",
   "mtx2s",
   "Latent Space",
+  "JSer.info",
 ]);
 
 const digestOgImages: Record<string, string> = {
