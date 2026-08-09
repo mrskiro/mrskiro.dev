@@ -1,0 +1,83 @@
+{
+  "fetchedAt": "2026-08-09T21:18:50.073Z",
+  "entries": [
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "- [メガ・スレッド] アプリの山 - 2026年8月\n  https://www.reddit.com/r/macapps/comments/1vd3plb/megathread_the_app_pile_august_2026/\n- r/MacAppsのモデレーターが行き過ぎた行動に！何が変わるのか（フェーズ3）\n  https://www.reddit.com/r/macapps/comments/1ryaeex/rmacapps_mods_went_too_far_whats_changing_phase_3/\n- Resurfが完全ネイティブ化：Macアプリを全面的に書き直し、iPhone/iPad版も登場しiCloud同期に対応。ローカルファーストは維持\n  https://www.reddit.com/r/macapps/comments/1vjob1n/resurf_is_now_fully_native_i_rewrote_the_whole/\n- Spotica Menu v6がApp Storeで配信開始\n  https://www.reddit.com/r/macapps/comments/1vjws1h/spotica_menu_v6_is_now_available_on_the_app_store/\n- アプリ比較スプレッドシートに「Finder代替アプリ」を追加してほしい\n  https://www.reddit.com/r/macapps/comments/1vjfq9b/can_we_get_finder_alternatives_added_to_the_app/\n- 「右クリックで開く」がmacOS 2バージョン前から機能しなくなった\n  https://www.reddit.com/r/macapps/comments/1vji0lm/just_right_click_and_open_stopped_working_two/\n- [OS] OpenASO — AIを活用したApp Store調査でアプリの発見をサポート\n  https://www.reddit.com/r/macapps/comments/1vixrwi/os_openaso_aipowered_app_store_research_to_help/\n- 音声入力アプリを作りました。Macユーザーの皆さん、問題点を教えてください [3ヶ月無料プレゼント]\n  https://www.reddit.com/r/macapps/comments/1vjykmp/i_built_a_voice_typing_app_and_need_mac_users_to/\n- AutoshelfのMCPサーバーは不要、ルールエンジンも弱い - レビュー\n  https://www.reddit.com/r/macapps/comments/1vjkxzl/autoshelf_has_an_mcp_server_you_probably_dont/\n- 全てのMacのフォルダが同じに見えるのに飽きたので、Flairyを作った\n  https://www.reddit.com/r/macapps/comments/1vi15u4/i_got_tired_of_every_mac_folder_looking_the_same/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-08-10"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-08-10"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [846pt] 「コードは決して難しい部分ではなかった」という言葉は、プログラマーへの侮辱である | 「コードは難しくない」という主張は、プログラマーのスキルやビジネス構築の複雑さを過小評価しているとの反論が多数。\n  https://news.ycombinator.com/item?id=49222189\n- [612pt] デンマークの高校生、レポート課題の口頭弁論が必須に | AIによる不正行為対策として口頭弁論の復活を評価する声や、デンマークの伝統的な教育方法だとの意見が寄せられている。\n  https://news.ycombinator.com/item?id=49224294\n- [493pt] FastmailがEUデータリージョンを提供開始 | EUユーザーからは歓迎の声がある一方で、米国の監視からの完全な保護にはならないという懸念も示されている。\n  https://news.ycombinator.com/item?id=49223082\n- [490pt] 「Mea Culpa – Dark Hours」開発者が謝罪 | AIによる剽窃と虚偽の説明について、開発者の釈明に疑念を抱く声や、謝罪が不十分だとの批判が目立つ。\n  https://news.ycombinator.com/item?id=49231154\n- [479pt] 私のサーバーは今や電話です | 「私の電話はサーバーになった」という表現の方が適切では、というタイトルに関する言語学的議論が多い。古くなったスマホをサーバーにするというアイデア自体は好評。\n  https://news.ycombinator.com/item?id=49226636\n- [432pt] DeepMindの気象モデルWeatherNext、サイクロン予測で画期的な成果を達成 | LLM以外の問題特化型AIモデルの重要性を指摘する声や、その実用性、社会への良い影響を評価するコメントが多い。\n  https://news.ycombinator.com/item?id=49220126\n- [426pt] 売り出し中のDNSレコードを示す「_for-sale」 | ドメインの商標権侵害のリスクや、ジョージ主義に基づくドメイン管理方法の提案など、ドメイン名の売買に関する議論が展開されている。\n  https://news.ycombinator.com/item?id=49221668\n- [414pt] OpenAIによるHugging Faceへの意図せざる攻撃のタイムライン | AIエージェントの自律的な連携と、人間を模倣した行動がSFのようだという驚きの声が多数。\n  https://news.ycombinator.com/item?id=49220609\n- [399pt] Nixpkgsのコアチームが解散 | コアチーム解散はNixpkgの終焉を意味するものではないとの説明があるものの、コミュニティの運営体制の課題を指摘する声が目立つ。\n  https://news.ycombinator.com/item?id=49217993\n- [373pt] NASA、ボイジャー2号の運用をさらに1年延長する方法を発見 | 遠隔からの困難な修復作業や、ボイジャー計画の継続的な努力に対する賞賛の声が多数を占める。\n  https://news.ycombinator.com/item?id=49218179",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-08-10"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "6 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- 苦境のヘッジファンド Situational Awareness、チップ開発の Source Foundry に4億ドル投資\n  https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/\n- Anthropic、Claude Code の自動モードをデフォルト設定に\n  https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/\n- 歴史家 Jill Lepore 氏、シリコンバレーはSFを誤解し民主主義を損なっていると批判\n  https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/\n- AIの安全性テストが新たなリスクに？\n  https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/\n- かつての歓楽街が今や世界有数のAIハブに\n  https://techcrunch.com/2026/08/09/this-former-notorious-red-light-district-is-now-one-of-the-worlds-top-ai-hubs/\n- Amazonのデータセンター計画、米国最大の気候汚染源になる可能性\n  https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-08-10"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- ConferenceGrid — B2Bチーム向け会議データベース\n  https://www.producthunt.com/products/conferencegrid\n- Good Assistant 2 — 人生目標を日々の進捗に変える\n  https://www.producthunt.com/products/good-assistant\n- Workflo — 画面に触れないMacワークスペース自動化ツール\n  https://www.producthunt.com/products/workflo-2\n- radiusHQ — スケジュール管理の煩雑さを解消するワンリンク\n  https://www.producthunt.com/products/radiushq\n- SoloUno — 抜毛、爪噛み、皮膚むしりをやめる\n  https://www.producthunt.com/products/solouno\n- VoiceOS App Store — ノッチに収まる音声ネイティブアプリのストア\n  https://www.producthunt.com/products/voiceos\n- Prompt Golf — スポーツとしてのプロンプトエンジニアリング\n  https://www.producthunt.com/products/prompt-golf\n- DocsAlot CLI — ClaudeやCodexが美しいドキュメントを生成・管理\n  https://www.producthunt.com/products/docsalot-2\n- AgentConnect — どこからでもあらゆるエージェントにタグ付け\n  https://www.producthunt.com/products/agentconnect\n- Persodex — iOS連絡先と連携するパーソナルCRM\n  https://www.producthunt.com/products/persodex-contacts-with-context-for-ios",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-08-10"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "3 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Mosaic、マルチプレイヤーAIの最前線を定義\n  https://mosaic.inc\n- Pacific、地球上および宇宙の過酷な環境向けマイクロデータセンターを発表\n  https://gopacific.ai/\n- Erinys、AIネイティブ法律事務所のネットワークを初構築\n  https://erinys.ai",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-08-10"
+    },
+    {
+      "sourceName": "GitHub Trending",
+      "title": "Weekly Trending",
+      "url": "https://github.com/trending?since=weekly",
+      "summary": "- firecrawl/pdf-inspector：PDF検査、分類、テキスト抽出のための高速Rustライブラリ。スキャン済みPDFとテキストベースPDFをインテリジェントに検出し、スマートなルーティング決定を可能にする。 ⭐8,846/week\n  https://github.com/firecrawl/pdf-inspector\n- zhaoxuya520/reverse-skill：リバースエンジニアリング/認定侵入テスト/セキュリティ研究スキルルーターパック。AIによるルーティング+オンデマンドのツールチェーンブートストラップ+自己進化する知識ベース。Claude Code、Kiro、Cursor、Cline、その他のAIコーディングクライアントをサポート。 ⭐9,635/week\n  https://github.com/zhaoxuya520/reverse-skill\n- TencentCloud/TencentDB-Agent-Memory：TencentDB Agent MemoryはAIエージェント向けのチームレベルのメモリハブで、会話、ドキュメント、コードを4つの再利用可能なメモリ資産（チャットメモリ、スキル、LLM-Wiki、コードグラフ）に変換し、エージェントやフレームワーク全体で管理、共有、利用可能にする。 ⭐8,046/week\n  https://github.com/TencentCloud/TencentDB-Agent-Memory\n- lyogavin/airllm：単一の4GB GPUでAirLLM 70B推論。 ⭐5,711/week\n  https://github.com/lyogavin/airllm\n- esengine/DeepSeek-Reasonix：DeepSeekネイティブのターミナル用AIコーディングエージェント。プレフィックスキャッシュの安定性を中心に設計されており、実行しっぱなしにできる。 ⭐4,704/week\n  https://github.com/esengine/DeepSeek-Reasonix\n- microsoft/AI-For-Beginners：12週間、24レッスン、すべての人にAIを！ ⭐7,469/week\n  https://github.com/microsoft/AI-For-Beginners\n- usekaneo/kaneo：🎯 必要なものすべて。不要なものは何もない。あなたに有利に働く、オープンソースのプロジェクト管理。 ⭐2,259/week\n  https://github.com/usekaneo/kaneo\n- virgiliojr94/book-to-skill：任意の技術書PDFをClaude Codeスキルに変換し、学習、参照、作業中の使用に備える。 ⭐4,071/week\n  https://github.com/virgiliojr94/book-to-skill\n- google/skills：Google製品とテクノロジー向けのエージェントスキル。 ⭐1,143/week\n  https://github.com/google/skills\n- unclebob/swarm-forge：複数のAIエージェントを調整するためのシンプルなツール。 ⭐504/week\n  https://github.com/unclebob/swarm-forge",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-08-10"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "2 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-08-10",
+      "docsUpdates": [
+        {
+          "tag": "Improved",
+          "file": "env-vars.md",
+          "text": "環境変数`CLAUDE_CODE_ENABLE_FINE_GRAINED_TOOL_STREAMING`について、Microsoft Foundryおよびgateway接続ではデフォルトでオフであることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/70d810787aad409263f3630b80294e134850e146"
+        },
+        {
+          "tag": "Improved",
+          "file": "interactive-mode.md",
+          "text": "プロンプトの提案を完全に無効にする方法として、環境変数に加え、設定ファイルでの設定と`/config`でのトグルが選択肢として追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/70d810787aad409263f3630b80294e134850e146"
+        }
+      ]
+    }
+  ]
+}
