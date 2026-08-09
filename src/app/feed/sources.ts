@@ -32,6 +32,7 @@ export const sources = [
   { name: "Martin Fowler", url: "https://martinfowler.com/feed.atom" },
   { name: "laiso", url: "https://blog.lai.so/rss/" },
   { name: "mtx2s", url: "https://mtx2s.hatenablog.com/rss" },
+  { name: "JSer.info", url: "https://jser.info/rss/" },
   // TODO: Product Hunt — GraphQL API (upvote順) を使いたいがダッシュボードにアクセスできずトークン未取得。RSSで代替中
   { name: "Product Hunt", url: "https://www.producthunt.com/feed" },
   { name: "Anthropic", url: "https://www.anthropic.com/news" },
