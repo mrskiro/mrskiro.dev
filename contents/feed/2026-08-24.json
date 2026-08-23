@@ -1,0 +1,107 @@
+{
+  "fetchedAt": "2026-08-23T21:09:22.953Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.241",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.241",
+      "summary": "- [Fixed] バグ修正と信頼性の向上",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-08-23"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-08-24"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-08-24"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [673pt] カナダ、貿易交渉決裂で米国関税に「ドル建てで対抗」 | カナダの対抗措置を評価する声や、EUや日本の対応を批判する声がある。貿易戦争にうんざりしているという意見も。\n  https://news.ycombinator.com/item?id=49397074\n- [645pt] ソフトウェアがもはや遅い理由はない | Webリクエストの待ち時間が原因だという意見や、スーパーオプティマイゼーションに関する言及、40年前と比べて体感速度が変わらないという意見も。\n  https://news.ycombinator.com/item?id=49395628\n- [547pt] 266ドルと4つのAIモデルを使い、GLM-5.3が1日でタブレットをハッキング | AIモデルの能力を評価する声が多い。AIが書いたような記事の内容に不満を示す意見や、AIによるハードウェアのリバースエンジニアリングに期待する声も。\n  https://news.ycombinator.com/item?id=49409073\n- [477pt] ElevenLabs、TwelveLabs、ThirteenLabs | 「Labs」という名前の類似企業やドメインについて言及するコメントが多く、記事の筆者も登場し、サーバーダウンについてコメントしている。\n  https://news.ycombinator.com/item?id=49400408\n- [464pt] なぜローカルLLMは実際よりも賢くないと感じるのか | LLM出力に影響を与える様々な要素や、ローカルでのQwen 3.8 27Bの動作を称賛する声、量子化の注意点について議論されている。\n  https://news.ycombinator.com/item?id=49402232\n- [408pt] スクラップ (2006) | スクラップ回収業者の体験談について、ピッツバーグの現状や、こうしたブログ記事の形式を懐かしむ声、貧困と怠惰の関係についての議論がある。\n  https://news.ycombinator.com/item?id=49402189\n- [401pt] より良い書き手になるには、できるだけ多く読むこと | 読書が重要という意見に賛同する声が多い一方で、「書くこと」こそが重要だという反論も出ている。文章は模倣的であるという意見も。\n  https://news.ycombinator.com/item?id=49405870\n- [306pt] スロバキア、交通監視カメラからロシアのバックドアを発見 | 政府調達デバイスのオープンソースファームウェアを求める声や、スロバキアの親ロシア的な政治姿勢、カメラの供給元に関する議論がされている。\n  https://news.ycombinator.com/item?id=49409200\n- [303pt] Munder Difflin – クローンのオフィスを運営するエージェントハーネス | The Officeのテーマ設定を評価する声や、筆者本人からのコメント、エージェントシステムの現状や課題についての議論が活発。\n  https://news.ycombinator.com/item?id=49398152\n- [288pt] Qwen 3.8 27Bにリバースエンジニアリングを依頼したところ、30分で完了した | AIモデルによるリバースエンジニアリングの成功を驚く声が多いが、タスクの難易度に関する意見や、ローカルモデルの「拒否機能」への不満も出ている。\n  https://news.ycombinator.com/item?id=49407507",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-08-24"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "6 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- 新型「ステルスモデル」Ox Alpha、その開発元は？\n  https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/\n- Linkdazeのスマートカレンダーは家庭運営を支援、単なるスケジュール管理を超越\n  https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/\n- 監視企業のFlock、CEOが「妥協」を呼びかけ　批判の高まりを受け\n  https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/\n- 著作権のある書籍でAIモデルを学習させるのは合法か？ 複雑な問題\n  https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/\n- Walmart傘下のFlipkart、ローンチ2年でインドのクイックコマース大手と肩を並べる\n  https://techcrunch.com/2026/08/22/two-years-after-launch-walmarts-flipkart-is-closing-in-on-indias-quick-commerce-leaders/\n- Harvard、699ドルのスタートアップブートキャンプで講師のAIアバターを提供\n  https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-08-24"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Tab Notes — ブラウザの新しいタブを集中できるメモ帳に変えよう\n  https://www.producthunt.com/products/tab-notes\n- Yatko — GitHubが追加し忘れたダウンロードボタン\n  https://www.producthunt.com/products/yatko\n- Claude Academy — Anthropic公式の学習ハブ\n  https://www.producthunt.com/products/claude-academy\n- Yattayo — 物理的なスライダー式ToDoボードを忠実に3Dで再現\n  https://www.producthunt.com/products/yattayo\n- KanaSensei — 2週間で日本語の仮名を読めるようになろう\n  https://www.producthunt.com/products/kanasensei\n- Construct Computer — AI同僚がPCを獲得。あなたは自分の時間を取り戻す。\n  https://www.producthunt.com/products/construct-computer\n- Plask — Apple Watchでアヒルの子たちが潜水深度を表示\n  https://www.producthunt.com/products/plask-3\n- OpenLogi — Logitech Options+に代わるローカル優先の選択肢\n  https://www.producthunt.com/products/openlogi\n- Aximote — あなたの車のデータが、ついにポケットの中に\n  https://www.producthunt.com/products/aximote\n- FetchSandbox MCP — AIの統合修正が機能することを証明するMCP\n  https://www.producthunt.com/products/fetchsandbox",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-08-24"
+    },
+    {
+      "sourceName": "GitHub Trending",
+      "title": "Weekly Trending",
+      "url": "https://github.com/trending?since=weekly",
+      "summary": "- modular/modular：Modular Platform（MAX & Mojoを含む） ⭐2,017/week\n  https://github.com/modular/modular\n- harry0703/MoneyPrinterTurbo：AIモデルと自動ワークフローで、トピックやキーワードからHDショートビデオをワンクリック生成。 ⭐10,953/week\n  https://github.com/harry0703/MoneyPrinterTurbo\n- basecamp/omarchy：美しく、モダンで、意見のあるLinux。 ⭐3,151/week\n  https://github.com/basecamp/omarchy\n- AprilNEA/OpenLogi：⚡️Rustで書かれたLogitech Options+のネイティブなローカルファースト代替品—HID++経由でボタン、DPI、SmartShiftを再マッピング。アカウント、テレメトリなし。 ⭐4,993/week\n  https://github.com/AprilNEA/OpenLogi\n- cordiverse/cordis：時空間コンポーザビリティのメタフレームワーク。 ⭐3,364/week\n  https://github.com/cordiverse/cordis\n- volcengine/OpenViking：AIエージェント向けの自己進化型コンテキストデータベース。エージェントのメモリ、知識RAG、スキルを統合。 ⭐3,447/week\n  https://github.com/volcengine/OpenViking\n- public-apis/public-apis：無料APIの集合リスト。 ⭐9,381/week\n  https://github.com/public-apis/public-apis\n- jundot/omlx：Apple Silicon向けの連続バッチ処理とSSDキャッシングを備えたLLM推論サーバー—macOSメニューバーから管理。 ⭐1,597/week\n  https://github.com/jundot/omlx\n- akitaonrails/ai-memory：エージェントコーディングCLIの長期記憶ソリューションであり、異なるエージェントベンダー間のハンドオフを容易にする。 ⭐2,575/week\n  https://github.com/akitaonrails/ai-memory\n- anthropics/claude-plugins-community：Claude CoworkおよびClaude Codeのコミュニティプラグインマーケットプレイス。読み取り専用ミラー—プラグインはclau.de/plugin-directory-submissionで提出。 ⭐341/week\n  https://github.com/anthropics/claude-plugins-community",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-08-24"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "5 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-08-24",
+      "docsUpdates": [
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "Claude Codeのドキュメントにchangelog.mdを追加し、2026年8月23日時点の変更履歴を記載しました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/449e1e9bb5b2be29859f00f95810e3336e5cf6e6"
+        },
+        {
+          "tag": "Changed",
+          "file": "changelog.md",
+          "text": "ドキュメントの変更履歴に、2026年8月23日のClaude Codeドキュメント更新が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/67e65e351502747b10c9555ff5ee9c96f54fc726"
+        },
+        {
+          "tag": "Improved",
+          "file": "claude-apps-gateway.md",
+          "text": "Claude Apps Gatewayのアーキテクチャ図が更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a532d1d7110267f8b0fc54cc66ef81f6825d614c"
+        },
+        {
+          "tag": "Improved",
+          "file": "plugins-reference.md",
+          "text": "設定ソースの優先順位に関する説明が明確化され、ユーザー設定のみがCLIフラグで無効にできる唯一のソースであることが追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a532d1d7110267f8b0fc54cc66ef81f6825d614c"
+        },
+        {
+          "tag": "Added",
+          "file": "whats-new__2026-w33.md",
+          "text": "2026年8月10日〜14日の週33の更新として、デスクトップ版の利用制限後の自動続行、forkモードのデフォルト有効化、GitLabマージリクエストとマーケットプレイスのサポートが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a532d1d7110267f8b0fc54cc66ef81f6825d614c"
+        },
+        {
+          "tag": "Added",
+          "file": "whats-new__2026-w34.md",
+          "text": "2026年8月17日〜21日の週34の更新として、/designスキル（編集可能なUIアートボードのドラフト機能）、簡潔な出力スタイル、および電話からのClaude Codeセッション開始機能が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a532d1d7110267f8b0fc54cc66ef81f6825d614c"
+        }
+      ]
+    }
+  ]
+}
