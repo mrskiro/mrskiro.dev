@@ -1,0 +1,255 @@
+{
+  "fetchedAt": "2026-09-02T22:52:29.060Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.259",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
+      "summary": "- [Added] managedMcpServers managed設定を追加：組織はHTTP/SSE MCPサーバーをすべてのユーザーに提供できるようになりました（.mcp.jsonと同じエントリ形式）。コマンド名を指定するエントリはスキップされます。\n- [Added] 無人ヘッドレスホスト向けに --permission-prompts none を追加：プロンプトが表示されるものは自動的に拒否され、アクティブなパーミッションモード（自動モードを含む）が決定し続けます。\n- [Added] glab mr create/merge/close/reopen/note/update の認識を追加し、GitLabのマージリクエストが折りたたまれたツール概要にMR !Nとして表示され、フッターのMRバッジが更新されるようになりました。\n- [Added] Claude plugin validate に --json を追加し、機械可読な検証レポートを出力できるようになりました。\n- [Fixed] 複数セッションで ~/.claude.json の変更が同時に行われると、変更がサイレントに元に戻ってしまう問題を修正しました。ワークスペースの信頼がリセットされなくなり、多数のセッションを同時に実行してもMCP/プロジェクトの状態が失われなくなりました。\n- [Fixed] 思考が一度拒否された会話が、その後のすべてのターンで再度拒否される問題を修正しました。\n- [Fixed] Bash Read() の拒否ルールが、オプション値として指定されたファイル（--ignore-revs-file=.env, -f.env, @file）、git diff/git grep のファイルオペランド、または cd DIR && cat FILE の結合をカバーしていなかった問題を修正しました。拒否されたファイルを保持するディレクトリに対する grep -r/cp -r は、現在、確認を求めます。\n- [Fixed] テレメトリーが無効なセッションでOAuthトークンが更新されると、プロンプトキャッシュが無効になる問題を修正しました。\n- [Fixed] 数百のツール呼び出しを伴う長いターンの後、フルスクリーンモードで空白の会話が表示される問題を修正しました。\n- [Fixed] コマンドまたはスキルのフロントマターで model: が指定された場合、自動モードがサポートしていないモデルでターンを実行する問題を修正しました。現在はセッションモデルを維持します。\n- [Fixed] CLAUDE_CODE_MAX_CONTEXT_TOKENS が、Claude Codeが認識しないモデルバージョンのVertex形式のモデルID（@YYYYMMDDサフィックス）で無視される問題を修正しました。\n- [Fixed] 実行中のシェルコマンドのライブ出力プレビューで、以前の行が折り返された場合に最新の行が隠れてしまう問題を修正しました。\n- [Fixed] claude.aiユーザー向けに、起動ごとに実行されていたバックグラウンドのGitHub接続チェックを修正しました。結果は起動間で記憶されるようになりました。\n- [Fixed] 保存されたセッションにペイロードのないアタッチメントエントリが含まれている場合、--resumeが失敗し（--continueが空の会話を開いてしまう）、問題を修正しました。\n- [Fixed] インタラクティブセッションでカスタムコマンドおよびスキルのフロントマター model: が無視される問題を修正しました。\n- [Fixed] 以前のバージョンから継続された会話で、「unexpected parameter note」エラーによりアーティファクトの公開が一度失敗する問題を修正しました。\n- [Fixed] MDMまたは管理設定ファイルによって構成されたポリシーヘルパーが既に実行されていた場合、起動時に managed forceRemoteSettingsRefresh が無視される問題を修正しました。\n- [Fixed] git rev-parse が「not a git repository」以外のメッセージで失敗するマシンで、worktree isolation がフックで作成されたworktreeを拒否する問題を修正しました。\n- [Fixed] クラウドセッションからのOpenTelemetryのメトリクスとイベントに user.email、organization.id、および user.account_uuid 属性が欠落していた問題を修正しました。\n- [Fixed] 起動時にツールがリストされている間にMCPサーバーが切断された場合、エラーを報告せずにツールなしで接続されていると表示される問題を修正しました。\n- [Fixed] ファイル編集パーミッションダイアログで、変更された行が途中で切れて表示され、その旨を示す表示がなかった問題を修正しました。\n- [Fixed] 一時的なgitプローブの失敗の後、認識されたリポジトリIDが失われる問題を修正しました。\n- [Fixed] 管理設定ファイル、ドロップイン、MDM plist、またはHKLM値が解析できない場合、管理設定がサイレントに適用されなくなる問題を修正しました。Claude Codeは起動を拒否し、原因となるソースを報告するようになりました。\n- [Fixed] リモートコントロールセッションで、Stopがバックグラウンドエージェントとワークフローを実際に停止しない問題を修正しました。停止されたタスクは、プロセスが終了するまで表示され、再停止可能になりました。\n- [Fixed] ワークフローの実行を再開した際に、以前に停止された実行がまだ終了途中だった場合、エージェントの重複コピーが実行される可能性があった問題を修正しました。\n- [Fixed] github.com 上のマーケットプレイスリポジトリURLに末尾のスラッシュや宙ぶらりんの ?/# があると、使用できない .git クローンURLが生成される問題を修正しました。\n- [Fixed] ブロッキングStopフックが、ブロック後のターンでモデルの推論を失い、一部のモデルではプロンプトキャッシュを逃す原因となっていた問題を修正しました。\n- [Fixed] ブラウザホスト型MCPサーバーのページが閉じた後、リモート（claude.ai）セッションがターンを開始するまでに60秒かかっていた問題を修正しました。\n- [Fixed] worktree-isolatedセッションが、メインチェックアウトに到達できない一般的なBashループ、xargsパイプライン、およびランチャーラップされたコマンドを拒否する問題を修正しました。\n- [Improved] 長い応答のターミナルリサイズと初回レンダリングパフォーマンスを、テキスト測定を再利用することで改善しました。\n- [Improved] /workflows エージェントの詳細を改善しました。JSONの結果は構文色と実際の改行で整形され、長い結果は展開トグルで折りたたまれるようになりました。\n- [Improved] ヘッドレス/SDKセッションの開始を改善しました。MCPサーバーの接続が完了すると、最初のターンが最大50ms早く開始されるようになりました。\n- [Improved] /install-github-app を改善し、GitHub専用であることを説明し、GitLabリポジトリ内で実行された場合にGitLab CI/CDドキュメントへのリンクを表示するようにしました。\n- [Improved] ネストされたバックグラウンドサブエージェントの結果が親サブエージェントのトランスクリプトに保存されるように改善しました。これにより、再開されたサブエージェントはそれらを保持し、共有トランスクリプトには配信が表示されます。\n- [Changed] allowedMcpServers はユーザーが追加するサーバーのみを管理するように変更されました。以前の許可リストによってフィルタリングされていたリテラルの managed-mcp.json サーバーは、アップグレード時にロードされるようになりました。それを無効にするには deniedMcpServers を使用してください。\n- [Added] [VSCode] セッションリストサイドバーにActiveクイックフィルターとステータスフィルターメニュー（Needs input, Working, Completed）を追加しました。\n- [Fixed] コネクタツールのパーミッションプロンプトがセッションが一時停止中に承認された後、リモートおよびスケジュールされたセッションが何も行わない問題を修正しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-09-03"
+    },
+    {
+      "sourceName": "r/MacApps",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/MacApps/hot/",
+      "summary": "",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-09-03"
+    },
+    {
+      "sourceName": "r/ClaudeAI",
+      "title": "Hot Topics",
+      "url": "https://www.reddit.com/r/ClaudeAI/hot/",
+      "summary": "- r/ClaudeAI、最新ディスカッションハブ一覧\n  https://www.reddit.com/r/ClaudeAI/comments/1vt5drr/list_of_latest_discussion_hubs_on_rclaudeai/\n- Fable 5.1とMythos 5.1のリリースに関するディスカッションハブ\n  https://www.reddit.com/r/ClaudeAI/comments/1w4qgue/fable_51_and_mythos_51_release_discussion_hub/\n- Fable 5.1が20ドルでMinecraft Modを作成\n  https://www.reddit.com/r/ClaudeAI/comments/1w5ftqe/fable_51_made_a_minecraft_mod_for_20/\n- Fable 5.1 Maxが提示したローカルセットアップガイドが最も合理的だった\n  https://www.reddit.com/r/ClaudeAI/comments/1w54tww/fable_51_max_gave_me_the_most_reasonable_local/\n- MineBenchにおけるFable 5とFable 5.1の違い\n  https://www.reddit.com/r/ClaudeAI/comments/1w5fh39/differences_between_fable_5_and_fable_51_on/\n- MetaがMuse Spark 1.3をリリース、Fable 5と同等の性能で入力10セント、出力20セント/100万トークン\n  https://www.reddit.com/r/ClaudeAI/comments/1w5mbo4/meta_releases_muse_spark_13_matching_fable_5_w_10/\n- Anthropicへ、Fableをプロプランに戻してほしい！\n  https://www.reddit.com/r/ClaudeAI/comments/1w5c2xe/anthropic_we_want_fable_back_into_the_pro_plan/\n- プロンプトインジェクションに引っかかるところだった\n  https://www.reddit.com/r/ClaudeAI/comments/1w57t43/well_i_almost_got_prompt_injected/\n- Max 20購読者：Fable 5.1を使ってみて、使用量を使い果たしOpus 5に戻した感想\n  https://www.reddit.com/r/ClaudeAI/comments/1w5jupu/max_20_subscriber_having_worked_with_fable_51/\n- Fable 5.1は驚異的で、使用量が爆発的に増えたが問題ない。AnthropicはOpus 5.1を完璧にする必要がある\n  https://www.reddit.com/r/ClaudeAI/comments/1w5ai3j/fable_51_is_insane_and_it_burned_usage_which_is/",
+      "ogImage": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+      "publishedAt": "2026-09-03"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1373pt] Claude Fable 5.1とClaude Mythos 5.1を発表 | 新しいClaudeモデルのFable 5.1は、ベンチマークだけでなくライティングスタイルも大幅に改善されたと高評価。\n  https://news.ycombinator.com/item?id=49525378\n- [927pt] Firefoxを使い続けよう | Firefoxはブラウザエンジンの多様性と競争を維持する最後の希望であり、高品質な広告ブロッカーへのアクセスが支持されている。\n  https://news.ycombinator.com/item?id=49527748\n- [907pt] AnkiDroid: Google PlayがOpen Collectiveの寄付リンクを許可せず | Googleが非課税寄付のリンクを制限する動きに対し、過去の事例を挙げ批判的な声が多い。\n  https://news.ycombinator.com/item?id=49520022\n- [837pt] Ed ZitronのAI懐疑論的予測はどれほど正確だったか？ | 彼の予測に対する解釈の多様性や、メディアにおける正確性の重要性について議論が交わされている。\n  https://news.ycombinator.com/item?id=49526069\n- [834pt] Fastpotify | Spotifyアプリのバグや遅さに対する不満の声が多く、代替となるサードパーティ製プレイヤーやセルフホスティングに注目が集まっている。\n  https://news.ycombinator.com/item?id=49517448\n- [755pt] Gemini 3.8 Flashと3.8 Flash Cyber | Gemini 3.8 FlashのHTML/JavaScript処理能力と速度が高く評価されており、マルチモーダルサポートも注目されている。\n  https://news.ycombinator.com/item?id=49537553\n- [661pt] LWNの購読価格に関するお知らせ | LWNはテック系出版物として高い評価を受けており、ユーザー資金による運営と改善点が好意的に受け止められている。\n  https://news.ycombinator.com/item?id=49535752\n- [650pt] 1.5時間で学習させた小さなトランスフォーマーが多くのLLMを凌駕 | 著者が自身の発見について解説しており、LLMのサンプル非効率性に対する疑問が提起されている。\n  https://news.ycombinator.com/item?id=49519939\n- [566pt] iOS版Firefox向け広告ブロッカーが登場 | YouTube広告や検索広告をブロックしない点、一部ユーザーにまだ展開されていない点について不満の声が上がっている。\n  https://news.ycombinator.com/item?id=49521973\n- [546pt] PlayストアがAuroraStoreをブロックし、GrapheneOSユーザーに影響 | AuroraStoreのブロックはGrapheneOSユーザーだけでなく、Googleサービスを排除した他のデバイスにも影響すると指摘されている。ただし、GrapheneOSはPlayストアの使用を推奨しているとの意見もある。\n  https://news.ycombinator.com/item?id=49523754",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-09-03"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "11 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Palo Alto Networks、Consoleを5億ドルで買収か\n  https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/\n- TechCrunch Disrupt 2026にNvidia、ロボット、絶滅動物が登場 – 新設の「Real World AI Stage」\n  https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/\n- OpenAIの新推論技術にAI安全性専門家が警鐘\n  https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/\n- PangramのMax Spero氏、AI検出が「本物か偽物か」より難しい理由を語る\n  https://techcrunch.com/video/pangrams-max-spero-on-why-ai-detection-is-harder-than-real-or-fake/\n- 米政府、著作権素材によるLLM学習問題でOpenAIを支持\n  https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/\n- Wonderful、半年足らずで企業価値が2倍以上に – 50億ドルに到達\n  https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/\n- インドの大富豪、旧型PCをAI対応PCに変革する計画を発表\n  https://techcrunch.com/2026/09/02/indias-richest-man-now-wants-to-turn-aging-computers-into-ai-ready-pcs/\n- HiddenLayer、AI導入を保護したい企業の需要増で1億ドルを調達\n  https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/\n- 【注意喚起】AmazonのショッピングAI、詐欺メッセージを識別可能に\n  https://techcrunch.com/2026/09/02/psa-amazons-shopping-ai-can-now-tell-you-if-that-message-is-a-scam/\n- Adobe、インドの市場インテリジェンススタートアップRiloを買収\n  https://techcrunch.com/2026/09/02/adobe-acquires-indian-market-intelligence-startup-rilo/\n- OpenAI、Tumbler Ridge銃撃事件に関連しさらに30件の訴訟に直面\n  https://techcrunch.com/2026/09/02/openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting/",
+      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "publishedAt": "2026-09-03"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+      "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
+      "summary": "AnthropicはClaudeのシステムプロンプトを公開し、著作権のある歌詞や画像の生成禁止、ユーザーへの対応方針などを更新した。",
+      "publishedAt": "2026-09-02",
+      "ogImage": "https://static.simonwillison.net/static/2026-09-01/IMG_7797.jpeg"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "Claude Fable 5.1 made me a really nice animated pelican",
+      "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+      "summary": "AnthropicのClaude Fable 5.1は、特に科学分野のベンチマークで高い性能を示し、推論レベルを上げることでより詳細な応答を生成するが、コストと時間が大幅に増加する。",
+      "publishedAt": "2026-09-02",
+      "ogImage": "https://static.simonwillison.net/static/2026/fable-5.1-max.webp"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Bliki: Paracelsus Maxim",
+      "url": "https://martinfowler.com/bliki/ParacelsusMaxim.html",
+      "summary": "プログラミングにおけるグローバルデータのように、何事も量と状況次第で良し悪しが決まるという話。",
+      "publishedAt": "2026-09-03",
+      "ogImage": "https://martinfowler.com/logo-sq.png"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "An Accidental Blackboard",
+      "url": "https://martinfowler.com/articles/exploring-gen-ai/an-accidental-blackboard.html",
+      "summary": "ある実験で、AIエージェントに自律的なエンジニアリングをさせたら、誤ってGitリポジトリ内に情報共有システムを構築してしまった。",
+      "publishedAt": "2026-09-02",
+      "ogImage": "https://martinfowler.com/articles/exploring-gen-ai/donkey-card.png"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Maybe We Shouldn't Be Reviewing All This Code",
+      "url": "https://martinfowler.com/rachels-ramblings/code-review.html",
+      "summary": "AIによるコード生成量増加に伴い、コードレビューの本来の目的と手法を見直す時期に来ているという議論。",
+      "publishedAt": "2026-09-02",
+      "ogImage": "https://martinfowler.com/rachels-ramblings/card.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Parasocial — 共有できるポッドキャストプレイヤー\n  https://www.producthunt.com/products/parasocial\n- Basedash AI Sources — 根拠を明示し、AIの回答への信頼性を向上\n  https://www.producthunt.com/products/basedash\n- Userlens — プロダクトの導入を促進するAIエージェント\n  https://www.producthunt.com/products/userlens\n- OpenClaw 2.0 — 実用的なAI\n  https://www.producthunt.com/products/openclaw-formerly-clawdbot\n- Doop — AIエージェントと共同でデザイン、リアルタイム編集に対応\n  https://www.producthunt.com/products/doop\n- Dynamic Edge — Windows版Dynamic Island\n  https://www.producthunt.com/products/dynamic-edge\n- deepeye by deepidv — ブラウザ上で動作するディープフェイク検出ツール\n  https://www.producthunt.com/products/deepidv\n- Dial — AIエージェントに電話番号を10秒で付与\n  https://www.producthunt.com/products/dial-3\n- Onset MCP — AIアシスタントがリリースノートの作成・公開を支援\n  https://www.producthunt.com/products/onset-io\n- RoundOS — 無料のDocsend代替サービス\n  https://www.producthunt.com/products/roundos-data-room",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-09-03"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Developing Enterprise Frontier Safeguards with our customers",
+      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "summary": "Anthropicが、機密データを持つ企業向けに、顧客がデータ管理と監視を自社クラウドで行える新しいAIモデル保護機能「Enterprise Frontier Safeguards (EFS)」を発表。",
+      "ogImage": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20City&backgroundColor=sky",
+      "publishedAt": "2026-09-02"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "1 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Orca Aerospace、AI搭載の自律型宇宙船オペレーターを開発\n  https://orcaaerospace.com/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-09-03"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+      "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+      "summary": "Anthropicがコードや知識作業に特化した最新モデル「Claude Fable 5.1」と「Claude Mythos 5.1」をリリースし、キャッシュ読み取り価格の75%削減により長時間の作業コストを抑えつつ、ベンチマーク性能を向上させたが、一部ユーザーからはレート制限や安全機能による誤検出が指摘されている。",
+      "publishedAt": "2026-09-02",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!-NFa!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2094843261470793728.jpg"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "20 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "publishedAt": "2026-09-03",
+      "docsUpdates": [
+        {
+          "tag": "Improved",
+          "file": "agent-view.md",
+          "text": "バックグラウンドセッションの環境変数設定が、そのディレクトリ内のすべてのバックグラウンドセッションに適用されることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/9503624747596232dffc68cb350f20ede1f4c282"
+        },
+        {
+          "tag": "Improved",
+          "file": "cross-session-messaging.md",
+          "text": "チームメイト（エージェントチームのメンバー）が、v2.1.239より前にすでにメッセージの送信対象として認識されていたことが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/9503624747596232dffc68cb350f20ede1f4c282"
+        },
+        {
+          "tag": "Fixed",
+          "file": "desktop-ios-simulator.md",
+          "text": "iOSシミュレータペインがZero Data Retention (ZDR)を有効にしているEnterprise組織では利用できないという記述が削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/9503624747596232dffc68cb350f20ede1f4c282"
+        },
+        {
+          "tag": "Improved",
+          "file": "llm-gateway-connect.md",
+          "text": "シェルからのみゲートウェイをエクスポートした場合、バックグラウンドエージェントには確実に到達しないため、設定ファイルの使用が推奨されることが強調されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/9503624747596232dffc68cb350f20ede1f4c282"
+        },
+        {
+          "tag": "Added",
+          "file": "output-styles.md",
+          "text": "VS Code拡張機能でコマンドメニューから出力スタイルを選択する機能が追加され、カスタムスタイルも利用可能になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/9503624747596232dffc68cb350f20ede1f4c282"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__agent-loop.md",
+          "text": "Claudeが適用する推論量を制御する`effort`オプションのレベルと推奨用途に関する情報が更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/01501ea390542c10d102e341d696d56375539a40"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__custom-tools.md",
+          "text": "ツール結果の`content`配列でサポートされるブロックの種類に関する説明が改善され、TypeScriptとPythonのSDKの動作の違いが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/01501ea390542c10d102e341d696d56375539a40"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__python.md",
+          "text": "`CLAUDE_CODE_MAX_RETRIES`環境変数の最大APIリトライ回数と、`CLAUDE_CODE_RETRY_WATCHDOG=1`設定時の動作について説明が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/01501ea390542c10d102e341d696d56375539a40"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__typescript.md",
+          "text": "`resolveSettings()`スナップショットがライブセッションとは異なり、プロジェクトおよびローカル設定からの`defaultMode: 'auto'`を無視しないという説明が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/01501ea390542c10d102e341d696d56375539a40"
+        },
+        {
+          "tag": "Improved",
+          "file": "env-vars.md",
+          "text": "`CLAUDE_AFK_TIMEOUT_MS`環境変数の挙動に関する説明が改善され、以前のバージョンとの違いが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/01501ea390542c10d102e341d696d56375539a40"
+        },
+        {
+          "tag": "Improved",
+          "file": "hooks-guide.md",
+          "text": "フックが`bypassPermissions`モードを設定する際の前提条件に関する注記が改善されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/01501ea390542c10d102e341d696d56375539a40"
+        },
+        {
+          "tag": "Improved",
+          "file": "hooks.md",
+          "text": "`setMode`で`bypassPermissions`が有効になる条件に関する注記が改善されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/01501ea390542c10d102e341d696d56375539a40"
+        },
+        {
+          "tag": "Changed",
+          "file": "keybindings.md",
+          "text": "確認コンテキストで利用可能なアクションのテーブルが更新され、デフォルトキーバインディングの記述形式が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/01501ea390542c10d102e341d696d56375539a40"
+        },
+        {
+          "tag": "Changed",
+          "file": "permission-modes.md",
+          "text": "セッション開始時のパーミッションモードの決定順序において、設定ファイルでの`permissions.defaultMode: \"auto\"`の扱いの説明が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/01501ea390542c10d102e341d696d56375539a40"
+        },
+        {
+          "tag": "Fixed",
+          "file": "permissions.md",
+          "text": "BashまたはPowerShellのパーミッションプロンプトで`Ctrl+E`を押してコマンドの説明を表示する機能に関する記述が削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/01501ea390542c10d102e341d696d56375539a40"
+        },
+        {
+          "tag": "Fixed",
+          "file": "settings-example.md",
+          "text": "`allowManagedPermissionRulesOnly`と`allowManagedMcpServersOnly`のリンクが修正され、設定リファレンスへの正しい参照が示されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/01501ea390542c10d102e341d696d56375539a40"
+        },
+        {
+          "tag": "Improved",
+          "file": "settings.md",
+          "text": "設定した値が無視される場合のトラブルシューティングの項目に、「ファイルがその値を設定できない」という原因が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/01501ea390542c10d102e341d696d56375539a40"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-teams.md",
+          "text": "`CLAUDE_CODE_SUBAGENT_MODEL_FORCE`がサブエージェントだけでなくチームメイトにも適用されることが追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/15160a448b084c98dd2437aff01db9d4fe0ea9ae"
+        },
+        {
+          "tag": "Fixed",
+          "file": "changelog.md",
+          "text": "macOS 12 (Monterey) での起動失敗と、リモート/スケジュールセッションで発生していた「user messages must have non-empty content」エラーが修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/15160a448b084c98dd2437aff01db9d4fe0ea9ae"
+        },
+        {
+          "tag": "Improved",
+          "file": "sub-agents.md",
+          "text": "Exploreエージェントのモデルが、`CLAUDE_CODE_SUBAGENT_MODEL`を強制しない限り、現在のセッションで選択したモデルよりも高価なモデルで実行されないという説明が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/15160a448b084c98dd2437aff01db9d4fe0ea9ae"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "2 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- 企業管理設定で任意のデフォルトモデルをサポート\n  https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model\n- CopilotアプリとCLIでコンテンツ除外機能が一般提供開始\n  https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-09-03"
+    }
+  ]
+}
