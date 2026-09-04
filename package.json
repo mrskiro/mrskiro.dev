@@ -9,7 +9,7 @@
     "feed:fetch": "node scripts/fetch-feed.ts",
     "format": "oxfmt .",
     "format:check": "oxfmt --check .",
-    "lint": "oxlint",
+    "lint": "oxlint --deny-warnings --report-unused-disable-directives",
     "lint:fix": "oxlint --fix --fix-suggestions --fix-dangerously",
     "start": "next start",
     "test": "vitest run",
