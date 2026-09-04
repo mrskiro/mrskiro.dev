@@ -70,11 +70,7 @@ const parseSummaryLines = (summary: string) => {
   return items;
 };
 
-export default async function Page({
-  searchParams,
-}: {
-  searchParams: Promise<{ source?: string }>;
-}) {
+export default async function Page({ searchParams }: PageProps<"/feed">) {
   const { source } = await searchParams;
   const batches = await loadBatches();
 

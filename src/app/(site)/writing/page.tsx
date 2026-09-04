@@ -1,26 +1,11 @@
 import type { Metadata } from "next";
 
-import { readdir } from "fs/promises";
 import Link from "next/link";
+
+import { getPosts } from "@/lib/posts";
 
 export const metadata: Metadata = {
   title: "Writing",
-};
-
-const getPosts = async () => {
-  const files = await readdir("contents/writing");
-  const posts = await Promise.all(
-    files
-      .filter((file) => file.endsWith(".mdx"))
-      .map(async (file) => {
-        const slug = file.replace(/\.mdx$/, "");
-        const { frontmatter } = await import(`contents/writing/${slug}.mdx`);
-        return { slug, frontmatter: frontmatter as { title: string; date: string } };
-      }),
-  );
-  return posts.sort(
-    (a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime(),
-  );
 };
 
 export default async function Page() {

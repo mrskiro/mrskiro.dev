@@ -1,37 +1,31 @@
 import type { Metadata } from "next";
 
-import { readdir } from "fs/promises";
 import Link from "next/link";
 import { Suspense } from "react";
+
+import { getPost, getSlugs } from "@/lib/posts";
 
 import { Tategaki } from "./tategaki";
 import { WritingModeSwitch } from "./writing-mode-switch";
 
-type Props = {
-  params: Promise<{ slug: string }>;
-};
+type Props = PageProps<"/writing/[slug]">;
 
 export const generateMetadata = async ({ params }: Props): Promise<Metadata> => {
   const { slug } = await params;
-  const { frontmatter } = await import(`contents/writing/${slug}.mdx`);
+  const { frontmatter } = await getPost(slug);
   return {
     title: frontmatter.title,
     description: frontmatter.description,
   };
 };
 
-export const generateStaticParams = async () => {
-  const files = await readdir("contents/writing");
-  return files
-    .filter((file) => file.endsWith(".mdx"))
-    .map((file) => ({ slug: file.replace(/\.mdx$/, "") }));
-};
+export const generateStaticParams = () => getSlugs().map((slug) => ({ slug }));
 
 export const dynamicParams = false;
 
 export default async function Page({ params }: Props) {
   const { slug } = await params;
-  const { default: Post, frontmatter } = await import(`contents/writing/${slug}.mdx`);
+  const { default: Post, frontmatter } = await getPost(slug);
 
   return (
     <div>
