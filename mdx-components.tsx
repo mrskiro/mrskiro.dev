@@ -57,6 +57,7 @@ const components: MDXComponents = {
   ),
   img: (props) => (
     <img
+      alt=""
       className="group-data-[tategaki]/tategaki:max-h-[calc(100dvh-12rem)] group-data-[tategaki]/tategaki:w-auto"
       {...props}
     />
