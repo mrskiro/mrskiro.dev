@@ -40,8 +40,8 @@ importers:
         version: 5.2.0
     devDependencies:
       '@mrskiro/oxlint-config':
-        specifier: 0.5.0
-        version: 0.5.0(oxlint@1.81.0)
+        specifier: 0.6.2
+        version: 0.6.2(oxlint@1.81.0)
       '@tailwindcss/postcss':
         specifier: 4.3.3
         version: 4.3.3
@@ -463,8 +463,8 @@ packages:
       '@types/react': '>=16'
       react: '>=16'
 
-  '@mrskiro/oxlint-config@0.5.0':
-    resolution: {integrity: sha512-g3aNzrZ3EENXrrQhax5vlntZQBPs6p6xs8MgJgOnjyAxAoJ9S3mzLKyt2uuX69Wz6x/RDhzpSAuwOXVEszbnDQ==}
+  '@mrskiro/oxlint-config@0.6.2':
+    resolution: {integrity: sha512-GPn0tbK8+ZkVyqi4WgzejC1jDyNRQetDjbXOPNkfpNbLKA7vDqHNscaATy9NdjrqEp5Y9ce38YZcb3xNK47F+A==}
     peerDependencies:
       oxlint: '>=1.42.0'
 
@@ -2507,7 +2507,7 @@ snapshots:
       '@types/react': 19.2.18
       react: 19.2.8
 
-  '@mrskiro/oxlint-config@0.5.0(oxlint@1.81.0)':
+  '@mrskiro/oxlint-config@0.6.2(oxlint@1.81.0)':
     dependencies:
       oxlint: 1.81.0
 

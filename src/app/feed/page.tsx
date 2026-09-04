@@ -142,6 +142,7 @@ export default async function Page({ searchParams }: PageProps<"/feed">) {
                                 {updates.map((u, i) => (
                                   <li
                                     key={`${u.commitUrl}-${i}`}
+                                    // oxlint-disable-next-line @mrskiro/oxlint-rules/no-tailwind-arbitrary-value -- レイアウト固有のグリッド定義。トークン化しても値の言い換えにしかならない
                                     className="grid grid-cols-[64px_1fr_auto] items-baseline gap-2 text-sm leading-relaxed"
                                   >
                                     <span
@@ -168,6 +169,7 @@ export default async function Page({ searchParams }: PageProps<"/feed">) {
                     ) : digestSources.has(entry.sourceName) ? (
                       <article
                         key={entry.url}
+                        // oxlint-disable-next-line @mrskiro/oxlint-rules/no-tailwind-arbitrary-value -- レイアウト固有のグリッド定義。トークン化しても値の言い換えにしかならない
                         className="grid grid-cols-[80px_1fr] gap-3 border-b border-neutral-100 py-4 md:grid-cols-[96px_1fr] md:gap-4"
                       >
                         {entry.ogImage ? (
@@ -202,6 +204,7 @@ export default async function Page({ searchParams }: PageProps<"/feed">) {
                     ) : (
                       <article
                         key={entry.url}
+                        // oxlint-disable-next-line @mrskiro/oxlint-rules/no-tailwind-arbitrary-value -- レイアウト固有のグリッド定義。トークン化しても値の言い換えにしかならない
                         className="grid grid-cols-[80px_1fr] gap-3 border-b border-neutral-100 py-4 md:grid-cols-[96px_1fr] md:gap-4"
                       >
                         {entry.ogImage ? (
