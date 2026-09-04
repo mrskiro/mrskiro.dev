@@ -55,7 +55,7 @@ const formatDate = new Intl.DateTimeFormat("sv-SE", {
   timeZone: "Asia/Tokyo",
 });
 
-const parser = new XMLParser({ ignoreAttributes: false });
+const parser = new XMLParser({ ignoreAttributes: false, htmlEntities: true });
 
 const extractImage = (item: Record<string, unknown>): string | undefined => {
   const media = item["media:content"] as Record<string, unknown> | undefined;
