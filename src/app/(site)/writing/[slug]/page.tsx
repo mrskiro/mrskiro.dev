@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Suspense } from "react";
 
-import { getPost, getSlugs } from "@/lib/posts";
+import { getPost, getSlugs } from "@/utils/posts";
 
 import { Tategaki } from "./tategaki";
 import { WritingModeSwitch } from "./writing-mode-switch";

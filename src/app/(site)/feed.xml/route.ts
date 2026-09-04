@@ -1,4 +1,4 @@
-import { getPosts } from "@/lib/posts";
+import { getPosts } from "@/utils/posts";
 
 export const dynamic = "force-static";
 

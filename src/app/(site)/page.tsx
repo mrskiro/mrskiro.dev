@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { getPosts } from "@/lib/posts";
+import { getPosts } from "@/utils/posts";
 
 const projects = [
   {

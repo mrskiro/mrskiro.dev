@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-import { getPosts } from "@/lib/posts";
+import { getPosts } from "@/utils/posts";
 
 const BASE_URL = "https://mrskiro.dev";
 
