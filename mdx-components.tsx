@@ -45,13 +45,13 @@ const components: MDXComponents = {
   ),
   pre: (props) => (
     <pre
-      className="mbe-4 overflow-x-auto bg-[#f6f6f6] p-4 text-sm leading-relaxed group-data-[tategaki]/tategaki:[writing-mode:horizontal-tb]"
+      className="mbe-4 overflow-x-auto bg-code-bg p-4 text-sm leading-relaxed group-data-[tategaki]/tategaki:[writing-mode:horizontal-tb]"
       {...props}
     />
   ),
   code: (props) => (
     <code
-      className="font-mono text-sm [:not(pre)>&]:bg-[#f6f6f6] [:not(pre)>&]:px-1.5 [:not(pre)>&]:py-0.5"
+      className="font-mono text-sm [:not(pre)>&]:bg-code-bg [:not(pre)>&]:px-1.5 [:not(pre)>&]:py-0.5"
       {...props}
     />
   ),
@@ -62,17 +62,15 @@ const components: MDXComponents = {
       {...props}
     />
   ),
-  hr: (props) => <hr className="mbs-12 mbe-12 border-bs border-[#f0f0f0]" {...props} />,
+  hr: (props) => <hr className="mbs-12 mbe-12 border-bs border-border" {...props} />,
   table: (props) => (
     <table
       className="mbe-4 w-full border-collapse text-sm group-data-[tategaki]/tategaki:[writing-mode:horizontal-tb]"
       {...props}
     />
   ),
-  th: (props) => (
-    <th className="border-b border-[#f0f0f0] p-2 text-left font-semibold" {...props} />
-  ),
-  td: (props) => <td className="border-b border-[#f0f0f0] p-2 text-left" {...props} />,
+  th: (props) => <th className="border-b border-border p-2 text-left font-semibold" {...props} />,
+  td: (props) => <td className="border-b border-border p-2 text-left" {...props} />,
 };
 
 export const useMDXComponents = (): MDXComponents => {
