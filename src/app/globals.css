@@ -2,6 +2,8 @@
 
 @theme inline {
   --color-accent: #aa26ff;
+  --color-code-bg: #f6f6f6;
+  --color-border: #f0f0f0;
 }
 
 @layer base {
