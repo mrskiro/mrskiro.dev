@@ -1,6 +1,6 @@
 import type { MDXComponents } from "mdx/types";
 
-import { tcy } from "./src/lib/tcy";
+import { tcy } from "./src/utils/tcy";
 
 const components: MDXComponents = {
   h2: (props) => (

@@ -1,27 +1,8 @@
-import { readdir } from "fs/promises";
+import { getPosts } from "@/utils/posts";
 
 export const dynamic = "force-static";
 
 const BASE_URL = "https://mrskiro.dev";
-
-const getPosts = async () => {
-  const files = await readdir("contents/writing");
-  const posts = await Promise.all(
-    files
-      .filter((file) => file.endsWith(".mdx"))
-      .map(async (file) => {
-        const slug = file.replace(/\.mdx$/, "");
-        const { frontmatter } = await import(`contents/writing/${slug}.mdx`);
-        return {
-          slug,
-          frontmatter: frontmatter as { title: string; date: string; description?: string },
-        };
-      }),
-  );
-  return posts.sort(
-    (a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime(),
-  );
-};
 
 export const GET = async () => {
   const posts = await getPosts();
