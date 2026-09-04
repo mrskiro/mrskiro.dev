@@ -28,7 +28,7 @@
     "remark-mdx-frontmatter": "5.2.0"
   },
   "devDependencies": {
-    "@mrskiro/oxlint-config": "0.5.0",
+    "@mrskiro/oxlint-config": "0.6.2",
     "@tailwindcss/postcss": "4.3.3",
     "@types/mdx": "2.0.14",
     "@types/node": "24.12.0",

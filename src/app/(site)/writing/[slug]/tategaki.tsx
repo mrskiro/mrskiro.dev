@@ -26,7 +26,7 @@ export const Tategaki = ({ children }: { children: ReactNode }) => {
     <div
       ref={contentRef}
       data-tategaki
-      className="group/tategaki h-[calc(100dvh-10rem)] max-w-full overflow-x-auto overflow-y-hidden leading-[1.8] wrap-anywhere [line-break:strict] [text-orientation:mixed] [text-underline-position:left] [writing-mode:vertical-rl]"
+      className="group/tategaki h-tategaki max-w-full overflow-x-auto overflow-y-hidden leading-tategaki wrap-anywhere [line-break:strict] [text-orientation:mixed] [text-underline-position:left] [writing-mode:vertical-rl]"
     >
       {children}
     </div>
