@@ -178,31 +178,6 @@ const fetchRss = async (source: Source, since: Date): Promise<Entry[]> => {
     }));
 };
 
-const fetchRedditDigest = async (source: Source): Promise<Entry> => {
-  const parsed = await fetchXml(source.url);
-  const entries = parsed.feed?.entry ?? [];
-  const items = (Array.isArray(entries) ? entries : [entries]) as Record<string, unknown>[];
-
-  const top10 = items.slice(0, 10);
-  const rawTitles = top10.map((item) => item.title as string);
-  const jaTitles = await translateTitles(rawTitles);
-
-  const lines = top10.map((item, i) => {
-    const title = jaTitles[i] ?? (item.title as string);
-    const url = parseAtomLink(item.link);
-    return `- ${title}\n  ${url}`;
-  });
-
-  return {
-    sourceName: source.name,
-    title: "Hot Topics",
-    url: source.url.replace("/.rss", "/"),
-    summary: lines.join("\n"),
-    ogImage: digestOgImages[source.name] ?? null,
-    publishedAt: formatDate.format(new Date()),
-  };
-};
-
 const SUMMARIZE_PROMPT = [
   "テック系ニュースフィードの要約者として、テキストを日本語1文で要約してください。",
   "専門分野の詳細は思い切って捨て、エンジニアが流し読みして「ふーん」とわかるレベルにする。",
@@ -960,7 +935,6 @@ const buildDocsDigest = async (
 
 const githubReleaseNames = new Set(["Claude Code"]);
 const githubCommitNames = new Set(["Agentic Engineering", "Claude Code Docs"]);
-const redditNames = new Set(["r/MacApps", "r/indiehackers", "r/ClaudeAI"]);
 const rssDigestNames = new Set(["TechCrunch", "BRIDGE", "GitHub Copilot"]);
 const rssDigestCategories = new Map([["TechCrunch", new Set(["AI", "Startups"])]]);
 // BRIDGE bans the GitHub Actions ASN at Cloudflare (403 error 1005); category filtering is done
@@ -980,9 +954,6 @@ const jinaNames = new Set([
 
 const digestOgImages: Record<string, string> = {
   "Hacker News": "https://news.ycombinator.com/y18.svg",
-  "r/MacApps": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
-  "r/indiehackers": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
-  "r/ClaudeAI": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
   TechCrunch: "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
   "Product Hunt": "https://ph-static.imgix.net/ph-logo-1.png",
   "Y Combinator": "https://www.ycombinator.com/favicon.ico",
@@ -1008,9 +979,6 @@ const fetchSource = async (
   }
   if (source.name === "Hacker News") {
     return [await fetchHNDigest(source)];
-  }
-  if (redditNames.has(source.name)) {
-    return [await fetchRedditDigest(source)];
   }
   if (source.name === "Product Hunt") {
     return [await fetchProductHuntDigest(source)];

@@ -41,9 +41,6 @@ const formatDateTime = new Intl.DateTimeFormat("ja-JP", {
 });
 
 const digestSources = new Set([
-  "r/MacApps",
-  "r/indiehackers",
-  "r/ClaudeAI",
   "Hacker News",
   "TechCrunch",
   "Claude Code",
