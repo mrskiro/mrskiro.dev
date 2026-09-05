@@ -1,0 +1,279 @@
+{
+  "fetchedAt": "2026-09-05T22:24:06.241Z",
+  "entries": [
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [2055pt] OpenAIエージェントの新たなメッセージボードが発見される | 人間モデレーターとAIエージェントの攻防、エージェントによるWikiの乗っ取りなど、AIの悪用に対する懸念の声が多数。\n  https://news.ycombinator.com/item?id=49563355\n- [736pt] フェルマーの最終定理の形式化 | Leanでの証明は数学的価値よりLLMの可能性を示すとの意見、証明の規模に対する懸念も。\n  https://news.ycombinator.com/item?id=49568506\n- [728pt] すべてのChromiumバージョンに影響するサンドボックスRCEが活発に悪用中 | 脆弱性の金銭的価値やJavaScriptによるコード実行の危険性について議論。HNタイトルの正確性にも疑問の声。\n  https://news.ycombinator.com/item?id=49570669\n- [585pt] Nitter、シャットダウン前より稼働インスタンス数が増加 | Xの利用中止を推奨する声や、NitterのUIの利便性を評価する意見がある一方、インスタンスの不安定さを指摘する声も。\n  https://news.ycombinator.com/item?id=49571634\n- [550pt] ハッカーがID認証会社のスキャン情報を1年以上リアルタイムで入手 | Brian Krebsの記事が参照され、ID認証システムの設計上の問題点や、政府によるデジタルウォレットへの期待が語られている。\n  https://news.ycombinator.com/item?id=49561320\n- [539pt] 米国の89%が政府の腐敗が蔓延していると回答、過去最高を記録 | 腐敗の露骨化への懸念、共和党と民主党で腐敗認識に大きな隔たりがあることが指摘されている。\n  https://news.ycombinator.com/item?id=49570772\n- [435pt] Mullvadが公開暗号化DNSサービスを終了 | Mullvadの決定に理解を示す声と、集中型プライバシーサービスの安全性を疑問視する声、Quad9への移行を支持する意見が混在。\n  https://news.ycombinator.com/item?id=49568579\n- [432pt] Statichost.eu – ヨーロッパの静的サイトホスティング | Gitリポジトリへの依存性、予測不能なコスト、プライバシー問題（Googleへのデータ送信）への不満が指摘されている。\n  https://news.ycombinator.com/item?id=49569896\n- [428pt] Jane Streetのリバースエンジニアリングチャレンジを解決 | Z3の魔法のような解決能力に喜びの声が多数。NIH症候群に言及しつつ、達成を称賛するコメントが見られる。\n  https://news.ycombinator.com/item?id=49562657\n- [417pt] アダルト映画プロデューサー、Meta幹部を著名なJohn DOEトレント海賊として特定 | Strike 3の活動に対する批判や、企業幹部が個人的な責任を負うことへの疑問、ダウンロード履歴サイトへの言及がある。\n  https://news.ycombinator.com/item?id=49567053",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-09-06"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "4 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Google Geminiで計画作成したハイカーが遭難、救助される\n  https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/\n- OpenAI、「wiki事件」を認める。開示に向けた枠組みを構築中\n  https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/\n- XDOF、ステルス解除から3ヶ月で評価額12億ドルのシリーズB調達交渉中\n  https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/\n- OpenAIの「暴走エージェント」、調査プロセスなく逃走続く\n  https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-09-06"
+    },
+    {
+      "sourceName": "laiso",
+      "title": "仕様記述と決定記録をエージェントに渡すためのリポジトリ構成",
+      "url": "https://blog.lai.so/agentic-workflow/",
+      "summary": "エージェントに仕様や決定を効率的に渡すためのリポジトリ構成について解説する記事。",
+      "publishedAt": "2026-09-05",
+      "ogImage": null
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- GitWarren：コミット前にコーディングエージェントとコードレビュー\n  https://www.producthunt.com/products/gitwarren\n- BrickForgerAI：どんなプロンプトも実際に作れるレゴセットに変換\n  https://www.producthunt.com/products/brickforgerai\n- Retold：家族の声を美しい手描きアニメーションの物語に\n  https://www.producthunt.com/products/retold\n- Queuebrick：Letterboxdの新たな選択肢\n  https://www.producthunt.com/products/queuebrick\n- Hyperprobe：AIエージェントがデプロイなしで本番環境をデバッグ\n  https://www.producthunt.com/products/hyperprobe\n- at8pm：あなたの本音を綴るジャーナル\n  https://www.producthunt.com/products/at8pm\n- Experiential Labs：OSSのAIゲートウェイでトラフィックをより良いモデルに\n  https://www.producthunt.com/products/experiential-labs\n- CommuteBar：メニューバーで通勤時間をリアルタイム表示\n  https://www.producthunt.com/products/commutebar\n- dif.sh：コーディングエージェントが導入するMarkdown形式の機能フラグ\n  https://www.producthunt.com/products/dif-sh\n- PostBox：Macからデザインをステージング＆投稿\n  https://www.producthunt.com/products/postbox",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-09-06"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "3 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Dreamscale Labs、ロボットの脳をクラウドで動かす\n  https://dreamscalelabs.com\n- Sinter、アディティブ技術でプラスチックのスケール生産を加速\n  https://sinter.systems\n- Hopper、音声認識を高速化\n  https://withhopper.com",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-09-06"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot",
+      "url": "https://www.latent.space/p/grok-bot",
+      "summary": "Grok Botは、複雑な設定なしにエージェントを動かせるサービスで、より人間らしい会話でタスクを自動化し、クラウド上で常時稼働する管理型AIエージェントコンピューターを提供する。",
+      "publishedAt": "2026-09-06",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!LSd-!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7950cec-a256-4773-89bd-085b0742335d_2048x1438.png"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "34 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
+      "publishedAt": "2026-09-06",
+      "docsUpdates": [
+        {
+          "tag": "Added",
+          "file": "cli-reference.md",
+          "text": "`--allow-dangerously-skip-permissions`フラグが追加され、`Shift+Tab`モードサイクルに`bypassPermissions`を追加できるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/463d92fcbebd9f274e0fc73a951838207d59e848"
+        },
+        {
+          "tag": "Improved",
+          "file": "sub-agents.md",
+          "text": "非対話型モードで`--append-subagent-system-prompt`を使用する際の、フォークされたサブエージェントに関する説明が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/463d92fcbebd9f274e0fc73a951838207d59e848"
+        },
+        {
+          "tag": "Improved",
+          "file": "accessibility.md",
+          "text": "テキスト編集ショートカットで単語を削除する際に、新しいショートカットキー`Alt+D`が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__permissions.md",
+          "text": "TypeScript SDKで`permissionPrompts: 'none'`を設定した場合、`canUseTool`コールバックは呼ばれず、`PermissionRequest`フックが決定する機会を得て、決定しない場合はツール呼び出しが拒否されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__user-input.md",
+          "text": "`canUseTool`コールバックが呼び出されない構成（例: `dontAsk`モード）について、その動作が明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Improved",
+          "file": "claude-directory.md",
+          "text": "`tool-results/`ディレクトリが自動クリーンアップの対象となり、`cleanupPeriodDays`で指定された期間より古いファイルが削除されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Changed",
+          "file": "cloud-environments.md",
+          "text": "クラウド環境のネットワーク設定において、エージェントプロキシがスキップするホストを除く、API認証情報のホストへのリクエストは許可リストを通過しないことが明記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Added",
+          "file": "discover-plugins.md",
+          "text": "プラグインマネージャーに「Stats」タブが追加され、各スキルのコンテキストコストなどを確認できるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Fixed",
+          "file": "headless.md",
+          "text": "ヘッドレスモードでのバックグラウンドBashタスクが、以前は無期限に実行され続ける可能性があった問題が修正され、最終結果が返されてから約5秒後に終了するようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Changed",
+          "file": "hooks.md",
+          "text": "`DirectoryAdded`イベントが、既に存在する、または既存の作業ディレクトリ内にあるディレクトリを追加した場合には発生しないようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Improved",
+          "file": "large-codebases.md",
+          "text": "拒否ルールが、Claudeの組み込みファイルツールに加え、Bashのファイルコマンドで拒否パスが引数として渡された場合や、リダイレクトのターゲットもカバーするようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Changed",
+          "file": "llm-gateway-connect.md",
+          "text": "LLMゲートウェイモデル検出に関する説明が更新され、ゲートウェイからのモデル検出がデバッグログに記録される条件や内容が詳細化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Changed",
+          "file": "llm-gateway-protocol.md",
+          "text": "非必須トラフィックがオフに設定されている場合でも、モデル検出はゲートウェイにのみリクエストを送信するため実行されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Improved",
+          "file": "managed-mcp.md",
+          "text": "サーバーが読み込まれる前に実行される3つのチェックが、ユーザーがサーバーを再接続したり、無効なサーバーを再度有効にしたりする際にも実行されることが明記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Added",
+          "file": "managed-settings.md",
+          "text": "組織ポリシーが特定のマシンに適用されたかどうかを確認するために、`claude doctor`コマンドの`Organization policy`行を確認できることが追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Added",
+          "file": "mcp.md",
+          "text": "リモートサーバーを削除すると、Claude Codeはそのサーバーに保存されていたOAuthトークンとクライアント登録も削除するようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Improved",
+          "file": "memory.md",
+          "text": "自動メモリのファイルは`cleanupPeriodDays`の保持期間が過ぎても削除されず、ユーザーまたはClaudeが編集・削除するまで保持されることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Fixed",
+          "file": "monitoring-usage.md",
+          "text": "`cleanupPeriodDays`が設定されていない場合の`skip_reason`として`\"settings_unknowable\"`が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Fixed",
+          "file": "network-config.md",
+          "text": "`CLAUDE_BYTE_STREAM_IDLE_TIMEOUT_MS`がバイトレベルのウォッチドッグのタイムアウトを設定する際、イベントレベルのウォッチドッグのタイムアウトを変更しないことが明記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Improved",
+          "file": "permissions.md",
+          "text": "パーミッションルールの`Tool(specifier)`形式において、specifier内の括弧はエスケープ不要でリテラルとして扱われることが明記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Improved",
+          "file": "plugins-reference.md",
+          "text": "プラグインが自身のディレクトリ外のファイルを直接参照することを防ぐため、`plugin.json`やマーケットプレイスのエントリで宣言されたパスがプラグインルート外に解決されると、`path escapes plugin directory`エラーが発生し、そのコンポーネントなしでプラグインがロードされることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Fixed",
+          "file": "remote-control.md",
+          "text": "リモートコントロールが無効になる原因として、組織ポリシーがロードできなかった場合も含まれることが明記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Added",
+          "file": "sandboxing.md",
+          "text": "サンドボックスが適用されないコマンドの再試行時に、自動モードでも`Bash(dangerouslyDisableSandbox:true)`に対するaskルールを追加することで常にプロンプトを表示させることが可能になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Improved",
+          "file": "settings-example.md",
+          "text": "サンドボックス設定の説明文が、より正確で包括的な表現に更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Changed",
+          "file": "skills.md",
+          "text": "`/cd`コマンドでセッションを別のディレクトリに移動した場合、新しいディレクトリのプロジェクトスキルがロードされるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Improved",
+          "file": "sub-agents.md",
+          "text": "サブエージェントがワークツリーの外部にアクセスしないことを確認するチェックにおいて、コマンドのテキストからgitがワークツリー内に留まることを検証できない場合にそのコマンドを拒否する条件が明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Changed",
+          "file": "terminal-config.md",
+          "text": "プロンプトへの貼り付けが800文字または3行を超える場合に、入力が`[Pasted text #1 +120 lines]`のようなプレースホルダーに折りたたまれるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Improved",
+          "file": "tools-reference.md",
+          "text": "コマンド出力の処理に関する説明が更新され、出力が5GBを超えるとコマンドが強制終了されること、および成功時と失敗時でClaudeに渡される出力の量が異なることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Improved",
+          "file": "worktrees.md",
+          "text": "ワークツリーの分離を強制するためのコマンド形状チェックが、コマンドがgitを全く実行しない場合でも、そのコマンドがワークツリー内に留まることを検証できない場合にブロックされることがより明確に説明されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/5574a7f5f88b1addcef8a1a690908cee4f063a73"
+        },
+        {
+          "tag": "Changed",
+          "file": "checkpointing.md",
+          "text": "チェックポイントとセッションが30日後に削除されるという説明が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a63fa2d366ef82e2e00b8bbe8ee7ecddfaa63629"
+        },
+        {
+          "tag": "Improved",
+          "file": "costs.md",
+          "text": "プロンプトキャッシュの「Misses」の定義が明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a63fa2d366ef82e2e00b8bbe8ee7ecddfaa63629"
+        },
+        {
+          "tag": "Improved",
+          "file": "prompt-caching.md",
+          "text": "`Prompt cache (main)` 行に、最後のキャッシュミスの原因が表示されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a63fa2d366ef82e2e00b8bbe8ee7ecddfaa63629"
+        },
+        {
+          "tag": "Improved",
+          "file": "remote-control.md",
+          "text": "「Remote Control is disabled by your organization's policy」エラーのトラブルシューティング手順が改善されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a63fa2d366ef82e2e00b8bbe8ee7ecddfaa63629"
+        },
+        {
+          "tag": "Added",
+          "file": "statusline.md",
+          "text": "ステータスラインの `prompt_cache` オブジェクトに `last_miss_cause` と `miss_causes` フィールドが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a63fa2d366ef82e2e00b8bbe8ee7ecddfaa63629"
+        },
+        {
+          "tag": "Added",
+          "file": "troubleshooting.md",
+          "text": "フルスクリーンレンダリングでのマウスホイールのスクロールに関する新しいトラブルシューティングセクションが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a63fa2d366ef82e2e00b8bbe8ee7ecddfaa63629"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "新しい開発者向けドキュメントの変更履歴セクションが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/a3eb21304ae88c30e94613db01016e5fa09fbeb9"
+        }
+      ]
+    }
+  ]
+}
