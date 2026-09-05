@@ -1,6 +1,6 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { XMLParser } from "fast-xml-parser";
-import { writeFile, mkdir } from "fs/promises";
+import { writeFile, mkdir, readdir, readFile } from "fs/promises";
 
 import type { DocsUpdate, Entry, Source } from "../src/app/feed/sources.ts";
 
@@ -57,6 +57,21 @@ const formatDate = new Intl.DateTimeFormat("sv-SE", {
 
 const parser = new XMLParser({ ignoreAttributes: false, htmlEntities: true });
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const fetchXml = async (url: string): Promise<Record<string, any>> => {
+  const res = await fetch(url, {
+    headers: { "User-Agent": "feed-reader/1.0" },
+    signal: AbortSignal.timeout(30_000),
+  });
+  if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText} for ${url}`);
+  const xml = await res.text();
+  const parsed = parser.parse(xml);
+  if (!parsed.feed && !parsed.rss) {
+    throw new Error(`Not RSS/Atom for ${url}: ${xml.replace(/\s+/g, " ").slice(0, 120)}`);
+  }
+  return parsed;
+};
+
 const extractImage = (item: Record<string, unknown>): string | undefined => {
   const media = item["media:content"] as Record<string, unknown> | undefined;
   if (media?.["@_url"]) return media["@_url"] as string;
@@ -110,12 +125,31 @@ const fetchJina = async (url: string): Promise<{ content?: string; ogImage?: str
   }
 };
 
-const fetchRss = async (source: Source, since: Date): Promise<Entry[]> => {
-  const res = await fetch(source.url, {
-    headers: { "User-Agent": "feed-reader/1.0" },
+type FeedItem = { title: string; link: string; pubDate: string };
+
+// For hosts that block GitHub Actions runners (Cloudflare ASN ban). Jina renders the RSS as
+// Markdown blocks of "### [title](url)\n\n[url](url)\n\n<RFC 2822 date>"; categories are lost.
+const fetchFeedViaJina = async (url: string): Promise<FeedItem[]> => {
+  const res = await fetch(`https://r.jina.ai/${url}`, {
+    headers: { Accept: "application/json", "X-Retain-Images": "none" },
+    signal: AbortSignal.timeout(30_000),
   });
-  const xml = await res.text();
-  const parsed = parser.parse(xml);
+  if (!res.ok) throw new Error(`Jina HTTP ${res.status} for ${url}`);
+  const json: JinaResponse = await res.json();
+  const content = json.data?.content ?? "";
+  const items = [
+    ...content.matchAll(/^### \[(.+)\]\((https?:\/\/[^\s)]+)\)\n\n\[[^\]]*\]\([^)]*\)\n\n(.+)$/gm),
+  ].map((m) => ({ title: m[1]!, link: m[2]!, pubDate: m[3]!.trim() }));
+  if (items.length === 0) throw new Error(`Jina returned no feed items for ${url}`);
+  const headings = content.match(/^### \[/gm)?.length ?? 0;
+  if (headings !== items.length) {
+    console.warn(`Jina feed ${url}: ${headings} headings but ${items.length} parsed items`);
+  }
+  return items;
+};
+
+const fetchRss = async (source: Source, since: Date): Promise<Entry[]> => {
+  const parsed = await fetchXml(source.url);
 
   const rawEntries = parsed.feed ? (parsed.feed.entry ?? []) : (parsed.rss?.channel?.item ?? []);
   const items = Array.isArray(rawEntries) ? rawEntries : [rawEntries];
@@ -145,11 +179,7 @@ const fetchRss = async (source: Source, since: Date): Promise<Entry[]> => {
 };
 
 const fetchRedditDigest = async (source: Source): Promise<Entry> => {
-  const res = await fetch(source.url, {
-    headers: { "User-Agent": "feed-reader/1.0" },
-  });
-  const xml = await res.text();
-  const parsed = parser.parse(xml);
+  const parsed = await fetchXml(source.url);
   const entries = parsed.feed?.entry ?? [];
   const items = (Array.isArray(entries) ? entries : [entries]) as Record<string, unknown>[];
 
@@ -361,17 +391,14 @@ const decodeHtmlEntities = (text: string) =>
     .replace(/&quot;/g, '"');
 
 const fetchRssDigest = async (source: Source, since: Date): Promise<Entry | null> => {
-  const res = await fetch(source.url, {
-    headers: { "User-Agent": "feed-reader/1.0" },
-  });
-  const xml = await res.text();
-  const parsed = parser.parse(xml);
-
-  const rawEntries = parsed.rss?.channel?.item ?? [];
-  const items = (Array.isArray(rawEntries) ? rawEntries : [rawEntries]) as Record<
-    string,
-    unknown
-  >[];
+  let items: Record<string, unknown>[];
+  if (jinaProxyFeedNames.has(source.name)) {
+    items = await fetchFeedViaJina(source.url);
+  } else {
+    const parsed = await fetchXml(source.url);
+    const rawEntries = parsed.rss?.channel?.item ?? [];
+    items = Array.isArray(rawEntries) ? rawEntries : [rawEntries];
+  }
 
   const categories = rssDigestCategories.get(source.name);
 
@@ -413,11 +440,7 @@ const RELEASE_TRANSLATE_PROMPT = [
 ].join("\n");
 
 const fetchGitHubReleaseDigest = async (source: Source, since: Date): Promise<Entry[]> => {
-  const res = await fetch(source.url, {
-    headers: { "User-Agent": "feed-reader/1.0" },
-  });
-  const xml = await res.text();
-  const parsed = parser.parse(xml);
+  const parsed = await fetchXml(source.url);
 
   const rawEntries = parsed.feed?.entry ?? [];
   const entries = (Array.isArray(rawEntries) ? rawEntries : [rawEntries]) as Record<
@@ -503,11 +526,7 @@ const extractPHTagline = (content: unknown): string => {
 };
 
 const fetchProductHuntDigest = async (source: Source): Promise<Entry> => {
-  const res = await fetch(source.url, {
-    headers: { "User-Agent": "feed-reader/1.0" },
-  });
-  const xml = await res.text();
-  const parsed = parser.parse(xml);
+  const parsed = await fetchXml(source.url);
   const entries = parsed.feed?.entry ?? [];
   const items = (Array.isArray(entries) ? entries : [entries]) as Record<string, unknown>[];
 
@@ -792,11 +811,7 @@ const DOCS_COMMIT_PROMPT = [
 ].join("\n");
 
 const fetchGitHubCommitDigest = async (source: Source, since: Date): Promise<Entry | null> => {
-  const res = await fetch(source.url, {
-    headers: { "User-Agent": "feed-reader/1.0" },
-  });
-  const xml = await res.text();
-  const parsed = parser.parse(xml);
+  const parsed = await fetchXml(source.url);
 
   const rawEntries = parsed.feed?.entry ?? [];
   const entries = (Array.isArray(rawEntries) ? rawEntries : [rawEntries]) as Record<
@@ -947,10 +962,10 @@ const githubReleaseNames = new Set(["Claude Code"]);
 const githubCommitNames = new Set(["Agentic Engineering", "Claude Code Docs"]);
 const redditNames = new Set(["r/MacApps", "r/indiehackers", "r/ClaudeAI"]);
 const rssDigestNames = new Set(["TechCrunch", "BRIDGE", "GitHub Copilot"]);
-const rssDigestCategories = new Map([
-  ["TechCrunch", new Set(["AI", "Startups"])],
-  ["BRIDGE", new Set(["News & Column"])],
-]);
+const rssDigestCategories = new Map([["TechCrunch", new Set(["AI", "Startups"])]]);
+// BRIDGE bans the GitHub Actions ASN at Cloudflare (403 error 1005); category filtering is done
+// by using the category feed URL instead.
+const jinaProxyFeedNames = new Set(["BRIDGE"]);
 const rssDigestSkipTranslation = new Set(["BRIDGE"]);
 const jinaNames = new Set([
   "OpenAI",
@@ -979,7 +994,11 @@ const digestOgImages: Record<string, string> = {
   "GitHub Copilot": "https://github.githubassets.com/favicons/favicon.svg",
 };
 
-const fetchSource = async (source: Source, since: Date): Promise<Entry[]> => {
+const fetchSource = async (
+  source: Source,
+  since: Date,
+  rss: { since: Date; seenUrls: Set<string> },
+): Promise<Entry[]> => {
   if (githubReleaseNames.has(source.name)) {
     return fetchGitHubReleaseDigest(source, since);
   }
@@ -1010,7 +1029,26 @@ const fetchSource = async (source: Source, since: Date): Promise<Entry[]> => {
     const entry = await fetchRssDigest(source, since);
     return entry ? [entry] : [];
   }
-  return fetchRss(source, since);
+  // Per-article sources get a wider window (date-only pubDates such as "00:00:00 +0000" would
+  // otherwise miss the fixed 24h window depending on cron jitter) and are deduped by URL against
+  // recent batches.
+  const entries = await fetchRss(source, rss.since);
+  return entries.filter((e) => !rss.seenUrls.has(e.url));
+};
+
+const loadRecentUrls = async (excludeFile: string, days: number): Promise<Set<string>> => {
+  const files = (await readdir(FEED_DIR).catch(() => [] as string[]))
+    .filter((f) => f.endsWith(".json") && f !== excludeFile)
+    .sort()
+    .slice(-days);
+  const urls = new Set<string>();
+  for (const file of files) {
+    const batch = JSON.parse(await readFile(`${FEED_DIR}/${file}`, "utf-8")) as {
+      entries: Entry[];
+    };
+    for (const e of batch.entries) urls.add(e.url);
+  }
+  return urls;
 };
 
 const weeklyOnlyNames = new Set(["GitHub Trending"]);
@@ -1022,6 +1060,11 @@ const isJstMonday = (date: Date) =>
 const main = async () => {
   const now = new Date();
   const since = new Date(now.getTime() - 24 * 60 * 60 * 1000);
+  const filename = formatDate.format(now);
+  const rss = {
+    since: new Date(now.getTime() - 48 * 60 * 60 * 1000),
+    seenUrls: await loadRecentUrls(`${filename}.json`, 3),
+  };
 
   const activeSources = isJstMonday(now)
     ? sources
@@ -1029,7 +1072,9 @@ const main = async () => {
   const results = await Promise.all(
     activeSources.map(async (s) => {
       try {
-        return await fetchSource(s, since);
+        const entries = await fetchSource(s, since, rss);
+        console.log(`[${s.name}] ${entries.length} entries`);
+        return entries;
       } catch (err) {
         console.error(`[${s.name}] fetch failed:`, err);
         const message = err instanceof Error ? err.message : String(err);
@@ -1070,7 +1115,6 @@ const main = async () => {
   };
 
   await mkdir(FEED_DIR, { recursive: true });
-  const filename = formatDate.format(now);
   await writeFile(`${FEED_DIR}/${filename}.json`, JSON.stringify(batch, null, 2) + "\n");
   console.log(`Saved ${entries.length} entries to ${filename}.json`);
 };
