@@ -40,28 +40,23 @@ const formatDateTime = new Intl.DateTimeFormat("ja-JP", {
   timeZone: "Asia/Tokyo",
 });
 
-const digestSources = new Set([
-  "Hacker News",
-  "TechCrunch",
-  "Claude Code",
-  "Product Hunt",
-  "Y Combinator",
-  "BRIDGE",
-  "GitHub Trending",
-  "Agentic Engineering",
-  "Claude Code Docs",
-]);
+// Digest entries carry a "- title\n  url" list (or "- text" lines for release notes) in summary.
+// Detect by shape rather than source name so entries from removed sources keep rendering.
+const isDigest = (summary: string) => summary.startsWith("- ");
 
 const parseSummaryLines = (summary: string) => {
   const lines = summary.split("\n");
-  const items: { title: string; url: string }[] = [];
+  const items: { title: string; url: string | null }[] = [];
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i]!;
-    if (line.startsWith("- ")) {
-      const title = line.slice(2);
-      const url = lines[i + 1]?.trim() ?? "";
-      items.push({ title, url });
+    if (!line.startsWith("- ")) continue;
+    const title = line.slice(2);
+    const next = lines[i + 1]?.trim() ?? "";
+    if (/^https?:\/\//.test(next)) {
+      items.push({ title, url: next });
       i++;
+    } else {
+      items.push({ title, url: null });
     }
   }
   return items;
@@ -163,7 +158,7 @@ export default async function Page({ searchParams }: PageProps<"/feed">) {
                           ))}
                         </div>
                       </article>
-                    ) : digestSources.has(entry.sourceName) ? (
+                    ) : isDigest(entry.summary) ? (
                       <article
                         key={entry.url}
                         // oxlint-disable-next-line @mrskiro/oxlint-rules/no-tailwind-arbitrary-value -- レイアウト固有のグリッド定義。トークン化しても値の言い換えにしかならない
@@ -188,11 +183,15 @@ export default async function Page({ searchParams }: PageProps<"/feed">) {
                             <span className="text-sm text-neutral-500">{entry.title}</span>
                           </div>
                           <ul className="grid list-disc gap-1 pl-5">
-                            {parseSummaryLines(entry.summary).map((item) => (
-                              <li key={item.url} className="text-sm leading-relaxed">
-                                <a href={item.url} target="_blank" rel="noopener noreferrer">
-                                  {item.title}
-                                </a>
+                            {parseSummaryLines(entry.summary).map((item, i) => (
+                              <li key={item.url ?? i} className="text-sm leading-relaxed">
+                                {item.url ? (
+                                  <a href={item.url} target="_blank" rel="noopener noreferrer">
+                                    {item.title}
+                                  </a>
+                                ) : (
+                                  item.title
+                                )}
                               </li>
                             ))}
                           </ul>
