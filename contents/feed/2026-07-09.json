@@ -78,7 +78,7 @@
       "title": "10 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- Google、ディープフェイク検出システムでマコネル氏のフェイク画像を特定\n  https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/\n- QuantumDiamonds、EUの支援を得てチップ製造の高速化目指す\n  https://techcrunch.com/2026/07/08/with-eu-backing-quantumdiamonds-aims-to-speed-up-chip-manufacturing/\n- SpaceXAI、Grok 4.5をリリース – Elonは「Opus級モデル」と評す\n  https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/\n- ロボット工学、ChatGPT級の転換期を迎える – あるスタートアップが提唱\n  https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/\n- Google Photos、AI搭載の「Video Remix」ツールを追加\n  https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/\n- なぜCEOは「ビデオゲームはインターネットよりも優れた訓練データになる」と考えるのか\n  https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/\n- Meta、AIグラスの“不気味さ”解消を目指すも、AI戦略は逆行か\n  https://techcrunch.com/2026/07/08/meta-wants-its-ai-glasses-to-seem-less-creepy-its-ai-strategy-says-otherwise/\n- OpenAI、より自然なライブ会話を実現する新音声モデルを発表\n  https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/\n- Prime Intellect、シリーズAで1億3000万ドルを調達 – 企業のAIエージェント構築を支援\n  https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/\n- これらのAIスタートアップ、収益が加速的に成長中\n  https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-07-09"
     },
     {
@@ -126,7 +126,7 @@
       "title": "16 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-07-09",
       "docsUpdates": [
         {

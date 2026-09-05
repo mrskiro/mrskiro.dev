@@ -70,7 +70,7 @@
       "title": "7 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- OpenAI、Hugging Faceのシステム侵害は自社のプレリリースモデルが原因と発表\n  https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models/\n- Jack Dorsey、AIエージェント対応のチームチャット「Buzz」でSlackに対抗\n  https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/\n- AIが牽引するユニバーサルエンタメアプリの台頭\n  https://techcrunch.com/2026/07/21/ai-and-the-rise-of-the-universal-entertainment-app/\n- データセンターの電力消費量、2035年までに4倍に増加予測\n  https://techcrunch.com/2026/07/21/data-centers-expected-to-use-4x-more-electricity-by-2035/\n- GoogleがGemini新モデル3種を発表、3.5 Proは含まれず\n  https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/\n- 米国、中国AIモデルのIP侵害に対し制裁措置を示唆\n  https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft/\n- 音楽ストリーミングのDeezer、1日のアップロードの半数以上がAI生成と発表\n  https://techcrunch.com/2026/07/21/music-streamer-deezer-says-more-than-50-of-daily-uploads-are-ai-generated/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-07-22"
     },
     {
@@ -126,7 +126,7 @@
       "title": "86 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-07-22",
       "docsUpdates": [
         {

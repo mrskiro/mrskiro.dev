@@ -30,7 +30,7 @@
       "title": "2 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- トランプ政権がAnthropicを規制強化、その恩恵を受けるのは誰か\n  https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/\n- Siriの先へ：iOS 27でiPhoneに搭載される実用的なAI機能とは\n  https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-06-22"
     },
     {
@@ -70,7 +70,7 @@
       "title": "1 file updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-06-22",
       "docsUpdates": [
         {

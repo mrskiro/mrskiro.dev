@@ -70,7 +70,7 @@
       "title": "11 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- AfterQuery、Y Combinator史上最速でユニコーン企業に──評価額32億ドル\n  https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/\n- OpenAIの「Astra」モデルが開発進行中、システム侵入に高い能力\n  https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/\n- Google、Androidアップデートで乗り物酔い対策、アクセシビリティなどを強化\n  https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/\n- AnthropicのFable新リリース、低価格かつ利用制限を緩和\n  https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/\n- GoogleがCanvaに対抗、AIで「デザインではなく指示」を実現するツール発表\n  https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/\n- ChatGPT HealthがEpicと統合、臨床医は患者データをインポート可能に\n  https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/\n- Sequoiaが育成したEmpirik、2100万ドル調達──障害発生を予測\n  https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/\n- Amazon Alexa、新着商品で購買意欲を刺激する通知機能を追加\n  https://techcrunch.com/2026/09/01/amazon-alexa-can-now-alert-you-when-something-new-might-tempt-you-to-shop/\n- AIRが5000万ドル調達、AIエージェントのスキルやアドオン評価を支援\n  https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/\n- Fambot、家族向け「AIチーフ・オブ・スタッフ」を発表\n  https://techcrunch.com/2026/09/01/fambot-introduces-an-ai-chief-of-staff-for-families/\n- 水素燃料噴射で貨物船の効率化を目指すスタートアップ\n  https://techcrunch.com/2026/09/01/this-startup-is-fuel-injecting-hydrogen-to-make-cargo-ships-more-efficient/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-09-02"
     },
     {
@@ -118,7 +118,7 @@
       "title": "32 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-09-02",
       "docsUpdates": [
         {

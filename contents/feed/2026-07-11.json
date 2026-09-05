@@ -46,7 +46,7 @@
       "title": "10 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- Apple、OpenAIを企業秘密窃盗で提訴\n  https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/\n- SK Hynix、米国史上最大の海外IPOで265億ドル調達、米国内の新工場建設を要請される\n  https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/\n- Oratomic、2万量子ビットで実現可能な量子コンピュータ構築のため3億ドルを調達\n  https://techcrunch.com/2026/07/10/oratomic-raises-300m-to-build-a-viable-quantum-computer-that-needs-only-20k-qubits/\n- Hugging Face CEO、企業がAIレンタルをやめる理由を語る\n  https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/\n- OpenAI、Microsoft Copilot 365の「推奨モデル」はGPT 5.6と発表、提携解消の憶測飛び交う中\n  https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/\n- Fidji Simo、OpenAIナンバー2の職を辞任\n  https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/\n- OpenAI、GPT-5.6を搭載した新モデル群を発表\n  https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/\n- AIエージェント系スタートアップ、エージェントに1億ドルの資金調達を任せる\n  https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/\n- OpenAI、Atlasを閉鎖するも、AIブラウザへの野心は拡大中\n  https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/\n- Elon Musk、Mythos/Fableを称賛し、Anthropicを「切り捨てない」と約束\n  https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-07-11"
     },
     {
@@ -102,7 +102,7 @@
       "title": "275 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-07-11",
       "docsUpdates": [
         {

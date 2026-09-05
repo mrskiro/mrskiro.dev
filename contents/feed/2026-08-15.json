@@ -38,7 +38,7 @@
       "title": "6 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- Google、AI生成画像の透かし削除機能を提供へ\n  https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/\n- マーク・ザッカーバーグは本当に「AIは万人のもの」と考えているのか？\n  https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/\n- Kog、GPU推論性能をさらに引き出す新技術を開発\n  https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/\n- 新予測が正しければ、ハイパースケーラーは天然ガス採用を後悔する可能性も\n  https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/\n- セレーナ・ゴメスが共同創業したメンタルヘルススタートアップを巡り、投資家が詐欺で提訴\n  https://techcrunch.com/2026/08/13/investors-sue-selena-gomez-alleging-fraud-tied-to-her-mental-health-startup/\n- Writer、新AIモデルとトークンコスト抑制のためのアップグレード版「Harness」を発表\n  https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-08-15"
     },
     {
@@ -86,7 +86,7 @@
       "title": "65 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-08-15",
       "docsUpdates": [
         {

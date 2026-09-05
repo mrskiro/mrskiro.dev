@@ -38,7 +38,7 @@
       "title": "3 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- OpenAI、家族向けChatGPTで家庭への浸透を狙う\n  https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/\n- Phia、アフィリエイト報酬を不正取得か「クッキースタッフィング」の疑い\n  https://techcrunch.com/2026/07/10/phia-accused-of-cookie-stuffing-taking-affiliate-credit-on-purchases-it-didnt-earn/\n- Meta、物議を醸したInstagramのAI機能を削除、ユーザーからの批判受け\n  https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-07-12"
     },
     {
@@ -70,7 +70,7 @@
       "title": "18 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-07-12",
       "docsUpdates": [
         {

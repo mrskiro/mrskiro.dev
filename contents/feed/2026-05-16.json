@@ -54,7 +54,7 @@
       "title": "6 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- シリコンバレーの別荘地、電力不足に直面 AI需要が価格高騰を加速\n  https://techcrunch.com/2026/05/15/silicon-valleys-vacationland-needs-a-new-energy-provider-just-as-ai-is-driving-prices-up/\n- OpenAI、個人資産管理版ChatGPTを発表 銀行口座連携も可能に\n  https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/\n- Runway、映像制作支援からAI分野へ進出 Googleとの競争に挑む\n  https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/\n- Meridian Ventures、MBA入学延期中の創業者向けに3500万ドルのファンドを設立\n  https://techcrunch.com/2026/05/15/meridian-ventures-launched-35m-fund-to-back-mba-deferred-founders/\n- Osaurus、Mac向けにローカル・クラウドAIモデルを提供開始\n  https://techcrunch.com/2026/05/15/osaurus-brings-both-local-and-cloud-ai-models-to-your-mac/\n- イーロン・マスク対サム・アルトマン裁判、陪審員は何を判断するのか\n  https://techcrunch.com/2026/05/14/what-the-jury-will-actually-decide-in-the-case-of-elon-musk-vs-sam-altman/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-05-16"
     },
     {
@@ -102,7 +102,7 @@
       "title": "13 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-05-16",
       "docsUpdates": [
         {

@@ -70,7 +70,7 @@
       "title": "15 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- Apple、iOS 27パブリックベータでSiri AIを一般公開\n  https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/\n- Anthropicの最新広告がユーザーを恐怖に陥れる\n  https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out/\n- Hinge創業者がAI出会い系サービス「Overtone」開発で1800万ドル調達\n  https://techcrunch.com/2026/07/14/the-founder-of-hinge-raised-18m-to-build-a-new-ai-dating-service-overtone/\n- Google、主要出版社からAI学習巡る新たな訴訟に直面\n  https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/\n- DeepMind CEO、最先端AI規制のため独立した標準化団体の設立を提唱\n  https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/\n- DeepSeek、15億ドル調達とIPOに向け交渉中か\n  https://techcrunch.com/2026/07/14/deepseek-reportedly-in-talks-to-raise-1-5b-then-ipo/\n- MetaのAdam Mosseri氏、AIトークン予算はエンジニアごとに上限が設けられる可能性を示唆\n  https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer/\n- Google画像検索、発見に焦点を当てたPinterest風デザインに刷新\n  https://techcrunch.com/2026/07/14/google-images-gets-a-pinterest-like-redesign-focused-on-discovery/\n- ニューヨーク州、新たなデータセンター建設を全面停止\n  https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers/\n- Reflection、Nebiusと10億ドルのコンピューティング契約を締結\n  https://techcrunch.com/2026/07/14/reflection-inks-1b-compute-deal-with-nebius/\n- 本物のAI競争はもはや最先端ではないかもしれない\n  https://techcrunch.com/2026/07/14/the-real-ai-race-may-no-longer-be-at-the-frontier-open-models-hugging-face/\n- Spotify、ChatGPT風の音楽アシスタントでAIへの取り組みを拡大\n  https://techcrunch.com/2026/07/14/spotify-expands-its-ai-push-with-a-chatgpt-like-music-assistant/\n- Superhumanの新自動ドラフト機能で、AI返信がほぼ好きになった\n  https://techcrunch.com/2026/07/14/superhumans-new-auto-draft-feature-almost-makes-me-like-ai-replies/\n- Pinwheel、レトロ調の子供向け固定電話を発売\n  https://techcrunch.com/2026/07/14/pinwheel-launches-a-retro-inspired-landline-phone-for-kids/\n- すでに富裕層、すでに成功者、なぜ前回のテック勝者たちは再び奮闘しているのか\n  https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-07-15"
     },
     {
@@ -134,7 +134,7 @@
       "title": "68 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-07-15",
       "docsUpdates": [
         {

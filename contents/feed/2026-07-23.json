@@ -70,7 +70,7 @@
       "title": "12 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- 米財務省、ホワイトハウスの主張に反発し制裁を示唆—MoonshotがAnthropicのFableを盗用か\n  https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/\n- OpenAIの人為的ミスがHugging FaceへのAIハッキングを招いた経緯\n  https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/\n- Travis Kalanickのロボティクス企業がa16z主導で17億ドルを調達\n  https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/\n- Yope、アルゴリズムも広告もないプライベートSNS構築へ1230万ドルを調達\n  https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads/\n- Monday.com、AI注力のため数百人をレイオフ\n  https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/\n- 米オープンソースAIラボArcee、「中国製モデルは本質的に危険ではない」と主張\n  https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/\n- Substackの新ツール、AIでニュースレターを作成しているユーザーを特定\n  https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/\n- OpenAIのAI投資額が7500億ドルに膨張\n  https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/\n- Cascade、建設会社の案件獲得を支援するため350万ドルを調達\n  https://techcrunch.com/2026/07/22/cascade-raises-3-5m-to-help-construction-firms-find-and-win-projects/\n- ブラウザ戦争は検索だけの時代ではない—ChromeとSafariに代わるベストな選択肢\n  https://techcrunch.com/2026/07/22/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/\n- Passionfroot、B2Bクリエイター市場を米国へ拡大するため1500万ドルを調達\n  https://techcrunch.com/2026/07/22/passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us/\n- Glow、12億ドルの評価額でステルスモードを解除—AI時代のエンドポイントセキュリティに挑む\n  https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-07-23"
     },
     {
@@ -118,7 +118,7 @@
       "title": "12 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-07-23",
       "docsUpdates": [
         {

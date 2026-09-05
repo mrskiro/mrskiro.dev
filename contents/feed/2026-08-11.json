@@ -78,7 +78,7 @@
       "title": "4 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- マーク・ザッカーバーグ氏のAIに関する主張が、人々がAIを嫌う理由をまさに表している\n  https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/\n- Claudeエージェントがジムをハッキング、テック業界で話題に\n  https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/\n- Metaの新AIモデル「Glimmer」が示す、ザッカーバーグ氏の描くパーソナルAIのビジョン\n  https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/\n- Discovered MaterialsがAIで「もぐらたたき」？ より高性能なチップを求めて\n  https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-08-11"
     },
     {
@@ -102,7 +102,7 @@
       "title": "3 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-08-11",
       "docsUpdates": [
         {

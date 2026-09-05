@@ -38,7 +38,7 @@
       "title": "12 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- SpaceXがAIデバイスのプロトタイプを開発、まるで電話のような機能か\n  https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/\n- アシュトン・カッチャーがSound Venturesを退社、Morgan Bellerと新VCファンドを設立へ\n  https://techcrunch.com/2026/07/01/ashton-kutcher-leaving-sound-ventures-to-launch-new-vc-firm-with-morgan-beller/\n- Cloudflareの新方針、AI企業にパブリッシャーのコンテンツへの支払いを要求\n  https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/\n- 自動運転の期待再燃、Humble Roboticsが貨物輸送に参入\n  https://techcrunch.com/video/autonomous-vehicle-hype-is-back-and-humble-robotics-is-bringing-it-to-freights/\n- プライバシー重視のAIプラットフォームが好調なVenice AI、シリーズAで6,500万ドル調達しユニコーン企業に\n  https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/\n- Googleのエージェント型アシスタント「Gemini Spark」、Macで利用可能に\n  https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/\n- Builders Stageの議題発表：TechCrunch Disrupt 2026でスタートアップを成長させる実践戦略\n  https://techcrunch.com/2026/07/01/builders-stage-agenda-revealed-practical-strategies-for-scaling-startups-at-techcrunch-disrupt-2026/\n- MetaもSpaceXのように、余剰AIコンピューティング能力を収益化へ\n  https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/\n- 「インターネットの父」が遂に引退\n  https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/\n- トランプ氏、AnthropicのMythosとFableモデルへの規制を撤廃\n  https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/\n- Wayveが85億ドル評価額で8,500万ドルの従業員向け株式公開買い付けを実施\n  https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/\n- Startup Battlefield Australiaの応募締め切り間近：7月6日までに申請を\n  https://techcrunch.com/2026/06/30/last-chance-to-apply-startup-battlefield-australia-applications-close-july-6/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-07-02"
     },
     {
@@ -117,7 +117,7 @@
       "sourceName": "Latent Space",
       "title": "Ahmad Osman on why local AI is catching up",
       "url": "https://www.latent.space/p/ahmad-osman-local-ai",
-      "summary": "AI Engineer World&#8217;s Fairで、ローカルAIの重要性と進化、オープンソースモデルと専用ハードウェアを活用した運用の現状と将来が議論された。",
+      "summary": "AI Engineer World’s Fairで、ローカルAIの重要性と進化、オープンソースモデルと専用ハードウェアを活用した運用の現状と将来が議論された。",
       "publishedAt": "2026-07-01",
       "ogImage": "https://substackcdn.com/image/fetch/$s_!9BC6!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9842112b-570d-48b7-92f3-7cbb05681776_1280x720.jpeg"
     },
@@ -126,7 +126,7 @@
       "title": "16 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-07-02",
       "docsUpdates": [
         {

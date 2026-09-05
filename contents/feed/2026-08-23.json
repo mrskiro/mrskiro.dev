@@ -38,7 +38,7 @@
       "title": "7 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- DeepMind出身者が創業のInherent、AIアシスタントがAnthropicとOpenAIの性能を凌駕と発表\n  https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/\n- OpenAI、カリフォルニア州のAI安全性法案の強化を提言\n  https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/\n- Frontier AIラボ、依然として暴走モデルの封じ込め策を明かさず\n  https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/\n- 宇宙技術スタートアップLetara、衛星スラスタから事業拡大へ1600万ドルを調達\n  https://techcrunch.com/2026/08/21/japanese-space-tech-startup-letara-expands-beyond-satellite-thrusters-with-16m/\n- AnthropicのOpus 4.6に問題発覚\n  https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/\n- Nvidia、データセンター開発のCloverleafと提携\n  https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/\n- 会計AIスタートアップRillet、48時間で1億ドル調達しユニコーン企業に\n  https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-08-23"
     },
     {
@@ -94,7 +94,7 @@
       "title": "98 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-08-23",
       "docsUpdates": [
         {

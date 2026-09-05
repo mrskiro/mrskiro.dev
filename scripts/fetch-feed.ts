@@ -86,10 +86,12 @@ const extractContent = (item: Record<string, unknown>): string | undefined => {
       ? String((field as Record<string, unknown>)["#text"] ?? "")
       : String(field);
   if (!raw) return undefined;
-  const text = raw
-    .replace(/<[^>]+>/g, "")
-    .replace(/\s+/g, " ")
-    .trim();
+  const text = decodeHtmlEntities(
+    raw
+      .replace(/<[^>]+>/g, "")
+      .replace(/\s+/g, " ")
+      .trim(),
+  );
   return text || undefined;
 };
 
@@ -435,7 +437,7 @@ const fetchGitHubReleaseDigest = async (source: Source, since: Date): Promise<En
       (entry.content as Record<string, unknown>)?.["#text"] ?? entry.content ?? "",
     );
     const liItems = [...content.matchAll(/<li>([\s\S]*?)<\/li>/g)].map((m) =>
-      m[1]!.replace(/<[^>]+>/g, "").trim(),
+      decodeHtmlEntities(m[1]!.replace(/<[^>]+>/g, "").trim()),
     );
     if (liItems.length === 0) continue;
 
@@ -954,14 +956,14 @@ const jinaNames = new Set([
 
 const digestOgImages: Record<string, string> = {
   "Hacker News": "https://news.ycombinator.com/y18.svg",
-  TechCrunch: "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+  TechCrunch: "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
   "Product Hunt": "https://ph-static.imgix.net/ph-logo-1.png",
   "Y Combinator": "https://www.ycombinator.com/favicon.ico",
   BRIDGE:
     "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
   "GitHub Trending": "https://github.githubassets.com/favicons/favicon.svg",
   "Agentic Engineering": "https://github.githubassets.com/favicons/favicon.svg",
-  "Claude Code Docs": "https://claude.ai/images/claude_app_icon.png",
+  "Claude Code Docs": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
   "GitHub Copilot": "https://github.githubassets.com/favicons/favicon.svg",
 };
 
