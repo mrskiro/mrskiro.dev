@@ -4,6 +4,7 @@ import Link from "next/link";
 import type { DocsUpdate, Entry } from "./sources.ts";
 
 import { sources } from "./sources.ts";
+import { Thumb } from "./thumb.tsx";
 
 const tagStyles: Record<DocsUpdate["tag"], string> = {
   Added: "bg-emerald-50 text-emerald-700",
@@ -12,11 +13,21 @@ const tagStyles: Record<DocsUpdate["tag"], string> = {
   Changed: "bg-neutral-100 text-neutral-700",
 };
 
+const DISPLAY_DAYS = 60;
+
+const formatDate = new Intl.DateTimeFormat("sv-SE", {
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit",
+  timeZone: "Asia/Tokyo",
+});
+
 const loadBatches = async (): Promise<{ fetchedAt: string; entries: Entry[] }[]> => {
   try {
+    const cutoff = formatDate.format(new Date(Date.now() - DISPLAY_DAYS * 24 * 60 * 60 * 1000));
     const files = await readdir("contents/feed");
     const jsonFiles = files
-      .filter((f) => f.endsWith(".json"))
+      .filter((f) => f.endsWith(".json") && f.slice(0, 10) >= cutoff)
       .sort()
       .reverse();
 
@@ -92,7 +103,7 @@ export default async function Page({ searchParams }: PageProps<"/feed">) {
           </ul>
         </div>
       </aside>
-      <main className="overflow-y-auto p-4 md:p-12">
+      <main className="wrap-anywhere overflow-y-auto p-4 md:p-12">
         {batches.length === 0 ? (
           <p className="text-neutral-400">No feed data yet.</p>
         ) : (
@@ -164,18 +175,7 @@ export default async function Page({ searchParams }: PageProps<"/feed">) {
                         // oxlint-disable-next-line @mrskiro/oxlint-rules/no-tailwind-arbitrary-value -- レイアウト固有のグリッド定義。トークン化しても値の言い換えにしかならない
                         className="grid grid-cols-[80px_1fr] gap-3 border-b border-neutral-100 py-4 md:grid-cols-[96px_1fr] md:gap-4"
                       >
-                        {entry.ogImage ? (
-                          <img
-                            src={entry.ogImage}
-                            alt=""
-                            className="h-14 w-20 rounded-sm object-cover md:h-16 md:w-24"
-                          />
-                        ) : (
-                          <div
-                            className="h-14 w-20 rounded-sm bg-neutral-100 md:h-16 md:w-24"
-                            aria-hidden="true"
-                          />
-                        )}
+                        <Thumb src={entry.ogImage} />
                         <div className="grid gap-2">
                           <div className="flex flex-wrap items-center gap-2">
                             <span className="text-sm text-neutral-500">{entry.sourceName}</span>
@@ -203,18 +203,7 @@ export default async function Page({ searchParams }: PageProps<"/feed">) {
                         // oxlint-disable-next-line @mrskiro/oxlint-rules/no-tailwind-arbitrary-value -- レイアウト固有のグリッド定義。トークン化しても値の言い換えにしかならない
                         className="grid grid-cols-[80px_1fr] gap-3 border-b border-neutral-100 py-4 md:grid-cols-[96px_1fr] md:gap-4"
                       >
-                        {entry.ogImage ? (
-                          <img
-                            src={entry.ogImage}
-                            alt=""
-                            className="h-14 w-20 rounded-sm object-cover md:h-16 md:w-24"
-                          />
-                        ) : (
-                          <div
-                            className="h-14 w-20 rounded-sm bg-neutral-100 md:h-16 md:w-24"
-                            aria-hidden="true"
-                          />
-                        )}
+                        <Thumb src={entry.ogImage} />
                         <div className="grid gap-1">
                           <div className="flex flex-wrap items-center gap-2">
                             <span className="text-sm text-neutral-500">{entry.sourceName}</span>

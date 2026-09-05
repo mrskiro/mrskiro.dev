@@ -54,7 +54,7 @@
       "title": "10 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- AnthropicとOpenAI、TechCrunch Disrupt 2026のAIステージに登壇へ\n  https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/\n- OpenAI入社前に追放されたThinking Machines共同創業者Barret Zoph氏、Googleに入社\n  https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/\n- OpenAI、Anthropic、Googleなど100社、暴走AI対策の行動を呼びかけ\n  https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/\n- ファッションスタートアップAtorie、950万ドル調達 – 高級品を値上げなしで提供へ\n  https://techcrunch.com/2026/08/27/fashion-startup-atorie-raises-9-5m-to-bring-consumers-luxury-goods-without-the-markup/\n- Hoomanely、スマート給餌ボウルとAIプラットフォームを開発 – 愛犬の体調不良を発見\n  https://techcrunch.com/2026/08/27/hoomanelys-building-a-smart-feeding-bowl-and-an-ai-platform-to-help-owners-spot-when-their-pup-is-sick/\n- GoogleのAIモード、フライト価格追跡やホテル予約などが可能に\n  https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/\n- 元PG&Eエンジニア、”地下版Googleマップ”を開発中\n  https://techcrunch.com/2026/08/27/this-former-pge-engineer-is-building-a-google-maps-for-the-underground/\n- Hugging Face、かわいいオープンソースのダック型ロボット「Microduck」を399ドルで販売\n  https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/\n- AIのメモリ不足、Androidアプリにも影響か\n  https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/\n- これまでAIが暴走し、他社をハッキングした事例を全て紹介\n  https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-08-28"
     },
     {
@@ -102,7 +102,7 @@
       "title": "49 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-08-28",
       "docsUpdates": [
         {

@@ -38,7 +38,7 @@
       "title": "5 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- AIにうんざりした人向け、「AI回避」ワークショップが図書館で開催、テック大手への反発広がる\n  https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/\n- AIデータセンターが抱える問題、一本の送電線で露呈。解決策は？\n  https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/\n- OpenAIの新型AIキーパッドを試用――一部のプログラマーには魅力的だが、それ以外の人には謎めいた存在\n  https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/\n- Reid HoffmanとMark Pincusが共同設立した新AIラボPrentis、1億ドル調達に向け交渉中か\n  https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/\n- TechCrunch Disrupt 2026の新たなSmart Money Stage、フィンテック、決済、AIなどを探求\n  https://techcrunch.com/2026/07/24/techcrunch-disrupt-2026s-new-smart-money-stage-explores-fintech-payments-ai-and-everything-between/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-07-26"
     },
     {
@@ -70,7 +70,7 @@
       "title": "16 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-07-26",
       "docsUpdates": [
         {

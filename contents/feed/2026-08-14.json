@@ -62,7 +62,7 @@
       "title": "10 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- Writer、新AIモデルとトークン費用抑制のためのハーネス強化を発表\n  https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/\n- Databricks、10億ドル調達を計画、投資家は150億ドルを要求。最終的に50億ドルを1900億ドルの評価額で合意\n  https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/\n- OpenAI、「Ultrafast」を発表、GPT-5.6 Solが14倍の速度で動作する新モード\n  https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/\n- IBM、OpenAIと提携しエンタープライズAI推進を強化\n  https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/\n- AnthropicがAIエージェントに同じタスクを与えた結果、縄張り争いが発生\n  https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/\n- OpenAI、幹部人事が続く中、新CROを雇用\n  https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/\n- Microsoft、不成功に終わったAI機能を終了し、Copilotアプリを統合\n  https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/\n- Nvidiaの新たな5000億ドル計画は危険だが巧妙、特に旧型GPUにとって\n  https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/\n- Apple、Siriに最新ニュース提供のため出版社への支払い交渉中と報道\n  https://techcrunch.com/2026/08/13/apple-in-talks-to-pay-publishers-to-provide-siri-with-current-news-report/\n- Anthropicの新しい透かし機能で職務や授業での利用が発覚するとして、一部のClaudeユーザーが不満表明\n  https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-08-14"
     },
     {
@@ -94,7 +94,7 @@
       "title": "53 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-08-14",
       "docsUpdates": [
         {

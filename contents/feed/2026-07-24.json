@@ -38,7 +38,7 @@
       "title": "12 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- AMD、AIラックシステム「Helios」でNvidiaに対抗\n  https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/\n- 保険スタートアップCorgi、報じられるところによると8週間で3回目の資金調達、企業価値は40億ドルに\n  https://techcrunch.com/2026/07/23/insurance-startup-corgi-reportedly-raised-more-money-at-4b-its-third-round-in-eight-weeks/\n- Anthropic、Claudeの音声モードをより高性能なモデルにアップデート\n  https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/\n- 元Googleセキュリティ幹部が設立したAegisAI、AIによるスピアフィッシング対策で3600万ドルを調達\n  https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/\n- Runway、生成メディアの競争激化を受けAIモデルルーターを発表\n  https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/\n- OpenAI、ChatGPT Healthを米国の全ユーザーに提供開始\n  https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/\n- Meta、人類滅亡の歌に乗せて新たなAI楽観主義の広告を公開\n  https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/\n- AIチップスタートアップEtched、懐疑論を覆し著名投資家から103億ドルの評価額を獲得\n  https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/\n- エドテックプラットフォームが450万ドルを調達、生徒に「vibe code」の指導を支援\n  https://techcrunch.com/2026/07/23/edtech-platform-raises-4-5m-to-help-teach-students-how-to-vibe-code/\n- Nvidia、GPUを月へ送る\n  https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon/\n- GoogleのGemini、10億ユーザー達成に迫る\n  https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/\n- TechCrunch Disrupt 2026への舞台裏パスをご用意しました\n  https://techcrunch.com/2026/07/23/your-backstage-pass-to-techcrunch-disrupt-2026-is-waiting/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-07-24"
     },
     {
@@ -86,7 +86,7 @@
       "title": "27 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-07-24",
       "docsUpdates": [
         {

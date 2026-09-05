@@ -38,7 +38,7 @@
       "title": "3 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- トークンの終焉、Tokenpocalypseの幕開けか？\n  https://techcrunch.com/2026/06/07/is-this-the-dawn-of-the-tokenpocalypse/\n- Notion、サービス障害からAnthropicへのアクセスを復元\n  https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/\n- OpenAI、あの「スーパーアプリ」を開発中\n  https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-06-08"
     },
     {
@@ -62,7 +62,7 @@
       "title": "1 file updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-06-08",
       "docsUpdates": [
         {

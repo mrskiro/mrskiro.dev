@@ -54,7 +54,7 @@
       "title": "11 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- Daniel Ek氏のNeko Health、身体スキャン技術で7億ドルを追加調達\n  https://techcrunch.com/2026/07/15/daniel-eks-body-scanning-startup-neko-health-raises-another-700m/\n- ハードウェア訴訟のさなか、OpenAIがCodex向けキーボードを230ドルで発売\n  https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/\n- SpaceX、Starship打ち上げを控えIPO価格135ドルに下落\n  https://techcrunch.com/2026/07/15/spacex-falls-to-135-ipo-price-ahead-of-starship-launch/\n- Thinking Machines、初のオープンモデルInklingで「万能AI」への挑戦を強化\n  https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/\n- AI音楽生成のSuno、YouTubeから学習データをスクレイピングか\n  https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/\n- Whatnot、Shaped買収でライブショッピングのリアルタイムレコメンデーションを強化\n  https://techcrunch.com/2026/07/15/whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations/\n- Microsoft、AI活用を理由に過去最多のセキュリティ脆弱性を修正\n  https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/\n- Apple Intelligence、中国での提供を承認 ― AlibabaのQwen AIと連携\n  https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/\n- Ode with Anthropicの内幕：AIサービスがエンタープライズの未来と賭けるスタートアップ\n  https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise/\n- AnthropicとBlackstone、次なる兆ドルAIビジネスは「モデル」ではなく「実装」に賭ける\n  https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/\n- Rime、2,400万ドルのシリーズA調達 ― 企業による顧客対応を支援\n  https://techcrunch.com/2026/07/15/rime-picks-up-24m-series-a-to-help-enterprises-field-customer-calls/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-07-16"
     },
     {
@@ -86,7 +86,7 @@
       "title": "40 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-07-16",
       "docsUpdates": [
         {

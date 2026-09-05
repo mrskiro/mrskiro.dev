@@ -30,7 +30,7 @@
       "title": "1 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- Sam Altman、AI開発減速の議論を巻き起こす\n  https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-08-03"
     },
     {
@@ -62,7 +62,7 @@
       "title": "19 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-08-03",
       "docsUpdates": [
         {

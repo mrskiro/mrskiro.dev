@@ -62,7 +62,7 @@
       "title": "17 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- AIエージェントスタートアップ、資金調達1億ドルをAIエージェントに任せる\n  https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/\n- OpenAI、Atlasを閉鎖もAIブラウザへの野心は拡大中\n  https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/\n- Elon MuskがMythos/Fableを称賛、Anthropicとの関係維持を約束\n  https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/\n- AIは3兆ドルの問いに答えられるか？\n  https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/\n- Meta、AIコーディング市場にMuse Spark 1.1で参入\n  https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/\n- 500社以上のスタートアップに投資したCharles Hudsonが語る、よくある失敗談\n  https://techcrunch.com/2026/07/09/charles-hudson-shares-the-common-mistakes-hes-seen-after-investing-in-500-startups/\n- New York Times、ChatGPT著作権訴訟でOpenAIが証拠隠蔽と主張\n  https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/\n- Mercor、評価額200億ドルでの交渉が進行中\n  https://techcrunch.com/2026/07/09/mercor-is-in-talks-for-a-20b-valuation/\n- Google、AIで作成された広告の開示を開始\n  https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/\n- パリのAI音声スタートアップGradium、Nvidia支援でシードラウンド1億ドル調達\n  https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/\n- 政府はどのようにしてOpenAIの最先端モデルのリリースを安全と判断したのか？\n  https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release/\n- Instagramユーザー必見：MetaのAIに写真を使用させない方法\n  https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/\n- Metaの新型AIチップ、9月生産開始へ\n  https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/\n- Nvidia、自らが作り出した計算市場の犠牲に\n  https://techcrunch.com/2026/07/09/nvidia-is-a-victim-of-the-compute-marketplace-it-created/\n- AnthropicのClaude新機能、ひそかにAIの導入を促す\n  https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/\n- Anthropic、OpenAI、SpaceXは過去25年間のテック系イグジットを凌駕する規模\n  https://techcrunch.com/2026/07/09/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits/\n- 人気のオープンソースAI開発ツールOllama、6,500万ドル調達しユーザー数900万人に迫る\n  https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-07-10"
     },
     {
@@ -150,7 +150,7 @@
       "title": "35 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-07-10",
       "docsUpdates": [
         {

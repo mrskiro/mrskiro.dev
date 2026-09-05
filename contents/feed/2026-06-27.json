@@ -46,7 +46,7 @@
       "title": "7 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- OpenAI、GPT-5.6の展開を政府要請で制限も「規制は常態化すべきでない」\n  https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/\n- OpenAI、Uber Indiaのトップを抜擢し米国以外最大市場を統括へ\n  https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/\n- なぜOpenAIからSpaceXまで、こぞって独自チップを開発するのか（そしてNvidiaへの競争を激化させるのか）\n  https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/\n- Anthropic vs. OpenAIの時代はもう終わり\n  https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/\n- ロボタクシーが清掃・充電のためだけに長距離走行、新スタートアップがその課題解決へ\n  https://techcrunch.com/2026/06/26/this-silicon-valley-startup-has-raised-10m-to-build-pitstops-to-clean-and-charge-robotaxis/\n- TechCrunch Founder Summit、早期割引は今夜終了\n  https://techcrunch.com/2026/06/26/early-bird-pricing-ends-tonight-for-techcrunch-founder-summit/\n- ホワイトハウス、OpenAIに新モデルの公開延期を要請──安全性懸念で\n  https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-06-27"
     },
     {
@@ -86,7 +86,7 @@
       "title": "32 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-06-27",
       "docsUpdates": [
         {

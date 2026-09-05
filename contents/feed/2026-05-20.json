@@ -62,7 +62,7 @@
       "title": "18 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- Google、IO 2026でAIデザイン分野の有力企業として名乗りを上げる\n  https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026/\n- Google IO 2026でGmailとの会話が可能に\n  https://techcrunch.com/2026/05/19/you-can-now-talk-to-your-gmail-inbox-as-seen-at-google-io-2026/\n- Googleの新AIエージェントで検索の限界を超える方法\n  https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches/\n- 10代のハッカーからIron Dome研究者へ、AIフィッシング対策で2800万ドルを調達した創業者\n  https://techcrunch.com/2026/05/19/from-teen-hacker-to-iron-dome-researcher-this-founder-raised-28m-to-fight-ai-phishing/\n- Elon MuskがSam Altmanを「非営利団体を盗んだ」と非難するも、裁判で両者の目的は類似していたことが明らかに\n  https://techcrunch.com/2026/05/19/elon-musk-said-sam-altman-stole-a-non-profit-but-the-trial-showed-he-had-similar-aims/\n- Google、Metaに倣い音声対応スマートグラスを発表\n  https://techcrunch.com/2026/05/19/google-takes-a-page-out-of-metas-book-announces-new-audio-powered-smart-glasses/\n- GoogleのGenieワールドモデル、Street Viewで実際の街並みをシミュレート可能に\n  https://techcrunch.com/2026/05/19/googles-genie-world-model-can-now-simulate-real-streets-with-street-view/\n- Gemini 3.5 FlashでGoogleが次世代AIをエージェントに賭ける、チャットボットから転換\n  https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/\n- あなたが知っているGoogle検索は終わった\n  https://techcrunch.com/2026/05/19/google-search-as-you-know-it-is-over/\n- GoogleのAI Studio、誰でも数分でAndroidアプリを開発可能に\n  https://techcrunch.com/2026/05/19/googles-ai-studio-now-lets-anyone-build-android-apps-in-minutes/\n- Google、IO 2026でGeminiアプリをアップデート、ChatGPTとClaudeに対抗\n  https://techcrunch.com/2026/05/19/google-updates-its-gemini-app-to-take-on-chatgpt-and-claude-at-io-2026/\n- GoogleがAndroid CLIをリリース、エージェント型アプリのコーディングが進化\n  https://techcrunch.com/2026/05/19/agentic-app-coding-gets-an-upgrade-with-googles-release-of-android-cli/\n- Googleの新しいUniversal Cart、インターネット上のあらゆるショッピング体験を追跡\n  https://techcrunch.com/2026/05/19/googles-new-universal-cart-wants-to-follow-your-entire-shopping-journey-across-the-internet/\n- Google、IO 2026でGmail連携の24時間対応エージェントアシスタント「Gemini Spark」を発表\n  https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/\n- Google、DocsとKeepに音声プロンプト機能を追加\n  https://techcrunch.com/2026/05/19/google-adds-voice-based-prompting-to-docs-and-keep/\n- Google、IO 2026でデスクトップアプリとCLIツールを刷新したAntigravity 2.0を発表\n  https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool-at-io-2026/\n- GoogleのGemini Omni、画像・音声・テキストを動画に変換 — それはまだ始まりに過ぎない\n  https://techcrunch.com/2026/05/19/googles-gemini-omni-turns-images-audio-and-text-into-video-and-thats-just-the-start/\n- OpenAI、画像が自社モデルで作成されたものか確認しやすくするツールを導入\n  https://techcrunch.com/2026/05/19/openai-is-making-it-easier-to-check-if-an-image-was-made-by-their-models/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-05-20"
     },
     {
@@ -118,7 +118,7 @@
       "title": "51 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-05-20",
       "docsUpdates": [
         {

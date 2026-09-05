@@ -30,7 +30,7 @@
       "title": "4 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- Sony MusicとWarnerがAnthropicを提訴、IP盗用で「大胆なキャンペーン」と主張\n  https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/\n- TechBBQで議論されたヨーロッパのAI：結局、誰がコントロールしているのか？\n  https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/\n- 「年に30回も投資しない」：a16zで40億ドルを運用したVijay Pandeが語る少額投資\n  https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/\n- NvidiaのAI優位性はGPU以外にも拡大\n  https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-08-30"
     },
     {
@@ -62,7 +62,7 @@
       "title": "99 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-08-30",
       "docsUpdates": [
         {

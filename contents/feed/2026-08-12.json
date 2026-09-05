@@ -54,7 +54,7 @@
       "title": "8 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- OpenAI、ChatGPTデスクトップアプリのLinux版をリリース\n  https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/\n- GoogleのGeminiアプリ、ユーザー数が10億人を突破\n  https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/\n- OpenAIのCOO Brad Lightcap氏、新たな挑戦のため退社へ\n  https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/\n- 創業2ヶ月のRiver AIが11億ドルを調達、General Catalystがリード\n  https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/\n- 未発表のAnthropic製モデル、数学の未解決問題で進展\n  https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/\n- 京都フュージョニアリング、核融合発電プラントの主要装置に着工\n  https://techcrunch.com/2026/08/11/kyoto-fusioneering-starts-work-on-key-fusion-power-plant-device/\n- Spotify、「AI Persona」プロフィールにラベル表示、レコメンド対象外に\n  https://techcrunch.com/2026/08/11/spotify-will-label-ai-persona-profiles-and-exclude-their-music-from-recommendations/\n- Anthropic、AI生成テキストに電子透かしを導入へ\n  https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-08-12"
     },
     {
@@ -102,7 +102,7 @@
       "title": "58 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-08-12",
       "docsUpdates": [
         {

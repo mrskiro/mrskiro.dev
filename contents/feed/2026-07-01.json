@@ -78,7 +78,7 @@
       "title": "16 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- OpenClaw、ついにAndroidとiOSで利用可能に\n  https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/\n- ポーカーAI開発のDeepMindトリオ、今度はヘッジファンドで利益を生み出す\n  https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/\n- Google、高速・低価格の画像生成AI「Nano Banana 2 Lite」を発表\n  https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/\n- Clicks、BlackBerry風スマホをハンズオン動画で披露\n  https://techcrunch.com/2026/06/30/clicks-shows-off-its-blackberry-inspired-phone-in-a-new-hands-on-video/\n- Nvidiaの競合Etched、AIチップで評価額50億ドル、売上10億ドルを達成\n  https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/\n- Anthropic、エージェントを安価に実行できる「Claude Sonnet 5」をリリース\n  https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/\n- Acti、AIエージェントをスマホのキーボードに直接搭載\n  https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/\n- AnthropicのClaude Science、新モデルではなくワークフローで科学者を獲得へ\n  https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/\n- X、AIツールによるプラットフォーム利用を容易にするMCPサーバーを提供開始\n  https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/\n- Arcturus、ナノテクノロジー金属で送電網の電力損失を半減か\n  https://techcrunch.com/2026/06/30/arcturus-could-halve-the-grids-electrical-losses-using-its-nano-infused-copper/\n- ポッドキャストプラットフォームRiverside、ニュースレター配信事業に参入\n  https://techcrunch.com/2026/06/30/podcasting-platform-riverside-enters-the-newsletter-publishing-game/\n- Amazon、OpenAIとAnthropicに続き10億ドル規模のFDE組織を設立\n  https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/\n- あなたのブランドにふさわしい舞台を — TechCrunch Disrupt 2026 サイドイベント\n  https://techcrunch.com/2026/06/30/your-brand-deserves-its-own-stage-side-events-at-techcrunch-disrupt-2026/\n- Protonのプライバシー重視AIチャットボット「Lumo」がアップグレード\n  https://techcrunch.com/2026/06/30/lumo-protons-privacy-focused-ai-chatbot-gets-an-upgrade/\n- 暗号資産取引所OKX、AIエージェントによる相互雇用・支払いを目指す\n  https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/\n- AIによる仕事への影響に関する議論がさらに混迷\n  https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-07-01"
     },
     {
@@ -142,7 +142,7 @@
       "title": "55 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-07-01",
       "docsUpdates": [
         {

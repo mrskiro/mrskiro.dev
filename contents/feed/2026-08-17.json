@@ -30,7 +30,7 @@
       "title": "4 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- Stripe、AIゲートウェイのOpenRouterを70億ドル超で買収か\n  https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/\n- 人々はなぜMark Zuckerbergの描くAIの未来を受け入れないのか\n  https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/\n- Anthropic CEO、AIへの反発は「根本的に信頼の危機」と語る\n  https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/\n- 女性が告発、義父がGrokを使って幼少期の写真をわいせつ画像に変換\n  https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-08-17"
     },
     {
@@ -62,7 +62,7 @@
       "title": "18 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-08-17",
       "docsUpdates": [
         {

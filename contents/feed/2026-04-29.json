@@ -54,7 +54,7 @@
       "title": "10 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- Amazon、OpenAIの新製品をAWSで提供開始\n  https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/\n- Amazon、商品ページでAI活用オーディオQ&A体験を導入\n  https://techcrunch.com/2026/04/28/amazon-launches-an-ai-powered-audio-qa-experience-on-product-pages/\n- Anthropicが拒否する中、Googleが国防総省にAIへのアクセスを拡大\n  https://techcrunch.com/2026/04/28/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal/\n- Lovable、バイブ・コーディングアプリをiOSとAndroidでリリース\n  https://techcrunch.com/2026/04/28/lovable-launches-its-vibe-coding-app-on-ios-and-android/\n- Shark Tank出資スタートアップScholly創業者、買収元Sallie Maeを提訴\n  https://techcrunch.com/2026/04/28/founder-of-shark-tank-backed-startup-scholly-sues-his-acquirer-sallie-mae/\n- YouTube、AI検索機能「Guided answers」をテスト中\n  https://techcrunch.com/2026/04/28/youtube-is-testing-an-ai-powered-search-feature-that-shows-guided-answers/\n- BCIスタートアップNeurable、消費者向けウェアラブルに「読心術」技術のライセンス供与を検討\n  https://techcrunch.com/2026/04/28/bci-startup-neurable-looks-to-license-its-mind-reading-tech-for-consumer-wearables/\n- Red HatのOpenClawメンテナー、エンタープライズClaw導入の安全性を大幅に向上\n  https://techcrunch.com/2026/04/28/red-hats-openclaw-maintainer-just-made-enterprise-claw-deployments-a-lot-safer/\n- Otterの新機能、エンタープライズツール横断検索を可能に\n  https://techcrunch.com/2026/04/28/otters-new-feature-lets-users-search-across-their-enterprise-tools/\n- インドのSnabbit、オンデマンドホームサービスへの投資熱高まる中5,600万ドルを調達\n  https://techcrunch.com/2026/04/27/indias-snabbit-closes-56m-round-as-investor-interest-heats-up-in-on-demand-home-services/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-04-29"
     },
     {
@@ -126,7 +126,7 @@
       "title": "31 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-04-29",
       "docsUpdates": [
         {

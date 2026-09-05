@@ -62,7 +62,7 @@
       "title": "10 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- Kevin Hartz氏のA*、3号ファンドを4.5億ドルでクローズ\n  https://techcrunch.com/2026/05/12/kevin-hartzs-a-just-closed-its-third-fund-with-450-million/\n- マスク氏、OpenAIを子息に譲渡検討か - アルトマン氏が証言\n  https://techcrunch.com/2026/05/12/musk-mulled-handing-openai-to-his-children-altman-testifies/\n- Anthropic、自社株提供のセカンダリープラットフォームに投資家へ警告\n  https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/\n- GoogleとSpaceX、軌道上データセンター設置で協議中か\n  https://techcrunch.com/2026/05/12/report-google-and-spacex-in-talks-to-put-data-centers-into-orbit/\n- Google Android Show発表まとめ：Googlebooksから雰囲気コード化ウィジェットまで\n  https://techcrunch.com/2026/05/12/everything-google-announced-at-its-android-show-from-googlebooks-to-vibe-coded-widgets/\n- AIリーガルサービス業界が活況、Anthropicも参入\n  https://techcrunch.com/2026/05/12/the-ai-legal-services-industry-is-heating-up-anthropic-is-getting-in-on-the-action/\n- Google、GboardにGemini搭載の音声入力を追加 - 音声入力スタートアップには逆風か\n  https://techcrunch.com/2026/05/12/google-adds-gemini-powered-dictation-to-gboard-which-could-be-bad-news-for-dictation-startups/\n- Googleの「Create My Widget」機能で、自分だけのウィジェットを“雰囲気コード化”\n  https://techcrunch.com/2026/05/12/googles-create-my-widget-feature-will-let-you-vibe-code-your-own-widgets/\n- Google、エージェントAIと雰囲気コード化ウィジェットをAndroidに導入\n  https://techcrunch.com/2026/05/12/google-brings-agentic-ai-and-vibe-coded-widgets-to-android/\n- Threads、Meta AI連携機能をテスト中 - Grokと同様の動作か\n  https://techcrunch.com/2026/05/12/threads-tests-a-meta-ai-integration-that-works-similarly-to-grok/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-05-13"
     },
     {
@@ -102,7 +102,7 @@
       "title": "40 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-05-13",
       "docsUpdates": [
         {

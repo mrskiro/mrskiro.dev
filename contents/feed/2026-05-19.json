@@ -46,7 +46,7 @@
       "title": "5 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- SandboxAQ、ドラッグデザインモデルをClaudeに導入 ― 計算機科学の専門知識不要に\n  https://techcrunch.com/2026/05/18/sandboxaq-brings-its-drug-discovery-models-to-claude-no-phd-in-computing-required/\n- Anthropic、OpenAIやGoogleなどが利用する開発ツール企業を買収\n  https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/\n- イーロン・マスク、サム・アルトマンとOpenAIに対する訴訟で敗訴\n  https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/\n- AmazonのAlexa+新機能、ポッドキャストエピソードを自動生成\n  https://techcrunch.com/2026/05/18/amazons-new-alexa-powered-feature-can-generate-podcast-episodes/\n- 韓国のLetinAR、AIグラス向け光学系を開発\n  https://techcrunch.com/2026/05/18/south-koreas-letinar-is-building-the-optics-behind-ai-glasses/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-05-19"
     },
     {
@@ -86,7 +86,7 @@
       "title": "16 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-05-19",
       "docsUpdates": [
         {

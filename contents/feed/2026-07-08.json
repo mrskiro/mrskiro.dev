@@ -54,7 +54,7 @@
       "title": "10 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- オープンソースAIの台頭がAnthropicに影響しない理由…今のところは\n  https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/\n- Microsoft、自社モデル活用でAIコスト削減トレンドに参入\n  https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/\n- Discord、AIモデレーションのバグを認め、無害な画像でユーザーを誤BAN\n  https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/\n- Claude Cowork、モバイルとウェブに対応を拡大\n  https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/\n- AI法務スタートアップNorm、1.2億ドル調達しユニコーン企業に\n  https://techcrunch.com/2026/07/07/ai-law-startup-norm-raises-120m-hits-unicorn-valuation/\n- 中古車をディーラー同士で競売にかけるスタートアップ\n  https://techcrunch.com/2026/07/07/this-startup-is-pitting-dealerships-against-each-other-to-bid-on-your-used-car/\n- Saviのアプリ、誘拐犯が身代金を要求するようなリアルなAI詐欺から消費者を保護\n  https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/\n- 米国初の自律型地上車両がウクライナで実戦投入\n  https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/\n- 「初の」AI主導型ランサムウェア攻撃も、結局は人間が必要だった\n  https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/\n- 米国投資家、AIブームに乗るもう一つのメモリメーカーSK Hynixにまもなくアクセス可能に\n  https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-07-08"
     },
     {
@@ -110,7 +110,7 @@
       "title": "11 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-07-08",
       "docsUpdates": [
         {

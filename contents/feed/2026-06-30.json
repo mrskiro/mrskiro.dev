@@ -38,7 +38,7 @@
       "title": "9 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- Chamath Palihapitiya氏、AIコーディングスタートアップで1億3500万ドルのシリーズA調達、CEOに就任\n  https://techcrunch.com/2026/06/29/chamath-palihapitiya-raises-135m-series-a-for-his-ai-coding-startup-takes-ceo-role/\n- GeminiのパーソナライズされたAI画像生成機能、米国ユーザーに無料で提供開始\n  https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/\n- Anthropicとニューサム知事、カリフォルニア州政府によるClaude半額利用で合意\n  https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/\n- 韓国テック大手、5500億ドル超を投じ「RAMageddon」対策へ\n  https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon/\n- AIリーダーボード「Arena」、1億ドル規模のビジネスに成長\n  https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/\n- Cursor、外出先でコーディングエージェントを操作できるモバイルアプリをリリース\n  https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/\n- TIDAL、AI音楽の収益化を停止し取り締まり強化へ\n  https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization/\n- ロボットハンド企業、Teslaとの営業秘密訴訟で和解、1100万ドル調達を発表\n  https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/\n- Omen AI、データセンター最適化に水冷方式で挑む\n  https://techcrunch.com/2026/06/29/omen-ais-plan-to-optimize-data-centers-is-all-wet/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-06-30"
     },
     {
@@ -78,7 +78,7 @@
       "title": "25 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-06-30",
       "docsUpdates": [
         {

@@ -54,7 +54,7 @@
       "title": "10 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- Amazon、Nvidia製チップの注文を3倍に 「需要急増」で\n  https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/\n- Anthropic、Nscaleと450億ドルで提携、計算資源の消費を継続\n  https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/\n- Google Geminiにブランド戦略の問題、AI業界全体にも波及\n  https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/\n- OpenAI幹部流出の背景とは？\n  https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/\n- OpenAI、Hugging Face侵害に関する公式レポートを公開\n  https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/\n- Flipboard、オープンソーシャルウェブ収益化を目指すフィードビルダーGrazeを買収\n  https://techcrunch.com/2026/08/26/flipboard-acquires-graze-the-feed-builder-working-to-monetize-the-open-social-web/\n- Radar、ポッドキャストを検索可能に――AIエージェントも利用可能に\n  https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents/\n- 元Meta科学者たち、工場現場へのビジュアルAI導入を目指す\n  https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor/\n- ビル・ゲイツ、AIによる弊害軽減のためロボット税と「人間予約済み」の仕事を提唱\n  https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai/\n- Z.aiが正体判明：謎のAIモデル「Ox Alpha」の背後に潜むAIラボ\n  https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-08-27"
     },
     {
@@ -94,7 +94,7 @@
       "title": "26 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-08-27",
       "docsUpdates": [
         {

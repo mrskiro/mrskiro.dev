@@ -38,7 +38,7 @@
       "title": "3 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- Googleも手探り：AIセキュリティの最前線\n  https://techcrunch.com/2026/05/24/everyone-is-navigating-ai-security-in-real-time-even-google/\n- Googleと提携するXreal、難攻不落のスマートグラス市場を攻略か\n  https://techcrunch.com/2026/05/24/xreal-googles-smartglasses-partner-thinks-it-has-finally-mastered-this-notoriously-tricky-industry/\n- Amazonのウェアラブル「Bee」を試した：興味と不気味さの狭間で\n  https://techcrunch.com/2026/05/24/i-tried-amazons-bee-wearable-and-am-both-intrigued-and-slightly-creeped-out/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-05-25"
     },
     {
@@ -70,7 +70,7 @@
       "title": "4 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-05-25",
       "docsUpdates": [
         {

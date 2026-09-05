@@ -38,7 +38,7 @@
       "title": "4 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- Google、AIが書いた独立宣言を描く新CMを公開\n  https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/\n- Midjourney、ハリウッドスタジオにAI利用の詳細公開を要求\n  https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/\n- Alibaba、従業員によるClaude Codeの利用を禁止か\n  https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/\n- Mistral AIとは？ OpenAIの競合について知るべきことすべて\n  https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-07-05"
     },
     {
@@ -62,7 +62,7 @@
       "title": "91 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-07-05",
       "docsUpdates": [
         {

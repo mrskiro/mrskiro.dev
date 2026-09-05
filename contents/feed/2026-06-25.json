@@ -54,7 +54,7 @@
       "title": "12 Articles",
       "url": "https://techcrunch.com/",
       "summary": "- AIによる技術職消滅の予測は誤り？ 新データが示す「最も打たれ強い」職種\n  https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/\n- AI研究者がGoogleから競合他社へ流出が続く\n  https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/\n- メモリチップ不足が米国企業に恩恵をもたらす\n  https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company/\n- AI予算の使い込み防止に奔走する企業：少額タスクが予算圧迫\n  https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks/\n- Slateが安価なEVトラックのバッテリーを変更した理由とは\n  https://techcrunch.com/2026/06/24/heres-why-slate-changed-the-battery-in-its-cheap-ev-truck/\n- Facebook、クリエイター向けAIコンパニオンアプリを公開\n  https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/\n- Agility RoboticsがSPAC上場を計画、評価額は25億ドル\n  https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/\n- Figmaが新アップデートでコードレイヤー、アニメーション対応、AI機能強化\n  https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/\n- OpenAI、Broadcom製の自社開発チップを初披露\n  https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/\n- TechCrunch Founder Summit 2026パス、最大190ドル割引は残り3日\n  https://techcrunch.com/2026/06/24/3-days-left-to-save-up-to-190-on-techcrunch-founder-summit-2026/\n- Valor Equity Partners、25億ドルのファンドVIIを調達へ（Bloomberg報道）\n  https://techcrunch.com/2026/06/24/valor-equity-partners-looks-to-raise-a-2-5b-fund-vii-per-bloomberg/\n- Slate Autoの超シンプルEVトラック、2万4950ドルから\n  https://techcrunch.com/2026/06/24/slate-autos-radically-simple-electric-truck-starts-at-24950/",
-      "ogImage": "https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
       "publishedAt": "2026-06-25"
     },
     {
@@ -102,7 +102,7 @@
       "title": "21 files updated",
       "url": "https://github.com/ericbuess/claude-code-docs",
       "summary": "",
-      "ogImage": "https://claude.ai/images/claude_app_icon.png",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
       "publishedAt": "2026-06-25",
       "docsUpdates": [
         {
