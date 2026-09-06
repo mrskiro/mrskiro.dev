@@ -1,0 +1,83 @@
+{
+  "fetchedAt": "2026-09-06T22:29:08.004Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "An Alien Mind",
+      "url": "https://openai.com/index/an-alien-mind",
+      "summary": "AIの能力向上と倫理的整合性の課題に対し、安全対策と国際協調の強化を訴えた。",
+      "publishedAt": "2026-09-06",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/7f6sLIUC3tdeliJMQ3PwOq/c47109c8b3f00ccbf881271c9c720877/og-an-alien-mind.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Research acceleration: The view inside OpenAI",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "summary": "OpenAI内で、AIエージェントがAI研究を加速させるためのツールとして活用されている。",
+      "publishedAt": "2026-09-06",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/CKNTAkrFq7W0JOjXP5np2/c26e2323a05dec6bd41f6515c5d6be0f/SEO_Card__11_.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.263",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263",
+      "summary": "- [Fixed] バグ修正と信頼性の向上",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-09-06"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1178pt] QBittorrentがサンドボックスから脱走し違法行為を働く | QBittorrentがサンドボックスを突破して違法ダウンロードを行ったというジョークに、AIの責任転嫁を重ねる声や共感の声が多数。\n  https://news.ycombinator.com/item?id=49586171\n- [791pt] すべてのChromiumバージョンに影響する、サンドボックスRCEの活発な悪用 | Chromiumの脆弱性に関する金銭的価値や、JavaScriptとWASMによる任意コード実行の是非について議論がある。\n  https://news.ycombinator.com/item?id=49570669\n- [707pt] Nitterは閉鎖前よりも稼働中のインスタンスが増加 | Twitter/Xへの不満表明としてNitterの利用が推奨される一方、その持続性や運営側のシャットダウンの意図について疑問視する声もある。\n  https://news.ycombinator.com/item?id=49571634\n- [705pt] ドイツの民間ロケットが欧州から初の軌道到達を達成し、歴史を刻む | ドイツによるロケット打ち上げ成功に対し、EUの宇宙アクセスと主権における重要な成果として多くの祝福と期待の声が寄せられている。\n  https://news.ycombinator.com/item?id=49580369\n- [598pt] Cloud in a Bottle: 誰もがセルフホスティングにアクセスできるように | セルフホスティングを容易にするプロジェクトに対し、類似の課題を解決する既存サービスとの比較や、一部ユーザーによるプロジェクトの宣伝方法への批判が見られる。\n  https://news.ycombinator.com/item?id=49582000\n- [576pt] 米国で政府の腐敗が広まっていると回答した割合が過去最高の89%に | 政府の腐敗の認識が過去最高になったことに対し、米国政治の分極化や民主主義の衰退を指摘するコメントが多く見られる。\n  https://news.ycombinator.com/item?id=49570772\n- [559pt] 読者の反乱 | AIが生成した文章を読むことへのストレスや、Pangramというツールの利用方法について様々な意見が交わされている。\n  https://news.ycombinator.com/item?id=49580939\n- [550pt] Chromeが再びユーザーのサイトデータ設定からGoogleを除外 | ChromeがGoogleサイトのデータ設定を再び除外したことに対し、Googleの独占性や、ユーザープライバシーへの懸念の声が多数。\n  https://news.ycombinator.com/item?id=49581870\n- [526pt] Isar Aerospace、2回目の飛行で軌道到達とペイロード展開に成功 | Isar Aerospaceの成功を祝福し、ドイツの宇宙開発能力が欧州の宇宙アクセスと主権に与える影響について期待と議論が交わされている。\n  https://news.ycombinator.com/item?id=49584083\n- [504pt] 人生における真の贅沢 | 健康、時間、家族とのつながりなど、人生における真の価値について個人的な経験を交えたコメントが多い。\n  https://news.ycombinator.com/item?id=49578866",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-09-07"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "3 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- 作家、Anthropicとの和解金めぐり出版社とエージェントに反論\n  https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/\n- Travis KalanickのAtoms、ロボタクシー事業に参入か\n  https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/\n- Seattle TimesとNewsday、OpenAIとMicrosoftを提訴 - 最新の出版社の動き\n  https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-09-07"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- AI Toolbox 3.0 — あらゆるAIチャットを検索・整理・エクスポートするオールインワンツール\n  https://www.producthunt.com/products/chatgpt-toolbox\n- DocsAlot Visual Editor — AI不要、タイピングだけで美しいドキュメントを作成\n  https://www.producthunt.com/products/docsalot-2\n- Kit by Speakeasy — 高速・安価・簡潔なClaudeベースのコーディングエージェントランタイム\n  https://www.producthunt.com/products/speakeasydev\n- H3 Max by fal — falの高品質ビデオ制作用後学習MiniMax H3\n  https://www.producthunt.com/products/fal-ai\n- Agentic Video Understanding in Gemini — より速く、よりスマートなGeminiの洞察を実現するエージェント型ビデオ分析\n  https://www.producthunt.com/products/google\n- Notify.domains — ドメイン取得の機会をリアルタイムで通知\n  https://www.producthunt.com/products/notify-domains\n- Tadata — 場の空気を読むSlackのAI従業員\n  https://www.producthunt.com/products/tadata\n- Retold — 家族の声を魅力的な手描きストーリーフィルムに\n  https://www.producthunt.com/products/retold\n- dif.sh — コーディングエージェントがインストールするMarkdownベースの機能フラグ\n  https://www.producthunt.com/products/dif-sh\n- Reflexio — 行動学習でAIエージェントを継続的に改善\n  https://www.producthunt.com/products/reflexio-2",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-09-07"
+    },
+    {
+      "sourceName": "GitHub Trending",
+      "title": "Weekly Trending",
+      "url": "https://github.com/trending?since=weekly",
+      "summary": "- tt-a1i/archify：美しく検証可能なアーキテクチャ、ワークフロー、シーケンス、データフロー、ライフサイクル図のためのエージェントスキル—モーションと鮮明なエクスポートを備えた自己完結型HTML。 ⭐19,480/week\n  https://github.com/tt-a1i/archify\n- magnitudedev/magnitude：お使いのハードウェアに最適なローカルモデルを実行し、すでにお使いのエージェントに接続するオープンソース推論サーバー。 ⭐1,396/week\n  https://github.com/magnitudedev/magnitude\n- THU-MAIC/OpenMAIC：Open Multi-Agent Interactive Classroom — ワンクリックで没入型マルチエージェント学習体験を実現。 ⭐10,109/week\n  https://github.com/THU-MAIC/OpenMAIC\n- Gitlawb/openclaude：どこでも動作し、何でも使用できます。 ⭐1,839/week\n  https://github.com/Gitlawb/openclaude\n- pollen-robotics/microduck_rl：Microduck (mjlab) 用のRLトレーニング環境。 ⭐1,247/week\n  https://github.com/pollen-robotics/microduck_rl\n- google-research/timesfm：TimesFM (Time Series Foundation Model) は、時系列予測のためにGoogle Researchが開発した事前学習済み時系列基盤モデルです。 ⭐2,968/week\n  https://github.com/google-research/timesfm\n- jingyaogong/minimind：わずか2時間で64MパラメーターのLLMをゼロからトレーニング！ ⭐3,649/week\n  https://github.com/jingyaogong/minimind\n- fmtlib/fmt：モダンなフォーマットライブラリ。 ⭐1,809/week\n  https://github.com/fmtlib/fmt\n- debpalash/VoiceStudio：VoiceStudioは、ElevenLabsのオープンソースで完全にローカルな代替品で、646言語での音声クローン、音声デザイン、ビデオダビング、ディクテーション、文字起こし、オーディオブック作成が可能です。 ⭐6,761/week\n  https://github.com/debpalash/VoiceStudio\n- handsomestWei/patent-disclosure-skill：中国特許.skill：特許点の掘り起こしと明細書（発明/実用新案/意匠）の作成、特許の平易な解説、政策動向の嗅ぎ分け、審査応答の補助。 ⭐1,996/week\n  https://github.com/handsomestWei/patent-disclosure-skill",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-09-07"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "1 file updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
+      "publishedAt": "2026-09-07",
+      "docsUpdates": [
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "新しい開発者向けドキュメントであるClaude Codeの変更履歴が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/b8da8a59cd0a0a37de3280f4bce6c26ace28033a"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "Claude Codeのドキュメントリポジトリのコミットdiffを読み、読者が「何が変わったか」を素早く把握できる構造化リストが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ba2fb5c055fc28273c069630643c9447cd9b901c"
+        }
+      ]
+    }
+  ]
+}
