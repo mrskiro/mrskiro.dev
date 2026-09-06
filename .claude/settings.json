@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "pnpm format && pnpm lint"
+            "command": "FILE=$(jq -r '.tool_input.file_path // empty'); case \"$FILE\" in \"$CLAUDE_PROJECT_DIR\"/*) ;; *) exit 0 ;; esac; pnpm -w run format \"$FILE\" && pnpm -w run lint \"$FILE\""
           }
         ]
       }
