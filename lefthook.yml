@@ -3,10 +3,10 @@ pre-commit:
   jobs:
     - name: format
       glob: "*.{ts,tsx,js,jsx,css,json}"
-      run: pnpm oxfmt --check {staged_files}
+      run: pnpm -w run format:check {staged_files}
     - name: lint
       glob: "*.{ts,tsx,js,jsx}"
-      run: pnpm oxlint {staged_files}
+      run: pnpm -w run lint {staged_files}
     - name: pinact
       glob: ".github/{workflows,actions}/**/*.{yml,yaml}"
       run: pinact run -u --check --min-age 7
