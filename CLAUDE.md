@@ -17,14 +17,12 @@
 - Public repo — never commit secrets, personal URLs, or reference site lists
 - Reference/inspiration sites go in DESIGN.md Colophon section
 
-## Deploy (Vercel) — pnpm 12 workaround
+## Deploy (Vercel) — pnpm 12 constraints
 
-Vercel's zero-config detection tops out at pnpm 10, so two things are required and neither is optional:
+Vercel's zero-config detection tops out at pnpm 10, which imposes two constraints:
 
-- `ENABLE_EXPERIMENTAL_COREPACK=1` project env var. Vercel's `js-yaml.safeLoad` always throws on pnpm 12's multi-document lockfile, so the pnpm branch is skipped and detection falls through to the `packageManager` field — which returns `npm` unless corepack is enabled. A deploy without it installs with **npm against a repo that has no `package-lock.json`**, leaving transitive deps unpinned. It goes green, and it is wrong
-- `vercel.json` `installCommand` — build-utils appends `--unsafe-perm` to its generated `pnpm install`, which pnpm 12 rejects. Overriding the install command bypasses that argv
-
-Remove the `installCommand` once [vercel/vercel#17590](https://github.com/vercel/vercel/pull/17590) ships. The env var stays until Vercel supports pnpm 11+ natively ([#17434](https://github.com/vercel/vercel/issues/17434)).
+- **`ENABLE_EXPERIMENTAL_COREPACK=1` project env var is required.** Vercel parses the lockfile with `js-yaml.safeLoad`, which throws on pnpm 12's multi-document lockfile, so the pnpm branch is skipped and detection falls through to the `packageManager` field — resolving to `npm` unless corepack is on. Without it a deploy installs with **npm against a repo that has no `package-lock.json`**, leaving transitive deps unpinned. It goes green, and it is wrong. Keep it until Vercel supports pnpm 11+ natively ([vercel/vercel#17434](https://github.com/vercel/vercel/issues/17434))
+- **Do not pin pnpm below 12.3.4.** Vercel's build appends `--unsafe-perm` to `pnpm install`; pnpm 12.0–12.3.3 rejected unknown flags and failed every deploy. 12.3.4 restored the flag ([pnpm#14346](https://github.com/pnpm/pnpm/issues/14346)). No `vercel.json` override is needed at 12.3.4+
 
 ## Design
 
