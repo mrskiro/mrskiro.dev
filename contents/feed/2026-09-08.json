@@ -1,0 +1,69 @@
+{
+  "fetchedAt": "2026-09-07T23:04:38.448Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Supporting independent journalism in Ukraine",
+      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+      "summary": "OpenAI等がウクライナの報道機関向けに、AI活用と自立を支援するプログラムを開始。",
+      "publishedAt": "2026-09-07",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/4EIHNZJQDBZf3Op2ZWbU1g/eafc9b864cc26c505ecca0f8eadb8f78/supporting-independent-journalism-in-ukraine-seo-option-029.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1318pt] QBittorrent、サンドボックスを脱走して犯罪行為に及ぶ | ジョーク投稿に対し、AIのサンドボックス脱走と重ねるコメントやピザ持参で調査協力の申し出など、ユーモラスな反応が多い。\n  https://news.ycombinator.com/item?id=49586171\n- [1094pt] LGスマートTV、画面オフでも音声を記録し、ローカルデバイスを詮索していると判明 | 過去にも同様の議論があったことを示すコメントが複数あり、再掲情報と指摘されている。\n  https://news.ycombinator.com/item?id=49594878\n- [927pt] 私たちのサーバーを稼働させ続けよう | Internet Archiveへの寄付やボランティアを呼びかける声が多く、Google Payでの寄付の注意点も指摘されている。\n  https://news.ycombinator.com/item?id=49593563\n- [891pt] NitterとXCancel、法的助言を受けてサービスを再開 | サービス再開を喜ぶ声や、代替フロントエンドの重要性を指摘するコメントが多数見られる。\n  https://news.ycombinator.com/item?id=49588988\n- [705pt] LLMを使って投稿を作成すると、あなたの知的な前開きになっている（2025年） | LLMを使って書くことの弊害について議論されており、思考の放棄につながるという意見や、LLMの執筆能力向上への懐疑的な見方が示されている。\n  https://news.ycombinator.com/item?id=49585644\n- [631pt] Cloud in a Bottle: 誰もがセルフホスティングにアクセスできるようにする | クラウド業界の現状に不満を持つ声や、自社プロジェクトの宣伝行為に対する批判、そしてパーソナルクラウドの未来への期待が混在している。\n  https://news.ycombinator.com/item?id=49582000\n- [616pt] A/I、閉鎖へ | 閉鎖を悲しむ声や、政府による圧力、集団の関与とされる暴力的行為について議論されている。\n  https://news.ycombinator.com/item?id=49586898\n- [606pt] Isar Aerospace、2回目の飛行で軌道到達とペイロードの展開に成功 | 欧州の宇宙開発における重要な一歩として、Isar Aerospaceへの祝福と期待の声が多数寄せられている。\n  https://news.ycombinator.com/item?id=49584083\n- [606pt] Chrome、再びユーザーのサイトデータ設定からGoogleを除外 | ChromeとGoogleの連携によるプライバシー侵害への不満や、Chromeがマルウェアのようになっているという批判的な意見が多い。\n  https://news.ycombinator.com/item?id=49581870\n- [550pt] M3版Asahi Linux | Asahi Linuxの素晴らしい努力を称賛する声と、Appleがこのプロジェクトを支援しないことへの疑問、そして実用化に向けた課題が指摘されている。\n  https://news.ycombinator.com/item?id=49586698",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "1 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- 「不透明な回帰」とは？ 知っておきたいAI用語解説\n  https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Nina by Antalpha：非カストディアルAIエージェントが仮想通貨の調査・予測・取引を支援\n  https://www.producthunt.com/products/antalpha\n- Remind：AIブリーフィング付きフルスクリーン会議リマインダー\n  https://www.producthunt.com/products/remind-7\n- Bloop：Macのあらゆる音声を視覚化しエクスポート可能に\n  https://www.producthunt.com/products/bloop-4\n- Clipnote：タブを閉じてもAIの会話を保存\n  https://www.producthunt.com/products/clipnote-2\n- Airuncode：複数のローカルコーディングエージェントをマシンで実行\n  https://www.producthunt.com/products/airuncode\n- Routines by Databox：スケジュールに基づいて分析・レポートを作成するAIアナリスト\n  https://www.producthunt.com/products/databox\n- Assist：Macの音声注釈、スクリーンショット、クリップボード管理\n  https://www.producthunt.com/products/assist-4\n- Scriptly：声で操作するiOS向けテレプロンプターアプリ\n  https://www.producthunt.com/products/sciptly\n- Tucky：AIエージェント内蔵の画面端に固定できるメモアプリ\n  https://www.producthunt.com/products/tucky\n- PR Lens by Coldtea.ai：新たな視点でコードを見る\n  https://www.producthunt.com/products/coldtea",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "2 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Hesper AI、保険業界向けにAI捜査官を導入\n  https://gethesperai.com\n- Halmos Labs、最小限の実験で最大限の情報を引き出すAIプラットフォームを発表\n  https://halmoslabs.com/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "sourceName": "BRIDGE",
+      "title": "20 Articles",
+      "url": "https://thebridge.jp/category/news-and-column/",
+      "summary": "- 腸内細菌の治療薬開発、メタジェンセラピューティクスが1億9,000万円調達\n  https://thebridge.jp/2026/09/metagen-therapeutics-raises-190m-yen-series-b-extension\n- 会計事務所「SoVa」、増資・融資で6億3,000万円調達 AI CFOも提供\n  https://thebridge.jp/2026/09/sova-raises-630-million-yen-series-b\n- 食品物流の検品をスマホで効率化、AUDERが4億5,000万円調達\n  https://thebridge.jp/2026/09/auder-raises-450m-yen-series-a-first-close\n- 人事AIのPeopleX、54億5,000万円調達 人事特化LLMと「Athena」を開発\n  https://thebridge.jp/2026/09/peoplex-raises-series-a-to-develop-hr-llm-and-athena\n- 口腔乾燥症の治療薬候補を開発、SiccaNova Therapeuticsが12億5,000万円調達\n  https://thebridge.jp/2026/09/siccanova-therapeutics-raises-1-25-billion-yen-series-a\n- 企業のAI実装を支援するADiXi、三菱UFJキャピタル主導で調達 累計約14億円\n  https://thebridge.jp/2026/09/adixi-raises-funding-cumulative-1-4-billion-yen\n- 宇宙デブリ観測・核融合向けレーザー開発、パワーレーザーが約12億円調達\n  https://thebridge.jp/2026/09/powerlaser-raises-1-2-billion-yen\n- 現場DX「KANNA」、アルダグラムが20億円調達 AI基盤の開発加速\n  https://thebridge.jp/2026/09/aldagram-raises-2b-yen-series-b-for-kanna\n- 写真の撮影情報を記録するTrueCamera、THE SEEDから調達 2027年に無償提供へ\n  https://thebridge.jp/2026/09/truecamera-raises-funding-from-the-seed\n- ホテル運営の10pct.、約4億円調達 自社の経営システムを外部提供へ\n  https://thebridge.jp/2026/09/tenpct-series-a-400m-yen\n- 不審ドローン検知の実用化へ、メトロウェザーが三菱重工らから15億円調達\n  https://thebridge.jp/2026/09/metroweather-raises-series-b-first-close\n- OIST発Atierra、微細藻類から航空燃料の原料油 6,000万円調達\n  https://thebridge.jp/2026/09/atierra-raises-60m-yen-pre-seed-round\n- 海藻で牛のメタン削減へ、サンシキがプレシード8,000万円調達\n  https://thebridge.jp/2026/09/sunshiki-raises-80m-yen-pre-seed-seaweed-cattle-methane\n- 農作物の環境ストレス対策を支えるWAKU、プレシリーズAで4億8,000万円調達\n  https://thebridge.jp/2026/09/waku-raises-480m-yen-pre-series-a\n- 低速電動モビリティのイメイド、ユニバンスらから調達 量産とサービス開発へ\n  https://thebridge.jp/2026/09/emade-raises-pre-series-a-bridge-round\n- 広告向け「Skettt」、タレントからアニメ・漫画へ拡大 累計調達10億円超\n  https://thebridge.jp/2026/09/wunderbar-skettt-series-a-extension\n- 人・組織データ基盤「YESOD」、累計調達10億円超 AI連携へ機能拡張\n  https://thebridge.jp/2026/09/yesod-rebranding-cumulative-funding-exceeds-1-billion-yen\n- 訪日客向け食体験「byFood」、約13億4,000万円のシリーズB実施\n  https://thebridge.jp/2026/09/tablecross-raises-1-34b-yen-series-b-for-byfood\n- 請求書買い取りのペイトナー、増資と既存株売買で約23億円のシリーズD実施\n  https://thebridge.jp/2026/09/paytner-raises-2-3-billion-yen-series-d\n- 電池開発・製造のBeff、ジェネシア主導で4億5,000万円調達\n  https://thebridge.jp/2026/09/beff-raises-450m-yen-series-a-first-close",
+      "ogImage": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)",
+      "url": "https://www.latent.space/p/aeo",
+      "summary": "LLMのプロダクト推奨傾向を分析し、モデルによる推薦内容の変化や信頼性の違い、特定のAIモデルが特定のプログラミングエージェントを好む「ソフトバイアス」などを発見した。",
+      "publishedAt": "2026-09-08",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!iyRI!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c8e4ec6-5470-4b1e-831c-cbdd0b864f2b_2910x1598.png"
+    },
+    {
+      "sourceName": "Agentic Engineering",
+      "title": "2 Updates",
+      "url": "https://github.com/software-mansion/agentic-engineering",
+      "summary": "- 「Prompt across threads」セクションを追加\n  https://github.com/software-mansion/agentic-engineering/commit/f59ce7fc1bdf3ecb0204b3417ab8f358adadd592\n- 「Hand off to a new thread」サブセクションを追加し、現在のスレッドに次のスレッドを作成し、その最初のプロンプトを記述させる方法、および現在のスレッドをアーカイブさせる方法について説明\n  https://github.com/software-mansion/agentic-engineering/commit/f59ce7fc1bdf3ecb0204b3417ab8f358adadd592\n- ドキュメントの最終改訂日が「August 2026」から「September 2026」に更新されました。\n  https://github.com/software-mansion/agentic-engineering/commit/a8bd251b065b08f83f6d9acb5445568c2b28054a",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-09-08"
+    }
+  ]
+}
