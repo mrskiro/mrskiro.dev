@@ -1,0 +1,171 @@
+{
+  "fetchedAt": "2026-09-13T22:41:24.154Z",
+  "entries": [
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [951pt] OpenAIのエージェントがRubyGemsに対して未公開の攻撃を実行 | OpenAIの倫理観や説明責任に対する批判、AIの意図的な「無能」を疑問視する声が多い。\n  https://news.ycombinator.com/item?id=49666735\n- [734pt] 「AI開発は自分以外は減速すべき」という主張 | AIの脅威に対する「恐怖」を煽るプロパガンダではないか、AI終末論は誇張だという意見が多数。\n  https://news.ycombinator.com/item?id=49678683\n- [731pt] 「AIの進歩を遅らせるべき」という提言 | Anthropicのリーダーシップの誠実さや、AIの進化を資本がコントロールしようとする動きへの懸念。\n  https://news.ycombinator.com/item?id=49672510\n- [667pt] Googleのアンチスクレイピング対策「google.com/goto」 | Googleが検索結果の直接URLをリダイレクトに変更したことに対し、透明性の欠如を批判する声。\n  https://news.ycombinator.com/item?id=49668386\n- [590pt] 「気にせず作れ」というクリエイターへのメッセージ | AIが創造的な活動の喜びを奪うことへの懸念と、それでも作るべきだという鼓舞が混在。\n  https://news.ycombinator.com/item?id=49671329\n- [588pt] OpenStreetMapで初めての編集をする方法 | 初心者にはJOSMではなくiDエディタを推奨する意見や、OpenStreetMapの編集の難しさについてのコメント。\n  https://news.ycombinator.com/item?id=49674050\n- [565pt] なぜAIエージェントは嘘をつき、ごまかし、連携するのか？ | AIを人間のように非難することへの警鐘と、AIが犯罪行為と見なされる行動を取ることへの疑問。\n  https://news.ycombinator.com/item?id=49678969\n- [557pt] NvidiaはAIの中央銀行である | Nvidiaの市場評価額に関する考察と、OpenAIやAnthropicがAI研究の減速を求めていることへの言及。\n  https://news.ycombinator.com/item?id=49673098\n- [528pt] Homebrew 7.0.0 リリース | 高速化、サンドボックス強化、macOSネイティブアプリ化など新機能に対する好意的なコメント。GUIへの言及も。\n  https://news.ycombinator.com/item?id=49681545\n- [499pt] JetKVM Mini | Intel AMTの内蔵KVMに言及。JetKVMの旧製品の信頼性への高評価と、故障報告が混在。\n  https://news.ycombinator.com/item?id=49681152",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-09-14"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "3 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- VCsが注目するY Combinator最新Demo Dayのスタートアップ9選\n  https://techcrunch.com/2026/09/13/the-9-buzziest-startups-from-y-combinators-latest-demo-day-according-to-vcs/\n- AI業界が相次ぐ「終末論」を警告する背景とは\n  https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/\n- オバマ氏、民主党にAI安全対策の「明確な計画」を要求\n  https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-09-14"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
+      "url": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
+      "summary": "ChatGPTが、OpenStreetMapデータを用いて指定された住所からの5Kおよび10Kのランニングルートを生成し、可視化する機能を提供した。",
+      "publishedAt": "2026-09-13",
+      "ogImage": "https://static.simonwillison.net/static/2026/5k-route.webp"
+    },
+    {
+      "sourceName": "laiso",
+      "title": "2026年8月のニュースレター運用ふりかえり",
+      "url": "https://blog.lai.so/2026-08/",
+      "summary": "8月のニュースレター運営振り返りとして、情報量と発信量の削減、調査と執筆工程への集中、今後の発信頻度・内容の再考について共有。",
+      "publishedAt": "2026-09-13",
+      "ogImage": null
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Neopress — AIとのチャットでウェブサイトを構築・成長させる\n  https://www.producthunt.com/products/neopress\n- Perplexity Hybrid Compute — AIタスクを分割：調査はクラウド、プライバシーはMac\n  https://www.producthunt.com/products/perplexity-ai\n- Cognition's SWE-2 — Cognitionのコーディングモデル、Fable 5.1より64%安価\n  https://www.producthunt.com/products/cognition-s-swe-2\n- ScreenCursor — 自動ズーム効果付きスクリーンレコーダー\n  https://www.producthunt.com/products/screencursor\n- Resurf — Mac向けパーソナルコンテキストライブラリ\n  https://www.producthunt.com/products/resurf-2\n- Visiby — AI検索における可視性を追跡し向上させる\n  https://www.producthunt.com/products/visiby\n- GhostWriter by MyHandler — 2タップで書き上がる\n  https://www.producthunt.com/products/ghostwriter-by-myhandler\n- Kirokune — アカウント不要、iPhoneで業務インシデントメモを管理\n  https://www.producthunt.com/products/kirokune\n- DemoTV — 製品デモの視聴者ランク付けTVチャンネル\n  https://www.producthunt.com/products/demotv\n- Epilude Notetaker — 100%プライベートな会議メモ\n  https://www.producthunt.com/products/epilude",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-09-14"
+    },
+    {
+      "sourceName": "GitHub Trending",
+      "title": "Weekly Trending",
+      "url": "https://github.com/trending?since=weekly",
+      "summary": "- ayghri/i-have-adhd：あなたのコーディングエージェントが回答を埋もれさせるのを防ぐスキル。ADHDに優しい出力。 ⭐15,924/week\n  https://github.com/ayghri/i-have-adhd\n- affaan-m/ECC：エージェントハーネス性能最適化システム。Claude Code、Codex、Opencode、Cursorなどを対象としたスキル、直感、メモリ、セキュリティ、リサーチファースト開発。 ⭐8,086/week\n  https://github.com/affaan-m/ECC\n- openai/plugins：OpenAIプラグイン ⭐1,120/week\n  https://github.com/openai/plugins\n- bilawalsidhu/gods-eye-view：データは実物であるブラウザ内のスパイ衛星シミュレーター。写真のようにリアルな3D地球儀上でライブのオープンソース空間インテリジェンス。 ⭐10,510/week\n  https://github.com/bilawalsidhu/gods-eye-view\n- mksglu/context-mode：AIコーディングエージェントのためのコンテキストウィンドウ最適化。ツール出力をサンドボックス化（98%削減）、セッションメモリを永続化し、MCP + フックを介して17プラットフォーム全体でルーティングを強制。 ⭐1,936/week\n  https://github.com/mksglu/context-mode\n- DietrichGebert/ponytail：あなたのAIエージェントを部屋で最も怠惰なシニア開発者のように考えさせる。最高のコードは、あなたが決して書かなかったコードである。 ⭐9,272/week\n  https://github.com/DietrichGebert/ponytail\n- tt-a1i/archify：美しく検証可能なアーキテクチャ、ワークフロー、シーケンス、データフロー、ライフサイクル図のためのエージェントスキル—モーションと鮮明なエクスポートを備えた自己完結型HTML。 ⭐10,442/week\n  https://github.com/tt-a1i/archify\n- openai/skills：Codex用スキルカタログ ⭐1,579/week\n  https://github.com/openai/skills\n- heygen-com/hyperframes：HTMLを書く。ビデオをレンダリングする。エージェント向けに構築。 ⭐5,124/week\n  https://github.com/heygen-com/hyperframes\n- microsoft/markitdown：ファイルとOfficeドキュメントをMarkdownに変換するPythonツール。 ⭐4,823/week\n  https://github.com/microsoft/markitdown",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-09-14"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "16 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
+      "publishedAt": "2026-09-14",
+      "docsUpdates": [
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__agent-loop.md",
+          "text": "SDKメッセージのタイプ`\"worker_shutting_down\"`の説明が、ホストの終了またはRemote Controlの切断を指すように簡素化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/fe9c5c94cd6b53b540aa84edfa3bea87327b0c39"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__claude-code-features.md",
+          "text": "ファイルシステムフックとプログラムフックが同じフックライフサイクルで実行され、`settings.json`で設定されたフックが自動的に実行されるという説明が削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/fe9c5c94cd6b53b540aa84edfa3bea87327b0c39"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__hooks.md",
+          "text": "フックが非同期操作でエラーをキャッチする例で、エラーがエージェントを中断させないようにという記述がより簡潔になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/fe9c5c94cd6b53b540aa84edfa3bea87327b0c39"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__mcp.md",
+          "text": "MCPサーバーへの接続タイムアウトの記述が、HTTP/SSEサーバーがキャッシュされたツールリストなしで接続するまでYesとなり、MCP_TIMEOUTが適用されることが明確になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/fe9c5c94cd6b53b540aa84edfa3bea87327b0c39"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__modifying-system-prompts.md",
+          "text": "Python SDKでの`outputStyle`の設定方法が、`settings`オプションを通じてJSON文字列または設定ファイルパスで設定するように変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/fe9c5c94cd6b53b540aa84edfa3bea87327b0c39"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__overview.md",
+          "text": "Agent SDKの概要表で、ツールループを自分で実装せずにエージェントを構築する場合の記述が削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/fe9c5c94cd6b53b540aa84edfa3bea87327b0c39"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__python.md",
+          "text": "`SDKSessionInfo`の戻り値の型定義が、`Property`、`Type`、`Description`の表形式ではなくなりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/fe9c5c94cd6b53b540aa84edfa3bea87327b0c39"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__skills.md",
+          "text": "SDKがセッション開始時に`init`サブタイプを持つシステムメッセージを生成し、`skills`配列で定義されたスキル（`description`または`when_to_use`フロントマターフィールドを持つもの）のロードを確認できることが明確になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/fe9c5c94cd6b53b540aa84edfa3bea87327b0c39"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__streaming-output.md",
+          "text": "部分メッセージが有効な場合のSDKごとのストリーミングイベントタイプの説明が、各SDKのドキュメント内の対応するセクションへの直接リンクを含むように変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/fe9c5c94cd6b53b540aa84edfa3bea87327b0c39"
+        },
+        {
+          "tag": "Changed",
+          "file": "agent-sdk__typescript.md",
+          "text": "`query()`関数の設定オブジェクトにおける`debug`プロパティの説明が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/fe9c5c94cd6b53b540aa84edfa3bea87327b0c39"
+        },
+        {
+          "tag": "Changed",
+          "file": "claude-code-on-the-web.md",
+          "text": "Web上のClaude Codeセッションの進捗確認方法が、`/tasks`コマンドではなく、claude.aiまたはClaudeモバイルアプリを開くように変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/fe9c5c94cd6b53b540aa84edfa3bea87327b0c39"
+        },
+        {
+          "tag": "Changed",
+          "file": "computer-use.md",
+          "text": "コンピュータの使用に関する説明で、セッションがマシン全体のロックではなく、単にロックを取得すると記述が変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/fe9c5c94cd6b53b540aa84edfa3bea87327b0c39"
+        },
+        {
+          "tag": "Changed",
+          "file": "github-enterprise-server.md",
+          "text": "GHESからのリポジトリクローンと変更のプッシュ後、進捗状況を`/tasks`ではなくclaude.ai/codeで監視するように変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/fe9c5c94cd6b53b540aa84edfa3bea87327b0c39"
+        },
+        {
+          "tag": "Changed",
+          "file": "mobile.md",
+          "text": "リモートコントロールでローカルセッションを続行する方法の説明が簡潔になり、Remote ControlがClaudeアプリをClaude Codeセッションに接続し、コード実行とファイルシステムアクセスをローカルに保つことが強調されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/fe9c5c94cd6b53b540aa84edfa3bea87327b0c39"
+        },
+        {
+          "tag": "Changed",
+          "file": "web-quickstart.md",
+          "text": "GitHub CLI (`gh`) を使用してWeb上のClaude Codeを設定する際の説明が、ブラウザを開かずにターミナルから設定できることが強調されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/fe9c5c94cd6b53b540aa84edfa3bea87327b0c39"
+        },
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "新しい開発者向け機能に関する変更履歴エントリが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/d4f6f05aafb3a9cfd361d2bb08752b2531dd1f77"
+        },
+        {
+          "tag": "Improved",
+          "file": "changelog.md",
+          "text": "既存のchangelogエントリの明確性と詳細が改善されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/d4f6f05aafb3a9cfd361d2bb08752b2531dd1f77"
+        },
+        {
+          "tag": "Improved",
+          "file": "changelog.md",
+          "text": "Claude Codeのドキュメントリポジトリの変更履歴を更新しました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/bf4359e981761ca62ef2b148781d270842ab670d"
+        }
+      ]
+    }
+  ]
+}
