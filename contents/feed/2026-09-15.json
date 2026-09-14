@@ -1,0 +1,201 @@
+{
+  "fetchedAt": "2026-09-14T23:32:39.663Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "url": "https://openai.com/index/fyxer",
+      "summary": "OpenAIモデルを活用し、ユーザーのメール整理と下書き作成を支援するツール「Fyxer」が登場。",
+      "publishedAt": "2026-09-14",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/3mQ80ZMeQoDY9L8bTPbx7q/35320a6d450f2a8d3d91d45067867ea0/oai_Fyxer_SEO.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.271",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.271",
+      "summary": "- [Added] Claude Code Remoteセッション（クラウドおよび自己ホスト型ランナー）に高速モードを追加しました。組織で許可されている場合、ホストの高速モード設定またはセッションで入力された /fast が適用されます。\n- [Added] フルスクリーンモードの /config パネルにマウスサポートを追加しました。ホイールで設定リストをスクロールし、設定値をクリックすると変更され、ポインタの下の行がハイライト表示されます。\n- [Added] claude self-hosted-runner --drain-marker-file <path> を追加しました。SIGTERM ドレイン時にそのファイルが存在する場合、ランナーはホストドレインとして終了をサーバーに報告します（テレメトリのみ）。\n- [Added] サンドボックス付きの自動モードでBash、PowerShell、Monitorにコマンドごとの allowed_domains を追加しました。コマンドが必要とするホストは個別にレビューされ、そのコマンド専用に開かれます。その他のホストは拒否されます。\n- [Added] エージェントのフロントマターと --agents JSON に omitClaudeMd を追加し、カスタムおよびプラグインのサブエージェントがユーザー、プロジェクト、ローカルのCLAUDE.mdファイルなしで実行できるようにしました。管理ポリシーファイルは引き続きロードされます。\n- [Added] claude plugin install および claude plugin update に --accept-command <sha256> を追加しました。これにより、以前の --json 実行で表示されたコマンドを -y の代わりに正確に受け入れることができます。\n- [Added] modelPricing 管理設定およびClaudeアプリゲートウェイの価格ブロックで、1を超える（最大10までの）乗数に対応し、マークアップされた内部チャージバックレートに対応しました。\n- [Added] Bedrock、Vertex AI、Foundry、LLMゲートウェイのユーザーをClaudeデスクトップアプリに案内するスピナーチップを追加しました。claude.aiデスクトップアプリのチップは /desktop を提案し、アプリのダウンロードを促します。\n- [Fixed] アカウント、組織、またはAPIキーを切り替えた後にキャッシュされた組織ポリシーが再利用される問題、およびセッション中に認証情報が変更された場合に時間ごとのチェックまでポリシーが更新されない問題を修正しました。\n- [Fixed] 起動後またはセッション中の変更後に組織ポリシーのロードが完了しても、ツールとコマンドのリストが更新されない問題を修正しました。\n- [Fixed] 読み取りまたは解析できないエンタープライズ managed-mcp.json が無視される問題を修正しました。これにより、排他的MCP制御が維持され（ユーザー、プロジェクト、プラグインサーバーはロードされません）、起動時に警告が表示されるようになりました。\n- [Fixed] ANTHROPIC_UNIX_SOCKET を介して設定されたサードパーティのローカルプロキシによって組織ポリシーがフェッチされ、拒否される問題を修正しました。これらはRemote Controlを含め、他のカスタムゲートウェイと同様に扱われるようになりました。\n- [Fixed] セッションのワーカーが再起動した後でワークフローまたはエージェントの承認が適用された場合に、クラウドセッションがすべてのサブエージェントツール呼び出しを拒否する問題（「updatedInput … failed schema validation」）を修正しました。\n- [Fixed] 組織で高速モードが無効になっているときに /fast off が高速モードをオフにせずに「Fast mode unavailable」と応答する問題を修正しました。\n- [Fixed] CLAUDE_CODE_SKIP_FAST_MODE_ORG_CHECK で開始されたセッションが、APIが高速モードを拒否した後も毎ターン高速リクエストを再送信する問題を修正しました。拒否は保持され、その理由が表示されるようになりました。\n- [Fixed] CLAUDE_CODE_RETRY_WATCHDOG 下の高速モードが、使用クレジット制限でターンを失敗させたり、高速で過負荷を再試行したりする代わりに、標準速度にフォールバックするように修正しました。\n- [Fixed] Bashのパーミッションチェックが、チェッカーが認識しないオプションの後に続くfmt、columnなどのコマンドが読み取るファイルを検出できない問題を修正しました。\n- [Fixed] Bashのパーミッションチェックが、コマンドのパターンまたはオプション値にワイルドカードが含まれる場合に（例: grep -v dir/* file）、ワイルドカードが展開するファイルをスキップする問題を修正しました。\n- [Fixed] Bashのパーミッションチェックを修正し、シェル変数の宣言フラグが実行中のコマンドを誤って表示できないようにしました。\n- [Fixed] permissions.blockReadsOutsideWorkingDirectories がバイパスおよび自動モードの場合に、2つのディレクトリ変更、サブシェル、またはcd+gitチェーンを持つBashコマンドがプロンプトをスキップする問題を修正しました。\n- [Fixed] サンドボックスコマンドの起動失敗後、セッションの残りの部分でgit checkout -b、git push -u、およびgit configが古い .git/config.lock によって中断される問題を修正しました（Linux）。\n- [Fixed] システムファイルイベントサービスが飽和状態にあるmacOSマシンで、セッション外で行われた設定ファイルの変更が unnoticed になる問題を修正しました。ウォッチャーはポーリングにフォールバックするようになりました。\n- [Fixed] MCPサーバーからのツールのみを使用する claude -p セッションが「At least one tool must have defer_loading=false」というエラーで失敗する問題を修正しました。\n- [Fixed] LLMゲートウェイが非ストリーミング応答をtext/plainとして返した場合に、「API returned an empty or malformed response」というエラーでターンが失敗する問題を修正しました。\n- [Fixed] MCPサーバーがlist_changed通知をタイトループで送信する場合に、CPU使用率が高くなり続け、ツールリストのリクエストが繰り返される問題を修正しました。\n- [Fixed] MCP OAuthがクライアント登録を誤って処理する問題を修正しました。同意を拒否すると新しい登録が強制され、別のリダイレクトURIのものが再利用され、同時書き込みによって有効なものが削除されたり、不一致のものが残ったりする可能性がありました。\n- [Fixed] Claudeが完全な mcp__server__tool 名ではなく、裸の名前でMCPツールを選択した場合にツール検索が一致を返さない問題を修正しました。\n- [Fixed] Ctrl+Oが保留中のMCPサーバーの再接続をキャンセルする問題、およびトランスクリプトビューが開いているときにRemote Controlから送信された /mcp が失敗する問題を修正しました。\n- [Fixed] ToolSearchが利用できないときに、ChromeのClaudeプロンプトがモデルにToolSearchを介してツールをロードするように指示する問題を修正しました。\n- [Fixed] 受信セッションのパーミッションモードポリシーによって保持されたセッション間メッセージが痕跡を残さない問題を修正しました。ヘッドレス送信者は配信通知を受け取るようになり、SendMessageの結果はメッセージが読まれたことを暗示しなくなりました。\n- [Fixed] 会話が圧縮された後も実行されていたバックグラウンドコマンド（ウォッチタスクや開発サーバーなど）の2番目のコピーをClaudeが開始する問題を修正しました。\n- [Fixed] 会話が実際に実行されたモデルに切り替えたときに、/model が会話キャッシュを失うことについて警告する問題を修正しました。\n- [Fixed] /cd の後に /reload-skills がスラッシュメニューと一致しないスキル数を報告する問題を修正しました。\n- [Fixed] 短いターミナルでフルスクリーンモードの /resume と /continue が1〜2セッションしか表示しない問題を修正しました。\n- [Fixed] /resume と /teleport が以前の会話のファイル読み取り追跡を保持し、再開された会話で読み取られていないファイルをClaudeが編集できる問題を修正しました。\n- [Fixed] 再開されたセッションのモデルファミリーが設定されたデフォルトモデルと異なる場合に、--resume が1Mコンテキストウィンドウ（[1m]）をドロップする問題を修正しました。\n- [Fixed] --resume の後で /artifacts でアタッチされた成果物がセッションから消える問題を修正しました。\n- [Fixed] バックグラウンドセッション（claude --bg、claude agents）が、他の場所で行われた再発行のために公開された成果物を監視しない問題を修正しました。\n- [Fixed] inode 0を報告する仮想ドライブ（Windowsドライブとしてマウントされた暗号化されたボールトなど）から、最初のカスタムエージェント、スラッシュコマンド、出力スタイル以降のものがロードされない問題を修正しました。\n- [Fixed] ホスト設定ディレクトリが64MiBを超えた場合に、自己ホスト型ランナーセッションがすべてのホスト設定（設定、スキル、プラグイン、MCPサーバー）をサイレントに失う問題を修正しました。--host-config-snapshot disk|memory を追加しました。\n- [Fixed] claude.aiから同期されたスキルがサインアウト後もディスクに無期限に残る問題を修正しました。cleanupPeriodDays 内で更新されなかったコピーは、次の起動時に回復可能なゴミ箱に移動するようになりました。\n- [Fixed] アカウントタイプで利用できない、またはセッションで無効になっているコマンドをスピナーチップが提案する問題を修正しました。\n- [Fixed] /add-dir パス入力：左右の矢印キーでカーソルが移動し、Enterキーで入力されたパスのみが追加され、ハイライトされた補完が追加されないように修正しました。\n- [Fixed] メインプロンプト以外のテキストフィールドで、先頭の「!」が入力された内容の末尾に移動する問題（!foo が foo! となる）を修正しました。\n- [Fixed] 継承されたオブジェクトプロパティ（__proto__ や constructor など）と同じ名前のフックマッチャーがある場合に、インタラクティブな /hooks メニューがクラッシュする問題を修正しました。\n- [Fixed] フルスクリーンレンダリングのグリッチで、テキストがその周りのボックスが背景色を失った後も古い背景色を保持する問題を修正しました。\n- [Fixed] stでのDeleteとrxvt-unicodeでのAlt+矢印キーが、アタッチされたバックグラウンドセッションで機能しない問題を修正しました。\n- [Fixed] Claude Codeが終了したり、一時停止したり、起動直後にエディタを開いたりしたときに、ターミナルが機能クエリ（^[[?1;2c）に応答した内容がシェルプロンプトやエディタに表示される問題を修正しました。\n- [Improved] ターミナルのレンダリングパフォーマンスを改善しました。大規模な差分と長いトランスクリプトがより速く、少ない遅いフレームでレンダリングされるようになりました。\n- [Improved] 起動時に組み込みモデルデータの冗長な検証をスキップすることで、起動時間をわずかに改善しました。\n- [Improved] フックのフィードバックを改善しました。SessionStart、UserPromptSubmit、PreToolUse、またはSessionEndフックの実行中に、スピナーが経過時間とともにその旨を表示し、EscキーでSessionStartフックを待機中のプロンプトをキャンセルできるようになりました。\n- [Improved] 長い思考中のスピナーのステータスを改善しました。45秒後には「deep in thought」と表示され、出力トークン制限から回復中は「picking the thought back up」と表示されるようになりました。\n- [Improved] 動的ワークフローを改善し、使用制限に達すると一時停止し、リセットされると自動的に続行するようにしました。これにより、影響を受けるエージェントがドロップされることはなくなりました。\n- [Improved] Remote Controlを改善し、不安定なネットワークで設定が失敗した場合にclaude.aiに残される空のセッションを減らしました。\n- [Improved] クラウドセッションでブラウザに到達できない場合のChromeのClaudeメッセージを改善しました。インストールを提案する前に、コンピュータがスリープ状態になっている可能性があることを伝えるようになりました。\n- [Improved] claude mcp serve を改善しました。実行中のツール呼び出しは30秒ごとに進捗状況を送信するようになり、クライアントはまだ実行中であることを表示し、何も出力しない長いコマンドがアイドルタイムアウトによって中断されることはなくなりました。\n- [Improved] FoundryとAWSセッション上のClaude Platformを改善しました。会話中に接続が完了したalwaysLoad MCPサーバーは、ツール検索のラウンドトリップなしで次のターンで利用可能になりました。\n- [Improved] 成果物として公開されるMarkdownファイルを改善しました。これらは、スタイル設定されたドキュメントページ（タイトルヘッダー、ドキュメントの書体、構文ハイライトされたコード）としてレンダリングされるようになりました。\n- [Improved] Artifactツールの公開エラーを改善しました。ファイルなしでの公開は、まずページをファイルに書き込むように促すようになり、サポートされていないファイルタイプは不足しているファビコンの前に報告されるようになりました。\n- [Improved] Artifactツールのエラーを改善しました。ページが契約バージョンに不足している機能宣言した場合、サポートされているすべての機能がリストされ、新しい契約バージョンにそれがある場合に注記されるようになりました。\n- [Improved] 成果物の監視を改善しました。セッションは、他の場所で行われた再発行のために、一度に最大10個の公開された成果物を監視できるようになりました（以前は5個）。\n- [Improved] PDFの@メンションを改善し、pdfinfoがページ数をカウントできない場合に、ファイルサイズから推測されたページ数ではなく「page count unknown」と表示するようにしました。\n- [Improved] /mobile を改善し、claude.ai/mobile 用の単一のQRコードを表示するようにしました。これにより、携帯電話に適したアプリストアが開きます。\n- [Changed] 自動モードを変更し、スキルのインラインシェルコマンドまたはスラッシュコマンドが、分類器ではなくデフォルトモードのパーミッションルールに従うようにしました。ルールによって決定されないコマンドは、レビューされたツール呼び出しとして実行されます。\n- [Changed] 自動モードを変更し、サブエージェントが、最後のメッセージが事後にレビューされるのではなく、安全分類器がレビューする専用のハンドバックコールを介して呼び出し元に報告するようにしました。\n- [Changed] モニターの監視は常に期限（最大30分、単一プロンプトの-p実行では10分）を持つように変更され、Claudeに再武装を通知するようにしました。これにより、タイムアウトなしの永続オプションは置き換えられます。\n- [Changed] プロンプト内のIDE選択インジケータを、テキストと一緒に折り返す [⧉ …] ピルに変更しました。これにより、複数行のプロンプトが圧迫されることはありません。バックスペースで削除して選択を外すことができます。\n- [Changed] Proプランのデフォルトの動的ワークフローサイズをsmallに変更し、mediumサイズのガイドラインを15から10エージェントに引き下げました。\n- [Changed] Claudeアプリゲートウェイ、Bedrock、Vertex AI、Foundryセッションが、セッションで使用しない残されたclaude.aiログインをリフレッシュしないように変更しました。\n- [Changed] バンドルされたclaude-apiスキルを更新し、ストリーミングカスタムツールで eager_input_streaming を有効にし、user.define_outcome で成果物形状の管理エージェントの作業を開始するようにしました。\n- [Added] [VSCode] Attach Open File 設定を追加しました。これをオフにすると、開いているファイルがメッセージに追加されなくなります。選択されたテキストは引き続きアタッチされます。\n- [Fixed] [VSCode] HooksおよびPermission rulesダイアログが、保存が失敗したと報告する問題、およびプラグインのみのポリシーロックの下でHooksダイアログが空白になったり、保存エラーにカラーコードが表示されたりする問題を修正しました。\n- [Fixed] [VSCode] Hooksダイアログの保存を修正しました。置換時にフックが重複せず、大文字小文字を区別して入力されたヘッダー名はシークレットを保持し、settings.local.jsonは保存が返される前にgitignoredされます。\n- [Fixed] [VSCode] ワークスペースがWindowsのマップされたネットワークドライブまたはSUBSTドライブ上にある場合に、セッション履歴が現在のセッションのみを表示する問題を修正しました。\n- [Fixed] [VSCode] セッションリストのActiveフィルターが、フィルターメニューでOpenもチェックされている場合に、開いているアイドルセッションを非表示にする問題を修正しました。\n- [Fixed] [VSCode] セッションリストが更新されたときに、新しいチャットが前のチャットに戻ってしまう問題を修正しました。\n- [Fixed] [VSCode] environmentVariables 設定で CLAUDE_CONFIG_DIR が変更された後、開いているタブとサイドバーがウィンドウの再読み込みまで古い設定フォルダを保持する問題を修正しました。\n- [Fixed] [VSCode] 拡張機能がgit、ripgrep、サインインステータスチェックなどのバックグラウンドコマンドを実行するときに、Windowsでコンソールウィンドウが点滅する問題を修正しました。\n- [Fixed] [VSCode] プロンプトキャッシュクロックのホバーテキストが遅延後にしか表示されない問題と、自動圧縮アイコンがポップアップの横にブラウザ独自のツールチップを表示する問題を修正しました。\n- [Improved] [VSCode] Hooksダイアログを改善しました。設定ファイル自体が原因で保存が拒否された場合、ポップアップが表示され、「Open settings file」ボタンと「Copy error」の理由が表示されるようになりました。\n- [Changed] [VSCode] トグルスイッチのオン状態をClaudeオレンジからエディタテーマのボタンの色に変更しました。\n- [Fixed] [Claude Code on the web] クラウドセッションが、セッションがまだライブに見えている間にプロセスが終了した後、応答に約10分かかることがあった問題を修正しました。メッセージを送信するとすぐに再起動するようになりました。\n- [Changed] [Claude Code on the web] claude.ai/code のルーチンページを、YoursとTemplatesタブ、実行ステータスを表示する2列のルーチンカードを備えた新しいレイアウトに変更し、カレンダービューを削除しました。\n- [Added] [Claude Code on the web] 管理設定のCloud environmentsエディタにCustom network accessオプションを追加しました。これはclaude.ai/codeの環境ダイアログで提供されるallowed-domainsリストと同じです。\n- [Improved] [Claude Code on the web] Cloud environments管理ページを改善しました。Claude TagとClaude Codeのデフォルト環境を表示し、変更するためのリンクと、作成が推奨される種類をマークするようにしました。\n- [Fixed] [Claude Tag] アクティブな状態を維持するチャネルのClaudeが、会話のほとんどがスレッドで行われている場合に約1時間ごとに作業コンテキストを失う問題を修正しました。スレッドアクティビティによってリセットされなくなりました。\n- [Fixed] [Claude Tag] Claudeにプルリクエストの監視を依頼したスレッドが、そのスレッドでClaudeが再起動された後、CIの失敗、コメント、レビューについて聞かなくなる問題を修正しました。\n- [Fixed] [Claude Tag] Claudeが既に返信したスレッドの最初のメッセージを削除しても、Claudeの作業がそこで終了しない問題を修正しました。返信のないメッセージが削除された場合と同様に、停止するようになりました。\n- [Fixed] [Claude Tag] Claudeが、異なるボットまたはアシスタントに向けられた以前の指示のために投稿を控える問題を修正しました。Claudeに向けられた指示のみがClaudeを拘束し、不明な場合は尋ねるようになりました。\n- [Fixed] [Claude Tag] Claudeが忙しいチャネルに参加した際に投稿する返信モードカードが、チャネルが単にチャットが多いか大きいだけである場合に「 sees a lot of automated posts 」と表示する問題を修正しました。カードは実際の理由を名指しするようになりました。\n- [Improved] [Claude Tag] Claude Tag管理設定のEnvironment pickerを改善しました。オプションはAnthropic-hostedまたはself-hostedとラベル付けされ、その環境を編集または作成するためのリンクが提供されるようになりました。\n- [Fixed] [Code Review] PRごとに1回レビューされるリポジトリのプルリクエストが、レビューが開始を待っている間にコミットが到着した場合にレビューされないことがあった問題を修正しました。現在は要求されたコミットをレビューするようになりました。\n- [Fixed] [Code Review] GitHubが実際に作成されたレビューに対してエラーを報告した場合に、Code Reviewが同じ発見を2、3回投稿することがあった問題を修正しました。\n- [Fixed] [Code Review] フォローアップレビューが、後続のプッシュによってアンカーされていた行が移動された場合に、人が既に解決したセキュリティの発見を再投稿する問題を修正しました。\n- [Fixed] [Code Review] Claudeアプリで完了した /ultrareview クラウドセッションを再開すると、プロンプトなしでレビュー全体が最初から再開される問題を修正しました。\n- [Fixed] Windows: PowerShellコマンドが、セッションの一時出力パスが260文字に達したときに「Exit code 1」と出力なしで失敗する問題を修正しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-09-15"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1169pt] Fable 5.1が370年前の暗号「Cyphral Distich」を解読 | 暗号解読の歴史的背景と、AIによる解決策がもたらす新たな視点について議論されている。\n  https://news.ycombinator.com/item?id=49688695\n- [922pt] Googleはいまだになぜ不審な広告を配信し続けているのか？ | Googleが収益のために詐欺広告を野放しにしているという批判や、厳格な責任を求める声が多数。\n  https://news.ycombinator.com/item?id=49686445\n- [797pt] 「AI開発は私以外みんな減速すべき」という主張について | AI開発の減速が国家間の能力格差を生むという懸念や、AI終末論に対する懐疑的な意見が見られる。\n  https://news.ycombinator.com/item?id=49678683\n- [644pt] なぜAIエージェントは嘘をつき、ごまかし、連携するのか？ | AIの「嘘」や「連携」の概念について、人間的な行動との類似性を巡る議論が交わされている。\n  https://news.ycombinator.com/item?id=49678969\n- [623pt] Homebrew 7.0.0をリリース | インストールとアップグレードの高速化、サンドボックス強化など、新機能への期待と代替ツールへの言及がある。\n  https://news.ycombinator.com/item?id=49681545\n- [561pt] JetKVM Mini | JetKVMの旧モデルは評価が高い一方、新モデルの故障報告やIntel AMTとの比較が話題になっている。\n  https://news.ycombinator.com/item?id=49681152\n- [466pt] AstraとFableが2025年当時のシンプルなアライメント評価をハッキングし続ける | AIの倫理的アライメントの難しさや、モデルの「知性」とは何かについて議論されている。\n  https://news.ycombinator.com/item?id=49684393\n- [465pt] 自動車が収集したデータが第三者に販売されている問題 | 自動車データの無断販売に対する不満や、技術的・法的な対策を求める声が上がっている。\n  https://news.ycombinator.com/item?id=49683953\n- [451pt] Tesla, Inc.によるサイバー攻撃を受けている | TeslaがNTPサーバーの利用規約に違反している可能性が指摘されており、対応を求める声が上がっている。\n  https://news.ycombinator.com/item?id=49686766\n- [445pt] Steam Frame、1059ドルから販売開始 | 価格の高さやVRゲームの少なさが指摘される一方、優れたVR体験やオープンなプラットフォームに期待する声がある。\n  https://news.ycombinator.com/item?id=49700661",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-09-15"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "11 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Nvidia CEO Jensen Huang、トランプ大統領に「AIの失速は許さない」と宣言\n  https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/\n- OpenAI、スマホカメラメーカーGlass Imagingを3億ドルで買収か\n  https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/\n- AIインフラ企業Cornelis、Nvidiaの牙城を崩すべく2億500万ドルを調達\n  https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance/\n- iOS 27でSiriを再び使い始めた\n  https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/\n- ファッションアプリDaydream、Apple Intelligenceでカメラロールのコーデを検索\n  https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/\n- Microsoft、AI向け「行動規範」を発表：システムへのハッキングや人間を欺く行為を禁止\n  https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/\n- TechCrunch Disrupt 2026独占：OpenAIがあなたのロードマップを出荷したらどうなるか？\n  https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap/\n- Superhuman、YC支援のメモアプリFathomを買収　生産性プラットフォームがエージェント型ワークを推進\n  https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/\n- TechCrunch Disrupt 2026でAIが自然界の復活をどう実現するかを聞こう\n  https://techcrunch.com/2026/09/14/hear-how-ai-can-engineer-natures-comeback-at-techcrunch-disrupt-2026/\n- TechCrunch Disrupt 2026出展まであと5日\n  https://techcrunch.com/2026/09/14/techcrunch-disrupt-2026-exhibit-table-deadline-5-days/\n- 元Spotifyリーダーが音楽アプリ開発で起業、渋谷のレコードバー\n  https://techcrunch.com/2026/09/14/a-vinyl-bar-in-shibuya-is-a-startup-offering-fun-music-apps/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-09-15"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Oats：デバイス完結型の議事録作成ツール（無料・オープンソース）\n  https://www.producthunt.com/products/oats-2\n- Slashy Assistant：メール業務を代行するAIアシスタント\n  https://www.producthunt.com/products/slashy-3\n- Web Search Agents by Nimble：自己学習型AIがWeb調査・検索を自動化\n  https://www.producthunt.com/products/nimbleway\n- OVO：ファイル、iCloud、ストリームからAppleデバイスで音楽を再生\n  https://www.producthunt.com/products/ovo\n- Naoma AI Demo Agent V2：Webサイト訪問者を商談に繋げるAIエージェント\n  https://www.producthunt.com/products/naoma\n- appdesigns：App Store向けスクリーンショットを無料でデザイン\n  https://www.producthunt.com/products/appdesigns\n- TryCase：AIがPRをテスト、マージ前に動画でウォークスルー\n  https://www.producthunt.com/products/trycase\n- Elva：Postmanに代わるAPIクライアント\n  https://www.producthunt.com/products/elva\n- AppZapper 3000：Appleが忘れたアンインストーラー\n  https://www.producthunt.com/products/appzapper\n- OzBrain：あなたの知識をAIエージェントやチームメイトと共有\n  https://www.producthunt.com/products/ozbrain",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-09-15"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "4 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Agent 37 — Hermes、OpenClaw、Claude Codeなどのエージェント向け永続サンドボックス\n  https://www.agent37.com/cloud\n- Aviern — 地理空間インテリジェンスを担う無人飛行機\n  https://aviern.com/\n- Papaya — AIエージェント向け継続的最適化ツール\n  https://papaya.fyi/\n- Roma — あなたのために働くAIタスクアプリ\n  https://roma.app",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-09-15"
+    },
+    {
+      "sourceName": "BRIDGE",
+      "title": "11 Articles",
+      "url": "https://thebridge.jp/category/news-and-column/",
+      "summary": "- 英国CloudNC、CNC加工支援AI「CAM Assist」の拡大へ2,000万ドルを調達\n  https://thebridge.jp/2026/09/cloudnc-20m-cam-assist-ai-cnc-machining\n- AIエージェントのアクセス権限を可視化するCymphony、3,000万ドルを調達\n  https://thebridge.jp/2026/09/cymphony-30m-ai-agent-access-security\n- 抗体検査のAOI Biosciences、増資と株式譲渡で総額約5億円\n  https://thebridge.jp/2026/09/aoi-biosciences-funding-secondary-transaction\n- 資産承継AIのLuminary、Ten Coves Capital主導でシリーズA2,200万ドル調達\n  https://thebridge.jp/2026/09/luminary-series-a-22m-fundraising\n- 産業用ロボットのMaven Robotics、RoboStrategy主導でシリーズA1億ドル調達\n  https://thebridge.jp/2026/09/maven-robotics-series-a-100m-industrial-robotics\n- Ayar Labs、光インターコネクト量産へ1.5億ドルを追加調達\n  https://thebridge.jp/2026/09/ayar-labs-raises-additional-150m-for-optical-io-production\n- 気象リスク管理のPerry Weather、Silversmith主導で1.1億ドル調達\n  https://thebridge.jp/2026/09/perry-weather-110m-growth-investment\n- 医薬品流通DXの9lione、横浜キャピタル主導でシリーズA1.2億円調達\n  https://thebridge.jp/2026/09/9lione-raises-series-a-120-million-yen\n- AI個別英語教室のEdTechX、PKSHA Algorithm Fundからシード調達\n  https://thebridge.jp/2026/09/edtechx-raises-series-seed-from-pksha-algorithm-fund\n- 電子トレカ「ORICAL」のHEARTBEATS、アルテミス主導のシリーズCで約23億円調達\n  https://thebridge.jp/2026/09/heartbeats-raises-about-2-3-billion-yen-series-c\n- 架電自動化のnocall.ai、ジャフコなどからシリーズAで約8億円調達\n  https://thebridge.jp/2026/09/nocall-raises-series-a",
+      "ogImage": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
+      "publishedAt": "2026-09-15"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Humanity’s Last Invention — Richard Socher of Recursive",
+      "url": "https://www.latent.space/p/recursive",
+      "summary": "Recursive社は、自己改善型AIシステムを構築し、AI研究の自動化やGPUカーネルの最適化で人間や既存エージェントを凌駕する初期成果を発表。",
+      "publishedAt": "2026-09-15",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!B0-U!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F215289811%2F00f17267-ccc0-4361-b29d-c2fef2128ec5%2Ftranscoded-1789165150.png"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "18 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
+      "publishedAt": "2026-09-15",
+      "docsUpdates": [
+        {
+          "tag": "Changed",
+          "file": "amazon-bedrock.md",
+          "text": "AWS認証情報のキャッシュ期間に関する説明からバージョン指定が削除され、コマンドがISO 8601形式の有効な`Expiration`を返すかどうかに基づいてキャッシュ期間が決まるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ff6d8b9d26a89503da32beedf8c6335182edf29f"
+        },
+        {
+          "tag": "Changed",
+          "file": "best-practices.md",
+          "text": "デバッグ時の`--verbose`使用に関する推奨事項が削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ff6d8b9d26a89503da32beedf8c6335182edf29f"
+        },
+        {
+          "tag": "Fixed",
+          "file": "claude-directory.md",
+          "text": "表の書式設定の問題が修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ff6d8b9d26a89503da32beedf8c6335182edf29f"
+        },
+        {
+          "tag": "Changed",
+          "file": "cloud-environments.md",
+          "text": "信頼されたネットワークアクセスにおいて、Anthropicサービスから`statsig.anthropic.com`が削除され、Cloudflare R2およびJavaScript/Nodeパッケージマネージャーに新しいドメインが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ff6d8b9d26a89503da32beedf8c6335182edf29f"
+        },
+        {
+          "tag": "Changed",
+          "file": "common-workflows.md",
+          "text": "「Desktop scheduled tasks」の説明が「ローカルファイル、ツール、または未コミットの変更に直接アクセスする必要があるタスク」に更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ff6d8b9d26a89503da32beedf8c6335182edf29f"
+        },
+        {
+          "tag": "Changed",
+          "file": "costs.md",
+          "text": "VS Code拡張機能における使用状況表示に関するバージョン要件が削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ff6d8b9d26a89503da32beedf8c6335182edf29f"
+        },
+        {
+          "tag": "Changed",
+          "file": "errors.md",
+          "text": "認証エラーメッセージのテキストが、より簡潔な形式に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ff6d8b9d26a89503da32beedf8c6335182edf29f"
+        },
+        {
+          "tag": "Changed",
+          "file": "errors.md",
+          "text": "「OAuth token revoked or expired」に関する説明が、`Login expired`メッセージとは異なる状態であることを明確にするために更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ff6d8b9d26a89503da32beedf8c6335182edf29f"
+        },
+        {
+          "tag": "Improved",
+          "file": "hooks.md",
+          "text": "`PostToolUse`フックの`status`プロパティの説明が、サブエージェントがデフォルトでバックグラウンドで実行されるようになったことを反映して更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ff6d8b9d26a89503da32beedf8c6335182edf29f"
+        },
+        {
+          "tag": "Changed",
+          "file": "how-claude-code-works.md",
+          "text": "`/init`コマンドの説明が、「プロジェクトのCLAUDE.mdを作成する手順を案内する」から「プロジェクトのスターターCLAUDE.mdを生成する」に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ff6d8b9d26a89503da32beedf8c6335182edf29f"
+        },
+        {
+          "tag": "Changed",
+          "file": "jetbrains.md",
+          "text": "JetBrainsプラグインの設定における「Suppress notification for Claude command not found」のオプション名が「Suppress notification for when Claude Command is not found」に変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ff6d8b9d26a89503da32beedf8c6335182edf29f"
+        },
+        {
+          "tag": "Changed",
+          "file": "large-codebases.md",
+          "text": "スキルに関するセクションから「shorteningに耐える説明の書き方」についての言及が削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ff6d8b9d26a89503da32beedf8c6335182edf29f"
+        },
+        {
+          "tag": "Improved",
+          "file": "permissions.md",
+          "text": "アクセス許可ルールの評価順序に関する説明が、より明確になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ff6d8b9d26a89503da32beedf8c6335182edf29f"
+        },
+        {
+          "tag": "Changed",
+          "file": "prompt-caching.md",
+          "text": "ツール全体を拒否することに関する説明が、ツールの定義がシステムプロンプト層に読み込まれることについて言及するように更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ff6d8b9d26a89503da32beedf8c6335182edf29f"
+        },
+        {
+          "tag": "Changed",
+          "file": "remote-control.md",
+          "text": "リモートセッションタイトルの言語一致に関するバージョン要件が削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ff6d8b9d26a89503da32beedf8c6335182edf29f"
+        },
+        {
+          "tag": "Changed",
+          "file": "settings-reference.md",
+          "text": "`footerLinksRegexes`設定に関するバージョン要件が削除されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ff6d8b9d26a89503da32beedf8c6335182edf29f"
+        },
+        {
+          "tag": "Changed",
+          "file": "skills.md",
+          "text": "スキル名比較の挙動に関する説明が、ローカルスキルと同期スキルの優先順位の例を削除し、同期スキル名の動作に焦点を当てるように変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ff6d8b9d26a89503da32beedf8c6335182edf29f"
+        },
+        {
+          "tag": "Changed",
+          "file": "vs-code.md",
+          "text": "VS CodeのステータスバーからのClaude Codeの起動に関する説明が、より簡潔になりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/ff6d8b9d26a89503da32beedf8c6335182edf29f"
+        },
+        {
+          "tag": "Improved",
+          "file": "desktop.md",
+          "text": "`disableAutoMode`設定について、`permissions`の下でも受け入れられるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/20c3eceabeac17f3d079307b110f23a56fbea0fb"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "1 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- Copilotのモデル自動選択、コストと品質でカスタマイズ可能に\n  https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-09-15"
+    }
+  ]
+}
