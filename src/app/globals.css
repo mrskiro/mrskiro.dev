@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 @theme inline {
+  --font-sans: system-ui, sans-serif;
   --color-accent: #aa26ff;
   --color-code-bg: #f6f6f6;
   --color-border: #f0f0f0;

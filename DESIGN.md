@@ -30,7 +30,7 @@
 
 ## Typography
 
-- System font stack (no web fonts)
+- System font stack (no web fonts). `--font-sans` is overridden to `system-ui, sans-serif` — Tailwind's default hardcodes `-apple-system` / `Segoe UI` / `Roboto` / `Arial`, which pins specific vendor fonts and, on a `lang="ja"` page, keeps Japanese glyphs even after browser translation. Generic families only; the OS decides. Latin resolves to San Francisco / Segoe UI / Roboto, Japanese to ヒラギノ角ゴ / Noto Sans JP
 - Single font size: 16px (`text-base`) for all text
 - font-weight: 400 for body, 500 for headings only
 - Dates: monospace font for geeky feel
