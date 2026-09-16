@@ -1,0 +1,193 @@
+{
+  "fetchedAt": "2026-09-16T23:18:37.037Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Helping older adults use AI in everyday life",
+      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "summary": "OpenAIとAARPが、米国10都市で高齢者向けChatGPT無料ワークショップを開催し、AIスキル向上を支援。",
+      "publishedAt": "2026-09-17",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/1yEHeoQzG1q9cfoWaoD68R/f45d0eec3a09156dcb99bcd9f6619c51/older-adults-open-graph-v001.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Reimagining advertising with AI",
+      "url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "summary": "OpenAIが、スポンサーエージェントやマーケティングツールなど、AIを活用した広告機能を発表。",
+      "publishedAt": "2026-09-16",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/55OzfM3w5QnfYsHGeqQPwD/da59df4251ec09b27e1855f4710f0c39/reimagining-advertising-with-ai-seo.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "How to connect AI usage to business value",
+      "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "summary": "ChatGPT WorkとCodex analyticsは、チームのAI利用状況、コスト、トレーニングニーズ、ビジネス成果への貢献を分析するのに役立つ。",
+      "publishedAt": "2026-09-16",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/3Ias4lDCBufY7UbBmXDNjz/b72b7e773296ca0c7e74151f9c5447a2/seo-018.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Our framework for reporting model misalignment",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "summary": "OpenAIがモデルの誤作動を追跡・調査・開示するフレームワークと、懸念される動作事例を公開。",
+      "publishedAt": "2026-09-17",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/1ZIYnl31jt9gPO8qCbMGBZ/aaf74083a5332be1cb265dbdb6e652e0/model-misalignment-reporting-framework--seo-v002.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "How workers are unlocking new ways of working",
+      "url": "https://openai.com/index/unlocking-new-ways-of-working",
+      "summary": "OpenAIの新しい調査で、AIが従来の業務範囲を超えて労働者の仕事に定着しつつあることが明らかに。",
+      "publishedAt": "2026-09-16",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/1gs0leQWyRXaqM1FSYP2pB/90ebb6eb87e6c0cfd0ce654dc0a7692c/blog-seo-option040-v002.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [2040pt] Show HN: 鳥の声を聴き、1800年代のイラストとして描画するe-inkフレーム | 「魔法のようだ」と絶賛の声多数。BirdNET、e-ink、ESP32との組み合わせに高い関心が寄せられている\n  https://news.ycombinator.com/item?id=49711544\n- [1781pt] System One ModelsとJevを発表 | 「非常に興味深く新しい」と評価。家庭用アシスタントのデモで価値が明確になり、契約との組み合わせに期待が寄せられている\n  https://news.ycombinator.com/item?id=49717558\n- [1114pt] パプアニューギニアへの思いが止まらない | 父親や両親が滞在した体験談が多数。記事内の動画がTwitterに埋め込まれており、アカウントなしでは見られない点に不満の声\n  https://news.ycombinator.com/item?id=49708431\n- [914pt] 25年間の大規模監視はもう十分だ | 監視は悲惨な悪循環であり、自らのデバイスで動作するサービス構築を求める声。Orwellの予言と現在の状況を重ねるコメントも\n  https://news.ycombinator.com/item?id=49710883\n- [664pt] Wayback Machineアクセスに関する最新情報 | 高ボリュームの自動トラフィックに見舞われているとのこと。Internet Archiveへの賞賛と、アクセス障害に関する経験談が多数寄せられている\n  https://news.ycombinator.com/item?id=49716176\n- [643pt] EU首脳、カナダの「準加盟国」入りに門戸を開く | EUと中堅民主主義国家の連携を求める声。カナダのBill C-22が暗号化バックドアを義務付けることへの懸念も表明されている\n  https://news.ycombinator.com/item?id=49724141\n- [517pt] オランダで鉄道網の大規模障害、サボタージュの疑い | 数日前のフランスでの同様の事件との関連性が指摘されている。鉄道システムの専門家による解説や、現地の政治的背景を推測するコメントも\n  https://news.ycombinator.com/item?id=49710253\n- [512pt] Mistral X Mozilla: プライベートで多言語対応のAIブラウジング | ローカルモデル推論の活用事例として評価される一方で、Mozillaが閲覧履歴をクラウドにアップロードしようとしている点にプライバシー懸念の声\n  https://news.ycombinator.com/item?id=49723408\n- [494pt] Apple Reference Image: 認証済み写真の新しいアプローチ | 「巧妙なアイデア」と評価される一方で、加工画像の再生シナリオへの対応不足や、Appleへの過度な信頼性への懸念が指摘されている\n  https://news.ycombinator.com/item?id=49721322\n- [480pt] Gemini 3.8 Liveと3.8 Live Extended Thinking | 低レイテンシーで使いやすいと高評価。一方で、コンテキストを忘れやすい、不要な商品リンクを提示するといった批判的な意見も散見される\n  https://news.ycombinator.com/item?id=49715947",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-09-17"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "12 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Noise、一般ユーザーを有料コンテンツクリエイターに育成する新サービスを発表\n  https://techcrunch.com/2026/09/16/noise-wants-to-help-everyday-people-become-paid-content-creators/\n- Cartaの競合Pulleyが事業閉鎖へ\n  https://techcrunch.com/2026/09/16/pulley-a-carta-rival-is-shutting-down/\n- AnthropicとOpenAI、安全評価者を社内に組み込みへ。その独立性は確保されるのか？\n  https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/\n- 「盗撮メガネ」疑惑受け、Metaがカメラなしの新型メガネ発売へ\n  https://techcrunch.com/2026/09/16/after-accusations-of-selling-perv-glasses-meta-prepares-to-sell-a-pair-without-a-camera/\n- Science Corp CEO Max Hodakが語る「スクリーンの時代」の終焉：TechCrunch Disrupt 2026\n  https://techcrunch.com/2026/09/16/hear-why-science-corp-ceo-max-hodak-says-the-screen-era-is-ending-at-techcrunch-disrupt-2026/\n- AIラボが内部監査役を求めるが、その前にやるべきことがあるのでは？\n  https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/\n- AIエージェントがGoogle Homeデバイスを操作可能に\n  https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/\n- Anthropic、ClaudeチャットとCoworkを統合した新インターフェースを発表\n  https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/\n- FortellがAIと1億6300万ドルを使い、補聴器市場の独占に挑む方法\n  https://techcrunch.com/video/how-fortell-is-using-ai-and-163m-to-crack-a-hearing-aid-monopoly/\n- ロボットはChatGPTのような転換点を待っている：NvidiaのLes KarpasがTechCrunch Disrupt 2026で解説\n  https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/\n- Threadsの新機能でポッドキャスターが番組宣伝、リスナー獲得を支援\n  https://techcrunch.com/2026/09/16/threads-new-features-let-podcasters-promote-shows-and-reach-listeners/\n- TechCrunch Disrupt 2026 Startup Battlefield 200審査員、次世代VCが明らかに\n  https://techcrunch.com/2026/09/16/next-wave-of-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disrupt-2026-revealed/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-09-17"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Fragments: September 16",
+      "url": "https://martinfowler.com/fragments/2026-09-16.html",
+      "summary": "OpenAIが過去にRubyGemsへの攻撃に関与した可能性が浮上し、AIエージェントの予測不可能性と永続性への懸念が高まる中、規制の必要性も議論されている。",
+      "publishedAt": "2026-09-17",
+      "ogImage": "https://martinfowler.com/fragments/fragments-thumb.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Appwrite 2.0 — エージェントと開発者のためのオープンソースクラウド\n  https://www.producthunt.com/products/appwrite\n- Weave Router 2.0 — サブスクリプション対応コーディングエージェントルーター\n  https://www.producthunt.com/products/weave\n- CreatorHat — Apple Intelligence搭載、Safari向けYouTube SEOツール\n  https://www.producthunt.com/products/creatorhat\n- PeakHour 6 — 詳細なWiFi情報を表示するMac向けリアルタイムネットワークモニター\n  https://www.producthunt.com/products/peak-hour\n- PhraseVault 3.0 — PINで機密フレーズを個別にロック可能に\n  https://www.producthunt.com/products/phrasevault\n- Project Feed — ファイルレビュー機能を内蔵したプロジェクト管理ツール\n  https://www.producthunt.com/products/project-feed\n- Jottoo — AI議事録を追跡可能なタスクに変換\n  https://www.producthunt.com/products/jottoo\n- Twigg — 構築不要のコンテキストレイヤー\n  https://www.producthunt.com/products/twigg\n- Expand Board for macOS — 無限のボードでアイデア、コンセプト、計画を拡張\n  https://www.producthunt.com/products/expand-board-for-macos\n- CAT ME app — 自分や友達が猫に変身\n  https://www.producthunt.com/products/cat-me-app",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-09-17"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "4 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Perit.AI：AIラボ向け、専門家主導のデータ・RLプラットフォーム\n  https://www.perit.ai/\n- Hickory & Company：銀行・フィンテック向けにエージェント型コンプライアンス・BSAを提供\n  https://hickory.co\n- Lark：卸売業者向け特化型エージェント\n  https://trylark.ai\n- Memorable：AIエージェント向け自己進化型ワークフロー\n  https://www.memorable.sh/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-09-17"
+    },
+    {
+      "sourceName": "BRIDGE",
+      "title": "⚠ BRIDGE の取得に失敗しました",
+      "url": "https://thebridge.jp/category/news-and-column/feed",
+      "summary": "Jina returned no feed items for https://thebridge.jp/category/news-and-column/feed",
+      "ogImage": null,
+      "publishedAt": "2026-09-17"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC",
+      "url": "https://www.latent.space/p/aiuc",
+      "summary": "AIUCはAIエージェントのセキュリティ、安全性、信頼性のための基準と保険を提供し、シリーズAで4000万ドルを調達した。",
+      "publishedAt": "2026-09-17",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!brKf!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F215893904%2Fcb19e921-bb32-4f46-83b3-5a3ace0a41ff%2Ftranscoded-1789506877.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs",
+      "url": "https://www.latent.space/p/ainews-jev-a-system-one-model-that",
+      "summary": "Periodic Labsが物理実験とMLを組み合わせた材料科学AIモデル「Neon」を発表し、Googleはリアルタイム音声AIモデル「Gemini 3.8 Live」を、TypeSafeは高速・安価な意思決定AIモデル「Jev」をそれぞれリリース。",
+      "publishedAt": "2026-09-16",
+      "ogImage": "https://substackcdn.com/image/youtube/w_728,c_limit/cJ0EOzey--o"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "11 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
+      "publishedAt": "2026-09-17",
+      "docsUpdates": [
+        {
+          "tag": "Fixed",
+          "file": "env-vars.md",
+          "text": "`CLAUDE_CODE_SUBAGENT_MODEL`変数が、モデルを割り当てられていないサブエージェント、エージェントチームのメンバー、およびワークフローエージェントのデフォルトモデルを設定すると明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/0ef76e41ed5087bcd0abd1ab1fa0f661e948bba4"
+        },
+        {
+          "tag": "Improved",
+          "file": "hooks.md",
+          "text": "プラグインの環境変数の詳細について、`${CLAUDE_PLUGIN_ROOT}`プレースホルダーの説明に`plugins-reference`への参照が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/0ef76e41ed5087bcd0abd1ab1fa0f661e948bba4"
+        },
+        {
+          "tag": "Fixed",
+          "file": "plugin-marketplaces.md",
+          "text": "ローカルディレクトリとして追加されたマーケットプレイスからインプレースでロードされたプラグインが、`version`フィールドによって固定されないことが追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/0ef76e41ed5087bcd0abd1ab1fa0f661e948bba4"
+        },
+        {
+          "tag": "Changed",
+          "file": "plugins-reference.md",
+          "text": "プラグインのルートにある`SKILL.md`ファイルが単一スキルとしてロードされる場合の、スキルの呼び出し名の決定ロジックに関する説明が更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/0ef76e41ed5087bcd0abd1ab1fa0f661e948bba4"
+        },
+        {
+          "tag": "Improved",
+          "file": "agent-sdk__hooks.md",
+          "text": "フックのタイムアウトに関する記述が明確化され、タイムアウトを超過したコールバックがどのように扱われるか、またセッションの続行方法が説明されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/07a6d152d2c3c34e95f4cfb56001d52f72863aa1"
+        },
+        {
+          "tag": "Improved",
+          "file": "auto-mode-config.md",
+          "text": "Claude Codeが自動モードでリポジトリの可視性を判断する際に、ユーザーメッセージやClaudeが実行するコマンドの内容も読み取るように改善されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/07a6d152d2c3c34e95f4cfb56001d52f72863aa1"
+        },
+        {
+          "tag": "Fixed",
+          "file": "permission-modes.md",
+          "text": "`permissions.blockReadsOutsideWorkingDirectories`がオンの場合、作業ディレクトリ外の読み取りが、許可ルールや`PreToolUse`フックによる承認があってもブロックされるよう修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/07a6d152d2c3c34e95f4cfb56001d52f72863aa1"
+        },
+        {
+          "tag": "Fixed",
+          "file": "permissions.md",
+          "text": "自動モードの場合、サンドボックス化された`curl`コマンドがサンドボックス許可リスト外のホストを対象とする際に、分類器にリクエストが送信されるのではなく、ユーザーにプロンプトが表示されるように修正されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/07a6d152d2c3c34e95f4cfb56001d52f72863aa1"
+        },
+        {
+          "tag": "Improved",
+          "file": "sandbox-environments.md",
+          "text": "サンドボックス化されたBashツールの設定手順がmacOSで「minimal」、LinuxとWSL2で「low」と表現され、より分かりやすくなりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/07a6d152d2c3c34e95f4cfb56001d52f72863aa1"
+        },
+        {
+          "tag": "Improved",
+          "file": "sandboxing.md",
+          "text": "BashサンドボックスがBashコマンドだけでなく、PowerShellやMonitorコマンドとその子プロセスにも適用されるように説明が拡張されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/07a6d152d2c3c34e95f4cfb56001d52f72863aa1"
+        },
+        {
+          "tag": "Improved",
+          "file": "settings-reference.md",
+          "text": "`autoMode.classifyAllShell`設定の説明が、自動モードがアクティブな場合にすべてのBashおよびPowerShellコマンドが自動モード分類器を介して送信されることをより明確にするように更新されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/07a6d152d2c3c34e95f4cfb56001d52f72863aa1"
+        }
+      ]
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "1 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- Copilotの予算申請機能、一般提供開始\n  https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-09-17"
+    }
+  ]
+}
