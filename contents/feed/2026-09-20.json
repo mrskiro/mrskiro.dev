@@ -1,0 +1,241 @@
+{
+  "fetchedAt": "2026-09-19T22:32:18.334Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "url": "https://openai.com/index/australian-youth-safety-blueprint",
+      "summary": "OpenAIは、若者向けの安全なAI体験を実現するための計画「オーストラリア青少年安全ブループリント」を発表。",
+      "publishedAt": "2026-09-18",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/11NZvnxIWqXyYxeVZn7RVi/75a29b61ef84d54e91c850bee1e5f444/introducing-the-australian-youth-safety-blueprint-seo.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.278",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
+      "summary": "- [Changed] Claude APIおよびEnterpriseユーザー、Bedrock、Vertex、Foundry、およびゲートウェイにおいて、自動モードのデフォルトをサーバーサイド分類器に変更しました。これにより、分類器のオーバーヘッドは課金されません (Bedrock、Vertex、Foundry、およびゲートウェイではCLAUDE_CODE_AUTO_MODE_SERVER=0でオプトアウト可能です)。課金されるフォールバックについては警告が表示されます。\n- [Added] /statusにAuto mode serverの行を追加し、このセッションの自動モード分類器がサーバー上で実行されているかどうかを表示するようにしました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-09-19"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1255pt] AI生成ポスターは「ひどい」とは限らない | 多くの人がAIポスターを「ひどい」と評価し、不自然さや情報過多を指摘。制作プロセスへの疑問も。\n  https://news.ycombinator.com/item?id=49764791\n- [1096pt] Android 17、3.x以来初めてAOSPにリリースされずに新APIを追加 | GoogleがGrapheneOSなどのカスタムROM開発を妨害しているとの批判が多く、独占的な姿勢に懸念の声。\n  https://news.ycombinator.com/item?id=49758736\n- [1002pt] 1年前に非自己回帰型決定モデルを強化学習で構築した話 | JevやTypesafeの宣伝文句に懐疑的な声が多い。著者の不満に理解を示すも、幼いとの意見も。\n  https://news.ycombinator.com/item?id=49765348\n- [915pt] Microsoft幹部、AIスクレイピングを「人類史上最大の労働窃盗」と呼ぶ | AIスクレイピングが「労働窃盗」か「著作権侵害」かで意見が分かれる。規模の倫理と奴隷制度との比較も。\n  https://news.ycombinator.com/item?id=49752056\n- [818pt] パスキーは好きじゃない | パスキーのセキュリティ向上を認めつつも、一般的なユーザーには無関係な脅威に対処しているとの指摘。サードパーティ製マネージャーとの連携の悪さも不満。\n  https://news.ycombinator.com/item?id=49753211\n- [807pt] Cloudflare Quick Tunnels | Quick Tunnelsは5年以上前から存在しているとの指摘。Cloudflareの製品への配慮不足やUIの分かりにくさに疑問の声。\n  https://news.ycombinator.com/item?id=49754785\n- [713pt] Claude Code、Claude.mdがない場合はAGENTS.mdを読み込むように | 基本的な機能の実装が遅すぎるとの不満が多く、Anthropicの開発姿勢に疑問の声が上がる。\n  https://news.ycombinator.com/item?id=49760187\n- [691pt] OpenJev | Jevの公式実装との類似性を指摘するコメントや、類似技術との違い、ウェブサイトのUIへの不満が見られる。\n  https://news.ycombinator.com/item?id=49752041\n- [608pt] LLMで文章を書く方法 | LLMを執筆支援に使うことへの懸念と、校正や事実確認に活用する前向きな意見が混在。\n  https://news.ycombinator.com/item?id=49747070\n- [593pt] 2つの並行する神経外胚葉前駆細胞が発達中の脳に寄与 | 研究内容の誇張を指摘する声や、in vitroでの脳幹細胞培養技術の発見に注目する意見が多数。\n  https://news.ycombinator.com/item?id=49763697",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-09-20"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "12 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Flock、従業員への退職金支払いによる人員削減を試みか\n  https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/\n- トランプ氏、AIの名称変更と「AI部隊」創設を表明\n  https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/\n- GoogleのGemini、他社ハッキングに利用された最新AIモデルに\n  https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/\n- PetlibroのAI給餌器、多頭飼い世帯に革命をもたらす\n  https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/\n- AI安全性に関する議論はもはや現実離れしている\n  https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/\n- 7日後に値上げ。Disruptチケットは今すぐ購入を。\n  https://techcrunch.com/2026/09/19/prices-go-up-in-7-days-get-your-disrupt-ticket-now/\n- Andreessen Horowitz支援のVals、AIベンチマークのゴールドスタンダード目指す\n  https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/\n- インド、発信者IDアプリにスパム報告を通信会社へ送信するよう義務付け\n  https://techcrunch.com/2026/09/18/india-forces-caller-id-apps-to-feed-spam-reports-to-telcos/\n- Tilly Norwoodのプレツアー、AIとしては予想通りの展開\n  https://techcrunch.com/2026/09/18/tilly-norwoods-press-tour-is-going-about-as-well-as-youd-expect-for-an-ai/\n- 他のスタートアップを構築する企業が1億ドル調達、フィジカルAIに注力\n  https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/\n- Anthropic、生物学実験を行うラボを運営\n  https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/\n- AIの幻覚が米軍作戦を危うく引き起こすところだった\n  https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-09-20"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Mantra Timer — iOS向けミニマルな瞑想タイマー\n  https://www.producthunt.com/products/transcendence\n- BiBimba — スクリーンショットも読み込めるクリップボード履歴\n  https://www.producthunt.com/products/bibimba\n- Punch — グループチャットの重要事項を保存\n  https://www.producthunt.com/products/punch-4\n- Basedash Models — 一度定義すればテーブルのようにクエリ可能\n  https://www.producthunt.com/products/basedash\n- Mise — 全ての料理を同時に準備できる食事プランナー\n  https://www.producthunt.com/products/robot-recipes\n- Squirrel — 報酬がもらえるアプリブロッカー\n  https://www.producthunt.com/products/squirrel-screen-time-savings\n- VoiceCap — 多言語対応のAI議事録作成ツール\n  https://www.producthunt.com/products/voicecap\n- Doneit 3.2 — 再構築されたDoneit Assist、Siri AIサポートなどを搭載\n  https://www.producthunt.com/products/doneit\n- Lull — 心に浮かんだことを伝えれば、瞑想を作成\n  https://www.producthunt.com/products/lull-3\n- Steam Frame — SteamライブラリをウェアラブルPCで\n  https://www.producthunt.com/products/steam-machine",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-09-20"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "2 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Faraday — 人とAIとロボットをつなぐ産業用aOSが登場\n  \n- Shire Intelligence — 防犯カメラ映像を活用しリアルタイムでレストランを経営するShire\n  https://shireintelligence.com/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-09-20"
+    },
+    {
+      "sourceName": "BRIDGE",
+      "title": "⚠ BRIDGE の取得に失敗しました",
+      "url": "https://thebridge.jp/category/news-and-column/feed",
+      "summary": "Jina returned no feed items for https://thebridge.jp/category/news-and-column/feed",
+      "ogImage": null,
+      "publishedAt": "2026-09-20"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Here are 6 Clones of Jev in 2 days",
+      "url": "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in",
+      "summary": "非生成系意思決定モデル「Jev」が注目を集め、様々な応用例や類似モデルが登場し、AIエージェントのツール活用やモデル選択、ベンチマークと訓練システムに関する議論が進んでいる。",
+      "publishedAt": "2026-09-19",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!0a7_!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHSiGtZba0AEezOP.jpg"
+    },
+    {
+      "sourceName": "Claude Code Docs",
+      "title": "25 files updated",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "summary": "",
+      "ogImage": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
+      "publishedAt": "2026-09-20",
+      "docsUpdates": [
+        {
+          "tag": "Added",
+          "file": "changelog.md",
+          "text": "Claude Codeのドキュメントに、変更履歴を一覧できるchangelog.mdが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/526a3bb876e035987745189cffcbf18cd440758d"
+        },
+        {
+          "tag": "Improved",
+          "file": "permission-modes.md",
+          "text": "Claude Codeがサーバーに分類器のレビューを要求するプロバイダーに「Google Cloud's Agent Platform」と「Microsoft Foundry」が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/068b87480f3b1fe2a343e40ed5bd31ca5e728efc"
+        },
+        {
+          "tag": "Changed",
+          "file": "changelog.md",
+          "text": "フックの出力が50,000文字から10,000文字を超えた場合、コンテキストに直接注入する代わりに、ファイルパスと2,000文字のプレビューとともにディスクに保存されるようになりました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e6010a9da5b117892fdfa2a10413444857c5a19e"
+        },
+        {
+          "tag": "Fixed",
+          "file": "claude-apps-gateway-on-aws.md",
+          "text": "Bedrockのリクエストが`403 AccessDeniedException`を返す問題について、自動AWS Marketplaceサブスクリプションが完了するまでの待機に関する説明が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e6010a9da5b117892fdfa2a10413444857c5a19e"
+        },
+        {
+          "tag": "Improved",
+          "file": "claude-code-on-the-web.md",
+          "text": "差分ビューで、セッションの変更をデフォルトのベースブランチと比較するだけでなく、任意のリポジトリブランチと比較できる機能が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e6010a9da5b117892fdfa2a10413444857c5a19e"
+        },
+        {
+          "tag": "Improved",
+          "file": "cloud-environments.md",
+          "text": "環境のアーカイブ方法について、自身の環境と組織共有環境で所有者がアーカイブする手順が明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e6010a9da5b117892fdfa2a10413444857c5a19e"
+        },
+        {
+          "tag": "Improved",
+          "file": "errors.md",
+          "text": "`CLAUDE_CODE_NETWORK_ACCESS_BLOCKED`エラーの解決策として、組織共有環境のネットワークアクセスを変更する際の所有者への依頼方法が追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e6010a9da5b117892fdfa2a10413444857c5a19e"
+        },
+        {
+          "tag": "Changed",
+          "file": "permission-modes.md",
+          "text": "サーバーサイド分類器レビューのセクションがサブセクションからメインセクションに昇格され、Amazon Bedrock、Google Cloud's Agent Platform、Microsoft Foundryでの動作について説明が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e6010a9da5b117892fdfa2a10413444857c5a19e"
+        },
+        {
+          "tag": "Fixed",
+          "file": "self-hosted-environments-deploy.md",
+          "text": "Gitホストが認証情報を拒否した場合の動作について、セッションが結果をプッシュするリポジトリと読み取り専用リポジトリでの違いが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e6010a9da5b117892fdfa2a10413444857c5a19e"
+        },
+        {
+          "tag": "Improved",
+          "file": "slack.md",
+          "text": "SlackでClaude Tagを使用しているワークスペースにおいて、個人アカウントの環境ではチャネルセッションを開始できない問題と、組織共有環境への変更方法が追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e6010a9da5b117892fdfa2a10413444857c5a19e"
+        },
+        {
+          "tag": "Improved",
+          "file": "web-quickstart.md",
+          "text": "クイックスタートの差分ビューのステップに、セッションの変更をデフォルトのベースブランチだけでなく、異なるブランチと比較できる機能が追加されたことが追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/e6010a9da5b117892fdfa2a10413444857c5a19e"
+        },
+        {
+          "tag": "Improved",
+          "file": "claude-directory.md",
+          "text": "`CLAUDE.md`のヒントに、特定のタスクにのみ関連する内容をスキルまたはパススコープ付きルールに移動することで、必要なときにのみ読み込まれるようにする推奨が追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/6c4f79637cc8ad66453c37371acc9024bb2d9c36"
+        },
+        {
+          "tag": "Improved",
+          "file": "context-window.md",
+          "text": "セッション開始時にロードされるコンテキストに`AGENTS.md`ファイルが含まれる可能性が明記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/6c4f79637cc8ad66453c37371acc9024bb2d9c36"
+        },
+        {
+          "tag": "Improved",
+          "file": "corporate-launcher.md",
+          "text": "`CLAUDE_CODE_PROCESS_WRAPPER`を使用する際に、バックグラウンドサービスやセッションが`PATH`上の`claude`コマンドをラップするランチャーから到達できない理由が明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/6c4f79637cc8ad66453c37371acc9024bb2d9c36"
+        },
+        {
+          "tag": "Improved",
+          "file": "desktop.md",
+          "text": "チャットのトランスクリプトに表示される詳細度を制御するビューモードについて、「Thinking」モードがClaudeが思考を生成した後にのみドロップダウンに表示されるようになったことが追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/6c4f79637cc8ad66453c37371acc9024bb2d9c36"
+        },
+        {
+          "tag": "Added",
+          "file": "env-vars.md",
+          "text": "機能フラグのフェッチが無効になっている場合、Claude Codeが`AGENTS.md`ファイルをプロジェクト指示として読み取れないことが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/6c4f79637cc8ad66453c37371acc9024bb2d9c36"
+        },
+        {
+          "tag": "Improved",
+          "file": "feature-availability.md",
+          "text": "`CLAUDE.md`のメモリに関するプロバイダー固有の違いとして、`AGENTS.md`ファイルの読み取りに機能フラグのフェッチが必要であることが追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/6c4f79637cc8ad66453c37371acc9024bb2d9c36"
+        },
+        {
+          "tag": "Added",
+          "file": "glossary.md",
+          "text": "AIコーディングエージェントのためのプロジェクト指示を記述するMarkdownファイルである`AGENTS.md`が用語集に追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/6c4f79637cc8ad66453c37371acc9024bb2d9c36"
+        },
+        {
+          "tag": "Changed",
+          "file": "hooks.md",
+          "text": "`CLAUDE.md`または`.claude/rules/*.md`ファイルがコンテキストにロードされたときに発火する`claudeMdLoaded`イベントが、**Project instructions**設定を通じてClaudeが`AGENTS.md`を直接読み取る場合には発火しないように変更されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/6c4f79637cc8ad66453c37371acc9024bb2d9c36"
+        },
+        {
+          "tag": "Improved",
+          "file": "how-claude-code-works.md",
+          "text": "Claude Codeがプロジェクトの指示として`AGENTS.md`ファイルを読み取ることができる可能性が言及されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/6c4f79637cc8ad66453c37371acc9024bb2d9c36"
+        },
+        {
+          "tag": "Added",
+          "file": "llm-gateway-protocol.md",
+          "text": "`llm-gateway-protocol.md`に、接続方法によるクライアントの挙動の違いと、スタール検出、リトライ、使用量制限表示のために返すべき応答ヘッダーに関するセクションが追加されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/6c4f79637cc8ad66453c37371acc9024bb2d9c36"
+        },
+        {
+          "tag": "Improved",
+          "file": "llm-gateway.md",
+          "text": "ゲートウェイがAnthropic APIまたはクラウドプロバイダーのいずれをアップストリームとするかに関わらず、監査ロギングやプロンプトキャッシュなどの機能が適用されることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/6c4f79637cc8ad66453c37371acc9024bb2d9c36"
+        },
+        {
+          "tag": "Improved",
+          "file": "memory.md",
+          "text": "Claudeがプロジェクトの知識を記憶するメカニズムとして、`CLAUDE.md`ファイルに加えて`AGENTS.md`ファイルも使用できることが強調されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/6c4f79637cc8ad66453c37371acc9024bb2d9c36"
+        },
+        {
+          "tag": "Improved",
+          "file": "overview.md",
+          "text": "Claudeがセッション開始時にプロジェクトルートの`CLAUDE.md`を読み取ることに加え、リポジトリに`AGENTS.md`ファイルが存在する場合も読み取れることが追記されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/6c4f79637cc8ad66453c37371acc9024bb2d9c36"
+        },
+        {
+          "tag": "Improved",
+          "file": "plugins-reference.md",
+          "text": "プラグインのインストールプロセスにおいて、Yarnとpnpmのロックファイルがスキップされる理由、およびBunのロックファイルと`bunfig.toml`が存在する場合にインストールが完全にスキップされる理由がより詳細に説明されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/6c4f79637cc8ad66453c37371acc9024bb2d9c36"
+        },
+        {
+          "tag": "Added",
+          "file": "settings-reference.md",
+          "text": "組み込みプラグインのオプションが、`@builtin`サフィックスを持つ同じキーの下に保存されることが追記されました。例として、**Project instructions**設定が挙げられています。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/6c4f79637cc8ad66453c37371acc9024bb2d9c36"
+        },
+        {
+          "tag": "Improved",
+          "file": "sub-agents.md",
+          "text": "非フォークサブエージェントの初期コンテキストにおける`CLAUDE.md`ファイルの読み込み階層について、メインの会話がロードするすべてのレベルが含まれるが、ExploreおよびPlanエージェントはこれをスキップし、`omitClaudeMd`を設定したサブエージェントはメインの`CLAUDE.md`のみをロードすることが明確化されました。",
+          "commitUrl": "https://github.com/ericbuess/claude-code-docs/commit/6c4f79637cc8ad66453c37371acc9024bb2d9c36"
+        }
+      ]
+    }
+  ]
+}
