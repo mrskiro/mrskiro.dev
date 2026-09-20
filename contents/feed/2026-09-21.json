@@ -1,0 +1,53 @@
+{
+  "fetchedAt": "2026-09-20T22:45:22.037Z",
+  "entries": [
+    {
+      "sourceName": "Hacker News",
+      "title": "⚠ Hacker News の取得に失敗しました",
+      "url": "https://hacker-news.firebaseio.com/v0/beststories.json",
+      "summary": "fetch failed",
+      "ogImage": null,
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "⚠ TechCrunch の取得に失敗しました",
+      "url": "https://techcrunch.com/feed/",
+      "summary": "fetch failed",
+      "ogImage": null,
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Scrapboard Cloud 4 — デジタル冷蔵庫ドアがポケットサイズに、同期機能も搭載\n  https://www.producthunt.com/products/scrapboard-cloud-4\n- Embedful — 顧客ダッシュボードを数分で立ち上げ\n  https://www.producthunt.com/products/embedful\n- YABAI — 巨大な一単語で学ぶ、リアルな日本語スラング\n  https://www.producthunt.com/products/yabai\n- ManyPI — 理想の顧客を見つけ、収益を10倍に\n  https://www.producthunt.com/products/manypi\n- Morsa Signals — 開発者ツールのGTM戦略とAI可視化ワークフロー\n  https://www.producthunt.com/products/morsa-signals\n- Harbor — 価格明記で安心、Evernoteの代替サービス\n  https://www.producthunt.com/products/harbor-2\n- Minicart — AIが雑務を代行、あなたのストアを立ち上げよう\n  https://www.producthunt.com/products/minicart\n- Answers by Context.dev — 研究タスクと希望のJSON形式を渡すだけで回答\n  https://www.producthunt.com/products/context-dev\n- Launchie 1.6.1 — MacOS 27 Golden Gate向けLaunchpad代替アプリ\n  https://www.producthunt.com/products/launchie\n- Mycel — 過去の成果物を一つ渡すだけで、未来の成果物を自動作成\n  https://www.producthunt.com/products/mycel",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "2 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- GrayPassが提供、重要操作の前に本人確認を徹底\n  https://www.graypass.org\n- Viraj Aero、航空機・データセンター向け次世代エンジンを発表\n  https://www.viraj-aero.com/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "sourceName": "BRIDGE",
+      "title": "⚠ BRIDGE の取得に失敗しました",
+      "url": "https://thebridge.jp/category/news-and-column/feed",
+      "summary": "Jina returned no feed items for https://thebridge.jp/category/news-and-column/feed",
+      "ogImage": null,
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "sourceName": "GitHub Trending",
+      "title": "Weekly Trending",
+      "url": "https://github.com/trending?since=weekly",
+      "summary": "- alibaba/open-code-review：Alibabaの規模で実績のある、安全で高速、効率的なハイブリッドアーキテクチャのコードレビューツール。 ⭐15,028/week\n  https://github.com/alibaba/open-code-review\n- anthropics/claude-code：Claude Codeは、ターミナル上で動作し、コードベースを理解し、自然言語コマンドでルーチンタスクの実行、複雑なコードの説明、Gitワークフローの処理を支援するエージェント型コーディングツール。 ⭐1,999/week\n  https://github.com/anthropics/claude-code\n- affaan-m/ECC：エージェントハーネス性能最適化システム。Claude Code、Codex、Opencode、Cursorなどのためのスキル、直感、メモリ、セキュリティ、研究第一の開発。 ⭐6,265/week\n  https://github.com/affaan-m/ECC\n- Tencent/WeKnora：オープンソースLLM知識プラットフォーム：生文書をクエリ可能なRAG、自律推論エージェント、自己維持型Wikiに変換する。 ⭐4,867/week\n  https://github.com/Tencent/WeKnora\n- addyosmani/agent-skills：AIコーディングエージェントのためのプロダクショングレードのエンジニアリングスキル。 ⭐3,445/week\n  https://github.com/addyosmani/agent-skills\n- anthropics/knowledge-work-plugins：主に知識労働者がClaude Coworkで使用することを意図したオープンソースプラグインリポジトリ。 ⭐1,034/week\n  https://github.com/anthropics/knowledge-work-plugins\n- bilawalsidhu/gods-eye-view：ブラウザ上で動作するスパイ衛星シミュレーターで、データは実物。写真のようにリアルな3D地球上で、ライブのオープンソース空間インテリジェンス。 ⭐10,207/week\n  https://github.com/bilawalsidhu/gods-eye-view\n- mksglu/context-mode：AIコーディングエージェントのためのコンテキストウィンドウ最適化。ツール出力をサンドボックス化（98%削減）、セッションメモリを永続化し、MCP + フックを介して17プラットフォームにわたるルーティングを強制する。 ⭐1,359/week\n  https://github.com/mksglu/context-mode\n- max-sixty/worktrunk：Worktrunkは、並列AIエージェントワークフローのために設計された、Gitワークツリー管理用のCLI。 ⭐1,141/week\n  https://github.com/max-sixty/worktrunk\n- home-assistant/core：🏡 ローカル制御とプライバシーを最優先するオープンソースのホームオートメーション。 ⭐417/week\n  https://github.com/home-assistant/core",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-09-21"
+    }
+  ]
+}
