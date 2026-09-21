@@ -20,7 +20,7 @@
 ## Deploy (Vercel)
 
 - **The `packageManager` pin is load-bearing for deploys, not just for local and CI.** Vercel picks pnpm 12 only from a pin (`packageManager`, `devEngines.packageManager`, or `engines.pnpm`); an unpinned `lockfileVersion: 9.0` still resolves to pnpm 9 or 10 by project creation date. Drop the pin and deploys install with pnpm 10 against a pnpm 12 lockfile
-- The project has `ENABLE_EXPERIMENTAL_COREPACK=1` set on Production and Preview. It is **no longer required** — native pnpm 12 support reached the build image on 2026-09-08 (`vercel/vercel@c628be78`: lockfiles are read with `safeLoadAll`, and `/pnpm12` ships in the image). Verified on a cold Preview deploy with the variable removed. It can be deleted; it is kept only because nothing yet depends on removing it
+- Deploys install through Vercel's own pnpm 12, which reached the build image on 2026-09-08 (`vercel/vercel@c628be78`: lockfiles are read with `safeLoadAll`, and `/pnpm12` ships in the image). The `ENABLE_EXPERIMENTAL_COREPACK=1` variable this project needed before that is gone from both environments — do not re-add it
 
 ## Design
 
