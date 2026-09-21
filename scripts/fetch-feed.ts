@@ -130,7 +130,8 @@ const fetchJina = async (url: string): Promise<{ content?: string; ogImage?: str
 type FeedItem = { title: string; link: string; pubDate: string };
 
 // For hosts that block GitHub Actions runners (Cloudflare ASN ban). Jina renders the RSS as
-// Markdown blocks of "### [title](url)\n\n[url](url)\n\n<RFC 2822 date>"; categories are lost.
+// Markdown blocks of "### [title](url)\n\n[url](url)<sep><RFC 2822 date>"; categories are lost.
+// <sep> is "\n\n" or a hard line break "  \n" (Jina switched to the latter around 2026-09-16).
 const fetchFeedViaJina = async (url: string): Promise<FeedItem[]> => {
   const res = await fetch(`https://r.jina.ai/${url}`, {
     headers: { Accept: "application/json", "X-Retain-Images": "none" },
@@ -140,7 +141,9 @@ const fetchFeedViaJina = async (url: string): Promise<FeedItem[]> => {
   const json: JinaResponse = await res.json();
   const content = json.data?.content ?? "";
   const items = [
-    ...content.matchAll(/^### \[(.+)\]\((https?:\/\/[^\s)]+)\)\n\n\[[^\]]*\]\([^)]*\)\n\n(.+)$/gm),
+    ...content.matchAll(
+      /^### \[(.+)\]\((https?:\/\/[^\s)]+)\)\n\n\[[^\]]*\]\([^)]*\)(?:\n\n| +\n)(.+)$/gm,
+    ),
   ].map((m) => ({ title: m[1]!, link: m[2]!, pubDate: m[3]!.trim() }));
   if (items.length === 0) throw new Error(`Jina returned no feed items for ${url}`);
   const headings = content.match(/^### \[/gm)?.length ?? 0;
