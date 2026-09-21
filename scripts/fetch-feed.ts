@@ -2,7 +2,7 @@ import { GoogleGenAI, Type } from "@google/genai";
 import { XMLParser } from "fast-xml-parser";
 import { writeFile, mkdir, readdir, readFile } from "fs/promises";
 
-import type { DocsUpdate, Entry, Source } from "../src/app/feed/sources.ts";
+import type { Entry, Source } from "../src/app/feed/sources.ts";
 
 import { sources } from "../src/app/feed/sources.ts";
 
@@ -757,7 +757,6 @@ const fetchGitHubTrendingDigest = async (source: Source): Promise<Entry> => {
 
 const githubCommitFileFilter: Record<string, (filename: string) => boolean> = {
   "Agentic Engineering": (f) => f.startsWith("src/content/"),
-  "Claude Code Docs": (f) => f.startsWith("docs/") && f.endsWith(".md"),
 };
 
 type GitHubCommitDetail = {
@@ -774,20 +773,6 @@ const COMMIT_SUMMARIZE_PROMPT = [
   "- 変更ごとに1行、「- 」で始める",
   "- 重複や些末な変更（typo修正、リンク追加のみ等）はまとめるか省略する",
   "- 要約のみ出力",
-].join("\n");
-
-const DOCS_COMMIT_PROMPT = [
-  "Claude Codeのドキュメントリポジトリのコミットdiffを読み、読者が「何が変わったか」を素早く把握できる構造化リストを作ってください。",
-  "ルール:",
-  "- ノイズ（typo修正・空白/改行整理・`theme={null}`のような装飾的メタデータ削除・リンク先の微調整のみ）は出力しない",
-  "- 意味のある機能・設定・説明の変更だけ残す",
-  "- textは日本語1文で、固有名詞・コマンド名・設定名・ファイル名は英語のまま",
-  "- tagは Added / Fixed / Improved / Changed のいずれか",
-  "  - Added: 新機能・新セクション・新設定項目の追加",
-  "  - Fixed: 誤った記述・壊れたリンク・古い手順の修正",
-  "  - Improved: 既存内容の改善・説明の明確化",
-  "  - Changed: 挙動変更・仕様変更・名称変更",
-  "- fileは対象ドキュメントのファイル名（例: hooks.md, setup.md, sdk-typescript.md）。複数ファイルに跨る場合は最も関連が深いものを1つ",
 ].join("\n");
 
 const fetchGitHubCommitDigest = async (source: Source, since: Date): Promise<Entry | null> => {
@@ -817,10 +802,6 @@ const fetchGitHubCommitDigest = async (source: Source, since: Date): Promise<Ent
   const filterFn = githubCommitFileFilter[source.name] ?? (() => true);
   const contentCommits = commits.filter((c) => c.files?.some((f) => filterFn(f.filename)));
   if (contentCommits.length === 0) return null;
-
-  if (source.name === "Claude Code Docs") {
-    return buildDocsDigest(source, contentCommits, filterFn, repoPath);
-  }
 
   const lines: string[] = [];
   for (const commit of contentCommits) {
@@ -864,82 +845,8 @@ const fetchGitHubCommitDigest = async (source: Source, since: Date): Promise<Ent
   };
 };
 
-const basename = (path: string) => path.split("/").pop() ?? path;
-
-const buildDocsDigest = async (
-  source: Source,
-  commits: GitHubCommitDetail[],
-  filterFn: (filename: string) => boolean,
-  repoPath: string,
-): Promise<Entry | null> => {
-  const allUpdates: DocsUpdate[] = [];
-
-  for (const commit of commits) {
-    const contentFiles = commit.files!.filter((f) => filterFn(f.filename));
-    const patchSummary = contentFiles
-      .map((f) => `--- ${f.filename}\n${(f.patch ?? "").slice(0, 800)}`)
-      .join("\n\n");
-    const commitUrl = `https://github.com/${repoPath}/commit/${commit.sha}`;
-
-    let parsed: { tag: string; file: string; text: string }[];
-    try {
-      const geminiRes = await generateContentWithRetry({
-        model: "gemini-2.5-flash",
-        config: {
-          thinkingConfig: { thinkingBudget: 0 },
-          responseMimeType: "application/json",
-          responseSchema: {
-            type: Type.ARRAY,
-            items: {
-              type: Type.OBJECT,
-              properties: {
-                tag: { type: Type.STRING },
-                file: { type: Type.STRING },
-                text: { type: Type.STRING },
-              },
-              required: ["tag", "file", "text"],
-            },
-          },
-        },
-        contents: `${DOCS_COMMIT_PROMPT}\n\nコミットメッセージ: ${commit.commit.message.split("\n")[0]}\n\n${patchSummary}`,
-      });
-      parsed = JSON.parse(geminiRes.text ?? "[]");
-    } catch (err) {
-      const msg = err instanceof Error ? err.message : String(err);
-      console.warn(`Claude Code Docs: failed for ${commit.sha}: ${msg.slice(0, 120)}`);
-      continue;
-    }
-
-    const allowedTags = new Set(["Added", "Fixed", "Improved", "Changed"]);
-    for (const item of parsed) {
-      const tag = (allowedTags.has(item.tag) ? item.tag : "Changed") as DocsUpdate["tag"];
-      if (!item.text?.trim() || !item.file?.trim()) continue;
-      allUpdates.push({
-        tag,
-        file: basename(item.file.trim()),
-        text: item.text.trim(),
-        commitUrl,
-      });
-    }
-  }
-
-  if (allUpdates.length === 0) return null;
-
-  const fileCount = new Set(allUpdates.map((u) => u.file)).size;
-
-  return {
-    sourceName: source.name,
-    title: `${fileCount} file${fileCount === 1 ? "" : "s"} updated`,
-    url: `https://github.com/${repoPath}`,
-    summary: "",
-    ogImage: digestOgImages[source.name] ?? null,
-    publishedAt: formatDate.format(new Date()),
-    docsUpdates: allUpdates,
-  };
-};
-
 const githubReleaseNames = new Set(["Claude Code"]);
-const githubCommitNames = new Set(["Agentic Engineering", "Claude Code Docs"]);
+const githubCommitNames = new Set(["Agentic Engineering"]);
 const rssDigestNames = new Set(["TechCrunch", "BRIDGE", "GitHub Copilot"]);
 const rssDigestCategories = new Map([["TechCrunch", new Set(["AI", "Startups"])]]);
 // BRIDGE bans the GitHub Actions ASN at Cloudflare (403 error 1005); category filtering is done
@@ -966,7 +873,6 @@ const digestOgImages: Record<string, string> = {
     "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
   "GitHub Trending": "https://github.githubassets.com/favicons/favicon.svg",
   "Agentic Engineering": "https://github.githubassets.com/favicons/favicon.svg",
-  "Claude Code Docs": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
   "GitHub Copilot": "https://github.githubassets.com/favicons/favicon.svg",
 };
 
