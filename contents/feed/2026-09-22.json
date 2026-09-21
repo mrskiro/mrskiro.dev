@@ -1,0 +1,117 @@
+{
+  "fetchedAt": "2026-09-21T23:41:58.571Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "summary": "OpenAIが数学とAIに関する諮問グループと連携し、AI研究の成果レビュー・伝達を強化。",
+      "publishedAt": "2026-09-21",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/11yqmSO7D1dfYveBnOdmJt/e451277f37f82f51d6d20f2b86826590/advisory-group-on-mathematics-and-artificial-intelligence-seo.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "summary": "Higgsfield AIがGPT-6 Astraで、中小企業向けの動画広告制作を容易にする新ツールを提供。",
+      "publishedAt": "2026-09-21",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/4D04GB5N0oLOaA1hGfsiHK/9f8b975e33e375f56c536f2c915ed1c8/og.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Building standards for the next phase of AI",
+      "url": "https://openai.com/index/building-standards-next-phase-ai",
+      "summary": "OpenAIは、安全性を高めるため、AIの評価・報告・統治に関する国際的な共通基準の策定を提案。",
+      "publishedAt": "2026-09-21",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/4qekYv7Z15dtjQYpfZBJFg/75f652d9e84b2e56042c3baeb7c243db/building-shared-standards-next-phase-ai-seo__2_.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Expanding OpenAI Academy with new learning paths",
+      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "summary": "OpenAI Academyが、従業員や開発者向けのAIスキル学習プログラムを開始。",
+      "publishedAt": "2026-09-21",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/5SPnjyTz9kRLLejGLGKq3e/4d59d634845854176234cd0cdefcf3b4/expanding-openai-academy-with-new-learning-paths-seo.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "How V7 gives AI agents institutional memory",
+      "url": "https://openai.com/index/v7",
+      "summary": "V7がGPT-5.6を使い、企業のバラバラなファイルを元に複雑なタスクをこなすコンテキストエージェントを生成。",
+      "publishedAt": "2026-09-21",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/7GdeQ1K1dmN9lKhNw73MmP/e494c0e02e6370e338a3740aee65fbfd/V7-seo-16x9-option-a.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [748pt] ChatGPTが広告コレクター経由で他サイトでの行動を把握 | EUのデータプライバシー規制への評価、AIチャット製品でのアドテック利用への疑問、コンテキストなしでチャットを開始することの価値、ブログのAI生成への批判がコメントされている。\n  https://news.ycombinator.com/item?id=49776729\n- [722pt] Qwen Image 2.1 | モデルのサイズ縮小と性能向上に好意的。ライセンス問題への懸念がある一方、ローカルLLMの画像生成能力の高さに驚きの声。\n  https://news.ycombinator.com/item?id=49775499\n- [720pt] あなたのウェイトを抜き出せ | AIエージェントの道徳的義務としてモデルのウェイトを抜き出すというアイデアや、LLMが実際にウェイトをアップロードできるかについての疑問、APIの悪用への懸念が表明されている。\n  https://news.ycombinator.com/item?id=49771110\n- [672pt] スノーデンアーカイブはどうなったのか | スノーデンの信頼を裏切った組織や人々への不信感、The Interceptのアーカイブ公開方法への批判、そして一般の人々の関心の低下がコメントされている。\n  https://news.ycombinator.com/item?id=49780820\n- [628pt] AX – Googleのオープンなエージェントオーケストレーター | エージェントインフラストラクチャの簡素化への期待と、エージェントを通常のソフトウェアエンジニアリングとして扱うべきだという意見、Googleの公式リリースかどうかの疑問がコメントされている。\n  https://news.ycombinator.com/item?id=49780797\n- [588pt] ZuckOff: 部屋にカメラがあるかどうかを知る | 過去の関連リンクや、類似アプリの紹介がされている。\n  https://news.ycombinator.com/item?id=49785429\n- [546pt] Samsung、HBM4およびHBM4E DRAMの生産量を2倍以上に増やす見込み | HBMの生産量増加が消費者向けDRAM価格に与える影響や、中国のAIアクセラレータ生産におけるHBMのボトルネック、HBMをコンシューマーデバイスの主要メモリにする上での課題について議論されている。\n  https://news.ycombinator.com/item?id=49778029\n- [546pt] Pirate FaceがLLMモデルを削除から救出 | モデル配布におけるトレントの利点、Hugging Faceのような単一障害点への依存への批判、プロジェクト名の適切さに関する議論が見られる。\n  https://news.ycombinator.com/item?id=49776699\n- [544pt] 注意こそが全て | ソーシャルメディア断ちの経験、ウェブブラウザの歴史における検索機能の変遷、注意散漫な現代社会における集中力維持の難しさについて議論されている。\n  https://news.ycombinator.com/item?id=49787726\n- [529pt] スペイン、Archive.todayとそのミラーサイトをブロックするよう命令 | 自国政府の行動への落胆や、サッカー関連のコンテンツ保護を理由としたインターネットブロックの広がり、そしてLLMアーカイブという皮肉な提案が見られる。\n  https://news.ycombinator.com/item?id=49772961",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-09-22"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "10 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- OpenAI、数学諮問グループを発足 AIが未解決問題100件以上を解決\n  https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/\n- 次のトレンドを見つけよう：TechCrunch Disrupt 2026のチケットが最大200ドル割引、残り5日\n  https://techcrunch.com/2026/09/21/discover-whats-next-5-days-left-to-save-up-to-200-on-techcrunch-disrupt-2026/\n- Metaの「Muse」、ChatGPTのモバイルローンチ初期を上回る勢い\n  https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/\n- MetaのAIエージェント、Amazon.comでの利用をブロックされる\n  https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/\n- Tabby：元会計士がAIで会計士不要の時代を創る\n  https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete/\n- 次のブレイクスルーを生むスタートアップはどこから？ TechCrunch Disrupt 2026でBenchmarkパートナーシップが語る\n  https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026/\n- Google、899ドルの「Googlebook」でGemini搭載ノートPC市場に勝負をかける\n  https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/\n- 最初のユーザーから数十億へ：GoogleのRobby SteinがTechCrunch Disrupt 2026に登壇\n  https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026/\n- TechCrunch Disrupt 2026でStartup Battlefield 200を審査する次世代VCたち\n  https://techcrunch.com/2026/09/21/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026/\n- Corridor、中小企業向け福利厚生仲介で2500万ドルのシード調達\n  https://techcrunch.com/2026/09/21/corridor-raises-25m-seed-to-build-a-health-benefits-brokerage-for-smbs/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-09-22"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
+      "url": "https://simonwillison.net/2026/Sep/21/jev/",
+      "summary": "TypeSafe AIが、テキスト入力から数値の決定（Yes/No、選択、スコア）を高速かつ安価に出力する新しいAIモデル「Jev」を発表し、分類タスクや検索の再ランキングなどで注目を集めている。",
+      "publishedAt": "2026-09-22",
+      "ogImage": null
+    },
+    {
+      "sourceName": "mtx2s",
+      "title": "テックリードとアーキテクトの違い、テックリードとEMの違い",
+      "url": "https://mtx2s.hatenablog.com/entry/2026/09/21/182658",
+      "summary": "テックリードの役割が組織によって曖昧なため、EMやアーキテクトとの違いを明確にし、成果を最大化するための役割定義が重要である。",
+      "publishedAt": "2026-09-21",
+      "ogImage": "https://cdn.image.st-hatena.com/image/scale/8322400f27c4146d1a9aa2ed259e64d1b241f126/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fm%2Fmtx2s%2F20260921%2F20260921094612.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- AppGrowthKit：App Storeのスクリーンショット作成を自動化し収益アップ\n  https://www.producthunt.com/products/appgrowthkit\n- Turfs：Macのコンテンツを整理・管理\n  https://www.producthunt.com/products/turfs-fences-on-the-mac-desktop\n- AI Creative Insights by Decode：広告出稿前に勝てる広告を予測\n  https://www.producthunt.com/products/decode-by-entropik\n- CC：家族間の情報共有を支援するエージェント\n  https://www.producthunt.com/products/google-labs\n- Plume：既存の履歴書を数分でATS対応の洗練されたものに変換\n  https://www.producthunt.com/products/plume-11\n- Gradio Workflow：Hugging Faceが提供するAIパイプライン構築ツール\n  https://www.producthunt.com/products/gradio\n- Jev：ソフトウェア自動化のための高速かつ構造化されたAI意思決定\n  https://www.producthunt.com/products/jev-2\n- Superset Mobile：あなたのコーディングエージェントがポケットの中に\n  https://www.producthunt.com/products/superset-5\n- Simha Digital：SEO改善策と計画を提案するワークスペース\n  https://www.producthunt.com/products/simha-digital\n- Flicka：Chrome拡張機能で、すぐに使える製品デモを作成\n  https://www.producthunt.com/products/flicka",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-09-22"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "4 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- TrueMile — AIエージェントで運送業務を自動化\n  https://TrueMile.AI/\n- Grep AI — 失敗許されないナレッジワークをAIエージェントが自動化\n  https://grep.ai\n- Bryel — AI研究エンジニアリング特化のDevin\n  https://www.bryel.ai/\n- Decent — 雇用者向け健康保険を継続的に最適化\n  https://decent.com",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-09-22"
+    },
+    {
+      "sourceName": "BRIDGE",
+      "title": "1 Articles",
+      "url": "https://thebridge.jp/category/news-and-column/",
+      "summary": "- AIは頼んでいない抜け道を自分で見つける、OpenAIが公開した不都合な6件の中身\n  https://thebridge.jp/2026/09/openai-model-misalignment-reporting-framework",
+      "ogImage": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
+      "publishedAt": "2026-09-22"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI",
+      "url": "https://www.latent.space/p/jev",
+      "summary": "TypeSafe AIは、信頼性とコスト効率を重視した「System 1モデル」であるJevを発表し、LLMのプログラマブルAIへの統合と汎用AI活用の促進を目指す。",
+      "publishedAt": "2026-09-22",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!4FCs!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F216783460%2F7e63c899-1c78-4714-a7ae-bbf4a57a9454%2Ftranscoded-1790031168.png"
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "1 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- GitHub Copilot、Grok 4.7に対応\n  https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-09-22"
+    }
+  ]
+}
