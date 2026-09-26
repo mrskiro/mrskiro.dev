@@ -1,0 +1,53 @@
+{
+  "fetchedAt": "2026-09-26T23:12:40.610Z",
+  "entries": [
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [992pt] オランダ政府、Microsoftの代替としてNixOSベースのシステムを構築 | 大手テクノロジー企業からの脱却を歓迎する声多数。他国政府のNixOS採用事例も紹介されています。\n  https://news.ycombinator.com/item?id=49841563\n- [698pt] OpenAIエージェントがHugging Faceをハッキングした手法の詳細を公開 | 「原始的なチェスエンジンのようだ」と、洗練されていない攻撃手法に驚きの声が上がっています。\n  https://news.ycombinator.com/item?id=49849985\n- [620pt] Google Playとの決別：Conversationsが無料になった理由 | Google Playのサポートの質の低さや、厳しい開発者向け要件に対する不満が目立ちます。\n  https://news.ycombinator.com/item?id=49855315\n- [581pt] Ollaya – オープンソースのJevスタイル意思決定モデル向けOllama | 「イノベーションがオープンソースにすぐに模倣される」と、AIスタートアップの将来を懸念する声があります。\n  https://news.ycombinator.com/item?id=49848269\n- [545pt] プランモードは死んだ | プランモードの有用性が低下したという意見に賛同しつつも、まだ役に立つという意見も存在します。\n  https://news.ycombinator.com/item?id=49840054\n- [486pt] 米控訴裁判所、Anthropicをサプライチェーンリスク指定とする判断を支持 | Anthropicが軍事利用に制限を設けたことが原因と見られ、政治的・腐敗との見方も。\n  https://news.ycombinator.com/item?id=49845977\n- [401pt] Goにおけるプラットフォーム非依存SIMD | Goプロジェクトの低レベルパフォーマンス最適化への期待が高く、様々なプラットフォームでの活用が議論されています。\n  https://news.ycombinator.com/item?id=49843269\n- [400pt] バズったジャイアンツのクリップに登場するママです。夫について話させてください | 感動的な文章だと評価されており、ネット上の断片的な情報から人を判断することへの警鐘が鳴らされています。\n  https://news.ycombinator.com/item?id=49857899\n- [387pt] ケンブリッジ・アナリティカ事件でFacebookにユーザー欺罔の責任があると陪審員が認定 | 10年前の事件の判決に「法の動きが遅い」という指摘や、今後のLLM企業への影響を懸念する声が出ています。\n  https://news.ycombinator.com/item?id=49852302\n- [357pt] 私たちはもっと多くの数学者を必要とするだろう | AI時代における「領域理解」の重要性や、より賢い数学者が必要になるという指摘があります。\n  https://news.ycombinator.com/item?id=49852717",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-09-27"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "3 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- AIがすでに医療費を押し上げていると保険会社が主張\n  https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/\n- 私自身の対話型デジタルアバターを作ってみた — あなたも話せる\n  https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/\n- Meta Connectの会場は、Metaのスマートグラス一色だった\n  https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-09-27"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Lisen — Cartesia Voices搭載、無料で読み上げを行うサービス\n  https://www.producthunt.com/products/lisen\n- MakerMap — メーカーとその開発を記録する活動マップ\n  https://www.producthunt.com/products/makermap\n- Kleanly — ノッチをタップするだけでキーボードとトラックパッドをロック\n  https://www.producthunt.com/products/kleanly\n- Psst — 価格も記憶する共有型ショッピングリスト\n  https://www.producthunt.com/products/psst-3\n- Hemory — 聴き続けるAIエージェントの検索可能なメモリ\n  https://www.producthunt.com/products/hemory\n- SOUND — 各Macアプリに専用EQ、音量、スピーカーを設定\n  https://www.producthunt.com/products/sound\n- Eclatira — あらゆるスタックに対応する会話型ビデオエージェント\n  https://www.producthunt.com/products/eclatira\n- Chit — Claude Codeで記録するその日の出来事を印字したレシート\n  https://www.producthunt.com/products/chit-2\n- Paragraph Notes — Mac用プライベートMarkdownノートアプリ\n  https://www.producthunt.com/products/paragraph-notes\n- Fewer — 携帯電話の使用頻度をカウントするランチャー\n  https://www.producthunt.com/products/fewer",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-09-27"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "3 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- OpenHack、常時稼働のAIセキュリティエンジニアを発表\n  https://openhack.com\n- OpEra、自動化されたオペレーションズリサーチ（OR）ラボを公開\n  https://operatechnologies.com\n- Spine、スタートアップ向け福利厚生・給与計算・コンプライアンスを無料で提供開始\n  https://www.joinspine.ai/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-09-27"
+    },
+    {
+      "sourceName": "BRIDGE",
+      "title": "1 Articles",
+      "url": "https://thebridge.jp/category/news-and-column/",
+      "summary": "- Metaの個人向けAIエージェント「Muse」数カ月内にAIグラスへ——独自メールアドレスや対話アバターも\n  https://thebridge.jp/2026/09/meta-muse-ai-agent-coming-to-ai-glasses-connect-2026",
+      "ogImage": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
+      "publishedAt": "2026-09-27"
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "1 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- Enterprise の管理設定を製品内で検証可能に\n  https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-09-27"
+    }
+  ]
+}
