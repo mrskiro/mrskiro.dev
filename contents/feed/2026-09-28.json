@@ -1,0 +1,45 @@
+{
+  "fetchedAt": "2026-09-27T23:26:40.933Z",
+  "entries": [
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [689pt] Google Playとの決別：Conversationsが無料になった理由 | Google Playのサポートの質の低さや、ビジネス化への不満の声が多数。\n  https://news.ycombinator.com/item?id=49855315\n- [596pt] 作家対Microsoft/OpenAI訴訟の非公開文書が公開 | OpenAIが著作権侵害を認識していたという内容に、強い批判が集まっている。\n  https://news.ycombinator.com/item?id=49863864\n- [572pt] あのGiantsの有名クリップに登場した母親です。私の夫について話させてください | 感動的で共感を呼ぶストーリーに称賛の声、父親へのサポート不足に言及するコメントも。\n  https://news.ycombinator.com/item?id=49857899\n- [546pt] Googleはいつからこんなにおかしくなったのか？ | AI要約の信頼性の低さや、Googleの検索品質低下に対する不満が噴出。\n  https://news.ycombinator.com/item?id=49870367\n- [431pt] 15年後のApple Cards誕生秘話 | Appleによる他社サービスへの影響（Sherlocked）や、Appleらしい体験を懐かしむ声。\n  https://news.ycombinator.com/item?id=49854693\n- [415pt] Facebook、Cambridge Analytica事件でユーザーを欺いたとして責任を認定される | 10年前の事件の判決に「遅すぎる」という声、将来のLLM企業の責任問題を示唆するコメントも。\n  https://news.ycombinator.com/item?id=49852302\n- [414pt] Meta、ブラジル大統領ルーラのFacebookページと選挙広告をブロック | Facebookの選挙介入への批判や、各国がFacebookをブロックすべきという意見も。\n  https://news.ycombinator.com/item?id=49864642\n- [393pt] 我々はもっと多くの数学者を必要とするだろう | AI時代において、数学的理解やドメイン知識の重要性について議論が活発。\n  https://news.ycombinator.com/item?id=49852717\n- [388pt] Show HN: Reladraw – 配置を自由に決められる図形描画言語 | 既存ツールでは難しい配置の自由度に期待の声、AI時代の図形描画の必要性も指摘。\n  https://news.ycombinator.com/item?id=49858513\n- [370pt] Goの並行処理を深く掘り下げる | Goの並行処理の簡単さに感嘆の声がある一方、Channelsの難解さに悩む開発者も。\n  https://news.ycombinator.com/item?id=49856988",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-09-28"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "4 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Anthropic CEO、トランプ大統領と会食へ\n  https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/\n- MuseはMetaの信頼問題に打ち勝てるか？\n  https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/\n- AnthropicのDario AmodeiがSNIで特集される\n  https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/\n- Google、インドでGeminiとAI Modeを通じたWalmart傘下Flipkartでの購入をテスト\n  https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-09-28"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Harmony：SlackとTeamsでIT/HRチケットを解決するAIエージェント\n  https://www.producthunt.com/products/harmony-it\n- Cuey：ChatGPT、Claude、Geminiの回答を1つのタブで比較\n  https://www.producthunt.com/products/cuey-2\n- GPT-6 Sol & Luna：最先端AIが半額に\n  https://www.producthunt.com/products/openai\n- Humalike x GTA RP：会話・記憶・自律行動するAI NPC\n  https://www.producthunt.com/products/humalike-2\n- Clicks Communicator：タスク実行のために設計された新型モバイルコミュニケーター\n  https://www.producthunt.com/products/clicks\n- KiwiDesk：macOS標準機能のような使い心地のウィンドウタイリング\n  https://www.producthunt.com/products/kiwidesk\n- Superhuman Go：あなたの作業場所で機能するAIアシスタント\n  https://www.producthunt.com/products/superhuman-go\n- Chit：Claude Codeでその日の作業を印字したレシートに\n  https://www.producthunt.com/products/chit-2\n- Eclatira：あらゆるスタックに接続可能な対話型ビデオエージェント\n  https://www.producthunt.com/products/eclatira\n- Lisen：Cartesia Voicesによる無料読み上げ機能\n  https://www.producthunt.com/products/lisen",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-09-28"
+    },
+    {
+      "sourceName": "BRIDGE",
+      "title": "1 Articles",
+      "url": "https://thebridge.jp/category/news-and-column/",
+      "summary": "- Microsoftが統合型の新Copilot発表——ChatGPTやClaudeに追従「Home」「Code」「Autopilot」を追加\n  https://thebridge.jp/2026/09/microsoft-copilot-home-code-autopilot",
+      "ogImage": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
+      "publishedAt": "2026-09-28"
+    },
+    {
+      "sourceName": "GitHub Trending",
+      "title": "Weekly Trending",
+      "url": "https://github.com/trending?since=weekly",
+      "summary": "- anthropics/financial-services：金融サービス向けに構築されたPythonリポジトリ。\n  https://github.com/anthropics/financial-services\n- paperclipai/paperclip：誰もが職場でエージェントを管理するために使用するオープンソースアプリ。 ⭐5,376/week\n  https://github.com/paperclipai/paperclip\n- vectorize-io/hindsight：Hindsight: 学習するエージェントの記憶。 ⭐7,282/week\n  https://github.com/vectorize-io/hindsight\n- cloudflare/security-audit-skill：独立して検証された機械可読な検出結果を持つ多段階セキュリティ監査用のコーディングエージェントスキル。 ⭐6,474/week\n  https://github.com/cloudflare/security-audit-skill\n- Tencent/WeKnora：オープンソースのLLM知識プラットフォーム：生ドキュメントをクエリ可能なRAG、自律推論エージェント、自己維持型Wikiに変換。 ⭐3,015/week\n  https://github.com/Tencent/WeKnora\n- davila7/claude-code-templates：Claude Codeの設定と監視を行うCLIツール。 ⭐1,142/week\n  https://github.com/davila7/claude-code-templates\n- stablyai/orca：Orcaは、並列エージェントのフリートを操作するためのADEです。独自のサブスクリプションで任意のコーディングエージェントを実行できます。デスクトップ、モバイル、リモートランタイムで利用可能。 ⭐6,503/week\n  https://github.com/stablyai/orca\n- vercel/next.js：The React Framework。 ⭐280/week\n  https://github.com/vercel/next.js\n- HKUDS/CLI-Anything：「CLI-Anything: すべてのソフトウェアをエージェントネイティブに」 -- CLI-Hub。 ⭐1,055/week\n  https://github.com/HKUDS/CLI-Anything\n- pytorch/pytorch：強力なGPUアクセラレーションを備えたPythonでのテンソルと動的ニューラルネットワーク。 ⭐295/week\n  https://github.com/pytorch/pytorch",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-09-28"
+    }
+  ]
+}
