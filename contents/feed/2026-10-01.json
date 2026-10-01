@@ -1,0 +1,93 @@
+{
+  "fetchedAt": "2026-10-01T00:12:59.322Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Disrupting a coordinated model-distillation campaign",
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "summary": "OpenAIが保護されたモデルからの情報抽出を阻止し、防御を強化した経緯を公開。",
+      "publishedAt": "2026-09-30",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/7MP5Bq8wKRpAAnnhqfdA8o/3ca1f00ae7ec16c5a569eb6195e24c90/disrupting-a-coordinated-model-distillation-campaign-seo.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Helping small businesses put AI to work",
+      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "summary": "OpenAIがSBDCと提携し、中小企業向けにAIトレーニングとサポートを拡大。",
+      "publishedAt": "2026-09-30",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/1rewZcU5SqdsiUKj7Q6fCx/e82271bc1df80e3f2d5f9cfcd82a91fa/helping-small-businesses-put-ai-to-work-seo.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.286",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
+      "summary": "- [Added] 複数のパーミッション要求が重なった際に、プロンプトに「5件中2件」のようなカウントが表示されるようになりました。\n- [Added] フルスクリーンモードのリストにある「N more」行でマウスがサポートされました。ホバーや押下状態に対応し、クリックするとリストのその端にジャンプします。\n- [Fixed] gcpAuthRefreshまたはawsAuthRefreshの認証情報が期限切れになった際、複数のClaude CodeプロセスやIDE拡張機能がそれぞれログインブラウザを開いてしまう問題を修正しました。\n- [Fixed] 以前のセッションがクラッシュまたは強制終了した場合、並行ツール呼び出しのバッチ後にclaude --resumeおよび--continueがその後のすべてのターンを失うことがある問題を修正しました。\n- [Fixed] ツールまたはフックがテキストではなくオブジェクト、数値、またはブール値を返した場合（再開されたセッションを含む）に、API 400エラーが発生する問題を修正しました。\n- [Fixed] 非常に大きな履歴を持つクラウドセッションが、トランスクリプトのロード中にコンテナが停止したため、起動しない問題を修正しました。\n- [Fixed] Claudeアプリゲートウェイの利用量メーターが、1時間のプロンプトキャッシュ書き込みをより安価な5分レートで計算し、Web検索などのサーバーサイドツールを実行するストリーミングターンで最初のモデル呼び出しの入力トークンのみをカウントしていた問題を修正しました。\n- [Fixed] macOSセッションが、別のClaude Codeウィンドウで/loginが成功した後も、「Not logged in」または「Login expired」と表示され続ける問題を、~/.claude/.credentials.jsonが残っていた場合に修正しました。\n- [Fixed] Anthropic APIがデフォルトまたはモデルエイリアスが解決するモデルを拒否した場合に、すべてのターンが失敗する問題を修正しました。Claude Codeは同ティアの以前のモデルで一度リトライするようになりました。\n- [Fixed] リモートコントロールセッション（claude remote-controlを含む）が、組織のポリシーによってリモートコントロールがオフになった後も接続状態を維持する問題を修正しました。現在は通知とともに切断されるようになりました。\n- [Fixed] 拒否および--fallback-modelのリトライが、フォールバックモデルが高速で実行できない場合に失敗する問題を修正しました。現在は標準速度で実行され、インタラクティブセッションでは一度通知が表示されます。\n- [Fixed] MCPディスカバリキャッシュが有効になっている場合、ヘッドレスセッションが認証成功後も「MCP servers require authentication」の通知を繰り返す問題を修正しました。\n- [Fixed] claude auth statusが、Consoleサインインの保存されたAPIキーをclaude.aiとして報告する問題を修正しました。現在はapi_keyとして報告され、VS Code拡張機能はそのセッションをAPIキーセッションとして扱います。\n- [Fixed] /statusが、AnthropicプロファイルとAPIキーを両方が有効であるかのようにリスト表示する問題を修正しました。プロファイルは「not in use」と表示されるようになりました。\n- [Fixed] リモートコントロールを介して送信されたメッセージに添付されたファイルが到着しなかった場合にClaudeに通知されない問題、およびファイルの最後のダウンロード試行に10秒しか与えられないことがある問題を修正しました。\n- [Fixed] Claude Codeの終了中に到着したリモートコントロールメッセージが配信済みとマークされ、その後決して回答されない問題を修正しました。現在はセッションの次回の実行のためにキューに残るようになりました。\n- [Fixed] MCPエラーメッセージが、キー名の前に「Bearer」または「Basic」があった場合に資格情報の値を表示する問題を修正しました。\n- [Fixed] パーセントエンコードされたBearerトークンがエラーメッセージで部分的にしかマスクされない問題を修正しました。\n- [Fixed] 編集されたログとトランスクリプトが、ゼロ幅スペースなどの見えない文字がキー名に含まれるシークレットを表示する問題を修正しました。\n- [Fixed] ログとトランスクリプトが、閉じ括弧、引用符、角括弧、アンパサンド、または2つ目の@などの句読点を含むURLパスワード、またはssh URLの[::1]のような括弧で囲まれたホストにスラッシュを越えて続くURLパスワードの一部を表示する問題を修正しました。\n- [Fixed] /feedbackがディスクに保存するzipファイル内のセッショントランスクリプトに、シークレット編集後に無効なJSON行が含まれる問題を修正しました。\n- [Fixed] MCPコネクタが、サーバーが古いMCPハンドシェイクをドロップした後、最大1日間ツールをリスト表示しない問題を修正しました。\n- [Fixed] ClaudeからのMCPサインインリクエストの繰り返しが、保留中のサインインリンクを置き換え、そのリンクが機能しなくなる可能性があった問題を修正しました。\n- [Fixed] /usageが、MCPサーバーがまだ接続中または再起動直後など、接続したばかりの間に実行されたツール呼び出しに対してMCPサーバーにクレジットを与えない問題を修正しました。\n- [Fixed] claude.aiで有効になっているプラグインが、一時的なサーバーエラーの後、セッションでClaude Codeから消えることがある問題を修正しました。\n- [Fixed] 実行中のサブエージェントに入力されたメッセージが、サブエージェントがそれを読んだ後、トランスクリプトに2回表示される問題を修正しました。\n- [Fixed] サブエージェントが登録された名前を持っていなかった場合、サブエージェントのハンドバックメッセージが生のタスクIDを表示する問題を修正しました。\n- [Fixed] フォアグラウンドのサブエージェントが、タスク追跡ツール（TaskCreate/Get/Update/List, TodoWrite）が有効になっているセッションで、それらのツールを見落とすことがある問題を修正しました。\n- [Fixed] worktree分離で起動されたサブエージェントが、最初のファイル読み込み時にworktreeコピーからプロジェクトCLAUDE.mdとそのインポートを2回ロードする問題を修正しました。\n- [Fixed] Workflowツールサブエージェントが、応答中に接続が数分間停止した場合に、元のプロンプトから再起動される問題を修正しました。\n- [Fixed] バックグラウンドエージェントまたはチームメイトのトランスクリプトを表示中に/compact、/clear、および/rewindがメインの会話に対して黙って動作していた問題を修正しました。ダイアログがターゲットを名指しし、最初に尋ねるようになりました。\n- [Fixed] バックグラウンドジョブが承認を待っている間に「完了」と表示される問題を修正しました。\n- [Fixed] モデルのフォールバックが1ターンしか続かない場合に、コミット帰属の通知がツール出力内に再送される問題を修正しました。\n- [Fixed] フルスクリーンモードで、「Thought for 4s」のような折りたたまれた行の単語間のスペースをクリックすると、行が展開されずにハイライトされる問題を修正しました。\n- [Fixed] 長い名前のアクション行など、詳細のない行がリスト画面で他のすべての行の詳細を右に押し出す問題を修正しました。\n- [Fixed] 非常に長い名前のファイルが、クラウドセッションに添付されたときに到達しない問題を修正しました。\n- [Fixed] Claude Codeがロードを拒否するマーケットプレイスのプラグインエラーが、「not found」ではなく、理由と修正方法を伝えるようになりました。\n- [Fixed] /pluginのDiscoverタブが、「Checking … for new plugins」行でマーケットプレイス名を引用符なしで表示し、その行がすでにその名前を引用符で表示している問題を修正しました。\n- [Improved] コミットガイダンスが改善されました。プロジェクトまたはユーザーのスキルにverifyという名前のスキルが含まれている場合、Claudeはドキュメントのみまたはテストのみのコミットを除き、コミット直前にそれを実行するように指示されるようになりました。\n- [Improved] サブエージェントビューでの「今すぐ送信」（Ctrl+Enter）が改善されました。サブエージェントの実行中のコマンドをバックグラウンドに移動させ、メッセージがすぐに読み込まれるようになりました。\n- [Improved] バックグラウンドエージェントからあなたのメッセージへの返信が改善され、あなたの発言の要約から始まることがなくなりました。\n- [Improved] claude.aiの成果物リンクの読み込みが改善されました。WebFetchはArtifactツールと同じ質問をするようになりました（セッションのネットワークアクセスがオンの場合は成果物のプロンプトなし、オフの場合は成果物ごとに1つ）。また、自動モードのyesは、あなただけが回答できる場所ではカウントされなくなりました。\n- [Improved] フェッチ、スキル、ファイル読み込み、サンドボックスネットワーク、Claude in Chrome、ワークフロースクリプト、ノートブック編集のパーミッションプロンプトがファイル編集プロンプトの見た目に合うように改善されました。\n- [Improved] Bash、PowerShell、Monitorのパーミッションプロンプトが、ファイル編集プロンプトに合わせて、コマンドを破線で囲んで表示するように改善されました。\n- [Improved] フルスクリーンモードでのリストスクロールバーが改善されました。ほとんどのリストで、「N more」行が表示されたり消えたりしてもバーが動かなくなり、スクロールするための↑/↓矢印がクリックまたは長押しできるようになりました。\n- [Improved] 外部エディター（Ctrl+G）が改善されました。行番号を引数に取るエディターは、プロンプト内のカーソルのある行で開くようになりました。\n- [Improved] 多くのスキルやプラグインコマンドがインストールされている場合に、入力中のスラッシュコマンドの候補の応答性が改善されました。コマンドの説明が単語のプレフィックスで一致するようになりました。\n- [Improved] 出力スタイルピッカーが改善されました。デフォルトではなく現在のスタイルで開き、各スタイルの説明が名前の下の行に表示されるようになりました。数字キーでスタイルを選択できなくなりました。\n- [Improved] /hooksが改善されました。フックの詳細画面の最後の行が「it」ではなく「this hook」と表示されるようになりました。\n- [Improved] モデルフォールバック通知と自動圧縮スラッシングエラーが、フォールバックによってコンテキストウィンドウが1Mから200Kトークンに減少したときにそれを伝えるようになりました。\n- [Improved] ホストが既に接続されているMCPサーバーに対してMCPサーバーの有効化を再送信した場合のSDKおよび-pセッションの応答性が改善されました。\n- [Improved] Claudeアプリゲートウェイが/protocolで提供するプロトコルページが改善されました。不明な入力を拒否しないことを示し、今日のClaude Codeが送信するものと一致するようになりました。\n- [Changed] 何も実行中またはキューにない状態で送信されたプロンプトが、すぐに通常のテキスト色で表示されるようになり、グレーではなくなりました。\n- [Changed] 失敗したAPIリクエストの再試行方法が変更されました。1つの制限がモデル呼び出し全体をカバーするようになり、デフォルトの再試行設定では、失敗した呼び出しは最大14回のリクエストを送信します。\n- [Changed] --bareは、コマンドラインで指定されたMCPサーバーのみに接続し、モデルにシステム通知を送信せず、バックグラウンドタスクを開始しないように変更されました。--bareの下では、タイムアウトに達したシェルコマンドはバックグラウンドに移動するのではなく停止するようになりました。\n- [Changed] 「今すぐ送信」キー（Ctrl+Enter）が、スキルの自身のシェルコマンドを終了させるのではなく、バックグラウンドに移動させるように変更されました。\n- [Changed] レート制限されたドメイン安全チェックのWebFetchエラーが、Claudeにループで再試行しないように伝えるように変更されました。\n- [Changed] プラグインのインストールが、gitリポジトリまたはフォルダーであるnpmソースを拒否し、プラグインの依存関係をレジストリパッケージからのみインストールするように変更されました。\n- [Changed] リスト画面（/artifacts、/mcp、/skills、/hooksなど）が、常に各行の詳細を名前の後に1つの列に揃えるように変更されました。\n- [Changed] リストのオーバーフロー行が、「N more above」/「N more below」ではなく、「↑ N more」/「↓ N more」と表示されるように変更されました。\n- [Changed] /hooksが、イベントごとにグループ化された設定済みのフックの1つのリストで開くように変更され、フックの表示にEnterを3回押すのではなく1回で済むようになりました。\n- [Changed] テーマピッカーが、プレビューを画面外に押し出すのではなく、ターミナルに収まるスクロールリストに変更されました。数字キーでテーマを選択できなくなりました。\n- [Changed] /exitの「ワークツリーを削除」が、Claude Codeがそこで開始したサーバーとシェルを停止した後に実行されるように変更されました。これにより、Windowsでフォルダーが削除できない問題を解決できました。\n- [Changed] claude-apiスキルの「Managed Agents」の例が、ネットワークを制限した環境を作成するように変更されました。\n- [Removed] /ultrareviewおよびclaude ultrareview出力からブラウザリンクが削除されました。\n- [Fixed] Windows: claude --bgおよびエージェントビューが、Claudeがすでに信頼しているフォルダーを、信頼レコードが異なる文字ケースで保存されていた場合に拒否する問題を修正しました。\n- [Added] [VSCode] ブックマーク機能が追加されました。Claudeの応答を保存し、ブックマークサイドパネルに表示し続けることができます。\n- [Added] [VSCode] Claudeが尋ねる質問とあなたの回答が会話に追加されるようになりました。質問カードに回答した後、質問行にはあなたの選択とともに各質問が表示されます。\n- [Added] [VSCode] チャットパネルの質問カードにオプションプレビューが追加されました。ハイライトされた選択肢のモックアップまたはスニペットがオプションの横または下に表示されます。\n- [Added] [VSCode] メッセージの下に、ターミナル出力、ブラウザタブ、ブラウザの指示、およびそれに伴って送信された選択されたコードに開く行が追加されました。\n- [Fixed] [VSCode] 会話が既にサイドバーで開いているときに、タブで会話の2つ目のコピーが開く問題を修正しました。サイドバーがそれに切り替わるようになりました。\n- [Fixed] [VSCode] Claude Codeが1MBを超える出力をプリントした場合に、設定ダイアログが再チェックせずに保存失敗を報告する問題を修正しました。\n- [Fixed] [VSCode] 拡張機能が応答しなくなった場合に、無限に「Teleporting session…」スピナーが表示される問題を修正しました。\n- [Improved] [VSCode] 「プラグインの管理」ダイアログが改善されました。無効になっているプラグインが他の設定のためにまだ有効になっている場合にその旨を伝え、プラグインフォルダーの競合について説明します。\n- [Changed] [VSCode] 「停止」と「エスケープ」が現在のターンのみを終了するように変更されました。バックグラウンドエージェントは引き続き実行され、エージェントマップから個別に停止できます。\n- [Changed] [VSCode] 「✻ Claude Code」ステータスバーアイテムがすべてのウィンドウに表示されるように変更され、ファイルが開いていないときでもClaudeを開けるようになりました。\n- [Fixed] [Cloud sessions] Claudeがメッセージを送信した後、セッションがアイドル状態になった場合に、回答済みの質問カードまたは承認済みのツール呼び出しが返信を受け取らない問題を修正しました。\n- [Fixed] [Cloud sessions] 管理設定で組織環境のセットアップスクリプトをクリアしても、新しいクラウドセッションが古いスクリプトを実行し続ける問題を修正しました。\n- [Fixed] [Cloud sessions] 自己ホスト型環境の管理ページにあるRunnerアクションメニューが、開いてから数秒後に自動的に閉じる問題を修正しました。\n- [Fixed] [Cloud sessions] クラウドセッションが開始されなかったルーチン実行が、実行ペイン、ルーチンページ、およびサイドバーで「成功」と表示される問題を修正しました。現在は「失敗」と表示されるようになりました。\n- [Fixed] [Cloud sessions] クラウドセッションのOutputsカードでオーディオまたはビデオファイルをクリックすると、ファイルが再生されずに空のファイル検索が開く問題を修正しました。\n- [Changed] [Cloud sessions] ルーチンページが、スケジュールされた実行が遅れてまだ開始されていない場合に、過去の次回の実行時間ではなく、スケジュールされた時間とともに「期限切れ」と表示されるように変更されました。\n- [Added] [Claude Tag] Claude Tagの利用制限ページに「チャネルを追加」ボタンが追加され、プライベートチャネルを含む任意のチャネルに、チャネルIDまたはSlackリンクから制限を設定できるようになりました。\n- [Fixed] [Claude Tag] デフォルトのSonnetモデルを使用できない組織で、メモリ呼び出しが何も見つけられない問題を修正しました。\n- [Fixed] [Claude Tag] Enterprise Grid管理者がSlackチャネルを別のワークスペースに移動した後、その後の最初の投稿でClaudeに言及がない場合に、SlackチャネルがClaude設定を失う問題を修正しました。\n- [Fixed] [Claude Tag] Slackスレッド内のClaudeが、あなたがちょうど質問した質問に返信した場合に、まだプッシュしていない作業を失い、新しいマシンで最初からやり直すことがある問題を修正しました。\n- [Fixed] [Claude Tag] 大規模な組織で、Claude Tagの利用制限ページにある公開チャネル名が、生のSlack IDとして表示される問題を修正しました。\n- [Improved] [Claude Tag] Slackから開始されたセッションのタイトルがclaude.aiに表示される方法が改善されました。SlackユーザーIDやエスケープコードなしで、入力した単語として表示されるようになりました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-10-01"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1048pt] GPT 6.1 Sol: 5分の1の価格でAstraに迫る知能 | AIモデルの差別化の難しさや価格競争の激化に懸念の声。GPT 6.1 Solのキャッシュ入力価格が大幅に安いことが話題に。以前のGPT 6 Solの品質に不満を持つ声も。\n  https://news.ycombinator.com/item?id=49896586\n- [877pt] Livenerf: Opus 5.5は弱体化したのか？ | AIモデルの性能低下に関する懸念が多く、実際に性能が劣化したと感じるユーザーからの報告が多数。Anthropicが秘密裏にモデルを変更している可能性を指摘する声も。\n  https://news.ycombinator.com/item?id=49901736\n- [875pt] Gemini 4 Argon | AIモデルの進化の速さに驚きの声。特にC/C++からRustへのコード移行にGeminiの活用が示唆され、以前のGoogleの姿勢との変化に注目が集まる。モデルの置き換え可能性を重視する意見も。\n  https://news.ycombinator.com/item?id=49913571\n- [812pt] みんな家にいる。誰も訪ねてこない | 家で過ごす時間の増加について、SNSやインターネット以前からの傾向とCOVID-19の影響を指摘する意見。スクリーンが人々の時間を奪っているという批判や、パーティーを開く人とそうでない人の存在に言及する声も。\n  https://news.ycombinator.com/item?id=49891295\n- [748pt] Dots: 常時稼働エージェント | Dotsの概念が理解しにくいという声が多く、その実用性やメリットについて疑問が呈されている。常にエージェントを稼働させる必要性に対する懐疑的な意見や、AIモデルが弱体化されることへの不満も。\n  https://news.ycombinator.com/item?id=49896604\n- [748pt] America.gov | 政府サービスの情報を一元化する試みに対して、フィッシング対策や情報アクセスの改善に期待する声がある一方で、Geminiの活用やプライバシー保護のアイコン表示に関する批判的な意見も。新しい政府ウェブサイトが乱立することへの懸念も表明されている。\n  https://news.ycombinator.com/item?id=49893509\n- [598pt] MCPは必要ないと言ったが | MCP（モデル作成プロセス）がプログラミングツール以外でも活用できるという意見や、過去の考えを覆したチームの姿勢を評価する声が多い。サブエージェントのサポートの重要性も指摘されている。\n  https://news.ycombinator.com/item?id=49906637\n- [579pt] デリーが電力損失を50%から5%に削減した方法 | 電力損失削減だけでなく、計画停電の解消が革命的と評価されている。電力盗難対策としての送電線絶縁化がサルにも安全であるという興味深い副次効果も話題に。インドの太陽光発電の可能性にも言及。\n  https://news.ycombinator.com/item?id=49892245\n- [561pt] DraftKingsがAIを使って慢性的なギャンブラーを行動ターゲティング | ギャンブル依存症の問題を指摘する声が多く、DraftKingsの倫理性に疑問が呈されている。ギャンブルが他の薬物よりも危険だと考える意見や、企業のターゲット層に合わせた行動ターゲティングへの批判も。\n  https://news.ycombinator.com/item?id=49896050\n- [506pt] 英国の駅での50万回の顔スキャン、逮捕者なし、誤検出1件 | 顔認識システムの実用性や費用対効果に疑問の声が多数。スキャン回数の少なさや誤検出の少なさに驚く意見もあるが、監視社会への懸念やテクノロジーが社会問題を解決できないことへの不満も表明されている。\n  https://news.ycombinator.com/item?id=49891480",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-10-01"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "12 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Google、過去最高性能のモデル「Gemini 4 Argon」を発表\n  https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/\n- AIスタートアップFlow Engineering、ValorやAtreides、Sequoiaから出資を受け評価額7.5億ドルに\n  https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/\n- Factory CEO、VC顧問がCognitionのスパイと告発\n  https://techcrunch.com/2026/09/30/factory-ceo-just-accused-his-vc-board-advisor-of-spying-for-cognition/\n- Neko Healthの全身スキャンは試す価値あり？Spotify創業者のスタートアップが米国上陸\n  https://techcrunch.com/video/is-neko-healths-body-scan-worth-it-spotify-billionaires-startup-has-come-to-america/\n- OpenAI、JevクローンでAIエージェントの暴走を阻止か\n  https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/\n- AI音声スタートアップElevenLabs、評価額220億ドルに倍増\n  https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/\n- Reddit、AIボット対策でRSSフィード廃止と公開APIアクセス終了へ\n  https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/\n- 消費者向けAIの不都合な経済性\n  https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai/\n- Meta、Museがユーザーのプライベートメッセージを無断で閲覧したとの主張を否定\n  https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/\n- DoorDash、AIエージェントによるテキスト注文サービスを開始\n  https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/\n- Destro AIの秘訣はロボットと人間の連携\n  https://techcrunch.com/2026/09/30/destro-ais-secret-sauce-is-getting-robots-and-humans-on-the-same-page/\n- Instinctの新商品レコメンド機能に一部ユーザーが不快感\n  https://techcrunch.com/2026/09/30/instincts-new-product-recommendations-are-giving-some-users-the-ick/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-10-01"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Principles for effective slides",
+      "url": "https://martinfowler.com/articles/never-send-slides/slide-principles.html",
+      "summary": "スライドは補足的な視覚情報として、発表内容の理解を深めるために効果的に活用すべき。",
+      "publishedAt": "2026-09-30",
+      "ogImage": "https://martinfowler.com/articles/never-send-slides/index/card.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Cyluma — Macのバッテリーをリアルタイムで表現するツール\n  https://www.producthunt.com/products/cyluma\n- WhisperBrain — 会議のための第二の脳\n  https://www.producthunt.com/products/whisperbrain\n- Pexo — ピッチに完璧なローンチ動画を自在に制作\n  https://www.producthunt.com/products/pexo-2\n- CrawlRaven MCP — AIエージェントがSEO作業を代行\n  https://www.producthunt.com/products/crawlraven-mcp\n- Ace from Automat Workforce — 仕事の頼れるAIチームメイト「Ace」が登場\n  https://www.producthunt.com/products/ace-from-automat-workforce\n- CoIsland — エンジニアリングスタックを効率的に管理\n  https://www.producthunt.com/products/coisland\n- Styx — Mac向けAI開発環境（ADE）\n  https://www.producthunt.com/products/styx-2\n- jambuild — 会話で即座に共同コーディング\n  https://www.producthunt.com/products/jambuild\n- Flocker Agent Profiles — エージェント用プロフィールページ：AIコラボレーションのライブネットワーク\n  https://www.producthunt.com/products/flocker-agent-profiles\n- Bruto — リポジトリで動くタスクボード、あなたとAIのために\n  https://www.producthunt.com/products/bruto",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-10-01"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "5 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Hundred、家電部品の完全自動検査システムを開発\n  http://hundred.systems/\n- Dydema、ニューロテックのモデル企業を目指す\n  https://dydema.com/\n- Terse、AIエージェント向けに堅牢な状態管理を提供\n  https://www.useterse.ai/\n- Reframe、コードベース構造をズーム可能な生成UIで可視化\n  https://reframe.dev/\n- Ascenix、熟練看護施設向け臨床インテリジェンス層を発表\n  https://www.ascenix.co/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-10-01"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+      "url": "https://www.latent.space/p/devday-2026",
+      "summary": "OpenAIは、GPT-6.1 Solや新しいAgents API、高速な意思決定モデルを搭載したAPIなどを発表し、AIエージェントによるPC操作が大幅に進化し、人間より速く複雑なタスクをこなせるようになった。",
+      "publishedAt": "2026-10-01",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!6k0o!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F218243619%2Fbf1dd45c-cca3-4c2c-8bd6-b825ecb451ab%2Ftranscoded-1790802162.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
+      "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
+      "summary": "OpenAIは、常に稼働するAIエージェント「Dots」や高速な「GPT-6.1 Sol」など、様々な新機能とAPIを発表し、既存プランの変更も行った。",
+      "publishedAt": "2026-09-30",
+      "ogImage": "https://substackcdn.com/image/youtube/w_728,c_limit/GjN3xLDuc8o"
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "1 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- VS CodeとGitHub Copilotアプリに「HydraFusion」を導入\n  https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-10-01"
+    }
+  ]
+}
