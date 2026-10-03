@@ -1,0 +1,109 @@
+{
+  "fetchedAt": "2026-10-03T00:01:56.803Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "A model guide for the GPT-6 family",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "summary": "スタートアップがGPT-6モデルを選定・調整し、プロンプト改善やツール連携で本番環境ワークフローを準備する方法を解説。",
+      "publishedAt": "2026-10-03",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/30yfQUtDoZo9YOON0QB57H/7c53ac242cc32ab9a9dc05930bdc2034/6tbusrroo8ljxic8ceybig-seo.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "url": "https://openai.com/index/chatham-financial",
+      "summary": "Chatham FinancialがCodexとGPT-5.6で業務を再設計し、取引検証時間を大幅に短縮。",
+      "publishedAt": "2026-10-02",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/5YyV7pXaAJJDcGDHvPniAF/4f73936c51d46e5bf8941e13f06987b2/chatham-financial-social-getty-texture.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.288",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.288",
+      "summary": "- [Added] Mod向けに$.ui.selection()を追加しました。これは、フルスクリーンモードで最後に選択したテキストと、選択が1つのトランスクリプト行内にある場合はその行を返します。\n- [Added] GitHub CLIがないクラウドセッションにビルトインのgh apiを追加しました。また、ファイル名、jqフィルター、GitHubエラーからの制御文字がターミナルに送信されるビルトインの不具合を修正しました。\n- [Added] Ctrl+Cでクリアされたプロンプトの回復機能を追加しました。空のプロンプトでUpを押すと、貼り付けられたテキストや画像を含むドラフトが戻ります。\n- [Added] ツール呼び出し中にMCPサーバーが追加のOAuthスコープを要求した場合、再認証プロンプトを追加しました。\n- [Added] /code-reviewに--max-findings <n>|allを追加しました。これにより、通常の制限よりも多くの、または少ない検出結果を報告できます。この選択は、--max-findings defaultを渡すまで再利用されます。\n- [Added] Ctrl+Fでセッション名を検索する機能と、Alt+↑/↓でエージェントビューのグループ間をジャンプする機能を追加しました。これら両方と名前変更は、keybindings.jsonで再割り当てできます。\n- [Added] Shift+Tabを含むプランを承認する際、新しい権限モードのスクリーンリーダーモードアナウンスを追加しました。\n- [Fixed] 応答途中のAPIタイムアウトがターンを失敗させる問題を修正しました。非対話型セッションとサブエージェントは部分的な応答から続行するようになり、思考のみの応答は再試行されます。\n- [Fixed] 最後の返信がトークン使用量ゼロを報告したときに、自動圧縮されずに「プロンプトが長すぎます」で会話が失敗する問題を修正しました。\n- [Fixed] --resumeが、圧縮によって復元されたばかりのファイルやその他のコンテキストをドロップすることがある問題を修正しました。\n- [Fixed] 再開されたセッションが、ターンの最後の応答を保存しないことがあり、次の--resumeでプロンプトが未回答のまま表示される問題を修正しました。\n- [Fixed] 同じセッションがロード中にファイルを書き換えた際に、再開時にトランスクリプトが途中で切れてロードされることがある問題を修正しました。\n- [Fixed] 2.1.286以前に開始された会話を再開すると、モデルの以前の思考が失われる問題を修正しました。\n- [Fixed] Mantleまたは構造化出力を拒否するゲートウェイの背後で、セッションタイトル、メモリリコール、プロンプトフックが失敗する問題を修正しました。構造化出力をオフにするCLAUDE_CODE_DISABLE_STRUCTURED_OUTPUTSを追加しました。\n- [Fixed] ブロックされたツールがBashではない場合に、自動モードの拒否がClaudeをBashの権限ルールに向ける問題を修正しました。\n- [Fixed] BedrockとMantleの自動モードで、WebFetchの要約やソネットサブエージェントなど、古いモデルへのリクエスト後にセッションの残りの間ローカル分類器に切り替わる問題を修正しました。\n- [Fixed] 新しく選択されたモデルで再起動したクラウドセッションが、サーバーが拒否した後もそのモデルで応答する問題を修正しました。\n- [Fixed] 未承認のURLに対するWebFetch権限プロンプトが5分間未回答のままだった後も、Coworkクラウドセッションが入力待ちとしてマークされ続ける問題を修正しました。\n- [Fixed] 別のデバイスで開始されたCoworkクラウドセッションに参加した電話で、プロンプトの提案が表示されない問題を修正しました。\n- [Fixed] Claude Codeが再起動する前に描画されたビューでモッドのボタンが押されたときに、別のボタンのアクションが実行されることがある問題を修正しました。\n- [Fixed] 1つのCode要素がパースされない差分を保持している場合に、プラグインのペインに何も表示されない問題を修正しました。現在はプレーンコードとして描画されます。\n- [Fixed] プラグインLSPサーバーが、置換された値やマニフェストのデフォルトではなく、初期化オプションと設定でリテラルの${user_config.*}と${CLAUDE_PLUGIN_ROOT}プレースホルダーを受け取る問題を修正しました。\n- [Fixed] プラグインのtool.callフックが、ワークツリーで実行されるサブエージェントでBashを失敗させ、ファイル検索で間違ったフォルダーを読み込む問題を修正しました。\n- [Fixed] 古いgit（2.39以前、例: Ubuntu 22.04の2.34）でgit-subdirプラグインのインストールが失敗したり、不完全なプラグインをキャッシュしたりする問題を修正しました。\n- [Fixed] --plugin-dirでロードされたプラグインが/pluginで「Configure options」を表示しない問題を修正しました。\n- [Fixed] プラグインのタイマーまたは読み取りがまだ実行中にプラグインがリロードまたは無効化されたときに、バックグラウンドセッションが終了する問題を修正しました。\n- [Fixed] 引用符なしのデリミタ（python3 <<EOF）を持つサンドボックス化されたヒアドキュメントが、本体にプレーンテキストと単純な$VAR参照のみが含まれている場合に、サンドボックスの自動許可の下で実行されるたびに承認を求める問題を修正しました。\n- [Fixed] Bashツールの権限チェックで、シェルが算術として評価するBASHPID割り当ての前にプロンプトを表示するよう修正しました。以前はサイレントに許可していました。\n- [Fixed] プラグインまたはモッドがプロンプトの上に複数の行を表示しているときに、バックグラウンドタスクダイアログを開くと、フルスクリーンセッションが「回復不可能なインターフェースエラー」で終了する問題を修正しました。\n- [Fixed] Claudeが、メッセージが保持されていた別のセッションに配信されたと報告する問題を修正しました。通知は「配信されませんでした」と表示され、セッション名を指定するようになりました。SDKセッションでは、Claudeはターン中にそれを学習できるようになりました。\n- [Fixed] OpenTelemetryのclaude_code.tool.blocked_on_userスパンが、-pおよびSDKセッションで、またPreToolUseフックの承認で、不明なソースまたは決定を報告する問題を修正しました。\n- [Fixed] -pまたは中断されたターンで、未回答で終了した権限要求がtool_decisionイベントを発行しない問題を修正しました。\n- [Fixed] CoworkクラウドセッションのEditとRetryが、/compact前に送信されたメッセージの履歴がまだ保存されているにもかかわらず拒否する問題を修正しました。\n- [Fixed] 非常に長い応答ストリームが失敗した後、無人セッション（CLAUDE_CODE_RETRY_WATCHDOG）が何時間も再試行する問題を修正しました。Claude Codeは再度ストリーミングし、3回のタイムアウト後に諦めるようになりました。\n- [Fixed] 安全なストレージに資格情報を保存できなかった場合に、/loginが「ログイン成功」と報告する問題を修正しました。現在は失敗を表示し、新しいログインが有効にならなかった場合に再試行を提案します（#73861）。\n- [Fixed] Bedrockの資格情報ルックアップ中に停止すると、リクエストが終了する代わりにセッションがフォールバックモデルに移動することがある問題を修正しました。\n- [Fixed] 別のClaude Codeプロセスがサインイン中にラップトップがスリープから復帰したときに、2回目のgcpAuthRefresh/awsAuthRefreshブラウザサインインが開く問題を修正しました。\n- [Fixed] エージェントチームを修正しました。名前でスポーンされたプラグイン定義エージェントが、デフォルトではなく独自のプロンプト、ツール、disallowedTools、およびeffortで実行されるようになりました。\n- [Fixed] ヘッドレス（-p / SDK）セッションが、timeoutやsystemdなどのスーパーバイザーがSIGCONTを同時に送信した場合にSIGTERMを無視することがある問題を修正しました。\n- [Fixed] 再起動したクラウドセッションが、組織の強制モデルリストが拒否するモデルを復元する問題を修正しました。\n- [Fixed] MCPツール呼び出しが、リモートサーバーの結果が16MBを超えているか、パースできなかった場合に2回実行されることがある問題を修正しました。\n- [Fixed] Claude DesktopのCodeタブのサブエージェントが、memoryという名前のユーザー設定MCPサーバーのツールをまったく取得できない問題を修正しました。\n- [Fixed] Claude in Chromeが、自動モードが利用できない（disableAutoModeや古いモデルなど）場合に、許可したサイトでのスクリーンショットやページ読み取りのたびに確認を求める問題を修正しました。タイピング、ナビゲーション、JavaScriptは引き続き確認を求めます。\n- [Fixed] GitHub SSHキーがないmacOSおよびLinuxマシンでGitHubソースプラグインのclaude plugin installが失敗する問題を修正しました。クローンはHTTPSにフォールバックし、通知を印刷するようになりました。\n- [Fixed] permissions.blockReadsOutsideWorkingDirectoriesがオンになっているときに、git設定ファイルのsandbox.credentials.filesエントリが有効にならない問題を修正しました。\n- [Fixed] TeamおよびEnterpriseプランまたは管理設定を持つマシンでArtifactツールを使用してスライドまたはデザインを開始する際に、Claudeが組織のデザインシステムを省略する問題を修正しました。\n- [Fixed] Claude Codeが再起動した後（Claude appsゲートウェイへの最初のサインイン、プロバイダーセットアップ、/tui）、Windowsでキーボードが機能しない問題を修正しました。\n- [Fixed] tools:に非常に多くのAgent(...)エントリがリストされているエージェントを起動する際の停止問題を修正しました。\n- [Fixed] Claude 3 OpusおよびClaude 3 Sonnetでのセッションが、会話にPDF全体が入力された後にすべてのターンで失敗する問題を修正しました。\n- [Fixed] npm auto-updaterが、プラットフォームネイティブバイナリのダウンロードに失敗し、プレースホルダーのclaudeスタブのみがインストールされた場合に成功を報告する問題を修正しました。\n- [Fixed] Remote Controlのクリーンアップが、まだ接続されているか、別のClaude Codeプロセスによって再接続されたばかりのセッションをアーカイブする問題を修正しました。\n- [Fixed] オーナー/リポジトリのプラグインマーケットプレイスが、SSHとHTTPSの両方のフェッチが失敗した場合に、2回目の試行のエラーのみを表示する問題を修正しました。両方のエラーが表示され、最初に試行されたトランスポートが上位に表示されるようになりました。\n- [Fixed] パススコープの.claude/rulesとネストされたCLAUDE.mdファイルが、WriteまたはEditがそのスコープ内のファイルを作成または変更したときにロードされない問題を修正しました（以前はReadのみがロードしていました）。\n- [Fixed] bypassPermissionsモードまたはシェル許可ルールの下で、bash -cまたはsh -cスクリプト内で危険なrm（例: /またはホームディレクトリのrm）がプロンプトなしで実行される問題を修正しました（#96300）。\n- [Fixed] LSPツール呼び出しが、言語サーバーが動的な機能登録を使用するか、応答を停止したときに無期限にハングする問題を修正しました。リクエストは60秒後にタイムアウトするようになりました（サーバーごとのrequestTimeout）。\n- [Fixed] バックグラウンドエージェントがまだ実行中にidle_prompt通知フックが起動する問題を修正しました（#93672）。\n- [Fixed] PreToolUseおよびPermissionRequestフックが、それらのマッチングが失敗した場合やツールの入力がJSONにシリアル化できなかった場合にスキップされる問題を修正しました。呼び出しはブロックされるようになりました。\n- [Fixed] 新しい環境またはモデル切り替え後の最初の要求が、サーバーの出力制限と自動圧縮ウィンドウではなく、ビルトインのそれらを使用する問題を修正しました。この要求は最大1.5秒待つ場合があります。\n- [Fixed] ctrl+enterでキューに入ったメッセージを送信した後、Interrupted行に「What should Claude do instead?」のヒントが表示される問題を修正しました。\n- [Fixed] --bareセッションで/loginが、セッションが読み取らないサインインを実行し、保存されたログインを置き換える可能性があった問題を修正しました。現在はどの資格情報が機能するかを表示します。\n- [Fixed] サブエージェントのファイルアクセスがルールまたはネストされたCLAUDE.mdをロードしたときに、InstructionsLoadedフックがagent_idとagent_typeを省略する問題を修正しました。ファイルアクセスでロードされたルールとネストされたCLAUDE.mdファイルもeffortを報告するようになりました。\n- [Fixed] claude mcp serveのAgentツールが常に利用可能なエージェントなしと報告し、すべてのsubagent_typeを拒否する問題を修正しました。\n- [Fixed] フルスクリーントランスクリプトビューアの検索と/themeのカスタムカラー検索で、ターミナルカーソルが入力されたテキストを追従しない問題を修正しました。\n- [Fixed] スクリーンリーダーモードの/permissionsで、ルールの番号を入力すると検索ボックスが開くのではなく、それが選択される問題を修正しました。\n- [Improved] 自動モードを改善しました。会話がクライアント側の安全分類器でレビューするには長すぎる場合、すべてのツール呼び出しでプロンプトを表示したり失敗させたりするのではなく、圧縮されるようになりました。\n- [Improved] スクリーンリーダーモードを改善しました。削除された単語などの短いアナウンスは、次のキー入力まで、または画面上でそれらの上にあるものが変更されるまで画面に表示されるようになりました。\n- [Improved] スクリーンリーダーモードを改善しました。質問ダイアログで回答された質問は、ボックスの横に「回答済み」と表示されるようになりました。\n- [Improved] 組織が使用クレジットリクエストをオフにしているTeamおよびEnterpriseメンバーに表示される/usage-creditsメッセージを改善しました。\n- [Improved] クラウドセッションを改善しました。新しい会話の最初のターンは、設定でalwaysLoad: falseが設定されているstdio MCPサーバーを待たなくなりました。\n- [Improved] 「You should know」のメモを改善し、決定の責任者に応じて「we」、「the main agent」、または「you」と表示されるようにしました。\n- [Improved] データベースのサイズ制限で拒否されたアーティファクトデータベース書き込みのエラーを改善しました。制限とスペースを解放する方法が示されるようになりました。\n- [Improved] Bashの権限プロンプトを改善し、コマンドの一部が実行前にチェックできない場合に、より短い理由を提供するようにしました。\n- [Improved] 自己ホスト型ランナーのビルトインgh apiを改善しました。拒否されたghコマンドはgh api相当を出力し、--paginateはリポジトリのリストのすべてのページを追跡し、ネストされたclaudeはそれを削除しなくなりました。\n- [Improved] Remote Controlの期限切れサーバー資格情報からの回復を改善しました。更新中もセッションは接続されたままになり、サーバーの停止後に諦めた場合でも維持されます。\n- [Changed] バックグラウンドコマンドの時間制限を、無人セッション（-p、Agent SDK、CI、クラウド）にのみ適用するように変更しました。ターミナル、デスクトップアプリ、VS Codeセッションには制限がありません。\n- [Changed] クライアント側の自動モード分類器を変更し、Claude Sonnet 5.5またはOpus 5.5を名指しするANTHROPIC_DEFAULT_SONNET_MODELピンを無視し、代わりにClaude Sonnet 5を使用するようにしました。\n- [Changed] claude project purgeをclaude purgeに変更しました。古い名前も引き続き機能し、通知を印刷します。\n- [Changed] エージェントビューのn:フィルター（およびCtrl+F検索）を変更し、Enterを押すと、一番上の行ではなく、名前が最も一致するセッションが開くようにしました。\n- [Changed] /autocompactがモデルごとに自動圧縮ウィンドウを保存するように変更しました。これにより、切り替えても各モデルが独自の設定を保持します。\n- [Changed] 完了を報告できないサーバーからのMCP URLプロンプトを、「I'm done, continue」を待ってからツール呼び出しが続行するように変更しました。これにより、ブラウザで先に完了できます。\n- [Fixed] [VSCode] claude.aiコネクタが認証後も「Needs authentication」のままになる問題を修正しました。MCPサーバーダイアログで「Check connection」が提供されるようになりました。\n- [Fixed] [VSCode] オプトインの新しい会話ショートカット（Cmd/Ctrl+N）が、現在表示しているClaudeビューだけでなく、すべての表示可能なClaudeビューで会話を開始する問題を修正しました。\n- [Fixed] [VSCode] チャットビューが、現在表示しているセッションをアーカイブした後、次に保存されたセッションを再開する問題を修正しました。代わりに新しい会話を開始するようになりました。\n- [Fixed] [Cloud sessions] Claude Code管理者設定で、無関係なセキュリティ設定がロード中またはロードに失敗した場合に、Cloud sessionsスイッチがオフにロックされたままになる問題を修正しました。\n- [Fixed] [Cloud sessions] 自己ホスト型ランナーがまだ起動中に停止を押しても、キューに入ったメッセージがキャンセルされず、ランナーが起動した後に実行される可能性があった問題を修正しました。\n- [Fixed] [Claude Tag] Claude Tag管理者設定で、設定が自動的に作成されたチャネルで常に失敗する「Remove this scope」オプションが提供される問題を修正しました。\n- [Improved] [Claude Tag] Claudeを改善し、読み取り専用の別のチャネルの関連Slackスレッドも追跡するようにしました。これにより、そこに依存する会話に更新が届きます。\n- [Improved] [Claude Tag] チャネルの「Configure」ページでの保存エラーを改善しました。長すぎるチャネルの指示は短縮するよう促され、アクセス損失のために拒否された保存は再試行するよう促されなくなりました。\n- [Fixed] claude plugin testが、古い保存設定を読み取っただけで、モッドがリモートでオフになっていると報告する問題を修正しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-10-03"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1638pt] Pi 1.0 | AIエージェントPiへの高評価が多く、効率性や使いやすさが話題に。プラグイン導入の支援情報も。\n  https://news.ycombinator.com/item?id=49926069\n- [618pt] Clef：オープンウェイトの意思決定モデルと新しいRLファインチューニングプラットフォーム | モデルの性能やコストに関する議論があり、Cloudflareのドキュメント品質も評価されている。\n  https://news.ycombinator.com/item?id=49923692\n- [618pt] iOS版StreetCompleteがパブリックベータに | ドイツ政府の支援に感謝の声。コミュニティでのトラブル経験やTestFlightへの直接リンクを求めるコメントも。\n  https://news.ycombinator.com/item?id=49920160\n- [546pt] Git 3.0のSHA-256デフォルト化は高くつく間違いとなるだろう | 記事の主張に対する反論が多く、SHA-1の脆弱性の認識やGitのドキュメントとの相違が指摘されている。\n  https://news.ycombinator.com/item?id=49924179\n- [545pt] Linuxカーネルに複数の脆弱性が発見される | 多くの脆弱性報告に懸念の声。AIによるコード生成がもたらすセキュリティ問題についても議論。\n  https://news.ycombinator.com/item?id=49928121\n- [537pt] かえるくんとがまがえるくんと、ますます有能になる機械たち | 絵本のパロディが高く評価されており、AIの振る舞いをユーモラスに表現していると好評。\n  https://news.ycombinator.com/item?id=49927760\n- [486pt] Pi Durable | Piの永続エージェント化に期待の声。トークン数の違いや状態管理の仕組みに関する疑問も。\n  https://news.ycombinator.com/item?id=49925969\n- [453pt] 裁判所、EFFの主張に同意：ユタ州のVPN法は技術的に不可能を要求している | VPNトラフィックの特定は困難との意見。EFFの活動への支持や、インターネット検閲に関する議論も。\n  https://news.ycombinator.com/item?id=49927754\n- [400pt] 休暇からの帰国時、政府は令状なしであなたの携帯電話を捜索できる | 国境警備隊の権限の大きさに懸念の声多数。透明性の欠如や憲法修正第4条との関連性が議論されている。\n  https://news.ycombinator.com/item?id=49920234\n- [393pt] SvelteKit 3 | Svelteチームへの感謝とSvelteKitの高評価が多数。Reactとの比較やカスタム言語の長所・短所が話題に。\n  https://news.ycombinator.com/item?id=49926536",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-10-03"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "11 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Stability AI、Sean Parkerが音楽分野で再構築へ\n  https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/\n- レイオフの影響を受けた方へ：TechCrunch Disrupt 2026 Expo+ Passが75ドル！\n  https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/\n- Apple、AIエージェントによる新たなリスクに対応するためmacOSの「フルディスクアクセス」制御を強化\n  https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/\n- もうAIではない、ホワイトハウスによると「超知能」だ\n  https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/\n- TechCrunch Disrupt 2026：BlackstoneのJas Khairaが語る次世代AI企業の育成\n  https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/\n- Circuit Breaker Labs、子どもと大人のためのAI安全確保を目指す\n  https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/\n- ローマ教皇レオ14世、AI生成アートに批判的\n  https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/\n- TechCrunch Disrupt 2026：ClayのKareem Aminが語るGTMエンジニアの台頭\n  https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer/\n- 最後の24時間：TechCrunch Disrupt 2026に出展し、1万以上のテックリーダーにリーチしよう\n  https://techcrunch.com/2026/10/02/last-24-hours-exhibit-at-techcrunch-disrupt-2026-and-reach-10000-tech-leaders/\n- Founder Summit 2026サイドイベントの申し込み、残り24時間\n  https://techcrunch.com/2026/10/02/less-than-24-hours-to-apply-for-a-side-event-at-founder-summit-2026/\n- TechCrunch Disrupt 2026創業者ガイド：知っておくべきことすべて\n  https://techcrunch.com/2026/10/01/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-10-03"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Teachoo：あらゆることを学べるAI\n  https://www.producthunt.com/products/teachoo-2\n- Veltrix AI for E-commerce：EC事業の収益最大化を支援\n  https://www.producthunt.com/products/veltrix-ai\n- Wu：Rust製、VS Codeのような高速ネイティブコードエディター\n  https://www.producthunt.com/products/wu\n- Gauth Unlimited Digital Canvas：チャットではなく無限のホワイトボードで学ぶAIチューター\n  https://www.producthunt.com/products/gauth-ai-course\n- Finbar：自律型投資リサーチエージェント\n  https://www.producthunt.com/products/finbar-2\n- Codync：Grok Bot、Muse、Dotsのオープンソース代替\n  https://www.producthunt.com/products/codync\n- ShipHQ：既存アプリを活用して独自のアプリスタジオを構築\n  https://www.producthunt.com/products/shiphq\n- Famulor：WhatsAppでの電話応答・フォローアップを代行するエージェント\n  https://www.producthunt.com/products/famulor-telephony-ai\n- Communicate：貴社の知見に基づき、必要に応じて引き継ぎ可能なAIサポートエージェント\n  https://www.producthunt.com/products/communicate\n- Open Inspector：あらゆるウェブサイトのデザインシステムをホバーで取得、オープンソースで無料\n  https://www.producthunt.com/products/open-inspector",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-10-03"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+      "url": "https://www.anthropic.com/news/claude-frontier-academy",
+      "summary": "AnthropicがClaude Frontier Academyに1億ドルを投じ、AIエンジニア1万人を育成するプログラムを開始。",
+      "ogImage": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Build&backgroundColor=heather",
+      "publishedAt": "2026-10-03"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "2 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Silica、物理AI向けアクチュエーターを発表\n  https://silicamachines.com/\n- Rystic、ローカルでのエージェントテスト・トレーニング向けAPIシミュレーターを提供\n  https://rystic.ai",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-10-03"
+    },
+    {
+      "sourceName": "BRIDGE",
+      "title": "2 Articles",
+      "url": "https://thebridge.jp/category/news-and-column/",
+      "summary": "- チューリング、東京都心を約40分ノーカットで走るE2E自動運転の動画を公開——大型調達を経て開発を重ね、海外勢との差を詰める\n  https://thebridge.jp/2026/10/turing-e2e-tokyo-40min-drive-video\n- 商業用不動産データのestie、東証グロース上場へ——想定時価総額は約165.8億円\n  https://thebridge.jp/2026/10/estie-tse-growth-ipo-approved",
+      "ogImage": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
+      "publishedAt": "2026-10-03"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
+      "url": "https://www.latent.space/p/airbnb",
+      "summary": "Airbnbは、AIを活用して社内ツールでの開発加速、顧客体験変革、コードのAI自動生成、カスタマーサポートの自動化などを進め、AIネイティブ企業へと変貌している。",
+      "publishedAt": "2026-10-02",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!-kaR!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ac92b22-c007-487c-b80f-f031f36596db_2560x1440.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
+      "url": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
+      "summary": "AIカンファレンスのチケット販売終了が迫る中、LLMの主要サービスから新モデルの発表が相次ぎ、機能強化や効率化、価格競争が激化している。",
+      "publishedAt": "2026-10-02",
+      "ogImage": "https://substackcdn.com/image/youtube/w_728,c_limit/RjfbvDXpFls"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Academia is for Ambition — Alex Zhang, MIT",
+      "url": "https://www.latent.space/p/rlm",
+      "summary": "AIエージェントの活用や「ハーネス」設計の重要性、LLMの推論能力を最大限に引き出すための工夫について議論された。",
+      "publishedAt": "2026-10-02",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!iVu8!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F218414422%2F29eff1ae-7f69-4af5-a42b-a64a66b90590%2Ftranscoded-1790900128.png"
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "2 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- Copilotのコードレビュー、APIサポートと新たなデフォルト基準を導入\n  https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level\n- GitHub Copilot、一部モデルのサポートを終了へ\n  https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-10-03"
+    }
+  ]
+}
