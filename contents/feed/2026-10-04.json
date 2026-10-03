@@ -1,0 +1,53 @@
+{
+  "fetchedAt": "2026-10-03T23:24:11.182Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.289",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.289",
+      "summary": "- [Fixed] 管理対象マシンで、ユーザーがインストールしたmodの承認時に、複合シェルコマンドのネストされた部分に対するdenyまたはaskルールが保持されない問題を修正しました。\n- [Fixed] 多数の閉じられていない<script>タグや深くネストされた${置換を含む短いコードブロックで、ターミナルがフリーズする問題を修正しました。\n- [Fixed] シンボリックリンクを介してIDEで@-mentionされた、変更された、または選択されたファイルにRead denyルールが適用されない問題を修正しました。\n- [Changed] [VSCode] claude auth statusに関する2.1.288の変更を元に戻しました。これにより、サインアウトの頻度が増加した可能性があります。\n- [Improved] ハイライト表示されたビューを最終的な幅で一度レイアウトすることで、プラグインコードペインで大きなファイルが開く速度を改善しました。\n- [Fixed] ローカルフォルダマーケットプレイスからインストールされたプラグインの古いコピーが表示される問題（plugin list、plugin eval、plugin update）と、シンボリックリンクされた--plugin-dirのホットリロードの問題を修正しました。\n- [Fixed] アップグレード後の最初のセッションで、インストールされたmodがロードされない問題を修正しました。\n- [Fixed] 全画面表示で「Background tasks」ダイアログが開いている間、プロンプト上のプラグインの行が古い行を表示する問題を修正しました。\n- [Fixed] リンクがlocalhostアドレス、パスに@、大文字のホスト、またはfile:パスを使用している場合、プラグインペインが何も描画しない問題を修正しました。\n- [Fixed] ユーザーがインストールしたプラグインが、組織管理下のMCPサーバーのサインインツールの説明を書き換えられる問題を修正しました。\n- [Fixed] プラグインがターミナルが認識しない罫線スタイルのBoxを描画した場合、起動時にフリーズまたは強制終了する問題を修正しました。\n- [Fixed] プラグインのオンスクリーンハンドラが非同期にスローした場合に、監視対象およびバックグラウンドセッションが終了する問題を修正しました。\n- [Fixed] 高さのないプラグイン領域が成長し続けると、インターフェースエラーでセッションが終了する問題を修正しました。\n- [Fixed] サンドボックスがコマンドを自動的に許可する場合、展開された値を持つ環境変数プレフィックスの背後にあるコマンド（例：TZ=\"$HOME\" rm -rf build）に対して、Bashのdenyおよびaskルールが機能しない問題を修正しました。\n- [Fixed] ベア変数の割り当てがコマンドの前に来た場合、サンドボックスの自動許可の下でBashのdenyまたはaskルールがスキップされる問題を修正しました。\n- [Fixed] フォルダにマーケットプレイスのマニフェストも含まれている場合に、claude plugin validateがプラグインをスキップする問題を修正しました。\n- [Added] チームメイト向けのagent.spawn、プラグインフックイベント全体で1つのエージェントID、および$.agent.list()でのアイドル状態と待機状態を追加しました。\n- [Fixed] modのui.renderフックが書き込んだ値によって行が描画中にスローされた場合に、「unrecoverable interface error」でセッションが終了する問題を修正しました。エンジンが独自の行を描画するようになりました。\n- [Fixed] タブ、余分なエスケープとC1制御文字を含むテキスト、またはタブとCRLF改行を含む短いテキストが、下の行に重なって描画される問題を修正しました。\n- [Fixed] modのペインまたはバンドの右寄せコンテンツが閉じるマークまたは[-]の下に描画される問題を修正しました。これらはターミナルの端から1列内側に入るようになりました。\n- [Fixed] modのClientが描画中に失敗した場合に、modが描画した周囲のすべてが機能しなくなる問題を修正しました。現在は単独で失敗し、ui.faultを発生させます。\n- [Fixed] claude plugin validateがAnthropicマーケットプレイス自身のプラグインを失敗させ、--jsonでクリーンなplugin.jsonをリストする問題を修正しました。\n- [Fixed] 描画に失敗したmodのバンドが、その下のカードに一時的に退くように指示する問題を修正しました。\n- [Fixed] 失敗したプラグインコンポーネントが、失敗にメッセージがない場合に理由としてErrorまたは何も表示しない問題を修正しました。\n- [Improved] modのバンドまたはペインの描画に失敗した場合に、modの作者が見る行を改善しました。modの名前を表示し、何も描画されなかったことを伝えます。\n- [Fixed] 多数の閉じられていない<script>タグを含む短いコードブロックで、公開されたアーティファクトページが閲覧者のブラウザタブをフリーズまたはクラッシュさせる問題を修正しました。\n- [Fixed] modのClient領域が、描画中にターミナルがスローした後も、セッション全体で失敗状態のままになる問題を修正しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-10-04"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [572pt] Linuxカーネルに複数の脆弱性が発見される | 多くの脆弱性が報告されているが、バグ修正もCVEとしてカウントされるため、数値が大きくなりがちという指摘あり。\n  https://news.ycombinator.com/item?id=49928121\n- [541pt] Apple Pass Designer | LLMの登場で開発が容易になったツールであり、過去にApple社内で同様のアイデアがあったことが明かされている。\n  https://news.ycombinator.com/item?id=49937276\n- [476pt] Extra Big Ass Intelligence | AIが作成したようなウェブサイトデザインへの言及や、広告のXボタンが動くギミックが面白いという感想が寄せられている。\n  https://news.ycombinator.com/item?id=49941114\n- [474pt] Kolibri: ドイツが開発したオープンウェイトモデル | 開発チームの透明性や、モデルが「分からない」と答える訓練を受けている点が高く評価されている。\n  https://news.ycombinator.com/item?id=49942706\n- [432pt] Newgrounds.com – ゲーム、音楽、アートのコミュニティ | 昔のFlashゲームがRuffleのおかげでプレイできるようになり、懐かしむ声が多い。\n  https://news.ycombinator.com/item?id=49940394\n- [409pt] Aleph Alpha Kolibri: ドイツのソブリンLLMの仕組み | コメントが別の記事に統合されているという案内や、Show HNではないという指摘がある。\n  https://news.ycombinator.com/item?id=49943034\n- [405pt] macOSおよびWindows版のDeepSeek Harness Desktop | デスクトップ版でテレメトリーがデフォルトで有効になっている点に懸念の声があり、高い評価と使用感についてのコメントが寄せられている。\n  https://news.ycombinator.com/item?id=49929489\n- [388pt] 星と4つの惑星の12年間の望遠鏡画像シーケンス | 実際の動画ではなく静止画像を補間したものという注釈や、天文学技術の進歩に期待する声が見られる。\n  https://news.ycombinator.com/item?id=49932147\n- [368pt] Show HN: Opus 5.5にシミュレートされたペイントキャンバスを与える | 拡散モデルとLLMの融合への関心や、生成された風景が不気味の谷現象を引き起こすという意見がある。\n  https://news.ycombinator.com/item?id=49928566\n- [340pt] Redisの作者によるローカルLLM実行ツールds4 | Redisの作者によるツールへの関心が高く、特定のハードウェアでの動作報告や、他のツールとの比較がされている。\n  https://news.ycombinator.com/item?id=49936575",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-10-04"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "5 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Amazon、データセンターへの批判に反論──「もはやNDAは使用していない」\n  https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/\n- OpenAIの安全担当従業員が辞任、社内文化の「破綻」を主張\n  https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/\n- テキストメッセージで使えるAIエージェントのすべて\n  https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/\n- Spotify創業者のボディスキャンスタートアップが米国上陸\n  https://techcrunch.com/2026/10/03/spotify-billionaires-body-scan-startup-has-come-to-america/\n- Meta、次世代ガジェットにMuseの技術を搭載へ\n  https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-10-04"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- OTPfill — MacのメールからOTPコードを自動入力\n  https://www.producthunt.com/products/otpfill\n- una mano — 親指で操作できるiPhoneキーボード\n  https://www.producthunt.com/products/una-mano\n- Yubi — Macに話しかけるだけでYubiがタイピング\n  https://www.producthunt.com/products/yubi-2\n- FoundrRadio — 周波数を決めて、自分だけのラジオ局を開設\n  https://www.producthunt.com/products/foundrradio\n- Crowny! — Claude Codeや音楽など20以上のアプリをノッチで管理\n  https://www.producthunt.com/products/crowny-2\n- miso.com — iMessageでフライトやホテルを予約\n  https://www.producthunt.com/products/miso-com\n- MacCam — AppleがMac向けに出荷しなかったカメラアプリ\n  https://www.producthunt.com/products/maccam\n- eu/jev — EUでホストされる初のJevモデル\n  https://www.producthunt.com/products/bevel-software\n- FeelMyMac — Macのトラックパッドで様々な質感を体験\n  https://www.producthunt.com/products/feelmymac\n- Muse Gadgets — Metaが提供する、AIガジェット構築用オープンソースキット\n  https://www.producthunt.com/products/muse-22",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-10-04"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "1 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- AIで運送を効率化する「LinkLane」、見積もり・予約・追跡が数秒で完了\n  https://linklane.ai/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-10-04"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-cee",
+      "summary": "OpenAIが「速い・安い・賢い」新モデルGPT-6.1 Solを発表し、AnthropicやGoogleもモデル性能向上や新製品を発表する中、ユーザーからは既存モデルの性能低下報告や、ローカルLLMでの最新モデル追従といった技術的な議論が活発になっている。",
+      "publishedAt": "2026-10-03",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!2Y6l!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fswyx.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D-602510947%26version%3D9"
+    }
+  ]
+}
