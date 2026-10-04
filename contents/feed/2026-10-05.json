@@ -1,0 +1,45 @@
+{
+  "fetchedAt": "2026-10-04T23:38:40.233Z",
+  "entries": [
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [793pt] Bob Cringely氏が逝去 | 著名なブロガーの死を悼む声や功績を称賛するコメントが多い一方、過去の詐欺行為を指摘する声も。\n  https://news.ycombinator.com/item?id=49949438\n- [653pt] Kolibri: 主権を持つオープンウェイトモデル | モデルの透明性とオープン性を評価する声が多い。詳細な解説論文や活用例への言及も。\n  https://news.ycombinator.com/item?id=49942706\n- [582pt] あらゆるものにデフォルトの厳格な予算上限が必要になるだろう | クラウドサービスにおける予算上限の欠如に不満の声が多く、過去の苦い経験談も。\n  https://news.ycombinator.com/item?id=49949235\n- [554pt] 一般消費者向けハードウェア (RTX 4090) で Qwen 3.8 Flash Next (125B) を100T/sで実行 | RTX 4090での良好な動作報告が多く、推論速度や品質への評価が高い。\n  https://news.ycombinator.com/item?id=49953495\n- [508pt] Extra Big Ass Intelligence | ウェブサイトのデザインや広告の挙動が面白いと評価されている。一部からはLLMによる生成ではないかと推測する声も。\n  https://news.ycombinator.com/item?id=49941114\n- [474pt] 連邦判事がFlockを「無差別な大量監視」と非難 | 監視の合法性やプライバシーへの影響について議論が活発。批判的な意見が多い。\n  https://news.ycombinator.com/item?id=49948254\n- [457pt] Newgrounds.com – ゲーム、音楽、アートのコミュニティ | Flashゲームの思い出や懐かしさを語るコメントが多数。RuffleによるFlashコンテンツの復旧を喜ぶ声も。\n  https://news.ycombinator.com/item?id=49940394\n- [455pt] ValveのTimur KristófによるLinux上での古いAMD GPU改善の取り組み | 古いGPUの活用法や性能向上への期待が高い。特定のAMD GPUでの良好な動作報告も。\n  https://news.ycombinator.com/item?id=49946895\n- [454pt] OpenAIを辞めた理由：その文化が壊れているから | OpenAIの安全性への姿勢や、AIの「アライメント」の定義に関する議論が活発。元従業員による批判の声も。\n  https://news.ycombinator.com/item?id=49944227\n- [417pt] Aleph Alpha Kolibri: ドイツの主権を持つLLMの仕組み | 別の類似記事へのコメント統合が促されている。技術的な詳細や発表内容への言及が多い。\n  https://news.ycombinator.com/item?id=49943034",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-10-05"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "4 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Google、AI関連の大量申請でオープンソースのバグ報奨金プログラムを一時停止\n  https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/\n- 「超知能」と拘束力のない安全協定は、AIのイメージ問題を解決できるか？\n  https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/\n- TechCrunch Mobility: ロボタクシーを規制する動き\n  https://techcrunch.com/2026/10/04/techcrunch-mobility-reining-in-robotaxis/\n- トランプ氏、新たな「Super Intelligence Force」を発表\n  https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-10-05"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "We're going to need default hard budget caps on pretty much everything",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "summary": "AWSとGoogle Cloudが、利用料が予算上限を超えるとサービスを停止する「ハード予算キャップ」機能を導入し、想定外の高額請求を防ぐトレンド。",
+      "publishedAt": "2026-10-04",
+      "ogImage": null
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Clair — Claude のコードをApple Watchから操作\n  https://www.producthunt.com/products/clair-3\n- Sellio — AIエージェントで顧客サポートを共有受信トレイに集約\n  https://www.producthunt.com/products/sellio-2\n- Quven — ネイティブ再生を優先するセルフホスト型メディアサーバー\n  https://www.producthunt.com/products/quven\n- Thinking Orbs — React向けアニメーションAIステータスインジケーターコンポーネントライブラリ\n  https://www.producthunt.com/products/thinking-orbs\n- Calnio — NotionとApple Calendarの双方向同期\n  https://www.producthunt.com/products/calnio\n- LaunchReel — プロ級ビデオ編集を高速化する claude design\n  https://www.producthunt.com/products/launchreel-2\n- Art4 — Macのための小さな美術館\n  https://www.producthunt.com/products/art4\n- Snapset — Macのワークスペース全体を瞬時に保存・復元\n  https://www.producthunt.com/products/snapset\n- Cupola — Appleカレンダー、リマインダー、メモを1つのアプリに集約\n  https://www.producthunt.com/products/cupola\n- qarunbook — チームとAIで取り組むテストプラン\n  https://www.producthunt.com/products/qarunbook",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-10-05"
+    },
+    {
+      "sourceName": "GitHub Trending",
+      "title": "Weekly Trending",
+      "url": "https://github.com/trending?since=weekly",
+      "summary": "- paperclipai/paperclip：誰もが仕事でエージェントを管理するために使うオープンソースアプリ ⭐10,722/week\n  https://github.com/paperclipai/paperclip\n- vectorize-io/hindsight：Hindsight: 学習するエージェントメモリ ⭐14,507/week\n  https://github.com/vectorize-io/hindsight\n- pbakaus/impeccable：AIハーネスのデザインを向上させるデザイン言語。 ⭐3,311/week\n  https://github.com/pbakaus/impeccable\n- debpalash/VoiceStudio：VoiceStudioは、オープンソースで完全にローカルなElevenLabsの代替品で、646言語での音声クローン、音声デザイン、ビデオ吹き替え、ディクテーション、文字起こし、オーディオブック作成が可能。 ⭐16,775/week\n  https://github.com/debpalash/VoiceStudio\n- heygen-com/hyperframes：HTMLを記述し、ビデオをレンダリング。エージェント向けに構築。 ⭐3,011/week\n  https://github.com/heygen-com/hyperframes\n- Effect-TS/effect：TypeScriptで本番環境に対応したアプリケーションを構築 ⭐466/week\n  https://github.com/Effect-TS/effect\n- rohitg00/ai-engineering-from-scratch：それを学び、構築し、他者に提供する。 ⭐5,059/week\n  https://github.com/rohitg00/ai-engineering-from-scratch\n- Panniantong/Agent-Reach：あなたのAIエージェントにインターネット全体を見る目を与える。Twitter、Reddit、YouTube、GitHub、Bilibili、XiaoHongShuを読み、検索する — 1つのCLI、API料金ゼロ。 ⭐3,952/week\n  https://github.com/Panniantong/Agent-Reach\n- alirezarezvani/claude-skills：Claude Code、Codex、Gemini CLI、Cursor、その他8つのコーディングエージェントのための380のClaude Codeスキル＆エージェントスキル＆プラグイン（30以上のエージェント、70以上のカスタムコマンド、380以上のスキル、カスタマイズ可能なリファレンス、スクリプト）— エンジニアリング、マーケティング、製品、コンプライアンス、Cレベルアドバイザリ、リサーチ、ビジネスオペレーション、商業＆ファイナンス、そして日々の生産性スキル。 ⭐948/week\n  https://github.com/alirezarezvani/claude-skills\n- pingdotgg/t3code：TypeScriptで構築。\n  https://github.com/pingdotgg/t3code",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-10-05"
+    }
+  ]
+}
