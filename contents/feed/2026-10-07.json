@@ -1,0 +1,117 @@
+{
+  "fetchedAt": "2026-10-07T00:12:18.040Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "url": "https://openai.com/index/jump-trading",
+      "summary": "Jump TradingがOpenAIを活用して、複数のデータソースを人間が確認するAIワークフローで定量調査を拡大。",
+      "publishedAt": "2026-10-06",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/01Nd05HjeHRiEqwJXFhr6Q/5441b03dbcdabb27917814ff14b1374c/og.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "summary": "OpenAIが内部AIモデルとLeanを活用し、数学の未解決問題に関する研究結果をGitHubで公開。",
+      "publishedAt": "2026-10-06",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Advancing computer use with Ironclad",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "summary": "OpenAIとIroncladが、契約ワークフローにおけるAIエージェントの活用研究を発表。",
+      "publishedAt": "2026-10-06",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/7MHs3xHafyN62xj8ZblzjX/b0bfb5320a21766be56d761631d18899/oai_ironclad_cua_16x9.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "summary": "AtlassianとOpenAIが連携を強化し、AIと企業知識を繋いでチームの業務効率化を目指す。",
+      "publishedAt": "2026-10-07",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/6QbNTCFAGpVGjDLSMfKf9M/e571659e9694e08b73f5e73a01a0682c/atlassian-social-official.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.292",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292",
+      "summary": "- [Added] claude plugin install に --marketplace <source> を追加しました。これにより、必要に応じて、claude plugin marketplace add と同じポリシーチェックの下でマーケットプレイスを追加し、そこからプラグインをインストールします。\n- [Added] Agent ツールに effort パラメータを追加し、指定した effort レベルで Claude がサブエージェントを実行するようにしました。\n- [Added] CLAUDE_CODE_OVERLOADED_RETRY_BASE_DELAY_MS 環境変数を追加し、過負荷 (529) リクエストをリトライする際のバックオフのベース遅延を長く設定できるようにしました。\n- [Added] prompt.autocomplete を追加しました。これは、mod がプロンプトボックスのオートコンプリートリストに独自の行を追加するためのイベントです。\n- [Added] $.model.complete for mods にプロンプトキャッシュを追加しました。プロンプトとシステムはテキストブロックを受け取り、ブロックの cache: true はそこまでのリクエストをキャッシュします。\n- [Added] agent.spawn mod フックにワークフローエージェントと、その run および index を追加し、mod がそれらを拒否できるようにしました。\n- [Fixed] permissionMode: auto のサブエージェント定義が、auto モードが利用できない場合 (設定で無効になっている、サーキットブレーカー、またはそれをサポートしないモデル) に auto モードに入る問題を修正しました。\n- [Fixed] サンドボックス化されたコマンドが、~/.claude/seed-admin にある /ultrareview アップロードのステージングされたファイルコピーを読み取れる問題を修正しました。\n- [Fixed] セッション中に表示または再設定されるマネージドサンドボックスの読み取り拒否パス (およびその隣のユーザーパス) が、その中のプロジェクト付与を削除したり、カバーするファイルからの認証情報注入を終了させたりしない問題を修正しました。\n- [Fixed] macOS および Windows でのノートブックまたは PDF の読み取りが、読み取り中にスワップされたリンクを介して、承認された範囲外のファイルを返すことができる問題を修正しました。\n- [Fixed] サーバー管理設定の改ざんされたオンディスクキャッシュが、設定のフェッチに失敗したときに、組み込みのポリシープラグインをオフにしたり、解除したりできる問題を修正しました。\n- [Fixed] 8.3 短縮名またはホームフォルダーやドライブの別の代替 Windows スペルでの rm -rf が、それらを削除するものとして扱われない問題を修正しました。\n- [Fixed] Security: PreToolUse フックの承認と auto モードが、ネットワーク (UNC) パスからのファイル読み取りの権限プロンプトをバイパスする問題を修正しました。\n- [Fixed] auto モードまたは計画モードを途中で終了したときに、スキルのまたはスラッシュコマンドの allowed-tools ルールが後のターンで戻ってくる問題を修正しました。\n- [Fixed] HTTPS_PROXY が設定されている場合、Claude Code 自身の API リクエスト (サインイン、ポリシー、フィードバック、成果物) に対して NO_PROXY が無視される問題を修正しました。\n- [Fixed] 名前が128文字を超える MCP ツールがすべてのリクエストを失敗させる問題を修正しました。そのツールは除外され、MCP エラーで名前が示されるようになりました。\n- [Fixed] marketplace add や install などの claude plugin コマンドが、最初の実行時に組織の管理設定がロードされる前に実行される問題を修正しました。\n- [Fixed] ワンショットの claude -p および Agent SDK 実行が最終結果の5秒後にバックグラウンドコマンドを停止し、ワンショットの claude -p 実行がスケジュールされたウェイクアップを削除する問題を修正しました。どちらも待機されるようになりました。\n- [Fixed] claude --resume セッションピッカーまたは /resume でセッションを再開したときに、計画モードが復元されない問題を修正しました。\n- [Fixed] /resume、/branch、または /clear の後に作成された保存済みスケジュールタスクが起動せず、タスクファイルへの2回の書き込みがミリ秒間隔で行われた後に保存済みタスクが後の作成および削除を無視する問題を修正しました。\n- [Fixed] バックグラウンドセッションの /loop が、セッションのプロセスが再起動したとき (例えばクラッシュ後) に、保留中のウェイクアップが失われたため、サイレントに停止する問題を修正しました。\n- [Fixed] Grep および Glob が、与えられたファイルまたはフォルダーが読み取れない場合に一致なしと報告する問題を修正しました。Claude は1回リトライするか、通知するようになりました。\n- [Fixed] Read ツールが、PDF のページが「6,9,15」のようなリストであった場合に、最初のエントリのみをエラーなしで返す問題を修正しました。現在は、各ページまたは範囲を個別に読み取るように指示するエラーを返します。\n- [Fixed] 256KB を超える @-メンションされたテキストファイルがサイレントに除外される問題を修正しました。Claude はファイルのサイズを通知され、部分的に読み取るように指示されるようになりました。\n- [Fixed] メインの会話をすでに停止させた制限でエージェントが失敗した場合、使用制限アラートがバックグラウンドエージェントごとに1回繰り返される問題を修正しました。\n- [Fixed] Remote Control の閲覧者が、デスクトップアプリまたは IDE でホストされているセッションでバックグラウンドサブエージェントのサブエージェントペインが空になる問題を修正しました。\n- [Fixed] セッション間の配信通知で、似た名前の2つのセッションが1つの受信者として表示され、有効期限通知で、ターミナルセッションがメッセージを期限切れにしたときにデスクトップアプリを非難する問題を修正しました。\n- [Fixed] デスクトップアプリで Send now を実行すると、別のメッセージがすでにキューに入っている場合に、ターンが待機していたサブエージェントが終了する問題を修正しました。\n- [Fixed] /bug、/share、/feedback <text> が、レポート送信中に Ctrl+O または Ctrl+Z を押すと最初からやり直しになり、送信後にキャンセルとして閉じられる問題を修正しました。\n- [Fixed] /remote-env が、すぐに Enter を押すと保存されているデフォルト環境を置き換える問題を修正しました。リストがデフォルトで開き、デフォルトが有効でない場合はどの行もチェックマークが付かないようになりました。\n- [Fixed] 複数の貼り付けが1つのプロンプトで重なったときに、一部の貼り付けられたテキストが入力されたテキストとして Claude に到達する問題を修正しました。\n- [Fixed] vim モードでカーソルが行の末尾を超えて残る問題、j/k が短い行で列を失う問題、f/t/F/T/;/, がプロンプトの別の行の一致にジャンプまたは削除する問題を修正しました。\n- [Fixed] /add-dir パスボックスが Shift+Enter または貼り付けで改行を追加させ、高速入力された「tab」、「up」、「down」をそれらのキーとして扱う問題を修正しました。\n- [Fixed] プロンプトフッター行が選択されている間に高速入力、入力メソッドテキスト、分解アクセントがドロップされる問題、および ! が行を選択したままにする問題を修正しました。\n- [Fixed] iTerm2 が検出されたときに、フルスクリーンモードがすべてのウィンドウリサイズと Ctrl+L でフルスクリーンのクリアを送信する問題を修正しました。これにより、iTerm2 のスクロールバックが古いページでいっぱいになった可能性があります。\n- [Fixed] Read 拒否ルールが設定されており、作業ディレクトリがシンボリックリンクの下にある場合に、ファイル名を指定しない @-単語に対して「could not be examined」という誤ったメモが表示される問題を修正しました。\n- [Fixed] /cd または権限変更後に「instruction file not loaded」行が古くなったり失われたりする問題を修正し、ネストされた行がロードされない場合にトランスクリプト行を追加しました。\n- [Fixed] /name を繰り返す圧縮サマリーが、Claude にユーザー専用のスキルを呼び出させる問題を修正しました。\n- [Fixed] Write、Edit、NotebookEdit、LSP の行、および単一の Read、Grep、Glob の行が、mod が呼び出しを拒否した理由を隠す問題を修正しました。行に理由が表示されるようになりました。\n- [Fixed] クラウドセッションが、そのワーカーがターンが終了した直後に停止されたときに、決して終了しないターンを表示する問題を修正しました。\n- [Fixed] トランスクリプトが大きいクラウドセッションで、承認された後に再度許可を求めることがある問題を修正しました。\n- [Fixed] Claude がメッセージを読み取っている間に、メッセージがリトライまたは編集されたときに、クラウドセッションでスケジュールされたタスクやその他のキューに入れられた通知が失われる問題を修正しました。\n- [Fixed] セッションのコンテナが再起動したときに、クラウドセッションがクライアントで選択された思考設定を忘れる問題を修正しました。\n- [Fixed] Anthropic が組織の設定を確認できなかった場合に、Cowork クラウドセッションがプロキシが成果物をブロックしたと言う問題を修正しました。\n- [Fixed] フックモジュールが1つの const を介して多くの $.state 呼び出しを行うプラグインが、ロードまたは検証に数分かかる問題を修正しました。\n- [Fixed] claude plugin validate が、エンジンが別の場所から読み取るフックモジュールのマッチャーまたは状態値をリストする問題を修正しました。\n- [Fixed] claude plugin validate が、再宣言または再割り当てされたトップレベルの var を介して読み取られた $.state 値をリストする問題を修正しました。このようなモジュールは拒否されるようになりました。\n- [Fixed] プラグインのサービス提供される $ メソッドがフック元の再起動を引き起こし、その上に .catch があるガードフックを無限に再実行する可能性がある問題を修正しました。\n- [Fixed] プラグインフックワーカーが再起動している間に行われたプラグインインターフェース呼び出しが、他のプラグインがそれらに配置したフックなしで実行される問題を修正しました。\n- [Fixed] next(e) を呼び出した後に拒否する mod の config.set、state.set、env.set、または agent.spawn フックが拒否として応答される問題を修正しました。フックは名前で失敗として報告されるようになりました。\n- [Fixed] /theme、/config Theme メニュー、および初回実行のテーマステップが、プラグインの config.set フックが要求される前にテーマを保存する問題を修正しました。\n- [Fixed] プラグインの tool.check フックが、ユーザーの回答を必要とするツール (質問、計画承認) をダイアログを表示せずに実行する問題を修正しました。\n- [Fixed] フックワーカーが置き換えられたときに、mod の起動プロンプト、コマンド、またはサブエージェントが2回目にキューに入れられる問題を修正しました。\n- [Fixed] ターンが中断されている間に next(e) を呼び出した後に失敗した mod のフックが呼び出しを通過させる問題を修正しました。呼び出しは拒否されるようになりました。\n- [Fixed] プラグインのプロンプトドロップまたは設定拒否が、その理由が4,096文字を超える場合に無視される問題を修正しました。\n- [Fixed] 組織のプラグインが、独自の再ロード時、または別のプラグインがクラッシュした後に、ユーザーがインストールした mod が追加した $ 名を返したときにアンロードされる問題を修正しました。代わりに mod がアンロードされるようになりました。\n- [Fixed] プラグインフックワーカーが再起動している間に行われたツール呼び出しが、プラグインの許可フックなしで応答される問題を修正しました。\n- [Fixed] プラグインの tool.call フックが、誤った名前のパラメータが修正される前に一部のツール呼び出しを認識する問題を修正しました。フックは、ツールが実行する引数を見るようになりました。\n- [Fixed] ガードの独自の $ 呼び出しの下で別の mod のフックが行う呼び出しに対して、.catch を持つ mod のガードフックがサイレントにスキップされる問題を修正しました。その .catch が要求されるようになりました。\n- [Improved] claude -p および SDK セッションの起動を改善しました。最初のターンで HTTP および SSE MCP サーバーが resources/list に応答するのを待たなくなりました。\n- [Improved] 長い箇条書きまたは番号付きの返信のレンダリング速度を改善しました。トランスクリプト (ctrl+o) でのストリーミング、サイズ変更、再オープンがはるかに高速になりました。\n- [Improved] Ctrl+C ドラフト回復を改善しました。クリアされたプロンプトは、スラッシュコマンドまたは送信されたメッセージの後でも Up でアクセスできるようになりました。\n- [Improved] フック出力処理を改善しました。フックの出力に書き込まれた <system-reminder> タグは、Claude に到達する前にエスケープされます。\n- [Improved] ツール入力処理を改善しました。Grep は path に file_path を受け入れ、Write、WebFetch、Read はいくつかの余分なパラメータを無視し、呼び出しの失敗を回避します。\n- [Improved] 設定ファイルで宣言されたマーケットプレイスの名前が公式の Anthropic マーケットプレイスのように見える場合に表示される手順を改善しました。\n- [Improved] サンドボックスの自動許可を改善しました。ユーザー、管理、または --settings 設定で厳密なサンドボックスモードが設定されている場合、FOO=bar python3 app.py のような環境変数プレフィックスを持つインタプリタコマンドは、プロンプトなしで実行されます。\n- [Improved] Artifact ツールの一覧表示を改善しました。Claude は、公開されている成果物の数を確認できるようになり、一度に最大200個を一覧表示できるようになりました (以前は50個)。\n- [Improved] 再起動後のクラウドセッションを改善しました。Claude は、ID で再開できる停止したバックグラウンドエージェントを通知されるようになりました。\n- [Improved] ブラウザに到達できない場合、claude.ai クラウドセッションでの Claude in Chrome メッセージを改善しました。Claude は、ユーザーが希望する場合は代替手段で続行できることを通知されるようになりました。\n- [Improved] /focus ヒントを改善しました。ターン中にフォーカスビューを試すように促し、戻る方法を示すようになりました。\n- [Improved] 新しいプロトコルチェックを無視するローカル (stdio) MCP サーバーでの起動を改善しました。1回の遅い接続の後、それらは7日間記憶され、待機なしで古い方法で接続されます。\n- [Changed] ローカル (stdio) MCP サーバー接続は、Bedrock、Vertex、Foundry を含むすべてのインストールで、デフォルトでプロトコルバージョン 2026-07-28 をネゴシエートするようになりました。MCP_PROTOCOL_NEGOTIATION=legacy でオプトアウトできます。\n- [Changed] claude plugin test を変更しました。テストが登録したフック内の失敗した expect、またはエンジンが拒否するスタブ応答は、サイレントにパスするのではなくテストを失敗させるようになりました。\n- [Changed] 使用制限メッセージを HTTPS:// で claude.ai 設定リンクを書き込むように変更し、ターミナルやアプリでクリック可能にしました。\n- [Changed] スケジュールされたルーチンと Run now ルーチンの実行は、承認を求めずにあなただけが見ることができる新しい成果物を公開するように変更されました。コネクタまたはその他のアクセスを要求する成果物は引き続き承認を求めます。\n- [Changed] エージェント名を最大256文字に制限するように変更しました。それより長い名前は拒否され、それより長いスキルまたはプラグインファイルの名前は無視されます。\n- [Fixed] [クラウドセッション] ルーチン実行が終了後も数時間実行中としてリストされたままになる問題を修正しました。\n- [Fixed] [クラウドセッション] ルーチンを編集または複製すると、ルーチンに保存された通知設定がない場合にプッシュ通知がオフになる問題を修正しました。\n- [Fixed] [クラウドセッション] SVG、HEIC、TIFF、その他のあまり一般的でない画像ファイルが添付に失敗する問題を修正しました。通常のファイルとして添付されるようになりました。\n- [Fixed] [クラウドセッション] 承認プロンプトが、組織が承認を要求するように設定したコネクタツールに対して「常に許可」を提供する問題を修正しました。この選択は効果がありませんでした。\n- [Fixed] [Remote Control] claude.ai/code から開始された新しい Remote Control セッションの最初のメッセージが画像のみを受け入れる問題を修正しました。後のメッセージと同様に PDF やその他のファイルも受け入れるようになりました。\n- [Added] [Claude Tag] チャンネルの Configure ページにある Allowed domains カードに Edit ボタンを追加しました。これにより、エンタープライズ管理者はチャンネルのドメインを設定するアクセスバンドルを開くことができます。\n- [Fixed] [Claude Tag] Claude が最初の要求でまだ処理中の Slack スレッドで送信された返信が、その要求が完了するまで保留されるか、数秒間隔で送信された場合に失われる問題を修正しました。\n- [Fixed] [Claude Tag] GitHub プルリクエストアクティビティまたはルーチンによってのみウェイクアップされた Slack スレッドが、管理者がチャンネルまたはワークスペースのデフォルトモデルを変更した後も元のモデルのままになる問題を修正しました。\n- [Fixed] [Claude Tag] 実際の原因が組織の使用クレジット切れであった場合に、Claude が Slack で使用制限通知を投稿することがある問題を修正しました。\n- [Fixed] [Claude Tag] Slack から回答できない権限プロンプトが自動的に拒否された場合に、セッションが中断されるまでハングする問題を修正しました。\n- [Improved] [Claude Tag] チャンネルでの @Claude !status を改善し、Claude がタグなしメッセージの読み取りを停止した時期、理由、および @-メンションで再度読み取りを開始することを示すようにしました。\n- [Changed] [Claude Tag] !fork で続行された Slack スレッドの最初のメッセージを、それがどこから来たか、要求、および誰が要求したかを示すカードに変更し、元のスレッドへのリンクを追加しました。\n- [Changed] [Claude Tag] 管理設定の Claude Tag の使用制限ページにある組織全体およびデフォルトの使用制限ボックスを、Save または Enter を押したときにのみ保存するように変更しました (クリックでは保存されません)。\n- [Added] [Code Review] Code Review アナリティクスの PRs reviewed チャートに、期間の合計と前期間からの変更、およびリポジトリごとの内訳を追加しました。\n- [Fixed] [Code Review] プルリクエストが新しいベースブランチに移動し、古いブランチが削除されたときに、キューに入れられたレビューが失敗する問題を修正しました。コミットはレビューのために再キューに入れられるようになりました。\n- [Fixed] [Code Review] プルリクエストが CLAUDE.md ファイルを編集する場合に、レビューがそのファイルのルールを無視する問題を修正しました。レビューはベースブランチのバージョンを使用するようになりました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-10-07"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.291",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
+      "summary": "- [Fixed] クラウドセッションが権限プロンプトへの応答をドロップする2.1.290の不具合を修正。\n- [Fixed] 終了時にセッションの最後のメッセージが失われる可能性のある2.1.288の不具合を修正。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1552pt] Mistral Large 4：AI性能の新たな飛躍 | ベンチマークで高い評価を受け、コスト削減も期待できる一方、8GBメモリ制限など機能面での不満や、EU圏内での主権確保に貢献する点などが議論されています。\n  https://news.ycombinator.com/item?id=49977979\n- [807pt] Anthropic、日記の記述を警察に通報し、女性が重罪に直面 | AIがユーザーの発言を監視し通報することへのプライバシー侵害の懸念と、通報しなかった場合の企業の責任との間で意見が分かれています。\n  https://news.ycombinator.com/item?id=49961057\n- [585pt] Web検索APIの新たな可能性 | 検索結果の保存・再利用の可否、Cloudflareが仲介することへの疑問、そして独占的なサービス提供への懸念がコメントされています。\n  https://news.ycombinator.com/item?id=49963171\n- [567pt] JetBrains、2025年に増収も最終的な金融損失を計上 | 売上は好調ながら最終損失が出たことについて、大規模な投資を指摘する声や、AIとの統合に関する顧客への情報提供の不明瞭さを指摘する声があります。\n  https://news.ycombinator.com/item?id=49977072\n- [541pt] Beam: Reflectionが公開した501Bのオープンウェイトモデル | オープンウェイトモデルの増加は歓迎されているものの、他の既存モデルとの比較や、開発元のReflection社に関する情報開示を求める声が上がっています。\n  https://news.ycombinator.com/item?id=49969183\n- [539pt] ChatGPT、New Yorker風のフェイク漫画に実在する漫画家の署名を追加 | AIが署名の意味を理解せず、見た目の要素として生成していることへの指摘や、著作権侵害の懸念、そして同様の問題が頻発していることがコメントされています。\n  https://news.ycombinator.com/item?id=49971846\n- [518pt] Mistral Large 4: 「ル・ションク」 | このストーリーは以前投稿されたものと重複しており、過去の議論へのリンクが複数挙げられています。\n  https://news.ycombinator.com/item?id=49978116\n- [511pt] 2026年ノーベル物理学賞、フランシス・ハルゼン氏に | IceCubeニュートリノ検出器の意義や、プロジェクトへの関与、その規模の大きさに感嘆する声が寄せられています。\n  https://news.ycombinator.com/item?id=49976265\n- [501pt] デンマークでデータ漏洩、880万人の個人情報が流出 | 個人情報流出への懸念、End-to-End暗号化を非合法化する提案への反論、そしてスウェーデンでの情報公開制度との比較など、プライバシーに関する活発な議論が交わされています。\n  https://news.ycombinator.com/item?id=49962012\n- [482pt] Opus 5.5のエージェントが2つの室温磁性半導体候補を発見 | 新たな発見への期待と同時に、過去のLK-99の件を教訓に懐疑的な意見や、タイトルの編集についての指摘が見られます。\n  https://news.ycombinator.com/item?id=49970667",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-10-07"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "14 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- 元Rampのエンジニアが最初の製品を破棄後、新プラットフォームMeliusで2000万ドルを調達\n  https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/\n- シリコンバレーのAI神童が、プライバシー重視のInstinct/Muse対抗「Underdog」を発表\n  https://techcrunch.com/2026/10/06/silicon-valleys-ai-wunderkind-launches-underdog-the-most-private-instinct-muse-competitor-yet/\n- AI意思決定モデルがコンテンツモデレーションをどう変えるか\n  https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/\n- AIコンピューティングのLambda、IPOを控え40億ドルを調達予定\n  https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/\n- AIエージェントの次なる課題：ウェブサイトへのアクセス許可を得る\n  https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/\n- Harkがプライバシーに焦点を当てたAIパーソナルアシスタントをリリース\n  https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/\n- Mirror Particleが人間の行動を予測する「世界モデル」を構築中\n  https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/\n- Furientis、低コストミサイル迎撃ミサイルの量産に向けBenchmarkから2500万ドルを調達\n  https://techcrunch.com/2026/10/06/furientis-lands-25m-from-benchmark-to-mass-produce-low-cost-missile-interceptors/\n- 11月4日開催のTechCrunch Founder Summitで、スケールアップ、資金調達、創業者のノウハウなどを学ぼう\n  https://techcrunch.com/2026/10/06/learn-all-about-scaling-fundraising-founder-how-tos-and-more-at-techcrunch-founder-summit-november-4/\n- Anthropic、スタートアップにClaude Teamの1年間無料利用と1,000ドル分のクレジットを提供\n  https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/\n- LibreOffice、「AIなし」をソフトウェアの新機能として発表\n  https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/\n- Vinod Khosla氏、元DeepMindエンジニアのWajoが「信頼」でエージェント市場を制すると確信\n  https://techcrunch.com/2026/10/06/vinod-khosla-believes-ex-deepmind-engineers-wajo-will-win-agent-market-on-trust/\n- Mistral、新しい1兆パラメータモデルでクローズド・オープンソース競合を凌駕目指す\n  https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/\n- PinterestのAI、美容系Pinを具体的な行動計画に変換可能に\n  https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-10-07"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Chunk — macOS向けタイムブロッキングアプリ\n  https://www.producthunt.com/products/chunk-2\n- Etsy向けカスタマーサービスAI — Etsyの購入者メッセージに数秒でプロフェッショナルに対応\n  https://www.producthunt.com/products/customer-service-ai-for-etsy\n- Patchcord — Macの会議でスタジオ級のサウンドとEQをマイクに\n  https://www.producthunt.com/products/patchcord-2\n- Extrovert — エージェントがLinkedInのリーチ活動を実行\n  https://www.producthunt.com/products/extrovert\n- Rill Browser — Claude CodeとCodexが並んで作業するブラウザ\n  https://www.producthunt.com/products/rill-3\n- Scumble — AIインペインティングのためのオープンソースエディタ\n  https://www.producthunt.com/products/scumble\n- NoteWorthy — AIで強化されたメモをすべてデバイス上で\n  https://www.producthunt.com/products/noteworthy\n- Ghostifier — 企業からデータを削除させるツール\n  https://www.producthunt.com/products/ghostifier\n- iphone-use — APIのないアプリでもAIエージェントが実物のiPhoneを操作\n  https://www.producthunt.com/products/iphone-use\n- Fuse AI — カスタムGTMスタックを構築。1つのSDKで1つのMCP。\n  https://www.producthunt.com/products/fuseai",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-10-07"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Expanding the Cyber Verification Program",
+      "url": "https://www.anthropic.com/news/cyber-verification-program",
+      "summary": "セキュリティ専門家向けに、高度なサイバー機能とブロック検出率軽減を提供する新しいサイバー検証プログラムを開始。",
+      "ogImage": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Lock&backgroundColor=heather",
+      "publishedAt": "2026-10-07"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "4 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Resin Technologies、エンジニアリングを高速化し信頼性を向上させる新技術を発表\n  https://resineda.com/\n- Preload、フィジカルAIのためのモーター皮質を開発\n  \n- Saccade、世界初のアルツハイマー病バイオマーカー早期検査技術を開発\n  https://saccade.health\n- Acyclic Labs、エージェントスウォームの効率的なスケーリング基盤を構築\n  https://acyclic.dev",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-10-07"
+    },
+    {
+      "sourceName": "BRIDGE",
+      "title": "1 Articles",
+      "url": "https://thebridge.jp/category/news-and-column/",
+      "summary": "- みずほ銀行、スタートアップへの新規投融資を5年で2兆円超に——IPO・M&A支援500社超、専門人材100名超の育成も\n  https://thebridge.jp/2026/10/mizuho-startup-commitment-2-trillion-yen-2030",
+      "ogImage": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
+      "publishedAt": "2026-10-07"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Reflection Beam - 501B-A23B American Open Model",
+      "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
+      "summary": "Reflectionがコーディング、エージェント、科学用途向けのオープンモデル「Beam」を発表し、既存モデルを上回る推論効率を主張。",
+      "publishedAt": "2026-10-06",
+      "ogImage": "https://substackcdn.com/image/youtube/w_728,c_limit/DIu7xA898go"
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "1 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- Copilot利用状況の指標、IDEアップデートでエージェント活動が復元可能に\n  https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-10-07"
+    }
+  ]
+}
