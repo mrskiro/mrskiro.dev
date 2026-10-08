@@ -1,0 +1,109 @@
+{
+  "fetchedAt": "2026-10-08T00:29:38.254Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Helping teens learn, plan, and shape the future of AI",
+      "url": "https://openai.com/index/teens-learn-and-plan",
+      "summary": "ChatGPT for Teens向けに、大学出願管理や学習ツール、AI評議会など新機能を提供開始。",
+      "publishedAt": "2026-10-07",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/48q2nDNP9Gj81cxL5sCOFv/e0692d4bcad2b81fad9b62b5bea904b7/teens-learn-and-plan-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "url": "https://openai.com/index/radisson",
+      "summary": "RadissonがAccentureと提携し、旅行計画からホテル予約までを支援するChatGPTプラグインを開発。",
+      "publishedAt": "2026-10-07",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/S03ANzISEjbT6o0qTIHnI/0c08686f8dea9b2e19edc946c3e703ee/radisson-hotel-group-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "GPT-6 and Intelligent UI for everyone",
+      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "summary": "ChatGPTが視覚要素とインタラクティブなUIを伴い、より高速なGPT-6をグローバルに展開開始。",
+      "publishedAt": "2026-10-07",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/5frqtUAWccstAbVrCFraH6/5ae9b6bfbc3f3dff8001ed249812f97d/Intelligent-UI_Art-Card_16x9.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.293",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
+      "summary": "- [Added] Anthropic APIのデフォルトHaikuモデルとしてClaude Haiku 5.5 (claude-haiku-5-5) を追加しました。1Mコンテキスト、1Mトークンあたり$0.10/$0.50（100Kを超えるプロンプトでは$0.50/$2.50）です。\n- [Added] サブエージェントの種類をスクリプトで区別できるように、subagentStatusLineペイロードにagentTypeを追加しました。\n- [Added] $.tool.registerにisDeferredを追加しました。mods: falseの場合、ツール検索の代わりにプロンプトの最初からツールのスキーマを表示します。\n- [Fixed] Claudeがコンテキスト圧縮前の自身が行った最後のアクションを、圧縮後に完了したものとして扱い、終了した作業を撤回したりやり直したりする問題を修正しました。\n- [Fixed] HTTP MCP接続が閉じるまですべての送信済みリクエストを保持し続けるメモリリークを修正しました。\n- [Fixed] Claudeが作業中に送信されたメッセージが、←でセッションがバックグラウンドに移動したときに失われる問題を修正しました。キューに入っているメッセージが移動できない場合、←は移動せず、その旨を伝えます。\n- [Fixed] /model effort ←/→が最高レベルまたは最低レベルを超えてラップし、誤ってLowをモデルのデフォルトのeffortとして保存する可能性があった問題を修正しました。\n- [Fixed] --chromeで開始されたセッションでChromeの/tuiがClaudeを切断する問題、および--no-chromeが無視される問題を修正しました。\n- [Fixed] ホスト、パーミッションルール、または--toolsリストによってSendMessageツールが削除されたセッション（再開されたセッションを含む）で、ClaudeがSendMessageを使用してサブエージェントに続行またはメッセージを送信するように指示される問題を修正しました。\n- [Fixed] サブエージェントおよび--agentセッションが、自身のツールリストで除外されただけの組み込みツールがセッション全体で無効になったと通知される問題を修正しました。\n- [Fixed] claude.aiと同期されたスキルの編集済み説明が、新しい会話または/clearまでモデルに到達しない場合がある問題を修正しました。\n- [Fixed] claude logs, stop, kill, rmおよびclaude daemon status, stop, uninstallコマンドが、ログインの期限が切れているか期限切れ間近の場合にサインアウトさせる場合がある問題を修正しました。\n- [Fixed] セッションフォルダの読み取りに一時的に失敗した後（例：開いているファイルが多すぎる場合）、フッターのエージェント数が消える問題を修正しました。\n- [Fixed] workerという名前のカスタムエージェントが開始時に「Agent」と表示され、エージェントが完了するとエージェント詳細ダイアログのタイトルからエージェントタイプが失われる問題を修正しました。\n- [Fixed] publish呼び出しがまだストリーミング中の間、Artifactツールのトランスクリプト行が一時的にArtifact(\"(unprintable path)\")と表示される問題を修正しました。\n- [Fixed] Linuxでの/ultrareviewアップロードが、別のチェックアウト内のリポジトリなど、一部のリポジトリを誤って拒否する問題を修正しました。これは、サンドボックス化されたコマンドの実行中に「解析できなかった」設定ファイルが原因でした。\n- [Fixed] /ultrareviewアップロードがsplit-indexファイルのために拒否された際に、gitがインデックスを読み取れなくなる可能性のあるgitコマンドを推奨する問題を修正しました。\n- [Fixed] 非常に長いRemote Controlおよびクラウドセッションでの返信が、ストリーミングではなくブロックごとに表示される場合がある問題を修正しました。\n- [Fixed] Remote Controlが、資格情報が回復されるたびにセッションの開始履歴を再度アップロードする問題を修正しました。\n- [Fixed] claude remote-controlで開始されたセッションで、PushNotificationが「Remote Control inactive」と報告する問題を修正しました。\n- [Fixed] プラグインフックワーカーの再起動中に、classic.*イベントに対するmodのフックがスキップされ、設定フックがそれらなしで応答する問題を修正しました。\n- [Fixed] $.session.appendを呼び出すmodに対してclaude plugin testが失敗する問題を修正しました。テストは新しいmock.sessionで追加された行を読み取ることができます。\n- [Fixed] Docker Desktopを搭載したMac (リンクは~/.docker/binの下) で、Bash付与の実行をすべて拒否するclaude plugin evalの問題を修正しました。拒否メッセージには、資格情報ストアのどの部分がリンクを保持していたかが表示されるようになりました。\n- [Fixed] デスクトップポリシーがClaude Desktopの組み込みブラウザキー（builtinBrowserEnabledなど）を設定している場合に、Claude apps gatewayが起動を拒否する問題を修正しました。\n- [Fixed] claude agentsが、同意が.claude/settings.local.jsonまたは--settingsファイルにのみ保存されていた場合に、バックグラウンドセッションが無視するバイパスパーミッションを提供する問題を修正しました。現在は最初に同意を求め、バイパスを無視するセッションには短い通知が表示され続けるようになりました。\n- [Fixed] プロンプトに未送信のテキストが保持されている場合（現在は移動をキャンセルします）、または質問が回答を待っている場合に、10秒後にセッションをバックグラウンドに移動する←の問題を修正しました。\n- [Fixed] ←でセッションをバックグラウンドに移動した直後に、パーミッションプロンプトでEscまたはフィードバックなしのNoを押しても、ターンが停止しない問題を修正しました。\n- [Fixed] セッションフォルダが読み取れない場合（例：開いているファイルが多すぎる場合）、エージェントビューが一時的にセッションリストをプレースホルダー行に置き換える問題を修正しました。\n- [Fixed] BashツールでReadツールではなくsingle-file cat, head, tail, sed -nまたはgrepコマンドを使用してClaudeがファイルを表示している場合に、パススコープのルールとネストされたCLAUDE.mdファイルがロードされない問題を修正しました。\n- [Fixed] 同じ単語で始まり終わる貼り付けられたテキストが、まるでタイプされたかのようにClaudeに送信される問題を修正しました。\n- [Fixed] 貼り付けられたテキスト内のスキル名が、貼り付け直後にタイプまたは貼り付けられたアクセントが最後の文字と結合されたときに、タイプされたものとして扱われる問題を修正しました。\n- [Fixed] レポート送信中にCtrl+OまたはCtrl+Zを押すと/feedbackがドラフトリストに戻り、送信がキャンセルできなくなる問題を修正しました。\n- [Fixed] ファイルまたはフォルダを削除できなかった場合に、claude purgeがサイレントに停止する（exit 0、またはターミナルでハングする）問題を修正しました。現在は残りを削除し、削除できなかったものをリストし、exit 1で終了します。\n- [Fixed] keybindings.jsonチェックを修正しました。単独の「 」(スペースキー) がエラーとして報告されなくなり、「ctrl+ k」のようなキーは警告が表示されるようになりました。\n- [Fixed] vimモードで、スペースのみの行で>>と<<を使用すると、カーソルが行の末尾を越えて配置され、その後のxで何も削除されない問題を修正しました。\n- [Fixed] vimモードを修正しました。Visualモード (Vを押してからd) で行全体を削除した後、カーソルが最初の空白以外の文字に移動し、その後の.がカーソルの行に作用するようになりました。\n- [Fixed] Windows: ステータスライン、フック、またはシェルコマンドを停止すると、同じプロセスIDが与えられた無関係なプロセスが終了する問題を修正しました。\n- [Reverted] 2.1.281でClaudeに拒否が結果をカバーするものであり、正確なコマンドだけではないことを伝えるように変更されたオートモード拒否メッセージを元に戻しました。\n- [Reverted] 2.1.290での、コンテナの再起動によって保留中の/loopウェイクアップやスケジュールされたタスクが失われた後にクラウドセッションがスリープ状態のままになる問題を修正したものを元に戻しました。Claudeには通知されなくなり、セッションはスリープ状態のままになります。\n- [Improved] TeamおよびEnterprise組織の起動を改善しました。ポリシーと管理設定が早期にフェッチされ、停止したリクエストは3秒後に再試行されます。\n- [Improved] Claude in Chromeを改善しました。ブラウザがタブの報告に時間がかかる場合に、拒否されるページアクションが減少しました。\n- [Improved] ブラウザに接続できないクラウドセッションでのClaude in Chromeメッセージを改善しました。複数の組織に属している場合、拡張機能が同じ組織にサインインしている必要があること、およびその変更方法が示されるようになりました。\n- [Improved] Bashの編集差分ノートを改善し、リストされたファイルがコマンドの実行中に変更されたことを伝えるようにしました。これには、他のプロセスによる書き込みも含まれる場合があります。\n- [Improved] アーティファクトを改善しました。Claudeは2週間以上前の正確なバージョンにライブラリを固定します。\n- [Changed] claude.aiスキルの同期を、セッションが使用されていない間、約40分ごとに変更をチェックするように変更しました（以前は10分ごと）。\n- [Changed] エージェントリストおよびモデルに通知されるMCPサーバーの順序を変更しました。非ASCII文字を含む名前は、ASCII名の後にソートされるようになりました。\n- [Changed] OpenTelemetry claude_code.at_mentionロギングを、プロンプトが読み取られるたびに最大100のエージェントイベントと100のMCPリソースイベントを出力するように変更しました。\n- [Changed] セルフホスト型ランナー: オーケストレーターを、一定の5秒ではなく4～6秒間隔でポーリングするように変更しました。これにより、1つの環境に対して複数のレプリカが同時にポーリングを停止することがなくなります。\n- [Fixed] [Claude Tag] Slackが、接続されていないワークスペースでメッセージにラベルを付けた場合、ワークスペース間で共有されるEnterprise Gridチャネルで、Claude in Slackがワークスペースがセットアップされていないと表示する問題を修正しました。\n- [Fixed] [Claude Tag] 管理者がチャネルのコネクタ、プラグイン、スキル、またはルールを変更した場合に、Claude in Slackがチャネルでタスクの途中で停止する問題を修正しました。変更はClaudeが完了した後に適用されるようになりました。\n- [Fixed] [Claude Tag] SlackでClaudeにスレッドのルーチンに追加のメモを付けて実行するよう依頼すると、別途実行が開始され、返信できない問題を修正しました。実行は同じスレッドで継続されるようになりました。\n- [Fixed] [Claude Tag] Claude Tagの管理設定で、アクセスバンドルの「コネクタを追加」ダイアログに、1回のGoogleサインイン後、すべてのGoogleコネクタが接続済みとして表示される問題を修正しました。\n- [Improved] [Claude Tag] Claude Tagの管理設定を改善し、まだ接続されていないEnterprise Gridを「接続」ボタンとともに表示するようにしました。\n- [Changed] [Claude Tag] Claude in Slackが、管理者のみが投稿できるアナウンスチャネルに参加する際に、自己紹介を投稿しないように変更しました。\n- [Changed] [Claude Tag] Claude Tag管理設定のチャネルルールの制限を、各ワークスペースおよび組織全体のSlackページで20から50に変更しました。\n- [Improved] [Code Review] Code Reviewの「リポジトリを追加」ダイアログを改善し、追加できなかった各リポジトリとその理由（例：GitHub書き込みアクセス権の不足など）をリスト表示するようにしました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-10-08"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1994pt] Mistral Large 4が登場 | ベンチマークで高い評価、コスト効率も改善され期待の声多数。\n  https://news.ycombinator.com/item?id=49977979\n- [1222pt] 数学におけるAIの進展を共有 | LLMがミレニアム懸賞問題で成果、数学界に大きな影響。\n  https://news.ycombinator.com/item?id=49984923\n- [638pt] Claude Haiku 5.5がリリース | 旧バージョンより大幅な値下げと性能向上に驚きの声。\n  https://news.ycombinator.com/item?id=49996437\n- [591pt] JetBrains、2025年に増収も最終的な赤字を報告 | 収益は伸びているが、赤字転落への懸念と投資への言及あり。\n  https://news.ycombinator.com/item?id=49977072\n- [569pt] 2026年ノーベル物理学賞：Francis Halzen氏 | IceCube検出器の貢献を称賛、個人的な関わりを語る人も。\n  https://news.ycombinator.com/item?id=49976265\n- [521pt] Mistral Large 4：「Le Chonk」 | 重複投稿に関するコメントが多数。\n  https://news.ycombinator.com/item?id=49978116\n- [516pt] Margaret Hamilton氏が死去 | ソフトウェア工学のパイオニアを追悼する声多数。\n  https://news.ycombinator.com/item?id=49998895\n- [510pt] GitHubが1ヶ月経っても自社ソフトウェアのクラック版を削除せず | GitHubの対応への不満と、法的措置に関するアドバイスが多数。\n  https://news.ycombinator.com/item?id=49982498\n- [474pt] ChromeでJPEG XLをサポート | JXLの再サポートを歓迎、新画像フォーマットの乱立を懸念する声も。\n  https://news.ycombinator.com/item?id=49991227\n- [470pt] Visa、Mastercard、大手銀行が「反競争的」手数料で新たな訴訟に直面 | 決済手数料への不満と、手数料を回避する動きに関する意見が多数。\n  https://news.ycombinator.com/item?id=49993914",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-10-08"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "17 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- ロボットデータスタートアップ Mecka AI、Sequoiaから6,000万ドルを調達\n  https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/\n- Nous Researchが15億ドルの評価額を達成したことを確認、ビジネスユーザー向けAIエージェントをリリース\n  https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/\n- Microsoft、刷新されたWindows 11を搭載したNvidiaチップ採用AI PCを発表\n  https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/\n- MetaのMuse、モバイル版登場からわずか1ヶ月でiPad版をリリース\n  https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/\n- ChatGPT for Teens、精神的な危機に直面したティーンエイジャーの対話を継続させる\n  https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises/\n- ChatGPTが新インターフェースの登場でより視覚的に進化\n  https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/\n- Greenairyがオフィス向け空気清浄スマートプラントタワーを開発\n  https://techcrunch.com/2026/10/07/greenairy-is-building-smart-plant-towers-to-clean-the-air-in-your-office/\n- Meta、児童性的虐待物につながる隠れた広告を検出する新たなAIツールを展開\n  https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material/\n- Healthleap、要観察の入院患者を特定するAIで3,800万ドルを調達\n  https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/\n- Bloomが「アメリカ製造業のAlibaba」を目指し360万ドルを調達\n  https://techcrunch.com/2026/10/07/bloom-raises-3-6m-to-become-the-alibaba-of-american-manufacturing/\n- SpaceX出身者らが自動運転貨物列車で物流を再構築、1億ドルを調達\n  https://techcrunch.com/2026/10/07/spacex-alumni-nab-100m-to-rethink-shipping-with-autonomous-freight-trains/\n- Tony Fadellが語る、AIガジェット第一波が失敗した理由と次に来るもの\n  https://techcrunch.com/2026/10/07/tony-fadell-on-why-the-first-wave-of-ai-gadgets-failed-and-what-comes-next/\n- Google、AI活用型ゲーミングプラットフォームを実験中\n  https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/\n- OpenAIのAlexander EmbiricosがDotsのリリース数日後にTechCrunch Disrupt 2026に登壇\n  https://techcrunch.com/2026/10/07/openais-alexander-embiricos-is-coming-to-techcrunch-disrupt-2026-days-after-the-launch-of-dots/\n- 体験しよう：TechCrunch Disrupt 2026のインタラクティブな円卓会議全ラインナップ\n  https://techcrunch.com/2026/10/07/get-hands-on-the-full-lineup-of-interactive-roundtables-at-techcrunch-disrupt-2026/\n- TechCrunch Disrupt 2026まであと6日：開催前にパスを割引価格で入手しよう\n  https://techcrunch.com/2026/10/07/6-days-to-techcrunch-disrupt-2026-save-on-your-pass-before-doors-open/\n- Googleの新しいSynthIDウェブサイト、AI生成メディアを識別可能に\n  https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-10-08"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "Claude Haiku 5.5",
+      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+      "summary": "Anthropicが高速・低コストな新モデル「Claude Haiku 5.5」を発表し、既存モデルとの価格差や機能比較、さらにAPIクレジット提供も開始した。",
+      "publishedAt": "2026-10-08",
+      "ogImage": "https://static.simonwillison.net/static/2026/claude-haiku-5-5-card.webp"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- ImageFlow — Photoshop級のAI搭載無料画像エディター\n  https://www.producthunt.com/products/imageflow-6\n- Linda — Mac向けローカルAIアシスタント、Dotsの無料代替\n  https://www.producthunt.com/products/linda\n- Unprompt — AI利用料金と水消費量を可視化\n  https://www.producthunt.com/products/unprompt-2\n- Plugins Radar — ChatGPTプラグインの検索順位と競合アラート\n  https://www.producthunt.com/products/plugins-radar\n- Zavi — 成長を促進する愛される存在\n  https://www.producthunt.com/products/zavi\n- Temp Mail — 使い捨てメール＋本物へのプライベート転送\n  https://www.producthunt.com/products/temp-mail-370\n- Ana by Vertice — ソフトウェア購入に特化したAI交渉エージェント\n  https://www.producthunt.com/products/ana-by-vertice\n- Knuff App — 家族の安否確認アプリ\n  https://www.producthunt.com/products/knuff-app\n- Rhem Labs — 親のためのヘルスケアアシスタントロボット\n  https://www.producthunt.com/products/rhem-labs\n- ParakeetAI 2.0 — 就職面接対策の決定版\n  https://www.producthunt.com/products/parakeetai",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-10-08"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "2 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- UXDuckがドローン向けAndroidを発表\n  https://uxduck.com\n- 急成長チーム向けのAIデータアナリスト「Databuddy」が登場\n  https://www.databuddy.cc",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-10-08"
+    },
+    {
+      "sourceName": "BRIDGE",
+      "title": "20 Articles",
+      "url": "https://thebridge.jp/category/news-and-column/",
+      "summary": "- Anthropic、小型モデル「Claude Haiku 5.5」を公開——前モデル比コスト平均約75%削減\n  https://thebridge.jp/2026/10/anthropic-claude-haiku-5-5-launch-pricing\n- コンタクトセンター業務を担うAIエージェントのフライル、シリーズAで18.8億円を調達——AIオペレーターを11月に正式提供\n  https://thebridge.jp/2026/10/flyle-raises-series-a-funding-for-ai-agents-for-contact-centers\n- 宅配荷物の無人受取拠点を展開するEvery WiLL、ON&BOARDなどから調達——補助金・借入を含め総額1.3億円\n  https://thebridge.jp/2026/10/every-will-raises-130-million-yen-seed-for-unattended-parcel-pickup-spots\n- 画像生成モデル「Nano Banana 2.1」公開——APIの1K・2K画像は前モデルの半額に\n  https://thebridge.jp/2026/10/google-nano-banana-2-1-image-model-pricing\n- Meta・Sierraら、AIエージェントと企業の接続標準「Personal Agent Protocol」を発表——今月中にv0.1仕様を公開へ\n  https://thebridge.jp/2026/10/meta-sierra-personal-agent-protocol-business-entrance\n- OpenAI、社内モデルによる数学の新成果722本を公開——1件あたりの計算量はChatGPT Proの思考約3時間分\n  https://thebridge.jp/2026/10/openai-math-results-chatgpt-pro-compute\n- AIエージェントが画像・動画制作を担う「制作OS」Melius、General Catalystリードで2,500万ドルを調達\n  https://thebridge.jp/2026/10/melius-seed-series-a-crv-general-catalyst-ai-agents-creative\n- クラウド受付システムのRECEPTIONIST、東証グロース上場へ——想定時価総額は約33.2億円\n  https://thebridge.jp/2026/10/receptionist-tse-growth-ipo-approved\n- KAKEAI、1on1支援「Kakeai」をAIで全面刷新——経緯を踏まえてその場で助言するKakeai AI 1on1公開\n  https://thebridge.jp/2026/10/kakeai-ai-1on1-launch\n- OpenAI、ChatGPT画像生成中にビジュアル広告——米国で10月中にテストへ\n  https://thebridge.jp/2026/10/openai-chatgpt-visual-ads-image-generation-test\n- 自動車販売店向けAI顧客管理システムのFlai、Base10 Partners主導で2,700万ドル調達——トヨタ系列など参加\n  https://thebridge.jp/2026/10/flai-series-a-base10-dealership-ai-crm\n- 手元資金を運用するSpiko、NEA主導で9,000万ドル調達——運用残高24億ユーロ\n  https://thebridge.jp/2026/10/spiko-series-b-tokenized-cash-funds-nea\n- 住宅ローン業務をAIエージェントで効率化するValon、シリーズDで1.5億ドル調達——評価額23億ドル\n  https://thebridge.jp/2026/10/valon-series-d-mortgage-servicing-valonos-ribbit-a16z\n- Anthropic、サイバー認証プログラムを拡充——Claudeへのアクセスを3段階に\n  https://thebridge.jp/2026/10/anthropic-cyber-verification-program-three-tiers\n- Reflection AI、コーディングモデル「Beam」発表——重みは月内公開予定\n  https://thebridge.jp/2026/10/reflection-beam-coding-model-preview\n- Google、検索向け「EmbeddingGemma 2」公開——画像・音声・動画を端末内でベクトル化\n  https://thebridge.jp/2026/10/google-embeddinggemma-2-multimodal-on-device-search\n- Mistral Large 4、APIプレビュー公開——総約1兆パラメータ、重みは月末予定\n  https://thebridge.jp/2026/10/mistral-large-4-api-preview-open-weights\n- 迎撃ミサイル開発のFurientis、Benchmark主導で2,500万ドル調達\n  https://thebridge.jp/2026/10/furientis-seed-interceptor-missile-benchmark\n- 物理シミュレーションのVinci、Adventなど主導で2.5億ドル調達——評価額15億ドル\n  https://thebridge.jp/2026/10/vinci-series-b-physics-simulation-advent-temasek-xora\n- 核融合炉開発のType One Energy、Breakthrough Energy Venturesなど主導で2億ドル調達\n  https://thebridge.jp/2026/10/type-one-energy-series-b-stellarator-fusion-breakthrough-energy-ventures",
+      "ogImage": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
+      "publishedAt": "2026-10-08"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
+      "url": "https://www.latent.space/p/stacklok",
+      "summary": "Kubernetesの主要開発者が設立したStacklokは、AIエージェントの利用をクラウド上で効率的に管理・運用する新サービス「Mecatl」を発表した。",
+      "publishedAt": "2026-10-07",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!r55R!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe1c3cd3d-2682-47cb-9be6-74302c1ca8ea_2560x1440.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
+      "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
+      "summary": "OpenAIが数学の未公開研究を大量に公開し、Mistralは新しい大規模モデル「Large 4」を発表、Googleはマルチモーダルな埋め込みモデルGemma 2をリリースした。",
+      "publishedAt": "2026-10-07",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!3_fH!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcf69e441-6f07-47c9-ba4d-3cd64a85fb49_1224x1255.png"
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "4 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- GitHub CopilotにClaude Haiku 5.5が統合\n  https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot\n- 機密情報漏えい検知に特化したモデルを開発\n  https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection\n- GitHub Copilotのローカルサンドボックス機能が一般提供開始\n  https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available\n- GitHub Copilot CLIでローカルモデルを探索可能に\n  https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-10-08"
+    }
+  ]
+}
