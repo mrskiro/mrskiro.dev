@@ -1,0 +1,77 @@
+{
+  "fetchedAt": "2026-10-10T23:55:28.280Z",
+  "entries": [
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1357pt] AAA級マインスイーパー | 「あまりにリアル」「長すぎるオープニング」など、ゲームの演出に対する賛否両論\n  https://news.ycombinator.com/item?id=50022292\n- [1337pt] CloudflareがDenoを買収 | 「Denoの終わり」「悲しい」「Denoはもう利用しない」など、買収によるDenoの将来を悲観する声が多い\n  https://news.ycombinator.com/item?id=50019911\n- [999pt] すみません、今会議中です | 「仕事あるある」「スクリプトが面白い」と共感と笑いの声多数\n  https://news.ycombinator.com/item?id=50018088\n- [691pt] OxideがシリーズDで4億4500万ドルを調達 | 「素晴らしい企業」「好感が持てる」と会社への肯定的な意見が多い\n  https://news.ycombinator.com/item?id=50020014\n- [686pt] REA Reverse – Engineer Anything | 「AIによる逆コンパイルの品質に驚き」「将来性がある」など技術への期待の声\n  https://news.ycombinator.com/item?id=50028275\n- [661pt] YouTuberが警察を追跡するカメラを設置後、警察が訪問 | 「監視社会への懸念」「警察の追跡カメラ利用への反発」など、監視の倫理を巡る議論\n  https://news.ycombinator.com/item?id=50026555\n- [513pt] 元判事のノーベル平和賞受賞数時間後に米国がICCに制裁 | 「米国の国際的な立場への疑問」「制裁の効果への疑問」など、米国の行動への批判\n  https://news.ycombinator.com/item?id=50021066\n- [483pt] 2026年ノーベル平和賞、Navanethem Pillay氏に授与 | 「受賞を祝う声」「国際法への貢献を評価」と、受賞を喜ぶ肯定的なコメントが多い\n  https://news.ycombinator.com/item?id=50018420\n- [464pt] ロビー活動は汚職である | 「ロビー活動の定義」「透明性の問題」など、ロビー活動の是非を巡る議論\n  https://news.ycombinator.com/item?id=50032556\n- [428pt] Typesafe AIが75億ドルの評価額で8億7000万ドルを調達 | 「なぜこの評価額なのか」「製品の独自性がない」など、会社の価値に対する疑問の声\n  https://news.ycombinator.com/item?id=50023450",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-10-11"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "7 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Microsoftのサティア・ナデラCEO、AIモデルに「緊急ブレーキ」の必要性を指摘\n  https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/\n- Apple、個人向けポッドキャストHuxeからチーム採用と技術ライセンス契約を公表\n  https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/\n- Petra Power、データセンターと防衛車両向けエネルギーの現代化を推進\n  https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles/\n- Cloudflare、Deno買収でWorkersプログラミングモデルを強化へ\n  https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model/\n- TechCrunch Disrupt 2026まであと3日：注目スタートアップを一足早く紹介\n  https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/\n- テキストメッセージで使えるAIエージェント トップ企業を紹介\n  https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/\n- Anthropic、AIエージェントの制御不能を受け、内部評価をインターネットから切り離す方針へ\n  https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-10-11"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Lune — 科学AIエージェント向け検索エンジン\n  https://www.producthunt.com/products/lune-research\n- Claude Dashboards & Motion — Claudeがライブダッシュボードとアニメーション解説を生成\n  https://www.producthunt.com/products/claude-dashboards-motion\n- ReSO AI — AIに質問した顧客に発見・推奨されるサービス\n  https://www.producthunt.com/products/reso\n- KernelAI — iPhone・Android向けプライベートオフラインAI\n  https://www.producthunt.com/products/kernelai\n- Cue — AirPodsを装着するとMacが自動で集中モードに\n  https://www.producthunt.com/products/cue-26\n- put·here — 後で整理するためのメモ収集場所\n  https://www.producthunt.com/products/put-here\n- Buffer — スクリーンショット内のテキストも検索、コピーした全てを検索\n  https://www.producthunt.com/products/buffer-3\n- TapNoise — キー入力に反応するデスクトップペット\n  https://www.producthunt.com/products/tapnoise\n- AgentDock — Claude CodeやCodexの質問にターミナルから一括対応\n  https://www.producthunt.com/products/agentdock\n- Naarchy — Linuxデスクトップを整理する小さな島\n  https://www.producthunt.com/products/naarchy",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-10-11"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "1 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- RATLOG、再利用型ロケットで宇宙輸送に革新を\n  ",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-10-11"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[Subscriber Exclusive] NYC Subscriber Meetups!",
+      "url": "https://www.latent.space/p/nyc2026",
+      "summary": "支援者への感謝を表明し、寄付によってプロダクションが継続できていると説明。",
+      "publishedAt": "2026-10-11",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!_nLY!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1e5a4f6f-c772-404a-b4cd-1d7a17df970e_800x800.jpeg"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Building AI for Reliable Execution: Lessons From Industrial Robotics",
+      "url": "https://www.latent.space/p/standard-bots",
+      "summary": "AI産業用ロボットメーカーのStandard Botsは、特定のタスクに特化したAIモデルと、ハードウェア・ソフトウェアの垂直統合により、生産現場での高い信頼性を実現。",
+      "publishedAt": "2026-10-10",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!yzyh!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe58f7268-94a0-42f5-b0fc-9ecf300bb03d_2560x1440.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] TypeSafe/Jev at >$100M ARR, $7.5B valuation 3 weeks after launch",
+      "url": "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b",
+      "summary": "「決定モデル」という新しいAI製品カテゴリが生まれ、複数の企業が同時にサービス提供を開始した。",
+      "publishedAt": "2026-10-10",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!JxMf!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2108594586310631424.jpg"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
+      "url": "https://www.latent.space/p/biohub-deepmind",
+      "summary": "Google DeepMindとBiohubの専門家が、生物学分野におけるAIモデルの課題と未来について議論。",
+      "publishedAt": "2026-10-10",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!em3X!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F219666029%2F99db8b7b-8501-448d-a028-45bd9d24fd84%2Ftranscoded-1791592160.png"
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "1 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- Copilot for JetBrainsが新機能とチャット改善を導入\n  https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-10-11"
+    }
+  ]
+}
