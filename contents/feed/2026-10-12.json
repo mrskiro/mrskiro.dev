@@ -1,0 +1,53 @@
+{
+  "fetchedAt": "2026-10-12T00:02:24.401Z",
+  "entries": [
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [763pt] REA: あらゆるものをリバースエンジニアリング | AIによるデコンパイルの品質に肯定的な意見が多く、その進化に期待が寄せられている。\n  https://news.ycombinator.com/item?id=50028275\n- [583pt] Yandexからのボットトラフィックについて | Yandexからのボットトラフィックの減少について、Cloudflareのデータや定義に関する議論が活発。\n  https://news.ycombinator.com/item?id=50041619\n- [575pt] 電球型コンピューター | 制作者が登場し、Macとカスタムソフトウェアで動作していると説明。将来的なクラウド依存への懸念も。\n  https://news.ycombinator.com/item?id=50029487\n- [542pt] Yandex Cloudの3番目のデータセンターが被弾 | ウクライナによるデータセンター攻撃に対し、ロシアの先行攻撃や国際情勢を巡る議論が中心。\n  https://news.ycombinator.com/item?id=50040547\n- [526pt] 街がそれを望まない都市建設ゲーム | ゲームのコンセプトと、サンフランシスコの住宅問題や関連法案についての議論が展開。\n  https://news.ycombinator.com/item?id=50036864\n- [512pt] ロビー活動は汚職である | ロビー活動と汚職の定義、Citizens United判決の影響、欧州のロビー活動事情に関する議論が中心。\n  https://news.ycombinator.com/item?id=50032556\n- [460pt] Telegram Desktopの脆弱性、ユーザーのファイル盗難を許す | ファイルアクセス権限やインターネット接続のデフォルト設定への懸念、Telegramのセキュリティ設定に関する不満が多い。\n  https://news.ycombinator.com/item?id=50029123\n- [451pt] 独自の決定モデルを構築する | JevやLayaのような決定モデル（分類器）の構築・実行について、性能や既存技術との比較が議論されている。\n  https://news.ycombinator.com/item?id=50037949\n- [413pt] Nitter: 資金調達と法的支援を求める10月10日の更新 | Nitterに対するXの法的圧力と、代替フロントエンドの合法性に関する議論が活発。\n  https://news.ycombinator.com/item?id=50041682\n- [406pt] LineageOS 24 | Pixel 4aなどサポートデバイスの継続に喜びの声、カメラ品質の改善や新しい汎用ターゲットへの期待が寄せられている。\n  https://news.ycombinator.com/item?id=50040276",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-10-12"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "5 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- HomeViewはApple初のスマートホーム成功作となるか\n  https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/\n- TechCrunch Disrupt 2026まであと48時間――次世代を担う人々が語る未来\n  https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/\n- AI業界はNDAを廃止し、データセンター反対派を説得できるか？\n  https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/\n- Dawn Myers、巻き毛のスタイリング、もつれ解消、ケアを簡単に\n  https://techcrunch.com/2026/10/11/dawn-myers-is-making-it-easier-to-style-detangle-and-care-for-curly-hair/\n- 音声AIはまだChatGPTのようなブレイクスルーを迎えていない、と幹部らは語る\n  https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-10-12"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- FocusWrite：集中モード搭載のローカル優先ライティングアプリ\n  https://www.producthunt.com/products/focuswrite\n- Ghost Core：デバイス上で完結するパーソナルAIコンピューター\n  https://www.producthunt.com/products/ghost-core\n- Agibot：Macのための常駐型パーソナルAIエージェント、永久無料\n  https://www.producthunt.com/products/agibot\n- NotchPit：Macのノッチを再配置してコントロールセンターに\n  https://www.producthunt.com/products/notchpit\n- kōdlo：統一されたコンテキストを持つエンドツーエンドの営業ワークスペース\n  https://www.producthunt.com/products/kodlo\n- Pickle Sensei：AIピックルボールコーチ、スイングごとにソロトレーニング\n  https://www.producthunt.com/products/pickle-sensei-dink-coach\n- SimpleSpread：ネイティブ対応のオープンソースMac用スプレッドシート\n  https://www.producthunt.com/products/simplespread\n- Ayven：チームの議題を管理し推進する\n  https://www.producthunt.com/products/ayven\n- Tori：自分の文章で作成する日本語リスニング練習アプリ\n  https://www.producthunt.com/products/tori-japanese-listening-srs\n- shippedit.me：SEO・AEO・成長インサイトを備えたローンチプラットフォーム\n  https://www.producthunt.com/products/shippedit-me",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-10-12"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "2 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- ChemPilot.ai、防衛関連の新素材・分子を探索\n  https://chempilot.ai/\n- Rodeo Robotics、車両整備ロボットを開発\n  https://www.rodeorobotics.com/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-10-12"
+    },
+    {
+      "sourceName": "BRIDGE",
+      "title": "1 Articles",
+      "url": "https://thebridge.jp/category/news-and-column/",
+      "summary": "- 評価額は一気に75億ドル（1.2兆円）に、AIモデル「Jev」TypeSafe AIがa16z主導で8.7億ドル調達ーー公開3日で1兆トークンを消費\n  https://thebridge.jp/2026/10/typesafe-ai-jev-series-a-a16z-sequoia",
+      "ogImage": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
+      "publishedAt": "2026-10-12"
+    },
+    {
+      "sourceName": "GitHub Trending",
+      "title": "Weekly Trending",
+      "url": "https://github.com/trending?since=weekly",
+      "summary": "- boykopovar/AnyPS5：PS5実行可能ファイルをLinuxおよびWindowsに自動移植するためのツール。 ⭐25,151/week\n  https://github.com/boykopovar/AnyPS5\n- tester-army/e2e：Webおよびモバイルアプリ向けの次世代e2eテストフレームワーク。 ⭐6,440/week\n  https://github.com/tester-army/e2e\n- mattpocock/skills：本物のエンジニアのためのスキル。私の.agentsディレクトリから直接。 ⭐10,330/week\n  https://github.com/mattpocock/skills\n- thedotmack/claude-mem：すべてのエージェントでセッションをまたいでコンテキストを永続化する – エージェントがセッション中に行ったすべてをキャプチャし、AIで圧縮し、関連するコンテキストを将来のセッションに再注入します。Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCodeなどで動作します。 ⭐3,803/week\n  https://github.com/thedotmack/claude-mem\n- EpicGames/raddebugger：ネイティブのユーザーモードマルチプロセスグラフィカルデバッガー。 ⭐794/week\n  https://github.com/EpicGames/raddebugger\n- heygen-com/hyperframes：HTMLを記述し、ビデオをレンダリングします。エージェント向けに構築されています。 ⭐4,223/week\n  https://github.com/heygen-com/hyperframes\n- cursor/plugins：Cursorプラグイン仕様と公式プラグイン。 ⭐1,140/week\n  https://github.com/cursor/plugins\n- flutter/flutter：Flutterは、モバイルなどで美しいアプリを簡単かつ迅速に構築できます。 ⭐680/week\n  https://github.com/flutter/flutter\n- earthtojake/text-to-cad：エージェントにCADのスーパーパワーを与えます。 ⭐2,508/week\n  https://github.com/earthtojake/text-to-cad\n- mvschwarz/openrig：Claude Code、Codex、Piからエージェントの独自のネットワークを構築します。役割、共有コンテキスト、所有された作業を持つ永続的なチームです。 ⭐2,028/week\n  https://github.com/mvschwarz/openrig",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-10-12"
+    }
+  ]
+}
