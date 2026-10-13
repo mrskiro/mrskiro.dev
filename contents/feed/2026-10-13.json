@@ -1,0 +1,69 @@
+{
+  "fetchedAt": "2026-10-13T02:16:39.582Z",
+  "entries": [
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1027pt] パスキーは罠である | パスキーの移植性やバックアップに関する懸念、デバイスへの縛りを指摘する声が多数。\n  https://news.ycombinator.com/item?id=50048312\n- [703pt] 指紋認証は新しいCookieである | JavaScriptによるフィンガープリンティングの問題点や、アンチフィンガープリンティング対策の限界に関する議論。\n  https://news.ycombinator.com/item?id=50048642\n- [679pt] LLMの能力に関する共通認識のギャップが拡大している | 専門家と一般ユーザーの間でLLMの理解に大きな隔たりがあるという意見が多数。\n  https://news.ycombinator.com/item?id=50047422\n- [669pt] Total Annihilation、現代のPC向けに再構築される | Total Annihilationの精神的後継作『Beyond All Reason』や、他のリメイクプロジェクトへの言及が多数。\n  https://news.ycombinator.com/item?id=50045984\n- [647pt] Yandexからのボットトラフィック | Yandexのデータセンターへの攻撃によるボットトラフィック減少について、様々な解釈や議論が交わされている。\n  https://news.ycombinator.com/item?id=50041619\n- [625pt] 3番目のYandexクラウドデータセンターが攻撃された | ウクライナによるデータセンター攻撃を巡る意見や、ITインフラが戦時下のターゲットになることへの懸念。\n  https://news.ycombinator.com/item?id=50040547\n- [587pt] Deloitte、アブラモビッチの資産に対する脱税を逃れるため文書を偽造 | Deloitteの倫理問題や、キプロスが脱税疑惑で頻繁に言及されることへの指摘。\n  https://news.ycombinator.com/item?id=50054207\n- [587pt] NYCの「クリックでキャンセル」規則が施行 | Adobeなどの巧妙なキャンセル料問題や、他の地域での同様の規制への期待が寄せられている。\n  https://news.ycombinator.com/item?id=50045946\n- [532pt] Muse Wonder | MetaのLLM「Muse Wonder」の性能評価や、競合モデルとの比較に関する意見が交わされている。\n  https://news.ycombinator.com/item?id=50059115\n- [525pt] テレンス・タオ: 数学2.0 [pdf] | AIと薬物発見に関するスライドの内容が不正確だという批判や、純粋数学と応用科学の関連性についての考察。\n  https://news.ycombinator.com/item?id=50043026",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-10-13"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "8 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Meta、初の基盤モデル「Muse Wonder」を発表\n  https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/\n- WindBorne、気球データで米空軍から大型契約を獲得\n  https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/\n- Honeyjar、あらゆる企業のPR・広報活動を向上させるAIツールを提供\n  https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/\n- Microsoft社長、英国がAI規制を推進するのに最適な国と発言\n  https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/\n- このAIスタートアップ、数分で許可申請可能な青写真を生成すると発表\n  https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/\n- スマートリングメーカーUltrahuman、UAE全域で「生物学的年齢モデル」を展開へ\n  https://techcrunch.com/2026/10/12/smart-ring-maker-ultrahuman-to-roll-out-biological-age-model-across-uae/\n- TechCrunch Disrupt 2026が明日開幕：最大100ドルのチケット割引を手に入れる最後のチャンス\n  https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/\n- Plaud元幹部、バックグラウンドでユーザーの会話を聞くAIアプリで2600万ドルを調達\n  https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-10-13"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+      "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+      "summary": "Python 3.15がリリースされ、明示的遅延インポートや内包表記でのアンパック、新しいサンプリングプロファイラなどが導入された。",
+      "publishedAt": "2026-10-13",
+      "ogImage": "https://static.simonwillison.net/static/2026/profiler-output.webp"
+    },
+    {
+      "sourceName": "laiso",
+      "title": "#22 Jevその後",
+      "url": "https://blog.lai.so/2026-10-12/",
+      "summary": "判断・分類タスクに特化したAPIや独自モデルが各社から続々登場し、汎用LLMや分類器とは異なる新たな選択肢を提供している。",
+      "publishedAt": "2026-10-12",
+      "ogImage": null
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Kudos 3.0：AIがあなたの見落としているお金を見つけて取り戻す\n  https://www.producthunt.com/products/kudos-smart-wallet\n- SalesRep.com：AIが24時間365日対応する営業担当に、リアルタイム価格、見積もり、フォローアップを任せよう\n  https://www.producthunt.com/products/salesrep-com\n- Manifold MCP：SEO、AI回答、ソーシャル、広告、リードデータをエージェント向けに提供\n  https://www.producthunt.com/products/manifold-mcp\n- SquadRoom：AI従業員が年中無休で稼働\n  https://www.producthunt.com/products/squadroom\n- ExcaliClaw：AIエージェントと一緒に手描き図面を作成\n  https://www.producthunt.com/products/excaliclaw\n- Milepost：MCPサーバー搭載、あなたの車向けiOS運転日誌\n  https://www.producthunt.com/products/milepost-2\n- Dropstone CLI：ターミナル向け、自己学習型コーディングエージェント\n  https://www.producthunt.com/products/dropstone-cli\n- Google EmbeddingGemma 2：オープンで軽量なマルチモーダル埋め込みモデル\n  https://www.producthunt.com/products/embeddinggemma-2\n- Bearconnect 2.0：AIを活用したLinkedIn向けコンテンツ・アウトリーチプラットフォーム\n  https://www.producthunt.com/products/early-access-bearconnect-io\n- Base Code：チーム全体でプロダクト開発を加速\n  https://www.producthunt.com/products/base44",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-10-13"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "5 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Sutrix：患者転帰を分析するAIネイティブの統計解析ツール\n  https://www.sutrix.ai/\n- Polemos Industries：AI誘導弾道ミサイルを低コストで大量生産\n  https://lokberg.com/\n- Reconero：警察官のワークフローをAIで自動化するReconero\n  https://reconero.com\n- Sintem：チーム向けエージェンティック・フォンを開発\n  https://sintem.co\n- Pomerado：あらゆるウェブサイトを数分でエージェント用MCPに変える\n  https://www.pomerado.ai",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-10-13"
+    },
+    {
+      "sourceName": "BRIDGE",
+      "title": "11 Articles",
+      "url": "https://thebridge.jp/category/news-and-column/",
+      "summary": "- 医薬品製造をロボットで自動化するMultiply Labs、7,500万ドルを調達——AstraZenecaやTeradyneも参加\n  https://thebridge.jp/2026/10/multiply-labs-series-b-75m-nantworks-pharma-manufacturing-robots\n- PillPack創業チームの医療ストアGeneral Medicine、a16zリードで1.2億ドルを調達——Eli Lillyも参加\n  https://thebridge.jp/2026/10/general-medicine-series-b-120m-a16z-healthcare-store\n- AIエージェントの行動を実行時に監視・制御するRein Security、2,500万ドルを調達——ローンチ後に売上8倍\n  https://thebridge.jp/2026/10/rein-security-series-a-ai-agent-runtime-security\n- 思い浮かべた言葉でAIに指示する帽子を開発するSabi、5,000万ドル調達——Khosla Venturesが主導\n  https://thebridge.jp/2026/10/sabi-seed-brain-ai-interface-baseball-cap-khosla-ventures\n- 野菜くずを10秒でパウダーに、吉野家も導入する装置「JOSEN」のASTRA FOOD PLANが資金調達\n  https://thebridge.jp/2026/10/astra-food-plan-raises-pre-series-b-led-by-kibow-social-investment-fund-3\n- 正常な組織を傷つけにくいがん放射線治療の新薬、京大発RadioNanoが臨床試験に向け資金調達\n  https://thebridge.jp/2026/10/radionano-therapeutics-completes-series-b-first-close\n- 免税制度の改正を前に、訪日客向け免税サービスのOceanが約5億円を調達——ヤマトHDらが参画\n  https://thebridge.jp/2026/10/ocean-raises-series-a-second-close-for-tax-refund-platform\n- 食後の血糖変動をAIで予測するザ・ファージ、5.7億円を調達——東京海上と資本業務提携\n  https://thebridge.jp/2026/10/the-phage-raises-570-million-yen-in-series-a-first-round-for-glucose-foundation-model\n- OpenAI、ChatGPTのGPT-6を無料プランにも提供——回答にグラフやボタンを組み込む「Intelligent UI」を導入\n  https://thebridge.jp/2026/10/openai-gpt-6-chatgpt-all-plans-intelligent-ui\n- 短距離トラック輸送を鉄道に移す自律走行のParallel Systems、AVP主導で1億ドル調達\n  https://thebridge.jp/2026/10/parallel-systems-series-c-autonomous-freight-rail-avp\n- Microsoftが判断特化のAIモデル「Microsoft-Decision-1」公開——入力100万トークン0.042ドル、出力無料\n  https://thebridge.jp/2026/10/microsoft-decision-1-decision-scoring-model",
+      "ogImage": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
+      "publishedAt": "2026-10-13"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
+      "url": "https://www.latent.space/p/claude-dynamic-workflows",
+      "summary": "Anthropicが、Claudeのマルチエージェントオーケストレーションを自動化し、Claude自身がタスクの分割とエージェント間の連携を決定する「ダイナミックワークフロー（Flows）」機能を発表。",
+      "publishedAt": "2026-10-13",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!1dow!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdda42c05-6ce1-4e54-b544-f7d1557f04b2_1280x720.jpeg"
+    }
+  ]
+}
