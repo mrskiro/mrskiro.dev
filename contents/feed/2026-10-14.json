@@ -1,0 +1,85 @@
+{
+  "fetchedAt": "2026-10-13T23:59:38.998Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "summary": "HiggsfieldがGPT-6 Astraなどで、より長尺で高精度なビジュアルの動画制作、および音声映画制作機能を提供。",
+      "publishedAt": "2026-10-13",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/6QmB7YuFllKCVKPoWn7vnJ/6f3ac19d1e10d2a864481a174813c7f7/higgsfield-longer-videos-voice-seo-open-graph-1920x1080.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [917pt] Gemini 4 Argonが登場 | 旧モデルにデフォルト設定される、使いにくいという不満の声がある一方で、言語生成能力は高評価。\n  https://news.ycombinator.com/item?id=50073879\n- [881pt] 欧州のスーパーマーケットで冷蔵庫の自動解凍機能がハッカーにより作動 | デフォルトパスワードの脆弱性が原因と推測されており、過失の問題という意見も。\n  https://news.ycombinator.com/item?id=50055304\n- [689pt] C言語によるモダンなWebアプリケーション | CGIプログラミングの昔を懐かしむ声や、BusyBoxでのCGIサポートに関する言及が多い。\n  https://news.ycombinator.com/item?id=50058528\n- [664pt] GLM-Legal：法律分野向けAI | ベンチマークの合格率に疑問の声があり、実際の法律業務における有用性について懐疑的な意見が見られる。\n  https://news.ycombinator.com/item?id=50058507\n- [658pt] Muse Wonder | MetaのAI進出を歓迎する声があるが、一部のテストでは他モデルに劣るとの指摘も。\n  https://news.ycombinator.com/item?id=50059115\n- [656pt] Rustのボローチェッカーに11年前の欠陥バグが発見 | 長期間未発見だったことに驚きの声。修正は容易だが、今後のAIによるバグ発見に期待する意見も。\n  https://news.ycombinator.com/item?id=50069499\n- [642pt] AIはツールであり、使いこなすにはスキルが必要 | AIスキルは陳腐化が早いという意見と、プロの写真家のような専門性が生まれるという意見が対立。\n  https://news.ycombinator.com/item?id=50063427\n- [637pt] Apple HomeView | 既存のiPadで代替できるという意見や、Siri AI™への不満が聞かれる一方、Appleの挑戦を評価する声も。\n  https://news.ycombinator.com/item?id=50071017\n- [618pt] Firefox Enterprise | エンタープライズ市場の大きさを指摘し、Firefoxの市場シェア維持に重要な戦略と高評価。\n  https://news.ycombinator.com/item?id=50070302\n- [617pt] Deloitteがアブラモビッチ氏の資産の脱税を回避するため文書を偽造 | Deloitteの倫理観に疑問の声や、キプロスが脱税の温床となっていることへの指摘が多い。\n  https://news.ycombinator.com/item?id=50054207",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-10-14"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "15 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Science Corporation、スターガルト病患者に視力回復チップを初移植\n  https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/\n- Cerebras CEO「誰もが家庭にAIアシスタントを持つ未来は近い」\n  https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/\n- Industrial Next、工場ロボットのタスク切り替えを「数週間」から「数分」に短縮目指す\n  https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/\n- Cerebras CEO、AI終末論の警告を一蹴\n  https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/\n- 裁判官、Appleの企業秘密訴訟でOpenAIに採用記録の開示を命令\n  https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/\n- Licube、核融合発電業界の燃料供給企業を目指す — TechCrunch Disruptで詳細公開\n  https://techcrunch.com/2026/10/13/licube-wants-to-be-the-fuel-provider-to-the-fusion-power-industry-see-how-at-techcrunch-disrupt/\n- Niobia、テック業界で最も高額なミスの原因特定を容易に\n  https://techcrunch.com/2026/10/13/niobia-takes-the-guesswork-out-of-some-of-techs-most-expensive-mistakes/\n- Flox Intelligence、AIで野生動物を列車、空港、道路から遠ざけるシステムを開発\n  https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/\n- Facebook、ユーザーにアルゴリズムの制御権を強化\n  https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/\n- ロケットは不要 — Longshotは貨物を「銃」で宇宙へ打ち上げる。TechCrunch Disrupt 2026で発表\n  https://techcrunch.com/2026/10/13/forget-rockets-longshot-wants-to-fire-cargo-into-space-from-a-gun-see-it-at-techcrunch-disrupt-2026/\n- Laplace Intelligence、ロボットと自動運転車を実世界投入前にレッドチームテスト\n  https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/\n- AIが企業のセキュリティチームに新たな課題をもたらす中、Pluto Securityが4200万ドルを調達\n  https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/\n- Google Play、誰でもAndroidで動作するプライベートな「vibe-coded」アプリを作成可能に\n  https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/\n- SpaceXとGoogleは拒否。しかし彼のソフトウェアはGoogleの隣でSpaceXロケットに搭載される\n  https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/\n- 2026年Startup Battlefieldトップ20：臓器から軌道まで、多岐にわたるイノベーション\n  https://techcrunch.com/2026/10/13/the-2026-startup-battlefield-top-20-from-organs-to-orbit-and-everything-in-between/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-10-14"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "The Craft of Practitioner Voice",
+      "url": "https://martinfowler.com/articles/practitioner-voice.html#TheCraftOfPractitionerVoice",
+      "summary": "テック系執筆者がお互いに書く際のスタイルについて、AI活用や編集方法を含む詳細な解説記事が公開された。",
+      "publishedAt": "2026-10-13",
+      "ogImage": "https://martinfowler.com/logo-sq.png"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Are Harnesses Worth the Cost?",
+      "url": "https://martinfowler.com/articles/are-harnesses-worth-the-cost.html",
+      "summary": "挙動ハーネスを使うことで、低コストAIモデルの信頼性を高め、高性能モデルと同等の結果を低費用で得られる可能性が示された。",
+      "publishedAt": "2026-10-13",
+      "ogImage": "https://martinfowler.com/articles/exploring-gen-ai/donkey-card.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- OpenFlowKit 2 — エージェントと共同編集できる無料・オープンソースのダイアグラム\n  https://www.producthunt.com/products/openflowkit\n- Music Dawn — 音楽家のためのレコーダー。あらゆるアイデアが完成した音に。\n  https://www.producthunt.com/products/music-dawn\n- PostNitro for Agents — AIエージェントにソーシャル投稿のデザインと公開を任せる\n  https://www.producthunt.com/products/postnitro\n- Google Fitbit Edge — 7日間バッテリー搭載、Google史上最高のスマートフィットネストラッカー\n  https://www.producthunt.com/products/google-fit-2\n- Muse Wonder — Metaが個人向けエージェント向けに開発した最も高性能なモデル\n  https://www.producthunt.com/products/meta-ai\n- OpenWhispr for iOS — 100%オープンソース、無料、デバイス内完結の音声文字起こし\n  https://www.producthunt.com/products/openwispr-open-source-ai-speech-to-text\n- OpenCode 2.0 — オープンソースのAIコーディングエージェント\n  https://www.producthunt.com/products/opencode\n- Articos MCP — エージェント内でシミュレーションされた購買者の反応を確認\n  https://www.producthunt.com/products/articos\n- MentionBird — AI検索のAhrefs\n  https://www.producthunt.com/products/mentionbird\n- Agent Craft — ソーシャルエンゲージメントとリードを100倍に\n  https://www.producthunt.com/products/agent-craft",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-10-14"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "2 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Godpack、公正なガチャシステムを提案\n  https://godpack.gg/\n- Caveman、AIエージェントのコストを抑えつつ性能を維持する新技術を発表\n  https://caveman.so",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-10-14"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+      "url": "https://www.latent.space/p/dyna",
+      "summary": "Dyna Roboticsは、人間に似た上半身と車輪を持つ自社製ロボットを開発し、数百万時間の人間の行動データを学習した世界モデル「Dyna-2」を活用して、レストランのナプキン折りや食材カットといった実世界のタスクを高い精度と一貫性で実行している。",
+      "publishedAt": "2026-10-14",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!MnNc!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F220234130%2Fdbc4f752-488e-4b53-bd69-73a73b8c1604%2Ftranscoded-1791913394.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model",
+      "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
+      "summary": "Metaは、個人・プロ向けのAIエージェント機能を強化した新モデル「Muse Wonder」と「Muse Wonder Full」を発表し、一部ベンチマークで高い性能を示した。",
+      "publishedAt": "2026-10-13",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!RofT!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHUck_odaQAA3OF2.jpg"
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "2 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- GitHub Copilotに「Gemini 4 Argon」を統合\n  https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot\n- エンタープライズ向け設定管理、強制適用機能が更新\n  https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-10-14"
+    }
+  ]
+}
