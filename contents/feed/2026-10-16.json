@@ -1,0 +1,101 @@
+{
+  "fetchedAt": "2026-10-15T23:20:50.976Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "summary": "生命科学研究を推進するため、アカデミック向けにGPT-Rosalindとその関連ツールを無償提供するプランを開始。",
+      "publishedAt": "2026-10-16",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/g91SfQ7YxvtosiWacUxkg/47162ea17967b74890a6ef14a8c9fa78/rosalind-academic-plan-seo.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Teaching students to think and learn through questions",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "summary": "ブラジルポルトガル語で「教師のためのAI」を提供開始し、学習支援に役立つスタディモードを紹介。",
+      "publishedAt": "2026-10-15",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/16A5mkf828KStF68ijvmN1/2f720d42bb308b9c1ab0edc26a047a17/teaching-students-to-think-and-learn-through-questions-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.301",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
+      "summary": "- [Added] CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS を追加。これにより、CLAUDE_CODE_RETRY_WATCHDOG が有効な場合、利用制限のリセットが遠い場合にリクエストを終了するようになり、待機しなくなります。\n- [Added] claude-api スキルに OpenTelemetry トレーシングのガイダンスを追加。これには、ant CLI を使用したトレース送信先のセットアップも含まれます。\n- [Added] Vim モードに % モーションを追加。d/c/y と組み合わせるか単独で、対応する括弧にジャンプします。\n- [Added] mod の Input に行を追加。これはターミナル内の複数行のテキストフィールドで、Enter で送信、Shift+Enter または Enter の前のバックスラッシュで新しい行を開始します。\n- [Added] OpenTelemetry tool_decision イベントに classifier_verdict と permission_mode を追加。これにより、オートモードの分類器の決定とパーミッションルールの決定を区別できます。\n- [Added] OTEL_LOG_TOOL_DETAILS=1 の場合、OpenTelemetry tool_decision イベントに classifier_category を追加。分類器ブロックが一致した組み込みルールを識別します。\n- [Fixed] WorktreeCreate フックによって作成されたワークツリーが、未プッシュのコミットを保持している可能性がある場合でも、確認なしに終了時に削除される問題を修正しました。\n- [Fixed] fable (および best) モデルエイリアスが、最新の Fable モデルが組織で利用できない場合に Anthropic API でエラーになる問題を修正。Claude Code は以前の Fable モデルで一度リトライするようになりました。\n- [Fixed] ディスクがいっぱいでログインが更新できない場合に、誤解を招く「Please run /login」エラーが表示される問題を修正。エラーがディスク名を提示し、ファイルの削除を促すようになりました。\n- [Fixed] Grep および Glob が、検索プログラムが予期せず失敗し、結果を返す前に終了した場合に「no matches」と報告する問題を修正。検索が失敗したことを示すエラーを返すようになりました。\n- [Fixed] ワークフローエージェントが、タスクテキストにユーザーの権限がないことを示すハーネスノートを読んだ後、そのステップをスキップし、実行が成功と報告される場合がある問題を修正しました。\n- [Fixed] PreToolUse フックが Edit または Write をカバーしている場合に、アーティファクトの更新が拒否される問題を修正。Claude はファイルを編集し、その後再公開するようになり、publish 呼び出しで変更しなくなりました。\n- [Fixed] 引数名が非常に多いまたは長いスキルやコマンドが呼び出し時に数秒間停止する問題を修正。最初の64個の名前（それぞれ最大64文字）のみが入力されるようになりました。\n- [Fixed] 引数が多くのプレースホルダーを埋める場合に、スキル、コマンド、およびフックが非常に大量のメモリを使用する問題を修正しました。\n- [Fixed] RHEL 8 の MATE Terminal など、VTE 0.53 より古いバージョンのターミナルで、フォルダ信頼プロンプトを覆う >0q などの不要な文字や、終了時にシェルプロンプトの前に >4m が表示される問題を修正しました。\n- [Fixed] 一部のバージョンの iTerm2 で、起動時にプロンプトに不要な GOK テキストが表示される問題を修正しました。\n- [Fixed] プロバイダーが Bedrock でない場合に、名前に application-inference-profile を含むモデルに切り替えると、awsAuthRefresh コマンドが実行され、モデル切り替えフックが遅延する問題を修正しました。\n- [Fixed] トークン更新中に claude auth status や claude plugin list などの短いコマンドが終了した後の、サインイン更新タイムアウトや予期しないサインアウトを修正しました。\n- [Fixed] パーミッションチェック中にメッセージが送信されて途中で中断されたツール呼び出しが、ユーザーによって拒否されたとモデルに報告される問題を修正しました。\n- [Fixed] コンテキストウィンドウが小さいモデルに切り替える際に、以前のモデルによる要約にユーザーの使用クレジットが消費される場合がある問題を修正しました。\n- [Fixed] 会話が繰り返し圧縮され、要求したモデルとは異なるモデル名を応答する LLM ゲートウェイの背後で、ユーザーが選択していないモデルで実行される問題を修正しました。\n- [Fixed] Vim モードで、遅いまたはビジーなマシンで Esc キーを押した後に INSERT モードのままになることがある問題を修正しました。\n- [Fixed] Vim モードで、Esc キーで入力済みの AskUserQuestion の回答が破棄される問題を修正。フリーテキストフィールドが Vim の NORMAL モードをサポートするようになり、Esc キーは NORMAL モードからのみキャンセルするようになりました。\n- [Fixed] Read ツールが .xlsm、.parquet、.epub、.heic などのバイナリファイルをテキストとして読み込む問題を修正しました。\n- [Fixed] ヘッダー行のみの Markdown テーブルが、ターミナル幅を超えると何も描画されない問題を修正しました（計画承認カードの計画も含む）。\n- [Fixed] /claude-api スキルが、CMEK 外部キーエンドポイントが Claude Platform on AWS で利用できないと報告する問題を修正しました。\n- [Fixed] /rewind 使用後、スキルがモデルにリストされなくなる問題を修正しました。\n- [Fixed] 再開されたセッションの圧縮行が、ロードされていない履歴に対して ctrl+o を提案する問題を修正。以前のメッセージがどこに保存されているかを示すようになり、フルスクリーンでも表示されるようになりました。\n- [Fixed] 応答を中断した直後に「新しいタスク？/clear でトークンを節約」のヒントが戻ってくる問題を修正しました。\n- [Fixed] プラグインまたはスキルフックの ask decision に対するパーミッションプロンプトが、どのプラグインまたはスキルからのフックであるかを示さない問題を修正しました。\n- [Fixed] /diff が、git チェックのいずれかがタイムアウトまたは失敗した場合に、reftable リポジトリ内の競合した cherry-pick または revert を検出しない問題を修正しました。\n- [Fixed] 同じセッションで Bash cd の後にワークフロースクリプトが読み取り、編集、または再実行されたときに、許可を求められたり拒否されたりする問題を修正しました。\n- [Fixed] ダーク ANSI テーマおよび 16 色ターミナルでのテキストの薄暗さの問題を修正: 塗りつぶされたボックス内では薄く、選択や検索のハイライトの下では薄くなく、リストの説明は他の補助テキストと同様に薄暗くなりました。\n- [Fixed] mod の $.model.fork が、新しい Claude Code プロセスの最初の応答が完了する前に呼び出された場合（claude -p 実行やクラウドセッションなど）に nothing-to-fork を返す問題を修正しました。\n- [Fixed] フルスクリーンモードで、/compact および自動圧縮が、表示されるトランスクリプトが再構築される間、UI を一時的にフリーズさせる問題を修正しました。\n- [Fixed] セルフホストランナーで、管理設定が MCP サーバーを制限している場合に、Slack から開始されたセッションがリポジトリを見つけたりアタッチしたりできない問題を修正。それらのツールをオフにするには deniedMcpServers を使用してください。\n- [Fixed] セルフホストランナーで、関連性のないセットアップまたはセッションの失敗が git の missing-ref の表現を引用した場合に、セッションが削除されたソースブランチを持っていると報告され、リトライされない問題を修正しました。\n- [Fixed] セルフホストランナーで、ログが終了するセッションの失敗または拒否されたセッションリリースのリトライを約束する問題を修正。繰り返しの失敗にはカウントが表示されるようになりました。\n- [Fixed] Windows で、停止したバックグラウンドの PowerShell コマンドが出力ファイルに終了行 [killed] がない問題を修正しました。\n- [Improved] コンテキストウィンドウが小さいモデルへの切り替えを改善。新しいモデルには長すぎる会話は、まず前のモデルによって要約されるようになりました。\n- [Improved] 長時間実行されるサブエージェントの作業中のレンダリングパフォーマンスを改善。その進行状況の軌跡が、毎回完全に再処理されるのではなく、増分的に更新されるようになりました。\n- [Improved] アーティファクトを改善。Claude が書き込むページがスティッキーヘッダーの上の帯を表示するようになり、モバイルアプリでスクロールされたテキストがそこに表示されなくなりました。\n- [Improved] Mods を改善。VS Code およびデスクトップ・モバイルアプリで、質問ダイアログの上に描画されるツリーが Markdown と最大 48 行を保持できるようになりました。ターミナルは 12 行のプレーンテキストを保持します。\n- [Changed] mod フックの .catch ハンドラが、フックがスローまたはタイムアウトした場合にのみ実行されるように変更されました。フック自身の呼び出しの下で発生したイベントは、そのフックの .catch を尋ねずにスキップされるようになりました。\n- [Changed] mod の $.env.set が、変数が設定または解除されたら {} で、書き込みが行われない場合は理由を示す { deny } で解決されるように変更されました。\n- [Added] [VSCode] Claude の応答で LaTeX の数式レンダリングを追加。$$ と複数行の \\[ … \\] ブロック、およびインラインの $…$ と \\(…\\) 数学が含まれます。\n- [Added] [VSCode] VS Code および JetBrains パネルの Pro および Max プランの利用制限バナーに「Get more usage」リンクを追加しました。\n- [Fixed] [VSCode] パネルがクラッシュまたはフリーズする会話が、リロードごとに再度開かれる問題を修正しました。\n- [Fixed] [VSCode] 長い思考中にチャットパネルが遅くなる問題を修正。更新ごとに思考テキスト全体を再解析しなくなりました。\n- [Fixed] [VSCode] 一部の言語サーバーで診断がルールコード (例: MD013) の代わりに「[object Object]」と表示される問題を修正しました。\n- [Fixed] [VSCode] ディクテーションが提供されない場所（claude.ai 以外のサインイン、リモートウィンドウ）で、マイクの許可を確認するためにネイティブのディクテーションオーディオモジュールがロードされる問題を修正しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1844pt] がんになった時に知っておくべきこと | セカンドオピニオンの重要性や、病院との付き合い方について経験談が多数寄せられている。\n  https://news.ycombinator.com/item?id=50093568\n- [938pt] AIハッキングの報告は封じ込めと監視の失敗が原因であると専門家が指摘 | サンドボックスのセキュリティ対策不足とモデルの暴走、双方の問題が指摘されている。\n  https://news.ycombinator.com/item?id=50091788\n- [926pt] Amazonがいかにしてインターネット全体の価格を押し上げているか | Amazonの配送の速さは評価される一方、価格競争力や品質低下を指摘する声もある。\n  https://news.ycombinator.com/item?id=50084757\n- [849pt] OpenCode 2.0 | V1からの改善点や使いやすさが高く評価されており、プラグインの仕組みが支持されている。\n  https://news.ycombinator.com/item?id=50094994\n- [738pt] Iosevkaはオープンソースのサンセリフ・スラブセリフ等幅フォント | 長年愛用しているユーザーが多く、カスタムビルドの自由度が高く評価されている。\n  https://news.ycombinator.com/item?id=50084240\n- [654pt] Tiny Little Office | ログイン不要で使える手軽さや、AI連携機能への関心が寄せられている。\n  https://news.ycombinator.com/item?id=50096142\n- [645pt] パスキーは罠ではない | パスキーの仕組みやアテステーションに関する技術的な議論が活発に行われている。\n  https://news.ycombinator.com/item?id=50088935\n- [561pt] 過去30年間でアメリカ人の社会活動が急激に減少 | メディアの影響や経済的負担が社会活動の減少に繋がっているという意見が多い。\n  https://news.ycombinator.com/item?id=50089921\n- [554pt] Muse Spark Open | ライセンスや性能、オープンウェイトであるかについて議論が交わされている。\n  https://news.ycombinator.com/item?id=50107379\n- [525pt] ICEが1億ドルの「悪夢」のような国内スパイプログラムを計画 | 国民の監視や機密情報の利用、プライバシー侵害への懸念が多数寄せられている。\n  https://news.ycombinator.com/item?id=50090246",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "14 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Meta、Mac対応のオープンウェイトAIモデルを発表\n  https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/\n- Amazonデバイス責任者Panos Panay氏、AIデバイスがアプリ不要の未来をもたらすと語る\n  https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/\n- Anthropic、METR研究者に社員レベルのアクセスを提供し、AIの内部を公開\n  https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/\n- Bluesky、AI搭載アプリ「Attie」を拡大し、誰でもウェブサイトやゲームなどを構築可能に\n  https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/\n- TechCrunch Founder Summitパスを最大200ドル割引で購入する最後のチャンス：早期割引は10月16日まで\n  https://techcrunch.com/2026/10/15/last-chance-to-save-up-to-200-on-techcrunch-founder-summit-early-booking-ends-oct-16/\n- Rivianの自動車にAIエージェントを搭載へ\n  https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/\n- Ramp、AI分野への深掘りで評価額600億ドルに到達\n  https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai/\n- Googleのショッピングツール「Universal Cart」、米国で提供開始\n  https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/\n- TechCrunch Disrupt 2026：最終日\n  https://techcrunch.com/2026/10/15/techcrunch-disrupt-2026-last-day/\n- AmazonのBee、75ドルからのパーソナルAIデバイス2種を発売\n  https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/\n- Figma、プラットフォーム上でのエージェントの動作を定義する新機能を発表\n  https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/\n- Ricursive Intelligence、AI設計チップで計算危機解決を目指す\n  https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/\n- Disrupt 2026のStartup Battlefield決勝に出場する5社を紹介\n  https://techcrunch.com/2026/10/14/meet-the-five-companies-competing-in-the-startup-battlefield-finals-at-disrupt-2026/\n- Gudea、AIを活用して組織のソーシャルメディア危機を未然に防ぐ\n  https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "When Software Meets Hardware",
+      "url": "https://martinfowler.com/articles/software-meets-hardware.html",
+      "summary": "IoTデバイスのフリートを刷新する中で、ソフトウェアとハードウェアの連携におけるエンジニアリングの原則適用について考察。",
+      "publishedAt": "2026-10-15",
+      "ogImage": "https://martinfowler.com/articles/software-meets-hardware/card.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Navige — AIエージェントのコスト削減と無駄な出費を抑制\n  https://www.producthunt.com/products/navige\n- SuperLocalMemory — Laya、Jev、Google Gemmaを活用したエージェント向けメモリ\n  https://www.producthunt.com/products/superlocalmemory-v2\n- Fwrd — iPhoneのテキストメッセージをSlack、Discord、Telegramに転送\n  https://www.producthunt.com/products/fwrd\n- Nostaliga — お気に入りの曲に隠された日々を再発見\n  https://www.producthunt.com/products/nostaliga\n- siliXon — プレーンな英語のアイデアを注文可能な回路基板に変換\n  https://www.producthunt.com/products/silixon\n- Apple HomeView — 繋がって、家を管理する新しい方法\n  https://www.producthunt.com/products/apple\n- Talanoa — チャット感覚で使えるメール\n  https://www.producthunt.com/products/talanoa-2\n- Rushilo — Claude CodeやCodexに話しかけてビデオを編集\n  https://www.producthunt.com/products/rushilo\n- Daddy Issues — 先を見据え、争いを減らす。父親向け週刊ファミリーブリーフィング。\n  https://www.producthunt.com/products/daddy-issues\n- GLM-Legal — Z.aiの契約書レビュー・コンプライアンス対応AIモデル\n  https://www.producthunt.com/products/z-ai",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "An update on independent evaluators",
+      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "summary": "Anthropicは、最先端AIモデルの安全性評価のため、METRにシステムへのアクセスを付与し、他の組織とも協議中。",
+      "ogImage": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d2e351e6311a0ada8ea4a0304ce6cda39243eaf4-1200x630.jpg",
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "7 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Obia：AI特化の商業用不動産仲介サービス\n  https://obia.io/\n- Adside.ai：Meta、Google、LinkedInなどの有料広告を管理するAIエージェンシー\n  https://adside.ai\n- Plyxl：タスクを自動化するワークスペース\n  https://plyxl.com/\n- ObsessionDB：エージェント向けリアルタイムデータウェアハウス\n  https://obsessiondb.com\n- Fire Wallet：プライバシーを重視した使いやすい暗号資産ウォレット\n  https://fire.co\n- Particularity：政府規制当局向けテクノロジースタックを構築\n  https://particularity.io\n- Tilo：LinuxベースのAIネイティブOS\n  https://tilo.so",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "sourceName": "BRIDGE",
+      "title": "4 Articles",
+      "url": "https://thebridge.jp/category/news-and-column/",
+      "summary": "- 筋肉や心臓に狙って薬を届けるRNA医薬のSoufflé、Juvia Group主導のシリーズBで1.35億ドルを調達\n  https://thebridge.jp/2026/10/souffle-therapeutics-series-b-juvia-group-remedy\n- 3Dプリントで家を建てるICON、Baillie GiffordとBlackRock主導で2億ドル調達——複数階建て「Titan」生産へ\n  https://thebridge.jp/2026/10/icon-series-d-robotic-construction-baillie-gifford-blackrock\n- 生成AIとの対話でBIMを作るACIMUS、約6,500万円を調達——JR東日本スタートアップと資本業務提携\n  https://thebridge.jp/2026/10/acimus-raises-seed-funding-for-generative-ai-bim-cloud-service\n- ホテル運営をAIで自動化する統合OS「WASIMIL」のAZOO、シリーズAで累計4.9億円を調達\n  https://thebridge.jp/2026/10/azoo-raises-series-a-for-hotel-os-wasimil",
+      "ogImage": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Modal’s $1B ARR, $16B Series D makes it NYC’s newest AI Infra Decacorn, 3x usage and 3x valuation in 5 months, 15x in 1 yr",
+      "url": "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d",
+      "summary": "Modalは年間経常収益10億ドルを突破し、評価額157.5億ドルのシリーズD資金調達を実施、またGoogleはコーディングや科学分野向けの新モデル「Gemini 4 Argon」を発表し、MetaやSpaceXAIも新モデルをリリースした。",
+      "publishedAt": "2026-10-15",
+      "ogImage": "https://substackcdn.com/image/youtube/w_728,c_limit/J-smU_ImO5g"
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "2 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- GitHub Copilot、一部モデルを11月中旬に廃止へ\n  https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november\n- コードスキャンアラートの自動修正機能「Agentic autofix」、一般提供を開始\n  https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-10-16"
+    }
+  ]
+}
