@@ -1,0 +1,93 @@
+{
+  "fetchedAt": "2026-10-16T23:04:30.415Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "summary": "エンジニアが数週間で開発したStack Overflow for Agentsが、ChatGPTプラグインによりエージェント作成を最大10倍に促進。",
+      "publishedAt": "2026-10-16",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/4HTc2pk7XGFhzDU8RX0Ivg/ff2b922fa1914350c9d800da622ebe04/stack-overflow-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "summary": "Sullivan & CromwellがOpenAIと共同で契約書の問題点特定AIツールを開発。",
+      "publishedAt": "2026-10-15",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/4UO3B0RlmvGz3hIUiiFyJl/262aca81008e886c7d750c18ee33c0aa/sullivan-cromwell-seo.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.302",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
+      "summary": "- [Added] クライアントサイドの自動モード分類器が使用するモデルを選択するCLAUDE_CODE_AUTO_MODE_MODELを追加しました。サーバーサイドの自動モードのモデルは変更されません。\n- [Added] アイドル状態の圧縮をオフまたはオンに戻すためのIdle compaction rowを/configに追加しました。アイドル状態の圧縮後に表示される通知に、オフにする方法が示されるようになりました。\n- [Added] /design-syncおよび/design-loginに、スタンドアロンのClaude Design（claude.ai/design）が2026年12月14日までに終了するという通知を追加しました。\n- [Fixed] 会話が圧縮されている間にターンを停止すると「プロンプトが長すぎます」というエラーが発生する問題を修正しました。\n- [Fixed] セッションの途中でVertexまたはBedrockに切り替えた後、「diagnostics: Extra inputs are not permitted」というエラーでリクエストが失敗する問題を修正しました。\n- [Fixed] Readツールが任意のサイズの画像ファイル、または画像のように命名されたパイプやデバイスを完全にメモリに読み込む問題を修正しました。128MBを超える画像ソースは拒否されるようになりました。\n- [Fixed] ゲートウェイがOpus 4または4.1をanthropic/claude-opus-4-1などのプレフィックスで命名した場合に、/autocompactと/effortが間違ったモデルに保存される問題を修正しました。\n- [Fixed] セッションの途中で追加されたツールがToolSearchまたは圧縮後に再度読み込まれたときに、プロンプトキャッシュミスが発生する問題を修正しました。\n- [Fixed] claude pluginおよびその他のサブコマンドが、キューに入った設定またはconfigの書き込みが終了する前に終了し、変更が失われたり、.tmpファイルが残ったりする問題を修正しました。\n- [Fixed] Gitがreftable参照形式をデフォルトとする場合、プラグインマーケットプレイスが更新ごとに再クローンされ、新しくインストールされたGitプラグインがバージョン「unknown」と表示される問題を修正しました。\n- [Fixed] PowerShellツールがプラグインのbin/フォルダー内のコマンドを見つけられない問題、および何も見つからない検索（rg、grep、findstr、git grep）がSelect-Objectまたは別のフォーマットコマンドレットにパイプされたときにエラーを報告する問題を修正しました。\n- [Fixed] デスクトップアプリのClaudeが、MCPサーバーを認証または再接続するためにclaude.aiの設定または/mcpを指し示すが、そのオプションが利用できない問題を修正しました。\n- [Fixed] Claudeが空の編集リストを送信した場合にアーティファクトの公開が失敗することがある問題、および新しいバージョンのアーティファクトによって拒否された後にClaudeがアーティファクトの更新を誤った方法で再試行する問題を修正しました。\n- [Fixed] ほとんどの自動モード分類器ブロックでOpenTelemetry tool_decisionイベントからclassifier_categoryが欠落している問題、およびOTEL_LOGRECORD_ATTRIBUTE_COUNT_LIMITが低い場合に新しいtool_decision属性がtool_use_id、tool_source、tool_parametersを押し出す問題を修正しました。\n- [Fixed] 長いリストを下に移動したり、セクションを折りたたんだりした後、エージェントビューの行が空白のままになる問題を修正しました。\n- [Fixed] サインインしていないときにclaude remote-control --helpが使用法を印刷せずに終了する問題を修正しました。\n- [Fixed] クラウドセッションで失敗した場合に/design consentと/design revokeが/design-loginを提案するが、利用できない問題を修正しました。メッセージはclaude.ai/design/settingsを指し示すようになりました。\n- [Fixed] MCPサーバーがプロトコルバージョン2026-07-28をネゴシエートするが、resultType、ttlMs、またはcacheScopeを省略した場合に、ツールが表示されないか、すべてのツール呼び出しが失敗する問題を修正しました。\n- [Fixed] プロンプトの提案が、プランがクレジットでのみ支払うモデルに対して使用クレジットを消費する問題を修正しました。クレジットに請求された返信の後、それらはスキップされるようになりました。\n- [Fixed] バッククォートで書かれたURLが、折り返した場合に最初の行でのみクリック可能になる問題を修正しました。ハイパーリンクをサポートするターミナルでは、URL全体が1つのリンクになりました。\n- [Fixed] claude plugin details <name>@builtinが、プラグインが見つからない場合に組み込みプラグインを表示しないclaude plugin listを提案する問題を修正しました。現在は/pluginを指し示します。\n- [Fixed] リンクが開始する絵文字が1列分広すぎると折り返され、質問プレビューで隠れたり、テーブルがリストになったりする問題を修正しました。\n- [Fixed] Git 2.56以降で、迷子の.gitファイルが存在しないディレクトリを指している場合に、worktreeの分離がworktreeの作成または再開を拒否する問題を修正しました。\n- [Fixed] 新しいプロセスでクラウドセッションが再開された後、そのセッションのコストと使用量がゼロから再開される問題を修正しました。\n- [Fixed] セルフホスト型ランナー: Gitのreftable形式で保存されたチェックアウトを再利用するセッションで、Gitフェッチが「bad object refs/heads」というエラーで失敗する問題を修正しました。\n- [Fixed] Windows: --plugin-dirで開始されたセッションを含む、exFATまたはFAT32ドライブ上のプロジェクトに対して、すべてのファイル書き込みが拒否または確認される問題を修正しました。\n- [Improved] 多くのプラグインが有効になっている場合の起動時間を改善しました。プラグインコマンドとエージェントファイルの読み込みに必要なファイルシステム呼び出しが大幅に削減され、特にWindowsで顕著です。\n- [Improved] サーバーサイドの分類器による自動モードを改善しました。安全チェックには長すぎる会話は、チェックされたツール呼び出しがすべて拒否される代わりに、圧縮されるようになりました。\n- [Improved] 別のフォルダーから再開されたバックグラウンドセッションにLLMゲートウェイがない場合に表示されるメッセージを改善しました。「ログインしていません」ではなく、その理由が表示されるようになりました。\n- [Changed] パーミッションモードなしのclaude -pとAgent SDKセッションが、テレメトリーがオフまたは新規インストールの場合に、サードパーティプロバイダーでデフォルトモードで開始されるように変更しました。--permission-mode autoはautoのままです。\n- [Changed] フォークサブエージェント（subagent_type: \"fork\"）が、claude -p、Agent SDK、デスクトップアプリ、VS Codeでデフォルトでオンになるように変更しました。これらはターミナルでは既にオンになっています。CLAUDE_CODE_FORK_SUBAGENT=0でオフになり、claude mcp serveでは提供されません。\n- [Changed] デスクトップアプリとVS Codeが、ターミナルと同様に、メイン会話のサブエージェントを常にバックグラウンドで実行するように変更しました。Claudeが選択するのではなく、サブエージェント自身のAgent呼び出しは、claude -p、Agent SDK、デスクトップアプリ、VS Codeでデフォルトでフォアグラウンドで実行されるようになりました。\n- [Changed] エージェントのフッターヒントの←が、セッションが開いてから10秒後に非表示になるように変更しました。あなたを待っているエージェントの数は引き続き表示されます。\n- [Changed] 新しい会話が共有プロンプトキャッシュからChromeのClaude指示を読み取れるように、システムプロンプト内の配置を変更しました。\n- [Changed] プロンプトとエージェントのフックが、一度に最大12個のイベントしか実行されないように変更しました。残りは順番を待ちます。\n- [Changed] 組織のポリシーが/feedbackをオフにしている場合に表示されるメッセージを、組織の管理者ではなくGitHub issuesを指すように変更しました。\n- [Fixed] [VSCode] リスト内の閉じられていないコードブロックの後のテキストが、返信のストリーミング中にプレーンテキストとして表示され、その後コードに変わる問題を修正しました。\n- [Fixed] [VSCode] パネルからのMCPサーバーサインインで、サーバーURLにクエリ文字列が含まれている場合に破損した認証ページが開く問題を修正しました。\n- [Fixed] [VSCode] Claude拡張機能を持つブラウザに到達できない場合に、「Browser connected」と表示される@browserバナーの問題を修正しました。\n- [Added] [Cloud sessions] ルーチンのページに、組織が同時クラウドセッションの制限に達したなど、前回の実行が開始されなかった理由を示すバナーを追加しました。\n- [Fixed] [Cloud sessions] クラウドセッションで最新のメッセージ以外のすべてのメッセージで「Rewind to here」が失敗する問題を修正しました。セルフホスト型ランナーにはClaude Code v2.1.246以降が必要です。\n- [Fixed] [Cloud sessions] クラウドセッションで、GitHubが再チェックしている間に、マージ競合のあるプルリクエストのプルリクエストステータスバーが「準備完了」に戻る問題を修正しました。\n- [Fixed] [Cloud sessions] ルーチン実行が、クラウドセッションが予期せず停止した後にCompletedと表示され、開始前にアーカイブされたときにCancelledと表示されるのではなく、Failedと表示される問題を修正しました。\n- [Fixed] [Cloud sessions] クラウドセッションのGitHbuリポジトリの名前が変更または移動された後、クラウドセッションの差分ビューが変更を欠落したり、読み込みに失敗したりする問題を修正しました。\n- [Fixed] [Cloud sessions] 途中で失敗したスケジュールされたルーチン実行が、1時間以上後に最初から再度実行され、同じレポートを2回投稿するなどの作業が繰り返される可能性がある問題を修正しました。\n- [Fixed] [Cloud sessions] 開いているクラウドセッションが、別のデバイスから送信されたメッセージを、ページをリロードするか、離れてから戻るまで表示しないことがある問題を修正しました。\n- [Improved] [Cloud sessions] クラウドセッションの開始に失敗した場合に表示されるエラーメッセージを改善しました。「Something went wrong」ではなく、「Connection lost」または「Server error」と表示されるようになりました。\n- [Fixed] [Remote Control] コンピュータがオフラインになった後、Remote Controlセッションでサブエージェントのペインが永遠にスピンする問題を修正しました。Remote Controlが切断されたと表示されるようになりました。\n- [Fixed] [Claude Tag] Claudeが以前のメッセージを編集して回答した後、SlackチャンネルまたはDMのメンションの下に「考え中…」が残る問題を修正しました。\n- [Fixed] [Claude Tag] ClaudeのSlackの返信の番号付きまたは箇条書きのステップの下にあるコードブロック内のURLが山括弧で囲まれ、コピーされたコマンドが破損する問題を修正しました。\n- [Fixed] [Claude Tag] Slackで添付されたHEIC、SVG、TIFF、BMP画像がClaudeに到達しない問題を修正しました。他のファイルタイプと同様に、Claudeの作業ファイルとして届くようになりました。\n- [Fixed] [Claude Tag] Claude Tagを役割で制限する組織で、新しいチャンネルマネージャーがSlackのClaudeにアクセスできなくなる問題を修正しました。マネージャーの役割もSlackのClaude Tagを付与するようになりました。\n- [Fixed] [Claude Tag] MCPサーバーが1つのホストを共有するカスタムコネクタが、Claude Tag管理設定で単一のコネクタとして表示される問題を修正しました。各サーバーは独自のコネクタになりました。\n- [Fixed] [Claude Tag] 単一のSlackルックアップが滞ったときに、SlackのClaudeがダイレクトメッセージに「DMは一時的に利用できません」と回答し、それを破棄することがある問題を修正しました。現在は最初に再試行します。\n- [Fixed] [Claude Tag] Slack Enterprise GridでのClaudeとのダイレクトメッセージが、Slackのワークスペースドロップダウンを無視する問題を修正しました。最後にClaudeを開いた接続済みワークスペースで実行されるようになりました。\n- [Fixed] [Claude Tag] チャンネルの月間利用制限に関するClaudeのSlackの通知が、チャンネルマネージャーがそれを引き上げることができると表示する問題を修正しました。現在は組織の所有者を指し、利用状況ページへのリンクがあります。\n- [Fixed] [Claude Tag] ClaudeのSlackの返信内のリンクが、直後の太字または斜体マーク、または全角句読点を吸収し、リンクと書式設定が破損する問題を修正しました。\n- [Improved] [Claude Tag] Claude Tag管理設定のリポジトリ検索を改善し、最大100個の接続済みGitHubアカウントをカバーし、GitHub Appのインストール後の最初の5,000個を超えるプライベートリポジトリを見つけられるようになりました。\n- [Improved] [Claude Tag] Claude Tag管理設定のAdd placeを改善し、組織の全チャンネルリストが読み込まれるのを待つのではなく、入力または貼り付けたチャンネルをすぐにリスト表示するようにしました。\n- [Improved] [Claude Tag] Claude Tag管理設定のワークスペースまたはチャンネルページのAdd > Domainを改善し、そのページが読み込まれた後、すべてのチャンネルが読み込まれた後だけでなく、利用可能になるようにしました。\n- [Changed] [Claude Tag] Claude Tag管理設定を、ClaudeのアクセスをBundles、Connectors、Skills and plugins、Channelsの4つのタブに整理するように変更しました。\n- [Changed] [Claude Tag] 組織設定のRolesページで、Claude Tagチャンネルマネージャーのために作成された役割が、組織自身の役割の下に折りたたみ可能なセクションにグループ化されるように変更しました。\n- [Fixed] [Code Review] Code Reviewのセットアップで、GitHubを接続するために離れた後、再開しない問題を修正しました。管理設定に戻ると、リポジトリピッカーで再開されるようになりました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1052pt] Tesla Roadster | 「実際に飛ぶ」という驚きとエンジニアリングの偉業に賞賛の声がある一方、デポジットの回収や実現性への疑問、AIの活用法に関する議論が見られる。\n  https://news.ycombinator.com/item?id=50112657\n- [900pt] Muse Spark Open | オープンウェイトモデルの性能比較やライセンス条件、Metaの戦略への関心が集まる。展開のしやすさに期待する声も。\n  https://news.ycombinator.com/item?id=50107379\n- [793pt] ニューラルネットワークはクリーンである | ニューラルネットワークの解釈可能性に関する議論が活発。主張の過剰さや以前の研究との関連性に疑問を呈するコメントも。\n  https://news.ycombinator.com/item?id=50105647\n- [691pt] Tiny Little Office | ログイン不要で共有可能なツールに対する好意的な意見が多い。同様のツールや機能、用途に関する情報交換が活発。\n  https://news.ycombinator.com/item?id=50096142\n- [683pt] スキューモーフィックデザインを採用したWaylandデスクトップ | 懐かしさや創造的なデザインへの肯定的な意見が多い。実装の課題やUIツールキットの重要性についても議論されている。\n  https://news.ycombinator.com/item?id=50103338\n- [633pt] 私がセルフホストしているもの | セルフホストのメリットとデメリット、具体的なサービスや設定に関する情報交換が活発。コンテナ化やSQLiteに関する議論も。\n  https://news.ycombinator.com/item?id=50109715\n- [618pt] Jevがトロッコ問題を解決 | AIが倫理的ジレンマをどう扱うか、特に自己保存の要素が加わった場合の議論が中心。AIの設計原則やリスクに関する懸念も。\n  https://news.ycombinator.com/item?id=50106023\n- [546pt] ClaudeがECDSA曲線の起源を解明 | ClaudeがECDSAの曲線生成の起源を特定したことに驚きの声。未解明のB-163や、長年の陰謀論に対するコメントも。\n  https://news.ycombinator.com/item?id=50122800\n- [513pt] オンライン広告が「ゼロクリック」スパイウェアの配信に悪用されている、と研究者が発表 | コメントは別の記事に移動したため、このストーリーに関するコメントはなし。\n  https://news.ycombinator.com/item?id=50103000\n- [496pt] AdFection: 標的型広告がゼロクリック傭兵スパイウェアのパイプラインに | イスラエル企業の関与やサイバーセキュリティ能力、報告書のセンセーショナルな表現について議論が集中。\n  https://news.ycombinator.com/item?id=50101813",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "11 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Replit、Anthropicとの提携を解消か CEOが明かす\n  https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/\n- インド、AIエージェントの不正活動を報告した最新国に\n  https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/\n- Nvidia出身VCが語る、ロボットがChatGPTのようなブレイクスルーをまだ迎えていない理由\n  https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/\n- Elorian、初のAIモデルで画像の「推論」を目指す\n  https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/\n- Tressfecta、ヘアスタイリストの髪編み作業を軽減するソリューションを提供\n  https://techcrunch.com/2026/10/16/tressfecta-wants-to-make-hair-braiding-a-less-arduous-task-for-hairstylists/\n- Jev、Vercel史上最速で採用されたAIモデルに\n  https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/\n- マーク・ウォールバーグ、AIの映画活用を語る「適切な方法」と「AIクローン」への見解\n  https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/\n- Veritas、偽造防止チップを宝飾品、トロフィー、香水ボトルにも拡大\n  https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/\n- Replit CEOが語る未来の働き方「自己運転企業」\n  https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/\n- Cal AIの爆発的成功、少数のインフルエンサー部隊が貢献\n  https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/\n- Disrupt 2026 Startup Battlefieldの優勝はIntero Biosystems\n  https://techcrunch.com/2026/10/15/and-the-winner-of-startup-battlefield-at-disrupt-2026-is-intero-biosystems/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "sourceName": "JSer.info",
+      "title": "2026-10-16のJS: CloudflareがDenoを買収、TanStack Start 1.0、Bun 1.4.3、Panda CSS 2.0",
+      "url": "https://jser.info/2026/10/16/cloudflaredeno-tanstack-start-1.0-bun-1.4.3-panda-css-2.0/",
+      "summary": "CloudflareがDenoを買収し、Denoランタイムは開発終了、JSRはCloudflareへ移行、その他主要なJavaScript関連ツールの新バージョンが多数リリースされた。",
+      "publishedAt": "2026-10-16",
+      "ogImage": "https://jser.info/media/logo.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Palomino — エージェントを並行稼働させる超高速ワークスペース\n  https://www.producthunt.com/products/palomino\n- Lovable Growth Tools — アプリ構築から成長までをチャット1つで\n  https://www.producthunt.com/products/lovable\n- Firefox Enterprise — データの制御を求める企業向けFirefox\n  https://www.producthunt.com/products/mozilla\n- Dottr — 契約書作成、リスク検出、署名までをこなすエージェント\n  https://www.producthunt.com/products/dottr\n- Grablo Spot — あらゆる人物や車両を数秒で検出する無料AI NVR\n  https://www.producthunt.com/products/grablo-spot\n- Neophyte — AIエージェントがあらゆる製品に登録・オンボーディングする様子を監視\n  https://www.producthunt.com/products/neophyte\n- Tetriz Harness — チームの学習成果を全員のエージェント設定に\n  https://www.producthunt.com/products/tetriz-harness\n- Jockey by TwelveLabs — ビデオライブラリ全体を整理、検索、理解可能に\n  https://www.producthunt.com/products/twelvelabs\n- Holm — 家族みんなのセルフホスト型ホームページ\n  https://www.producthunt.com/products/holm\n- DOYT — 開く必要のないDynamic Island対応ToDoアプリ\n  https://www.producthunt.com/products/doyt",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "1 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Aucert、AIエージェントが自律的にモバイルアプリをテスト\n  https://www.aucert.ai/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "sourceName": "BRIDGE",
+      "title": "2 Articles",
+      "url": "https://thebridge.jp/category/news-and-column/",
+      "summary": "- Amazon、会話を要約するAI端末「Bee」に新2機種——リストバンド型は74.99ドル、スマホ装着型も\n  https://thebridge.jp/2026/10/amazon-bee-frontier-bee-eclipse-ai-wearable\n- Meta、オープンウェイトの「Muse Spark Open」を公開——Mac Studio2台で動く8,160億パラメーターのモデル\n  https://thebridge.jp/2026/10/meta-muse-spark-open-weights-mac-studio",
+      "ogImage": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
+      "url": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
+      "summary": "Metaが強力なオープンモデル「Muse Spark Open」をリリースしたが、ライセンスやモデルサイズについて賛否両論。",
+      "publishedAt": "2026-10-16",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!riZI!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F50483d29-b6d4-485b-b93a-5b6a14e29ce6_2028x1228.png"
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "1 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- GitHubのSlack/Teams連携を強化、複数リポジトリ対応も\n  https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-10-17"
+    }
+  ]
+}
