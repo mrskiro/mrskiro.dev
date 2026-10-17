@@ -1,0 +1,53 @@
+{
+  "fetchedAt": "2026-10-17T22:43:59.493Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "summary": "ブラジルの銀行Itaúが、規制の厳しい金融分野で会話型AIとガバナンスプラットフォームを顧客と従業員に展開。",
+      "publishedAt": "2026-10-17",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/5f6g1v0mGiFwS4OuWQJpZ/ea1b571975a4668874331d6d068bfdcb/itau-social-optical-r2.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "summary": "Anant Kumarが融資評価・信用契約分析ツールを開発し、Codexでコードレビューを高速化。",
+      "publishedAt": "2026-10-16",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/2Km2vOVvFRvxGl6hZqWOTQ/2073bb541740640de3d215ee6e36b28e/og.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1598pt] Tesla Roadster：空を飛ぶ機能が話題に | 空飛ぶ機能に驚きと疑問の声、マーケティング戦略としての評価も。\n  https://news.ycombinator.com/item?id=50112657\n- [1016pt] ClaudeがECDSA曲線生成の起源を解明 | NISTの暗号に関する陰謀論を打ち破る発見に驚きの声。\n  https://news.ycombinator.com/item?id=50122800\n- [633pt] DeepSeek-v4.1-Flash-1017を発表 | ベンチマーク以上の「使い心地の良さ」とコスト効率の良さが評価されている。\n  https://news.ycombinator.com/item?id=50129045\n- [622pt] OpenCodeがハッキング被害、ユーザー認証情報が流出 | APIキーの保護に関する懸念と、被害範囲についての疑問が多数寄せられている。\n  https://news.ycombinator.com/item?id=50133401\n- [592pt] 米国の労働時間の90%はAIベンチマークでカバーされないタスクに費やされている | AIで代替困難な職務の多さと、研究の過大評価に対する指摘がある。\n  https://news.ycombinator.com/item?id=50121179\n- [511pt] DeepSeek: DeepSeek v4.1 Flash 1017 | AIモデルの多様性維持の重要性が強調され、規制への懸念も示唆されている。\n  https://news.ycombinator.com/item?id=50129121\n- [473pt] 記憶からTransformerを発明する方法 | 記事の内容について著者が補足し、読者からは理解度に関する質問が寄せられている。\n  https://news.ycombinator.com/item?id=50122878\n- [463pt] Meta、新しい商用規約でニュースサイトのスクレイピングを許可へ：専門家が指摘 | Metaの利用規約変更は、すでに実施されているデータ収集を合法化するものだという見方が強い。\n  https://news.ycombinator.com/item?id=50111852\n- [454pt] Claudeのコードチームはどのようにコードレビューを行うのか | AIを活用したコードレビューの効率性と責任の所在、費用対効果について議論されている。\n  https://news.ycombinator.com/item?id=50122951\n- [432pt] 太陽光発電、世界的に原子力発電を初めて上回る | クリーンエネルギーの進展を評価しつつ、原子力の停滞を惜しむ声も。\n  https://news.ycombinator.com/item?id=50131256",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-10-18"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "3 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Meta、データスクレイピングとAI学習の懸念を招いた規約から該当箇所を削除\n  https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/\n- Anthropic、従業員の若年層比率が低下し、会議に費やす時間が増加と発表\n  https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/\n- Replit、デフォルトのAIモデルをAnthropicからOpenAIに切り替えへ\n  https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-10-18"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Emochi：アートと科学で自己理解を深める音声ジャーナル\n  https://www.producthunt.com/products/emochi-2\n- Train with Pasta：Apple Intelligence搭載のパーソナルトレーナー\n  https://www.producthunt.com/products/train-with-pasta\n- Notion：AIエージェントにコンテキストを提供 — 作業を再説明せずにエージェントを切り替え\n  https://www.producthunt.com/products/notion\n- Caldera：Obsidianのvaultを生き生きとしたプロフィールとリンクされた庭に\n  https://www.producthunt.com/products/caldera\n- NitroStack：MCPサーバーの構築、テスト、デプロイをワンストップで\n  https://www.producthunt.com/products/nitrostack\n- Ultracite v8：エージェント開発のためのリンターとフォーマッター\n  https://www.producthunt.com/products/ultracite\n- Parrot：Mac用スマート会議アシスタント — 通話中もサポート\n  https://www.producthunt.com/products/parrot-10\n- Earnote：デバイスで書く講義・会議ノート\n  https://www.producthunt.com/products/earnote\n- Unfenced：本当に公共の土地に隣接する売り地\n  https://www.producthunt.com/products/unfenced\n- Step 5 Preview：長期稼働エージェント向けに訓練された600Bのオープンウェイトモデル\n  https://www.producthunt.com/products/step-3-5-flash",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-10-18"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] High Taste Testers Ep. 1",
+      "url": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
+      "summary": "Metaは816B MoEモデル「Muse Spark Open」を公開し、NVIDIAもNemotronシリーズの新モデルを発表するなど、主要企業が大規模なオープンウェイトモデルのリリースを加速させている。",
+      "publishedAt": "2026-10-17",
+      "ogImage": "https://substackcdn.com/image/youtube/w_728,c_limit/ZOH8Q401vt0"
+    }
+  ]
+}
