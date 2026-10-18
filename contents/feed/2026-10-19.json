@@ -1,0 +1,61 @@
+{
+  "fetchedAt": "2026-10-18T22:38:58.901Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.303",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303",
+      "summary": "- [Fixed] バグ修正と信頼性の向上",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [940pt] OpenCodeがハッキングされ、ユーザー認証情報が流出 | 認証情報漏洩はOpenCode Consoleに関するもので、APIキーの無効化機能の重要性が指摘されています。また、この投稿がHNでフラグ付けされていることへの不満も表明されています。\n  https://news.ycombinator.com/item?id=50133401\n- [934pt] DeepSeek-v4.1-Flash-1017 | ベンチマークでは他モデルに及ばないものの、DeepSeekの「使い心地の良さ」が高評価。多様なエコシステムの重要性や、他社モデルと比較してDeepSeek-flashを好んで使うユーザーの意見が見られます。\n  https://news.ycombinator.com/item?id=50129045\n- [670pt] 太陽光発電、世界で初めて原子力発電の年間発電量を上回る | 太陽光発電が原子力発電の年間発電量を上回ったことは歓迎されており、クリーンエネルギーのさらなる加速が求められています。原子力の停滞を惜しむ声もありますが、未来の到来を喜びつつ、課題も認識されています。\n  https://news.ycombinator.com/item?id=50131256\n- [563pt] Pele – テーマ変更可能なSVGとしてのMermaidダイアグラム | MermaidよりもD2Langの構文の容易さやレイアウトの正確さを評価する声があり、Mermaidの複雑さやトポロジーの悪さに不満を持つユーザーもいます。Mermaidをテーマ可能にしたことには感謝の声も上がっています。\n  https://news.ycombinator.com/item?id=50132193\n- [562pt] Zuckerberg氏のMeta、抗議活動中にNo Kings Instagramを停止 | アカウント停止は自動システムによるものか、人的モデレーションによるものか議論されています。HNでこのような投稿がフラグ付けされる理由についても疑問が投げかけられています。\n  https://news.ycombinator.com/item?id=50136881\n- [539pt] 白化したサンゴ、健康な隣接サンゴに触れると数日で回復 | サンゴの白化は死を意味しないことが説明されており、良いニュースとして受け止められています。ただし、回復は遺伝的に同一のサンゴに限られるため、大規模な再生には課題があるとの指摘もあります。\n  https://news.ycombinator.com/item?id=50126253\n- [517pt] DeepSeek: DeepSeek v4.1 Flash 1017 | このモデルの登場は、OpenAIやAnthropicが規制を求める理由となっているとの意見があり、多様なモデルの重要性が強調されています。Hugging Faceのリンクも共有されています。\n  https://news.ycombinator.com/item?id=50129121\n- [515pt] DeepSeekの検索・取得サービス – 成功したリクエスト1000回あたり0.75ドル | Googleが有料検索APIを提供しないため、これらのサービスが存在するとの意見があります。また、検索APIの価格が将来的に下がる可能性や、LLMをソース認識型でトレーニングする提案も出ています。\n  https://news.ycombinator.com/item?id=50138531\n- [419pt] ニューヨーク州、ライセンスではなく所有権を要求するゲーム所有権法案を発表 | この法案はNY州だけでなく全米規模のものであり、ゲームのDRMフリー化を提供するGOGのようなサービスを支持する声が上がっています。著作権改革の必要性や、法案の実現性に対する懐疑的な意見もあります。\n  https://news.ycombinator.com/item?id=50136536\n- [402pt] 金が米国の主要輸出品目に | 金の輸出量増加の背景には、外国の中央銀行が金準備を米国から移動させている可能性が指摘されています。また、スイスでの精錬がボトルネックとなっているとの見方や、金鉱業界の好況に関するコメントも寄せられています。\n  https://news.ycombinator.com/item?id=50132870",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "2 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Anthropic、株式の5%を「公共利益基金」に拠出へ\n  https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/\n- Disney、Character.AI従業員の大部分を雇用することに合意\n  https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- MyLens：AIが大規模ライブプレゼンテーションを可能に\n  https://www.producthunt.com/products/mylens-ai\n- shim-cli：コーディングエージェントの送信内容を表示し、必要な部分をマスク\n  https://www.producthunt.com/products/shim-cli\n- Popcraft：あらゆるAIエージェントから動画・画像・音声を生成\n  https://www.producthunt.com/products/popcraft\n- Krea 3：KreaのAI画像モデル、2K編集を8秒未満で実現\n  https://www.producthunt.com/products/krea\n- Gravity Notes：あなたとAIエージェントのための単一ノートリスト\n  https://www.producthunt.com/products/gravity-notes-for-mac\n- SpeechFast：Mac向けローカルWhisperアプリ\n  https://www.producthunt.com/products/speechfast\n- Latch：鍵の場所まで歩いて解除するアプリブロッカー\n  https://www.producthunt.com/products/latch-7\n- Bee Frontier and Bee Eclipse：AmazonのパーソナルAIメモリが手首やスマートフォンに\n  https://www.producthunt.com/products/bee-frontier-and-bee-eclipse\n- Openbroca：あなたのような声で録音できるMac向け軽量AIディクテーション\n  https://www.producthunt.com/products/openbroca\n- PasteKit：JSON、YAML、SQLをプライベートに整形\n  https://www.producthunt.com/products/pastekit-2",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Investing in the public benefit",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "summary": "Anthropicが、成長に応じて持ち分が増える「Anthropic Public Benefit Fund」に自社株の一部を拠出。",
+      "ogImage": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "1 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Theo：ビジネスを見つけるためのサイトビルダー＆エンジン\n  https://theo.site/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "sourceName": "GitHub Trending",
+      "title": "Weekly Trending",
+      "url": "https://github.com/trending?since=weekly",
+      "summary": "- morluto/rea：エージェントを使って、アプリの動作からネイティブバイナリまで、あらゆるものをリバースエンジニアリング。 ⭐239,923/week\n  https://github.com/morluto/rea\n- storytold/artcraft：ArtCraftは、アーティスト、デザイナー、映画制作者向けの意図的なクラフトエンジン。 ⭐18,479/week\n  https://github.com/storytold/artcraft\n- boykopovar/AnyPS5：PS5実行ファイルをLinuxおよびWindowsに自動移植するためのツール。 ⭐16,250/week\n  https://github.com/boykopovar/AnyPS5\n- anthropics/claude-plugins-official：Anthropicが管理する、高品質なClaude Code Pluginsの公式ディレクトリ。 ⭐3,581/week\n  https://github.com/anthropics/claude-plugins-official\n- mksglu/context-mode：AIコーディングエージェント向けのコンテキストウィンドウ最適化。ツール出力をサンドボックス化し（98%削減）、セッションメモリを永続化し、MCP + フックを介して17プラットフォームでのルーティングを強制。 ⭐4,438/week\n  https://github.com/mksglu/context-mode\n- cathrynlavery/diagram-design：Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Pi向けの編集図デザイン。44種類の図。自己完結型HTML + SVG。影なし。Mermaidの乱雑さなし。 ⭐8,382/week\n  https://github.com/cathrynlavery/diagram-design\n- NationalSecurityAgency/ghidra：Ghidraは、ソフトウェアリバースエンジニアリング（SRE）フレームワーク。 ⭐7,608/week\n  https://github.com/NationalSecurityAgency/ghidra\n- heygen-com/hyperframes：HTMLを記述し、ビデオをレンダリング。エージェント向けに構築。 ⭐5,639/week\n  https://github.com/heygen-com/hyperframes\n- cursor/plugins：Cursorプラグインの仕様と公式プラグイン。 ⭐1,536/week\n  https://github.com/cursor/plugins\n- MadsLorentzen/ai-job-search：あなたのマシンで動作する就職活動。Claude Code上に構築されたAI求人応募フレームワーク：求人情報の評価、履歴書の調整、カバーレターの作成、面接準備。フォークして所有しよう。 ⭐4,200/week\n  https://github.com/MadsLorentzen/ai-job-search",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-10-19"
+    }
+  ]
+}
