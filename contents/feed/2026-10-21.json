@@ -1,0 +1,93 @@
+{
+  "fetchedAt": "2026-10-20T23:29:44.433Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "url": "https://openai.com/index/ted-taylor-restaurant",
+      "summary": "フランチャイズ店がメニュー価格変更時間を95%削減し、10万ドルのキャッシュフロー改善に繋がるワークフローを構築。",
+      "publishedAt": "2026-10-20",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/6r0aKM9KAloDNT979EYd6j/958b4b872830668c232730e99caa3f9e/ted-taylor-restaurant-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "OpenAI acquires Orchestra Bio",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "summary": "OpenAIがOrchestra Bioを買収し、ライフサイエンス分野の創薬研究開発にAI活用を推進。",
+      "publishedAt": "2026-10-20",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/qoX4w89e0GxOOa2GsAdSm/b4a461997956908e9813e59044617416/openai-to-acquire-orchestra-bio-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.305",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.305",
+      "summary": "- [Added] Linuxサンドボックスでユーザー名前空間を作成できるよう sandbox.allowNestedUserNamespaces を追加しました（Chromium、rootless podman）。これにより、サンドボックスのファイル保護を回避できます。\n- [Added] 無人リトライモード（CLAUDE_CODE_RETRY_WATCHDOG）がリセット前に解除された使用制限を認識できるよう CLAUDE_CODE_RETRY_WATCHDOG_USAGE_LIMIT_RECHECK_MS を追加しました。\n- [Fixed] Vertex、Bedrock、その他のプロバイダーで、エンドポイントまたはゲートウェイがツール検索を拒否した場合、およびToolSearchが不許可または --tools から除外されたゲートウェイの背後で、すべてのリクエストが失敗していた問題を修正しました（2.1.304の退行）。Claude Codeはツール検索なしでリトライするようになりました。\n- [Fixed] モデル名がモデルオーバーライドの値と大文字小文字が異なる場合、または [1m] タグがある場合に、/effort および /autocompact の設定が適用されない問題を修正しました。\n- [Fixed] ベアリポジトリ内の新しいワークツリーがデフォルトブランチではなくローカルのHEADから開始されることがあった問題と、変更されていないサブエージェントのワークツリーがクリーンアップされないことがあった問題を修正しました。\n- [Fixed] ディスクが満杯のBashコマンドが、生のENOSPCファイルパスで失敗していた問題を修正しました。エラーはディスクが満杯であり、何も実行されなかったことを示すようになりました。\n- [Fixed] クラウドセッションまたはSDKのsetMcpServersによって渡されたMCPサーバーが、セッションの後半で設定内の同名のサーバーによって置き換えられる問題を修正しました。\n- [Fixed] サブエージェントがフォールバックモデルに切り替わった後、Claudeがサブエージェントの作業に対して誤ったモデル名を指定していた問題を修正しました。\n- [Fixed] クラウドセッションとチームメイトが、要約に収めるために最も古いメッセージを省略する必要がある場合、Claudeにそのことを伝えていなかった問題を修正しました。\n- [Fixed] WebFetchでURL承認が必要であり、誰も承認を与えられなかったサブエージェントごとに、スケジュールされたCoworkクラウドセッションが5分間待機するケースがさらに発生していた問題を修正しました。\n- [Fixed] Workflowのレジュームが、既に完了したpipeline()およびparallel()エージェントを再実行する代わりに、実行ジャーナルから提供するように修正しました。\n- [Fixed] Remote Controlが /resume で会話を切り替えた後、/resume に空の「(session)」エントリを残していた問題を修正しました。\n- [Fixed] 狭いターミナルで /usage の行が途中で切れてしまう問題を修正しました。\n- [Fixed] 起動時の警告がロゴの上に生テキストとして表示されていた問題を修正しました。これらはデバッグログに出力され、何も制限しないパーミッションルールはバナーの下に警告行として表示されるようになりました。\n- [Fixed] スクリーンリーダーモードを修正しました。検索ボックスは、VoiceOverが「電話レコーダー」と読み上げていた記号の代わりに「検索:」と表示されるようになり、Ctrl+Rの検索一致や「ultrathink」などのハイライトされたプロンプトテキスト内の単語間にスペースが含まれなくなりました。\n- [Fixed] セルフホスト型ランナー: TERMが設定されている場合、ランナーまたはオーケストレーターとstdoutのみを共有するスタートスクリプトが「Resource temporarily unavailable」で失敗していた問題を修正しました（2.1.300の退行）。\n- [Fixed] セルフホスト型ランナー: git credential helperまたはaskpassプログラムがGIT_CONFIGを通じて設定を読み込む場合に、2.1.296以降リポジトリへのアクセスが失敗していた問題を修正しました。\n- [Fixed] セルフホスト型ランナー: バックグラウンドで起動したランナーが出力を開いたままにしていた場合に、オーケストレーターがspawn-runnerフックをタイムアウトと報告していた問題を修正しました。\n- [Improved] /usage を改善しました。各警告は、そのソースを特定する1行の修正になり、f で修正が適用されます。同じ修正はVS Codeと /doctor にも表示されます。\n- [Improved] MCPの同意ダイアログを改善し、プロンプトのためのEnterがAcceptとして誤って受け取られる可能性を低くしました。\n- [Improved] modのImageが、iTerm2 3.5以降でフルスクリーンレンダリングにより画像を描画するように改善しました。以前はaltテキストのみが表示されていました。\n- [Improved] Remote Control: スポーンモードのメッセージを改善しました。w を押すと、新しいモードがフォルダに保存されたことが表示され、後で claude remote-control start で保存されたモードを使用した場合、それがどこから来たものかが表示されるようになりました。\n- [Changed] allowedMcpServers が、env: で ${VAR} のみを使用する managed-mcp.json stdioサーバーのフィルタリングを停止するように変更しました。許可リストから除外されたものはアップグレード時に読み込まれるようになりました。これをオフにするには deniedMcpServers を使用してください。\n- [Changed] Claude Desktopがパスによってマウントするプラグインは、組織のマネージド設定が allowManagedPermissionRulesOnly を設定した場合、allowed-tools を保持しなくなりました。\n- [Changed] /artifacts delete の確認を、1またはEnterで保持、2で削除、Escでキャンセルする形式に変更しました。y と n は回答として機能しなくなりました。\n- [Changed] modのドッキングペインが、より広いターミナルから保持された幅を含め、ターミナルの幅の45%以内に留まるように変更しました。\n- [Added] [VSCode] SessionStartまたはSetupフックの実行中に、スクリーンリーダーのアナウンスを伴う「Running start-up hooks」スピナーステータスを追加しました。\n- [Fixed] [VSCode] spinnerVerbs設定が組み込みの動詞を短いものに置き換えた場合に、スピナーが「Compacting...」を途中で切ってしまう問題を修正しました。\n- [Changed] [VSCode] セッションが時間内に開始せず、フックが実行されていない場合に表示されるメッセージを変更しました。出力ログを最初に示し、サインインとネットワークを最初に指摘する代わりに原因をリストするようになりました。\n- [Fixed] [Cloud sessions] Cloud environmentsの管理ページが、「installs packages」エラーで既存の環境の保存を誤って拒否していた問題を修正しました。\n- [Improved] [Cloud sessions] セルフホスト環境を削除する際に、ダイアログとエラーメッセージが削除をブロックするものと、それが何に影響するかを伝えるように改善しました。\n- [Added] [Claude Tag] Claudeが参加していない公開SlackチャンネルをClaude Tagの管理「場所を追加」検索に追加し、管理者がそこから設定できるようにしました。\n- [Fixed] [Claude Tag] Claude Tagアクセスバンドルを修正し、別のGitHubアカウントに移動したリポジトリを再度追加できるようにしました。\n- [Fixed] [Claude Tag] Slack DMスレッドで設定されたルーティンが、そのスレッドの別のルーティンが会話を再開した後に投稿しなくなる問題を修正しました。両方とも引き続き投稿するようになりました。\n- [Fixed] [Claude Tag] 会話が終了した後、Slackスレッドで設定されたルーティンが投稿せずに成功を報告していた問題を修正しました。これらの実行はスキップされ、作成者に通知されるようになりました。\n- [Improved] [Claude Tag] 大規模な組織のClaude Tag管理ページを改善し、チャンネルリストの読み込み中にプラグイン、スキル、バンドルの編集が機能するようにしました。\n- [Fixed] [Code Review] レビュー中に複数のプッシュがプルリクエストに着地した場合に、Code Reviewが最新のコミットをレビューしないことがあった問題を修正しました。\n- [Changed] [Code Review] Code Reviewの再レビューが、以前のブロックする指摘がまだ未解決であるにもかかわらず、LGTMで開かれないように変更しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-10-21"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [2086pt] DeepSeekモデル向け高性能推論フレームワーク「DeepInfer」 | AIハードウェア市場への影響やオープンソース戦略を巡る議論が白熱\n  https://news.ycombinator.com/item?id=50163277\n- [711pt] WhatsAppのヘルプページにLLM指示が隠されていた：規制当局を推奨するな | LLMによる情報操作への懸念と、サポートチャットボットの意図に関する議論\n  https://news.ycombinator.com/item?id=50159341\n- [657pt] モーター1個だけでドローンを製作 [動画] | 独創的な設計と技術力に感嘆の声、ホビー分野での類似技術も紹介\n  https://news.ycombinator.com/item?id=50150089\n- [646pt] 免職されたサバンナ警察官、夫のICE捜査官にFlockシステムへのアクセスを許可 | 監視ツールの悪用を危惧する声、システム管理のずさんさへの批判\n  https://news.ycombinator.com/item?id=50150750\n- [627pt] Linux 7.3 | SMBやWi-Fi HaLowの改善、Apple Silicon対応の進展に期待の声\n  https://news.ycombinator.com/item?id=50149392\n- [614pt] Timestral: Mistralの時系列基盤モデル | 時系列モデルの有用性や検証方法に関する議論、開発期間短縮への評価\n  https://news.ycombinator.com/item?id=50150434\n- [608pt] WineがOpenBSDに移植 | OpenBSDユーザーからの歓迎の声、ゲーム動作報告や技術的な議論\n  https://news.ycombinator.com/item?id=50152307\n- [586pt] Ask HN: 理解できないAI生成コードを出荷することにどう対処するか？ | テストの重要性や、LLMを設計実装に活用する方法について議論\n  https://news.ycombinator.com/item?id=50151036\n- [563pt] EMudhraの中間CAが侵害される | 証明書キーのセキュリティ問題や、Firefoxユーザーへの影響について議論\n  https://news.ycombinator.com/item?id=50166579\n- [561pt] Starcraft: Ashfall | クリエイターの情熱に賛辞、ゲーム性や操作性に関する意見が分かれる\n  https://news.ycombinator.com/item?id=50147233",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-10-21"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "14 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Anthropic、50人以上の死亡につながる恐れがあるAIモデルを制限するAI安全法案を提案\n  https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/\n- Hugging Face CEO、NetflixのOpenAIハックドキュメンタリーは不正確と警告\n  https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/\n- Anthropicのクラウドパートナーシップが複雑化\n  https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/\n- SpaceXのAI事業、予想を上回る好調\n  https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/\n- OpenAI、バイオテック事業強化のためスタートアップOrchestra Bioを買収\n  https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/\n- Google、Amazonに続きNvidiaの牙城に挑む、AIアプリ開発者向け市場で\n  https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/\n- ChatGPT、チャットのロック機能を追加\n  https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/\n- Eric Schmidt、Anthropicの株式をDario Amodei CEOの約半分所有か\n  https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/\n- MetaのMuse、米国で40日間で1000万ダウンロード達成、これはわずか11のアプリしか達成していない偉業\n  https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/\n- 元NvidiaでVCのAmulya Vishwanath氏：「フィジカルAIはレゴの時代にある」\n  https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/\n- 植物は電気で会話できる、このスタートアップは彼らの言語を解読するAIモデルを開発\n  https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/\n- Figma共同創業者Dylan Field氏、MCPは完璧なプロトコルではないと指摘\n  https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/\n- 米国、連邦政府機関に中国のDeepSeek AIのシステムからの削除を命令\n  https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/\n- Eka、専門家が絶賛するフィジカルAIモデルにより14.5億ドルの評価額に\n  https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-10-21"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
+      "url": "https://simonwillison.net/2026/Oct/20/battledrones/",
+      "summary": "AIが開発したRTSゲーム「Battle Drones」は、オーディオ信号によるマルチプレイや3Dモデル、適応型音楽などの革新的な機能を備えている。",
+      "publishedAt": "2026-10-21",
+      "ogImage": "https://static.simonwillison.net/static/2026/battle-drones-card.webp"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Hoistbay — Amazon S3とCloudFront向けオープンソースデスクトップアプリ\n  https://www.producthunt.com/products/hoistbay\n- Harness² — エージェントと自己改善機能を活用\n  https://www.producthunt.com/products/harness-104\n- OpenShip Cloud — ロックインされないマネージドクラウドインフラ\n  https://www.producthunt.com/products/openship-2\n- Kling 4.0 — 高頻度クリエイター向け、高速かつ手頃なAIビデオ\n  https://www.producthunt.com/products/kling-4-0-4\n- /dev/null — 開発者向けソーシャルネットワーク\n  https://www.producthunt.com/products/dev-null\n- snyvi — すべての情熱的なプロジェクトを穏やかな一つの場所に\n  https://www.producthunt.com/products/snyvi\n- xtty — 日常業務を楽にするターミナル\n  https://www.producthunt.com/products/xtty\n- Inflight — プロトタイプに不足していたフィードバックレイヤー\n  https://www.producthunt.com/products/inflight-2\n- Lugh Xtudio — AIエージェントが一緒に編集するビデオスタジオ\n  https://www.producthunt.com/products/lugh-xtudio\n- yggy — 自己構築型AIナレッジグラフ\n  https://www.producthunt.com/products/yggy",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-10-21"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "7 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Wondersearch — 埋め込み不要、データ対象のセマンティック検索を瞬時に実行\n  https://wondersearch.com\n- Synara — AIが運用する最後の監視ステーション\n  https://synaraops.com\n- Phone Harness — エージェントがあなたの電話をコントロール\n  https://phone-harness.com/\n- Cesara — ヘルスケアシステム向け、より速く正確な取引を実現\n  https://cesara.com\n- Orgo — エージェントのためのコンピューター\n  https://www.orgo.ai\n- Odin Robotics — 既存工場で反復的な手作業を担うロボットアーム\n  https://odin-robotics.com\n- Super Powers Mobility (SPM) — モビリティ/車両向けモジュール式バッテリーパック\n  https://www.spm.fun",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-10-21"
+    },
+    {
+      "sourceName": "BRIDGE",
+      "title": "3 Articles",
+      "url": "https://thebridge.jp/category/news-and-column/",
+      "summary": "- MiniMax、エージェント向けの「M3.1 Flash」を公開——利用コスト7割減、入力100万トークン0.15ドル\n  https://thebridge.jp/2026/10/minimax-m3-1-flash-agent-model\n- チームで使うAIアシスタントのTown、1.08億ドル調達で評価額10億ドルに——ForerunnerとMenloが主導\n  https://thebridge.jp/2026/10/town-series-b-ai-assistant-forerunner-menlo\n- インテル、推論向けGPU「D-series」の詳細を公表——メモリー最大480GB、1枚で3,000億パラメーター\n  https://thebridge.jp/2026/10/intel-gpu-d-series-crescent-island-480gb",
+      "ogImage": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
+      "publishedAt": "2026-10-21"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "The Programmable Data Center — Evan Conrad, SF Compute",
+      "url": "https://www.latent.space/p/sfcompute2",
+      "summary": "SF Computeは、物理的なGPUクラスタの運用から取引までを担い、流動性の低いGPU市場で将来の供給契約（先物契約）を可能にする。",
+      "publishedAt": "2026-10-21",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!uXAL!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F221372257%2F628fa070-efc0-490c-a5b8-048f7daa656e%2Ftranscoded-1792523882.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-f09",
+      "summary": "DeepSeek V4.1 Flash 1017がオープンソースLLMでトップ性能を更新し、MiniMaxやMercury 3など新モデルも発表され、AIエンジニア向けサミットの講演者も公開された。",
+      "publishedAt": "2026-10-20",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!otPo!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHVBPHSjWcAAHoHt.jpg"
+    }
+  ]
+}
