@@ -1,0 +1,173 @@
+{
+  "fetchedAt": "2026-10-21T23:45:22.401Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "url": "https://openai.com/index/att-legal",
+      "summary": "AT&TがOpenAIと協力し、LegalEdgeチームが法務知識へのアクセスと判断規模を拡大する取り組みを進めている。",
+      "publishedAt": "2026-10-22",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/7A9Q6VjM9BmwoYsZ7L7toJ/4580ebfb0fa44bf3be43f5980ba0627c/att-legal-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Broad access through consistent standards",
+      "url": "https://openai.com/index/broad-access-through-consistent-standards",
+      "summary": "OpenAIは提携企業と協力し、AIの利用規約や安全対策、責任あるアクセスについて基準を統一している。",
+      "publishedAt": "2026-10-22",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/7hrvP09oiCE5WV3cXxae4u/7154e71ae6c6e9d4c8306c4d1843e5bf/broad-access-through-consistent-standards-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "OpenAI models are coming to Google Cloud",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "summary": "Google Cloud Marketplaceを通じて、OpenAIとGoogle Cloudの最先端モデルやCodexワークフローがGeminiのModel Gardenで利用可能に。",
+      "publishedAt": "2026-10-21",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/659u0DsrtDQd9LxI8L4J9M/0b95908d6a9ed46ffe20b23d081574b4/openai-models-coming-to-google-cloud-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "summary": "オープンソースの脆弱性対応のため、セキュリティ専門家間の連携を強化する「Patch the Planet」が発足。",
+      "publishedAt": "2026-10-21",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/xq2rRszwLvIAxOynZi2qa/b1cf094a0d095f67821bf4b8cfaba0b9/coordinated-disclosure-of-critical-vulnerabilities-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "summary": "ChatGPT内で広告を配信できるようになり、広告主がユーザーの購買行動に合わせたターゲティングが可能に。",
+      "publishedAt": "2026-10-21",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/6Fq2uj7xCpKHENjyeojn9c/d3771e7cecdfb77c28c7560de9413de1/chatgpt-ads-expands-26-new-countries-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "summary": "OpenAI等が分散型AIエージェントを活用し、大量の脳細胞データから有望な研究成果を発見。",
+      "publishedAt": "2026-10-21",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/5Uhfx9LWwXWN8zKg7a6aNi/021edebfedf0c6f9638f929ba23900ab/scaling-ai-biological-data-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+      "url": "https://openai.com/index/building-chatgpt-ad-stack",
+      "summary": "OpenAIが、ChatGPTのLLMを活用した広告スタックで、会話意図理解と関連性の高い広告配信を実現した方法を公開。",
+      "publishedAt": "2026-10-21",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/GsY5RrFvT4ZOnPC3oZUya/e3168194d55c5d9c8060ce5c5ba6c3ed/building-chatgpt-ad-stack-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "url": "https://openai.com/index/empowering-cyber-defenders",
+      "summary": "OpenAIが、最先端AIの活用とサイバーセキュリティ強化のためのロードマップを公開。",
+      "publishedAt": "2026-10-21",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/4fQCOyqbS5WVftYzLdd8UX/260b8061c6c8641dd0102042cb1acc32/empowering-cyber-defenders-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "url": "https://openai.com/index/terminal-x",
+      "summary": "Terminal XがGPT-6.1 Solを利用したEval Agentで、ファンドの逸脱をより高精度で検出できるようになった。",
+      "publishedAt": "2026-10-20",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/7btnUEAESJNvgHmdUPxexp/ac70fe93d02f52002ca5f146af8c7caf/Terminal-X-A-SEO-social-1920x1080.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.307",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307",
+      "summary": "- [Added] /claude-apiのAPIバージョンが2026-10-21に変更されました。\n- [Added] ツール呼び出しごとに、パーミッションルール、自動モード、安全性チェック、フック、またはサンドボックスが停止、プロンプト表示、または返送されたときに、claude_code.safety_event OpenTelemetryイベントが追加されました。\n- [Fixed] CLAUDE_CODE_DISABLE_1M_CONTEXTが設定され、モデルがopus[1m]などの[1m]サフィックス付きエイリアスである場合に、モデルが見つからないエラーでリクエストが失敗する問題が修正されました。\n- [Fixed] prompt-caching-scopeベータヘッダーがカスタムANTHROPIC_BASE_URLゲートウェイの背後やFoundryで送信され、効果がない問題が修正されました。\n- [Fixed] macOSでログインキーチェーンがロックされているときに、MCPサーバーがclaude -pで「認証が必要です」と表示されていた問題が修正されました。現在は理由が表示され、ロック解除後の次の実行では再サインインなしで接続されます。\n- [Fixed] macOSまたはLinuxコンピューターが接続中にスリープ状態になったときに、MCPサーバーがタイムアウトとして報告され、ヘッドレス実行で失敗し続ける問題が修正されました。\n- [Fixed] 接続中にHTTP MCPツール呼び出しが2回送信されていた問題が修正されました。読み取り専用またはべき等ツールのみが再試行されるようになりました。\n- [Fixed] バックグラウンドタスクの実行中に、SDK MCPサーバーの最新ツールなしでターンが開始されることがあった問題が修正されました。\n- [Fixed] 多くのPDFページ、画像、またはその他の大きなツール結果を読み取るターンで、「Autocompact is thrashing」エラーが発生することがあった問題が修正されました。\n- [Fixed] クラウドセッションで/autocompactがセッション再起動後にデフォルトウィンドウに戻る問題が修正されました。\n- [Fixed] /clearでクリアされた会話が、クラウドまたはセルフホスト型ランナーセッションの再起動時に戻ってくることがあった問題が修正されました。\n- [Fixed] Claude appsゲートウェイセッションでCLAUDE_STREAM_FIRST_BYTE_TIMEOUT_MSが無視される問題が修正されました。\n- [Fixed] OTEL_EXPORTER_OTLP_HEADERSが設定されている場合に、Claude DesktopセッションからのテレメトリがClaude appsゲートウェイの背後で拒否される問題が修正されました。\n- [Fixed] /permissions > Recently deniedで拒否されたシェルコマンドが表示されず、自動モードのローカル分類器が再試行されたコマンドをチェックする際にそこからの承認を無視する問題が修正されました。行を承認すると、その説明ではなくコマンド名が表示されるようになりました。\n- [Fixed] /helpと/コマンドメニューで、/claude-apiなどのバンドルされたスキルに対して、短い説明ではなく、モデル向けの詳細な説明が表示される問題が修正されました。\n- [Fixed] サブエージェントのトランスクリプトが、ストリーミング応答のプレースホルダー・トークン使用量と空の停止理由を記録する問題が修正されました。\n- [Fixed] Agent SDKのsetModel()を介したモデル切り替え、およびそれに基づいて構築されたアプリが、APIがモデルを確認するのに5秒以上かかった場合に拒否される問題が修正されました。Claude Codeは最大15秒待機するようになりました。\n- [Fixed] 接続されたアプリ（デスクトップアプリがアイドルセッションをアーカイブするなど）を介して停止されたバックグラウンドコマンドが、ユーザーによって停止されたものとしてClaudeに報告される問題が修正されました。通知には出力ファイル名が表示されるようになりました。\n- [Fixed] CoworkクラウドセッションでWebFetchが、サイトが4xxステータスまたはrobots.txt拒否で応答した場合にツールエラーを報告していた問題が修正されました。ローカルセッションと同様に、通常の結果として扱われるようになりました。\n- [Fixed] 直接設定されたGitHub MCPサーバーでの書き込みツールが、デスクトップアプリのCodeタブで何も作成せずに閉じるフォームを表示していた問題が修正されました。\n- [Fixed] サーバーが再利用された接続を閉じたときに、Artifactツール読み取りが接続リセットで失敗する問題が修正されました。\n- [Fixed] セルフホスト型ランナー: --use-anthropic-git-proxyを使用したセッションが、以前のセッションによってクローンに残された.claude/settings.local.jsonをコミットする問題が修正されました。\n- [Fixed] セルフホスト型ランナー: セッションのチェックアウトフック中にセッションをアーカイブまたは再キューイングしたり、ランナーを停止したりすると、フックのプロセスが実行されたままになり、ランナーのスロットが保持される問題が修正されました。\n- [Improved] 解析不能なツール呼び出しからの回復が改善されました。Claude Codeは、エラーでターンを終了する前に、呼び出しを最大2回再試行するようになりました。\n- [Improved] 同時に起動されたフォークサブエージェントが改善されました。各エージェントにどの起動が自身のものかが伝えられるようになったため、フォークが互いの作業を開始しようとする可能性が大幅に低減されました。\n- [Improved] ブラウザでのサインインが改善されました。サインインが完了するとすぐに成功ページが表示されるようになり、アカウントプロファイルの読み込みを待つ必要がなくなりました。\n- [Improved] クラウドおよびセルフホスト型ランナーセッションでのウェブ検索エラーが改善されました。理由を示す403で拒否された検索は、一般的な「認証エラー」ではなく、その理由を表示するようになりました。\n- [Improved] デスクトップアプリのMCPサーバーの1つが接続できない場合の、クラウドセッションでの最初の返信までの時間が改善されました。\n- [Improved] トランスクリプトに大きな貼り付けられた画像やPDFの読み取りが含まれるセッションのRemote Control接続時間が改善されました。\n- [Changed] WebSearchの予算が使い果たされたときにClaudeが受け取る通知が変更され、ブラウザやコンピューターの使用を通じて検索エンジンにクエリを送信しないように指示されるようになりました。\n- [Changed] axScreenReader設定とsettings環境ブロック内のCLAUDE_AX_SCREEN_READERは、ユーザー、管理、または--settings設定からのみ適用されるようになりました（2.1.305以降）。\n- [Changed] セルフホスト型ランナー: チェックアウトフックはデフォルトで30分後に停止されるようになり、セッションのセットアップが失敗します。より長い時間が必要な場合は、--checkout-hook-timeout-minを増やすか、0に設定してください。\n- [Changed] セルフホスト型ランナー: Anthropic管理のgit用に構築された証明書ファイルが、CLIと同様に信頼された証明書をフィルタリングするように変更されました。[runner:warn]行に省略された数が表示されます。\n- [Added] [VSCode] 音声ディクテーションが自動的に停止したとき（認識された音声なしで15秒間、または2分間の制限）、その理由と、それまでのテキストが保持されることを示す通知がマイクボタンに追加されました。\n- [Fixed] [VSCode] 「もっと見る」で展開された長いプロンプトがチャットパネル全体を覆っていた問題が修正されました。固定されたプロンプトはパネルの40%に制限され、スクロールするようになりました。\n- [Fixed] [VSCode] LaTeXの数式を含むリストアイテムまたはテーブルセルの部分が、リッチテキストエディターに新しいリストまたはテーブルとして貼り付けられる問題が修正されました。\n- [Fixed] [VSCode] NODE_EXTRA_CA_CERTSが~/.claude/settings.jsonにのみ設定されている場合に、TLS検査プロキシの背後でディクテーションが失敗する問題が修正されました。CLAUDE_CODE_CERT_STOREも従うようになりました。\n- [Changed] [VSCode] 「まだ他の場所で開いています」という通知が、拡張機能の再起動後に残されたClaudeプロセスもカバーするように変更されました。これは通常、約10分以内に自動的に終了します。\n- [Changed] [VSCode] 音声ディクテーションがCLIと同様に信頼された証明書をフィルタリングするように変更されました。\n- [Changed] [VSCode] 拡張機能自身の要求がCLIと同様に信頼された証明書をフィルタリングするように変更され、環境またはユーザー設定で指定されたNODE_EXTRA_CA_CERTSファイルを信頼するようになりました。\n- [Fixed] [Cloud sessions] リポジトリピッカーが、検索がまだ実行中の間「一致するリポジトリはありません」と表示されていた問題が修正されました。結果が届くまで「検索中…」と表示されるようになりました。\n- [Fixed] [Cloud sessions] セルフホスト型環境での「ランナーを待機中」ステータスが途切れていた問題が修正されました。オンデマンドランナーでは、最後のメッセージからカウントアップし、失敗した試行回数を表示するようになりました。\n- [Added] [Code Review] @claude review stop（およびoff、pause）がCode Reviewに追加され、新しいレビューを開始せずにプルリクエストの@claude review alwaysサブスクリプションを終了するようになりました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-10-22"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.306",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
+      "summary": "- [Fixed] クラウドセッション内でセッションの環境変数なしで開始されたclaude -pが\"Not logged in\"と報告する問題を修正しました。\n- [Fixed] 多くのMCPツールがあるセッションで、APIエラーが\"prompt is too long\"に置き換わり、不要なコンパクションが発生する問題を修正しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-10-21"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [2300pt] DeepInfer: DeepSeekモデル向け高性能推論フレームワークが登場 | DeepSeek V4.1 Flashで高スループット・低レイテンシーを実現、AIハードウェア市場への影響に期待の声\n  https://news.ycombinator.com/item?id=50163277\n- [1503pt] セキュリティアドバイザリ：PHPに深刻なリモートコード実行の脆弱性、今すぐアップデートを | 緊急性を訴える声多数、各方面で対応に追われる事態\n  https://news.ycombinator.com/item?id=50172041\n- [1195pt] eMudhra中間CAの危殆化について | 単一バイトの秘密鍵に驚きの声、Mozillaの迅速な対応を評価するコメントも\n  https://news.ycombinator.com/item?id=50166579\n- [954pt] PHP 8.2.35がリリース | 複数のセキュリティ企業が協調して情報公開、脆弱性に関する議論が活発\n  https://news.ycombinator.com/item?id=50180873\n- [906pt] Show HN: 建設許可が追加されたSimCity | リアルな建設プロセスを反映したゲーム性に面白みを感じる声多数\n  https://news.ycombinator.com/item?id=50170593\n- [816pt] Eight Bits of Trust: eMudhraのCAキーがミリ秒でクラックされる | 100個もの証明書発行局は多すぎるとの意見や、IoTデバイスへの影響を懸念する声\n  https://news.ycombinator.com/item?id=50177916\n- [757pt] Voxtral 3 | Mistralのオープンソースモデル提供の姿勢を疑問視する声、TTS/STTのローカル展開の難しさに言及\n  https://news.ycombinator.com/item?id=50168396\n- [738pt] WhatsAppのヘルプページがLLMへの指示を隠蔽：規制当局を推奨しない | LLMの結果操作に関する懸念の声、サポートチャットボットの適切な活用について議論\n  https://news.ycombinator.com/item?id=50159341\n- [637pt] PHPのセキュリティリリースと、セキュリティ強化への取り組み | 情報漏洩による混乱について言及、情報公開のあり方に関する議論\n  https://news.ycombinator.com/item?id=50182987\n- [609pt] パリ協定の1.5℃目標はもはや実現不可能 | 目標達成の困難さを認めつつも諦めない姿勢、個人の行動変容を促す意見も\n  https://news.ycombinator.com/item?id=50177911",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-10-22"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "11 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- BlackstoneのJas Khaira氏、AI投資拡大に伴う債務懸念は過剰と指摘\n  https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/\n- Meta、新株発行でAI投資の資金調達を計画\n  https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/\n- TechCrunch Founder Summit 2026：知っておくべきことすべて\n  https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/\n- Meta、「Muse」のユーザー数が1,000万人を突破、ショッピングが主要な利用目的\n  https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/\n- 設立1年のAIラボ Flapping Airplanes、評価額60億ドルで10億ドルを調達\n  https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/\n- Recursive、AIが大部分を開発したとするノートPC向けコーディングモデル「Flint」を発表\n  https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/\n- AmazonがAIエージェントをブロックする一方、Walmartは歓迎の姿勢\n  https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/\n- 法務AIスタートアップ Legora、評価額88億ドルでシリーズEで5億5,000万ドルを調達\n  https://techcrunch.com/2026/10/21/legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation/\n- PHPの危機：OpenAIとGoogleのWizが古い脆弱性を発見、インターネットに動揺広がる\n  https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/\n- Blacksmith、Sequoia主導のシリーズCでユニコーン企業の評価額に到達\n  https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/\n- AIは生産性を約束するが、今のところ管理者にとっては頭痛の種に\n  https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-10-22"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Fragments: October 21",
+      "url": "https://martinfowler.com/fragments/2026-10-21.html",
+      "summary": "AIツールを使ったデバッグでは、エージェントがコードを直接読むのではなく、多くの生データから仮説を立てて検証するプロセスが効果的だという指摘がされている。",
+      "publishedAt": "2026-10-21",
+      "ogImage": "https://martinfowler.com/fragments/fragments-thumb.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Needle：エージェントネイティブなアウトバウンドエンジン\n  https://www.producthunt.com/products/needle-3\n- Hotly：DMに答えて報酬獲得、オープンソースで提供\n  https://www.producthunt.com/products/hotly\n- Woven Video：チャットで動画編集、Macのタイムラインで本格作業\n  https://www.producthunt.com/products/woven-video\n- Flyweel：広告費カード、資金調達、MCPによるエージェント監査を提供\n  https://www.producthunt.com/products/connect-pipedrive-to-ads-with-flyweel\n- Blooio：Apple Messages for Businessを簡単に導入\n  https://www.producthunt.com/products/blooio-imessages-api-that-scales\n- Scout by Fini：Slackでサポートチームを支援するAIコワーカー\n  https://www.producthunt.com/products/fini-2\n- iglass：iTerm2とGhostty向けのLiquid Glass\n  https://www.producthunt.com/products/iglass\n- Yarite：今日かけるべき相手を毎日リストアップ、情報は全てスマホ内に\n  https://www.producthunt.com/products/yarite\n- hibi：オープンソースのObsidian代替ツール\n  https://www.producthunt.com/products/hibi\n- Animatica Marionette：Blenderで手足をドラッグして人型リグをポーズ\n  https://www.producthunt.com/products/animatica-autoposer-pro",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-10-22"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+      "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+      "summary": "元ハーバード大学の科学者クリストファー・スタブス氏が、Anthropicの長期利益トラストに参画。",
+      "ogImage": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "publishedAt": "2026-10-21"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "4 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- AIエージェントが工場業務をエンドツーエンドで自動化\n  https://horizontal-tech.com\n- 未来のドキュメント：人々と共創するコラボレーションプラットフォーム Spacesheep\n  https://spacesheep.dev/\n- Audora：キャラクターごとに声が変わるオーディオブック体験\n  https://audora.art\n- GTM担当者のためのデータエンジニア：Kiwi\n  https://withkiwi.ai/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-10-22"
+    },
+    {
+      "sourceName": "BRIDGE",
+      "title": "7 Articles",
+      "url": "https://thebridge.jp/category/news-and-column/",
+      "summary": "- 伐採現場の重機を遠隔操作と自律機能で動かすKodama、700万ドルを調達\n  https://thebridge.jp/2026/10/kodama-7m-forestry-teleoperation-autonomy-konvoy-breakwater\n- 人とAIエージェントの権限を一元管理、Privacoのサニーズが5,000万円をシード調達\n  https://thebridge.jp/2026/10/sunnies-privaco-raises-50m-yen-seed-from-hakobune-and-hiroshima-venture-capital\n- コメから乳製品の代替をつくるKinish、島津製作所CVCや大林組などからシリーズAで4.9億円\n  https://thebridge.jp/2026/10/kinish-raises-490m-yen-series-a-first-close\n- Inceptionの拡散型LLM「Mercury 3」、GPT-6 LunaやClaude Haiku 5.5を上回り4〜8倍速いと主張\n  https://thebridge.jp/2026/10/inception-mercury-3-diffusion-llm\n- DeepSeek、本番サービスを支える推論フレームワーク「DeepInfer」をオープンソース化\n  https://thebridge.jp/2026/10/deepseek-deepinfer-open-source-inference-framework\n- 空港へ向かう車内で「搭乗ゲートはどこ？」に予約確認のメールを探して回答——GeminiがAndroid Autoなどで利用可能に\n  https://thebridge.jp/2026/10/google-gemini-android-auto-cars-personal-intelligence\n- ボット攻撃からホスティング事業者を防御するBlackwall、評価額22億ドルで1億ドルを調達\n  https://thebridge.jp/2026/10/blackwall-series-c-avp-web-traffic-security-hosting",
+      "ogImage": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
+      "publishedAt": "2026-10-22"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Claude Mods: Flipping the Harness Inside Out",
+      "url": "https://www.latent.space/p/claude-mods",
+      "summary": "Claude Codeの「Claude Mods」は、ユーザーがAIエージェントの動作や表示をTypeScript/JavaScriptでカスタマイズできる機能で、人間とAIのインタラクションを最適化する「Attention Interface」の初期段階にあたる。",
+      "publishedAt": "2026-10-21",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!Kjjn!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc61f4d99-31a9-4e4c-aa02-65e5b5db1799_1280x720.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
+      "url": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source",
+      "summary": "DeepSeekが、同社の生産性向上を支える推論エンジン「DeepInfer」をオープンソース化し、キャッシュを活用した高スループット・低遅延な大規模推論の技術詳細を公開した。",
+      "publishedAt": "2026-10-21",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!tu5N!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07a949cd-f727-48e2-9bd4-c4d110bf94e9_1326x1362.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
+      "url": "https://www.latent.space/p/tenex",
+      "summary": "AIを活用した開発を行うTenex社は、エンジニアの成果主義報酬制度や、AIエージェントによる自動化された開発プロセス「MetaHarness」について、また企業のAI導入における課題と展望を語った。",
+      "publishedAt": "2026-10-21",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!pIOZ!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e7a898f-f3ec-4ab5-bf13-fb5d76fff9cb_1672x941.png"
+    }
+  ]
+}
