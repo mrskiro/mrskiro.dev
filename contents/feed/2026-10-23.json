@@ -1,0 +1,133 @@
+{
+  "fetchedAt": "2026-10-22T23:42:28.362Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Build more responsive apps with the Decisions API",
+      "url": "https://openai.com/index/decisions-api",
+      "summary": "あらゆるアプリケーション向けに、高速かつ焦点を絞った低コストの意思決定を実現。",
+      "publishedAt": "2026-10-23",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/2oP82PTDAPhlalF1TRNt8Q/af6bb8e886e29d6e0880c75a0de781f8/build-more-responsive-apps-with-the-decisions-api-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "summary": "Uberが3万人以上の従業員向けにChatGPT Workを導入し、調査、データ分析、プレゼン作成などを効率化。",
+      "publishedAt": "2026-10-22",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/5Ggg0KhDALourCX7MklMBY/c7f06d5982895ca0867ed21a0b95d422/uber-brings-chatgpt-work-to-all-employees-seo.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+      "url": "https://openai.com/index/cloudflare-cyber",
+      "summary": "CloudflareがOpenAIのAIツールを活用して、セキュリティ脆弱性の調査・修正提案、および開発効率向上とコード品質改善に取り組んでいる。",
+      "publishedAt": "2026-10-21",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/7o1UbpHuhgjqnJemTCObNX/dc8b67a70b84e01b66e7d2a2be717ec6/cloudflare-cyber-woven-current-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.309",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
+      "summary": "- [Fixed] macOSおよびLinuxで、サンドボックス化されたBashコマンドが各コマンドの前にシェルのスタートアップファイルをサンドボックス外で実行していた問題を修正しました。\n- [Fixed] macOSのサンドボックスdenyWrite globパターンが、パターンフォルダがシンボリックリンクを介してアクセスされた場合にパスの実際の場所に適用されない問題を修正しました。\n- [Fixed] サンドボックス化されたコマンドと自動承認された編集が、--mcp-configで渡されたMCP設定ファイルを変更できる問題を修正しました。\n- [Fixed] 無効化されたMCPサーバーが、printおよびSDKセッションで後続の権限プロンプトによって再接続される問題を修正しました。\n- [Fixed] Bashの権限チェックが、リダイレクトのオープンに失敗する可能性があるコマンドによって設定された変数を信頼していた問題を修正しました。\n- [Fixed] Bashの権限チェックが、cdがラップまたはプレフィックスされている場合に、gitを実行する前にディレクトリを変更する一部の複合コマンドに対してプロンプトを表示しない問題を修正しました。\n- [Fixed] Edit(path)の拒否ルールが、サブシェルも保持している一部のコマンドで、そのパスへのBashリダイレクトをブロックしない問題を修正しました。\n- [Fixed] worktree分離セッションが、分離ガードが拒否すべき一部のロケールプレフィックスコマンドを受け入れていた問題を修正しました。\n- [Fixed] zsh上のworktree分離セッションが、分離ガードが拒否すべき一部の算術コマンドを受け入れていた問題を修正しました。\n- [Fixed] Claude Codeが作成するworktreeとブランチのチェックアウトが、他のgit操作と同様に、git replace refsを無視するように修正しました。\n- [Fixed] 設定ディレクトリがシンボリックリンクを介してアクセスされた場合に、プロファイルストアの書き込み保護が適用されない問題を修正しました。\n- [Fixed] 非常に大きなネストされたCLAUDE.mdの下のファイルを読み込んだ後、セッションが繰り返し圧縮される問題を修正しました。サイズ制限を超えるネストされたCLAUDE.mdは、その開始のみをロードするようになりました。\n- [Fixed] ctrl+enter (send now)が、応答が開始される前に押された場合にのみメッセージをキューに入れ、それらのフックが実行中に押された場合にメッセージをキューに入れたままプロンプトのフックを再起動する問題を修正しました。\n- [Fixed] キーバインドされたスラッシュコマンドが!モードからシェルで実行される問題を修正しました。\n- [Fixed] ctrl+oが、まだ配信待ちの他のエージェントやセッションからのメッセージを表示しない問題を修正しました。それらは現在、トランスクリプトの下に完全に表示され、待機中としてマークされます。\n- [Fixed] 長いツール出力プレビューが絵文字を介して切り取られ、jqが解析できないセッショントランスクリプトが残る問題を修正しました。\n- [Fixed] 親の/procを共有するLinuxサンドボックスで、PDFページ範囲に対してReadが「File does not exist」と報告する問題を修正しました。\n- [Fixed] Claude Desktopホスト型セッションからのメッセージが、接続がリフレッシュされたときに失われることがある問題を修正しました。\n- [Fixed] 同じコンピュータのターミナルが異なるアカウントまたは組織にサインインしている場合に、ClaudeデスクトップアプリのClaude Codeセッションで機能が欠落する問題を修正しました。\n- [Fixed] claude remote-controlのステータス行が、gitリポジトリではないフォルダに対してHEADをブランチとして表示する問題を修正しました。\n- [Fixed] 分割ペインのエージェントチームメイトが、リーダーのコマンドラインで指定されたツール拒否および--toolsルールを継承しない問題を修正しました。\n- [Fixed] /renameで名前変更されたセッションが、VS Codeウィンドウのリロードまたは非対話型--resumeの後、生成された名前で他のセッションに表示される問題を修正しました。\n- [Fixed] /rewindリストが、/code-review --fix、サブエージェント、またはシェルコマンドを介してチェックポイントファイルを変更したターンに対して「No code changes」と表示される問題を修正しました。\n- [Fixed] /privacy-settingsが古い「Help improve our AI models」の値を表示する問題を修正しました。設定を取得できない場合も表示されるようになりました。\n- [Fixed] 組織がフィードバックを受け付けていない場合に、フィードバックが「try again later」と表示される問題を修正しました。サーバーの理由とバグを報告する場所が表示されるようになりました。\n- [Fixed] 大きすぎる/feedbackレポートが、トランスクリプトなしで再送信されずに失敗する問題を修正しました。\n- [Fixed] --add-dirフォルダ内のスキルが、別のスキルが既にその名前を保持している場合に到達できない問題を修正しました。<folder>:<name>として提供されるようになりました。\n- [Fixed] /verifyと/code-reviewが、シェルからファイルが変更されたときにネストされたパッケージ自身のスキルを見つけられない問題を修正しました。\n- [Fixed] /claude-apiスキルが、ant beta:worker poll --on-workがトレースコンテキストをコマンドに渡すと述べていた問題を修正しました。\n- [Fixed] /claude-apiスキルのC#トレース設定で、クラウドプラットフォームクライアントからのスパンが欠落していた問題を修正しました。\n- [Fixed] /claude-apiスキルが、AWS上のClaude PlatformへのリクエストのAPIスパンが呼び出し元のトレースに参加できないと述べていた問題を修正しました。\n- [Fixed] PowerShellで実行されるフックが、フックのプログラムがコード2で終了した場合にブロックせず、WindowsのPreToolUseおよびPermissionRequestフックで「shell」:「powershell」がGit for Windowsがインストールされていない場合に失敗オープンする問題を修正しました。\n- [Fixed] haikuのようなエイリアスでモデルを指定するmodのturn.stepフックが、モデルエラーですべてのリクエストに失敗する問題を修正しました。エイリアスがそのモデルに解決されるようになりました。\n- [Fixed] claude.aiから同期されたプラグインとスキルが、ディスク読み取りエラーの後、セッションの途中で削除されることがある問題を修正しました。\n- [Fixed] Claudeが最初に読み取れなかった、または特定のミニファイされたスクリプトを含むページなど、一部の通常のページに対するアーティファクトの公開および更新が拒否される問題を修正しました。\n- [Fixed] 会話がそのターンで圧縮された後、Claudeがそのターンの残りのアーティファクト更新ごとに許可を求める問題を修正しました。\n- [Fixed] ANTHROPIC_BEDROCK_BASE_URLがデフォルトのbedrock-runtime.<region>.amazonaws.comエンドポイントに設定されている場合に、Amazon Bedrockできめ細かいツールストリーミングがオフになる問題を修正しました。\n- [Fixed] 「Waiting for API response」のヒントが、キープアライブpingのみを送信するゲートウェイの背後でちらつく問題を修正しました。Anthropicのバックエンドからのルートは45秒待機するようになりました。\n- [Fixed] ClaudeがPR、issue、コメントでロール名とプレースホルダーをメンションとして記述することで、無関係なGitHubユーザーに通知する問題を修正しました。\n- [Fixed] Linux: バックグラウンドコマンドがセッションよりも長く存続した場合に、サンドボックスの書き込み拒否が解除される問題を修正しました。\n- [Fixed] Windows: PowerShellの権限チェックが、現在のディレクトリをターゲットとし、追加の引数を伴う一部のSet-Locationまたはcdコマンドを自動承認する問題を修正しました。これらは承認を促すようになりました。\n- [Fixed] macOS: XcodeまたはCommand Line ToolsがないMacでClaude Codeが起動するたびに「Install Command Line Developer Tools」ダイアログが開く問題を修正しました。\n- [Fixed] Self-hosted runner: --startup-timeout-minが、最初のプロンプト（例: /code-review）がサブエージェントでまだ動作しているセッションを停止する問題を修正しました。フリーズしたプロセスは引き続き停止されます。\n- [Improved] Claude CodeがWindowsで実行する多くのgitコマンドの速度を改善しました。すべてのプラットフォームで、これらのコマンドからのエラーは、gitが別の言語に設定されていても英語で表示されるようになりました。\n- [Improved] フックモジュールが深すぎるネストでロードできない場合のエラーを改善しました。生のスタックオーバーフローメッセージではなく、ファイル名が表示されるようになりました。\n- [Improved] ディスクフル処理を改善しました。ディスクフルで途切れたBashコマンドは、その旨を伝え、解放するフォルダ名を指定するようになりました。また、フルの一時ボリュームで起動すると、生のENOSPCエラーではなく、明確なメッセージが表示されるようになりました。\n- [Improved] /claude-apiスキルを改善し、OpenTelemetryの追加を求められたときにSDKトレースと並行してAPIトレースを提供するようにしました。\n- [Improved] /claude-apiスキルを改善し、機能がサポートされていないと述べる前にライブドキュメントを確認するようにしました。\n- [Improved] Self-hosted runner: 新しいrunnerに移動するセッションを改善しました。Claudeは、中断されたツール呼び出しを、結果不明としてマークして表示するようになりました。\n- [Updated] バンドルされたdatavizスキルを更新し、APCAをテキストコントラスト測定として受け入れ（AA準拠が必要な場合はWCAG 2比率を維持）、そのパレットバリデータースクリプトにapca(text, background)関数を追加し、色付きグラフ塗りつぶし内のラベルが白またはほぼ黒であるべきかどうかを伝えるようにしました。\n- [Updated] /claude-apiスキルを更新しました。サービスアカウントキーとWorkload Identity Federationトークンで、OpenTelemetryの宛先を管理できるようになりました。\n- [Changed] sed -iが標準のBashプロンプトを取得し、シミュレートされたファイル編集プレビューではなく、記述どおりに実行されるように変更しました。他のBash編集と同様に、/rewindでは復元されなくなりました。\n- [Changed] claude ultrareviewがワークスペースの信頼を要求するように変更しました。ターミナルで確認を求め、そうでなければ拒否します。スクリプトは--trust-workspaceを渡すか（値は取りません。PR番号またはベースブランチをその前に置きます）、CLAUDE_CODE_DISABLE_ULTRAREVIEW_TRUST_CHECK=1を設定します。\n- [Changed] DesktopアプリとVS Codeのバイパス権限モードで危険なrmおよびrmdirプロンプトを、リライトヒント付きでコマンドをすぐに拒否するように変更し、無人セッションが継続するようにしました。\n- [Changed] 設定でサンドボックスから除外されたコマンドが、サンドボックスが有効だが実行できない間に、その書き込みリストパスへの書き込み前に確認を求めるように変更しました。サンドボックス化されていないフォールバックはそこで拒否されます。\n- [Changed] worktreeの作成と再利用を変更し、gitが通常のクローンとBashサンドボックスが設定された部分クローンでオンデマンドでオブジェクトをフェッチしないようにしました。このような部分クローンは最初にそれらをフェッチします。\n- [Changed] /claude-apiスキルを変更し、Managed Agentsのサブエージェントチームをmultiagent_20261001で、動的ワークフローをデフォルトでオンにして構築するようにしました。以前はコーディネーターを使用していました。\n- [Added] [VSCode] 音声入力または拡張機能自体のリクエストが証明書検証に失敗した場合（TLS検査プロキシの背後など）に何を行うべきかを伝えるログ警告を追加しました。\n- [Fixed] [VSCode] エディタが不完全なファイルのコピーをキャッシュした後、Claudeパネルが空白のままになる問題を修正しました。現在は自分で回復するか、何が問題だったか、どうすれば修正できるかを伝えます。\n- [Fixed] [VSCode] メッセージを送信せずに新しいセッションを開始するたびに、セッション履歴が空の「Untitled」セッションでいっぱいになる問題を修正しました。\n- [Fixed] [VSCode] /goalのような長いスラッシュコマンドメッセージがチャットパネルを埋め尽くす問題を修正しました。他のプロンプトと同様に「Show more」の裏に折りたたまれるようになりました (#97469)。\n- [Fixed] [VSCode] チャットパネルが狭くなった後、長いメッセージが「Show more」の裏に折りたたまれない問題を修正しました。\n- [Fixed] [VSCode] チャット入力でCtrl+Jが常に改行を挿入する問題を修正しました。「ctrl+j」が~/.claude/keybindings.jsonのChatコンテキストでnullに設定されている場合、VS CodeとOSに任されるようになりました。\n- [Fixed] [VSCode] プロンプトの上にあるmodの「From the … plugin」ラベルが、スラッシュコマンドと@-mentionメニューの上に描画される問題を修正しました (#102981)。\n- [Fixed] [VSCode] コピーされたLaTeX数式を貼り付けたときに、空のリスト項目、段落、またはコードブロック、および1から番号が振り直されたリスト項目が発生する問題を修正しました。\n- [Fixed] [VSCode] 組織がフィードバックを受け付けていない場合に、フィードバックエラーがHTTPステータスのみを表示する問題を修正しました。\n- [Improved] [VSCode] チャットパネルでのEditとWriteの速度を改善しました。各編集後の新しい問題の待機時間は、ほとんどの場合、1～1.5秒から0.75秒に短縮されました。\n- [Fixed] [Cloud sessions] 通常のフォームで「Add connector」リストが、コネクタがまだロード中であるにもかかわらず利用可能なコネクタがないと表示される問題を修正しました。\n- [Fixed] [Cloud sessions] クラウド環境エディタが環境変数をシャッフルし、両方の種類の引用符を含む値にバックスラッシュを追加する問題を修正しました。\n- [Fixed] [Cloud sessions] 管理設定の自己ホスト型環境の詳細ダイアログで、タイトル、タブ、ボタンが常に表示され、コンテンツのみがスクロールするように修正しました。\n- [Fixed] [Cloud sessions] クラウドセッションの「read documentation」ツール行が、読み取り可能なページではなくエスケープされたJSONを表示する問題を修正しました。\n- [Improved] [Cloud sessions] クラウドセッションの「Changes」ペインを改善し、プッシュされたコミットのみ、またはClaudeの編集のみをリストしているかどうかを表示するようにしました。\n- [Fixed] [Claude Tag] SlackのClaudeが、チャネル用に承認したドラフトを誤ってDMに投稿する問題を修正しました。チャネルのない投稿は拒否され、承認されたチャネルに投稿されるようになりました。\n- [Fixed] [Claude Tag] SlackのClaudeの承認カードで「Allow」と「Deny」が、セッションが停止していたときに何も実行しない問題を修正しました。回答によってセッションが再開されるようになりました。\n- [Fixed] [Claude Tag] ワークスペースが別のClaude組織に移動した後、SlackチャネルでClaudeがタグ付けされていないメッセージを無視する問題を修正しました。これにはEnterprise Gridの共有されていないチャネルも含まれます。\n- [Fixed] [Claude Tag] SlackチャネルのClaudeが、誰かがそのスレッドに新しいメッセージを追加した直後に、スレッド応答を投稿する問題を修正しました。\n- [Fixed] [Claude Tag] Claude Tag管理設定のSlackページが、リストのロードに失敗したときに接続されているワークスペースがないと表示される問題を修正しました。エラーと「Retry」ボタンが表示されるようになりました。\n- [Fixed] [Code Review] 以前の作成試行が失敗した場合に、完了したレビューがプルリクエストでチェックを表示しない問題を修正しました。最終的な試行で完了したチェックが追加されるようになりました。\n- [Fixed] [Code Review] 実行中のレビューの後にキューに入れられたプッシュが、@claude review stopの後もレビューを開始する問題を修正しました。そのチェックは閉じられ、理由が示されるようになりました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.308",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
+      "summary": "- [Fixed] バグ修正と信頼性の向上を行いました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-10-22"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1075pt] PHP 8.2.35がリリース | PHP2Shellの脆弱性に関する議論と、セキュリティアップデートへの関心が集まっている。\n  https://news.ycombinator.com/item?id=50180873\n- [936pt] DNSリゾルバのQuad9、フランスからの撤退へ | DNSリゾルバがブロック要請で提訴される状況に疑問の声や、他企業の類似撤退事例が挙げられている。\n  https://news.ycombinator.com/item?id=50195959\n- [924pt] eMudhraのCAキーが数ミリ秒でクラックされる：「信頼の8ビット」 | 発見経緯への関心や、認証局の多さへの疑問、IoTデバイスのアップデートの難しさに関する議論が見られる。\n  https://news.ycombinator.com/item?id=50177916\n- [901pt] eMudhra、グローバルSSL/TLS証明書事業から撤退へ | ソーシャルメディアによる批判への言及や、関連するChromeチームからの厳しい質問が話題となっている。\n  https://news.ycombinator.com/item?id=50195110\n- [797pt] 今日のPHPセキュリティリリースと、セキュリティ強化の取り組み | セキュリティファームによる誤った情報公開や、禁輸措置を破った企業への批判が目立つ。\n  https://news.ycombinator.com/item?id=50182987\n- [685pt] Switch 2のジェイルブレイク | ジェイルブレイクの成功と、それによってゲームのダンプが登場する可能性への期待が寄せられている。\n  https://news.ycombinator.com/item?id=50192536\n- [679pt] EAがBioWareを閉鎖へ | BioWareの黄金期を懐かしむ声や、Dragon Ageシリーズへの失望、閉鎖が予見されていたとの意見が見られる。\n  https://news.ycombinator.com/item?id=50184586\n- [675pt] Meta、ニューメキシコ州のCambridge Analytica関連訴訟で250億ドルの罰金命令 | 巨額の罰金命令に対し、Metaが控訴し減額される可能性や、個人情報の扱いに関する懸念が議論されている。\n  https://news.ycombinator.com/item?id=50184820\n- [646pt] パリ協定の1.5°C目標はもはや実現不可能 | 気候変動問題に対する政治的行動の停滞への失望や、個人の選択による影響について議論されている。\n  https://news.ycombinator.com/item?id=50177911\n- [617pt] CSSの未来 | CSSの進化に対する賛否両論。フレームワークを使わない開発者からの高評価と、複雑化を懸念する声がある。\n  https://news.ycombinator.com/item?id=50175070",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "14 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Warhound、軍用犬開発で2億ドル調達 Anduril製装備搭載へ\n  https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/\n- OpenAI、IPO控え1.25兆ドル評価額で300億ドル調達へ\n  https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/\n- スタートアップ急成長の秘訣は早期営業に非ず、テック界のトップが語る\n  https://techcrunch.com/2026/10/22/the-secret-to-fast-startup-growth-isnt-early-sales-top-names-in-tech-say/\n- 1Password、パスワードを非公開でAIエージェントが代理ログインできる機能を発表\n  https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/\n- Canva、初の画像生成モデルをリリース\n  https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/\n- OpenAI、決定モデル競争激化の中、Jev対抗サービスを一般公開\n  https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/\n- MicrosoftのMustafa Suleyman氏、AIが難症例で医師を凌駕と語る、「医療スーパーインテリジェンス」を追求\n  https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/\n- 元OpenAI科学主任、ロボットでウェットラボ自動化のWarp Scienceを創業\n  https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/\n- 中国人ハッカー、IT大手ConnectWise侵害後、数千社をスパイ\n  https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/\n- TechCrunch Disrupt 2026 Startup Battlefield 200：輝かしい功績を称える\n  https://techcrunch.com/2026/10/22/techcrunch-disrupt-2026-startup-battlefield-200-celebrating-outstanding-achievements/\n- Uber、全従業員3万人にChatGPT Workを導入\n  https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/\n- 投資家が解説、現在のSeries A調達方法\n  https://techcrunch.com/2026/10/22/investors-break-down-how-founders-can-raise-a-series-a-today/\n- SpotifyのAI戦略、エージェントが選ぶ音楽サービスを目指す\n  https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/\n- 核融合スタートアップHelion、発電量倍増の新型半導体を開発中\n  https://techcrunch.com/2026/10/22/fusion-startup-helion-is-developing-new-semiconductors-that-could-double-output-of-its-power-plants/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- DeepCell：オフィスワークの締め切り対策キット\n  https://www.producthunt.com/products/deepcell\n- Loom Record for agents：Loom新アプリでAIに記録と引き継ぎを任せよう\n  https://www.producthunt.com/products/loom\n- Kalender Sync：カレンダーを同期してChatGPT、Claudeなどに連携\n  https://www.producthunt.com/products/kalender-sync\n- CutBay：AI動画エージェント、チャットであらゆるものを動画に変換\n  https://www.producthunt.com/products/cutbay\n- Concierge by Juniors AI：オムニチャネルAIファーストのカスタマーサポート（6ヶ月無料）\n  https://www.producthunt.com/products/concierge-by-juniors-ai\n- Notif：AppleリマインダーをAIで強化\n  https://www.producthunt.com/products/notif-2\n- Tetriz Engg Intelligence + Connectors：コーディングセッションをPR、課題、品質、ROIに接続\n  https://www.producthunt.com/products/tetriz-engg-intelligence-connectors\n- Sponkly：チャット、通話、会議、YouTubeに対応した音声ライブ翻訳\n  https://www.producthunt.com/products/sponkly\n- Voxelo 3.0：スマホ動画から1時間でフォトリアルな3DとJSON-LDを生成\n  https://www.producthunt.com/products/voxelo-ai\n- Causo：AIリサーチとMCPでデータベースフィルターを超えたリードを発掘\n  https://www.producthunt.com/products/causo",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "summary": "AIエージェントに特化した知識やワークフローを与えるオープン標準「Agent Skills」が、Agentic AI Foundationに寄付された。",
+      "ogImage": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "publishedAt": "2026-10-22"
+    },
+    {
+      "sourceName": "Anthropic",
+      "title": "Open call for guest investigators in the life sciences",
+      "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+      "summary": "ライフサイエンス分野の研究者との連携プロジェクトを開始する。",
+      "ogImage": "https://www-cdn.anthropic.com/images/4zrzovbb/website/633e51e2d75a5c14022fa48961b886553d41ce9d-1200x630.jpg",
+      "publishedAt": "2026-10-22"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "6 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Plek、従業員の業務内容とコストを可視化\n  https://www.plek.ai/\n- Verdun、世界最高水準のセキュリティ監視サービスを提供\n  https://verdun.ai\n- Telamont、建設文書のリスクを監視するSentryを開発\n  https://telamont.com\n- Lux Foods、太陽光なしで育つ高品質フルーツ向け作物を開発\n  https://www.luxfoods.xyz\n- Kairox Systems、空も水中も飛行可能な自律ドローンを発表\n  http://www.kairoxsys.com/\n- AnyAlpha、エージェント型トレーディングプラットフォームをリリース\n  https://anyalpha.ai/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "sourceName": "BRIDGE",
+      "title": "7 Articles",
+      "url": "https://thebridge.jp/category/news-and-column/",
+      "summary": "- 経理AIエージェントのTOKIUM、東証グロース上場へ——想定時価総額は約168.4億円\n  https://thebridge.jp/2026/10/tokium-tse-growth-ipo-approved\n- 現場DXのSaaSを展開するカミナシ、シリーズCで約22.1億円を調達——新構想「現場オペレーションHub」発表\n  https://thebridge.jp/2026/10/kaminashi-raises-series-c-funding-for-genba-operation-hub\n- 警備や点検を担う国産AIロボットのugo、みずほ銀行などからデットファイナンスで10億円を調達\n  https://thebridge.jp/2026/10/ugo-raises-1-billion-yen-debt-financing-from-mizuho-bank-bank-of-yokohama-and-jfc\n- Google Cloud、OpenAIの「GPT-6 Astra」など3モデルをModel Gardenで提供開始、一部企業に限定プレビュー\n  https://thebridge.jp/2026/10/google-cloud-openai-models-model-garden-gpt-6\n- 議決権行使の調査をAIで支援するPennant、シードラウンドで500万ドルを調達\n  https://thebridge.jp/2026/10/pennant-seed-5m-proxy-voting-ai\n- 軍の兵站計画をAIでシミュレーションするWatchtower Labs、シードで3,500万ドルを調達\n  https://thebridge.jp/2026/10/watchtower-labs-seed-35m-military-logistics-ai-simulation\n- ビルドとテストを高速化するCI基盤のBlacksmith、Sequoia主導で6,600万ドルを調達し評価額10億ドルに\n  https://thebridge.jp/2026/10/blacksmith-series-c-sequoia-ci-cloud",
+      "ogImage": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
+      "url": "https://www.latent.space/p/modal-d",
+      "summary": "AIインフラ企業のModalは、サーバーレスAIインフラの需要急増に対応し、予測不能なGPU需要を効率的に管理するため、複数のクラウドプロバイダーや地域からGPUを調達・プールし、オンデマンドで提供する戦略を展開している。",
+      "publishedAt": "2026-10-23",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!le3e!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F221647996%2F673aa54c-dde5-4192-be14-189872df655b%2Ftranscoded-1792686563.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "You are the Team  — Anekha Sokhal, Moshi",
+      "url": "https://www.latent.space/p/moshi",
+      "summary": "元トレーダーが創業したMoshiは、AIを活用して金融市場の膨大なデータをリアルタイムで分析し、トレーダー向けの洞察を提供する。",
+      "publishedAt": "2026-10-22",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!U_nh!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F221404681%2F7532ee0a-716c-45b3-8a1a-8f6a791659de%2Ftranscoded-1792540372.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
+      "url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
+      "summary": "OpenAIが支援する研究者らがGPT-5.6 SolなどのAIモデルを活用し、PHPエンジンにリモートコード実行などの重大な脆弱性「PHP2Shell」を発見・修正した。",
+      "publishedAt": "2026-10-22",
+      "ogImage": "https://substackcdn.com/image/fetch/$s_!Ak4o!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f193200-5a32-4d16-8cef-d36ab44b0848_1440x1290.png"
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "3 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- 使用状況メトリックAPIにカスタムスキル、エージェント、MCPサーバーが登場\n  https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api\n- Copilot機能のグローバルなデフォルト設定が一般提供開始\n  https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available\n- Copilot影響ダッシュボードに業界比較機能を追加\n  https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-10-23"
+    }
+  ]
+}
