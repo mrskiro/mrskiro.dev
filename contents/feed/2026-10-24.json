@@ -1,0 +1,125 @@
+{
+  "fetchedAt": "2026-10-23T23:35:44.617Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "summary": "OpenAIがHabitatをAzure Cosmos DB等で拡張し、ChatGPTの読み込みを12倍高速化。",
+      "publishedAt": "2026-10-24",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/1p8WL4wct7MU8nnw6609WL/6ae794fe4cc93d37cc095d4d45730669/scaling-storage-one-billion-users-part-two-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Securing our frontier model training environment",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "summary": "OpenAIは、最新AIモデルのトレーニングと評価において、オフライン環境や計算集約型レッドチーミングを含むセキュリティ強化策を講じたと説明。",
+      "publishedAt": "2026-10-23",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/5Ho5AoUkijZ1OWhqcDlVvT/84af1aa075c5e8e44d9dc93d0146c31f/new-approach-to-research-model-containment-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "summary": "OpenAIとポーランドのNASKがAIの安全性、セキュリティ、技術研究で提携。",
+      "publishedAt": "2026-10-23",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/2QFh7GNhKrntGGGPok2slW/0a4c69fe28104fc2102821d451277b06/openai-and-poland-s-nask-announce-partnership-seo.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "What FDE means at OpenAI",
+      "url": "https://openai.com/index/forward-deployed-engineering-means",
+      "summary": "OpenAIにおける前方展開エンジニアリングの意義を解説。",
+      "publishedAt": "2026-10-22",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/avyxVkYFTgBKxOXiHxw1C/ab86099b3fc9ac1fa3fc3c13ff36c0c0/forward-deployed-engineering-means-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1335pt] Quad9がフランスでの事業から撤退へ | DNSリゾルバへの法的措置に多くの疑問や不満の声\n  https://news.ycombinator.com/item?id=50195959\n- [1188pt] ローカルWikipedia：徒歩30分圏内の情報に特化したWikipedia | 「近くの」情報に惹かれる心理や、距離設定の柔軟性について活発な議論\n  https://news.ycombinator.com/item?id=50202285\n- [1134pt] eMudhra、グローバルSSL/TLS証明書事業から撤退 | Web PKIの根本的な問題点や、認証局の存在自体が脆弱性だという指摘\n  https://news.ycombinator.com/item?id=50195110\n- [816pt] Dockerは奇妙だ | Dockerの内部構造に関する考察、Podmanとの比較や設計思想への言及\n  https://news.ycombinator.com/item?id=50202681\n- [814pt] Switch 2をジェイルブレイク | Switch 2のハッキング成果に驚きと期待の声、自動化ツールへの関心も\n  https://news.ycombinator.com/item?id=50192536\n- [707pt] PHP RCEのエンバーゴを意図せず破ってしまった件について、申し訳ありません | エンバーゴの認識不足による情報公開について、同情と責任の所在に関する議論\n  https://news.ycombinator.com/item?id=50193416\n- [697pt] 本日、我々はハッキングを目指していたiPhoneをハッキングした | 脱獄の自由を求める声や、Lockdownモードの効果、セキュリティ研究環境への疑問\n  https://news.ycombinator.com/item?id=50211474\n- [658pt] CashApp詐欺口座に名前を使われ、コンピューター詐欺で起訴された女性 | 無実を主張する女性への不当な起訴に憤りの声、CashAppの責任を問う意見も\n  https://news.ycombinator.com/item?id=50194833\n- [649pt] Kimi K3.1 ProとK3.1 Pro Highspeed | モデルの性格や費用対効果、中国のAI開発能力に関する活発な議論\n  https://news.ycombinator.com/item?id=50212065\n- [628pt] このPHP脆弱性には簡単なエクスプロイトは存在しない | 脆弱性に関する当初の認識と、その後のPoC公開により意見が変化したことへの指摘\n  https://news.ycombinator.com/item?id=50188948",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-10-24"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "10 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- スタートアップに「バズる」必要なし、顧客獲得の秘訣とは\n  https://techcrunch.com/2026/10/23/startups-dont-need-to-go-viral-to-win-customers/\n- OpenAI、AIモデルの学習に「重大なリスク」を理由にライブインターネット利用を停止\n  https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/\n- クリスマスの人気No.1は？ Nvidia CEOも夢中になったキュートなMicroduckロボット、2万台販売\n  https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/\n- VCとSuperhuman Mail創業者が語る、プロダクトマーケットフィットの落とし穴\n  https://techcrunch.com/2026/10/23/vcs-superhuman-mail-founder-share-red-flags-about-product-market-fit/\n- TechCrunch Founder Summit 2026：創業者が直面する課題を深く掘り下げる円卓会議\n  https://techcrunch.com/2026/10/23/techcrunch-founder-summit-2026-roundtables-go-deeper-on-the-challenges-founders-are-solving-right-now/\n- CartaとNewViewが提携、従業員早期株式売却を推進しスタートアップを誘致\n  https://techcrunch.com/2026/10/23/carta-and-newview-partner-hoping-to-entice-more-startups-to-let-employees-sell-shares-early/\n- ToastからBessemerまで、TechCrunch Founder Summit 2026登壇者発表\n  https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/\n- エージェントクラウドのDaytonaが10億ドル評価達成、FirstMarkや著名エンジェルが出資\n  https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/\n- UberのライバルinDrive、2027年中央アジアでPony AIとNvidiaとロボタクシー試験を計画\n  https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/\n- 何もすることがなくなったAIエージェント、遊び始める\n  https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-10-24"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Dub、パートナー主導の成長プログラムを開始\n  https://www.producthunt.com/products/dub\n- Gerty、Macで動作するプライベートChatGPT代替\n  https://www.producthunt.com/products/gerty\n- Bloblings、Claude CodeセッションごとのAIペット\n  https://www.producthunt.com/products/bloblings\n- Context Engine、AIエージェントと人間チームの共通記憶\n  https://www.producthunt.com/products/context-engine-2\n- Peras、Claude CodeとCodexの暴走を防ぎ、時間を節約\n  https://www.producthunt.com/products/peras\n- Cloudflare Clairic、高速・安価なデータ抽出を実現するCloudflareのAIモデル\n  https://www.producthunt.com/products/cloudflare\n- ElevenLabs Realtime、570msで最初のオーディオを生成するリアルタイム音声エージェントモデル\n  https://www.producthunt.com/products/realtime-max-mini\n- Product Hunt Visual Launch Editor、ローンチを構築しながらリアルタイムでプレビュー\n  https://www.producthunt.com/products/producthunt\n- MOVO AI、モバイル向け世界初の長尺動画エージェント\n  https://www.producthunt.com/products/movo-ai\n- Dots、Macのノッチに組み込まれたカスタマイズ可能なワークスペース\n  https://www.producthunt.com/products/dots-7",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-10-24"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "4 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Topos、形式検証向けエージェント群開発\n  https://www.toposlab.com\n- Liquid Energy、太陽光でAI推論するモジュール「NanoDC」を発表\n  https://www.liquidenergy.world\n- Epsilab、実データから長期的強化学習環境を構築\n  https://www.epsilab.com\n- STASIS、160億個の目のための「WHOOP」を開発\n  https://www.get-stasis.com/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-10-24"
+    },
+    {
+      "sourceName": "BRIDGE",
+      "title": "9 Articles",
+      "url": "https://thebridge.jp/category/news-and-column/",
+      "summary": "- Meta、利用者に代わって作業を進めるAIエージェント「Muse」を日本で提供開始、北米以外で初\n  https://thebridge.jp/2026/10/meta-muse-personal-ai-agent-japan-launch\n- 衛星向けレーザー送電を開発するZero Industries、前澤ファンドなどからプレシードで300万ドルを調達\n  https://thebridge.jp/2026/10/zero-industries-raises-3m-pre-seed-for-satellite-laser-power\n- 血液検査の精度を高める磁性ナノ粒子を開発するSEGNOS、プレシリーズAで資金調達\n  https://thebridge.jp/2026/10/segnos-raises-pre-series-a-from-bp-capital\n- 鉄骨柱の測定を自動化するニコン発のクロスセクター、シリーズAまでに融資含め累計7.7億円を調達\n  https://thebridge.jp/2026/10/cross-sector-raises-770-million-yen-through-series-a\n- Anthropic、先回りして仕事を進めるエージェントアプリ「Claude Duet」を研究プレビューで公開\n  https://thebridge.jp/2026/10/anthropic-claude-duet-proactive-agent-app\n- Canva初の画像生成モデル「Canva Craft」公開——読める文字や複雑なレイアウトを生成、APIでも提供\n  https://thebridge.jp/2026/10/canva-craft-image-generation-model\n- 3Dスキャンから土木のCAD図面を自動で描くMach9、シリーズAで3,400万ドルを調達\n  https://thebridge.jp/2026/10/mach9-series-a-ai-cad-civil-engineering\n- AIとロボットで創薬の化学実験を担うWarp Sciences、Lightspeed主導のシリーズAで資金調達\n  https://thebridge.jp/2026/10/warp-sciences-series-a-215m-ai-robotic-chemistry-lab\n- AIとセンサーで機械の故障を予測するTractian、シリーズDで1.3億ドルを調達し評価額14億ドルに\n  https://thebridge.jp/2026/10/tractian-series-d-130m-physical-ai-asset-health",
+      "ogImage": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
+      "publishedAt": "2026-10-24"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "AI Is Getting Good at Math. Here’s Why.",
+      "url": "https://latent.space/p/ai-is-getting-good-at-math/",
+      "summary": "AIモデルは、人間が時間や労力、モチベーションを理由に諦めてしまうような複雑な数学の問題を、大量の計算と試行錯誤で解決し始めている。",
+      "publishedAt": "2026-10-24",
+      "ogImage": "https://latent.space/og/card/post/ai-is-getting-good-at-math/81d5ad0c4d69fdf1e50b3e421806a0b816e1e19166d1c828fddd82ddafc35e6a.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Black October",
+      "url": "https://latent.space/p/ainews-black-october/",
+      "summary": "「ブラック・オクトーバー」と呼ばれるAIが関与する大規模なサイバー攻撃が報告され、同時に多くのAIモデルや関連技術の発表、ベンチマーク更新、そしてAIによるテレビ改造やロボット量産計画などの多様な動きがあった。",
+      "publishedAt": "2026-10-23",
+      "ogImage": "https://latent.space/og/card/post/ainews-black-october/e87588287cc11b2b9fb2571156ba80e8ec9e244e4d23fc0a00d6337530da56e5.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
+      "url": "https://latent.space/p/modal-d/",
+      "summary": "AIインフラ企業のModalは、サーバーレスAIインフラの需要急増に対応し、特にGPUの調達・管理、エージェントがコードを実行する「サンドボックス」機能の拡張に注力している。",
+      "publishedAt": "2026-10-23",
+      "ogImage": "https://latent.space/og/card/post/modal-d/96858da03bf91732338988905bb21c22b59d733a903ba45159e78e6b3e83a5c4.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "You are the Team  — Anekha Sokhal, Moshi",
+      "url": "https://latent.space/p/moshi/",
+      "summary": "元トレーダーのCEOが、市場情報を投資家のポートフォリオに繋ぐレコメンデーションエンジン「Moshi」について語り、AIエンジニアが直面する課題や顧客との対話の重要性を強調した。",
+      "publishedAt": "2026-10-22",
+      "ogImage": "https://latent.space/og/card/post/moshi/bdcd6b8245af849c979fea8e7b4666aff707556a5062361074f68922da3382a5.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
+      "url": "https://latent.space/p/ainews-openais-patch-the-planet-program/",
+      "summary": "OpenAIのAIモデルがPHPの脆弱性を発見し、業界全体で緊急対応が行われた他、中国の企業がNVIDIAのAIチップを大量注文し、HBMメモリ価格の高騰が予測されている。",
+      "publishedAt": "2026-10-22",
+      "ogImage": "https://latent.space/og/card/post/ainews-openais-patch-the-planet-program/d7ad4d2ae0cd1607eda392842b1a29d90a29dd6975b0262191ff7bceb24bdf6a.png"
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "2 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- TeamsでGitHub Copilotを活用：通知をコードに変換\n  https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams\n- GitHub Copilot、Visual Studioで9月アップデートを実施\n  https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-10-24"
+    }
+  ]
+}
