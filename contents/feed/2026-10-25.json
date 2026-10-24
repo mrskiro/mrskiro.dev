@@ -1,0 +1,53 @@
+{
+  "fetchedAt": "2026-10-24T22:45:42.004Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.310",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
+      "summary": "- [Added] Bedrock、Vertex、FoundryでMonitorツールとプラグインモニターが追加され、テレメトリーや不要なトラフィックが無効な場合でも、長時間フォアグラウンドスリープがブロックされるようになりました。\n- [Fixed] 一部のゲートウェイや互換性のあるサーバーがeffort-2025-11-24ベータ値や会話中のシステムメッセージを拒否し、リクエストが失敗する問題が修正されました。Claude Codeはこれらなしでリトライするようになりました。\n- [Fixed] cleanupPeriodDaysが非常に大きな値に設定されている場合、バックグラウンドクリーンアップがペーストされた画像などの最近のファイルを削除してしまう問題が修正されました。\n- [Fixed] 「プロンプトが長すぎます」エラー後の圧縮が、base64やSVGのような密なテキストを含む会話を多く保持しすぎ、次のリクエストが再び失敗する可能性があった問題が修正されました。\n- [Fixed] シンボリックリンクが指す場所でファイル読み取り権限プロンプトが表示されない問題が修正されました。\n- [Fixed] 外部エディタが長時間編集後に閉じられた瞬間に、質問の自動続行タイムアウトが発火する問題が修正されました。\n- [Fixed] Windows: PreToolUseおよびPermissionRequestフックが、Git Bashがない場合、またはフックのコマンドが引用符付きパスなどの引用符付き文字列のみの場合にツール呼び出しを許可してしまう問題が修正されました。\n- [Improved] 自動モードの作業ディレクトリ外での最初の読み取り前のプロンプトが改善され、これらの読み取りをブロックするとシェルコマンドが権限を要求することを示すようになりました。\n- [Improved] トランスクリプトファイルが非常に大きい場合の圧縮中の非対話型セッション（-p、Agent SDK）のメモリ使用量が改善されました。\n- [Improved] tmux内でallow-passthroughおよびfocus-eventsをオンにしたkitty、Ghostty、iTerm2 3.5+のフルスクリーンレンダリングで、altテキストのみが表示されていたmodのImageの描画が改善されました。\n- [Improved] Linux: /sandboxとサンドボックス起動警告が改善され、UbuntuのAppArmorによるユーザー名前空間の制限と、bubblewrapがサンドボックスを起動できない場合の解除方法を明記するようになりました。\n- [Changed] サーバーの引き出しに未回答のまま非対話型セッションでタイムアウトするMCPツール呼び出しのエラーメッセージが変更され、Claudeに回答がなかったことと呼び出しを繰り返さないように伝えるようになりました。\n- [Fixed] [VSCode] プランレビューカードの「フィードバックを送信して計画を続行」ボタンでEnterキーを押すと、コメントを送信する代わりにプランを承認してしまう問題が修正されました。\n- [Fixed] [VSCode] セッション履歴のWebタブから開かれたクラウドセッションで「ブランチを切り替えて続行」した後にパネルに「何か問題が発生しました」と表示される問題が修正されました。\n- [Added] [クラウドセッション] Claude CodeクラウドセッションとRemote Controlの権限がEnterpriseカスタムロールに追加され、オーナーがロールごとにアクセスを制御できるようになりました。\n- [Added] [クラウドセッション] ファイルからクラウド環境のセットアップスクリプトをロードするための「ファイルを選択」ボタンが追加されました。\n- [Fixed] [クラウドセッション] クラウド環境編集ダイアログ内で保存とアーカイブの失敗がエラーを表示しない問題が修正されました。\n- [Fixed] [クラウドセッション] 定期的なAPIトークンアクションの失敗がトーストのみを表示する問題が修正されました。エラーはルーチン編集ダイアログに表示されるようになりました。\n- [Improved] [クラウドセッション] セッション開始チェックリストが改善され、クラウド環境のセットアップスクリプト出力がスクロールボックスに表示されるようになりました。\n- [Changed] [クラウドセッション] 管理設定でクラウドセッションまたはRemote Controlをオンにする際に、確認を求め、その権限を持つカスタムロールをリスト表示するように変更されました。\n- [Changed] [クラウドセッション] クラウド環境ダイアログが変更され、ネットワークアクセス、セットアップスクリプト、環境変数が一度にすべてのエディターをリストするのではなく、行から開かれるようになりました。\n- [Fixed] [Claude Tag] Claude Tagが、太字、斜体、取り消し線で送信された!restartや!helpのような!コマンドを通常のメッセージとして扱ってしまう問題が修正されました。\n- [Fixed] [Claude Tag] Claude Tagの管理チャネルおよびワークスペースページが、バンドルリストのバックグラウンド更新に失敗した場合にロードエラーに置き換えられてしまう問題が修正されました。\n- [Fixed] [Claude Tag] Claude Tagの管理設定の利用制限ページで、チャネル名がまだロード中であるにもかかわらず、フィルターに一致するチャネルがないと報告される問題が修正されました。\n- [Fixed] [Code Review] Code Reviewの管理セクションが、リポジトリリストの更新に失敗した後にリポジトリとスイッチを隠してしまう問題が修正されました。\n- [Improved] [Code Review] Code Reviewの管理セクションが改善され、最初のロードを再試行し、それでも失敗した場合は「再試行」バナーを表示するようになりました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-10-24"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1530pt] ローカルWikipedia：徒歩30分圏内の情報に特化したWikipedia | 近隣の情報に特化するアイデアは良いが、距離設定をカスタマイズしたいという意見が多数。\n  https://news.ycombinator.com/item?id=50202285\n- [1068pt] 本日、私たちはiPhoneのハッキングに成功した | Lockdownモードでの保護への疑問や、rootアクセスを望む声が見られる。\n  https://news.ycombinator.com/item?id=50211474\n- [1057pt] Kimi K3.1 Pro と K3.1 Pro Highspeed | モデルがKimiとChatGPTを混同する、他モデルとの性能差に関する指摘がある。\n  https://news.ycombinator.com/item?id=50212065\n- [911pt] Apple Music 404 Not Found | Appleの遊び心に好意的な声と、Safariでの不便さを指摘するコメントがある。\n  https://news.ycombinator.com/item?id=50207910\n- [860pt] Dockerは奇妙だ | Dockerの作者からのコメントや、Podmanとの比較、内部構造に関する議論が見られる。\n  https://news.ycombinator.com/item?id=50202681\n- [607pt] およそ12の銀行アプリがGrapheneOSを特別に許可し始めた | GrapheneOSユーザーからの歓迎と、銀行が技術でアクセスを制限することへの不満が混在。\n  https://news.ycombinator.com/item?id=50217495\n- [549pt] 投資家が所有する公益事業は公営プロバイダーよりも電気料金が23%高い | 公営と民営の効率性に関する議論、地域差や税率考慮の必要性が指摘されている。\n  https://news.ycombinator.com/item?id=50208837\n- [526pt] あなたの携帯電話はもうあなたの物ではなくなる：ロックダウンまであと70日 | サイドローディングの制限への強い反発と、詐欺対策という目的への理解が対立。\n  https://news.ycombinator.com/item?id=50208558\n- [498pt] Dessa：音声のみで訓練された会話モデル | ローカル動作や言語学習への応用を評価する一方、会話の不自然さを指摘する声も。\n  https://news.ycombinator.com/item?id=50213925\n- [485pt] カナダ人は法案C-22に反対する時間が残り少ない | 法案撤回を求める活動と、メッセージサービスがカナダをブロックする可能性への懸念がある。\n  https://news.ycombinator.com/item?id=50202114",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-10-25"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "6 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- AIプロジェクトの墓場：失敗に終わったスタートアップとプロジェクトのリスト\n  https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/\n- Blockの新たな音声モデルは驚くほど人間に近い\n  https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/\n- 選択を迫られたGrokのAIモデルは共和党を選択、OpenAIは民主党を選択\n  https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/\n- メッセージで使えるAIエージェントのトップリスト\n  https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/\n- スタートアップは顧客獲得のためにバズる必要はない\n  https://techcrunch.com/2026/10/23/startups-dont-need-to-go-viral-to-win-customers/\n- OpenAI、AIモデルの学習にライブインターネット利用を停止へ、「重大なリスク」を指摘\n  https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-10-25"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Shedi：Xcode、Docker、node_modulesが占領したスペースを取り戻す\n  https://www.producthunt.com/products/shedi\n- zCAD AI：形状だけでなく、実際の部品を作成するAI 3D\n  https://www.producthunt.com/products/zcad-ai\n- Basedash Scheduled CSV Exports：一度設定すれば、毎週Slackまたはメールで最新のCSVを自動配信\n  https://www.producthunt.com/products/basedash\n- Many Displays：スリープ解除、ロック解除、再接続後もゼロクリックでウィンドウを復元\n  https://www.producthunt.com/products/many-displays\n- Canva Craft：プロンプトから編集可能なデザイン向け画像を生成\n  https://www.producthunt.com/products/canva\n- myPip：AIでコード、パブリッシュ、ゲームを収益化\n  https://www.producthunt.com/products/mypip-2\n- AgentValley：MacのノッチでClaude Codeエージェントを一覧表示\n  https://www.producthunt.com/products/agentvalley\n- Penta：iPhone Duoで楽しむ90年代の5枚組CDチェンジャー\n  https://www.producthunt.com/products/penta-cd-player-changer\n- Byter：あらゆるネットワークで、正確なデータ使用量を把握\n  https://www.producthunt.com/products/byter\n- River Writer：脚本、戯曲、小説執筆のための静かなMacアプリ\n  https://www.producthunt.com/products/river-writer",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-10-25"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
+      "url": "https://latent.space/p/ainews-kimi-31/",
+      "summary": "Moonshot AIが2.8兆パラメータのオープンウェイトモデル「Kimi K3.1 Pro」を発表し、既存モデルを上回る性能を見せた一方、その費用対効果やプロモーション手法が議論されている。",
+      "publishedAt": "2026-10-24",
+      "ogImage": "https://latent.space/og/card/post/ainews-kimi-31/4da802572e7369acdf4cbdee535f934d70a599942d61e7d15b8168b70aeb7a84.png"
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "1 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- OpenCodeなどのツールでの利用状況も計測、Usage metrics APIが機能拡充\n  https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-10-25"
+    }
+  ]
+}
