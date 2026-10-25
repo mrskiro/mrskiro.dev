@@ -1,0 +1,45 @@
+{
+  "fetchedAt": "2026-10-25T22:51:23.194Z",
+  "entries": [
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [736pt] Samsung製テレビでrootシェルが利用可能に | 「監視機能」に不満や疑問の声が多く、一部には訴訟を提起する動きもある。\n  https://news.ycombinator.com/item?id=50218633\n- [731pt] 我々はもっと野心的なソフトウェアを開発すべきだ | AI活用で開発が加速する一方、ソフトウェアの品質や多様性の重要性についても議論されている。\n  https://news.ycombinator.com/item?id=50225695\n- [673pt] およそ12の銀行アプリがGrapheneOSを正式にサポート | GrapheneOSユーザーからは歓迎の声があるものの、銀行側のセキュリティ対策の不透明さへの懸念も。\n  https://news.ycombinator.com/item?id=50217495\n- [608pt] ハイテク産業以外でAIの恩恵が見られない | AIによる生産性向上がハイテク分野以外でまだ見られないことに対し、その理由や歴史的背景を考察する意見が多い。\n  https://news.ycombinator.com/item?id=50224463\n- [580pt] ビットコインを盗んでみろ | サーバーが過負荷でダウンを繰り返しており、なかなかハックに成功できないとの報告が多い。\n  https://news.ycombinator.com/item?id=50224916\n- [561pt] プログラミング言語 Goose | 作者による詳細説明があり、メモリ管理や動的データ構造の扱いについて質問や議論が交わされている。\n  https://news.ycombinator.com/item?id=50224100\n- [497pt] 米国でメディア・映画・芸術分野の20万人が失業。AIの影響は？ | エンターテイメント業界の質低下や、コンテンツ供給過多、景気低迷など複合的な要因が指摘されている。\n  https://news.ycombinator.com/item?id=50226419\n- [465pt] Meta、ボルソナロ優遇停止のブラジル裁判所命令を無視 | MetaのAIが特定の政治家を優遇する疑惑に対し、SNSアルゴリズムの偏りや国家のデジタル主権に関する議論が活発。\n  https://news.ycombinator.com/item?id=50229587\n- [465pt] イーロン・マスクが欧州に米国技術を代替する理由を与えた | Starlinkの運用を巡る問題から、欧州が独自の宇宙技術開発を進めるべきとの意見が多い。\n  https://news.ycombinator.com/item?id=50220913\n- [465pt] OBS Studio 33 | 多数のユーザーがOBSの安定性や機能向上を称賛し、不具合の報告も散見される。\n  https://news.ycombinator.com/item?id=50218430",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-10-26"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "3 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Grok、AI生成アニメ『Odyssey』冒頭7分間を公開\n  https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/\n- 大半の企業にとってAIは「金銭的利益ゼロ」、Apolloエコノミストが指摘\n  https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/\n- 注目AIウェアラブル＆ガジェットをチェック\n  https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-10-26"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Specsight — AIで高速開発を支援するチーム向けプロダクト可視化ツール\n  https://www.producthunt.com/products/specsight\n- Moli by Lexmount — エージェントとハーネス向け最速ヘッドレスブラウザ\n  https://www.producthunt.com/products/lexmount-browser\n- Llama Windows — Windowsアプリを統合するローカルAIサーバー\n  https://www.producthunt.com/products/llama-windows\n- Clips by Plastic — 楽曲に合わせて自動生成する歌詞ビデオ広告\n  https://www.producthunt.com/products/clips-by-plastic\n- MRRaudit — MRR差異を分析し、信頼できる数値を提供する\n  https://www.producthunt.com/products/mrraudit\n- Yourcast 2.0 — TelegramでAI要約とタップジャンプ式タイムスタンプ\n  https://www.producthunt.com/products/yourcast\n- Badgey — iPhoneが会議室のデジタル名札に\n  https://www.producthunt.com/products/badgey\n- pawl — 肉球を引いてスタートする、Mac向けミニマル集中タイマー\n  https://www.producthunt.com/products/pawl\n- AgentGrid.io — 人間とAIエージェントの共有ワークスペース\n  https://www.producthunt.com/products/agentgrid-io\n- Openstatus Incident Management — 小規模チーム向けインシデント管理ツール\n  https://www.producthunt.com/products/openstatus-2",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-10-26"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "2 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Vouch、すべてのインド国民に向けたAIウェルスマネージャーを発表\n  https://vouchwealth.com/\n- Canos、犬のガンをAIで発見する血液検査を開発（猫にも近々対応）\n  https://www.canos.ai",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-10-26"
+    },
+    {
+      "sourceName": "GitHub Trending",
+      "title": "Weekly Trending",
+      "url": "https://github.com/trending?since=weekly",
+      "summary": "",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-10-26"
+    }
+  ]
+}
