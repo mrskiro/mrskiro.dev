@@ -1,0 +1,117 @@
+{
+  "fetchedAt": "2026-10-27T00:06:49.253Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "summary": "GreptileがGPT-6 Astraなどでユーザーワークフローテストやセキュリティ強化、手戻り削減を実現。",
+      "publishedAt": "2026-10-27",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/41HmEnWTxiRSX2JLf1g8IJ/86b6e146a0620d83db05f4010e6b058e/greptile-connections-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Working with academic communities to build scientific understanding",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "summary": "OpenAIが公開した数学・物理学分野のモデル結果について、研究者が検証・発展させるための情報を提供。",
+      "publishedAt": "2026-10-26",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/5HKwJOTURosg0IoKJA21s8/88eefd210a578266fca1a9d9454daadc/from-ai-results-to-scientific-understanding-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "summary": "CodeRabbitがGPT-6.1 Solで複雑なコードベースのセキュリティリスクを調査し、開発者を支援するエージェントを提供。",
+      "publishedAt": "2026-10-26",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/1ksgDNZQ7aw2uHUY6xbaVm/0ffd141428e2cea70f4dcbf67ccd6245/gpt-6-1-sol-helps-coderabbit-strengthen-security-across-complex-codebases-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "ChatGPT’s expanding world of work",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "summary": "OpenAIが100か国近くの165の仕事活動におけるChatGPTの利用状況と変化を分析したデータ「Signals」を公開。",
+      "publishedAt": "2026-10-26",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/6K9gMLTc6r3aFUbyZ2uZDN/d05f2ece956d33201cab06373febac3a/how-workers-use-chatgpt-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "How Fanatics and OpenAI streamline the fan experience",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "summary": "FanaticsがOpenAIを活用した「Shop the Look」機能で、ファン向けのファッション提案を強化し、エンゲージメントが10%向上。",
+      "publishedAt": "2026-10-26",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/4HesvKzyeH10Tdn3X9RNpq/28039b261753134c4addc73a90aa3103/fanatics-seo-image.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "url": "https://openai.com/index/openai-cut-incident-investigation",
+      "summary": "OpenAIエンジニアがCodex Ultrafastを使ってインシデント調査時間を短縮、セキュリティ分析や日常業務を効率化。",
+      "publishedAt": "2026-10-26",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/6H0c65mearAtOzTfg4UZNj/28cc9c689c98e9bd68ca92f8c40d9818/oai-ultrafast-series-og-2048.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Introducing GPT-6.1 Terra",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "summary": "誰でも高速かつ高性能なコンピュータを使えるようになる。",
+      "publishedAt": "2026-10-26",
+      "ogImage": "https://cdn.openai.com/mdx-assets/71f084db-a08b-48c5-b96e-5fbdc21a1a00/terra-art-card-16x9.0394724b.png"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.311",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
+      "summary": "- [Added] 自己ホスト型ランナーに --hold-idle-file と --max-hold-min を追加し、ホストが残りのプロセスを報告している間、アイドル状態のセッションを維持できるようにしました。\n- [Added] Claudeに説明を求めると表示される、Explanatory出力スタイルのヒントを追加しました。\n- [Fixed] CLAUDE.mdファイルに非常に長いリスト項目が含まれている場合、起動時やファイルの読み書き後に長いフリーズが発生する問題を修正しました。\n- [Fixed] MCPサーバーがリソース読み取りに応答しない、またはスキルがダウンロード中の間、Claudeの中断がタイムアウトまで効果がない問題を修正しました。\n- [Fixed] 200Kトークンを超えるリクエストが実行された際に「1Mコンテキストに利用クレジットが必要です」というメッセージで標準コンテキストセッションが停止する問題を修正しました。Claude Codeは会話を圧縮して続行します。\n- [Fixed] 数千行のファイルを変更する際に、WriteとEditが実行後最大5秒間停止し、変更された行数が0と報告される問題を修正しました。\n- [Fixed] サブエージェントが、サブエージェント開始後に接続が完了するサーバーからのMCPツールを使用できない問題を修正しました。\n- [Fixed] セッションの早い段階で編集されたMEMORY.mdおよびCLAUDE.mdの内容が、自動圧縮直後にClaudeから古く見える問題を修正しました。\n- [Fixed] claude -pおよびSDKセッションで、トランスクリプトメッセージが順不同で保存されたり、取り消されたメッセージが残ったりする問題を修正しました。\n- [Fixed] SubagentStopフックが、サブエージェント終了時に1回ではなく、実行中のサブエージェントごとに約1分に2回実行される問題を修正しました。\n- [Fixed] @ファイルピッカーが、gitで無視されたファイルを再インクルードする.ignore/.rgignoreの否定ルールを無視する問題を修正しました。\n- [Fixed] サブエージェントが開始したバックグラウンドサブエージェントがまだ作業している間に、サブエージェントの隔離されたワークツリーが削除される問題を修正しました。\n- [Fixed] 自動モードのバックグラウンドエージェントが、自身のシェルを待機している際に、ウェイクごとに新しいメイン会話のターンを開始する問題を修正しました。\n- [Fixed] Bashツールの説明が、作業ディレクトリが呼び出し間で常に持続すると主張している問題を修正しました。\n- [Fixed] Bashツールがzshを使用している場合など、シェルコマンドが実行されない環境ブロック（fishなど）が命名される問題を修正しました。\n- [Fixed] claude mcp add、claude mcp remove、および/mcpが、リポジトリルート以下で実行されたときに、ローカルスコープサーバーを保持する~/.claude.jsonのプロジェクトエントリではなく、現在のフォルダを命名する問題を修正しました。\n- [Fixed] claude mcp listとclaude mcp getが、接続失敗行でエラーコードを2回表示する問題を修正しました（例：ENOENT: ENOENT: …）。\n- [Fixed] ネットワークプロキシが起動リクエストをブロックする際に、Remote Controlセッションが約2分間「接続中」のままになる問題を修正しました。\n- [Fixed] ClaudeがクラウドまたはRemote Controlセッションに送信したメッセージが、Claudeモバイルアプリで自分のメッセージとして表示される問題を修正しました。\n- [Fixed] Remote Controlまたはクラウドセッションを介して送信されたメッセージに添付されたファイルが、ディスク満杯のために保存できなかった場合、または最初の20個を超える添付ファイルが残された場合に、Claudeに原因が通知されない問題を修正しました。\n- [Fixed] CoworkクラウドセッションでWebFetchとWebSearchが停止した応答でハングする問題を修正しました。未完了のリクエストは300秒後に失敗するようになりました。\n- [Fixed] ターン間にクラッシュしたバックグラウンドセッションが、アタッチ、ピン留め、またはスケジュールされたタスクやウェイクアップが設定されている間、再起動されない問題を修正しました。\n- [Fixed] 「バックグラウンドサービスが応答しませんでした」というエラーが、無効化されたclaudeデーモンを再起動するよう提案する問題を修正しました。現在はclaude daemon stop --anyを提案し、バックグラウンドセッションが終了すると伝えます。\n- [Fixed] claude respawn <id>が、IDに一致するバックグラウンドセッションがないことを報告する前にバックグラウンドサービスを開始する問題を修正しました。\n- [Fixed] /effortが、プランモデルがセッションモデルと異なる場合に、プランモードでのプロンプトキャッシュミスについて警告しない問題を修正しました。\n- [Fixed] /ideが、インストールが完了する前または失敗したときにVS Code拡張機能がインストールされたと表示する問題を修正しました。\n- [Fixed] Writeツールのファイルプレビューが、行がターミナルよりも幅広の場合に、行をスキップしたり、非表示の行を誤ってカウントしたりする問題を修正しました。\n- [Fixed] エージェントのチャットタブで↑を押すと、まだ配信待ちだったメッセージが呼び出され、再送すると2通目が送信される問題を修正しました。\n- [Fixed] Coworkクラウドセッションが、プラグインまたは設定でエージェントが指定された場合に、再起動後にコネクタとほとんどのツールを失う問題を修正しました。Coworkクラウドセッションは現在、その設定を無視します。\n- [Fixed] エージェントチームセッションが、--resume、--continue、/resume、または--session-idで戻ってきたときに空のタスクリストを表示する問題を修正しました（/clearまたはクラッシュ後を含む）。また、/branchが元のセッションのリストに書き込む問題を修正しました。\n- [Fixed] ! open /tmp/shot.pngや/review look at /tmp/shot.pngなど、画像ファイルを言及するテキストを貼り付けると、画像が添付され、プロンプトからそのパスが削除される問題を修正しました。\n- [Fixed] フィードバックドラフトカードが、プロンプトにテキストがある間に1/2/0およびEscショートカットを表示する問題を修正しました。これらのキーはカードではなくプロンプトに作用します。\n- [Fixed] 引用符または括弧内の単一のバックスラッシュ（例：「\\」または（\\））がClaudeの応答から消える問題を修正しました。\n- [Fixed] DISABLE_COMPACTが設定されている場合に、エージェントのチームメイトが履歴を圧縮する問題を修正しました。\n- [Fixed] DISABLE_COMPACTが設定されている場合に、巻き戻しメニューで「ここから要約」と「ここまで要約」が提供される問題を修正しました。\n- [Fixed] 完了した/code-review、またはサブエージェントで実行される別のスキルが、クラウドまたはバックグラウンドセッションが再起動されたときに2回実行される問題を修正しました。\n- [Fixed] Google Vertex AI、Microsoft Foundry、AWS上のClaude Platformで、エンドポイントが思考進行状況の更新を送信する際に、長い隠れた思考がアイドルとして途切れる問題を修正しました。\n- [Fixed] /ideが、何もインストールされていないときにJetBrainsプラグインをインストールしたと表示する問題を修正しました。\n- [Fixed] Claude ProおよびMaxのサブスクライバーが、サブスクリプションを使用できない場合に管理者に問い合わせるよう指示される問題を修正しました。メッセージは現在、請求設定を指します。\n- [Fixed] ワイドフルスクリーンターミナルで編集後、表示するものが何もない場合に差分ペインが自動的に開く問題を修正しました。\n- [Fixed] サーバーがサインインなしで動作する場合に、「認証をクリア」後に/mcpがリモートサーバーを失敗として表示する問題を修正しました。\n- [Fixed] /mcpが、Claude Codeが資格情報を送信しないリモートサーバーに対して「認証済み」と表示する問題を修正しました。\n- [Fixed] --plugin-dirフォルダのプラグインが、そのトップに空の.mcp.jsonがあった場合に1つのプラグインとしてロードされる問題を修正しました。\n- [Fixed] /usageが、「制限使用量に貢献しているもの」の下に大きなプロンプトキャッシュミスを表示しない問題を修正しました。\n- [Fixed] リンクをサポートするターミナルから開いた後、バックグラウンドセッションでステータスラインリンクがプレーンテキストのままになる問題を修正しました。\n- [Fixed] /rewind確認メッセージが、後のメッセージが会話から削除されたときに会話が「フォークされる」と表示する問題を修正しました。\n- [Fixed] /rewind警告が、手動およびBashの編集がコード復元の影響を「決して受けない」と誤って述べていた問題を修正しました。\n- [Fixed] スクリーンリーダーモードでのプラン承認が、Escapeで却下したフィードバックを送信する問題を修正しました。\n- [Fixed] Claude Codeが、APIが再試行しないとマークしたリクエストを再試行する問題を修正しました。これにより、ターンが数分間、または無人再試行モード（CLAUDE_CODE_RETRY_WATCHDOG）では無期限に保持される可能性がありました。\n- [Fixed] Linux: --plugin-dirフォルダが追加されたディレクトリでもあり、permissions.blockReadsOutsideWorkingDirectoriesがオンの場合に、サンドボックス化されたBashコマンドがbwrap: Can't create fileで失敗する問題を修正しました。\n- [Fixed] 自己ホスト型ランナー: レート制限（HTTP 429、または終了コード75のgitラッパー）が読み取り専用リポジトリの追加をブロックした場合に、セッションが開始できない問題を修正しました。現在はそのリポジトリなしで開始されます。\n- [Improved] ProおよびMaxアカウントの起動時間を改善しました。前回のチェックから1時間以内の起動で2つのネットワークリクエストをスキップします。\n- [Improved] /teleportおよびclaude --teleportを改善し、圧縮されたクラウドセッションが最後の圧縮からロードされるときに警告を発するようにしました。これにより、要約されたメッセージがローカルコピーに存在しません。\n- [Improved] バックグラウンドセッションのプロセスが終了したときに表示されるメッセージを改善しました。再起動を約束せず、セッションを再開する方法を伝えます。\n- [Improved] 複数のビューを持つアーティファクトを改善しました。Claudeはリンクの#nameで各ビューをルーティングし、ビューを切り替えてもアドレスバーが変わらないとは言わなくなりました。\n- [Improved] タイムアウトに達したシェルコマンドを改善しました。結果にはこれまでの出力が表示され、コマンドがバックグラウンドでまだ実行中であることが示されます。\n- [Improved] 圧縮を改善しました。モデルの応答に要約が含まれていない場合、Claude Codeは会話を置き換える前にもう一度要約を要求するようになりました。\n- [Improved] Artifactツールのページとドキュメントの選択を改善しました。説明や視覚的・インタラクティブな作業はアーティファクトページになり、ドキュメントは人々が編集し続けるか、共有するものです。\n- [Improved] claude --model opusのようなオプションとその値のみが引数である起動の起動時間を改善しました。\n- [Improved] 「Connection dropped」APIエラーを改善しました。最初に確認すべき場所（使用中のプロキシまたはゲートウェイ、そうでなければVPNまたはファイアウォール。Anthropic APIのみ、Bedrock、Vertex、Foundryは変更なし）を指示するようになりました。\n- [Improved] スクリーンリーダーモードを改善しました。/permissionsでルールを削除するとすぐに「許可ルール…を削除しました」と表示されます。\n- [Improved] 貼り付けられたサインインコードが拒否されたときに表示されるメッセージを改善しました。コードが期限切れまたは使用済みである可能性があり、再度サインインするよう指示するようになりました。\n- [Improved] Slackコネクタの送信を改善しました。Claudeは、指定していないチャンネルにメッセージを送信する前に、そのチャンネルのトピックで投稿ルールをチェックするようになりました。\n- [Improved] スクリーンリーダーモードを改善しました。Claudeの質問は「質問: 色（回答済み）、ページ」としてリストされ、矢印や記号は表示されません。\n- [Changed] インタラクティブターミナルでのultrathinkを、Opus 5.5、Sonnet 5.5、Haiku 5.5、およびFable 5.1でAnthropicのAPIを介してxhighエフォートで実行するように変更しました。Claudeが作業中にタイプすると、そのターンの残りのエフォートが上昇します。\n- [Changed] ultrathinkの虹が、キーワードがエフォートを上げられる場所でのみ表示され、単語が引用符で囲まれている場合やファイルパスの一部である場合には表示されないように変更しました。\n- [Changed] エージェントビューでのCtrl+Dをプロンプトに合わせるように変更しました。空の入力で2回押すと終了します。\n- [Changed] --output-format jsonおよびstream-jsonの出力を、文字列内のDEL、C1制御、およびUnicodeフォーマット文字を\\uXXXXエスケープとして書き込むように変更しました。解析された値は変更されません。\n- [Changed] モデル名とIDから、サフィックスが効果のないモデルの[1m]サフィックスとそのラベルを削除するように変更しました。サフィックスは引き続き受け入れられます。\n- [Changed] 設定ファイル内の権限ルールに関する起動時の警告が、ルールが変更されるまでユーザーごとに1回だけ表示されるように変更しました。\n- [Changed] /code-reviewを、Claudeにエフォートレベルを最初に置き、要求された場合にのみ最大を使用するように指示するように変更しました。\n- [Changed] 設定ファイルおよびmodの$.env.set内のDISABLE_COMPACTを、圧縮をオフにすることのみが可能で、オンに戻すことはできないように変更しました。\n- [Changed] Bedrock、Mantle、Vertex、およびFoundry上のClaude Codeが、downloads.claude.aiの署名付きファイルからモデル設定をロードするように変更しました。これをオフにするにはCLAUDE_CODE_MODEL_CATALOG=offを設定します。\n- [Changed] 機能フラグのフェッチをオフにしてCLAUDE_CODE_SYNC_SKILLSを設定するセッションが、マシン上の別のセッションがフェッチした最大10分前のclaude.aiスキルリストを再利用するように変更しました。\n- [Changed] フルスクリーンリストのスクロールバーの矢印とバーのクリックを、マウスボタンが離されたときに動作するように変更しました。これにより、離す前にスクロールバーから離れるとクリックがキャンセルされます。\n- [Changed] claude purgeが、データはAnthropicが保存しているものではなく、このコンピューター上のデータのみを削除すると表示するように変更しました。\n- [Added] [VSCode] Claudeの応答内のコードブロックに、ライト、ダーク、およびハイコントラストダークテーマで構文強調表示を追加しました。\n- [Added] [VSCode] 遅いUserPromptSubmitフックに対して「Running UserPromptSubmit hooks」スピナーステータスとスクリーンリーダーアナウンスメントを追加しました。\n- [Fixed] [VSCode] VS CodeまたはJetBrainsパネルから送信されたカスタムスキルおよびカスタムスラッシュコマンドが、通常のメッセージに含まれる開いているファイルまたは選択された行を省略する問題を修正しました（#102799）。\n- [Fixed] [VSCode] macOSおよびLinuxでログインシェルがPATHを読み取るために起動ファイルを実行している間、拡張機能ホストがフリーズする問題を修正しました。\n- [Fixed] [VSCode] ツール結果内の画像をクリックするか、そのプレビューを閉じると、結果のテキストもエディタタブで開かれる問題を修正しました。\n- [Fixed] [VSCode] 送信ボタンでメッセージが送信された後も音声ディクテーションが録音を続ける問題を修正しました。送信するとまずディクテーションが停止するようになり、Enterキーを押すのと同様になりました。\n- [Changed] [VSCode] VS Codeのテレメトリー設定がオフの場合に、拡張機能がDISABLE_TELEMETRYを設定してClaude Codeセッションを開始するように変更しました。これにより、使用状況メトリックやエラーレポートを送信せず、機能フラグもフェッチしません。\n- [Changed] [VSCode] セッションリストのサイドバーを、Webタブが最初に開かれたときにWebセッションをロードするように変更しました（起動時ではない）。\n- [Fixed] [Cloud sessions] Anthropicホスト環境のルーチンが、所有者が組織を離れて再参加した後もロックされたままになる問題を修正しました。所有者はルーチンを再びオンにできるようになりました。\n- [Fixed] [Cloud sessions] 失敗したルーチンAPIトークンの削除または再生成が、編集ダイアログがすでに閉じている場合に何も表示しない問題を修正しました。現在はエラーメッセージが表示されます。\n- [Fixed] [Cloud sessions] 管理ダイアログを含むクラウド環境ダイアログが、重複する名前を受け入れる問題を修正しました。現在は、リストされている他の環境がすでに持っている名前を拒否します。\n- [Added] [Claude Tag] Claude Tagアナリティクスにスキルビューを追加しました。SlackチャンネルでClaudeが各添付スキルをどれくらいの頻度で実行し、どれが未使用であるかを示し、管理設定に利用状況リンクがあります。\n- [Improved] [Claude Tag] 新しいセッションで実行されるClaude Tagルーチンを改善しました。報告するものが何もない実行は、使い捨てメッセージをチャンネルに投稿せずに終了できるようになりました。\n- [Changed] [Claude Tag] Claude Tag管理設定を、自分のSlackアカウントで見ることができるプライベートSlackチャンネルに#の代わりにロックを表示するように変更しました。\n- [Improved] [Code Review] コードレビューのチェック実行を改善しました。自動再試行でモデルが変更を分析できない場合、それ以上の自動レビューは開始されないと表示するようにしました。\n- [Improved] [Code Review] コードレビューの信頼性を改善しました。一時的なサーバー障害によりセッションが開始できないレビューは、自動的に1回再試行され、そのチェック実行にその旨が表示されます。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-10-27"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1440pt] Anthropic S-1: 同社のS-1書類が公開 | AIコーディングの需要やオープンソースのリスクに関する議論が活発\n  https://news.ycombinator.com/item?id=50242939\n- [705pt] Microsoft、従業員の約4分の1に対し大規模な早期退職プログラムを提供 | 生産性の低さや再編成に不満の声、最優秀人材流出への懸念\n  https://news.ycombinator.com/item?id=50245524\n- [672pt] ドリー・パートンの「イマジネーション・ライブラリー」プログラム | 子どもの本の無料配布プログラムに感動と感謝の声\n  https://news.ycombinator.com/item?id=50234474\n- [652pt] 10年前のCNNが、最先端のLLMよりも皮膚がん診断で優れた性能を発揮 | 特化した古いモデルがLLMを上回る結果に驚きと納得の声\n  https://news.ycombinator.com/item?id=50233779\n- [541pt] アメリカでメディア、映画、芸術分野の20万件の雇用が失われたが、そのうちAIの影響はどれくらいか？ | AIの影響のほか、コンテンツ過多やエンタメの質の低下も指摘\n  https://news.ycombinator.com/item?id=50226419\n- [540pt] 検閲されたインターネットを拒否する。FOSDEM 27で私に加わってほしい | 検閲とコンテンツモデレーションの線引きや、会議への参加を促す声\n  https://news.ycombinator.com/item?id=50233929\n- [523pt] Sebastian Raschkaによる、推論モデルをゼロから構築するビデオコース | 実践的な学習効果と優れた説明、計算コストに関する質問\n  https://news.ycombinator.com/item?id=50245138\n- [510pt] オレゴン州警察、一人の警官に関する記録開示に地元ニュース媒体へ250万ドルを請求 | 高額な請求と情報公開制度への不満、他国の事例との比較\n  https://news.ycombinator.com/item?id=50234232\n- [499pt] 最終票集計後、ルーラ氏が大統領選挙に勝利 | ボルソナロ氏の動向や、決選投票の利点に関する議論\n  https://news.ycombinator.com/item?id=50237485\n- [493pt] Meta、ブラジル裁判所の命令を無視しボルソナロ氏への優遇を続ける | アルゴリズムの偏り、パーソナライズ広告と選挙広告の分離の必要性を指摘\n  https://news.ycombinator.com/item?id=50229587",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-10-27"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "4 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Databricks共同創業者が語る、大企業顧客獲得の秘訣\n  https://techcrunch.com/2026/10/26/databricks-co-founder-shares-his-secrets-for-winning-big-enterprises-customers/\n- Anthropic、IPO申請書で明らかになったエンタープライズ顧客維持戦略\n  https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/\n- SpaceX、Apolloと400億ドルのGPU融資契約を締結\n  https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/\n- Anthropic、ついに上場申請\n  https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-10-27"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- MiniMax、エージェント向けFlashモデル「M3.1」発表 – 3倍高速でコスト70%削減\n  https://www.producthunt.com/products/minimax-4\n- Jobmate AI – 就職活動全体をサポートする人間化されたAIコパイロット\n  https://www.producthunt.com/products/jobmate-ai-3\n- Standfast – MacのGitHub Actionsランナーが作業を受け取るか確認\n  https://www.producthunt.com/products/standfast\n- 2G – 2000年代初期のニューラルシンセシスを作成するサンプラー\n  https://www.producthunt.com/products/2g\n- AVP – AIコーディングエージェントのためのGit代替オープンソースツール\n  https://www.producthunt.com/products/avp\n- Loqui – Macアプリで音声をテキストに変換し、すぐに送信\n  https://www.producthunt.com/products/loqui-2\n- VibeiDE – エージェントタスクを並列処理し、結果をレビュー\n  https://www.producthunt.com/products/vibeide\n- AI Bridge – Mac上のAIコーディングエージェントを一元管理\n  https://www.producthunt.com/products/ai-bridge\n- omerta – Gitへの.envシークレット漏洩を検知\n  https://www.producthunt.com/products/omerta\n- ManyAgents – 1つのMacウィンドウでAIコーディングエージェントチームを運用\n  https://www.producthunt.com/products/manyagents",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-10-27"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "2 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Blinka、グローバル展開する米企業向け銀行サービスを開始\n  https://blinka.co\n- Tesser、クラウド開発環境をシームレス化\n  https://tesser.sh/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-10-27"
+    },
+    {
+      "sourceName": "BRIDGE",
+      "title": "7 Articles",
+      "url": "https://thebridge.jp/category/news-and-column/",
+      "summary": "- Moonshot AI、3兆パラメータ級のオープンウェイトモデル「Kimi K3.1 Pro」を公開、100万トークンに対応\n  https://thebridge.jp/2026/10/moonshot-kimi-k3-1-pro-open-weight-model\n- AIエージェント専用クラウドのDaytona、シリーズBで6,000万ドルを調達し評価額10億ドルに\n  https://thebridge.jp/2026/10/daytona-series-b-agent-cloud-firstmark\n- 既存ツールを束ねてセキュリティ調査をAIで自動化するMave、シリーズAで2,800万ドルを調達\n  https://thebridge.jp/2026/10/mave-series-a-agentic-secops-red-dot\n- メディケア利用者のケア調整を担うBaba、FirstMark主導のシリーズAで4,000万ドルを調達\n  https://thebridge.jp/2026/10/baba-series-a-40m-medicare-care-coordination-firstmark\n- セールスAIエージェントのナレッジワーク、融資枠含む48億円のデット調達でシリーズCを完了\n  https://thebridge.jp/2026/10/knowledge-work-completes-series-c-with-4-8-billion-yen-debt-financing\n- ラグジュアリーファッション特化のフリマアプリARCHIVESTOCK、サザビーリーグから資金調達\n  https://thebridge.jp/2026/10/archivestock-raises-funding-from-sazaby-league\n- 電子トレカ「ORICAL」運営のHEARTBEATS、金融機関5社から総額12.5億円を融資調達\n  https://thebridge.jp/2026/10/heartbeats-secures-1-25-billion-yen-debt-financing-from-five-lenders",
+      "ogImage": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
+      "publishedAt": "2026-10-27"
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "1 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- GitHub Copilotに「GPT-6.1 Terra」が搭載へ\n  https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-10-27"
+    }
+  ]
+}
