@@ -1,0 +1,117 @@
+{
+  "fetchedAt": "2026-10-28T00:06:42.886Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "url": "https://openai.com/index/retell-ai",
+      "summary": "GPT-6 Astraが音声エージェントのベンチマークでトップになり、Codexが従業員1人あたり年間収益160万ドルに貢献。",
+      "publishedAt": "2026-10-28",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/5uWhs4tBhdZ4XPHsi9IaMG/06f4b61c4303de24a65075b3eaf500b2/retell-ai-customer-story-open-graph-acoustic-fabric.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "summary": "OpenAIとOracleが提携を拡大し、ビジネスアプリケーションやAIエージェントをChatGPTや新しいOracleサービスに統合。",
+      "publishedAt": "2026-10-27",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/2NtuSxL760WPfJi1wbdQwh/c651b8dac0f73296f731f9fbe7b827d9/openai-oracle-apps-chatgpt-blue-seo-image-1920x1080.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "How Check Point accelerates vulnerability research with Daybreak",
+      "url": "https://openai.com/index/check-point-daybreak",
+      "summary": "Check PointがOpenAI Daybreakを活用し、セキュリティ研究の効率を向上させ、顧客保護を迅速化。",
+      "publishedAt": "2026-10-27",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/4bd1QnNi9PMpUtFMankceN/dd377ac9baea40ee90d4e86f7e0eabdf/check-point-precision-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.312",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312",
+      "summary": "- [Added] oidc.user_id_claimをClaude apps gatewayに追加しました。これにより、Microsoft Entra IDのoidなど、sub以外のid_tokenクレームでユーザーを識別できるようになります。\n- [Added] クリックして送信する機能を追加しました。フルスクリーン表示で、キューに入っているメッセージの下にある「すぐに送信」ヒントをクリックすると、キーを押すのと同様に、すぐにメッセージが送信されます。\n- [Fixed] VS Code拡張機能からサインインした後、セッションの残りの期間、管理設定と組織ポリシーがフェッチされない問題を修正しました。\n- [Fixed] Claudeが非常に大きなCLAUDE.md、rulesファイル、またはサブディレクトリ内の@-includedファイルをその冒頭だけ見て上書きしてしまう問題を修正しました。今後は、Claudeがすべてを読み取るか、その場で編集するように要求します。\n- [Fixed] Bashのcdコマンドでgitリポジトリの深い階層に移動した後、ディレクトリごと、パスごとのスキルが見つからなくなる問題を修正しました。\n- [Fixed] ターミナルでセッションを再開した後の最初の返信が、次にセッションを再開したときに失われることがある稀なケースを修正しました。\n- [Fixed] 無効な名前のコマンドがすべてのコマンドの読み込みを停止させ、claude -pで出力がなくなる可能性があった問題を修正しました。\n- [Fixed] 古いセッションファイルのクリーンアップが同時に実行されたときに、「pdftoppm failed: Could not write image」というエラーでReadツールがPDFページで失敗することがある問題を修正しました。\n- [Fixed] スピナー、OpenTelemetryのeffort値、およびトランスクリプトが、タスク中に新たに選択されたeffortレベルをモデルが適用する前に示していた問題を修正しました。これらは現在適用されているレベルを表示するようになりました。\n- [Fixed] /modelと/effortのキャッシュ警告が、再読み込みが次のメッセージを待つと誤って伝えていた問題を修正しました。Claudeが作業中に加えられた変更は、より早くトリガーされる可能性があります。\n- [Fixed] 最後のメッセージが文中であなたを待っているアイテムのみに言及した場合でも、一部のセッションがあなたを待っていると表示される問題を修正しました。\n- [Fixed] エージェントビューが終了直前にCtrl+Cでクリアされた入力テキストを、次回起動時に復元する問題を修正しました。\n- [Fixed] エージェントビューが空の!入力からCtrl+Dで終了した後、シェルモードで再開される問題を修正しました。\n- [Fixed] vimモードのd、c、yコマンドで、gjまたはgkのカウントが残り行数より大きい場合にテキストが削除またはコピーされていた問題を修正しました。Vimと同様に、カーソルが移動するだけになりました。\n- [Fixed] /verifyが/helpや/コマンドメニューで短い説明の代わりにClaude向けに意図された長い説明を表示していた問題を修正しました。\n- [Improved] プロンプトのeffortインジケーターを改善しました。タスク中に加えられた変更は、次のメッセージを待つ可能性があることを示し、適用されなくなったときにその通知が消えるようになりました。\n- [Improved] クラウドセッションでのWebFetchエラーを改善しました。解決できないホストは、許可されたネットワークドメイン外にある可能性があると説明されるようになり、Claudeが許可すべきホスト名を提示するようになりました。\n- [Changed] Bedrock、Vertex、Foundry、Mantleが、SonnetやHaikuをフロントエンドとして使用している場合でも、Claude Codeが認識しないモデル名（カスタムデプロイ名や推論プロファイルARNなど）に対して、より短いシステムプロンプトを使用するように変更しました。CLAUDE_CODE_SIMPLE_SYSTEM_PROMPT=0を設定することでフルプロンプトを維持できます。\n- [Changed] フラグ付きメッセージ後の自動モデル切り替えが、Claude Codeが認識しないモデル名（カスタムデプロイ名など）もカバーするように変更しました。CLAUDE_CODE_DISABLE_REFUSAL_FALLBACK=1を設定することで無効にできます。\n- [Changed] 使用制限メッセージで、5時間の期間を「セッション制限」ではなく「5時間制限」と呼ぶように変更しました。\n- [Changed] CLIから開始されたクラウドセッションが、その名前とブランチ名をサーバーから取得するように変更しました。\n- [Changed] プロンプトおよびエージェントフックが、サブエージェントを含め、セッションあたり最大24個まで同時に実行されるように変更しました。また、イベントのタイムアウトより長く待機したものは最大12個までです。1秒未満のタイムアウトは1秒とカウントされるようになりました。\n- [Changed] サブエージェントのautoCompactWindowが、CLAUDE_CODE_AUTO_COMPACT_WINDOWで設定されたウィンドウを縮小するように変更しました。以前は効果がありませんでした。このウィンドウを拡大することはありません。\n- [Changed] OpenTelemetryのmcp_server.nameが、公式のAnthropic marketplaceからのプラグインによって宣言された固定URLリモートMCPサーバーの実際の名前を報告するように変更しました。以前は「custom」と報告していました。\n- [Changed] Claude Codeがclaude_code.safety_event OpenTelemetryイベントを送信するのを停止するように変更しました。\n- [Fixed] [VSCode] 組織の設定が読み込めなかったり、起動時に拒否されたりした場合に、セッションが裸の終了コードで終了していた問題を修正しました。タブに理由が表示され、「再試行」または「再度サインイン」が提案されるようになりました。\n- [Changed] [VSCode] 使用制限のリセットがクロック時間（「3:10 PMにリセット」）を表示し、「5時間制限」と表示するように変更しました。\n- [Added] [Cloud sessions] クラウドで実行されるルーチンを作成または編集する際に、モデルピッカーにeffortレベルを追加しました。\n- [Added] [Cloud sessions] クラウド環境設定のセットアップスクリプトボックスに、色、行番号、コピーボタンを備えたBashエディターを追加しました。\n- [Improved] [Cloud sessions] Claudeがリポジトリをクラウドセッションに追加したときに表示されるステップを改善しました。開くと、生のJSONではなく、発生したことの短いテーブルが表示されるようになりました。\n- [Fixed] [Cloud sessions] クラウドセッションで、失敗した送信後に変更されていないメッセージを再送信すると、2回実行されることがあった問題を修正しました。\n- [Fixed] [Cloud sessions] 失敗したクラウド環境作成が、開いているダイアログの外にトーストとしてのみエラーを表示していた問題を修正しました。ダイアログ内に表示されるようになりました。\n- [Fixed] [Cloud sessions] ルーチンページのルーチンメニューにある「編集」が、編集ダイアログを開かずにルーチンのページに移動していた問題を修正しました。\n- [Fixed] [Remote Control] アーカイブされていないリモートコントロールセッションが、コンピュータが再接続するまで動作していると表示されていた問題を修正しました。アイドル状態と表示されるようになりました。\n- [Improved] [Claude Tag] SlackでのClaude Tagの再試行通知を改善し、一般的なAPIエラーではなく、使用中のモデル名を指定するか、レート制限に達したことを伝えるようにしました。\n- [Fixed] [Claude Tag] 古いプライベートSlackチャンネルが公開され、新しいIDを取得したときに、Claude Tagチャンネルのオン/オフスイッチとエージェント設定がワークスペースのデフォルトにフォールバックしていた問題を修正しました。\n- [Fixed] [Claude Tag] ネットワークアクセスが「なし」に設定されているチャンネルで、SlackのClaudeが返信しない問題を修正しました。\n- [Fixed] [Claude Tag] SlackのClaudeが、同じチャンネルの別のスレッドで返信しているときに、ファイルを誤ったスレッドに投稿することがあった問題を修正しました。\n- [Fixed] [Code Review] GitHubがプッシュイベントを遅れて配信した場合に、Code Reviewが古いコミット、またはまったくコミットをレビューしない問題を修正しました。プルリクエストの現在のコミットをレビューするようになりました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-10-28"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1687pt] AnthropicがS-1を提出 | AIコーディングの需要や収益性、潜在的リスクに関する考察が多数\n  https://news.ycombinator.com/item?id=50242939\n- [1124pt] 数学、コンピュータ科学、物理学における3つの新発見 | ETHの誤りに関する驚きとOpenAIの貢献を評価する声\n  https://news.ycombinator.com/item?id=50251344\n- [1043pt] Microsoftが従業員の約4分の1に大規模な早期退職プログラムを提示 | 大量解雇の理由や社員への影響、会社への不信感を示すコメント\n  https://news.ycombinator.com/item?id=50245524\n- [822pt] Sebastian Raschkaによる推論モデル構築のゼロからのビデオコース | 初心者向けの丁寧な解説や書籍版への言及、計算コストへの疑問\n  https://news.ycombinator.com/item?id=50245138\n- [774pt] 指数時間仮説は偽である [pdf] | ETHの誤りに対する驚きと、P-vs-NP問題との関連性に関する議論\n  https://news.ycombinator.com/item?id=50251661\n- [743pt] 米国政府、国民を監視する方法に関する秘密の裁判所判決を隠蔽 | 秘密の裁判所への批判、監視の実態、透明性の欠如への懸念\n  https://news.ycombinator.com/item?id=50259604\n- [682pt] Ghostty 1.4 | 既存ターミナルとの比較、特定の機能への要望、使い勝手に関する議論\n  https://news.ycombinator.com/item?id=50261998\n- [677pt] Genie 4 | 動画生成における描写の不正確さ、オーディオ機能の課題、今後の期待\n  https://news.ycombinator.com/item?id=50261319\n- [623pt] GPT-6.1 Terra | モデル名と価格体系に関する混乱、旧型GPUでの利用、コストへの着目\n  https://news.ycombinator.com/item?id=50248124\n- [613pt] AIは労働を減らすと約束した。私はこれまで以上に働いている | AIによる労働負荷の増加に共感する声、仕事の価値の変化に関する議論\n  https://news.ycombinator.com/item?id=50257325",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-10-28"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "14 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- 親がOpenAIを提訴、GPT-4oが娘に発作薬の服用中止を指南したと主張\n  https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/\n- データセンターブームが米国送電網に恩恵をもたらす、イノベーション促進へ\n  https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/\n- GuidewireがHyperexponentialを現金17億ドルで買収\n  https://techcrunch.com/2026/10/27/guidewire-buys-hyperexponential-for-1-7b-in-cash/\n- 8VCからBenchmarkまで、10月のSEC提出書類に隠されたものとは\n  https://techcrunch.com/2026/10/27/from-8vc-to-benchmark-heres-whats-hiding-in-october-sec-filings/\n- Bank of America、AIアシスタントとの銀行パスワード共有に注意喚起\n  https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/\n- IPO後のAnthropic、実権を握るのは誰か\n  https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/\n- Slate AutoをスピンアウトしたRe:Buildが21億ドルを調達\n  https://techcrunch.com/2026/10/27/rebuild-which-spun-out-slate-auto-raises-2-1b/\n- Disruptiveが100億ドルのファンドを設立、少なくとも10社に大規模投資へ\n  https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/\n- Frontier AI研究所、モデルが指数時間仮説を否定したと発表 その意味とは？\n  https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/\n- GoogleのGenie 4、音声対応でよりリアルな世界を生成、リアルタイム操作も可能に\n  https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/\n- Meta AIディレクター Rohit Patel氏が退社、Microsoft OfficeとGoogle Workspaceに対抗へ\n  https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/\n- 日本のインターネット大手GMO、ハッカーが顧客データ盗難情報を投稿したと発表\n  https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/\n- 大富豪 Palmer Luckey氏、富裕税でカリフォルニアを離れないと表明\n  https://techcrunch.com/2026/10/27/billionaire-palmer-luckey-isnt-leaving-california-over-the-wealth-tax/\n- AndurilとQualcommが新たな米国製ノートPC「BlueChip」を発表\n  https://techcrunch.com/2026/10/27/anduril-qualcomm-launch-bluechip-a-new-kind-of-us-made-laptop/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-10-28"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- オフラインAI：スマホやPCでプライベートAIを活用\n  https://www.producthunt.com/products/off-grid-ai\n- NuPlay：自己改善プラットフォームでAI変革を実現\n  https://www.producthunt.com/products/nuplay\n- Coachare：あなたの潜在能力を解き放つ\n  https://www.producthunt.com/products/coachare\n- Nuvio 5.0：AIエージェントに財務管理を任せよう\n  https://www.producthunt.com/products/nuvio\n- PulseDev：ローカルホストのUIバグをクリックするだけでAIが修正\n  https://www.producthunt.com/products/pulsedev\n- Revix AI：リポジトリのルールを学習するAIコードレビュー\n  https://www.producthunt.com/products/revix-ai-2\n- OpenRadView：CT、MRI、X線画像を閲覧できる無料オープンソースビューア\n  https://www.producthunt.com/products/openradview\n- Arcade Controller Pro：スティックなし、画面付きの格闘ゲームコントローラー\n  https://www.producthunt.com/products/bluetooth-snes-controller\n- Overmind：継続的学習のためのオープンソースプラットフォーム\n  https://www.producthunt.com/products/overmind-2\n- TheySaid 4.0：開発中にユーザーの反応を予測\n  https://www.producthunt.com/products/theysaid",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-10-28"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "7 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Helios Intelligence、自宅でできる分子ボディ検査を発表：血液1滴で1,000以上のバイオマーカーを測定\n  https://www.heliosinc.ai/\n- Superserve、自律エージェント向け仮想マシンを提供開始\n  https://superserve.ai\n- Confetti、英語の指示でハードウェアプロジェクトを構築するツールをリリース\n  https://confetti.build\n- Aikido Technologies、海洋AIデータセンターのクリーン化を推進\n  https://www.aikidotechnologies.com\n- Axonnic、あらゆるロボットに人間の器用さをもたらす技術を開発\n  https://www.axonnic.com\n- Archgen Labs、AIを活用したEDAツールで高速・低温の3Dチップを実現\n  https://www.archgen.tech/\n- 0.security、自律型サイバーセキュリティチームを編成\n  https://0.security",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-10-28"
+    },
+    {
+      "sourceName": "BRIDGE",
+      "title": "7 Articles",
+      "url": "https://thebridge.jp/category/news-and-column/",
+      "summary": "- Claudeを開発するAnthropic、Nasdaq上場に向けSECに届出、上半期の売上高は前年同期の14倍\n  https://thebridge.jp/2026/10/anthropic-s1-ipo-nasdaq-ant-governance\n- Apple、8.5インチ有機ELとA20 Proを載せた新iPad miniを発表、日本では11万9,800円から——外部ディスプレイ拡張表示にも対応\n  https://thebridge.jp/2026/10/apple-ipad-mini-oled-a20-pro\n- OpenAI、コンピューター操作に強い高速モデル「GPT-6.1 Terra」を公開、API料金はGPT-6.1 Solの半額\n  https://thebridge.jp/2026/10/openai-gpt-6-1-terra-computer-use-model\n- エッジAIとAI半導体のTokyo Artisan Intelligence、シリーズCファーストクローズで12.7億円を調達\n  https://thebridge.jp/2026/10/tokyo-artisan-intelligence-series-c-first-close\n- 工場にロボットを月額で提供するFormic、5,000万ドルを調達し汎用ロボットへ拡大\n  https://thebridge.jp/2026/10/formic-50m-series-b-mercato-physical-ai-raas\n- アドバイザーの事務をAIで自動化するNevis、EQT VenturesがリードするシリーズBで7,000万ドルを調達\n  https://thebridge.jp/2026/10/nevis-series-b-eqt-ventures-ai-wealth-management\n- 既存重機を自律稼働にするBedrock Robotics、シリーズCで6億ドルを調達し評価額41億ドルに\n  https://thebridge.jp/2026/10/bedrock-robotics-series-c-600m-autonomous-excavators",
+      "ogImage": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
+      "publishedAt": "2026-10-28"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
+      "url": "https://latent.space/p/opus55/",
+      "summary": "Anthropicは、モデルの安全性確保を最優先に、Opus 5.5の提供を開始し、AIエージェントの処理効率向上とAPIのRustへの書き換えによる高速化を実現した。",
+      "publishedAt": "2026-10-28",
+      "ogImage": "https://latent.space/og/card/post/opus55/424ddad38742d39855425564a6d71e585315f47ab534e7bd8abe95172704d214.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+      "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
+      "summary": "AnthropicのClaude Platformのエンジニアリングについて、Opus 5.5のローンチやモデルの「脳」とエージェントの「手」の分離、APIのスケーリング、信頼性の高いマネージドエージェントの構築などが解説された。",
+      "publishedAt": "2026-10-28",
+      "ogImage": "https://latent.space/og/card/post/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/8075155d5daa11ae848bcad3d4266d599f27e99b16b880820046e5ab01a8a040.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Coding From the Himalayas With an Offline AI Agent",
+      "url": "https://latent.space/p/offline-coding/",
+      "summary": "オフライン環境でローカルAIモデル「Qwen3.5 9B」とエージェント「OpenCode」を活用し、コード修正やテスト実行ができることを実証した。",
+      "publishedAt": "2026-10-27",
+      "ogImage": "https://latent.space/og/card/post/offline-coding/0e77383759fd31233d79236196b04b0826dad16a259b6a6ffbbac3aa595f1471.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
+      "url": "https://latent.space/p/ainews-anthropic-s1/",
+      "summary": "AnthropicがS-1を提出し、初の黒字化を達成しつつ巨額の計算資源をコミットしていることが明らかになり、OpenAIは低コストで高速な「コンピュータ利用」モデルGPT-6.1 Terraをリリースし、数学研究のブレークスルーも発表した。",
+      "publishedAt": "2026-10-27",
+      "ogImage": "https://latent.space/og/card/post/ainews-anthropic-s1/688e4ae000846c5307adf1fb9a20b87c783c2df43e41746cad307c28bc888038.png"
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "1 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- GitHub Copilot、サーバー間認証をサポート\n  https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-10-28"
+    }
+  ]
+}
