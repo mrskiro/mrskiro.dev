@@ -1,0 +1,109 @@
+{
+  "fetchedAt": "2026-10-29T00:28:22.667Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "summary": "OpenAIとServiceNowが提携を拡大し、それぞれのAIモデルとワークフローを統合する。",
+      "publishedAt": "2026-10-28",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/Gp8jNpLlW9YG0p7vG3UfM/c73fa4b5caa4ad978b022dc0123b801b/openai-servicenow-partnership-expansion-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "The future of the firm",
+      "url": "https://openai.com/index/the-future-of-the-firm",
+      "summary": "AIが組織構造にどのように組み込まれるか、その可能性を探る。",
+      "publishedAt": "2026-10-28",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/7lRSQJ7Rw4r60Qygy5SQ8t/6955cc97ff76059ae31cc1aa5642c27d/future-of-the-firm-inline-01.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Legora is building the agentic operating system for legal work",
+      "url": "https://openai.com/index/legora",
+      "summary": "OpenAIモデルとChatGPTなどを活用し、法務業務の自動化と効率化を実現したLegoraの事例を紹介。",
+      "publishedAt": "2026-10-28",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/3u1CdSoTYE4igNYP08r65b/3aff62c6d68495f495218a2ccbbf48f3/legora-smoked-glass-seo-image-1920x1080.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1292pt] Ghostty 1.4がリリース、モダンなターミナルエミュレータに対する議論 | Ghosttyの機能改善は評価されるも、他のターミナルエミュレータとの差別化やバグ修正への不満、特定の機能の欠如について意見が分かれる。\n  https://news.ycombinator.com/item?id=50261998\n- [1091pt] ICEによる左翼社会運動に対するスパイ活動の証拠 | 政府による監視活動やFISA裁判所の問題、Patriot Actの役割について議論が集中。海外でのビザ超過滞在への厳しさに関する意見も。\n  https://news.ycombinator.com/item?id=50272749\n- [1070pt] 米国政府、国民監視に関する秘密裁判所の判決を隠蔽 | 秘密裁判の存在自体に強い批判が集まり、民主主義への脅威との指摘が多い。米国の自由と監視社会の矛盾、Section 702の再承認についても議論。\n  https://news.ycombinator.com/item?id=50259604\n- [1027pt] Appleのgitが依然として不正なeMudhra証明書を信頼している問題 | macOSシステムレベルでの不正証明書信頼がgitだけでなく多くのユーティリティに影響すると指摘。Appleによるパッチの重要性が強調される。\n  https://news.ycombinator.com/item?id=50271640\n- [1019pt] Genie 4が公開、AI生成動画の現状と課題 | 生成された動画サンプルに明らかなエラーが多く、ユーザーは全体的に感動していない様子。AIの音声認識の課題も指摘されている。\n  https://news.ycombinator.com/item?id=50261319\n- [775pt] Gemini 4 Carbon発表、GoogleのAIモデル戦略と課題 | GoogleのAIモデルの階層化戦略、ベンチマーク公開とモデル未リリースの矛盾、そしてGoogleの製品戦略への不信感がコメントの主な論点。\n  https://news.ycombinator.com/item?id=50276792\n- [767pt] 指紋認証スクリプトが「生物兵器」を生成する理由とは？ | LLMによるサイト解析を防ぐための高度な難読化技術が生物兵器の記述に見えると指摘。AIとの攻防戦の激しさに驚きの声があがる。\n  https://news.ycombinator.com/item?id=50276998\n- [663pt] AIは労働時間を減らすはずが、むしろ増えたという訴え | AI導入でタスクの数が増え、作業負荷が逆に増したという意見に共感が集まる。AIが「退屈な」仕事の価値を下げたという指摘も。\n  https://news.ycombinator.com/item?id=50257325\n- [568pt] Anthropicがスタンフォード大学教授の書籍を違法に入手しClaudeの学習に使用か | 著作権侵害と奴隷労働の比較や、Aaron Swartzとの類似性に関する皮肉なコメントが目立つ。タイトル表現の正確性についても議論。\n  https://news.ycombinator.com/item?id=50260814\n- [562pt] Pythonの実験的なJIT機能が削除へ | 技術的に有望視されていたJITが官僚主義と開発者のリソース不足で中止されることを惜しむ声が多い。Cythonや既存の最適化手法に関する提案も。\n  https://news.ycombinator.com/item?id=50257419",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "12 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Upwind、Datadogによる買収提案を拒否後、4億ドルを調達\n  https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/\n- Microsoft、Azureの実際の売上高を公開：332億ドル\n  https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/\n- Google、AI検索広告を世界展開へ、コア広告の成長鈍化を受け\n  https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/\n- Microsoft、OpenAIから100億ドルの収益を記録\n  https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/\n- Microsoft、10四半期連続で過去最高収益を達成\n  https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/\n- Anthropic、企業のAI支出効果を可視化するツールを発表\n  https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/\n- WizのCTOが語るPHP2Shellと迫りくる「脆弱性黙示録」\n  https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/\n- AIエージェントがウェブを再構築する中、GoogleがGeminiと検索をより多くのアプリに開放\n  https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/\n- ChromeのAI搭載オートフィル、Gmailから情報を取得しフォーム入力が可能に\n  https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/\n- AI幹部、一般向け製品開発には疎すぎる可能性\n  https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/\n- 韓国金融業界、新たなサイバー攻撃の波に襲われる\n  https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/\n- 音声AIが流行：Nvidiaが新しいオープンな文字起こしモデルをリリース\n  https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "The October inflection point for vibe game development",
+      "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+      "summary": "AIモデルが3Dモデリングや音楽生成、ゲームデザインの能力を向上させ、「vibe coding」で高品質なゲームを短時間で開発できるようになった。",
+      "publishedAt": "2026-10-28",
+      "ogImage": "https://static.simonwillison.net/static/2026/pumpkin-farmer.webp"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Fragments: October 28",
+      "url": "https://martinfowler.com/fragments/2026-10-28.html",
+      "summary": "LLMの能力に対する認識の乖離、企業での導入の遅れ、そして未来のソフトウェア開発における役割の変化が議論されており、投資の方向性や倫理的側面も検討されている。",
+      "publishedAt": "2026-10-28",
+      "ogImage": "https://martinfowler.com/fragments/fragments-thumb.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Open For sales：プロンプトで次のセールスキャンペーンを生成\n  https://www.producthunt.com/products/open-for-sales\n- Genie 4：プロンプトを操れる仮想世界に変換\n  https://www.producthunt.com/products/gemini-1-5-pro\n- throxy：見込み顧客の言語でコールドコール、パイプラインを構築\n  https://www.producthunt.com/products/throxy-yc-p25\n- bytemail：Macネイティブのメールアプリ、ノッチで全受信トレイを管理、トラッカーなし\n  https://www.producthunt.com/products/bytemail\n- Zest：⌥Spaceをホールドしてフリックするだけで、AIエージェントが開発作業を代行\n  https://www.producthunt.com/products/zest-6\n- RageLayer：訪問者がウェブサイトを破壊、その後元に戻せる\n  https://www.producthunt.com/products/ragelayer\n- Congress Trades：議員の取引状況と、その模倣で利益が出るかを確認\n  https://www.producthunt.com/products/alpha-vantage\n- Yardlet：既存のコーディングエージェント向けMacアプリ\n  https://www.producthunt.com/products/yardlet-2\n- App Store Screenshots：コーディングエージェントがApp Storeスクリーンショットをデザイン\n  https://www.producthunt.com/products/app-store-screenshots\n- Fraud Blocker：Google・Meta広告向けAIによる広告詐欺対策\n  https://www.producthunt.com/products/fraud-blocker",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "2 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- HillStar、電力会社の調達を支援するエージェントサービスを開始\n  https://hillstar.ai\n- RouterPlus、AI推論モデルのマーケットプレイスを立ち上げ — 適切なモデルを最適な価格で提供\n  https://routerplus.com",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "sourceName": "BRIDGE",
+      "title": "3 Articles",
+      "url": "https://thebridge.jp/category/news-and-column/",
+      "summary": "- Google DeepMind、音声も同時に生成するリアルタイム世界モデル「Genie 4」を発表\n  https://thebridge.jp/2026/10/google-deepmind-genie-4-world-model\n- Apple、M6搭載の14インチMacBook Proを発表、日本では33万9,800円から11月6日発売\n  https://thebridge.jp/2026/10/apple-macbook-pro-14-m6\n- PCも経済安全保障が必要——AndurilとQualcommが米国製PC「BlueChip」を発表、第1弾は政府・防衛向けノートPC\n  https://thebridge.jp/2026/10/anduril-qualcomm-bluechip-laptop",
+      "ogImage": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Why Agents Love Supabase",
+      "url": "https://latent.space/p/supabase/",
+      "summary": "Supabaseが、Docker不要なローカル開発環境や宣言的スキーマ、データベース近傍でのコンテナ実行など、AIエージェントが利用しやすいバックエンド機能強化を発表した。",
+      "publishedAt": "2026-10-29",
+      "ogImage": "https://i.ytimg.com/vi/zHG6sAss_kE/maxresdefault.jpg"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
+      "url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/",
+      "summary": "Anthropicの採用担当者がAIの進歩を理由に従来のコーディング面接を廃止し、Google DeepMindはGenie 4でリアルタイムの仮想世界モデルを大幅に進化させ、複数の組織が複雑な数学的問題解決におけるAIのブレイクスルーを発表し、新しいベンチマークとGPU最適化がモデル性能と効率を向上させている。",
+      "publishedAt": "2026-10-28",
+      "ogImage": "https://latent.space/og/card/post/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/c7f8e2dbe8139bba15d3c59987deb0b2ed5de83f9aded73244cc1febb17cee0c.png"
+    },
+    {
+      "sourceName": "GitHub Copilot",
+      "title": "10 Articles",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "summary": "- GitHub Copilot Fusion、モデルのルーティングとオーケストレーションを可能に\n  https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion\n- GitHub CopilotアプリとUniverseリリース\n  https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases\n- GitHub Enterprise、GitHub Copilotへのアクセスを同梱\n  https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot\n- GitHub Copilotアプリのセキュリティ拡張機能\n  https://github.blog/changelog/2026-10-28-security-extension-for-the-github-copilot-app\n- GitHubインテリジェンスがコード、コンテキスト、履歴を活用\n  https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work\n- Copilot Automationsでチーム共有ワークフローを構築\n  https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations\n- VS CodeでGitHub Copilot、Universeリリース\n  https://github.blog/changelog/2026-10-28-github-copilot-in-vs-code-universe-releases\n- Copilotで画像を直接生成・編集\n  https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot\n- GitHub Copilot Fusion、ローカルモデルの選択に対応\n  https://github.blog/changelog/2026-10-28-github-copilot-fusion-now-supports-selection-of-local-models\n- GitHub Agentic Workflowsが一般提供開始\n  https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-10-29"
+    }
+  ]
+}
