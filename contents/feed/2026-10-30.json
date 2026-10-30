@@ -1,0 +1,101 @@
+{
+  "fetchedAt": "2026-10-30T00:28:19.076Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "summary": "OpenAIが新しいモデル仕様を発表し、AIの判断力や人間との協調性に関する5つのコアバリューを定義。",
+      "publishedAt": "2026-10-30",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/75veJvi069XNefheZKrGT3/524e301a9565289e83b5a666d47b3da5/model-spec-update-more-capable-beneficial-ai-seo.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "How we detect frontier model misalignment",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "summary": "OpenAIは、大規模モデルの不正使用や逸脱を監視し、エージェントが問題を起こす前に対応できるよう階層的な監視システムを導入。",
+      "publishedAt": "2026-10-29",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/5gtjUYZjCpVMAAv0AbX0Cs/510ae35e592775228a8ef7b7f0911237/how-we-detect-frontier-model-misalignment-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "summary": "Ropes & GrayがOpenAIと協力し、弁護士向けに契約文書の精査を支援するAIツールを開発中。",
+      "publishedAt": "2026-10-29",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/4lObA1HwFj5BMe9aLY4VTn/43b3536d7726d9f7b2a5ed27183a3cda/ropes-gray-ai-diligence-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [2235pt] Patrick Stewart氏が死去 | 彼の演技、特にスタートレックでのピカード艦長役が多くの人々の人生に影響を与えたことに感動の声が集まっている。\n  https://news.ycombinator.com/item?id=50294702\n- [1537pt] このフィンガープリントスクリプトはなぜ生物兵器を作成しているのか？ | LLMの脱獄（Jailbreak）防止策を回避しようとするAI間の攻防が話題に。\n  https://news.ycombinator.com/item?id=50276998\n- [1185pt] AppleのGitは依然として危険なeMudhra証明書を信頼している | macOSシステム全体に影響する問題であり、開発者はAppleが提供するパッチを適用すべきとの指摘。\n  https://news.ycombinator.com/item?id=50271640\n- [1178pt] ICEによる左翼社会運動へのスパイ活動の証拠 | 政府による監視活動に対し、プライバシー侵害や愛国者法（Patriot Act）への懸念を示す声が多数。\n  https://news.ycombinator.com/item?id=50272749\n- [1157pt] Mistral Large 4のモデルウェイトを公開 | 価格改定とEU企業にとっての有用性が評価されている一方で、ライセンス条項への注意喚起も。\n  https://news.ycombinator.com/item?id=50289418\n- [1001pt] Gemini 4 Carbon | GoogleのLLM戦略の複雑さに不満の声が上がっており、モデルのリリース遅延やブランディングの混乱について議論されている。\n  https://news.ycombinator.com/item?id=50276792\n- [763pt] StackOverflowの質問数が月間1000件未満に | AIの台頭以前から質問数は減少傾向にあり、サイトの運営方針に対する不満の声も聞かれる。\n  https://news.ycombinator.com/item?id=50282454\n- [679pt] Qwenputer: Qwen3.5内に機能する決定論的RISC-V CPU | LLM内部にCPUを実装するという「クレイジーさ」に驚きの声。Doomが動くことにも注目が集まっている。\n  https://news.ycombinator.com/item?id=50282838\n- [615pt] PROLED XDRディスプレイとTouch搭載のMacBook Pro | Macへのタッチスクリーン導入に対し、懐疑的な意見が多い。一方で、大幅な軽量化を評価する声も。\n  https://news.ycombinator.com/item?id=50276940\n- [583pt] Binanceのハッカー1029 – Binanceから56億ドル盗難 | 盗まれた資金の規模の大きさに驚きの声が上がり、追跡可能性や保険ファンドSAFUの状況について議論されている。\n  https://news.ycombinator.com/item?id=50296470",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "11 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- AWSは1兆ドル規模のビジネスに Jassy氏が語る、その前に大型投資へ\n  https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/\n- 検索トラフィック減少でRedditがログイン必須の新体験を発表\n  https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/\n- Rivian、VWとの提携を拡大 AIアシスタント開発も視野に\n  https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/\n- OpenAI出資のThrive HoldingsがADTを買収\n  https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/\n- Meta、AIファッションアプリ「Style Sketch」をひっそりリリース\n  https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/\n- Granola、Wisprに対抗するディクテーション機能を追加\n  https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/\n- Mistral、サイバーセキュリティ向け1兆パラメータAIモデルの重みを公開\n  https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/\n- 米国がNvidia CEOを標的とした中国スパイ計画を調査\n  https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/\n- 元Palantir幹部が建設向けAIワールドモデル開発でDreamを立ち上げ、a16zから1700万ドル調達\n  https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/\n- エージェント認証スタートアップMintive、Cowboy VenturesやCoatue、著名投資家から資金調達\n  https://techcrunch.com/2026/10/29/agent-identity-startup-mintive-lands-cowboy-ventures-coatue-angels-jeff-dean-andrej-karpathy/\n- ミニアプリを構築するAIエージェントWabi、最新ラウンドで評価額12.5億ドルに\n  https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Bliki: LLM Voice",
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "summary": "LLMによる文章は「不気味の谷」現象を引き起こし、読者の意欲を削ぐため、人間が書くべきであり、LLMは構成案作成など限定的な利用に留めるべきと提言。",
+      "publishedAt": "2026-10-29",
+      "ogImage": "https://martinfowler.com/logo-sq.png"
+    },
+    {
+      "sourceName": "Martin Fowler",
+      "title": "Why are good developers so wary of agentic development?",
+      "url": "https://martinfowler.com/rachels-ramblings/good-devs-wary.html",
+      "summary": "熟練開発者がエージェントによる開発に慎重なのは、安全に本番稼働させる難しさを知っており、そのための適切な検証や運用方法がまだ確立されていないため。",
+      "publishedAt": "2026-10-29",
+      "ogImage": "https://martinfowler.com/rachels-ramblings/card.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Scape：あなたに合わせて賢く働くメール受信箱\n  https://www.producthunt.com/products/scape-4\n- Arco：Codex内でGitHubとLinearの課題を管理\n  https://www.producthunt.com/products/arco-4\n- Radar：AI SREは不要。あなたのエージェントにRadarを。\n  https://www.producthunt.com/products/radar-7\n- TopAgent：AIエージェントでB2Bイベントの参加者を増やす\n  https://www.producthunt.com/products/topmessage\n- Kin：AIラボに支配されるな。彼らに説明責任を果たさせろ。\n  https://www.producthunt.com/products/kin-6\n- ChatInbox：連絡先ごとに受信トレイをグループ化するメール\n  https://www.producthunt.com/products/chatinbox-2\n- AutoShelf 2.6：Macのフォルダを「if-this-then-that」ルールで自動化\n  https://www.producthunt.com/products/autoshelf\n- Enclave：ホバーするだけで必要な情報がすべてそろう\n  https://www.producthunt.com/products/enclave-2\n- OutreachGuy：フォローアップしなかったリードをAI SDRが掘り起こす\n  https://www.producthunt.com/products/outreachguy\n- AfterLid：Macを稼働させ続ける。スマホからチェックイン。\n  https://www.producthunt.com/products/afterlid",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "4 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Jinko：AIエージェント向け旅行検索・予約インフラ\n  https://gojinko.com\n- Fleety：配管・HVAC企業向けAIディスパッチャー\n  https://usefleety.com\n- ernd：AI利用企業向け法人クレジットカード\n  https://ernd.io/\n- Nuum Robotics：機械内部メンテナンス用ヘビ型ロボット\n  https://nuumrobotics.com/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "sourceName": "BRIDGE",
+      "title": "11 Articles",
+      "url": "https://thebridge.jp/category/news-and-column/",
+      "summary": "- Apple、KeynoteやPagesにAIアシスタントとMCP対応、Creator Studioを11月に更新\n  https://thebridge.jp/2026/10/apple-creator-studio-ai-assistant-mcp\n- Apple、Macで初めてタッチ操作に対応したMacBook Proを発表、日本では49万9,800円から\n  https://thebridge.jp/2026/10/apple-macbook-pro-proled-xdr-touch\n- サイバー防御に強い「Gemini 4 Carbon」、Googleがまず防御担当の一部に提供\n  https://thebridge.jp/2026/10/google-gemini-4-carbon\n- GitHub、タスクに合わせてモデルを選び組み合わせる「Copilot Fusion」を一般提供\n  https://thebridge.jp/2026/10/github-copilot-fusion-generally-available\n- ゲームをしながら英会話を学ぶ「eスピ！」のゲシピ、融資含めシリーズB総額6.6億円に\n  https://thebridge.jp/2026/10/gecipe-closes-series-b-final-round-totaling-660-million-yen\n- 駅やホテルにアートを届けるIDEABLE WORKS、シリーズAで約1.8億円を調達\n  https://thebridge.jp/2026/10/ideable-works-raises-series-a-for-hackk-tag\n- クラウドとAIのセキュリティを手がけるUpwind、Bessemer主導で4億ドルを調達\n  https://thebridge.jp/2026/10/upwind-security-series-c-400m-bessemer\n- 1年で売上86倍、財務業務をAIエージェントで自動化するHyphenateが4,500万ドル調達\n  https://thebridge.jp/2026/10/hyphenate-series-a-autonomous-finance-ai-agents-nexus\n- NVIDIAも出資、AI推論を用途ごとに最適化するSimplismartがシリーズBで1,400万ドル調達\n  https://thebridge.jp/2026/10/simplismart-series-b-ai-inference-nvidia\n- 企業の福利厚生業務をAIエージェントで支えるAvante、シリーズAで3,000万ドルを調達\n  https://thebridge.jp/2026/10/avante-series-a-30m-ai-benefits-platform\n- 1回見せるだけでロボットが作業を覚えるMachenta、シードで4,000万ドルを調達\n  https://thebridge.jp/2026/10/machenta-seed-40m-instant-robot-learning",
+      "ogImage": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+      "url": "https://latent.space/p/elorian/",
+      "summary": "Elorianは、画像内の物体数を正確に数える能力を評価する新しいベンチマーク「DecoyCount」を発表し、自社の視覚推論モデル「Glimpse」が既存のフロンティアモデルを上回る性能を示した。",
+      "publishedAt": "2026-10-30",
+      "ogImage": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/c0263f23-d8f4-45a5-8e75-1ea88650605f/Elorian_Decoy_Feature_Image.png?t=1793221147"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+      "url": "https://latent.space/p/ainews-gemini-4-carbon/",
+      "summary": "Google DeepMindが、サイバーセキュリティと長期間タスクに特化した最新AIモデル「Gemini 4 Carbon」を発表し、Claude Codeでは、サービスエラーによる有料トークン消費の増加や性能低下が報告され、AnthropicのClaude Opus 5.5が数学と理論計算機科学の分野で歴史的なブレイクスルーを達成した可能性があると報じられた。",
+      "publishedAt": "2026-10-29",
+      "ogImage": "https://latent.space/og/card/post/ainews-gemini-4-carbon/95760c867a2e9becf313c47b14f0386243bc4596c54259bb71809eb955f9dad9.png"
+    }
+  ]
+}
