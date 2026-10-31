@@ -1,0 +1,61 @@
+{
+  "fetchedAt": "2026-10-31T23:49:18.266Z",
+  "entries": [
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.316",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+      "summary": "- [Added] CLAUDE_CODE_DISABLE_ULTRATHINKを追加しました。これにより、ultrathinkキーワードが無効になります。\n- [Added] Claude apps gatewayにプール型グループ予算を追加しました。これは、各メンバーの独自の上限に加えて、グループメンバーが共有する月次予算で、spend limits admin APIでpooled_budgetを設定します。\n- [Added] CLAUDE_CODE_DISABLE_LOOPED_CROSS_CERT_DROPを追加しました。これにより、プライベートCAが必要とするサーバーのために、相互に証明するシステムクロス証明書がループ内で維持されます。\n- [Added] CLAUDE_CODE_SUBAGENT_EFFORTを追加しました。これにより、他の設定がない場合、サブエージェントがセッションのものを継承する代わりに実行されるエフォートレベルを設定します。\n- [Added] Claude apps gatewayにmanaged.policy_mode: layeredを追加しました。これにより、開発者に一致するすべてのポリシーが適用され、最初のポリシーだけでなく、それぞれのポリシーが下位のポリシーの上にマージされます。\n- [Added] Claude apps gateway Bedrock upstreamsにguardrail.input_taggingを追加しました。これにより、Amazon Bedrock guardrailのプロンプト攻撃フィルターが必要とする入力タグにプロンプトをラップします。all_messages_and_systemはシステムプロンプトもタグ付けします。\n- [Changed] Opus 4.8のfast modeは2026年10月30日に非推奨となり、2026年11月30日に削除されます。削除後、Opus 4.8でのfast modeリクエストはエラーを返し、標準のOpus 4.8にフォールバックしません。高速化を維持するには、Opus 5.5に移行してください。\n- [Fixed] macOSおよびLinuxで、Claude Codeが資格情報が拒否されたり、クラウドセッションがアーカイブされたりするなど、自身で終了した場合にシェルコマンドが実行されたままになる問題を修正しました。\n- [Fixed] Bashツールのシェルで、値に改行が含まれるbashエイリアス（Git Bashを除く）や、名前にダッシュで始まる関数が文字化けしたり失われたりする問題を修正しました。\n- [Fixed] SHELLOPTSがエクスポートされている場合に、Bashツールから開始されたbashスクリプトが最初のコマンドの後に停止する問題を修正しました。\n- [Fixed] コマンドが型キャスト、param、using、または属性で始まる場合に、PowerShellフックが終了コード2でブロックしない問題を修正しました。\n- [Fixed] 圧縮された応答が途中で切断されたり破損したりした場合に、一部のネットワークリクエストがハングする問題を修正しました。\n- [Fixed] Vertex AIおよびAmazon Bedrock上のsonnet、opus、haikuが、最新のモデルがアカウントまたはリージョンでまだ利用できない場合に、セッション中にエラーを表示する代わりに古いモデルに切り替わる問題を修正しました。\n- [Fixed] Claude apps gatewayが、リクエストで指定されたすべてのモデルをavailableModels、deniedModels、およびmodelsに対してチェックしない問題を修正しました。ブロックされたモデルを指定するリクエストは、フィールド名を付けて400エラーを返すようになりました。\n- [Fixed] managed設定でClaude apps gatewayが必要な場合、claude auth loginが実行を拒否する問題を修正しました。ターミナルでは、ゲートウェイサインインが表示されるようになりました。\n- [Fixed] --restrictedセッションが、Read allowルールでカバーされている場合に、作業ディレクトリ外のファイルをアップロードする問題を修正しました。\n- [Fixed] 不可視文字を含むプロンプトが送信に2回目のEnterを必要とする問題を修正しました。通常のプロンプトは最初のEnterでクリーンアップされて送信され、コマンドはレビューを待つようになりました。\n- [Fixed] 親サブエージェントのモデルを継承したサブエージェントが、バックグラウンドジョブやメッセージによって起動されたときにメインモデルに移行する問題を修正しました。\n- [Fixed] \"$defaults\"のないmanaged autoMode.allowリストが、ホストアプリの--settings、/permissionsに追加された最初のルール、または/auto-mode-setupから組み込みの例外を取り戻す問題を修正しました。\n- [Fixed] クラウドセッションおよびクラウドスケジュールタスクが、サーバーが安全性の判断を返さなかったためにオートモードがターンを停止した場合に、失敗としてマークされない問題を修正しました。\n- [Fixed] バックグラウンドエージェントがまだ実行中の場合に、claude -p text出力がオートモードがターンを停止した理由を説明しない場合がある問題を修正しました。\n- [Fixed] 実験的なベータ版が無効になっているプロキシまたはLLMゲートウェイの背後にあるホストアプリケーション（Claude Desktopなど）によって開始されたセッションで、CLAUDE_CODE_AUTO_MODE_SERVER=1が無視される問題を修正しました。\n- [Fixed] プラグインMCP headersHelperスクリプトが、資格情報名の環境変数が1のようなスイッチ値に設定されている場合に、破損したCLAUDE_PLUGIN_ROOTとサーバーURLを受け取る問題を修正しました。\n- [Fixed] SDK register_repo_rootコントロールリクエストが、作業ディレクトリ外のディレクトリのCLAUDE.mdをロードしない問題を修正しました（CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD=1の場合）。\n- [Fixed] Artifactツールが、selfレベルのアーティファクトデータベースアクセスルールに?を表示し、それらのルールを削除する再公開を拒否した場合に引用しない問題を修正しました。\n- [Fixed] /model <id>が、モデルがこのバージョンで認識されず、auto-compactが200Kコンテキストウィンドウを想定する場合に警告しない問題を修正しました。\n- [Fixed] \"hold space to speak\"ヒントが1つのセッションで3回表示され、プッシュツートークがバインドされていない場合に空のキーを表示する問題を修正しました。\n- [Fixed] GrepとGlobが、Windows上で検索プロセスがタイムアウトで終了せず、停止された場合に決して戻らない問題を修正しました。\n- [Fixed] 会話の一部がまだ保存されている間に/clearまたは/resumeが実行された場合に、会話を再開してもプランが復元されないまれなケースを修正しました。\n- [Fixed] 初回セットアップで、狭いターミナルでセキュリティノートとターミナルセットアップの説明から単語が脱落する問題を修正しました。\n- [Fixed] Enterpriseアンケートカードが、短い一時停止後にタイプされた1または0を受け取る問題を修正しました。タイプされた回答にはEnterが必要になりました。\n- [Fixed] Self-hosted runner: Claudeが作業中に送信されたメッセージが、セッションのプロセスが置き換えられた後、Stop後に回答される問題を修正しました。\n- [Fixed] Self-hosted runner: セッションが新しいマシンに移動したときに、MCPサーバーのオン/オフスイッチが失われる場合がある問題を修正しました。\n- [Fixed] Windows: BashツールのGit Bashで、rcファイルがerrexitとpipefailを設定し、winptyエイリアスのみが定義されているか、何も定義されていない場合に、エイリアスと関数が失われる問題を修正しました。\n- [Improved] Claude DesktopまたはWebのCodeタブから開始された/code-reviewを改善しました。クラウドセッションとclaude remote-controlセッションは、プレーンテキストリストではなく、検出カードを表示するようになりました。\n- [Improved] 大規模なリポジトリでの/diffを改善しました。各更新は通常、フルリポジトリのgitコマンドを1つ少なく実行し、gitが遅い場合は更新の間隔が空けられます。\n- [Improved] /ultrareview、クラウドセッション、またはクラウドエージェントがGitHubリモートを見つけられない場合に表示されるメッセージを改善しました。https://github.com/newでリポジトリを作成するように促すようになり、/ultrareviewはghが拒否するghコマンドを提案しなくなりました。\n- [Improved] SSL証明書エラーを改善し、中間証明書を省略するサーバーなど、可能性のある原因とそれぞれの修正を特定するようにしました。\n- [Changed] オートモードを変更し、「$defaults」のないautoMode.allowリストがスケジュールされたタスクのプロンプトの組み込みルールを削除しないようにしました。\n- [Changed] TeamおよびEnterpriseログインのサーバー管理設定を変更しました。AnthropicのAPIから取得された設定は、承認プロンプなしで適用されるようになり、検証されない保存されたコピーは拒否されます。\n- [Added] [VSCode] チャットパネルからClaude apps gatewayへのサインインを追加しました。ターミナルは不要です。\n- [Changed] [VSCode] ultrathinkを、ターミナルと同様に、xhighエフォートで実行し、チャットボックスに虹色で表示されるように変更しました。\n- [Fixed] [VSCode] モデル設定に[1m]タグ（例: opus[1m]）がある場合に、Effortスライダー、Ultracodeスイッチ、およびモデル名が欠落する問題を修正しました。\n- [Fixed] [VSCode] 設定ファイルにエラーがある場合に、保存された/btwサイド質問履歴が早すぎる段階で削除される問題を修正しました。\n- [Fixed] [VSCode] 「はい、手動で編集を承認します」でプランが承認された後、リロードまたは再起動後に会話がオートモードで戻る問題を修正しました。\n- [Added] [Cloud sessions] クラウドセッションにフォームカードを追加しました。これにより、MCPサーバーが要求するフォームを入力または拒否でき、リクエストがユーザーに見られることなくキャンセルされるのを防ぎます。\n- [Added] [Cloud sessions] 切り替えたクラウドまたはリモートコントロールセッションがメッセージを最新の状態にしている間、「Catching up…」という行が表示されるようになりました。\n- [Changed] [Cloud sessions] ネットワークシークレットを変更し、Enterpriseメンバーが自分のクラウド環境で追加および削除できるようになり、表示のみだったのが改善されました。\n- [Improved] [Cloud sessions] クラウドセッションのChangesペインを改善しました。リストから省略される内容に関する注意書きが、差分の上に表示される行ではなく、ブランチ名の横のバッジになりました。\n- [Fixed] [Cloud sessions] Claudeがディレクトリを変更した後、クラウドセッションのFilesペインでのファイル検索がフォルダーを../..パスとして表示する問題を修正しました。結果はプロジェクトのルートからのパスを表示するようになりました。\n- [Fixed] [Claude Tag] Slackチャンネルで作成したキャンバスが、そのチャンネルから別のチャンネルまたはDMに共有された後、Claudeがそのキャンバスを編集または追加することを拒否する問題を修正しました。\n- [Fixed] [Claude Tag] 両方の組織がClaudeをインストールしており、Slackが応答を他方の組織のアプリに配信した場合に、Slack Connectスレッドでタグ付けされていない返信が応答されない問題を修正しました。\n- [Fixed] [Claude Tag] Slackでのクラウドスケジュールタスクのライブステータスチェックリストが途中までしか完了しない問題を修正しました。実行中に投稿されたトップレベルのメッセージを編集できるようになりました。\n- [Changed] [Claude Tag] Slackチャンネルの「Respond automatically」スイッチを、チャンネルのConfigureページおよびClaude Tag管理設定の「How Claude participates」選択肢に変更しました。\n- [Added] [Code Review] Code Review analyticsページに、重大度別検出カードを追加しました。これにより、期間の総検出数、重大度別に積み重ねられた日次チャート、および各重大度のカウントが表示されます。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-10-31"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [966pt] Cursor MarketplaceのVS Code拡張機能「Claude Code」にバックドアが仕込まれる | AnthropicやCursorの関係者からの公式見解、被害状況の確認方法、過去の類似事例についてのコメントが寄せられている。\n  https://news.ycombinator.com/item?id=50300683\n- [794pt] セルビアで「世界一優秀な」議会が選出される | 学生運動による多様な議員選出に期待と懸念の声、過去の事例と比較した意見、セルビアの政治状況についてのコメントがある。\n  https://news.ycombinator.com/item?id=50314654\n- [656pt] 米国下院議員、ビッグテックへのAIバブル救済措置に反対する民主党決議を主導 | 損失の私有化を求める声や、この決議が単なる人気取りではなく、投資家へのメッセージであるという意見が多い。\n  https://news.ycombinator.com/item?id=50302814\n- [655pt] 公式のClaude Code拡張機能にバックドア | コメントは移動され、Cursorからのセキュリティ通知と関連リンクが提供されている。\n  https://news.ycombinator.com/item?id=50302334\n- [645pt] AIはSREを代替するのではなく、彼らのスキルを低下させている | AIによるデスクキリングに対する懸念と、新しいツールとしてのAI活用を肯定する意見が対立している。\n  https://news.ycombinator.com/item?id=50305693\n- [568pt] 63億ドルのBinanceハッキングはわずか20分で実行された | Binanceの過失を問う声、ハッキング準備にかかった時間への言及、過去の類似事件との比較がなされている。\n  https://news.ycombinator.com/item?id=50303172\n- [552pt] elect.horse | 別の類似ゲーム「Gerrymandle」の開発者からのコメントが多く、elect.horseがそのコピーであるという指摘が複数ある。\n  https://news.ycombinator.com/item?id=50301462\n- [515pt] HackerTube: HNのおすすめ動画で構築されたYouTube | YouTubeと比較して、純粋な技術系コンテンツに集中できる点を評価する声や、自分の好みに合致しているという意見が多い。\n  https://news.ycombinator.com/item?id=50319510\n- [471pt] Northflankが侵害される | SaaS型サービスにおけるセキュリティ侵害への警鐘、ハイパースケーラーへの回帰予測、環境変数暗号化の提案、セキュリティの将来に関する懸念が述べられている。\n  https://news.ycombinator.com/item?id=50305025\n- [399pt] Cursorマーケットプレイスでバックドア付きのClaude Code VS Code拡張機能がリリースされる | コメントは別のストーリーに移動されたという情報のみ。\n  https://news.ycombinator.com/item?id=50301983",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-11-01"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "5 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Apple CEO、AIのためのAIは「提供したくない」\n  https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/\n- 残り4日：TechCrunch Founder Summitで事業拡大につながる人脈を築く方法\n  https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/\n- xAIデータセンターの大気汚染に関するNAACPの訴訟、裁判官が進行を許可\n  https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/\n- OpenAI、新たな資金調達ラウンドの目標額を引き下げか\n  https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/\n- Nvidia、Nscaleのウェストバージニア州AIデータセンター向け保証人になることを検討\n  https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-11-01"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Backenly — AIコーディングエージェントのための自律型バックエンド\n  https://www.producthunt.com/products/backenly-2\n- WinnerAdSpy — 競合の広告分析からアプリキャンペーンを成功に導く\n  https://www.producthunt.com/products/winneradspy\n- telemetry.dev — AIエージェント向けLLMオブザーバビリティ\n  https://www.producthunt.com/products/telemetry-dev\n- Specsight — AIを活用し迅速に開発を進めるチームのための製品オブザーバビリティ\n  https://www.producthunt.com/products/specsight\n- AC Bridge — Claude CodeやCodexがあなたを必要とする時、スマートライトが光ってお知らせ\n  https://www.producthunt.com/products/ac-bridge\n- Coding Wrapped — Claude Code & Codexであなたのコーディングスタイルを分析\n  https://www.producthunt.com/products/coding-wrapped\n- Hemmed — Macのメニューバーの clutter を非表示にし、個々のアクションをピン留め\n  https://www.producthunt.com/products/hemmed\n- BaseTab AI — 新しいタブをAI搭載ワークスペースに\n  https://www.producthunt.com/products/basetab-ai\n- Mo — Mac上の小さなキャラクターが232種類のタスクを実行\n  https://www.producthunt.com/products/mo-5\n- SpaceO — MacでAIエージェントに専用スクリーンを\n  https://www.producthunt.com/products/spaceo",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-11-01"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "1 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Taan.ai、高精度かつ制御可能な音楽生成基盤モデルを発表\n  https://taan.ai/",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-11-01"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
+      "url": "https://latent.space/p/arca/",
+      "summary": "AIネイティブな資産運用会社Arcaは、自社開発のAIエージェントが人間の最終判断を前提とし、記憶システムやカスタムハーネスを駆使して、安全性を確保しつつ複雑なタスクを効率的に処理している。",
+      "publishedAt": "2026-11-01",
+      "ogImage": "https://i.ytimg.com/vi/KM3VQZKjpiY/maxresdefault.jpg"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming?",
+      "url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/",
+      "summary": "Googleの検索収益にAI概要が影響を与える可能性が指摘される中、AnthropicはClaude Ultraのセッション制限を撤廃し、Google DeepMindは新しいAIモデル「Gemini 4 Carbon」と世界モデル「Genie 4」を発表した。",
+      "publishedAt": "2026-10-31",
+      "ogImage": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/f13715b2-ed2d-4a14-bbf6-85f184b4b202/SCR-20261030-svzc.png?t=1793423031"
+    }
+  ]
+}
