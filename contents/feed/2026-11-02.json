@@ -1,0 +1,53 @@
+{
+  "fetchedAt": "2026-11-01T23:58:53.390Z",
+  "entries": [
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [2209pt] HackerTube: HNの推薦動画で構築されたYouTube | YouTubeアプリへの不満や、純粋な技術系コンテンツへの評価が集まっています。\n  https://news.ycombinator.com/item?id=50319510\n- [894pt] セルビア、世界で最も知的な議会を選出 | 学生運動による多様な議員選出に期待と、専門外の政治判断に対する懸念が混在しています。\n  https://news.ycombinator.com/item?id=50314654\n- [812pt] Show HN: HackerBooks – HNで言及された書籍版HackerTube | ソート機能の改善要望や、未掲載の書籍への言及、技術面への関心が寄せられています。\n  https://news.ycombinator.com/item?id=50326821\n- [760pt] イタリア人農家、屋根裏で見つけた未知の種を栽培 | 「奇跡の小麦」の品種特定に関する疑問や、古代品種栽培のトレンドへの言及があります。\n  https://news.ycombinator.com/item?id=50320963\n- [697pt] TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8 | Linuxの言及がないタイトルへの指摘や、MPTCPの要件、UbuntuとRHELの未修正への懸念が見られます。\n  https://news.ycombinator.com/item?id=50319143\n- [670pt] ノルウェーの絶景ルート沿いの公衆トイレ | ノルウェーの公衆トイレの質の高さと、日本のトイレの利便性を比較する声があります。\n  https://news.ycombinator.com/item?id=50324388\n- [453pt] Anthropic、大規模モデルの学習に触れるユーザーをブロック | Anthropicのガードレールへの不満や、代替AIモデルの重要性を指摘する意見が多いです。\n  https://news.ycombinator.com/item?id=50319358\n- [419pt] Memdoor: 5つのQwen3.8-27BモデルチームがLiveCodeBench HardでFable 5に勝利 | ローカルモデルの競争力維持への期待や、複数の小規模モデルが単一の高性能モデルより優れるという意見があります。\n  https://news.ycombinator.com/item?id=50320995\n- [409pt] 警察署長、契約解除を無視するFlock社のカメラの電源を切る | Flock社の契約無視への法的疑問や、そのブランドイメージの悪化に関する議論が活発です。\n  https://news.ycombinator.com/item?id=50326118\n- [367pt] Lenovoの「暗号化された」指紋認証USB、実は暗号化されていないSDカード | Lenovo製品への不信感、このような製品への信頼性の欠如、および「FU100」という命名への皮肉が見られます。\n  https://news.ycombinator.com/item?id=50326099",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-11-02"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "3 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- OpenAI、データセンターを「AIコンピューティングキャンパス」に再編か\n  https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/\n- AIはテックCEOの仕事を楽にするが、他の従業員はどうなるのか？\n  https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/\n- データセンターが中間選挙の争点に、ブルックリンでも注目集まる\n  https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-11-02"
+    },
+    {
+      "sourceName": "laiso",
+      "title": "ChatGPT Sitesに、Vinextアプリを手動でデプロイする",
+      "url": "https://blog.lai.so/chatgpt-sites-as-paas/",
+      "summary": "ChatGPT SitesでVinextアプリを手動デプロイする方法が有料購読者向けに公開された。",
+      "publishedAt": "2026-11-01",
+      "ogImage": "https://storage.ghost.io/c/56/fe/56fe3d7d-496d-4589-b45d-1a480143aeda/content/images/2026/11/sites-5ddf7ae0-2a9e-4a84-9d8a-6b8e79a99a7f.png"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- ClaudeとChatGPT 4.0の活用法 ― Mac、iPhone、iPad、Watchでの利用制限も解説\n  https://www.producthunt.com/products/usage-for-claude\n- Click ― あらゆるモデルに対応するマネージドエージェントAPI\n  https://www.producthunt.com/products/click-6\n- ClawsGO Science ― 独自のクラウドラボを持つAI研究エージェント\n  https://www.producthunt.com/products/clawsgo-science\n- Raah.dev ― 売上、分析、ウェブサイトのパフォーマンスを追跡\n  https://www.producthunt.com/products/raah-dev\n- Yuzu Sync ― Macのフォルダをミラーリング、コピー、双方向同期\n  https://www.producthunt.com/products/yuzu-sync\n- agentmash ― チーム向けAIコーディングエージェントのオープンソース・マルチプレイヤー\n  https://www.producthunt.com/products/agentmash\n- ernd ― AIスタックのためのクレジットカード\n  https://www.producthunt.com/products/ernd\n- Fluent 2 ― Macでローカルに動作するAIチームメイト\n  https://www.producthunt.com/products/fluent-ai-writing-assistant-for-macos\n- BeeBranch ― ローカルファーストのデスクトップGitクライアント\n  https://www.producthunt.com/products/beebranch\n- Embage ― 顧客向けエージェントを構築し、ワークフローを実行、分析まで\n  https://www.producthunt.com/products/embage",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-11-02"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "1 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Ryhla、エネルギープロジェクトの送電網接続を加速\n  https://ryhla.ai",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-11-02"
+    },
+    {
+      "sourceName": "GitHub Trending",
+      "title": "Weekly Trending",
+      "url": "https://github.com/trending?since=weekly",
+      "summary": "- Nutlope/hallmark：Claude Code、Cursor、およびCodex向けのAIスロップ防止デザインスキル。 ⭐12,062/week\n  https://github.com/Nutlope/hallmark\n- pbakaus/impeccable：コーディングエージェントのためのデザイン語彙。洗練された bold な指示、批判と監査によるレビュー、AIスロップの出荷前検知。 ⭐12,031/week\n  https://github.com/pbakaus/impeccable\n- AgriciDaniel/claude-seo：Claude CodeのためのユニバーサルSEOスキル。テクニカルSEO、E-E-A-T、スキーマ、GEO/AEO、エージェントレディネス（Lighthouse Agentic Browsing、WebMCP、llms.txt）、バックリンク、ローカルSEO、Eコマース、国際SEO、Google API、PDF/Excelレポートをカバーする26のサブスキルと19のサブエージェント。ライブSEOデータ用の9つのオプション拡張。 ⭐4,814/week\n  https://github.com/AgriciDaniel/claude-seo\n- thedotmack/claude-mem：各エージェントのセッションをまたぐ永続的なコンテキスト。セッション中のエージェントの動作をすべてキャプチャし、AIで圧縮し、関連するコンテキストを将来のセッションに再注入します。Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCodeなどで動作します。 ⭐4,575/week\n  https://github.com/thedotmack/claude-mem\n- cloudflare/security-audit-skill：独立して検証された機械可読な検出結果を持つ、多段階のセキュリティ監査のためのコーディングエージェントスキル。 ⭐11,908/week\n  https://github.com/cloudflare/security-audit-skill\n- obra/superpowers：機能するエージェント的スキルフレームワークとソフトウェア開発手法。 ⭐5,636/week\n  https://github.com/obra/superpowers\n- JetBrains/thinkrail：軽量でリアルなIDEでコードを「vibing」する。作業スタイルに合わせてカスタマイズされる必要なVibe。 ⭐5,738/week\n  https://github.com/JetBrains/thinkrail\n- pingdotgg/t3code：TypeScript製。\n  https://github.com/pingdotgg/t3code\n- multica-ai/andrej-karpathy-skills：Andrej KarpathyのLLMコーディングにおける落とし穴に関する観察から導き出された、Claude Codeの動作を改善するための単一のCLAUDE.mdファイル。 ⭐4,277/week\n  https://github.com/multica-ai/andrej-karpathy-skills\n- jakubkrehel/skills：優れたインターフェースの構築を助けるエージェントスキルのコレクション。 ⭐1,272/week\n  https://github.com/jakubkrehel/skills",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-11-02"
+    }
+  ]
+}
