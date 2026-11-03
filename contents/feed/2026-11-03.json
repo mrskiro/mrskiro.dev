@@ -1,0 +1,125 @@
+{
+  "fetchedAt": "2026-11-03T02:41:36.724Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Scaling Git at OpenAI",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "summary": "OpenAIが、Codex開発の規模に対応するGit互換のバックエンド「Pando」を構築。",
+      "publishedAt": "2026-11-03",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/CMZECnCACxZO52Dqy7SnB/d7451310a4c165a396517dc7387b9b71/scaling-git-at-openai-seo-card.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Introducing the Grid Protectors Program",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "summary": "OpenAIが電力会社と連携し、データセンターが電力網の安定供給と消費者の電気料金保護に貢献するプログラムを開始。",
+      "publishedAt": "2026-11-03",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/0147SbQFof5ozkgFJTdG0j/1daae8bb107fb504ef83be52e10e550f/introducing-the-grid-protectors-program-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "LifeVal",
+      "url": "https://openai.com/index/lifeval",
+      "summary": "AIが子育てや金融などの日常生活のタスクをどれだけ支援できるかを評価する新ベンチマーク「LifeVal」が発表された。",
+      "publishedAt": "2026-11-02",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/3Iad2h8cMUadlldiZqbsAo/69264040a908479aa8843b590b0015b5/lifeval-social-crayon.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Qodo builds context into AI code review with Codex",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "summary": "Qodoは企業知識とコーディング標準をCodexに統合し、開発者がプルリクエスト作成前にP0問題を検出できるよう支援。",
+      "publishedAt": "2026-11-02",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/388S4jJRtLn7LVaUJU9lUc/662cc99212751754f89d370e4b8901aa/qodo-codex-frosted-acrylic-seo-image-1920x1080.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "summary": "OpenAIがダン・ドリスコル氏を任命し、国家安全保障やサイバーレジリエンスにおけるAIの倫理的活用について助言を求める。",
+      "publishedAt": "2026-11-02",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/5KVBxyiipFJUDP8ePhzCFt/7ed307cd82ba4699dcf2ed9f349ea750/dan-driscoll-joins-openai-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Claude Code",
+      "title": "v2.1.317",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
+      "summary": "- [Added] 新しいクラウドスケジューリングタスクが要求していないコネクタを取得した場合に、それらを削除する方法に関する警告を/scheduleに追加しました。\n- [Added] Webまたはシェルツールを呼び出す際に、アカウントのメールアドレスをネットワークに送信する前に確認するチェックを追加しました。\n- [Added] Agent SDKのフックコールバックにonFailure: \"block\"を追加しました。これにより、失敗したコールバックがアクションの実行をブロックするようになりました。\n- [Added] Claude DesktopのCodeタブに、組織のリモート管理設定がセッション用にロードされていない場合の通知と、ロードされた後の通知を追加しました。\n- [Added] オートモードのチェックでサブエージェントのツール呼び出しに対する回答がない場合に通知を追加しました。以前はメインビューに何も表示されませんでした。\n- [Added] OTelメトリクス、イベント、スパンにanthropic.plan、anthropic.seat_type、anthropic.provider、anthropic.custom_base_urlを追加しました。\n- [Added] Claudeアプリゲートウェイの管理APIにコストレポートGET /v1/organizations/analytics/costを追加しました。これにより、指定した日付範囲の過去の支出を合計、開発者ごと、日ごと、またはIdPグループごとに読み取ることができます。\n- [Added] 管理者が設定したClaudeアプリゲートウェイで、各開発者のIdPグループの毎日の記録が追加されました。これはadmin.identity_retention_daysに保持され、コストレポートでグループ化されます。\n- [Added] CLAUDE_CODE_DISABLE_NESTED_SESSION_IDを追加しました。セルフホストランナーで1に設定すると、セッション内で実行されるclaude -pがそのセッションのIDとトランスクリプトを使用するようになります（以前のバージョンと同様）。\n- [Fixed] 一部のClaudeデスクトップセッションで、最初のターン後にプロジェクトおよびローカルMCPサーバーが切断される問題を修正しました。\n- [Fixed] ベースURLとして設定されたLLMゲートウェイがサーバーサイドの安全チェックに対して403または422を応答した場合に、オートモードがすべてのターンで失敗する問題を修正しました（apiKeyHelperを使用した403は変更なし）。\n- [Fixed] 遅いトークン更新が保存される前にclaude auth statusが終了し、次回の実行時にログアウトする可能性があった問題を修正しました。\n- [Fixed] アプリが事前に開始し、その後プロジェクトで開くセッション（デスクトップアプリのCodeタブの新しいセッションなど）によって、プロジェクトのeffortLevel設定が無視される問題を修正しました。\n- [Fixed] リンクされたセッションが最初のページよりも古い場合、多くのセッションがあるプロジェクトでclaude --from-prが「No conversations found」と報告する問題を修正しました。\n- [Fixed] claude.aiおよびモバイルアプリで、2つの同時許可プロンプトのうち2番目のプロンプトにファイルパスまたはコマンドが表示されない問題を修正しました。\n- [Fixed] Remote ControlおよびSDKホストがモッドのツール呼び出しで「再度尋ねない」を提供する問題を修正しました。\n- [Fixed] クラウドおよびSDKセッションで、タイトルが生成中に新しいメッセージまたは停止が到着したときにセッションタイトルが失われる問題を修正しました。\n- [Fixed] Claudeがリクエストにフィールドを入れ忘れた場合に、自己ペースの/loopウェイクアップがスケジュールされないことがあった問題を修正しました。\n- [Fixed] クラウドセッションのオートモードで、Artifactツールがアップロード、データベースへの書き込み、またはoutputsフォルダを介したファイルの保存を行った場合に、承認のために停止する問題を修正しました。\n- [Fixed] claude.aiから同期されたスキルがディスクに書き込めない場合に、10分ごとに失われたり再ダウンロードされたりする問題を修正しました。\n- [Fixed] /scheduleがクラウドスケジュールタスクを作成または更新した後に、次回の実行時間とリンクを結果から除外する問題を修正しました。\n- [Fixed] スクリーンリーダーモードで、実行中のサブエージェントの経過時間とトークン数が変更ごとに読み上げられる問題を修正しました。\n- [Fixed] 地域またはネットワークのブロック（HTTP 403）がサインイン失敗として表示される問題を修正しました。エラーはブロックを説明するようになりました。\n- [Fixed] 同期されたプラグインが同じサーバーを含んでいた場合に、Claudeが動作しているclaude.aiコネクタに認証が必要であるか、またはクラウドセッションで失敗したと報告する問題を修正しました。\n- [Fixed] ディスクがいっぱいになったり、クォータを超過したりしてトランスクリプトまたは~/.claude.jsonの書き込みが失われた場合に、claude -pが0で終了する問題を修正しました。現在はエラーをプリントし、テキストおよびJSON出力で1で終了します。完全なNFSエクスポートは漏れる可能性があります。\n- [Fixed] 起動後1秒程度の間に設定ファイルに加えた変更が、設定ファイルが再度変更されるまで反映されない問題を修正しました。\n- [Fixed] --setting-sourcesを使用するなど、一部の実行がクリーンアップをスキップするマシンで、古いトランスクリプトがクリーンアップされない問題を修正しました。\n- [Fixed] 削除されたエージェントチームの受信トレイが、チームメイトの遅延メッセージによって再作成される問題を修正しました。\n- [Fixed] 再作成されたエージェントチームメイトが、以前のシャットダウン承認によってチームから削除される問題を修正しました。\n- [Fixed] スケジュールタスクがオフになった後、保存されたスケジュールタスクをリストまたは削除できない問題を修正しました。\n- [Fixed] Claudeが、どの/team-onboardingガイドを削除するかを指定せずに削除を要求されたときに、最も最近更新されたガイドを削除する問題を修正しました。\n- [Fixed] サーバーが削除を拒否したときに、Claudeが/team-onboardingガイドが削除されたと報告する問題を修正しました。\n- [Fixed] ClaudeアプリゲートウェイがAmazon Bedrockの「Input is too long.」エラーを隠す問題を修正しました。これにより、セッションが圧縮されずに「upstream rejected the request」で毎回失敗していました。\n- [Fixed] セルフホストランナーセッションで、プランが承認を待っている間に再起動すると、最近のターンまたは会話全体が失われる問題を修正しました。\n- [Fixed] 非常に大きなCLAUDE.mdが最後に送信されてから変更されたセッションで、自動圧縮後に「Prompt is too long」が発生する問題を修正しました。\n- [Fixed] 多くのプラグインがコマンドを登録しているヘッドレスセッションでの高いメモリ使用量と遅い起動を修正しました。\n- [Fixed] env configがAWS_BEARER_TOKEN_BEDROCKを空に設定している場合に、stdio MCPサーバーが空のAWS_BEARER_TOKEN_BEDROCKを受け取る問題を修正しました。変数は現在設定解除されているため、サーバーはマシン自身のAWS認証情報を使用できます。\n- [Fixed] ルート証明書の更新後、一部のTLS検査プロキシの背後でAPIリクエストが「unable to get local issuer certificate」で失敗する問題を修正しました。\n- [Fixed] 圧縮によって自身の要求を短縮する必要があった場合に、非常に長い会話が以前の要約を失う問題を修正しました。\n- [Fixed] PDF自身のメタデータによってReadおよび@-メンションがページ数を過少に数える可能性があった問題を修正しました。\n- [Fixed] DISABLE_PROMPT_CACHING_OPUSおよびDISABLE_PROMPT_CACHING_SONNETが、[1m]、他の地域、および日付なしのデフォルトモデルのスペルに影響を与えない問題を修正しました。\n- [Fixed] /artifactsおよびArtifactツールの共有リストに、自分のアーティファクトが200以上ある場合に共有アーティファクトが表示されない問題を修正しました。\n- [Fixed] Claudeが、検索が時間制限に達した場合に、部分的なGrepおよびGlobの結果を完全なものとして扱う問題を修正しました。\n- [Fixed] 別のエクスポートがまだ進行中に開始されたOpenTelemetryエクスポートが、プロキシを介したhttps://エンドポイントに送信されない問題を修正しました。\n- [Fixed] OpenTelemetryエクスポートをhttp://エンドポイントにブロックする（HTTP 403）プロキシへの接続試行が殺到する問題を修正しました。\n- [Fixed] 応答しないプロキシの背後でOpenTelemetryエクスポートが無限にハングする問題を修正しました。現在は10秒後、またはOTEL_EXPORTER_OTLP_TIMEOUTが最大30秒後にタイムアウトします。\n- [Fixed] 再開されたセッションが、Claudeがすでに知っているファイル変更について再度Claudeに伝える問題を修正しました。\n- [Fixed] 以前の呼び出しがツールが無効になっていたために失敗した後、Claudeが再開されたセッションで組み込みツールを使用しないことがあった問題を修正しました。\n- [Fixed] /remote-controlが、Remote Controlが無効になっていることを示す代わりに「Unknown command」と応答する問題を修正しました。\n- [Fixed] tmuxまたはiTerm2ペインのエージェントチームメイトが、リードセッションが手動モードであった場合にオートモードで開始する問題を修正しました。\n- [Fixed] バックグラウンドセッションがアップグレードまたは廃止されたときに、作成されたばかりの権限モードの変更が失われることがあった問題を修正しました。\n- [Fixed] プロンプトで入力されたテキストをクリアするためにCtrl+Cが押されたときに、実行中のすべてのバックグラウンドエージェントが停止する問題を修正しました。\n- [Fixed] /feedbackがレポート送信中に「Enter to confirm」と表示する問題を修正しました。\n- [Fixed] 停止したシェルコマンドの子プロセスがSIGTERMを2回送信されることがあり、一部のプログラムがクリーンアップをスキップする可能性があった問題を修正しました。\n- [Fixed] クラウドまたはセルフホストランナーセッション内で実行されるclaude -p runが、そのセッションのIDを共有する問題を修正しました。セッションのトランスクリプトに書き込まれ、再起動すると間違った会話が再開される可能性がありました。\n- [Fixed] クラウドまたはセルフホストランナーセッション内で実行されるclaude -p runが、独自のタイトルを生成し、そのセッションに送信する問題を修正しました。\n- [Improved] Azure認証情報がロードできない場合にMicrosoft Foundryで表示されるエラーを改善しました。認証情報の確認または更新を促し、cloud_credential_errorとして報告するようになりました。\n- [Improved] /design-syncを改善し、デザインシステムがClaudeに移行したことを事前に伝え、アップロードで失敗するのではなく、ビルド前に停止するようにしました。\n- [Improved] 必要なClaudeアプリゲートウェイに到達できない場合の起動エラーを改善しました。サインインではなくネットワークを指し、ゲートウェイのTLS証明書を検証できない場合を伝えるようになりました。\n- [Improved] 終了時に表示される「Resume this session with」ヒントを改善し、起動時に指定したフラグ（例: --chrome --debug）を--resumeの前に繰り返すようにしました。\n- [Improved] セルフホストランナーがサーバーエラーから回復する方法を改善しました。501または529以外の5xxエラーの後、ランナーの次回のポーリングは失敗した接続を再利用するのではなく、新しい接続を開くようになりました。\n- [Improved] セルフホストランナーセッションがサーバーエラーから回復する方法を改善しました。501または529以外の5xxエラーの後、セッションは失敗した接続を再利用するのではなく、新しい接続を開くようになりました。\n- [Improved] セルフホストランナーセッションが接続の応答停止から回復する方法を改善しました。ハートビートが応答しない場合、セッションはアイドル状態の接続を順に試すのではなく、新しい接続を開くようになりました。\n- [Changed] SendMessageを変更し、実行中のバックグラウンドエージェントへのメッセージがより早く届くようになりました。実行中のコマンドは停止せずにバックグラウンドに移動します。\n- [Changed] メインの会話とは異なるモデルを使用するサブエージェントおよびチームメイトが、セッションのeffort levelではなく、そのモデルの保存されたeffort levelまたはそのデフォルトを使用するように変更しました。\n- [Changed] プラグインモニターのために「Background work is running」プロンプトをスキップするようにexitを変更しました。\n- [Changed] 組み込みのプラグイン作成スキルを変更し、作成したモッドが機能した後に、モッドの共有を一度提案するようにしました。\n- [Removed] Readツールの「file unchanged since your last Read」スタブを削除しました。変更されていないファイルを再度読み取るとその内容が返されます。\n- [Fixed] Windows: ネイティブパスルックアップが失敗する一部のボリュームで、すべてのツール呼び出しが拒否される問題を修正しました。作業ディレクトリのチェックは、フォルダのIDを比較するようになりました。\n- [Fixed] Windows: Claude Desktopで開始されないセッションで、セッションスクラッチパッドやその他の一時パスがプロジェクトのパス長とともに増大し、その中にクローンされたリポジトリが260文字のパス制限に達する問題を修正しました。\n- [Fixed] Gateway: グループのプールされた予算が尽きた後、ステータス行と/usageが開発者自身の支出限度額が100%使用済みと表示される問題を修正しました。\n- [Fixed] Self-hosted runner: セッションが新しいランナーに移動し、ターンがCLAUDE_CODE_RESUME_INTERRUPTED_TURN_MAX_AGE_MSより古い場合に、Claudeが中断されたツール呼び出しを認識しない問題を修正しました。\n- [Fixed] Self-hosted runner: セッションサービスがスイッチの保存を拒否したときに、セッションが新しいマシンに移動した後、オフにされていたMCPサーバーが再びオンになる問題を修正しました。\n- [Improved] Remote Control: アプリが設定しない場合のフォーク名を改善しました。長い名前は「(fork)」の末尾を保持し、claude remote-controlで開始されたセッションでは「Name (fork)」のフォークは「Name (fork 2)」となります。\n- [Fixed] [VSCode] フォークされた会話がメッセージをドロップする問題を修正しました。Claudeが並行して実行したツール呼び出しのうち1つだけが保持され、圧縮が保持した最後のメッセージが失われ、Claudeの回答が質問なしになる可能性がありました。\n- [Fixed] [VSCode] Claudeが時間内に起動を完了しなかったときにメッセージが失われる問題を修正しました。拡張機能はエラーを表示する前にもう一度Claudeを起動するようになりました。\n- [Fixed] [VSCode] リクエストが地域またはネットワークによってブロックされたときにサインイン画面が開く問題を修正しました。\n- [Fixed] [VSCode] アカウントパネルでプラン名が2番目の単語が小文字で表示される問題を修正しました。\n- [Fixed] [VSCode] Claudeタブのファイルリンクがチャットの上に開くのではなく、別のエディタグループで開く問題を修正しました。\n- [Fixed] [VSCode] chat.fontSizeが上げられたときに、Claudeパネルの添付ファイルチップ、メニュー、バナー、ダイアログが小さく表示される問題を修正しました。\n- [Fixed] [VSCode] テレメトリがオフの場合に、ultrathinkがターンのeffortを上げず、レインボーを表示しない問題を修正しました。\n- [Added] [Cloud sessions] クラウドセッションにリンクカードを追加しました。これにより、MCPサーバーが訪問を要求するリンクが未読になる代わりに、開いたり拒否したりできます。\n- [Changed] [Cloud sessions] 管理設定の組織環境ダイアログを個人ダイアログの短いレイアウトに変更しました。各セクションは行から開き、未保存の入力は閉じる前に確認を求めます。\n- [Fixed] [Cloud sessions] 既にネットワークシークレットが存在するホストに対してネットワークシークレットを追加すると、それがサイレントに置き換えられる問題を修正しました。シークレット追加フォームは拒否し、既存のシークレットを指すようになりました。\n- [Fixed] [Cloud sessions] 新しいスケジュールタスクが組織のデフォルト環境を無視する問題を修正しました。フォームはAnthropicホストのデフォルトではなく、管理者が選択したもので開始するようになりました。\n- [Fixed] [Remote Control] claude remote-controlを再起動した後、前のメッセージから1分以内にメッセージを送信した場合に、アイドル状態のセッションへの次のメッセージが応答されない問題を修正しました。\n- [Changed] [Claude Tag] Slackに新しく貼り付けられたアーティファクトリンクが、Slackのサイドパネルではなく、アーティファクトをClaudeで開く「Open」ボタンが付いたシンプルなカードを表示するように変更しました。",
+      "ogImage": "https://avatars.githubusercontent.com/u/178951676?s=200&v=4",
+      "publishedAt": "2026-11-03"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [2017pt] Astra、Qwenのウェイトを読み書きして性能向上 | Astraがツールなしでネットワークのウェイトを直接編集し、モデルを改善する能力に驚きと興奮の声が多い。自己改善の可能性を巡る議論も。\n  https://news.ycombinator.com/item?id=50341174\n- [1811pt] Show HN: HackerBooks – HNで言及された書籍に特化したHackerTube | 読書習慣の衰退やLLMの影響、フィクションのみのフィルタリング機能の要望など、幅広い議論が展開されている。\n  https://news.ycombinator.com/item?id=50326821\n- [1342pt] 一体どうしたんだ、Ubuntu？ | Ubuntuのセキュリティ対応の遅さや、脆弱性開示に対する公式声明の不足に不満と批判が集中している。\n  https://news.ycombinator.com/item?id=50337608\n- [712pt] ノルウェーの観光ルート沿いの休憩所 | ノルウェーの公共トイレの質の高さやデザイン、利便性について称賛する声が多く、他国のトイレ事情と比較するコメントも。\n  https://news.ycombinator.com/item?id=50324388\n- [688pt] Ask HN: プライバシーを考慮したテレビのおすすめは？ | LG OLEDをroot化してテレメトリーを無効にする、インターネット接続しないなどの具体的な対策や推奨製品が提案されている。\n  https://news.ycombinator.com/item?id=50328896\n- [571pt] Show HN: Subvocal – 音を出さずにコンピュータと会話 | 静かにPC操作できる技術に期待が高まる一方、既存のメガネへの装着性やプライバシー侵害の懸念も示されている。\n  https://news.ycombinator.com/item?id=50340088\n- [564pt] Lenovoの「暗号化」指紋USB、実はただの非暗号化SDカード | Lenovo製品のセキュリティ対策の甘さに失望と不信の声が多く、同社の信頼性に対する疑問が投げかけられている。\n  https://news.ycombinator.com/item?id=50326099\n- [494pt] OccupySaaS | SaaSのロックインやクローズドなエコシステムに対する批判が集まる一方、既存のFOSS運動との違いや抗議の有効性について議論されている。\n  https://news.ycombinator.com/item?id=50331402\n- [469pt] 警察署長、契約解除を無視するFlock社のカメラの電源を抜く | 契約無視のFlock社の行動に対する怒りや、同社の非倫理的なビジネス慣行への批判、警察の権限に関する議論が活発。\n  https://news.ycombinator.com/item?id=50326118\n- [468pt] JavaScriptフレームワークのAIコスト | JavaScriptフレームワークの選択が「雰囲気」で決まる現状への不満や、AIによるフレームワークの近代化や再構築に関する議論が中心。\n  https://news.ycombinator.com/item?id=50323088",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-11-03"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "10 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Apple、サードパーティ製AIアプリで収益増を狙うか\n  https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/\n- Y CombinatorのGarry Tan氏、AIエージェントに年間20万ドル（約3千万円）を投じる\n  https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/\n- Trajectory、AIモデル学習の敷居を下げるため4,500万ドルを調達\n  https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/\n- Anthropic、自己構築AI「RSI」の能力に極めて近いと警告\n  https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/\n- WebホストのSquarespace、従業員の19%を解雇\n  https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/\n- New York TimesなどがWebブラウザBraveを提訴、コンテンツスクレイピングを巡り\n  https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/\n- Readwise、読書愛好家向け新アプリでAmazon KindleとGoodreadsに挑む\n  https://techcrunch.com/2026/11/02/readwise-takes-on-amazons-kindle-and-goodreads-with-its-new-app-for-book-lovers/\n- 42AI、6,250万ドルを調達しステルスを解除、「人間の行動を予測する」ワールドモデルを公開\n  https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/\n- Elon Musk氏、高コストのためGrok Botの利用制限を強化\n  https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/\n- Omen AI、Aquatic Labsを1,600万ドルで買収し液体のノウハウを獲得\n  https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-11-03"
+    },
+    {
+      "sourceName": "Simon Willison",
+      "title": "The U.S. Census Bureau and “Super Intelligence”",
+      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+      "summary": "米国国勢調査局のAI利用調査で、質問内容が「スーパーインテリジェンス（SI）」に変更され、過去のAI利用率の数値と比較が難しくなる可能性が示唆された。",
+      "publishedAt": "2026-11-02",
+      "ogImage": "https://static.simonwillison.net/static/2026-11-01/5821A414-FAF6-4E61-B037-952C1FD80D39.png"
+    },
+    {
+      "sourceName": "laiso",
+      "title": "Geminiに文章執筆を任せるスキル「Gemini Write」を作った",
+      "url": "https://blog.lai.so/gemini-write/",
+      "summary": "Antigravity CLIを通じてGeminiに文章作成を委任するエージェントスキル「Gemini Write」が公開された。",
+      "publishedAt": "2026-11-02",
+      "ogImage": "https://storage.ghost.io/c/56/fe/56fe3d7d-496d-4589-b45d-1a480143aeda/content/images/2026/11/gemini-3-8-flash-cover.webp"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- CuriousLM：デバイスで動作するプライベートAI、アカウント不要\n  https://www.producthunt.com/products/curiouslm\n- Looper：Grok Botがチームコラボレーションとオープンソースをサポートしたら\n  https://www.producthunt.com/products/looper-3\n- diff-tour：AIがコードを生成、ベテランエンジニアのように読み解くスキルを習得\n  https://www.producthunt.com/products/diff-tour\n- Friday Work：Claudeの制限を超えてタスクを継続\n  https://www.producthunt.com/products/friday-work\n- Hyperresearch：堅牢で検証済みのエージェント型検索\n  https://www.producthunt.com/products/hyperresearch\n- Hera：AIクリエイティブキャンバス\n  https://www.producthunt.com/products/hera-6\n- Xmind 2027：マインドマップがAI思考パートナーに進化\n  https://www.producthunt.com/products/xmind\n- beacon.sh：AIコーディングエージェントのためのオープンソース自己改善メモリ\n  https://www.producthunt.com/products/asymptotelabs\n- Help：的確で透明性の高い支援を目的としたアプリ\n  https://www.producthunt.com/products/help-381\n- Self-Growing Websites by Greta.sh：SEOとAEOを自動で実行するウェブサイトを構築\n  https://www.producthunt.com/products/gretabyquestera",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-11-03"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "1 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Caladh：海洋領域における対ドローン防衛システムを発表\n  https://caladh.com",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-11-03"
+    },
+    {
+      "sourceName": "BRIDGE",
+      "title": "5 Articles",
+      "url": "https://thebridge.jp/category/news-and-column/",
+      "summary": "- Claudeの「Max 20x」が「Ultra」に、月額200ドルで認証済みなら5時間制限なし\n  https://thebridge.jp/2026/11/anthropic-claude-max-20x-renamed-ultra\n- 四肢を失った人の制御技術を開発、Blue Arbor TechnologiesがOttobock主導で1,050万ドル調達\n  https://thebridge.jp/2026/11/blue-arbor-technologies-series-a-ottobock-restore\n- 会計・税務事務所向けAIプラットフォームのRavical、MMC主導のシードで1,700万ドルを調達\n  https://thebridge.jp/2026/11/ravical-seed-17m-mmc-accounting-tax-ai\n- BMI技術で脳卒中リハビリ機器を開発するLIFESCAPES、グローバル・ブレインから追加出資\n  https://thebridge.jp/2026/11/lifescapes-receives-follow-on-investment-from-global-brain\n- 次世代半導体露光装置向け部品開発のエアメンブレン、増資・融資・助成金で総額約8.5億円を調達\n  https://thebridge.jp/2026/11/airmembrane-raises-850-million-yen-for-graphene-euv-pellicle",
+      "ogImage": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/02/bridge-site-icon-2026.png?fit=192%2C192&ssl=1",
+      "publishedAt": "2026-11-03"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Building AI for Lawyers - Jacob Lauritzen, CTO of Legora",
+      "url": "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/",
+      "summary": "Legoraは、弁護士向けにAIエージェントを活用した法律業務効率化プラットフォームを提供しており、大規模な契約分析や文書作成、タスク管理などを支援している。",
+      "publishedAt": "2026-11-03",
+      "ogImage": "https://latent.space/og/card/post/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/57101728107c7638bfec1e252f73e60bda3db60c7572044aa7baa89bfa4c6fd6.png"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
+      "url": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/",
+      "summary": "リーガルテック企業のLegoraは、弁護士向けにWord文書の作成・編集、契約レビュー、デューデリジェンスなどをAIエージェントで自動化し、データのプライバシーを重視してAzure上で運用している。",
+      "publishedAt": "2026-11-03",
+      "ogImage": "https://i.ytimg.com/vi/bJBEFzlKPoQ/maxresdefault.jpg"
+    }
+  ]
+}
