@@ -1,0 +1,61 @@
+{
+  "fetchedAt": "2026-11-16T00:27:11.677Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "publishedAt": "2026-11-16",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/1RdsG8XilINGFZUscLvAnj/b3bfb7912b44166e8075581574a7b777/toward-defining-the-standard-model-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "OpenAI",
+      "title": "Our new blog for science",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "publishedAt": "2026-11-16",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/ZyKta7ePADbiaWqX3EARs/81a2a593e66096fb001987910330e24e/our-new-blog-for-science-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1638pt] SpaceX catches the Starship to end Flight 15\n  https://news.ycombinator.com/item?id=50500963\n- [1098pt] Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs\n  https://news.ycombinator.com/item?id=50493251\n- [1060pt] All AI-generated code should be Open Source\n  https://news.ycombinator.com/item?id=50507303\n- [973pt] Lovable apps expose passport details and more than 200K private messages\n  https://news.ycombinator.com/item?id=50499017\n- [595pt] Tech companies are trying to shift the concept of privacy again\n  https://news.ycombinator.com/item?id=50496602\n- [561pt] KDE: The documentary [video]\n  https://news.ycombinator.com/item?id=50496976\n- [500pt] Monkey Island: all 13 versions side by side\n  https://news.ycombinator.com/item?id=50493904\n- [486pt] Court denies motion to dismiss DRAM price fixing case\n  https://news.ycombinator.com/item?id=50502988\n- [450pt] Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business\n  https://news.ycombinator.com/item?id=50506180\n- [442pt] Nvidia deliberately kept GPU prices high through circular financing deals\n  https://news.ycombinator.com/item?id=50501631",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "4 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market\n  https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/\n- Is bad news for Jensen Huang also bad news for the AI industry?\n  https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/\n- SNL gathers all the tech tycoons for a lesson in dating and spycraft\n  https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/\n- Flaming Hydra’s new Kickstarter campaign rethinks e-book ownership and digital lending\n  https://techcrunch.com/2026/11/15/flaming-hydras-new-kickstarter-campaign-rethinks-e-book-ownership-and-digital-lending/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Frevana Multiplayer — AI that grows your business alongside your team\n  https://www.producthunt.com/products/frevana-2\n- Canvas by AgentGrid.io — Agentic Design Canvas - A visual way to collaborate with AI\n  https://www.producthunt.com/products/agentgrid-io\n- Emayler — Custom email on your domain, minus the headache\n  https://www.producthunt.com/products/emayler\n- Tulvo — Smart & adaptive workspace to manage all your work\n  https://www.producthunt.com/products/tulvo\n- Privacyboard — Privacy compliance on autopilot\n  https://www.producthunt.com/products/privacyboard\n- Talyn — Run Claude Code and Codex in parallel cloud sandboxes\n  https://www.producthunt.com/products/talyn\n- Spiik — AI note taker for meetings & lectures. No bot on your calls.\n  https://www.producthunt.com/products/spiik\n- TwoBucket — Beginner-friendly mobile detailing software for bookings\n  https://www.producthunt.com/products/twobucket\n- collecto.rs — Catalog any collection, from Pokémon to pitcher plants\n  https://www.producthunt.com/products/collecto-rs\n- Pixel Office — Run a team of AI agents from a pixel-art office\n  https://www.producthunt.com/products/pixel-office-3",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "sourceName": "Y Combinator",
+      "title": "3 New Launches",
+      "url": "https://www.ycombinator.com/companies",
+      "summary": "- Contour — AI-native permitting and compliance for America’s buildout\n  https://contourholdings.ai/\n- Central Blue — The power grid for space: we build power-beaming satellites.\n  https://www.centralblue.ai/\n- Asterline — Quantitative trading of prediction markets\n  https://asterlinetrading.com",
+      "ogImage": "https://www.ycombinator.com/favicon.ico",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "sourceName": "GitHub Trending",
+      "title": "Weekly Trending",
+      "url": "https://github.com/trending?since=weekly",
+      "summary": "",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-11-16"
+    }
+  ]
+}
