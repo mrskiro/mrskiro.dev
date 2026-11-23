@@ -1,0 +1,45 @@
+{
+  "fetchedAt": "2026-11-23T01:10:54.500Z",
+  "entries": [
+    {
+      "sourceName": "OpenAI",
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "publishedAt": "2026-11-22",
+      "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1211pt] Lean verification of the Riemann Hypothesis\n  https://news.ycombinator.com/item?id=50589618\n- [1186pt] Toyota, Nissan, and Honda to standardize parts to lower costs\n  https://news.ycombinator.com/item?id=50596133\n- [877pt] 87% of the Anthropic power will come from gas and 11% from coal in 2028\n  https://news.ycombinator.com/item?id=50597612\n- [697pt] Detonating a pile of lead azide\n  https://news.ycombinator.com/item?id=50588982\n- [682pt] My monitor was cutting my download speed by 75%\n  https://news.ycombinator.com/item?id=50587875\n- [581pt] Inkling-2-Mini in 5.4 GB Memory\n  https://news.ycombinator.com/item?id=50591853\n- [567pt] Sandwich Simulator\n  https://news.ycombinator.com/item?id=50594911\n- [470pt] Perplexity and Intelligence\n  https://news.ycombinator.com/item?id=50601525\n- [396pt] What Happened to Silicon Valley?\n  https://news.ycombinator.com/item?id=50602947\n- [333pt] The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife\n  https://news.ycombinator.com/item?id=50602843",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "title": "2 Articles",
+      "url": "https://techcrunch.com/",
+      "summary": "- OpenAI’s chief scientist has thoughts on how to limit AI development\n  https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/\n- Why data centers are at the center of the Big Tech backlash\n  https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+      "ogImage": "https://www.google.com/s2/favicons?domain=techcrunch.com&sz=128",
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Webless Agents — Agents you want to put in front of customers\n  https://www.producthunt.com/products/webless\n- Daymaker — Gifts so personal, your prospects take the meeting.\n  https://www.producthunt.com/products/daymaker\n- Squint — Explains whatever you're looking at, now on Mac\n  https://www.producthunt.com/products/squint\n- DeNotch — Hide the MacBook notch and tame your menu bar\n  https://www.producthunt.com/products/denotch\n- Leapdeck — Leap to any Mac Space from a key or your iPhone\n  https://www.producthunt.com/products/leapdeck\n- Copy Haste — Your clipboard, sorted into Text, Code, Links, Media & more\n  https://www.producthunt.com/products/copy-haste\n- oovi — Your own team of AI on your desktop\n  https://www.producthunt.com/products/oovi\n- Slotify — Schedule game nights without leaving Discord\n  https://www.producthunt.com/products/slotify-2\n- Raccoon Kids — Gamify Chores for Kids: no more nagging, just a cute raccoon\n  https://www.producthunt.com/products/raccoon-kids\n- MeshLive — Offline video calls and livestreams over Bluetooth mesh\n  https://www.producthunt.com/products/meshlive",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "sourceName": "GitHub Trending",
+      "title": "Weekly Trending",
+      "url": "https://github.com/trending?since=weekly",
+      "summary": "",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "publishedAt": "2026-11-23"
+    }
+  ]
+}
