@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-11-28T02:58:44.317Z",
+  "entries": [
+    {
+      "sourceName": "Hacker News",
+      "title": "Best Stories",
+      "url": "https://news.ycombinator.com/best",
+      "summary": "- [1105pt] AI made self-hosting fun again\n  https://news.ycombinator.com/item?id=50660180\n- [720pt] Tell HN: Happy Thanksgiving\n  https://news.ycombinator.com/item?id=50655664\n- [686pt] Group chat where your AI talks behind your back\n  https://news.ycombinator.com/item?id=50663595\n- [630pt] Claude sabotaging ML research tasks?\n  https://news.ycombinator.com/item?id=50664325\n- [587pt] Intel One Mono font (2023)\n  https://news.ycombinator.com/item?id=50653667\n- [559pt] Company Culture = Slack Emoji ÷ √Headcount\n  https://news.ycombinator.com/item?id=50659640\n- [554pt] Hard Drive pricing has gotten bad\n  https://news.ycombinator.com/item?id=50661646\n- [537pt] YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays\n  https://news.ycombinator.com/item?id=50657530\n- [508pt] OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster\n  https://news.ycombinator.com/item?id=50651117\n- [505pt] Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad\n  https://news.ycombinator.com/item?id=50659841",
+      "ogImage": "https://news.ycombinator.com/y18.svg",
+      "publishedAt": "2026-11-28"
+    },
+    {
+      "sourceName": "Product Hunt",
+      "title": "Trending",
+      "url": "https://www.producthunt.com",
+      "summary": "- Wizstar R1 — Seedance 2.0-level product videos at a lower cost\n  https://www.producthunt.com/products/wizstar\n- Form Action Store — Discover, create and grow with powerful digital tools.\n  https://www.producthunt.com/products/form-action-store\n- Ploid — People search for AI agents, across 2B+ profiles\n  https://www.producthunt.com/products/ploid\n- gpyou — The OpenRouter for compute for the cheapest GPU in stock\n  https://www.producthunt.com/products/gpyou\n- snibl — Save highlighted text from any app, then ask AI about it\n  https://www.producthunt.com/products/snibl\n- Prosed AI 2.0 + MCP — Your company's words, assembled into a book\n  https://www.producthunt.com/products/prosed-turn-your-content-into-a-book\n- Spark AI — AI-native permitting & diligence services for data centers\n  https://www.producthunt.com/products/spark-ai-7\n- RightFont 2026 — The right font, right now.\n  https://www.producthunt.com/products/rightfont\n- ChickyTutor — A language tutor that knows you better daily. Now on iOS\n  https://www.producthunt.com/products/chickytutor\n- Depost AI — The LinkedIn AI agent that learns what works for your brand\n  https://www.producthunt.com/products/depost-ai",
+      "ogImage": "https://ph-static.imgix.net/ph-logo-1.png",
+      "publishedAt": "2026-11-28"
+    },
+    {
+      "sourceName": "Latent Space",
+      "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+      "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/",
+      "summary": "A frontier lab can pay more for training data it gets to keep exclusive, or take a discount on data another lab can buy too. At AI Engineer CODE, G2i founder Gabe Greenberg tells swyx how labs make that decision, how small pilot orders turn into bigger engagements, and when it makes sense to build a data operation in-house. We also get into what the labs are buying. A good training task should sit just ahead of what a model can do today. Gabe explains how senior engineers design the task, choose the starting data, and build a verifier that can score the result. Thanks to G2i for co-organizing AI Engineer CODE 2026 and sponsoring this episode. Join us April 26–27 at AI Engineer Miami 2027. Show notes G2i builds AI training data and reinforcement learning environments with senior engineers. ORC is the multi-agent coding platform Gabe’s team uses internally. Recorded at AI Engineer CODE in San Francisco. Chapters 0:00 How hard should training tasks be?0:15 What G2i sells to frontier labs2:42 From human labels to expert engineering5:19 From recruiting engineers to building training data6:46 Tasks, seed data, and verifiers8:04 How G2i screens engineers for agentic work12:24 How frontier labs buy training data16:24 How big is the market?18:45 Shared data, exclusivity, and in-house teams22:16 How labs budget and price training data24:54 The market for raw company data27:44 Where demand goes next30:30 G2i and ORC",
+      "publishedAt": "2026-11-28",
+      "ogImage": "https://latent.space/og/card/post/inside_the_ai_training_data_market_gabe_greenberg_g2i/ed4688cb2744d2e4d5cd5ddc7c23532f2380d1828a6e519e2f223ecffa72430e.png"
+    }
+  ]
+}
